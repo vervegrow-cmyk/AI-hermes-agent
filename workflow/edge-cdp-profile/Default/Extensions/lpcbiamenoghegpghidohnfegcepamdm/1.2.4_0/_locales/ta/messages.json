@@ -1,0 +1,48 @@
+{
+   "done": {
+      "message": "Done"
+   },
+   "downloadAll": {
+      "message": "Download all"
+   },
+   "downloadStartedALot": {
+      "message": "Downloading ($AMOUNT$ videos)...",
+      "placeholders": {
+         "AMOUNT": {
+            "content": "$1"
+         }
+      }
+   },
+   "downloadStartedOne": {
+      "message": "Downloading..."
+   },
+   "extDesc": {
+      "message": "வீடியோவை இப்போது பதிவிறக்கி, பின்னர் பாருங்கள். வேகமான, இலகுரக மற்றும் நம்பகமான வீடியோ பதிவேற்றி"
+   },
+   "extName": {
+      "message": "வீடியோ பதிவேற்றி செயல்படுகிறது! ஆன்லைன் வீடியோக்களை சேமிக்கவும்"
+   },
+   "foundVideos": {
+      "message": "$AMOUNT$ videos found",
+      "placeholders": {
+         "AMOUNT": {
+            "content": "$1"
+         }
+      }
+   },
+   "hideButtons": {
+      "message": "Hide buttons"
+   },
+   "linkCopied": {
+      "message": "Link copied"
+   },
+   "noVideos": {
+      "message": "No videos were found"
+   },
+   "sidebar": {
+      "message": "Sidebar view"
+   },
+   "youtubeError": {
+      "message": "Due to the privacy policies of Google, videos are not downloaded from YouTube"
+   }
+}

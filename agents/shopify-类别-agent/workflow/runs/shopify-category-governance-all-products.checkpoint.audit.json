@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-28 19:56:32",
+  "summary": "任务已中断：共处理 2052 个商品，前端建议保存成功 554 个，后端回退写回成功 1176 个，无需修改 17 个，待人工复核 273 个，失败 32 个。",
+  "counts": {
+    "processed": 2052,
+    "frontend_saved": 554,
+    "backend_saved": 1176,
+    "unchanged": 17,
+    "review": 273,
+    "failed": 32
+  },
+  "files": {
+    "checkpoint": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-类别-agent\\workflow\\runs\\shopify-category-governance-all-products.checkpoint.json",
+    "results_jsonl": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-类别-agent\\workflow\\runs\\shopify-category-governance-all-products.checkpoint.results.jsonl",
+    "review_csv": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-类别-agent\\workflow\\runs\\shopify-category-governance-all-products.checkpoint.review.csv",
+    "failed_csv": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-类别-agent\\workflow\\runs\\shopify-category-governance-all-products.checkpoint.failed.csv",
+    "audit_report": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-类别-agent\\workflow\\runs\\shopify-category-governance-all-products.checkpoint.audit.json"
+  }
+}

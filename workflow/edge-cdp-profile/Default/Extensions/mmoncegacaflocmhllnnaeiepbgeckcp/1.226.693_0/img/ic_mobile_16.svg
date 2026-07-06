@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:rgba(0,77,116,.5)}
+        </style>
+    </defs>
+    <g id="ic_mobile_16" transform="translate(-547 -328)">
+        <path id="Rectangle_2229" d="M0 0h16v16H0z" class="cls-1" data-name="Rectangle 2229" transform="translate(547 328)"/>
+        <path id="Path_38941" d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM8 14a1 1 0 1 1 1-1 1 1 0 0 1-1 1zm3-4H5V3h6z" class="cls-2" data-name="Path 38941" transform="translate(547 328)"/>
+    </g>
+</svg>

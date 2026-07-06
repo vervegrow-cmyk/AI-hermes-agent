@@ -1,0 +1,14 @@
+{
+   "desc": {
+      "message": "Erweitern Sie Ihre ChatGPT-Aufforderungen mit relevanten Web-Suchergebnissen durch Web-Browsing."
+   },
+   "name": {
+      "message": "WebChatGPT: Promptbibliothek mit Webzugang"
+   },
+   "sn": {
+      "message": "WebChatGPT"
+   },
+   "toggleWebAccess": {
+      "message": "Webzugriff umschalten"
+   }
+}

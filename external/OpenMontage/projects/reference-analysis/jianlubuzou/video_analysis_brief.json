@@ -1,0 +1,267 @@
+{
+  "version": "1.0",
+  "source": {
+    "type": "local_file",
+    "duration_seconds": 75.133333,
+    "local_path": "D:\\\u684c\u9762\u6587\u4ef6\u4e0b\u8f7d\\\u89c1\u8def\u4e0d\u8d70\u7684\u6296\u97f3 - \u6296\u97f3.mp4",
+    "title": "\u89c1\u8def\u4e0d\u8d70\u7684\u6296\u97f3 - \u6296\u97f3"
+  },
+  "content_analysis": {
+    "summary": "",
+    "topics": [],
+    "target_audience": "general"
+  },
+  "structure_analysis": {
+    "total_scenes": 13,
+    "scenes": [
+      {
+        "scene_index": 0,
+        "start_time": 0.0,
+        "end_time": 9.866,
+        "description": "",
+        "visual_type": "other",
+        "energy_level": "medium",
+        "motion_type": "unknown",
+        "flow_variance": -1
+      },
+      {
+        "scene_index": 1,
+        "start_time": 9.866,
+        "end_time": 12.899,
+        "description": "",
+        "visual_type": "other",
+        "energy_level": "medium",
+        "motion_type": "unknown",
+        "flow_variance": -1
+      },
+      {
+        "scene_index": 2,
+        "start_time": 12.899,
+        "end_time": 15.499,
+        "description": "",
+        "visual_type": "other",
+        "energy_level": "medium",
+        "motion_type": "unknown",
+        "flow_variance": -1
+      },
+      {
+        "scene_index": 3,
+        "start_time": 15.499,
+        "end_time": 24.133,
+        "description": "",
+        "visual_type": "other",
+        "energy_level": "medium",
+        "motion_type": "unknown",
+        "flow_variance": -1
+      },
+      {
+        "scene_index": 4,
+        "start_time": 24.133,
+        "end_time": 33.433,
+        "description": "",
+        "visual_type": "other",
+        "energy_level": "medium",
+        "motion_type": "unknown",
+        "flow_variance": -1
+      },
+      {
+        "scene_index": 5,
+        "start_time": 33.433,
+        "end_time": 53.099,
+        "description": "",
+        "visual_type": "other",
+        "energy_level": "medium",
+        "motion_type": "unknown",
+        "flow_variance": -1
+      },
+      {
+        "scene_index": 6,
+        "start_time": 53.099,
+        "end_time": 54.233,
+        "description": "",
+        "visual_type": "other",
+        "energy_level": "medium",
+        "motion_type": "unknown",
+        "flow_variance": -1
+      },
+      {
+        "scene_index": 7,
+        "start_time": 54.233,
+        "end_time": 54.833,
+        "description": "",
+        "visual_type": "other",
+        "energy_level": "medium",
+        "motion_type": "unknown",
+        "flow_variance": -1
+      },
+      {
+        "scene_index": 8,
+        "start_time": 54.833,
+        "end_time": 55.933,
+        "description": "",
+        "visual_type": "other",
+        "energy_level": "medium",
+        "motion_type": "unknown",
+        "flow_variance": -1
+      },
+      {
+        "scene_index": 9,
+        "start_time": 55.933,
+        "end_time": 56.966,
+        "description": "",
+        "visual_type": "other",
+        "energy_level": "medium",
+        "motion_type": "unknown",
+        "flow_variance": -1
+      },
+      {
+        "scene_index": 10,
+        "start_time": 56.966,
+        "end_time": 62.399,
+        "description": "",
+        "visual_type": "other",
+        "energy_level": "medium",
+        "motion_type": "unknown",
+        "flow_variance": -1
+      },
+      {
+        "scene_index": 11,
+        "start_time": 62.399,
+        "end_time": 73.399,
+        "description": "",
+        "visual_type": "other",
+        "energy_level": "medium",
+        "motion_type": "unknown",
+        "flow_variance": -1
+      },
+      {
+        "scene_index": 12,
+        "start_time": 73.399,
+        "end_time": 75.133,
+        "description": "",
+        "visual_type": "other",
+        "energy_level": "medium",
+        "motion_type": "unknown",
+        "flow_variance": -1
+      }
+    ],
+    "pacing_profile": {
+      "avg_scene_duration_seconds": 5.78,
+      "shortest_scene_seconds": 0.6,
+      "longest_scene_seconds": 19.67,
+      "cuts_per_minute": 10.38,
+      "pacing_style": "steady_educational"
+    }
+  },
+  "keyframes": [
+    {
+      "timestamp": 0.1,
+      "scene_index": 0,
+      "path": "projects\\reference-analysis\\jianlubuzou\\keyframes\\frame_0000.jpg",
+      "description": ""
+    },
+    {
+      "timestamp": 4.933,
+      "scene_index": 0,
+      "path": "projects\\reference-analysis\\jianlubuzou\\keyframes\\frame_0001.jpg",
+      "description": ""
+    },
+    {
+      "timestamp": 11.383,
+      "scene_index": 1,
+      "path": "projects\\reference-analysis\\jianlubuzou\\keyframes\\frame_0002.jpg",
+      "description": ""
+    },
+    {
+      "timestamp": 15.599,
+      "scene_index": 3,
+      "path": "projects\\reference-analysis\\jianlubuzou\\keyframes\\frame_0003.jpg",
+      "description": ""
+    },
+    {
+      "timestamp": 19.816,
+      "scene_index": 3,
+      "path": "projects\\reference-analysis\\jianlubuzou\\keyframes\\frame_0004.jpg",
+      "description": ""
+    },
+    {
+      "timestamp": 28.783,
+      "scene_index": 4,
+      "path": "projects\\reference-analysis\\jianlubuzou\\keyframes\\frame_0005.jpg",
+      "description": ""
+    },
+    {
+      "timestamp": 43.266,
+      "scene_index": 5,
+      "path": "projects\\reference-analysis\\jianlubuzou\\keyframes\\frame_0006.jpg",
+      "description": ""
+    },
+    {
+      "timestamp": 53.199,
+      "scene_index": 6,
+      "path": "projects\\reference-analysis\\jianlubuzou\\keyframes\\frame_0007.jpg",
+      "description": ""
+    },
+    {
+      "timestamp": 54.933,
+      "scene_index": 8,
+      "path": "projects\\reference-analysis\\jianlubuzou\\keyframes\\frame_0008.jpg",
+      "description": ""
+    },
+    {
+      "timestamp": 57.066,
+      "scene_index": 10,
+      "path": "projects\\reference-analysis\\jianlubuzou\\keyframes\\frame_0009.jpg",
+      "description": ""
+    },
+    {
+      "timestamp": 59.683,
+      "scene_index": 10,
+      "path": "projects\\reference-analysis\\jianlubuzou\\keyframes\\frame_0010.jpg",
+      "description": ""
+    },
+    {
+      "timestamp": 67.899,
+      "scene_index": 11,
+      "path": "projects\\reference-analysis\\jianlubuzou\\keyframes\\frame_0011.jpg",
+      "description": ""
+    }
+  ],
+  "replication_guidance": {
+    "suggested_pipeline": "animated-explainer",
+    "suggested_playbook": "flat-motion-graphics",
+    "key_elements_to_replicate": [],
+    "elements_requiring_custom_work": [],
+    "estimated_complexity": "simple",
+    "motion_required": false,
+    "creative_differentiation_seeds": []
+  },
+  "style_profile": {
+    "color_palette": {
+      "primary_colors": [],
+      "accent_colors": [],
+      "overall_mood": ""
+    },
+    "typography_observed": "",
+    "transition_types": [],
+    "music_style": "",
+    "subtitle_style": "",
+    "production_quality": "prosumer",
+    "closest_playbook": "",
+    "playbook_delta": ""
+  },
+  "_analysis_meta": {
+    "depth": "standard",
+    "steps_completed": [
+      "metadata",
+      "scene_detect",
+      "motion_classification",
+      "keyframes"
+    ],
+    "steps_failed": [],
+    "keyframe_count": 12,
+    "scene_count": 13,
+    "has_transcript": false,
+    "duration_seconds": 6.32
+  }
+}

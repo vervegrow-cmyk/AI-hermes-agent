@@ -1,0 +1,121 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/logo.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_extName__"
+   },
+   "background": {
+      "persistent": true,
+      "service_worker": "js/background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "css/custom.css" ],
+      "js": [ "js/content-script.js" ],
+      "matches": [ "*://*.pinterest.com/*", "*://*.pinterest.ru/*", "*://*.pinterest.de/*", "*://*.pinterest.se/*", "*://*.pinterest.pt/*", "*://*.pinterest.at/*", "*://*.pinterest.dk/*", "*://*.pinterest.hu/*", "*://*.pinterest.be/*", "*://*.pinterest.ca/*", "*://*.pinterest.in/*", "*://*.pinterest.ec/*", "*://*.pinterest.co/*", "*://*.pinterest.cr/*", "*://*.pinterest.id/*", "*://*.pinterest.nz/*", "*://*.pinterest.uk/*", "*://*.pinterest.it/*", "*://*.pinterest.info/*", "*://*.pinterest.nl/*", "*://*.pinterest.ch/*", "*://*.pinterest.pe/*", "*://*.pinterest.th/*", "*://*.pinterest.tk/*", "*://*.pinterest.jp/*", "*://*.pinterest.ie/*", "*://*.pinterest.cl/*", "*://*.pinterest.tw/*", "*://*.pinterest.es/*", "*://*.pinterest.ph/*", "*://*.pinterest.vn/*", "*://*.pinterest.ag/*", "*://*.pinterest.cz/*", "*://*.pinterest.gs/*", "*://*.pinterest.am/*", "*://*.pinterest.bz/*", "*://*.pinterest.cn/*", "*://*.pinterest.mx/*", "*://*.pinterest.co.nz/*", "*://*.pinterest.co.at/*", "*://*.pinterest.co.cr/*", "*://*.pinterest.co.bo/*", "*://*.pinterest.co.es/*", "*://*.pinterest.co.py/*", "*://*.pinterest.co.uk/*", "*://*.pinterest.co.in/*", "*://*.pinterest.co.vn/*", "*://*.pinterest.co.pt/*", "*://*.pinterest.co.pe/*", "*://*.pinterest.com.bo/*", "*://*.pinterest.com.co/*", "*://*.pinterest.com.cn/*", "*://*.pinterest.com.au/*", "*://*.pinterest.com.ag/*", "*://*.pinterest.com.es/*", "*://*.pinterest.com.py/*", "*://*.pinterest.com.ph/*", "*://*.pinterest.com.uk/*", "*://*.pinterest.com.vn/*", "*://*.pinterest.com.pt/*", "*://*.pinterest.com.pl/*", "*://*.pinterest.com.pe/*", "*://*.pinterest.com.tw/*", "*://*.pinterest.com.ve/*", "*://*.pinterest.com.mx/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "css/custom-dmsave.css" ],
+      "js": [ "js/content-script-dmsave.js" ],
+      "matches": [ "*://www.dailymotion.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "js/localforage.js", "js/web-script.js" ],
+      "matches": [ "*://dmsave.top/*", "*://dev.dmsave.top/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "css/custom-twitch.css" ],
+      "js": [ "js/content-script-twitch.js" ],
+      "matches": [ "*://clips.twitch.tv/*", "*://www.twitch.tv/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "css/custom-tt.css" ],
+      "js": [ "js/content-script-tt.js" ],
+      "matches": [ "*://www.tiktok.com/", "*://www.tiktok.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "css/custom-tt.css" ],
+      "js": [ "js/detail-script-tt.js" ],
+      "matches": [ "*://www.tiktok.com/", "*://www.tiktok.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [ "css/insert-vimeo.css" ],
+      "js": [ "js/content-script-vimeo.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "css/custom-fb.css" ],
+      "js": [ "js/content-script-fb.js" ],
+      "matches": [ "*://*.facebook.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "css/custom-bili.css" ],
+      "js": [ "js/content-script-bili.js" ],
+      "matches": [ "*://*.bilibili.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "js/content-inject.js" ],
+      "matches": [ "*://*.vimeo.com/*", "*://*.bilibili.com/*", "*://*.instagram.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "css/custom-ins.css" ],
+      "js": [ "js/content-script-ins.js" ],
+      "matches": [ "*://*.instagram.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [ "css/custom-reddit.css" ],
+      "js": [ "js/content-script-reddit.js" ],
+      "matches": [ "*://*.reddit.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [ "css/custom-twitter.css" ],
+      "js": [ "js/content-script-twitter.js" ],
+      "matches": [ "*://*.twitter.com/*", "*://*.x.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "css/content-script-other.css" ],
+      "js": [ "js/content-script-other.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "js/content-inject-other.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "extPay.js" ],
+      "matches": [ "https://extensionpay.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDes__",
+   "externally_connectable": {
+      "matches": [ "*://*.dmsave.top/*", "*://dmsave.top/*" ]
+   },
+   "homepage_url": "https://chromewebstore.google.com/detail/unlimited-video-downloade/cimelnkhnffcenamjdjhjdieknlcbeaj?hl=en&authuser=7",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icons/logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmTB15L6pu41oK6jRGztgLUfYJIz+5w5yQ3/rjP49TnE5443Zvbc+vJh4EFY4jgQnLqBWAr4GcDGhIthj/A5UB5Ddb9/3WBGdIxE8i+T0xkI/0nN/fJJKFtrD7POUvZvKbcmn3MgaR78LI2CD8IYqPe3rQqS5jwVI1amx5V9bExjLMjsoNInceeDYawZw5tr64MYgHFLisn+1q51B+4hHgQHByMZwT5QqhsebfAXZEAwO8hv2Gtvqf3DXmmK/n0u8jqam15SZ/z57NYqf8pKTIcUBYo6xwqbZJcfpHAtQ4bhWB0aNpG2AxIQnPwkf/mTLQ0IN1LY0JvfO4hop6clBHwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "permissions": [ "activeTab", "tabs", "storage", "downloads", "scripting", "cookies" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.1",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "icons/white.png", "icons/logo.png", "icons/vip.png", "js/ajax-listener-other.js", "icons/refuse.png", "icons/star.jpeg" ]
+   }, {
+      "matches": [ "*://*.vimeo.com/*", "*://*.bilibili.com/*", "*://*.instagram.com/*" ],
+      "resources": [ "js/ajax-listener.js" ]
+   }, {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "icons/*", "payment.html" ]
+   } ]
+}

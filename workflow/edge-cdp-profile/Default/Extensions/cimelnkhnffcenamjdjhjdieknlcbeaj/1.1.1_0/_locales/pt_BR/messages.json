@@ -1,0 +1,20 @@
+{
+   "extDes": {
+      "message": "Chrome Professional video downloader and image downloader, you can download videos and pictures online. Free, safe and easy to use."
+   },
+   "extName": {
+      "message": "Unlimited Video Downloader - Save Video and Images"
+   },
+   "noVideo": {
+      "message": "Ops! Vídeo não encontrado"
+   },
+   "recordButton": {
+      "message": "Modo de download de gravação"
+   },
+   "recordText": {
+      "message": "Alguns vídeos podem precisar ser reproduzidos para detectar o link, se o vídeo que você deseja não estiver na lista, você pode tentar reproduzi-lo. Se você ainda não conseguir obter o link depois de jogar, tente atualizar a página atual ou use"
+   },
+   "recordTips": {
+      "message": "Dicas: Mantenha uma resolução fixa, a troca automática de resolução transformará o vídeo gravado em vários clipes com diferentes resoluções"
+   }
+}

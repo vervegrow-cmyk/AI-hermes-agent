@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "cuts": [],
+  "render_runtime": "remotion",
+  "renderer_family": "product-reveal",
+  "composition_mode": "templated",
+  "metadata": {
+    "total_timeline_seconds": 0.0,
+    "shot_count": 0
+  }
+}

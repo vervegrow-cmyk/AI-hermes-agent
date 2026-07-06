@@ -1,0 +1,1 @@
+{"deps":{"%ROOT%/pkg/bext/lum/fonts/Gibson-BookItalic.woff":"md5-a57c8fb98c490b48688ecaa790d5d18a"},"gen_deps":{},"signatures":{"md5name":"b5a8ba79aa7e25a741db9c89914489f1","size":18248,"md5":"a57c8fb98c490b48688ecaa790d5d18a","tscur":1615990799725},"signature":"md5-a57c8fb98c490b48688ecaa790d5d18a","arch":"X86","flags":{"config":"DIST=APP CONFIG_BEXT=y","vary":[]}}

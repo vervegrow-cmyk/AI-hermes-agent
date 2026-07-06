@@ -1,0 +1,60 @@
+﻿{
+  "timestamp": "2026-07-02T05:29:43.755067Z",
+  "provider_requested": "kling",
+  "mode": "sample",
+  "shot": "dual_camera_switch",
+  "output_path": "projects/drone-tiktok-ad-v3/assets/video/sample_dual_camera_kling.mp4",
+  "success": true,
+  "error": null,
+  "data": {
+    "provider": "kling",
+    "model": "fal-ai/kling-video/v3/standard/text-to-video",
+    "prompt": "Vertical realistic product ad sequence showing dual camera switching on a compact foldable black drone, first a forward-angle drone perspective, then a quick lower-angle perspective change with a subtle 90-degree adjustment feel, dynamic commercial transition, screen-remote workflow implied, premium consumer electronics style, true-to-life motion, 9:16, no text overlay, no fake GPS interface, no fake resolution overlay, no fantasy drone design, no extra propellers",
+    "operation": "text_to_video",
+    "aspect_ratio": "9:16",
+    "output": "projects\\drone-tiktok-ad-v3\\assets\\video\\sample_dual_camera_kling.mp4",
+    "output_path": "projects\\drone-tiktok-ad-v3\\assets\\video\\sample_dual_camera_kling.mp4",
+    "format": "mp4",
+    "file_size_bytes": 4698536,
+    "selected_tool": "kling_video",
+    "selected_provider": "kling",
+    "selection_reason": "kling_video (kling): 0.36\n  reliability=0.80 (w=0.15)\n  cost_efficiency=0.70 (w=0.1)\n  output_quality=0.34 (w=0.2)",
+    "provider_score": {
+      "tool_name": "kling_video",
+      "provider": "kling",
+      "task_fit": 0.17833333333333334,
+      "output_quality": 0.34,
+      "control": 0.0,
+      "reliability": 0.8,
+      "cost_efficiency": 0.7,
+      "latency": 0.4,
+      "continuity": 0.5,
+      "weighted_score": 0.35650000000000004
+    },
+    "selected_tool_agent_skills": [
+      "ai-video-gen"
+    ],
+    "required_agent_skills": [
+      "ai-video-gen"
+    ],
+    "selected_tool_usage_location": "D:\\�����ļ�����\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\kling_video.py",
+    "selected_tool_best_for": [
+      "cinematic B-roll with highest visual fidelity",
+      "fluid motion and camera direction",
+      "professional video clips"
+    ],
+    "alternatives_considered": [
+      "ark_video",
+      "heygen_video",
+      "minimax_video",
+      "pexels_video",
+      "pixabay_video",
+      "pixverse_video",
+      "runway_video",
+      "seedance_video",
+      "siliconflow_video",
+      "veo_video",
+      "vidu_video"
+    ]
+  }
+}

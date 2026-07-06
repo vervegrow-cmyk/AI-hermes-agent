@@ -1,0 +1,16 @@
+{
+  "product_id": "electric_spin_scrubber",
+  "name": "Electric Spin Scrubber",
+  "title": "Electric Spin Scrubber TikTok Ad",
+  "platform": "tiktok",
+  "aspect_ratio": "9:16",
+  "render_runtime": "remotion",
+  "voiceover": "Still wasting time scrubbing bathroom grime by hand? This electric spin scrubber gives you the main unit plus multiple cleaning heads for different jobs. Instead of fighting the mess yourself, you just let the spinning head do the hard part. The triangular handle is easier to grip, especially when you're trying to reach higher spots. With three speed settings, you can go lighter for quick touch-ups or faster for tougher grime. If you want a faster way to clean bathrooms, tubs, and tile without all the arm work, tap to check it out.",
+  "product_images": [
+    "01_kit_overview.webp",
+    "02_handle_grip.webp",
+    "03_speed_modes.webp",
+    "04_waterproof.webp"
+  ],
+  "storyboard_path": "storyboard.json"
+}

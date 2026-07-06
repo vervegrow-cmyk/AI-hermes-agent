@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Licenc aktiválása"
+   },
+   "activateHint": {
+      "message": "Illessze be az e-mailben kapott kódot."
+   },
+   "activateTitle": {
+      "message": "Prémium aktiválása"
+   },
+   "activatedSub": {
+      "message": "Korlátlan letöltés · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Prémium aktiválva!"
+   },
+   "alreadyBought": {
+      "message": "Már megvette?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Ezt a kódot már használták."
+   },
+   "clearHistory": {
+      "message": "Törlés"
+   },
+   "days": {
+      "message": "napig · lejár"
+   },
+   "deactivate": {
+      "message": "Licenc deaktiválása"
+   },
+   "deactivateConfirm": {
+      "message": "Deaktiválja a Prémium licencet ezen az eszközön?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Mind"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Tetszik a TubeVD?"
+   },
+   "enterCode": {
+      "message": "Adja meg a licenckulcsát."
+   },
+   "enterKey": {
+      "message": "🔑 Licenckulcs megadása"
+   },
+   "expired": {
+      "message": "⚠️ Ez a licenc lejárt."
+   },
+   "extDesc": {
+      "message": "Töltsön le videókat a Facebookról, Twitterről, Vimeoról, Dailymotionról és 1000+ oldalról HD, 4K, 8K minőségben."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "GYIK"
+   },
+   "free": {
+      "message": "Ingyenes"
+   },
+   "genericError": {
+      "message": "Valami hiba történt. Lépjen kapcsolatba: support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Prémium szerzése — $4,99/hó"
+   },
+   "getPremiumLink": {
+      "message": "Prémium szerzése ↗"
+   },
+   "guarantee": {
+      "message": "30 napos pénzvisszafizetési garancia"
+   },
+   "history": {
+      "message": "Letöltési előzmények"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Érvénytelen licenckulcs."
+   },
+   "invalidFormat": {
+      "message": "Érvénytelen formátum. TUBEVD-vel kell kezdődnie."
+   },
+   "licenseKey": {
+      "message": "Licenckulcs"
+   },
+   "limit": {
+      "message": "Korlát"
+   },
+   "limitHint": {
+      "message": "Ingyenes csomag: 5 letöltés/nap."
+   },
+   "limitTitle": {
+      "message": "Napi korlát elérve"
+   },
+   "networkError": {
+      "message": "⚠️ Csatlakozási hiba."
+   },
+   "noCode": {
+      "message": "Még nincs kódja?"
+   },
+   "noHistory": {
+      "message": "Még nincs letöltés."
+   },
+   "noVideos": {
+      "message": "Nem található videó"
+   },
+   "noVideosHint": {
+      "message": "Vigye az egeret bármelyik videó fölé, hogy megjelenjen a letöltési gomb."
+   },
+   "premiumBadge": {
+      "message": "Prémium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Értékelés"
+   },
+   "rateUs": {
+      "message": "⭐ Értékelje"
+   },
+   "scanning": {
+      "message": "Videók keresése..."
+   },
+   "serverError": {
+      "message": "⚠️ Szerverhiba."
+   },
+   "startDown": {
+      "message": "Letöltés megkezdése ↓"
+   },
+   "support": {
+      "message": "Támogatás"
+   },
+   "unlimited": {
+      "message": "Korlátlan"
+   },
+   "upgradeBtn": {
+      "message": "Frissítés Prémium 4K-ra"
+   },
+   "upgradeNow": {
+      "message": "Frissítés ↗"
+   },
+   "upgradeTitle": {
+      "message": "Frissítés Prémiumra"
+   },
+   "usageLeft": {
+      "message": "letöltés maradt ma"
+   },
+   "usageOf": {
+      "message": "/"
+   },
+   "validFor": {
+      "message": "Érvényes"
+   },
+   "verifying": {
+      "message": "Ellenőrzés…"
+   },
+   "videoDetected": {
+      "message": "videó találva"
+   },
+   "videosDetected": {
+      "message": "videó találva"
+   },
+   "ytBlocked": {
+      "message": "A YouTube nem támogatott"
+   },
+   "ytBlockedHint": {
+      "message": "A TubeVD tiszteletben tartja a YouTube Felhasználási feltételeit."
+   },
+   "ytTry": {
+      "message": "Próbálja ki a Facebookot, Vimeót, Twittert és 1000+ más oldalt."
+   }
+}

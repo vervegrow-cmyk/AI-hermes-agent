@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Aktivera licens"
+   },
+   "activateHint": {
+      "message": "Klistra in koden från din e-post."
+   },
+   "activateTitle": {
+      "message": "Aktivera Premium"
+   },
+   "activatedSub": {
+      "message": "Obegränsade nedladdningar · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium aktiverat!"
+   },
+   "alreadyBought": {
+      "message": "Redan köpt?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Den här koden har redan använts."
+   },
+   "clearHistory": {
+      "message": "Rensa"
+   },
+   "days": {
+      "message": "dagar · löper ut"
+   },
+   "deactivate": {
+      "message": "Inaktivera licens"
+   },
+   "deactivateConfirm": {
+      "message": "Inaktivera Premium-licensen på den här enheten?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Alla"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Gillar du TubeVD?"
+   },
+   "enterCode": {
+      "message": "Ange din licensnyckel."
+   },
+   "enterKey": {
+      "message": "🔑 Ange licensnyckel"
+   },
+   "expired": {
+      "message": "⚠️ Licensen har gått ut."
+   },
+   "extDesc": {
+      "message": "Ladda ner videor från Facebook, Twitter, Vimeo, Dailymotion och 1000+ sidor i HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "free": {
+      "message": "Gratis"
+   },
+   "genericError": {
+      "message": "Något gick fel. Kontakta support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Skaffa Premium — $4,99/mån"
+   },
+   "getPremiumLink": {
+      "message": "Skaffa Premium ↗"
+   },
+   "guarantee": {
+      "message": "30 dagars pengarna-tillbaka-garanti"
+   },
+   "history": {
+      "message": "Nedladdningshistorik"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Ogiltig licensnyckel."
+   },
+   "invalidFormat": {
+      "message": "Ogiltigt format. Måste börja med TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Licensnyckel"
+   },
+   "limit": {
+      "message": "Gräns"
+   },
+   "limitHint": {
+      "message": "Gratisplan: 5 nedladdningar/dag."
+   },
+   "limitTitle": {
+      "message": "Daglig gräns nådd"
+   },
+   "networkError": {
+      "message": "⚠️ Anslutningsfel."
+   },
+   "noCode": {
+      "message": "Ingen kod ännu?"
+   },
+   "noHistory": {
+      "message": "Inga nedladdningar ännu."
+   },
+   "noVideos": {
+      "message": "Inga videor hittades"
+   },
+   "noVideosHint": {
+      "message": "Hovra över en video för att se nedladdningsknappen."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Betygsätt"
+   },
+   "rateUs": {
+      "message": "⭐ Betygsätt oss"
+   },
+   "scanning": {
+      "message": "Söker efter videor..."
+   },
+   "serverError": {
+      "message": "⚠️ Serverfel."
+   },
+   "startDown": {
+      "message": "Börja ladda ner ↓"
+   },
+   "support": {
+      "message": "Support"
+   },
+   "unlimited": {
+      "message": "Obegränsat"
+   },
+   "upgradeBtn": {
+      "message": "Uppgradera till Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Uppgradera ↗"
+   },
+   "upgradeTitle": {
+      "message": "Uppgradera till Premium"
+   },
+   "usageLeft": {
+      "message": "nedladdningar kvar idag"
+   },
+   "usageOf": {
+      "message": "av"
+   },
+   "validFor": {
+      "message": "Giltig i"
+   },
+   "verifying": {
+      "message": "Verifierar…"
+   },
+   "videoDetected": {
+      "message": "video hittades"
+   },
+   "videosDetected": {
+      "message": "videor hittades"
+   },
+   "ytBlocked": {
+      "message": "YouTube stöds inte"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD respekterar YouTubes användarvillkor."
+   },
+   "ytTry": {
+      "message": "Prova Facebook, Vimeo, Twitter och 1000+ andra sidor."
+   }
+}

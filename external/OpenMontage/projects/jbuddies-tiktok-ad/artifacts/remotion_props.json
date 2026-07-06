@@ -1,0 +1,100 @@
+{
+  "theme": "flat-motion-graphics",
+  "cuts": [
+    {
+      "id": "hook-image",
+      "source": "jbuddies-tiktok-ad/product.jpg",
+      "in_seconds": 0.0,
+      "out_seconds": 2.5,
+      "animation": "ken-burns"
+    },
+    {
+      "id": "intro-card",
+      "type": "text_card",
+      "text": "JBuddies Studio 2-in-1\nWireless + Wired",
+      "subtitle": "Built for flexible everyday listening",
+      "in_seconds": 2.5,
+      "out_seconds": 5.0,
+      "color": "#F8FAFC",
+      "backgroundColor": "#0F172A",
+      "backgroundImage": "jbuddies-tiktok-ad/product.jpg",
+      "backgroundOverlay": 0.72
+    },
+    {
+      "id": "battery-stat",
+      "type": "stat_card",
+      "stat": "65 HOURS",
+      "subtitle": "Playtime shown on the product box",
+      "accentColor": "#22C55E",
+      "in_seconds": 5.0,
+      "out_seconds": 7.0,
+      "backgroundImage": "jbuddies-tiktok-ad/product.jpg",
+      "backgroundOverlay": 0.7
+    },
+    {
+      "id": "safe-compare",
+      "type": "comparison",
+      "title": "Made for real kid use",
+      "leftLabel": "Listening",
+      "leftValue": "Below 85dB",
+      "rightLabel": "Connection",
+      "rightValue": "Wireless + Wired",
+      "in_seconds": 7.0,
+      "out_seconds": 9.5,
+      "backgroundColor": "#0F172A",
+      "backgroundImage": "jbuddies-tiktok-ad/product.jpg",
+      "backgroundOverlay": 0.76
+    },
+    {
+      "id": "benefits-callout",
+      "type": "callout",
+      "title": "Why parents will like it",
+      "text": "Cloud Foam comfort\nAges 6+\nGreat for travel and study time",
+      "callout_type": "tip",
+      "in_seconds": 9.5,
+      "out_seconds": 12.8,
+      "backgroundColor": "#0F172A",
+      "backgroundImage": "jbuddies-tiktok-ad/product.jpg",
+      "backgroundOverlay": 0.76
+    },
+    {
+      "id": "close-card",
+      "type": "hero_title",
+      "text": "One pair.\nEveryday easier.",
+      "heroSubtitle": "Shop now",
+      "in_seconds": 12.8,
+      "out_seconds": 15.5,
+      "backgroundImage": "jbuddies-tiktok-ad/product.jpg",
+      "backgroundOverlay": 0.68
+    }
+  ],
+  "overlays": [
+    {
+      "type": "hero_title",
+      "in_seconds": 0.2,
+      "out_seconds": 2.2,
+      "text": "Need kid-safe headphones\nthat actually last?",
+      "subtitle": "Parent Problem / Solution"
+    },
+    {
+      "type": "section_title",
+      "in_seconds": 5.1,
+      "out_seconds": 6.8,
+      "text": "Proof",
+      "subtitle": "Visible packaging claims",
+      "accentColor": "#22C55E",
+      "position": "top-left"
+    },
+    {
+      "type": "stat_reveal",
+      "in_seconds": 10.2,
+      "out_seconds": 12.3,
+      "text": "6+",
+      "subtitle": "Ages shown on box",
+      "accentColor": "#38BDF8",
+      "position": "bottom-right"
+    }
+  ],
+  "captions": [],
+  "audio": {}
+}

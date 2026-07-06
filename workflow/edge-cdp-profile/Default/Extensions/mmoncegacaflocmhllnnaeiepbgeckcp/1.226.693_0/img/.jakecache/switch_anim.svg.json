@@ -1,0 +1,1 @@
+{"deps":{"%ROOT%/pkg/bext/lum/img/switch_anim.svg":"md5-9ceca31090895a5906a6cd0e2033b21e"},"gen_deps":{},"signatures":{"md5name":"b44913e8da3dea9e442bd6eb3fb9c683","size":4424,"md5":"9ceca31090895a5906a6cd0e2033b21e","tscur":1615990799724},"signature":"md5-9ceca31090895a5906a6cd0e2033b21e","arch":"X86","flags":{"config":"DIST=APP CONFIG_BEXT=y","vary":[]}}

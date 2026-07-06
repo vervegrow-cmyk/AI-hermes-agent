@@ -1,0 +1,183 @@
+{
+  "batch_id": "91abc2ef-b3da-4077-8b05-12f46fe08250",
+  "mode": "apply",
+  "store_name": "4ea863-98.myshopify.com",
+  "started_at": "2026-07-01T08:26:25+00:00",
+  "completed_at": "2026-07-01T08:26:49+00:00",
+  "interrupted": false,
+  "checkpoint_path": "",
+  "summary": {
+    "processed_count": 5,
+    "success_count": 5,
+    "failed_count": 0,
+    "skipped_count": 0,
+    "manual_review_count": 0,
+    "mapping": {
+      "sync_scope": "full",
+      "total": 13048,
+      "active": 5,
+      "duplicate": 0,
+      "missing": 0
+    },
+    "doba": {
+      "response_items": 5,
+      "normalized_items": 5,
+      "failed_items": 0
+    },
+    "shopify": {
+      "variants_requested": 5,
+      "variants_found": 5,
+      "variants_missing": 0
+    }
+  },
+  "items": [
+    {
+      "index": 1,
+      "total": 5,
+      "doba_sku": "D0102HHHDIP",
+      "shopify_variant_id": "gid://shopify/ProductVariant/51357209002290",
+      "supplier_cost": 59.99,
+      "shipping_cost": 0.0,
+      "current_shopify_price": 68.99,
+      "target_shopify_price": 71.99,
+      "price_delta": 3.0,
+      "decision": "synced",
+      "reason_code": "success",
+      "reason_text_zh": "Shopify Variant \u4ef7\u683c\u66f4\u65b0\u6210\u529f",
+      "will_update_shopify": true,
+      "write_status": "success",
+      "processed_at": "2026-07-01T08:26:49+00:00",
+      "old_price": 68.99,
+      "new_price": 71.99,
+      "error_message": ""
+    },
+    {
+      "index": 2,
+      "total": 5,
+      "doba_sku": "D0102HHHDI8",
+      "shopify_variant_id": "gid://shopify/ProductVariant/51357209133362",
+      "supplier_cost": 124.99,
+      "shipping_cost": 0.0,
+      "current_shopify_price": 143.74,
+      "target_shopify_price": 149.99,
+      "price_delta": 6.25,
+      "decision": "synced",
+      "reason_code": "success",
+      "reason_text_zh": "Shopify Variant \u4ef7\u683c\u66f4\u65b0\u6210\u529f",
+      "will_update_shopify": true,
+      "write_status": "success",
+      "processed_at": "2026-07-01T08:26:49+00:00",
+      "old_price": 143.74,
+      "new_price": 149.99,
+      "error_message": ""
+    },
+    {
+      "index": 3,
+      "total": 5,
+      "doba_sku": "D0102HHHM5P",
+      "shopify_variant_id": "gid://shopify/ProductVariant/51357209198898",
+      "supplier_cost": 81.24,
+      "shipping_cost": 0.0,
+      "current_shopify_price": 93.43,
+      "target_shopify_price": 97.99,
+      "price_delta": 4.56,
+      "decision": "synced",
+      "reason_code": "success",
+      "reason_text_zh": "Shopify Variant \u4ef7\u683c\u66f4\u65b0\u6210\u529f",
+      "will_update_shopify": true,
+      "write_status": "success",
+      "processed_at": "2026-07-01T08:26:49+00:00",
+      "old_price": 93.43,
+      "new_price": 97.99,
+      "error_message": ""
+    },
+    {
+      "index": 4,
+      "total": 5,
+      "doba_sku": "D0102HHHMVP",
+      "shopify_variant_id": "gid://shopify/ProductVariant/51357209264434",
+      "supplier_cost": 147.49,
+      "shipping_cost": 0.0,
+      "current_shopify_price": 169.61,
+      "target_shopify_price": 176.99,
+      "price_delta": 7.38,
+      "decision": "synced",
+      "reason_code": "success",
+      "reason_text_zh": "Shopify Variant \u4ef7\u683c\u66f4\u65b0\u6210\u529f",
+      "will_update_shopify": true,
+      "write_status": "success",
+      "processed_at": "2026-07-01T08:26:49+00:00",
+      "old_price": 169.61,
+      "new_price": 176.99,
+      "error_message": ""
+    },
+    {
+      "index": 5,
+      "total": 5,
+      "doba_sku": "D0102HHHZX6",
+      "shopify_variant_id": "gid://shopify/ProductVariant/51357209592114",
+      "supplier_cost": 607.49,
+      "shipping_cost": 0.0,
+      "current_shopify_price": 698.61,
+      "target_shopify_price": 728.99,
+      "price_delta": 30.38,
+      "decision": "synced",
+      "reason_code": "success",
+      "reason_text_zh": "Shopify Variant \u4ef7\u683c\u66f4\u65b0\u6210\u529f",
+      "will_update_shopify": true,
+      "write_status": "success",
+      "processed_at": "2026-07-01T08:26:49+00:00",
+      "old_price": 698.61,
+      "new_price": 728.99,
+      "error_message": ""
+    }
+  ],
+  "errors": [],
+  "shopify_write_results": [
+    {
+      "doba_sku": "D0102HHHDIP",
+      "shopify_variant_id": "gid://shopify/ProductVariant/51357209002290",
+      "old_price": 68.99,
+      "new_price": 71.99,
+      "status": "synced",
+      "error_type": "",
+      "error_message": ""
+    },
+    {
+      "doba_sku": "D0102HHHDI8",
+      "shopify_variant_id": "gid://shopify/ProductVariant/51357209133362",
+      "old_price": 143.74,
+      "new_price": 149.99,
+      "status": "synced",
+      "error_type": "",
+      "error_message": ""
+    },
+    {
+      "doba_sku": "D0102HHHM5P",
+      "shopify_variant_id": "gid://shopify/ProductVariant/51357209198898",
+      "old_price": 93.43,
+      "new_price": 97.99,
+      "status": "synced",
+      "error_type": "",
+      "error_message": ""
+    },
+    {
+      "doba_sku": "D0102HHHMVP",
+      "shopify_variant_id": "gid://shopify/ProductVariant/51357209264434",
+      "old_price": 169.61,
+      "new_price": 176.99,
+      "status": "synced",
+      "error_type": "",
+      "error_message": ""
+    },
+    {
+      "doba_sku": "D0102HHHZX6",
+      "shopify_variant_id": "gid://shopify/ProductVariant/51357209592114",
+      "old_price": 698.61,
+      "new_price": 728.99,
+      "status": "synced",
+      "error_type": "",
+      "error_message": ""
+    }
+  ]
+}

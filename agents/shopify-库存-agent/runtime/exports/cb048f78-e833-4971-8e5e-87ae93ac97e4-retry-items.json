@@ -1,0 +1,11 @@
+[
+  {
+    "sku": "D0102HHMC7G",
+    "shopify_variant_id": "gid://shopify/ProductVariant/51322036420914",
+    "shopify_product_id": "gid://shopify/Product/10214341181746",
+    "shopify_product_title": "Lynden Drop Leaf Dining Table",
+    "reason": "Giga 查询失败",
+    "error_message": "Giga 库存请求失败: Server error '500 Internal Server Error' for url 'https://openapi.gigab2b.com/b2b-overseas-api/v1/buyer/inventory/quantity/v1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "status": "failed"
+  }
+]

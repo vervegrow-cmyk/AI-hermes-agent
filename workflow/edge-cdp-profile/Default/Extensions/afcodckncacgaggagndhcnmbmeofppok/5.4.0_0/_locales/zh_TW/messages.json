@@ -1,0 +1,34 @@
+{
+   "appDesc": {
+      "description": "一鍵將 ChatGPT 對話保存到 Evernote，輕鬆搜索 ChatGPT 历史記錄。現在試試將 ChatGPT 历史記錄保存到 Evernote！",
+      "message": "一鍵將 ChatGPT 對話保存到 Evernote，輕鬆搜索 ChatGPT 历史記錄。現在試試將 ChatGPT 历史記錄保存到 Evernote！"
+   },
+   "appName": {
+      "description": "將 ChatGPT 历史記錄保存到 Evernote",
+      "message": "將 ChatGPT 历史記錄保存到 evernote"
+   },
+   "popupTagLabel": {
+      "description": "標籤",
+      "message": "標籤"
+   },
+   "popupTitle": {
+      "description": "保存 ChatGPT 到 Evernote",
+      "message": "保存 ChatGPT 到 Evernote"
+   },
+   "popupTitleLabel": {
+      "description": "標題",
+      "message": "標題"
+   },
+   "saveButton": {
+      "description": "立即保存",
+      "message": "立即保存"
+   },
+   "upgradeButton": {
+      "description": "升級",
+      "message": "升級"
+   },
+   "upgradeTips": {
+      "description": "升級到專業版，享受無限制",
+      "message": "升級到專業版，享受無限制"
+   }
+}

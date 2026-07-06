@@ -1,0 +1,2 @@
+[STEP-START] batch=f452853d-c991-439f-9dac-282f3cc2ca86 phase=load_active_mappings message="load active mappings"
+[STEP-DONE] batch=f452853d-c991-439f-9dac-282f3cc2ca86 phase=load_active_mappings elapsed_ms=0 message="active=0"

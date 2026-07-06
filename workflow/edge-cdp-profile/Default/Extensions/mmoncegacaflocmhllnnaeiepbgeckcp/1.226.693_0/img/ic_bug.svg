@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_bug" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:rgba(0,77,116,.5)}
+        </style>
+    </defs>
+    <path id="Rectangle_409" d="M0 0h20v20H0z" class="cls-1" data-name="Rectangle 409"/>
+    <path id="Path_38962" d="M16 11h4V9h-4a5.985 5.985 0 0 0-.31-1.893L19 4.576 17.786 3l-3.047 2.329A6.036 6.036 0 0 0 13 3.809V3a2 2 0 0 0-2-2v2.09a5.6 5.6 0 0 0-2 0V1a2 2 0 0 0-2 2v.809a6.036 6.036 0 0 0-1.739 1.52L2.214 3 1 4.576l3.31 2.531A5.985 5.985 0 0 0 4 9H0v2h4v1a6.008 6.008 0 0 0 .1 1.055L1 15.424 2.214 17l2.6-1.989a5.99 5.99 0 0 0 10.368 0L17.786 17 19 15.424l-3.1-2.369A6.008 6.008 0 0 0 16 12zm-5 3H9v-2h2zm0-4H9V6h2z" class="cls-2" data-name="Path 38962"/>
+</svg>

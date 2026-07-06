@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "title": "Purple Stick Vacuum TikTok Ad",
+  "total_duration_seconds": 15.5,
+  "sections": [
+    {
+      "id": "hook",
+      "label": "Hook",
+      "text": "One vacuum. More cleanups.",
+      "start_seconds": 0.0,
+      "end_seconds": 2.4
+    },
+    {
+      "id": "display",
+      "label": "Display",
+      "text": "A digital display keeps key status info easy to see.",
+      "start_seconds": 2.4,
+      "end_seconds": 4.9
+    },
+    {
+      "id": "tools",
+      "label": "Attachments",
+      "text": "Use the slim crevice tool and brush attachment for tighter spaces and quick detail cleaning.",
+      "start_seconds": 4.9,
+      "end_seconds": 8.2
+    },
+    {
+      "id": "modes",
+      "label": "Modes",
+      "text": "Go from full stick cleaning to handheld mode in seconds.",
+      "start_seconds": 8.2,
+      "end_seconds": 11.8
+    },
+    {
+      "id": "close",
+      "label": "Close",
+      "text": "For floors, corners, and quick messes. Shop now.",
+      "start_seconds": 11.8,
+      "end_seconds": 15.5
+    }
+  ],
+  "metadata": {
+    "pipeline": "animation",
+    "playbook": "flat-motion-graphics",
+    "audio_architecture": "text_only"
+  }
+}

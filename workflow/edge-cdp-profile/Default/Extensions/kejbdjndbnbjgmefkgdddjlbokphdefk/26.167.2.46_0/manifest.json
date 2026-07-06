@@ -1,0 +1,39 @@
+{
+   "action": {
+      "default_icon": "img/icon/icon-blue-32.png"
+   },
+   "author": {
+      "email": "tag-assistant-publisher@google.com"
+   },
+   "background": {
+      "service_worker": "sw/background_script_bin.js"
+   },
+   "content_scripts": [ {
+      "js": [ "cms/sidepanel/open_side_panel_content_script_compiled.js" ],
+      "matches": [ "https://*.google.com/embed/tagging/info/sidepanel*", "https://*.google.com/guided_flows/open" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "The Tag Assistant extension works with Tag Assistant to help troubleshoot installation of gtag.js and Google Tag Manager.",
+   "externally_connectable": {
+      "matches": [ "https://ads.google.com/*", "https://support.google.com/*", "https://tagassistant.google.com/*", "https://tagmanager.google.com/*", "https://*.corp.google.com/*", "https://*.googleprod.com/*", "https://*.googlers.com/*" ]
+   },
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "img/icon/icon-blue-128.png",
+      "16": "img/icon/icon-blue-16.png",
+      "32": "img/icon/icon-blue-32.png",
+      "48": "img/icon/icon-blue-48.png"
+   },
+   "incognito": "split",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/R70d9/8bM8E0w6l5L46OatDXOnsEmAc4fKG9RqZMTsM4r3dxsmqZjGFvvLoGbieipQ4ZnKlolT5Qg+ZWI7ACIuMIdQQmjUn2NwCHqfJ8gXOycKuZJkloKtBGOElNUOhHM1WUoX4cisZxUauF4ymITyV+9x2zdYv7ba0laB+FKQIDAQAB",
+   "manifest_version": 3,
+   "name": "Tag Assistant",
+   "permissions": [ "scripting", "sidePanel", "storage", "tabs", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "26.167.2.46",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "cs/ta/tag_assistant_api_bin.js" ]
+   } ]
+}

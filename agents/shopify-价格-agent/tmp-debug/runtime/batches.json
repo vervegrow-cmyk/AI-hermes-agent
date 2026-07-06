@@ -1,0 +1,80 @@
+{
+  "1b8b1caf-bd7c-4a55-af2a-9bbe555bc629": {
+    "batch_id": "1b8b1caf-bd7c-4a55-af2a-9bbe555bc629",
+    "store_name": "demo-store",
+    "mode": "apply",
+    "status": "completed",
+    "processed_count": 2,
+    "success_count": 0,
+    "failed_count": 0,
+    "skipped_count": 2,
+    "manual_review_count": 0,
+    "started_at": "2026-06-22T06:23:10+00:00",
+    "finished_at": "2026-06-22T06:23:10+00:00",
+    "items": [
+      {
+        "store_name": "demo-store",
+        "giga_sku": "SKU-1",
+        "shopify_product_id": "prod-1",
+        "shopify_variant_id": "var-1",
+        "old_price": 16.0,
+        "supplier_cost": 10.0,
+        "target_price": 13.5,
+        "delta": 0.0,
+        "decision": "keep_price",
+        "reason_codes": [
+          "delta_below_threshold"
+        ],
+        "status": "skipped",
+        "error_message": ""
+      },
+      {
+        "store_name": "demo-store",
+        "giga_sku": "SKU-2",
+        "shopify_product_id": "prod-1",
+        "shopify_variant_id": "var-2",
+        "old_price": 13.5,
+        "supplier_cost": 10.0,
+        "target_price": 13.5,
+        "delta": 0.0,
+        "decision": "keep_price",
+        "reason_codes": [
+          "delta_below_threshold"
+        ],
+        "status": "skipped",
+        "error_message": ""
+      }
+    ]
+  },
+  "21abc006-a2da-43d3-b26e-330103f1ce17": {
+    "batch_id": "21abc006-a2da-43d3-b26e-330103f1ce17",
+    "store_name": "demo-store",
+    "mode": "dry-run",
+    "status": "completed",
+    "processed_count": 1,
+    "success_count": 0,
+    "failed_count": 0,
+    "skipped_count": 0,
+    "manual_review_count": 0,
+    "started_at": "2026-06-22T06:23:36+00:00",
+    "finished_at": "2026-06-22T06:23:37+00:00",
+    "items": [
+      {
+        "store_name": "demo-store",
+        "giga_sku": "SKU-1",
+        "shopify_product_id": "prod-1",
+        "shopify_variant_id": "var-1",
+        "old_price": 16.0,
+        "supplier_cost": 10.0,
+        "target_price": 13.5,
+        "delta": -2.5,
+        "decision": "decrease_price",
+        "reason_codes": [
+          "supplier_cost_changed"
+        ],
+        "status": "planned",
+        "error_message": ""
+      }
+    ]
+  }
+}

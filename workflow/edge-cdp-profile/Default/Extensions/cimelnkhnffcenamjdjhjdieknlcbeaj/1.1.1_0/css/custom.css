@@ -1,0 +1,86 @@
+div[data-test-id="pinWrapper"],div[data-test-id="closeup-lego-container"],div[data-test-id="story-pin-closeup-page"]{
+  position: relative;
+}
+.downloadButton{
+  position: absolute;
+  left: 15px;
+  top: 47px;
+  background-color: #d32e20;
+  border-radius: 6px;
+  z-index: 99999;
+  padding: .5px 2px;
+  border: 0;
+}
+.detailBtn,.pinDetailBtn{
+  padding: 1px 2px;
+    left: 32px;
+    top: 35px;
+    z-index: 6;
+}
+@-webkit-keyframes twinkling{    /*透明度由0到1*/
+  0%{
+     opacity:.5; /*透明度为0*/
+   }
+  100%{
+     opacity:1; /*透明度为1*/
+  }
+}
+
+.twinkLing{
+  -webkit-animation: twinkling 1s infinite ease-in-out;
+}
+
+body.hoverShowButton .downloadButton{
+  display: none;
+}
+
+body.hoverShowButton .Yl-:hover .downloadButton,
+body.hoverShowButton [data-test-id="closeup-lego-container"]:hover .downloadButton,
+body.hoverShowButton [data-test-id="story-pin-closeup-page"]:hover .downloadButton{
+  display: block;
+}
+.downloadBtn::after{
+  content: "Download";
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 34px;
+  min-height: 24px;
+  line-height: 24px;
+  text-align: center;
+  cursor: default;
+  color: #fff;
+  white-space: nowrap;
+  z-index: 9999;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  font-size: 12px;
+  min-width: 80px;
+  border-radius: 3px 3px 3px 3px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.downloadBtn{
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 6px;
+  left: 4px;
+  cursor: pointer;
+  z-index: 10;
+  display: none;
+}
+.downloadBtn:hover::after{
+  display: block !important;
+}
+.MIw:hover .downloadBtn {
+  display: block;
+}
+.svd {
+  box-sizing: border-box;
+}
+.detailBtn, .pinDetailBtn {
+  display: block;
+  left: 3px;
+  top: 4px;
+ }

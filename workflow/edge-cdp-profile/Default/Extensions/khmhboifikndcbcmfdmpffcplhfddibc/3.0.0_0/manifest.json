@@ -1,0 +1,41 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "assets/images/logo.png",
+         "38": "assets/images/logo.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "登录Helium10"
+   },
+   "background": {
+      "service_worker": "background.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "assets/css/stylee.css" ],
+      "js": [ "assets/js/jquery-3.6.0.min.js", "ft.js" ],
+      "matches": [ "https://*.helium10.com/*", "https://*.freedomticket.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self' 'wasm-unsafe-eval' ; object-src 'self'"
+   },
+   "description": "跨境卖家的好帮手",
+   "host_permissions": [ "https://*.helium10.com/*", "https://*.freedomticket.com/*" ],
+   "icons": {
+      "128": "assets/images/logo.png",
+      "16": "assets/images/logo.png",
+      "48": "assets/images/logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7XoD3ru9hJyAcSU0wGArRKw4hUKuBrtDDgfFlBERJXOJ9gXhqrnh+1Fm4E+ZpbotjvoFbXTfiY0yZ50mV0P1S1yFwP2oIO6ptjI7qRAiop5Knrcw3hcyOz2vtsaCx9Rg+yC36+AOec0tgwPMNTtFWXkNbMbUuIZL+nzbfg2EN5i+HET+RWay2NF7sYn1bNVC15qR6R53FWZ5ZHufHQBYyIWziiLlH6oV0IkS8v+yjMdSTKz+f7hSjorPReBIKDm1tGXEiS7n+NhuilGFfWT+wBIzEmpd84sKF75H+ncBCOnRMcPtKelwpR/sT7qHwZqqFvzP5ikOcy7FpkNBXqDLNwIDAQAB",
+   "manifest_version": 3,
+   "name": "H10登录器",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "cookies", "tabs", "management", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.0"
+}

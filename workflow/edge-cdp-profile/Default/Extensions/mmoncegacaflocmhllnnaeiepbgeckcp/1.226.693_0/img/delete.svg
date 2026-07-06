@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="outline-delete-24px" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#526373}
+        </style>
+    </defs>
+    <path id="Path_37450" d="M0 0h20v20H0z" class="cls-1" data-name="Path 37450"/>
+    <path id="Path_37451" d="M14.167 8v8.333H7.5V8h6.667m-1.25-5H8.75l-.833.833H5V5.5h11.667V3.833H13.75zm2.917 3.333h-10v10A1.672 1.672 0 0 0 7.5 18h6.667a1.672 1.672 0 0 0 1.667-1.667z" class="cls-2" data-name="Path 37451" transform="translate(-.833 -.5)"/>
+</svg>

@@ -1,0 +1,34 @@
+{
+   "appDesc": {
+      "description": "一键保存 ChatGPT 聊天记录 to evernote, 更容易搜索和管理chatgpt的会话记录.",
+      "message": "一键保存 ChatGPT 聊天记录 to evernote, 更容易搜索和管理chatgpt的会话记录."
+   },
+   "appName": {
+      "description": "保存 ChatGPT 聊天记录 to evernote",
+      "message": "保存 ChatGPT 聊天记录 to evernote"
+   },
+   "popupTagLabel": {
+      "description": "标签",
+      "message": "标签"
+   },
+   "popupTitle": {
+      "description": "保存 ChatGPT 聊天记录",
+      "message": "保存 ChatGPT 聊天记录"
+   },
+   "popupTitleLabel": {
+      "description": "标题",
+      "message": "标题"
+   },
+   "saveButton": {
+      "description": "保存",
+      "message": "保存"
+   },
+   "upgradeButton": {
+      "description": "升级",
+      "message": "升级"
+   },
+   "upgradeTips": {
+      "description": "升级到旗舰版，享受无限制的使用",
+      "message": "升级到旗舰版，享受无限制的使用"
+   }
+}

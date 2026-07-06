@@ -1,0 +1,11 @@
+[
+  {
+    "sku": "D0102HHMC7G",
+    "shopify_variant_id": "gid://shopify/ProductVariant/51322036420914",
+    "shopify_product_id": "gid://shopify/Product/10214341181746",
+    "shopify_product_title": "Lynden Drop Leaf Dining Table",
+    "reason": "Giga 库存请求失败: 该 SKU 在 Giga 平台不存在，或返回了重复数据",
+    "error_message": "Giga 库存请求失败: 该 SKU 在 Giga 平台不存在，或返回了重复数据 | 响应详情: {\"code\": \"B50004\", \"msg\": \"Data not found/duplicate detected.\", \"subMsg\": \"SKU unavailable on GIGAB2B.\", \"endpoint\": \"/b2b-overseas-api/v1/buyer/inventory/quantity/v2\", \"body\": {\"skus\": [\"D0102HHMC7G\"]}}",
+    "status": "failed"
+  }
+]

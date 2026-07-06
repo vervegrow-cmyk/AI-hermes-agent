@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Aktivovat licenci"
+   },
+   "activateHint": {
+      "message": "Vložte kód z e-mailu."
+   },
+   "activateTitle": {
+      "message": "Aktivovat Premium"
+   },
+   "activatedSub": {
+      "message": "Neomezené stahování · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium aktivováno!"
+   },
+   "alreadyBought": {
+      "message": "Již zakoupeno?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Tento kód byl již použit."
+   },
+   "clearHistory": {
+      "message": "Vymazat"
+   },
+   "days": {
+      "message": "dní · vyprší"
+   },
+   "deactivate": {
+      "message": "Deaktivovat licenci"
+   },
+   "deactivateConfirm": {
+      "message": "Deaktivovat Premium licenci na tomto zařízení?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Vše"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Líbí se vám TubeVD?"
+   },
+   "enterCode": {
+      "message": "Zadejte svůj licenční klíč."
+   },
+   "enterKey": {
+      "message": "🔑 Zadat licenční klíč"
+   },
+   "expired": {
+      "message": "⚠️ Tato licence vypršela."
+   },
+   "extDesc": {
+      "message": "Stahujte videa z Facebooku, Twitteru, Vimea, Dailymotion a 1000+ stránek v HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "free": {
+      "message": "Zdarma"
+   },
+   "genericError": {
+      "message": "Něco se pokazilo. Kontaktujte support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Získat Premium — $4,99/měs."
+   },
+   "getPremiumLink": {
+      "message": "Získat Premium ↗"
+   },
+   "guarantee": {
+      "message": "30denní záruka vrácení peněz"
+   },
+   "history": {
+      "message": "Historie stahování"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Neplatný licenční klíč."
+   },
+   "invalidFormat": {
+      "message": "Neplatný formát. Musí začínat TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Licenční klíč"
+   },
+   "limit": {
+      "message": "Limit"
+   },
+   "limitHint": {
+      "message": "Bezplatný plán: 5 stažení/den."
+   },
+   "limitTitle": {
+      "message": "Denní limit dosažen"
+   },
+   "networkError": {
+      "message": "⚠️ Chyba připojení."
+   },
+   "noCode": {
+      "message": "Ještě nemáte kód?"
+   },
+   "noHistory": {
+      "message": "Zatím žádná stahování."
+   },
+   "noVideos": {
+      "message": "Nebyla nalezena žádná videa"
+   },
+   "noVideosHint": {
+      "message": "Přejeďte myší přes video, aby se zobrazilo tlačítko stahování."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Ohodnotit"
+   },
+   "rateUs": {
+      "message": "⭐ Ohodnoťte nás"
+   },
+   "scanning": {
+      "message": "Hledání videí..."
+   },
+   "serverError": {
+      "message": "⚠️ Chyba serveru."
+   },
+   "startDown": {
+      "message": "Zahájit stahování ↓"
+   },
+   "support": {
+      "message": "Podpora"
+   },
+   "unlimited": {
+      "message": "Neomezené"
+   },
+   "upgradeBtn": {
+      "message": "Přejít na Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Upgradovat ↗"
+   },
+   "upgradeTitle": {
+      "message": "Přejít na Premium"
+   },
+   "usageLeft": {
+      "message": "stažení zbývá dnes"
+   },
+   "usageOf": {
+      "message": "z"
+   },
+   "validFor": {
+      "message": "Platná po dobu"
+   },
+   "verifying": {
+      "message": "Ověřování…"
+   },
+   "videoDetected": {
+      "message": "video nalezeno"
+   },
+   "videosDetected": {
+      "message": "videí nalezeno"
+   },
+   "ytBlocked": {
+      "message": "YouTube není podporován"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD respektuje podmínky služby YouTube."
+   },
+   "ytTry": {
+      "message": "Vyzkoušejte Facebook, Vimeo, Twitter a 1000+ dalších stránek."
+   }
+}

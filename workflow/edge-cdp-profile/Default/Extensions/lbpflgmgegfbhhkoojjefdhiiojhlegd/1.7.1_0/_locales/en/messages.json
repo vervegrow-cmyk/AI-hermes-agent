@@ -1,0 +1,324 @@
+{
+   "PDFViewer": {
+      "message": "PDF Viewer"
+   },
+   "__IWantBoth__": {
+      "message": "And, I want both!"
+   },
+   "__applyFail__": {
+      "message": "Application failed, please contact us if necessary!"
+   },
+   "__applyOK__": {
+      "message": "Congratulations, apply for success!"
+   },
+   "__applyServiceFree__": {
+      "message": "Apply for free"
+   },
+   "__cannotDoIt__": {
+      "message": "Currently unable!"
+   },
+   "__changeEngineForLang__": {
+      "message": "Language does not support.Translator switched!"
+   },
+   "__changeEngine__": {
+      "message": "Translator switched"
+   },
+   "__changeSuccess__": {
+      "message": "Converted"
+   },
+   "__change__": {
+      "message": "Change"
+   },
+   "__choice__": {
+      "message": "Select"
+   },
+   "__collection__": {
+      "message": "Collection"
+   },
+   "__commonTrans__": {
+      "message": "Common"
+   },
+   "__confirmToDelete__": {
+      "message": "Are you sure you want to delete?"
+   },
+   "__confirm__": {
+      "message": "Confirm"
+   },
+   "__defaultLang__": {
+      "message": "Default Translation Language"
+   },
+   "__defaultTransEngine__": {
+      "message": "Default translator"
+   },
+   "__default__": {
+      "message": "Default"
+   },
+   "__delete__": {
+      "message": "Delete"
+   },
+   "__domainTrans__": {
+      "message": "Domain"
+   },
+   "__enterLink__": {
+      "message": "Please enter the link address"
+   },
+   "__enterTrans__": {
+      "message": "Enter Keydown to Translate"
+   },
+   "__fetchErr__": {
+      "message": "Please check your network!"
+   },
+   "__fiveStar__": {
+      "message": "5-Star-Ratings"
+   },
+   "__giveFiveStar__": {
+      "message": "\u003Cdiv>If this application is helpful to you, click here to the app store to give \u003Cspan> 5 stars \u003C/span> ratings, let more people know this application.\u003C/div>"
+   },
+   "__giveMeCharge__": {
+      "message": "Sponsor Developer"
+   },
+   "__gotIt__": {
+      "message": "Got it"
+   },
+   "__hasErr__": {
+      "message": "An error occurred!"
+   },
+   "__instructions__": {
+      "message": "Instructions"
+   },
+   "__interface__": {
+      "message": "Interface and interaction"
+   },
+   "__loginSuccess__": {
+      "message": "Login Successful"
+   },
+   "__manage__": {
+      "message": "Manage"
+   },
+   "__menuTrans__": {
+      "message": "Click menu to translate"
+   },
+   "__move__": {
+      "message": "Move"
+   },
+   "__needLogin__": {
+      "message": "Need to log in, do you go to login?"
+   },
+   "__needRelogin__": {
+      "message": "Need to log in, do you go to login?"
+   },
+   "__netErr__": {
+      "message": "Network error!"
+   },
+   "__newCollection__": {
+      "message": "New Collection"
+   },
+   "__noMouthAccess__": {
+      "message": "You can't apply for this service again within 30 days. Please contact us if you need it."
+   },
+   "__noSupportLang__": {
+      "message": "Language does not support."
+   },
+   "__onlyEnAndZh__": {
+      "message": "This translator source only supports Chinese and English interpretation."
+   },
+   "__onlyZhToZh__": {
+      "message": "This translator only supports Chinese to English."
+   },
+   "__openRemotePDF__": {
+      "message": "Open The Remote PDF File"
+   },
+   "__options__": {
+      "message": "Options"
+   },
+   "__or__": {
+      "message": "OR"
+   },
+   "__others__": {
+      "message": "Others"
+   },
+   "__profession__": {
+      "message": "Profession"
+   },
+   "__qyMiniProgram__": {
+      "message": "QY Translate WeChat Mini Program"
+   },
+   "__reduce__": {
+      "message": "Cancel"
+   },
+   "__rename__": {
+      "message": "Rename"
+   },
+   "__reqErr__": {
+      "message": "Request error!"
+   },
+   "__scanApply__": {
+      "message": "Apply"
+   },
+   "__showProun__": {
+      "message": "Show Pronunciation"
+   },
+   "__simpleAndIntellgent__": {
+      "message": "Minimalist"
+   },
+   "__supportDeveloper__": {
+      "message": "Support Developer"
+   },
+   "__textTooLong__": {
+      "message": "Text is too long!"
+   },
+   "__totalFreeOver__": {
+      "message": "This month's free quota has been used, more needs can contact us"
+   },
+   "__transItemDisplay__": {
+      "message": "Translation Results Item Display"
+   },
+   "__transMethods__": {
+      "message": "Methods of translation"
+   },
+   "__transReqErr__": {
+      "message": "Translation failed, did you change the default translation engine?"
+   },
+   "__wantToApplyTrans__": {
+      "message": "Apply for free professional translation services?"
+   },
+   "alDM__communication": {
+      "message": "Alibaba Communication"
+   },
+   "alDM__description": {
+      "message": "Alibaba Description"
+   },
+   "alDM__finance": {
+      "message": "Alibaba Finance"
+   },
+   "alDM__medical": {
+      "message": "Alibaba Medical"
+   },
+   "alDM__social": {
+      "message": "Alibaba Social"
+   },
+   "alDM__title": {
+      "message": "Alibaba Title"
+   },
+   "appStore": {
+      "message": "App Store"
+   },
+   "bdDM__electronics": {
+      "message": "Baidu Electronics"
+   },
+   "bdDM__finance": {
+      "message": "Baidu Finance"
+   },
+   "bdDM__mechanics": {
+      "message": "Baidu Mechanics"
+   },
+   "bdDM__medicine": {
+      "message": "Baidu Medicine"
+   },
+   "bdDM__novel": {
+      "message": "Baidu Novel"
+   },
+   "bdTrans__common": {
+      "message": "Baidu"
+   },
+   "clickReTry": {
+      "message": "Click to try again"
+   },
+   "clickToRefresh": {
+      "message": "Click to refresh"
+   },
+   "collManager": {
+      "message": "Collection Management:"
+   },
+   "collTooLong": {
+      "message": "More than 500 can't be collected"
+   },
+   "contactUs": {
+      "message": "Feedback"
+   },
+   "copyOK": {
+      "message": "Copy success"
+   },
+   "copyShareLink": {
+      "message": "Sharing links have been copied"
+   },
+   "enterText": {
+      "message": "Enter content for translation"
+   },
+   "extDesc": {
+      "message": "Translate selected text. Professional domain translate."
+   },
+   "extName": {
+      "description": "ext_name",
+      "message": "QY Translate"
+   },
+   "ggTrans__common": {
+      "message": "Google"
+   },
+   "invalidQR": {
+      "message": "QR code expires"
+   },
+   "loadQRFail": {
+      "message": "QR code loading failed"
+   },
+   "loadingQR": {
+      "message": "loading..."
+   },
+   "logged": {
+      "message": "Logged"
+   },
+   "logout": {
+      "message": "Sign Out"
+   },
+   "mainLang": {
+      "message": "My primary language:"
+   },
+   "mark": {
+      "message": "Highlight"
+   },
+   "moreOption": {
+      "message": "More Options"
+   },
+   "optionLogin": {
+      "message": "WeChat Login"
+   },
+   "optionTrans": {
+      "message": "Translate"
+   },
+   "reduceMark": {
+      "message": "Unhighlight"
+   },
+   "sName": {
+      "message": "QY Translate"
+   },
+   "scanQR": {
+      "message": "Login"
+   },
+   "secondLang": {
+      "message": "My second language:"
+   },
+   "shareLink": {
+      "message": "Share Link"
+   },
+   "subTrans": {
+      "message": "Translate"
+   },
+   "title": {
+      "message": "QY Translate"
+   },
+   "transExampple": {
+      "message": "Example"
+   },
+   "treadWord": {
+      "message": "Select text to translate"
+   },
+   "treadWordOff": {
+      "message": "Unable Select Translate"
+   },
+   "weChatCollMana": {
+      "message": "Use WeChat scan the QR to manage"
+   },
+   "weChatScanQRToLogin": {
+      "message": "Log in with WeChat scan code"
+   }
+}

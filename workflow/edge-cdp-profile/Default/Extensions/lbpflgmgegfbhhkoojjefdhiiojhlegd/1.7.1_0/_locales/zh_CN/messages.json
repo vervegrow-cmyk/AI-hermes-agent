@@ -1,0 +1,324 @@
+{
+   "PDFViewer": {
+      "message": "PDF阅读器"
+   },
+   "__IWantBoth__": {
+      "message": "我两者都要!"
+   },
+   "__applyFail__": {
+      "message": "申请失败，刚需可联系我们"
+   },
+   "__applyOK__": {
+      "message": "恭喜你，申请成功!"
+   },
+   "__applyServiceFree__": {
+      "message": "免费申请"
+   },
+   "__cannotDoIt__": {
+      "message": "当前不可操作"
+   },
+   "__changeEngineForLang__": {
+      "message": "语种不支持已切换到其它翻译源。"
+   },
+   "__changeEngine__": {
+      "message": "翻译源已切换"
+   },
+   "__changeSuccess__": {
+      "message": "已切换"
+   },
+   "__change__": {
+      "message": "切换"
+   },
+   "__choice__": {
+      "message": "请选择"
+   },
+   "__collection__": {
+      "message": "收藏夹"
+   },
+   "__commonTrans__": {
+      "message": "通用翻译"
+   },
+   "__confirmToDelete__": {
+      "message": "确认删除?"
+   },
+   "__confirm__": {
+      "message": "确 认"
+   },
+   "__defaultLang__": {
+      "message": "默认翻译语言"
+   },
+   "__defaultTransEngine__": {
+      "message": "默认翻译来源"
+   },
+   "__default__": {
+      "message": "默认"
+   },
+   "__delete__": {
+      "message": "删除"
+   },
+   "__domainTrans__": {
+      "message": "专业翻译"
+   },
+   "__enterLink__": {
+      "message": "请输入链接地址"
+   },
+   "__enterTrans__": {
+      "message": "Enter键入翻译"
+   },
+   "__fetchErr__": {
+      "message": "请检查您的网络"
+   },
+   "__fiveStar__": {
+      "message": "五星好评"
+   },
+   "__giveFiveStar__": {
+      "message": "如果觉得本应用对您有帮助，点我到应用商店给出\u003Cspan>5星\u003C/span>好评，让更多的人知道本应用。"
+   },
+   "__giveMeCharge__": {
+      "message": "给开发者充电"
+   },
+   "__gotIt__": {
+      "message": "知道了"
+   },
+   "__hasErr__": {
+      "message": "出现错误"
+   },
+   "__instructions__": {
+      "message": "使用说明"
+   },
+   "__interface__": {
+      "message": "界面与交互"
+   },
+   "__loginSuccess__": {
+      "message": "登录成功"
+   },
+   "__manage__": {
+      "message": "管理"
+   },
+   "__menuTrans__": {
+      "message": "右键翻译"
+   },
+   "__move__": {
+      "message": "移动"
+   },
+   "__needLogin__": {
+      "message": "需要登录，是否前往登?"
+   },
+   "__needRelogin__": {
+      "message": "需要重新登录，是否前往登录?"
+   },
+   "__netErr__": {
+      "message": "网络开小差了!"
+   },
+   "__newCollection__": {
+      "message": "新建收藏夹"
+   },
+   "__noMouthAccess__": {
+      "message": "30天内不可重复申请本服务，如刚需可联系我们"
+   },
+   "__noSupportLang__": {
+      "message": "语种不支持。"
+   },
+   "__onlyEnAndZh__": {
+      "message": "设置的翻译源仅支持中英互译。"
+   },
+   "__onlyZhToZh__": {
+      "message": "设置的翻译源仅支持中译英。"
+   },
+   "__openRemotePDF__": {
+      "message": "打开网络PDF文件"
+   },
+   "__options__": {
+      "message": "设置"
+   },
+   "__or__": {
+      "message": "或"
+   },
+   "__others__": {
+      "message": "其它"
+   },
+   "__profession__": {
+      "message": "专业"
+   },
+   "__qyMiniProgram__": {
+      "message": "轻氧翻译小程序"
+   },
+   "__reduce__": {
+      "message": "取 消"
+   },
+   "__rename__": {
+      "message": "重命名"
+   },
+   "__reqErr__": {
+      "message": "请求出错"
+   },
+   "__scanApply__": {
+      "message": "扫码申请"
+   },
+   "__showProun__": {
+      "message": "显示音标"
+   },
+   "__simpleAndIntellgent__": {
+      "message": "简约智能"
+   },
+   "__supportDeveloper__": {
+      "message": "支持开发者"
+   },
+   "__textTooLong__": {
+      "message": "文本内容过长"
+   },
+   "__totalFreeOver__": {
+      "message": "本月免费额度已用光，更多需求可联系我们"
+   },
+   "__transItemDisplay__": {
+      "message": "翻译结果显示"
+   },
+   "__transMethods__": {
+      "message": "翻译方式"
+   },
+   "__transReqErr__": {
+      "message": "翻译失败，是否切换默认翻译源?"
+   },
+   "__wantToApplyTrans__": {
+      "message": "免费申请专业翻译服务?"
+   },
+   "alDM__communication": {
+      "message": "阿里买卖家沟通"
+   },
+   "alDM__description": {
+      "message": "阿里商品详情"
+   },
+   "alDM__finance": {
+      "message": "阿里金融"
+   },
+   "alDM__medical": {
+      "message": "阿里医疗"
+   },
+   "alDM__social": {
+      "message": "阿里社交"
+   },
+   "alDM__title": {
+      "message": "阿里商品标题"
+   },
+   "appStore": {
+      "message": "应用市场"
+   },
+   "bdDM__electronics": {
+      "message": "百度电子科技"
+   },
+   "bdDM__finance": {
+      "message": "百度金融财经"
+   },
+   "bdDM__mechanics": {
+      "message": "百度水利机械"
+   },
+   "bdDM__medicine": {
+      "message": "百度生物医药"
+   },
+   "bdDM__novel": {
+      "message": "百度网络文学"
+   },
+   "bdTrans__common": {
+      "message": "百度翻译"
+   },
+   "clickReTry": {
+      "message": "点击重试"
+   },
+   "clickToRefresh": {
+      "message": "点击刷新"
+   },
+   "collManager": {
+      "message": "收藏管理:"
+   },
+   "collTooLong": {
+      "message": "内容字符超过500无法收藏哦~"
+   },
+   "contactUs": {
+      "message": "意见反馈"
+   },
+   "copyOK": {
+      "message": "复制成功"
+   },
+   "copyShareLink": {
+      "message": "分享链接已复制"
+   },
+   "enterText": {
+      "message": "请输入文本内容"
+   },
+   "extDesc": {
+      "message": "划词翻译，电子科技、金融、电商等专业领域翻译，提供多端收藏管理及语言学习"
+   },
+   "extName": {
+      "description": "ext_name",
+      "message": "谷歌翻译"
+   },
+   "ggTrans__common": {
+      "message": "谷歌翻译"
+   },
+   "invalidQR": {
+      "message": "二维码失效"
+   },
+   "loadQRFail": {
+      "message": "二维码加载失败"
+   },
+   "loadingQR": {
+      "message": "二维码加载中..."
+   },
+   "logged": {
+      "message": "已登录，现在可以收藏翻译结果，并使用轻氧翻译小程序进行查阅学习"
+   },
+   "logout": {
+      "message": "退出登录"
+   },
+   "mainLang": {
+      "message": "我的主要语言:"
+   },
+   "mark": {
+      "message": "标记"
+   },
+   "moreOption": {
+      "message": "更多设置"
+   },
+   "optionLogin": {
+      "message": "微信登录"
+   },
+   "optionTrans": {
+      "message": "翻译设置"
+   },
+   "reduceMark": {
+      "message": "取消标记"
+   },
+   "sName": {
+      "message": "轻氧翻译"
+   },
+   "scanQR": {
+      "message": "扫码登录"
+   },
+   "secondLang": {
+      "message": "我的第二语言:"
+   },
+   "shareLink": {
+      "message": "分享链接"
+   },
+   "subTrans": {
+      "message": "翻译"
+   },
+   "title": {
+      "message": "轻氧翻译"
+   },
+   "transExampple": {
+      "message": "例句"
+   },
+   "treadWord": {
+      "message": "划词翻译"
+   },
+   "treadWordOff": {
+      "message": "已关闭划词翻译"
+   },
+   "weChatCollMana": {
+      "message": "微信扫码使用小程序管理"
+   },
+   "weChatScanQRToLogin": {
+      "message": "使用微信扫码登录"
+   }
+}

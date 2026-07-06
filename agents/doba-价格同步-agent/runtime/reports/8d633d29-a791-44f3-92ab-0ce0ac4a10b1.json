@@ -1,0 +1,95 @@
+{
+  "batch_id": "8d633d29-a791-44f3-92ab-0ce0ac4a10b1",
+  "mode": "dry_run",
+  "store_name": "4ea863-98.myshopify.com",
+  "started_at": "2026-06-30T10:00:28+00:00",
+  "completed_at": "2026-06-30T10:00:32+00:00",
+  "summary": {
+    "processed_count": 5,
+    "success_count": 0,
+    "failed_count": 0,
+    "skipped_count": 5,
+    "manual_review_count": 0,
+    "mapping": {
+      "sync_scope": "incremental",
+      "total": 0,
+      "active": 0,
+      "duplicate": 0,
+      "missing": 0
+    },
+    "doba": {
+      "response_items": 5,
+      "normalized_items": 5,
+      "failed_items": 0
+    },
+    "shopify": {
+      "variants_requested": 5,
+      "variants_found": 0,
+      "variants_missing": 5
+    }
+  },
+  "items": [
+    {
+      "doba_sku": "D01027RBD42",
+      "shopify_variant_id": "",
+      "supplier_cost": 49.99,
+      "shipping_cost": 0.0,
+      "current_shopify_price": 0.0,
+      "target_shopify_price": 0.0,
+      "price_delta": 0.0,
+      "decision": "skip",
+      "reason_code": "missing_mapping",
+      "will_update_shopify": false
+    },
+    {
+      "doba_sku": "D0102HA63SX",
+      "shopify_variant_id": "",
+      "supplier_cost": 158.19,
+      "shipping_cost": 0.0,
+      "current_shopify_price": 0.0,
+      "target_shopify_price": 0.0,
+      "price_delta": 0.0,
+      "decision": "skip",
+      "reason_code": "missing_mapping",
+      "will_update_shopify": false
+    },
+    {
+      "doba_sku": "D0101H5VTYJ",
+      "shopify_variant_id": "",
+      "supplier_cost": 31.78,
+      "shipping_cost": 0.0,
+      "current_shopify_price": 0.0,
+      "target_shopify_price": 0.0,
+      "price_delta": 0.0,
+      "decision": "skip",
+      "reason_code": "missing_mapping",
+      "will_update_shopify": false
+    },
+    {
+      "doba_sku": "D0101H5VK0P",
+      "shopify_variant_id": "",
+      "supplier_cost": 25.31,
+      "shipping_cost": 0.0,
+      "current_shopify_price": 0.0,
+      "target_shopify_price": 0.0,
+      "price_delta": 0.0,
+      "decision": "skip",
+      "reason_code": "missing_mapping",
+      "will_update_shopify": false
+    },
+    {
+      "doba_sku": "D0101H5VK76",
+      "shopify_variant_id": "",
+      "supplier_cost": 24.2,
+      "shipping_cost": 0.0,
+      "current_shopify_price": 0.0,
+      "target_shopify_price": 0.0,
+      "price_delta": 0.0,
+      "decision": "skip",
+      "reason_code": "missing_mapping",
+      "will_update_shopify": false
+    }
+  ],
+  "errors": [],
+  "shopify_write_results": []
+}

@@ -1,0 +1,43 @@
+{
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "css": [ "assets/index.fb231a68.css", "assets/main.62247174.css" ],
+      "js": [ "assets/main.tsx-loader.f02fb9ea.js" ],
+      "matches": [ "https://affiliate-us.tiktok.com/*", "https://affiliate-global.tiktok.com/*", "https://affiliate.tiktok.com/*", "https://proboost.microdata-inc.com/*", "https://affiliate.tiktokglobalshop.com/*", "https://seller-mx.tiktok.com/*", "https://seller-uk.tiktok.com/*", "https://seller-it.tiktok.com/*", "https://seller-fr.tiktok.com/*", "https://seller-vn.tiktok.com/*", "https://seller-us.tiktok.com/*", "https://seller.us.tiktokglobalshop.com/*", "https://seller-id.tokopedia.com/*", "https://seller-sg.tiktok.com/*", "https://affiliate-id.tokopedia.com/*", "https://seller-es.tiktok.com/*", "https://seller-de.tiktok.com/*", "https://seller-my.tiktok.com/*", "https://seller-ph.tiktok.com/*", "https://seller-th.tiktok.com/*", "https://seller-br.tiktok.com/*", "https://seller-jp.tiktok.com/*", "https://accounts.google.com/*", "https://partner.us.tiktokshop.com/*", "https://affiliate.tiktokshopglobalselling.com/*", "https://seller.tiktokshopglobalselling.com/*", "https://seller.us.tiktokshopglobalselling.com/*" ],
+      "media": [  ]
+   }, {
+      "js": [ "assets/kalodata.ts-loader.7c274eb4.js" ],
+      "matches": [ "https://www.kalodata.com/*", "https://staging.kalodata.com/*" ],
+      "media": [  ],
+      "run_at": "document_start"
+   } ],
+   "host_permissions": [ "https://pre-cem.microdata-inc.com/*", "https://proboost.microdata-inc.com/*", "http://test-cem.microdata-inc.com/*", "https://pre-kaloboost.proboost.ai/*", "https://kol.proboost.ai/*", "https://pre-kb.proboost.ai/*", "https://kaloboost.proboost.ai/*", "https://*.tiktok.com/*", "https://*.tiktokglobalshop.com/*", "http://pre-boost-engine.microdata-inc.com/*", "https://pre-boost-engine.microdata-inc.com/*", "https://www.google-analytics.com/", "https://autoboost.microdata-inc.com/*", "https://translate.microdata-inc.com/*" ],
+   "icons": {
+      "128": "logo128.png",
+      "16": "logo16.png",
+      "32": "logo32.png",
+      "48": "logo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApJT9EQyQKDni9AHlbbEZIT2hT6dLTi4qT/hiIDnTaEpeEb+uzrEYE/FpIm+HkOXywgAexhRIK5Qv5ZnOwo2nFaZWXlfzqQRqmxWFiVMTCg62/lBpzrSZPl/KOE76rWkJ6XZPss3VCD9Q962UR/DpTE83r0XAAMzlYrliyaVCsZjuvzEkH99ZIxxcRXTGJeLsUdr8NG5ctQ6bI5rN8J9KNcbyJsqraP7u0yqe6IEA9iFExmIwHn4KTBRfESZmd2tb5Ms2v5GhDvyoP9vrEw8HZezDVnZelt8P2wcuNYq2ZV+TIh4piBKtvsxjh8OCo2lUA05ZbDbbYENJlyP7cM+SewIDAQAB",
+   "manifest_version": 3,
+   "name": "ProBoost",
+   "permissions": [ "storage", "downloads", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.4.0",
+   "web_accessible_resources": [ {
+      "matches": [ "https://accounts.google.com/*", "https://affiliate-global.tiktok.com/*", "https://affiliate-id.tokopedia.com/*", "https://affiliate-us.tiktok.com/*", "https://affiliate.tiktok.com/*", "https://affiliate.tiktokglobalshop.com/*", "https://affiliate.tiktokshopglobalselling.com/*", "https://partner.us.tiktokshop.com/*", "https://proboost.microdata-inc.com/*", "https://seller-br.tiktok.com/*", "https://seller-de.tiktok.com/*", "https://seller-es.tiktok.com/*", "https://seller-fr.tiktok.com/*", "https://seller-id.tokopedia.com/*", "https://seller-it.tiktok.com/*", "https://seller-mx.tiktok.com/*", "https://seller-my.tiktok.com/*", "https://seller-ph.tiktok.com/*", "https://seller-sg.tiktok.com/*", "https://seller-th.tiktok.com/*", "https://seller-uk.tiktok.com/*", "https://seller-us.tiktok.com/*", "https://seller-vn.tiktok.com/*", "https://seller.tiktokshopglobalselling.com/*", "https://seller.us.tiktokglobalshop.com/*", "https://seller.us.tiktokshopglobalselling.com/*", "https://staging.kalodata.com/*", "https://www.kalodata.com/*" ],
+      "resources": [ "**/*", "*" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "https://accounts.google.com/*", "https://affiliate-global.tiktok.com/*", "https://affiliate-id.tokopedia.com/*", "https://affiliate-us.tiktok.com/*", "https://affiliate.tiktok.com/*", "https://affiliate.tiktokglobalshop.com/*", "https://affiliate.tiktokshopglobalselling.com/*", "https://partner.us.tiktokshop.com/*", "https://proboost.microdata-inc.com/*", "https://seller-br.tiktok.com/*", "https://seller-de.tiktok.com/*", "https://seller-es.tiktok.com/*", "https://seller-fr.tiktok.com/*", "https://seller-id.tokopedia.com/*", "https://seller-it.tiktok.com/*", "https://seller-jp.tiktok.com/*", "https://seller-mx.tiktok.com/*", "https://seller-my.tiktok.com/*", "https://seller-ph.tiktok.com/*", "https://seller-sg.tiktok.com/*", "https://seller-th.tiktok.com/*", "https://seller-uk.tiktok.com/*", "https://seller-us.tiktok.com/*", "https://seller-vn.tiktok.com/*", "https://seller.tiktokshopglobalselling.com/*", "https://seller.us.tiktokglobalshop.com/*", "https://seller.us.tiktokshopglobalselling.com/*" ],
+      "resources": [ "assets/index.234a99f3.js", "assets/_commonjsHelpers.b8add541.js", "assets/lodash.3ecf8a3c.js", "assets/index.min.97eb9b8c.js", "assets/index.min.e91a0245.js", "assets/index.min.2ed666bd.js", "assets/main.tsx.ff93c37d.js" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "https://staging.kalodata.com/*", "https://www.kalodata.com/*" ],
+      "resources": [ "assets/kalodata.ts.366d5380.js" ],
+      "use_dynamic_url": false
+   } ]
+}

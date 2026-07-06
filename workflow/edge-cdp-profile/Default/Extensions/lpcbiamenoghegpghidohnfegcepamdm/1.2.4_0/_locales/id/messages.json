@@ -1,0 +1,48 @@
+{
+   "done": {
+      "message": "Done"
+   },
+   "downloadAll": {
+      "message": "Download all"
+   },
+   "downloadStartedALot": {
+      "message": "Downloading ($AMOUNT$ videos)...",
+      "placeholders": {
+         "AMOUNT": {
+            "content": "$1"
+         }
+      }
+   },
+   "downloadStartedOne": {
+      "message": "Downloading..."
+   },
+   "extDesc": {
+      "message": "Unduh video sekarang, tonton nanti. Pengunduh video cepat, ringan, dan andal"
+   },
+   "extName": {
+      "message": "Pengunduh video yang berfungsi! Simpan video online"
+   },
+   "foundVideos": {
+      "message": "$AMOUNT$ videos found",
+      "placeholders": {
+         "AMOUNT": {
+            "content": "$1"
+         }
+      }
+   },
+   "hideButtons": {
+      "message": "Hide buttons"
+   },
+   "linkCopied": {
+      "message": "Link copied"
+   },
+   "noVideos": {
+      "message": "No videos were found"
+   },
+   "sidebar": {
+      "message": "Sidebar view"
+   },
+   "youtubeError": {
+      "message": "Due to the privacy policies of Google, videos are not downloaded from YouTube"
+   }
+}

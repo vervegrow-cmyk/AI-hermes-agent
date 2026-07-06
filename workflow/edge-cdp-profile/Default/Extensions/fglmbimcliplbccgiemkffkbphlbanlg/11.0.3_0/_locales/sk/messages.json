@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Aktivovať licenciu"
+   },
+   "activateHint": {
+      "message": "Vložte kód z e-mailu."
+   },
+   "activateTitle": {
+      "message": "Aktivovať Premium"
+   },
+   "activatedSub": {
+      "message": "Neobmedzené sťahovanie · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium aktivované!"
+   },
+   "alreadyBought": {
+      "message": "Už ste zakúpili?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Tento kód bol už použitý."
+   },
+   "clearHistory": {
+      "message": "Vymazať"
+   },
+   "days": {
+      "message": "dní · vyprší"
+   },
+   "deactivate": {
+      "message": "Deaktivovať licenciu"
+   },
+   "deactivateConfirm": {
+      "message": "Deaktivovať Premium licenciu na tomto zariadení?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Všetko"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Páči sa vám TubeVD?"
+   },
+   "enterCode": {
+      "message": "Zadajte svoj licenčný kľúč."
+   },
+   "enterKey": {
+      "message": "🔑 Zadať licenčný kľúč"
+   },
+   "expired": {
+      "message": "⚠️ Táto licencia vypršala."
+   },
+   "extDesc": {
+      "message": "Sťahujte videá z Facebooku, Twitteru, Vimea, Dailymotionu a 1000+ stránok v HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "free": {
+      "message": "Zadarmo"
+   },
+   "genericError": {
+      "message": "Niečo sa pokazilo. Kontaktujte support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Získať Premium — 4,99$/mes."
+   },
+   "getPremiumLink": {
+      "message": "Získať Premium ↗"
+   },
+   "guarantee": {
+      "message": "30-dňová záruka vrátenia peňazí"
+   },
+   "history": {
+      "message": "História sťahovaní"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Neplatný licenčný kľúč."
+   },
+   "invalidFormat": {
+      "message": "Neplatný formát. Musí začínať TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Licenčný kľúč"
+   },
+   "limit": {
+      "message": "Limit"
+   },
+   "limitHint": {
+      "message": "Bezplatný plán: 5 stiahnutí/deň."
+   },
+   "limitTitle": {
+      "message": "Denný limit dosiahnutý"
+   },
+   "networkError": {
+      "message": "⚠️ Chyba pripojenia."
+   },
+   "noCode": {
+      "message": "Ešte nemáte kód?"
+   },
+   "noHistory": {
+      "message": "Zatiaľ žiadne stiahnutia."
+   },
+   "noVideos": {
+      "message": "Nenašli sa žiadne videá"
+   },
+   "noVideosHint": {
+      "message": "Prejdite myšou cez video, aby sa zobrazilo tlačidlo sťahovania."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Ohodnotit"
+   },
+   "rateUs": {
+      "message": "⭐ Ohodnoťte nás"
+   },
+   "scanning": {
+      "message": "Hľadanie videí..."
+   },
+   "serverError": {
+      "message": "⚠️ Chyba servera."
+   },
+   "startDown": {
+      "message": "Začať sťahovanie ↓"
+   },
+   "support": {
+      "message": "Podpora"
+   },
+   "unlimited": {
+      "message": "Neobmedzené"
+   },
+   "upgradeBtn": {
+      "message": "Prejsť na Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Upgradovať ↗"
+   },
+   "upgradeTitle": {
+      "message": "Prejsť na Premium"
+   },
+   "usageLeft": {
+      "message": "stiahnutí zostáva dnes"
+   },
+   "usageOf": {
+      "message": "z"
+   },
+   "validFor": {
+      "message": "Platná po dobu"
+   },
+   "verifying": {
+      "message": "Overovanie…"
+   },
+   "videoDetected": {
+      "message": "video nájdené"
+   },
+   "videosDetected": {
+      "message": "videí nájdených"
+   },
+   "ytBlocked": {
+      "message": "YouTube nie je podporovaný"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD rešpektuje podmienky služby YouTube."
+   },
+   "ytTry": {
+      "message": "Vyskúšajte Facebook, Vimeo, Twitter a 1000+ ďalších stránok."
+   }
+}

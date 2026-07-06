@@ -1,0 +1,58 @@
+﻿{
+  "timestamp": "2026-07-02T04:36:04.747402Z",
+  "provider_requested": "kling",
+  "mode": "sample",
+  "output_path": "projects/drone-tiktok-ad-v3/assets/video/sample_takeoff_kling_retry.mp4",
+  "success": true,
+  "error": null,
+  "data": {
+    "provider": "kling",
+    "model": "fal-ai/kling-video/v3/standard/text-to-video",
+    "prompt": "Vertical realistic product commercial shot of a compact foldable black consumer drone lifting off smoothly from open pavement at golden hour, operator holding a screen remote in frame, clean beginner-friendly setup, stable controlled ascent, realistic propeller motion blur, natural outdoor lighting, premium consumer tech ad look, true-to-life motion, 9:16, no text overlay, no extra propellers, no sci-fi styling, no phone control",
+    "operation": "text_to_video",
+    "aspect_ratio": "9:16",
+    "output": "projects\\drone-tiktok-ad-v3\\assets\\video\\sample_takeoff_kling_retry.mp4",
+    "output_path": "projects\\drone-tiktok-ad-v3\\assets\\video\\sample_takeoff_kling_retry.mp4",
+    "format": "mp4",
+    "file_size_bytes": 5466573,
+    "selected_tool": "kling_video",
+    "selected_provider": "kling",
+    "selection_reason": "kling_video (kling): 0.39\n  reliability=0.80 (w=0.15)\n  output_quality=0.40 (w=0.2)\n  task_fit=0.25 (w=0.3)",
+    "provider_score": {
+      "tool_name": "kling_video",
+      "provider": "kling",
+      "task_fit": 0.2536363636363636,
+      "output_quality": 0.4,
+      "control": 0.0,
+      "reliability": 0.8,
+      "cost_efficiency": 0.7,
+      "latency": 0.4,
+      "continuity": 0.5,
+      "weighted_score": 0.39109090909090916
+    },
+    "selected_tool_agent_skills": [
+      "ai-video-gen"
+    ],
+    "required_agent_skills": [
+      "ai-video-gen"
+    ],
+    "selected_tool_usage_location": "D:\\�����ļ�����\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\kling_video.py",
+    "selected_tool_best_for": [
+      "cinematic B-roll with highest visual fidelity",
+      "fluid motion and camera direction",
+      "professional video clips"
+    ],
+    "alternatives_considered": [
+      "heygen_video",
+      "minimax_video",
+      "pexels_video",
+      "pixabay_video",
+      "pixverse_video",
+      "runway_video",
+      "seedance_video",
+      "siliconflow_video",
+      "veo_video",
+      "vidu_video"
+    ]
+  }
+}

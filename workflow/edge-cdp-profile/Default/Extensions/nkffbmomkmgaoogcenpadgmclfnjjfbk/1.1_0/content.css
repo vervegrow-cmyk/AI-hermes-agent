@@ -1,0 +1,47 @@
+.douyin-addon-download-button {
+    position: absolute;
+    z-index: 9999;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    width:45px;
+}
+
+.douyin-addon-user-download-button{
+    display: flex;
+    cursor: pointer;
+    width:30px;
+    margin: 0px 10px;
+}
+
+.douyin-video-downloader-snackbar-area {
+    position: fixed;
+    top: 150px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-size: 14px;
+    color: #eee;
+    pointer-events: none;
+    z-index: 99999
+}
+
+.douyin-video-downloader-snackbar {
+    background-color: #424242;
+    padding: 10px;
+    margin: 4px 0;
+    border-radius: 4px;
+    max-width: 400px;
+    animation: slideInFromRight .1s ease-out forwards
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translate(100%)
+    }
+
+    to {
+        transform: translate(0)
+    }
+}

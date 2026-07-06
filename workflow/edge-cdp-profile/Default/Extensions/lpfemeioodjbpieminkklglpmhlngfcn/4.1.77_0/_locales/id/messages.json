@@ -1,0 +1,14 @@
+{
+   "desc": {
+      "message": "Perkaya promp ChatGPT Anda dengan hasil pencarian web yang relevan melalui penjelajahan web."
+   },
+   "name": {
+      "message": "WebChatGPT: Pustaka prompt dengan akses web"
+   },
+   "sn": {
+      "message": "WebChatGPT"
+   },
+   "toggleWebAccess": {
+      "message": "Aktifkan Akses Web"
+   }
+}

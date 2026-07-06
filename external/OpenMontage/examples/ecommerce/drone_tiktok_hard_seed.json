@@ -1,0 +1,211 @@
+{
+  "product_name": "Beginner Screen Remote Foldable Drone",
+  "platform": "TikTok",
+  "aspect_ratio": "9:16",
+  "duration_seconds": 30,
+  "language": "English",
+  "style": "hard-sell UGC seeding video",
+  "product_assets": {
+    "asset_dir": "assets/ecommerce/drone",
+    "images": [
+      "assets/ecommerce/drone/1.jpg",
+      "assets/ecommerce/drone/2.jpg",
+      "assets/ecommerce/drone/3.jpg",
+      "assets/ecommerce/drone/4.jpg",
+      "assets/ecommerce/drone/5.jpg",
+      "assets/ecommerce/drone/6.jpg"
+    ]
+  },
+  "hooks": [
+    "Still using your phone to fly a drone?",
+    "No phone needed.",
+    "This one has a screen remote."
+  ],
+  "shot_list": [
+    {
+      "id": "shot_01_hook",
+      "start": 0,
+      "end": 3,
+      "scene": "Strong hook",
+      "visual": "A creator struggles with a regular drone setup using both a phone and a controller, connection feels annoying and clumsy, then glances at the camera like this is too much work.",
+      "subtitle": "Still using your phone?",
+      "voiceover": "Still using your phone just to fly a drone?",
+      "purpose": "Pattern interrupt and pain-point hook"
+    },
+    {
+      "id": "shot_02_remote",
+      "start": 3,
+      "end": 6,
+      "scene": "Product reveal",
+      "visual": "Fast reveal of the foldable drone and the built-in screen remote, remote display turns on and feels premium for an entry-level kit.",
+      "subtitle": "Built-in screen remote",
+      "voiceover": "This one has a built-in screen remote.",
+      "purpose": "Show the differentiating feature fast"
+    },
+    {
+      "id": "shot_03_no_phone",
+      "start": 6,
+      "end": 9,
+      "scene": "No phone workflow",
+      "visual": "Hands hold the screen remote only, no phone mount, no app setup, live view already visible on the remote screen.",
+      "subtitle": "No phone needed",
+      "voiceover": "No phone holder. No app setup. Just turn it on and fly.",
+      "purpose": "Remove friction for beginners"
+    },
+    {
+      "id": "shot_04_takeoff",
+      "start": 9,
+      "end": 12,
+      "scene": "One-click takeoff",
+      "visual": "Finger presses the takeoff button on the remote, drone lifts off cleanly from a flat surface in a satisfying motion.",
+      "subtitle": "One-click takeoff",
+      "voiceover": "One button takeoff makes it way easier for beginners.",
+      "purpose": "Show simple control"
+    },
+    {
+      "id": "shot_05_hover",
+      "start": 12,
+      "end": 15,
+      "scene": "Stable hovering",
+      "visual": "Drone hovers smoothly indoors or in a calm outdoor spot, beginner-friendly energy, stable and controlled.",
+      "subtitle": "Stable hovering",
+      "voiceover": "It hovers smoothly, so beginners do not panic on the first flight.",
+      "purpose": "Build confidence"
+    },
+    {
+      "id": "shot_06_dual_camera",
+      "start": 15,
+      "end": 18,
+      "scene": "Dual camera switching",
+      "visual": "Close-up on the drone camera module with a quick switch effect between front and lower camera angles, tied to remote control action.",
+      "subtitle": "Dual camera switching",
+      "voiceover": "You can switch camera angles right from the remote.",
+      "purpose": "Show flexible viewing angles"
+    },
+    {
+      "id": "shot_07_accessories",
+      "start": 18,
+      "end": 21,
+      "scene": "Full kit flat lay",
+      "visual": "Top-down layout of the drone, screen remote, extra batteries, propellers, SD card, and carry case, clean ecommerce table setup.",
+      "subtitle": "Ready-to-fly kit",
+      "voiceover": "You get the drone, screen remote, extra batteries, propellers, SD card, and carry case.",
+      "purpose": "Increase perceived value"
+    },
+    {
+      "id": "shot_08_lifestyle_cta",
+      "start": 21,
+      "end": 30,
+      "scene": "Lifestyle + CTA",
+      "visual": "Outdoor lifestyle shots of a beginner carrying the drone kit, preparing to fly, then final hero shot with remote and accessories together, clean TikTok Shop style close.",
+      "subtitle": "Great first drone\nTap to check it out",
+      "voiceover": "For travel, backyard flying, gifts, or just learning how drones work. If you want a simple first drone, this is the one I'd check out.",
+      "purpose": "Show use cases and close with purchase intent"
+    }
+  ],
+  "voiceover": [
+    "Still using your phone just to fly a drone?",
+    "This one has a built-in screen remote.",
+    "No phone holder. No app setup. Just turn it on and fly.",
+    "One button takeoff makes it way easier for beginners.",
+    "It hovers smoothly, so beginners do not panic on the first flight.",
+    "You can switch camera angles right from the remote.",
+    "You get the drone, screen remote, extra batteries, propellers, SD card, and carry case.",
+    "For travel, backyard flying, gifts, or just learning how drones work.",
+    "If you want a simple first drone, this is the one I'd check out."
+  ],
+  "subtitles": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Still using your phone?"
+    },
+    {
+      "start": 3,
+      "end": 6,
+      "text": "Built-in screen remote"
+    },
+    {
+      "start": 6,
+      "end": 9,
+      "text": "No phone needed"
+    },
+    {
+      "start": 9,
+      "end": 12,
+      "text": "One-click takeoff"
+    },
+    {
+      "start": 12,
+      "end": 15,
+      "text": "Stable hovering"
+    },
+    {
+      "start": 15,
+      "end": 18,
+      "text": "Dual camera switching"
+    },
+    {
+      "start": 18,
+      "end": 21,
+      "text": "Ready-to-fly kit"
+    },
+    {
+      "start": 21,
+      "end": 25,
+      "text": "Great first drone"
+    },
+    {
+      "start": 25,
+      "end": 30,
+      "text": "Tap to check it out"
+    }
+  ],
+  "ai_video_prompts": [
+    {
+      "shot_id": "shot_01_hook",
+      "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, creator struggling with regular drone setup using both phone and controller, awkward setup, connection hassle, relatable frustration, fast social media pacing"
+    },
+    {
+      "shot_id": "shot_02_remote",
+      "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, fast reveal of foldable drone with built-in screen remote, remote screen powers on, strong ecommerce product reveal, satisfying close-up"
+    },
+    {
+      "shot_id": "shot_03_no_phone",
+      "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, hand holds screen remote only, no phone required, live feed visible on remote, simple beginner workflow, easy startup feel"
+    },
+    {
+      "shot_id": "shot_04_takeoff",
+      "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, finger presses takeoff button on screen remote, drone lifts off smoothly from flat ground, clear beginner-friendly action, satisfying motion"
+    },
+    {
+      "shot_id": "shot_05_hover",
+      "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, drone stable hovering in calm indoor or outdoor scene, reassuring beginner-friendly control, clean product focus"
+    },
+    {
+      "shot_id": "shot_06_dual_camera",
+      "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, close-up of front and bottom camera modules, dual camera switching effect controlled from remote, tech demo shot"
+    },
+    {
+      "shot_id": "shot_07_accessories",
+      "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, top-down flat lay of full kit with drone, screen remote, extra batteries, propellers, SD card, carry case, ecommerce unpacked layout"
+    },
+    {
+      "shot_id": "shot_08_lifestyle_cta",
+      "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, outdoor beginner lifestyle using a foldable drone kit, travel and backyard mood, final hero shot with drone remote and accessories, strong TikTok Shop call to action"
+    }
+  ],
+  "final_caption": "I didn't expect a beginner drone to be this easy to fly. Built-in screen remote, no phone needed, one-click takeoff, dual camera switching, and a full ready-to-fly kit. Great first drone to try.",
+  "hashtags": [
+    "#BeginnerDrone",
+    "#DroneTok",
+    "#TechFinds",
+    "#GadgetFinds",
+    "#TikTokShop",
+    "#CoolGadgets",
+    "#GiftIdeas",
+    "#OutdoorGadgets",
+    "#DroneCamera",
+    "#TechTok"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+   "action": {
+      "default_icon": "icons/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "popup"
+   },
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "css/chunk-vendors.css", "css/main.css", "css/content.css" ],
+      "js": [ "js/chunk-vendors.js", "js/content.js" ],
+      "matches": [ "*://*.etsy.com/c/*", "*://*.etsy.com/featured/*", "*://*.etsy.com/listing/*/*", "*://*.etsy.com/shop/*", "*://*.etsy.com/search?*", "*://*.etsy.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "Product & Shop analysis tools for all Etsy sellers. Make it easy to optimize your Etsy rank.",
+   "externally_connectable": {
+      "matches": [ "https://ehunt.ai/*", "https://api.ehunt.ai/*", "https://etsyhunt.com/*", "https://dev.ehunt.ai/*", "https://devapi.ehunt.ai/*", "https://dev.etsyhunt.com/*" ]
+   },
+   "homepage_url": "https://etsyhunt.com/",
+   "host_permissions": [ "*://*.etsyhunt.com/*" ],
+   "icons": {
+      "128": "icons/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApz7WKhnEZ+FIlP2jz0Kw8OKYbAiaxd3oZs4RH0SwANhP0Vs/dw0l4pgXuSY3iWwRpxqk80GsJ10ZSF4N9MxECg2lQ2nG2UtY3ICuD5l/FY+nRZsSLWtdBHt9gRYzQAdtWrDNl7A+EOC2clozwB4hSKFuUMMkHAXDAFdGJrEC3BHhAOQbGFEcKuJDvrpmwaCiPJDaY4sLOtCbY9Ow1ccqeTuNseYNwvP4IJnQ+IxxeNeAslYU1oZLQ/HoO12vqlTi5UC3xPR+K3V31afP+W8oYAUW0jlqJbiQUytYArDs0qJKJSII5UUlgopb5bM7rNSgcg8bnsqG61/vWgRcGJyS4wIDAQAB",
+   "manifest_version": 3,
+   "name": "EHunt - Etsy™ Rank Tool",
+   "optional_host_permissions": [ "*://*.ehunt.ai/*" ],
+   "permissions": [ "alarms", "tabs", "cookies", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3.5",
+   "web_accessible_resources": [ {
+      "matches": [ "https://www.etsy.com/*" ],
+      "resources": [ "icons/*", "fonts/*" ]
+   } ]
+}

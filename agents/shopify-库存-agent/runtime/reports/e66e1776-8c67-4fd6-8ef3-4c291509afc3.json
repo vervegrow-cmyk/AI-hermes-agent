@@ -1,0 +1,69 @@
+{
+  "batch_id": "e66e1776-8c67-4fd6-8ef3-4c291509afc3",
+  "store_name": "4ea863-98.myshopify.com",
+  "mode": "dry-run",
+  "status": "completed",
+  "processed_count": 1,
+  "updated_count": 0,
+  "skipped_count": 0,
+  "failed_count": 1,
+  "started_at": "2026-06-22T11:38:19+00:00",
+  "finished_at": "2026-06-22T11:38:32+00:00",
+  "shopify_connection": {
+    "ok": true,
+    "system": "shopify",
+    "message": "Shopify 连接验证成功。",
+    "details": {
+      "shop_id": "gid://shopify/Shop/87556227378",
+      "shop_name": "Clearance Sale Dekuch",
+      "myshopify_domain": "4ea863-98.myshopify.com",
+      "location_id": "gid://shopify/Location/102267617586"
+    }
+  },
+  "giga_connection": {
+    "ok": true,
+    "system": "giga",
+    "message": "Giga OpenAPI 连接验证成功。",
+    "details": {
+      "base_url": "https://openapi.gigab2b.com",
+      "endpoint": "/b2b-overseas-api/v1/buyer/product/skus/v1",
+      "validation_body": {
+        "skus": [
+          ""
+        ]
+      },
+      "response_type": "dict",
+      "payload_keys": [
+        "code",
+        "data",
+        "msg",
+        "recommend",
+        "requestId",
+        "subMsg",
+        "success"
+      ]
+    }
+  },
+  "location_id": "gid://shopify/Location/102267617586",
+  "missing_sku_count": 0,
+  "artifact_paths": {
+    "report": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-库存-agent\\runtime\\reports\\e66e1776-8c67-4fd6-8ef3-4c291509afc3.json",
+    "missing_skus": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-库存-agent\\runtime\\exports\\e66e1776-8c67-4fd6-8ef3-4c291509afc3-missing-skus.json",
+    "retry_items": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-库存-agent\\runtime\\exports\\e66e1776-8c67-4fd6-8ef3-4c291509afc3-retry-items.json"
+  },
+  "items": [
+    {
+      "sku": "D0102HHMC7G",
+      "shopify_variant_id": "gid://shopify/ProductVariant/51322036420914",
+      "shopify_product_id": "gid://shopify/Product/10214341181746",
+      "shopify_product_title": "Lynden Drop Leaf Dining Table",
+      "shopify_inventory_item_id": "gid://shopify/InventoryItem/53426510856498",
+      "shopify_inventory_before": 33,
+      "giga_inventory": null,
+      "action": "skip",
+      "status": "failed",
+      "reason": "Giga 库存请求失败: 该 SKU 在 Giga 平台不存在，或返回了重复数据",
+      "error_message": "Giga 库存请求失败: 该 SKU 在 Giga 平台不存在，或返回了重复数据 | 响应详情: {\"code\": \"B50004\", \"msg\": \"Data not found/duplicate detected.\", \"subMsg\": \"SKU unavailable on GIGAB2B.\", \"endpoint\": \"/b2b-overseas-api/v1/buyer/inventory/quantity/v2\", \"body\": {\"skus\": [\"D0102HHMC7G\"]}}"
+    }
+  ]
+}

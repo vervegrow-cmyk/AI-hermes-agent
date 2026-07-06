@@ -1,0 +1,92 @@
+<html lang="en" data-env="devtool" data-server="localhost">
+
+<head>
+	<!-- STATIC -->
+	<link rel="stylesheet" href="../static/css/bootstrap4.min.css">
+	<link rel="stylesheet" href="https://cdn.make.com/css/fontawesome.min.css">
+	<link rel="stylesheet" href="../static/css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" href="../static/css/imt.base.v2.css">
+	<link rel="stylesheet" href="../static/css/public.v2.css">
+	<link rel="stylesheet" href="../static/css/imt.formula.v2.css">
+	<link rel="stylesheet" href="../static/css/imt.coder.v2.css">
+	<!-- CODE MIRROR -->
+	<link rel="stylesheet" href="../lib/CodeMirror/lib/codemirror.css" />
+	<link rel="stylesheet" href="../lib/CodeMirror/addon/fold/foldgutter.css" />
+	<link rel="stylesheet" href="../lib/CodeMirror/addon/lint/lint.css" />
+	<script type="text/javascript" src="../lib/CodeMirror/lib/codemirror.js"></script>
+	<script type="text/javascript" src="../lib/CodeMirror/addon/fold/foldcode.js"></script>
+	<script type="text/javascript" src="../lib/CodeMirror/addon/fold/foldgutter.js"></script>
+	<script type="text/javascript" src="../lib/CodeMirror/addon/fold/brace-fold.js"></script>
+	<script type="text/javascript" src="../lib/CodeMirror/addon/fold/xml-fold.js"></script>
+	<script type="text/javascript" src="../lib/CodeMirror/addon/fold/indent-fold.js"></script>
+	<script type="text/javascript" src="../lib/CodeMirror/addon/fold/markdown-fold.js"></script>
+	<script type="text/javascript" src="../lib/CodeMirror/addon/fold/comment-fold.js"></script>
+	<script type="text/javascript" src="../lib/CodeMirror/addon/search/search.js"></script>
+	<script type="text/javascript" src="../lib/CodeMirror/addon/lint/lint.js"></script>
+	<script type="text/javascript" src="../lib/CodeMirror/addon/lint/yaml-lint.js"></script>
+	<script type="text/javascript" src="../lib/CodeMirror/addon/search/searchcursor.js"></script>
+	<script type="text/javascript" src="../lib/CodeMirror/mode/javascript/javascript.js"></script>
+	<script type="text/javascript" src="../lib/CodeMirror/mode/yaml/yaml.js"></script>
+
+	<!-- CUSTOM -->
+	<link rel="stylesheet" href="../css/common.css">
+</head>
+
+<body class="with-aside">
+	<aside id="sidebar" class="gradient gradient-sm-vertical">
+		<nav class="navbar navbar-inverse navbar-expand-sm">
+			<div class="navbar-header">
+				<span class="navbar-brand">
+					<img class="logo" src="../static/img/logo-light.svg" width="36" height="36" alt="Make">
+				</span>
+			</div>
+			<div id="asidenav" class="collapse navbar-collapse">
+				<div id="controls" class="navbar-nav"></div>
+				<div id="links" class="navbar-nav">
+					<div class="nav-divider"></div>
+					<span class="nav-item d-flex" id="openHelp">
+						<div class="nav-icon"><i class="far fa-fw fa-question"></i></div>
+						<div class="d-flex">
+							<p class="my-0">DevTool Help</p>
+						</div>
+					</span>
+				</div>
+			</div>
+		</nav>
+	</aside>
+	<main id="content" class="container-full content content-dashboard">
+	</main>
+	<main id="unsupportedResolution" class="pure-u-1-1">
+		<section class="col px-0">
+			<div class="content-box">
+				<div>
+					<ul class="list-group list-unstyled my-0 mr-0 no-border-radius fullheight aside-unshift">
+						<li class="my-auto text-center font-weight-bold text-secondary lead">
+							The console window is too narrow. <br>
+							Please switch to the horizontal layout.
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script crossorigin="" type="text/javascript" src="../static/js/jquery3.min.js"></script>
+	<script crossorigin="" type="text/javascript" src="../static/js/async.min.js"></script>
+	<script crossorigin="" type="text/javascript" src="../static/js/popper.min.js"></script>
+	<script crossorigin="" type="text/javascript" src="../static/js/moment.min.js"></script>
+	<script crossorigin="" type="text/javascript" src="../static/js/bootstrap4.min.js"></script>
+	<script crossorigin="" type="text/javascript" src="../static/js/bootstrap-datetimepicker.min.js"></script>
+	<script crossorigin="" type="text/javascript" src="../static/js/public.v2.js"></script>
+	<script crossorigin="" type="text/javascript" src="../static/js/imt.base.v2.js"></script>
+	<script crossorigin="" type="text/javascript" src="../static/lang/imt.base.en.js"></script>
+	<script crossorigin="" type="text/javascript" src="../static/lang/imt.iml.en.js"></script>
+	<script crossorigin="" type="text/javascript" src="../static/js/dateparser.js"></script>
+	<script crossorigin="" type="text/javascript" src="../static/js/imt.iml.js"></script>
+	<script crossorigin="" type="text/javascript" src="../static/js/forman.umd.js"></script>
+	<script type="module" src="../js/index.mjs"></script>
+	<script src="../lib/CodeMirror/run.js"></script>
+	<script src="../lib/YAML/js-yaml.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1411 @@
+.mango-notify{
+    display:none;
+    background: #5eb95e;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 20px;
+    z-index: 1000000000;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+.mango-notify.error{
+    background:#dd514c;
+}
+.mango-fetch{
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    padding:15px;
+    /* compat taobao */
+    z-index:1000000000000;
+    font-size:16px;
+    text-align:center;
+    background-color:rgba(14, 144, 210, 0.6);
+    color:#fff;
+    font-family:sans-serif;
+}
+.mango-fetch .logo{
+    position:absolute;
+    left:30px;
+    top:7px;
+}
+.mango-fetch .options{
+    position:absolute;
+    right:80px;
+    margin-top:4px;
+}
+.mango-fetch .mango-close{
+    position:absolute;
+    right:30px;
+    width:30px;
+    height:30px;
+    line-height:30px;
+    color:#ddd;
+    background-color:#333;
+    border-radius:15px;
+    cursor:pointer;
+    box-shadow:inset 2px 2px 7px 2px #000;
+    font-size:1.25em;
+    opacity:0.6;
+    text-shadow:1px 1px 5px #000;
+}
+.m-btn{
+    display:inline-block;
+    background-color:#428bca;
+    border-radius:5px;
+    padding:2px 8px;
+    color: #fff !important;
+    font-size:13px;
+    line-height:24px;
+    text-decoration:none;
+}
+.m-btn:hover{
+  color:#fff;
+  text-decoration:none;
+}
+.m-btn-warning{
+    margin-left:15px;
+    background-color:#f0ad4e;
+}
+.mango-btn, .mango-link-next{
+    opacity: 0;
+    position:absolute!important;
+    /* top:20px; */
+    border-radius:5px;
+    padding:0 8px 1px!important;
+    /* background-color:rgba(0,0,0, 0.7)!important; */
+    color:#fff!important;
+    cursor:pointer;
+    /* line-height:20px!important; */
+    font-size:12px!important;
+    white-space:nowrap;
+    /* z-index:1000000; */
+    z-index: 1000000000000;
+    background-color: #fd8401 !important;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px !important;
+    /* pointer-events: none; */
+}
+.mango-btn.success, .mango-link-next.success{
+    background-color:#5eb95e!important;
+}
+.mango-item:hover .mango-btn{
+    display:block!important;
+}
+
+.mango-link-next:hover{
+    display:block!important;
+}
+.mango-link:hover+.mango-link-next{
+    display:block!important;
+}
+.mango-goods{
+    position: fixed;
+    right: 40px;
+    top: 20vh;
+    width: 220px;
+    border: 1px solid #d5d5d5;
+    background-color: #fff;
+    z-index: 99999999;
+    cursor: move;
+}
+.mango-goods-title{
+    text-align: center;
+    background-color: #428bca;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    font-size: 14px;
+}
+.mango-goods-info{
+    box-sizing: border-box;
+    padding: 0 10px 10px;
+}
+.mango-goods-info img{
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+.mango-goods-info p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.mango-goods-info p span,
+.mango-goods-flex span{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.mango-goods-flex{
+    display: flex;
+}
+.mango-goods-flex>div{
+    margin-top: 10px;
+    flex: 1;
+    font-size: 12px;
+}
+.mango-order1688address{
+    padding: 10px;
+}
+.mango-address-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 5px 0;
+}
+.mango-labelwidth{
+    width: 40px;
+}
+.mango-newfetch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    padding: 10px 15px !important;
+    background: linear-gradient(278deg,#3797d7 0%, #1b7fc2 100%);
+    border-radius: 8px;
+    color:#fff;
+    font-family: sans-serif;
+    z-index:1000000000000;
+    font-size: 14px;
+    bottom: 64px;
+    right: auto;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+.mango-cate-fetch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    padding: 10px 15px !important;
+    background: linear-gradient(278deg,#3797d7 0%, #1b7fc2 100%);
+    border-radius: 8px;
+    color:#fff;
+    font-family: sans-serif;
+    z-index:1000000000000;
+    font-size: 14px;
+    bottom: 64px;
+    right: auto;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+.mango-fetch-progress{
+    margin-left: 6px;
+}
+.mango-cate-fetch.rightbottom{
+    flex-direction: column;
+    width: 130px;
+    right: 20px;
+    bottom: 20px;
+    left: auto;
+    transform: translateX(0);
+}
+.mango-newfetch.rightbottom{
+    flex-direction: column;
+    width: 120px;
+    right: 20px;
+    bottom: 20px;
+    left: auto;
+    transform: translateX(0);
+}
+.mango-newfetch-log{
+    width: 16px;
+    height: auto;
+    margin-right: 6px !important;
+    vertical-align: middle;
+}
+.mango-newfetch .mango-close,.mango-cate-fetch .mango-close{
+    /* width:30px; */
+    height:30px;
+    line-height: 30px;
+    padding-right: 10px;
+    color:#fff;
+    border-radius:15px;
+    cursor:pointer;
+    font-size: 18px;
+    margin-left: 20px !important;
+}
+.mango-logotitle{
+    height: 22px;
+    color:#fff !important;
+    display: flex;
+    align-items: center;
+}
+.rightbottom .mango-logotitle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid;
+    padding-bottom: 6px;
+}
+.mango-checkinput{
+    display: flex;
+    align-items: center;
+    height: 22px;
+}
+.rightbottom .mango-checkinput{
+    justify-content: flex-start;
+    padding-top: 6px;
+    width: 100%;
+}
+
+.fetch-btn{
+    display:inline-block;
+    background-color:#fff;
+    border-radius:5px;
+    padding:0 8px !important;
+    color: #2679B5 !important;
+    font-size:14px;
+    line-height: 30px;
+    height: 30px;
+    text-decoration:none;
+    margin-left: 12px !important;
+    border: none;
+    cursor: pointer;
+}
+.rightbottom .fetch-btn{
+    width: 110px;
+    margin-left: 0 !important;
+    margin-top: 10px !important;
+    text-align: center;
+}
+.mango-toggle-view{
+    display: none;
+    position: absolute;
+    bottom: 30px;
+    width: 100px;
+    left: 12px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
+    border-radius:5px;
+}
+.mango-toggle-view .fetch-text-btn{
+    padding:0 8px !important;
+    color: #2679B5 !important;
+    font-size:14px;
+    line-height: 26px;
+    height: 26px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+.rightbottom .mango-toggle-view{
+    left: -102px;
+    top: 10px;
+    bottom: auto;
+}
+.mango-caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.mango-caret-top{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-bottom: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.mango-hoverbox{
+    position: relative;
+}
+.mango-hoverbox:hover .mango-toggle-view{
+    display: block;
+}
+.rightbottom .mango-close{
+    display: none;
+}
+.fetch-btn-warning{
+    color: #fff !important;
+    background-color:#f0ad4e;
+}.mango-modal{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2000;
+    transform-origin: 50% 50%;
+    transition: all 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+.mango-modal.show{
+    visibility: visible;
+    opacity: 1;
+}
+.mango-modal.center{
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    background: rgba(0, 0, 0, 0.5);
+}
+.mango-modal-dialog {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    width: 500px;
+    margin: 30px auto;
+}
+.mango-modal-content {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 2px;
+}
+.mango-modal-body {
+    max-height: 420px;
+    padding: 15px;
+    overflow: auto;
+}
+.mango-temuseller{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 999999;
+    width: 200px;
+    font-size: 14px;
+}
+.mango-temuseller .mango-temuseller-header{
+    background-color: #1b7fc2;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.mango-temuseller-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 10px;
+}
+.mango-temuseller-setting{
+    display:inline-block;
+    background-color:#2679B5;
+    border-radius:5px;
+    padding:0 8px !important;
+    color: #fff;
+    font-size:14px;
+    line-height: 30px;
+    height: 30px;
+    text-decoration:none;
+    margin-left: 12px !important;
+    width: 100px;
+    text-align: center;
+}
+.mango-temuseller-login{
+    width: 40px !important;
+    color: #fff;
+    background-color: #5eb95e !important;
+}
+.mango-temuseller-refersh{
+    width: 90px !important;
+    color: #2679B5 !important;
+    background-color: #fff !important;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.mango-temuseller-icon{
+    padding: 0 6px;
+    cursor: pointer;
+    position: relative;
+}
+.mango-temuseller-tooltip{
+    padding: 10px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    color: #fff;
+    font-size: 12px;
+    width: 220px;
+    position: absolute;
+    display: none;
+    border-radius: 4px;
+    bottom: 26px;
+    left: -192px;
+}
+.mango-temuseller-tp{
+    width: 16px;
+    height: 16px;
+}
+.mango-temuseller-tp:hover .mango-temuseller-tooltip{
+    display: block;
+}
+.mango-temusellermodel{
+    width: 1000px;
+    position: fixed;
+    right: auto;
+    left: 50%; 
+    margin-left: -500px !important;
+    font-size: 14px;
+    top: 200px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 300px;
+    z-index: 99999999999;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.mango-temusellermodel h3{
+    text-align: center;
+}
+.mango-temusellermodel-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mango-temusellermodel-header>.mango-temusellermodel-viewbox{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    user-select: none;
+}
+.mango-temusellermodel-viewbox.mango-active{
+    color: #1b7fc2;
+}
+.mango-temusellermodel-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 10px;
+}
+.mango-temusellermodel-from{
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0 10px 0 60px;
+    display: none;
+}
+.mango-temusellermodel-nav{
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.mango-temusellermodel-nav>li{
+    box-sizing: border-box;
+    list-style: none;
+    width: 100%;
+    padding: 10px 6px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+}
+.mango-temusellermodel-nav>li.mango-active{
+    color: #1b7fc2;
+}
+.mango-block{
+    display: block;
+}
+.mango-temusellermodel-table{
+    width: 600px;
+}
+.mango-temusellermodel-alert-warning{
+    padding: 5px 12px;
+    font-size: 12px;
+    margin: 10px 0;
+    border: 1px solid #faebcc;
+    border-radius: 4px;
+    background-color: #fcf8e3;
+    color: #8a6d3b;
+    display: inline-block;
+}
+.mango-temusellermodel-content{
+    padding: 10px 0;
+}
+.mango-temusellermodel-fetchtable{
+    display: none;
+}
+.mango-fail{
+    color: #dd514c;
+}
+.mango-success{
+    color: #5eb95e;
+}
+.mango-temusellermodel-close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.mango-temusellermodel-date{
+    position: absolute;
+    right: 44px;
+    top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.mango-temuseller-delauth{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: #ccc;
+    color: #333;
+}
+.mango-temusellermodel-shopn{
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+}
+.mango-temusellermodel-isSemi{
+    color: #8a6d3b;
+}
+.mango-temusellermodel-icon{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: none;
+}
+.mango-temusellermodel-icon.success{
+    border-color: #a5dc86;
+}
+.mango-temusellermodel-line{
+    position: absolute;
+    height: 1px;
+    border-radius: 2px;
+    background-color: #a5dc86;
+    z-index: 2;
+}
+.mango-temusellermodel-line.tip{
+    width: 5px;
+    left: 3px;
+    top: 8px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.mango-temusellermodel-line.long{
+    width: 9px;
+    right: 1.5px;
+    top: 7px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.mango-opacity-zero{
+    opacity: 0;
+}
+.mango-fetch-warp{
+    position: relative;
+}
+.mango-checkbox-card{
+    display: none;
+}
+.mango-fetch-warp:hover .mango-checkbox-card{
+    display: block;
+}
+.mango-fetch-warp.mango-checked .mango-checkbox-card{
+    display: block;
+}
+
+.mango-checkbox-card input{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+}
+.mango-checkbox-card input[type="checkbox"]:not(:checked) {
+    appearance: none; /* 移除默认样式 */
+    -webkit-appearance: none; /* Safari 和 Chrome */
+    -moz-appearance: none; /* Firefox */
+    background-color: #fff; /* 背景颜色 */
+    outline: none !important;
+    border-radius: 4px;
+}
+.mango-checkbox-card input[type=checkbox]::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: 2px solid #f4a341;
+    border-radius: 2px;
+  }
+.mango-checkbox-card input[type=checkbox]:checked::after {
+    content: "✓";
+    background: #fff;
+    color: #f4a341;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.mango-card-line{
+    position: absolute;
+    background-color: #f4a341;
+    z-index: 10;
+}
+.mango-card-line.topline{
+    width: 100%;
+    height: 2px;
+    top: 0px;
+    left: 0;
+}
+.mango-card-line.leftline{
+    width: 2px;
+    height: 100%;
+    top: 0px;
+    left: 0;
+}
+.mango-card-line.bottomline{
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+}
+.mango-card-line.rightline{
+    width: 2px;
+    height: 100%;
+    top: 0px;
+    right: 0;
+}
+.mango-dialog-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    outline: 0;
+    z-index: 9999999999;
+}
+.mango-dialog{
+    width: 460px;
+    margin: 100px auto;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    background-clip: padding-box;
+    outline: 0;
+}
+.mango-dialog-header{
+    padding: 10px;
+    font-size: 16px;
+}
+.mango-dialog-body{
+    padding: 15px;
+    color: #dd514c;
+}
+.mango-dialog-footer{
+    padding-top: 12px;
+    padding-bottom: 14px;
+    border-top-color: #e4e9ee;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #eff3f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mango-dialog-footer .fetch-btn{
+    border-color: #ccc;
+}
+.fetch-btn.mango-primary{
+    color: #fff !important;
+    background-color: #428bca !important;
+    border-color: #357ebd !important;
+}
+.common-word-box{
+    display: none !important;
+}
+.mango-pddftext{
+    margin-left: 10px;
+    margin-right: -10px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.rightbottom .mango-pddftext{
+    margin-left: 0;
+    width: 110px;
+}
+.mango-pddmodal{
+    width: 326px;
+    margin: 200px auto;
+    position: relative;
+}
+.mango-pddmodal>img{
+    width: 100%;
+}
+.mango-pdddialog{
+    position: absolute;
+    bottom: 10px;
+    border-radius: 16px;
+    /* box-shadow: 0px 4px 5.3px 0px rgba(255,255,255,0.52) inset; ; */
+    /* background: linear-gradient(185deg,#2194e0 4%, #afdfff 21%, #ffffff 91%), linear-gradient(330deg,#c5fff5 0%, rgba(198,255,238,0.00) 100%); */
+    background-clip: padding-box;
+    outline: 0;
+}
+.mango-pdddialog-header{
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #011535;
+    font-weight: bold;
+}
+.mango-pdddialog-body{
+    padding: 0 30px 15px;
+    color: rgba(0,0,0,0.4);;
+    font-size: 14px;
+    text-align: center;
+}
+.mango-pdddialog-body span{
+    color: #E33700;
+}
+.mango-pdddialog-footer{
+    padding-top: 12px;
+    padding-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mango-pdddialog-footer .fetch-btn{
+    border: 1px solid #ccd1d8;
+    border-radius: 4px;
+    padding:0 16px !important;
+}
+.mango-pdddialog-footer .fetch-pddbtn{
+    background: linear-gradient(281deg,#55c2ff 0%, #007fd5 100%) !important;
+    border-radius: 4px;
+    color: #fff;
+    display:inline-block;
+    border-radius:5px;
+    padding:0 16px !important;
+    font-size:14px;
+    line-height: 30px;
+    height: 30px;
+    text-decoration:none;
+    margin-left: 12px !important;
+    border: none;
+    cursor: pointer;
+}
+
+/* 遮罩层 */
+.mango-shelves-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+.mango-shelves-overlay.mango-shelves-active {
+    display: flex;
+}
+
+/* 弹窗主体 */
+.mango-shelves-modal {
+    position: relative;
+    width: 1180px;
+    max-height: 80vh;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    animation: mango-shelves-modal-in 0.3s ease;
+}
+
+@keyframes mango-shelves-modal-in {
+    from {
+        opacity: 0;
+        transform: scale(0.9) translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* 弹窗头部 */
+.mango-shelves-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background: linear-gradient(135deg, #fff8f0 0%, #fff 100%);
+    border-bottom: 1px solid #eee;
+}
+
+.mango-shelves-modal-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.mango-shelves-close-btn {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.mango-shelves-close-btn:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.mango-shelves-close-btn svg {
+    width: 20px;
+    height: 20px;
+    stroke: #999;
+    transition: stroke 0.2s;
+}
+
+.mango-shelves-close-btn:hover svg {
+    stroke: #666;
+}
+
+/* 弹窗内容区 */
+.mango-shelves-modal-body {
+    padding: 20px;
+    max-height: calc(80vh - 130px);
+    overflow-y: auto;
+}
+
+/* 区块标题 */
+.mango-shelves-section-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 16px;
+    padding-left: 12px;
+    border-left: 3px solid #007fd5;
+}
+
+/* 表单组 */
+.mango-shelves-form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.mango-shelves-form-label {
+    width: 100px;
+    font-size: 14px;
+    color: #666;
+    flex-shrink: 0;
+}
+
+.mango-shelves-required {
+    color: #ff4d4f;
+    margin-right: 2px;
+}
+
+/* 输入框 */
+.mango-shelves-input {
+    flex: 1;
+    height: 36px;
+    padding: 0 12px;
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.2s;
+}
+
+.mango-shelves-input:focus {
+    border-color: #007fd5;
+    box-shadow: 0 0 0 2px rgba(255, 152, 0, 0.1);
+}
+
+.mango-shelves-input::placeholder {
+    color: #bfbfbf;
+}
+
+/* 下拉选择 */
+.mango-shelves-select {
+    height: 36px;
+    padding: 0 12px;
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 100%;
+}
+
+.mango-shelves-select:focus {
+    border-color: #007fd5;
+    box-shadow: 0 0 0 2px rgba(255, 152, 0, 0.1);
+}
+
+/* 店铺信息 */
+.mango-shelves-shop-info {
+    margin-left: 16px;
+    font-size: 13px;
+    color: #999;
+}
+
+/* 单选选项组 */
+.mango-shelves-radio-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+}
+
+.mango-shelves-radio-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.mango-shelves-radio-item input {
+    display: none;
+}
+
+.mango-shelves-radio-circle {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
+    margin-right: 6px;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.mango-shelves-radio-item input:checked + .mango-shelves-radio-circle {
+    border-color: #007fd5;
+}
+
+.mango-shelves-radio-item input:checked + .mango-shelves-radio-circle::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background-color: #007fd5;
+    border-radius: 50%;
+}
+
+.mango-shelves-radio-text {
+    font-size: 14px;
+    color: #333;
+}
+
+/* 品牌自定义输入 */
+.mango-shelves-brand-custom {
+    display: none;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.mango-shelves-brand-custom.mango-shelves-visible {
+    display: flex;
+}
+
+.mango-shelves-brand-custom .mango-shelves-input {
+    width: 160px;
+}
+
+/* 提示文字 */
+.mango-shelves-tip {
+    margin-left: 12px;
+    font-size: 12px;
+    color: #999;
+}
+
+.mango-shelves-tip-orange {
+    margin-top: 8px;
+    padding: 8px 12px;
+    background-color: #fff7e6;
+    border: 1px solid #ffd591;
+    border-radius: 6px;
+    font-size: 13px;
+    color: #fa8c16;
+    margin-left: 112px;
+    width: 320px;
+}
+
+.mango-shelves-tip-orange a {
+    color: #ff6b00;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.mango-shelves-tip-orange a:hover {
+    text-decoration: underline;
+}
+
+/* SKU表格区域 */
+.mango-shelves-sku-section {
+    margin-top: 20px;
+}
+
+.mango-shelves-sku-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.mango-shelves-sku-table thead {
+    background-color: #fafafa;
+}
+
+.mango-shelves-sku-table th {
+    padding: 12px 8px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #666;
+    text-align: left;
+    border-bottom: 1px solid #e8e8e8;
+    position: relative;
+}
+
+.mango-shelves-sku-table th:first-child {
+    padding-left: 16px;
+    width: 240px;
+}
+
+.mango-shelves-sku-table th:not(:first-child):not(:last-child) {
+    text-align: center;
+}
+.mango-shelves-sku-table th:nth-child(2), 
+.mango-shelves-sku-table th:nth-child(3) {
+    width: 168px;
+}
+.mango-shelves-sku-table th:nth-child(4), 
+.mango-shelves-sku-table th:nth-child(5), 
+.mango-shelves-sku-table th:nth-child(6) {
+    width: 100px;
+}
+
+.mango-shelves-sku-table th:last-child {
+    text-align: center;
+}
+
+.mango-shelves-sku-table td {
+    padding: 8px;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: middle;
+}
+
+.mango-shelves-sku-table tr:last-child td {
+    border-bottom: none;
+}
+
+.mango-shelves-sku-table tbody tr:hover {
+    background-color: #fafafa;
+}
+
+/* SKU编码单元格 */
+.mango-shelves-sku-code-cell {
+    padding-left: 16px !important;
+}
+
+.mango-shelves-sku-code-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mango-shelves-sku-icon {
+    width: 32px;
+    height: 32px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.mango-shelves-sku-icon::before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(135deg, #e0e0e0 0%, #f0f0f0 100%);
+    border-radius: 2px;
+}
+
+.mango-shelves-sku-icon .mango-shelves-remove-icon {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    width: 16px;
+    height: 16px;
+    background-color: #ff4d4f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mango-shelves-sku-icon .mango-shelves-remove-icon svg {
+    width: 10px;
+    height: 10px;
+    stroke: #fff;
+}
+
+.mango-shelves-sku-text {
+    font-size: 13px;
+    color: #999;
+}
+
+/* 表格内的输入框 */
+.mango-shelves-table-input {
+    width: 100%;
+    height: 32px;
+    padding: 0 8px;
+    font-size: 13px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.mango-shelves-table-input:focus {
+    border-color: #007fd5;
+    box-shadow: 0 0 0 2px rgba(255, 152, 0, 0.1);
+}
+
+/* 尺寸输入组 */
+.mango-shelves-dimension-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.mango-shelves-dimension-input {
+    width: 60px;
+    height: 32px;
+    padding: 0 4px;
+    font-size: 13px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.mango-shelves-dimension-input:focus {
+    border-color: #007fd5;
+    box-shadow: 0 0 0 2px rgba(255, 152, 0, 0.1);
+}
+
+.mango-shelves-dimension-separator {
+    font-size: 12px;
+    color: #999;
+}
+
+.mango-shelves-dimension-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mango-shelves-dimension-icon svg {
+    width: 18px;
+    height: 18px;
+    stroke: #999;
+    transition: stroke 0.2s;
+}
+
+.mango-shelves-dimension-icon:hover svg {
+    stroke: #007fd5;
+}
+
+/* 弹窗底部 */
+.mango-shelves-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 16px 20px;
+    background-color: #fafafa;
+    border-top: 1px solid #eee;
+}
+
+.mango-shelves-btn {
+    height: 36px;
+    padding: 0 24px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+}
+
+.mango-shelves-btn-cancel {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    color: #666;
+}
+
+.mango-shelves-btn-cancel:hover {
+    border-color: #007fd5;
+    color: #007fd5;
+}
+
+.mango-shelves-btn-confirm {
+    background: linear-gradient(135deg, #007fd5 0%, #55c2ff 100%);
+    color: #fff;
+}
+
+/* .mango-shelves-btn-confirm:hover {
+    box-shadow: 0 4px 12px rgba(255, 152, 0, 0.4);
+} */
+
+/* 滚动条样式 */
+.mango-shelves-modal-body::-webkit-scrollbar {
+    width: 6px;
+}
+
+.mango-shelves-modal-body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.mango-shelves-modal-body::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+}
+
+.mango-shelves-modal-body::-webkit-scrollbar-thumb:hover {
+    background: #bbb;
+}
+.mango-shelves-sku-load{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.mango-shelves-batch{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: stretch;
+    display: none;
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+.mango-shelves-batch.mango-shelves-visible {
+    display: flex;
+}
+.mango-shelves-hidden {
+    display: none;
+}
+.mango-shelves-batchinput{
+    height: 32px;
+    width: calc(100% - 32px);
+}
+.mango-shelves-width200{
+    width: 200px;
+}
+.mango-shelves-refresh-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+}
+
+.mango-shelves-refresh-icon.mango-shelves-spinning {
+    animation: mango-shelves-spin 0.8s ease;
+}
+
+@keyframes mango-shelves-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* 加载层 */
+.mango-shelves-loading {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.85);
+    z-index: 10010;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.mango-shelves-loading.mango-shelves-active {
+    display: flex;
+}
+
+.mango-shelves-loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #e8e8e8;
+    border-top-color: #007fd5;
+    border-radius: 50%;
+    animation: mango-shelves-loading-spin 0.8s linear infinite;
+}
+
+@keyframes mango-shelves-loading-spin {
+    to { transform: rotate(360deg); }
+}
+
+.mango-shelves-loading-text {
+    font-size: 14px;
+    color: #999;
+}

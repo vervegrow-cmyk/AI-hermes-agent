@@ -1,0 +1,14 @@
+{
+   "desc": {
+      "message": "Proširite svoje upute za ChatGPT s relevantnim rezultatima pretraživanja weba putem web pregledavanja."
+   },
+   "name": {
+      "message": "WebChatGPT: Biblioteka upita s pristupom webu"
+   },
+   "sn": {
+      "message": "WebChatGPT"
+   },
+   "toggleWebAccess": {
+      "message": "Preklopi web pristup"
+   }
+}

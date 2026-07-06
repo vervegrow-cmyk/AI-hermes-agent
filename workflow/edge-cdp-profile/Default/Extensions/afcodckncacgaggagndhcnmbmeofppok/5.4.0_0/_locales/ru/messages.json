@@ -1,0 +1,34 @@
+{
+   "appDesc": {
+      "description": "одним щелчком сохраните беседы ChatGPT в Evernote, легко ищите историю ChatGPT. Попробуйте сохранить историю ChatGPT в Evernote сейчас!",
+      "message": "одним щелчком сохраните беседы ChatGPT в Evernote, легко ищите историю ChatGPT. Попробуйте сохранить историю ChatGPT в Evernote сейчас!"
+   },
+   "appName": {
+      "description": "сохранить историю ChatGPT в evernote",
+      "message": "сохранить историю ChatGPT в evernote"
+   },
+   "popupTagLabel": {
+      "description": "теги",
+      "message": "теги"
+   },
+   "popupTitle": {
+      "description": "Сохранить ChatGPT в Evernote",
+      "message": "Сохранить ChatGPT в Evernote"
+   },
+   "popupTitleLabel": {
+      "description": "заголовок",
+      "message": "заголовок"
+   },
+   "saveButton": {
+      "description": "Сохранить сейчас",
+      "message": "Сохранить сейчас"
+   },
+   "upgradeButton": {
+      "description": "Обновить",
+      "message": "Обновить"
+   },
+   "upgradeTips": {
+      "description": "Обновитесь до Pro, наслаждайтесь неограниченным",
+      "message": "Обновитесь до Pro, наслаждайтесь неограниченным"
+   }
+}

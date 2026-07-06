@@ -1,0 +1,398 @@
+// #region VARIABLES
+$color-active:  #3175E0;
+$color-active-hover: #CADCF7;
+$color-active-text: #FAFAFA;
+$color-tabs: rgba(0,0,0,0.03);
+$color-tab-background: #FFFFFF;
+$color-error: #EB5768;
+$color-warning: #FECD5F;
+$color-success: #71AC34;
+$color-border: #CCCCCC;
+$color-border-light: #D0D0D0;
+$color-item-odd: $color-tab-background;
+$color-item-even: #F5F5F5;
+$color-gradient-from: #E7E7E7;
+$color-gradient-to: #EFEFEF;
+$color-navbar-text: #333333;
+$color-searchaction-hover: $color-navbar-text;
+$color-aside-active: rgba(0,0,0,0.3);
+$color-searchaction-enabled: $color-success;
+$color-searchaction-enabled-hover: #5d8e2b;
+
+$color-tool-card-backgroud: #eeeeee;
+$color-detail-header-button: #dbdbdb;
+$color-detail-header-button-hover: #c7c7c7;
+$color-detail-header-button-active: #aaaaaa;
+
+$tool-add-foreground: #868686;
+$tool-add-background: #f8f8f8;
+// #endregion
+// #region GLOBAL SETTINGS
+.gradient.gradient-sm-vertical {
+	background: linear-gradient(to bottom,$color-gradient-from 0%, $color-gradient-to 100%);
+	color: $color-navbar-text;
+	/*
+		Font awesome line-height property override.
+		When this is not set, the .far class forces 1 line heigth
+		which leads to break the nav bar.
+	*/
+	#controls, #links {
+		i.far {
+			line-height: 1.5;
+		}
+	}
+	nav {
+		height: 100%;
+	}
+}
+
+body {
+	user-select: none;
+	> main#content {
+		font-size: 0.75rem;
+		.col, .col-6 {
+			.list-group {
+				overflow-y: scroll;
+				overflow-x: hidden;
+			}
+		}
+		article.inactive {
+			display: none;
+		}
+		section {
+			height: 100vh;
+		}
+	}
+	> aside > .navbar > .navbar-collapse > .navbar-nav > .nav-item {
+		color: $color-navbar-text;
+		&:active {
+			background-color: $color-aside-active;
+		}
+	}
+	.selectable {
+		user-select: text;
+	}
+}
+// #endregion
+// #region CUSTOM COMPONENTS
+#moduleListItems, #livestreamEvents, #toolsWrapper {
+	height: calc(100% - 33px);
+	span.module-search-fulltext, span.event-search-fulltext, span.tool-search-fulltext {
+		display: none;
+	}
+	div.module-theme {
+		border-radius: 100%;
+		transform: scale(.9, .9);
+		div.module-icon {
+			transform: scale(.7, .7);
+			img.module-icon-img {
+				max-width: 100vw;
+				max-height: 100vh
+			}
+		}
+	}
+	div.module-number {
+		display: flex;
+		flex-direction: column;
+		width: 1.2rem;
+		height: 1.2rem;
+		justify-content: center;
+		text-align: center;
+		border-width: 1px;
+		border-style: solid;
+	}
+}
+
+#cycleListItems {
+	height: 100%;
+	span.operation-status-icon {
+		font-size: 1.2rem;
+		&.success {
+			color: $color-success
+		}
+		&.warning {
+			color: $color-warning
+		}
+		&.error {
+			color: $color-error
+		}
+	}
+	li.list-group-item.odd {	
+		background-color: $color-item-odd;	
+	}	
+	li.list-group-item.even {	
+		background-color: $color-item-even;	
+	}
+}
+
+#livestreamEvents {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	.event-status-icon {
+		font-size: 0.9rem;
+		i {
+			&.success {
+				color: $color-success
+			}
+			&.warning {
+				color: $color-warning
+			}
+			&.error {
+				color: $color-error
+			}
+		}
+	}
+	div.module-bubble {
+		width: 0.85rem;
+		height: 0.85rem;
+		flex-shrink: 0;
+		font-size: 0.7rem;
+		text-align: center;
+		vertical-align: middle;
+		border-radius: 2px;
+		color: $color-active-text;
+	}
+}
+
+#toolWindow {
+	.tool-finished {
+		font-size: 2rem;
+		color: $color-success;
+	}
+}
+
+#cycleListItems, #livestreamEvents {
+	li.list-group-item.odd {	
+		background-color: $color-item-odd;	
+	}	
+	li.list-group-item.even {	
+		background-color: $color-item-even;	
+	}
+}
+
+#eventListItems, #livestreamDetails, #toolWindow {
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#toolsWrapper {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	.card {
+		height: 8rem;
+		.tool-icon{
+			font-size: 3rem;
+		}
+	}
+}
+// #endregion
+// #region OVERRIDES
+#moduleListItems, #cycleListItems, #livestreamEvents {
+	li.list-group-item.active {
+		background-color: $color-active;
+		.text-secondary {
+			color: $color-active-text !important;
+		}
+	}
+	li.list-group-item.active:hover {
+		background-color: $color-active;
+	}
+	li.list-group-item:hover {
+		background-color: $color-active-hover;
+	}
+}
+
+#eventListItems, #livestreamDetails {
+	.nav-tabs .nav-item .nav-link:before {
+		display: none;
+	}
+	.nav-tabs .nav-item .nav-link {
+		text-transform: none;
+		border-bottom-color: $color-border-light;
+		border-bottom-style: solid;
+		border-bottom-width: 2px;
+		margin-bottom: -2px;
+	}
+	.nav-tabs {
+		border-bottom-color: $color-border-light;
+		border-bottom-style: solid;
+		border-bottom-width: 2px;
+		background-color: $color-tabs;
+	}
+	.nav-tabs .nav-item .nav-link.active {
+		border-bottom-color: $color-active;
+	}
+}
+
+#livestreamDetails {
+	.livestream-detail {
+		background-color: $color-tab-background;
+	}
+}
+
+#toolWindow, #toolsWrapper {
+	.btn-primary {
+		background-color: $color-active;
+		border-color: $color-active;
+	}
+	.tool-add {
+		color: $tool-add-foreground;
+		border-color: $tool-add-foreground;
+		border-style: solid;
+		border-width: 3px;
+		background: $tool-add-background;
+		&:hover {
+			background: $tool-add-foreground;
+			color: $tool-add-background;
+		}
+	}
+}
+
+// Hide coder no matter what
+.i-panel.i-coder-pills {
+	display: none !important;
+}
+
+// #endregion
+// #region SEARCH
+#moduleSearch, #livestreamEventsSearch, #toolsSearch {
+	width: 100%;
+	height: 32px;
+	border: none;
+}
+
+#moduleListSearchBar, #livestreamEventsSearchBar, #toolsSearchBar {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: $color-border-light;
+	div.searchbar-action {
+		font-size: 1rem;
+		&:hover {
+			color: $color-searchaction-hover !important;
+		}
+		&.searchbar-action-enabled {
+			color: $color-success !important;
+			&:hover {
+				color: $color-searchaction-enabled-hover !important;
+			}
+		}
+	}
+}
+// #endregion
+// #region CODEMIRROR
+.CodeMirror {
+	height: auto;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	font-size: 0.95rem;
+	border-color: $color-border;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.CodeMirror-scroll {
+	height: auto;
+}
+
+.CodeMirror-cursor {
+	display: none;
+}
+
+.cursor-enable {
+	.CodeMirror-cursor {
+		display: initial;
+	}
+}
+// #endregion
+// #region LAYOUT WRAPPING
+main#unsupportedResolution {
+	display: initial;
+	height: 100vh;
+}
+main#content, aside#sidebar {
+	display: none;
+}
+@media screen and (min-width: 59em) {
+	main#unsupportedResolution {
+		display: none;
+	}
+	main#content, aside#sidebar {
+		display: initial;
+	}
+}
+// #endregion
+// #region BORDER CONTROL AND SIZINGS
+section.bc-center {
+	border-color: $color-border;
+	border-left-width: 1px;
+	border-left-style: solid;
+	margin-left: -1px;
+	margin-right: -1px;
+}
+
+section.bc-right {
+	border-color: $color-border;
+	border-left-width: 1px;
+	border-left-style: solid;
+}
+
+.border-bottom {
+	border-bottom-color: $color-border;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-radius: 0px;
+}
+
+.border-right {
+	border-right-color: $color-border;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-radius: 0px;
+}
+
+.list-group.no-border-radius > .list-group-item{
+	border-radius: 0;
+}
+
+.fullheight {
+	height: 100vh;
+}
+
+.stick-with-prev {
+	line-height: 1;
+}
+
+.detail-header-button {
+	font-size: 0.69rem;
+	border-radius: 3px;
+	background-color: $color-detail-header-button;
+	box-shadow: none;
+	border: none;
+	flex-shrink: 0;
+	&:hover {
+		background-color: $color-detail-header-button-hover;
+	}
+	&:active {
+		background-color: $color-detail-header-button-active;
+		outline: none;
+	}
+}
+
+.condensed {
+	letter-spacing: -1px;
+}
+
+.very-condensed {
+	letter-spacing: -2px;
+}
+
+.aside-unshift {
+	margin-left: -78px;
+}
+
+#livestreamEventsSearchWrapper, #moduleSearchWrapper {
+	margin-bottom: -1px;
+}
+
+// #endregion

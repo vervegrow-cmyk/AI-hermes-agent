@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Ativar licença"
+   },
+   "activateHint": {
+      "message": "Cole o código do seu e-mail."
+   },
+   "activateTitle": {
+      "message": "Ativar Premium"
+   },
+   "activatedSub": {
+      "message": "Downloads ilimitados · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium Ativado!"
+   },
+   "alreadyBought": {
+      "message": "Já comprou?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Este código já foi usado em outro dispositivo. Contate o suporte."
+   },
+   "clearHistory": {
+      "message": "Limpar"
+   },
+   "days": {
+      "message": "dias · expira em"
+   },
+   "deactivate": {
+      "message": "Desativar licença"
+   },
+   "deactivateConfirm": {
+      "message": "Desativar sua licença Premium neste dispositivo?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Todos"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Curtindo o TubeVD?"
+   },
+   "enterCode": {
+      "message": "Por favor, insira sua chave de licença."
+   },
+   "enterKey": {
+      "message": "🔑 Inserir chave de licença"
+   },
+   "expired": {
+      "message": "⚠️ Esta licença expirou. Contate o suporte para renovar."
+   },
+   "extDesc": {
+      "message": "Baixe vídeos do Facebook, Twitter, Vimeo, Dailymotion e 1000+ sites em HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "free": {
+      "message": "Grátis"
+   },
+   "genericError": {
+      "message": "Algo deu errado. Contate support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Obter Premium — $4,99/mês"
+   },
+   "getPremiumLink": {
+      "message": "Obter Premium ↗"
+   },
+   "guarantee": {
+      "message": "Garantia de reembolso de 30 dias"
+   },
+   "history": {
+      "message": "Histórico de downloads"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Chave de licença inválida. Verifique seu e-mail e tente novamente."
+   },
+   "invalidFormat": {
+      "message": "Formato inválido. Deve começar com TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Chave de licença"
+   },
+   "limit": {
+      "message": "Limite"
+   },
+   "limitHint": {
+      "message": "Plano gratuito: 5 downloads/dia. Faça upgrade para acesso ilimitado."
+   },
+   "limitTitle": {
+      "message": "Limite diário atingido"
+   },
+   "networkError": {
+      "message": "⚠️ Erro de conexão. Verifique sua internet e tente novamente."
+   },
+   "noCode": {
+      "message": "Sem código ainda?"
+   },
+   "noHistory": {
+      "message": "Nenhum download ainda."
+   },
+   "noVideos": {
+      "message": "Nenhum vídeo detectado"
+   },
+   "noVideosHint": {
+      "message": "Passe o mouse sobre qualquer vídeo para ver o botão de download."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Avaliar"
+   },
+   "rateUs": {
+      "message": "⭐ Avalie-nos"
+   },
+   "scanning": {
+      "message": "Procurando vídeos..."
+   },
+   "serverError": {
+      "message": "⚠️ Erro do servidor. Tente novamente em um momento."
+   },
+   "startDown": {
+      "message": "Começar a baixar ↓"
+   },
+   "support": {
+      "message": "Suporte"
+   },
+   "unlimited": {
+      "message": "Ilimitado"
+   },
+   "upgradeBtn": {
+      "message": "Fazer upgrade para Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Fazer upgrade ↗"
+   },
+   "upgradeTitle": {
+      "message": "Fazer upgrade para Premium"
+   },
+   "usageLeft": {
+      "message": "downloads restantes hoje"
+   },
+   "usageOf": {
+      "message": "de"
+   },
+   "validFor": {
+      "message": "Válida por"
+   },
+   "verifying": {
+      "message": "Verificando…"
+   },
+   "videoDetected": {
+      "message": "vídeo detectado"
+   },
+   "videosDetected": {
+      "message": "vídeos detectados"
+   },
+   "ytBlocked": {
+      "message": "YouTube não suportado"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD respeita os Termos de Serviço do YouTube."
+   },
+   "ytTry": {
+      "message": "Tente Facebook, Vimeo, Twitter e 1.000+ outros sites."
+   }
+}

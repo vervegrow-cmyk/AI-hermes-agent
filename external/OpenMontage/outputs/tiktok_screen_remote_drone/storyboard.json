@@ -1,0 +1,102 @@
+[
+  {
+    "shot": 1,
+    "start": 0,
+    "end": 3,
+    "visual": "Fast hook shot showing the screen remote and drone product.",
+    "subtitle": "Still using your phone to fly a drone?",
+    "voiceover": "Still using your phone just to fly a drone?",
+    "asset": "assets/products/screen_remote_drone/02_screen_remote.jpg",
+    "purpose": "hook"
+  },
+  {
+    "shot": 2,
+    "start": 3,
+    "end": 6,
+    "visual": "Close-up of the built-in screen remote with glow around the LCD area.",
+    "subtitle": "Built-in screen remote",
+    "voiceover": "This one has a built-in screen remote.",
+    "asset": "assets/products/screen_remote_drone/02_screen_remote.jpg",
+    "purpose": "differentiator"
+  },
+  {
+    "shot": 3,
+    "start": 6,
+    "end": 9,
+    "visual": "Drone and remote together with a bold no-phone-required callout.",
+    "subtitle": "No phone required",
+    "voiceover": "No phone. No app setup. Just fly.",
+    "asset": "assets/products/screen_remote_drone/06_remote_guide.jpg",
+    "purpose": "pain_point"
+  },
+  {
+    "shot": 4,
+    "start": 9,
+    "end": 12,
+    "visual": "One-click controls highlighted on the remote guide image.",
+    "subtitle": "One-click takeoff & landing",
+    "voiceover": "One button for takeoff and landing.",
+    "asset": "assets/products/screen_remote_drone/04_one_click.jpg",
+    "purpose": "beginner_friendly"
+  },
+  {
+    "shot": 5,
+    "start": 12,
+    "end": 15,
+    "visual": "Dual camera module close-up with arrow emphasis and 90 degree cue.",
+    "subtitle": "Dual camera switching",
+    "voiceover": "Switch camera angles right from the remote.",
+    "asset": "assets/products/screen_remote_drone/03_dual_camera.jpg",
+    "purpose": "feature_demo"
+  },
+  {
+    "shot": 6,
+    "start": 15,
+    "end": 18,
+    "visual": "Stable hovering story using the beginner control image with hovering visual treatment.",
+    "subtitle": "Stable hovering for beginners",
+    "voiceover": "Stable hovering makes it easier for beginners.",
+    "asset": "assets/products/screen_remote_drone/04_one_click.jpg",
+    "purpose": "stability"
+  },
+  {
+    "shot": 7,
+    "start": 18,
+    "end": 21,
+    "visual": "Full kit laid out with labels on drone, remote, batteries, carry case, and propellers.",
+    "subtitle": "Comes with the full kit",
+    "voiceover": "You get the drone, screen remote, batteries, propellers, and a carry case.",
+    "asset": "assets/products/screen_remote_drone/01_package.jpg",
+    "purpose": "value"
+  },
+  {
+    "shot": 8,
+    "start": 21,
+    "end": 24,
+    "visual": "Battery module close-up with animated energy-bar feel.",
+    "subtitle": "Extra batteries. More fun.",
+    "voiceover": "Extra batteries mean more flying time and more fun.",
+    "asset": "assets/products/screen_remote_drone/05_battery.jpg",
+    "purpose": "battery_value"
+  },
+  {
+    "shot": 9,
+    "start": 24,
+    "end": 27,
+    "visual": "Clean family shot of the drone and screen remote framed as a great first drone.",
+    "subtitle": "Great first drone",
+    "voiceover": "If you want a simple first drone, this is a solid pick.",
+    "asset": "assets/products/screen_remote_drone/01_package.jpg",
+    "purpose": "positioning"
+  },
+  {
+    "shot": 10,
+    "start": 27,
+    "end": 30,
+    "visual": "Final CTA hero shot with product and a strong tap-to-check-it-out call to action.",
+    "subtitle": "Tap to check it out",
+    "voiceover": "Tap to check it out.",
+    "asset": "assets/products/screen_remote_drone/02_screen_remote.jpg",
+    "purpose": "cta"
+  }
+]

@@ -1,0 +1,147 @@
+{
+  "productName": "Drone Pro Kit",
+  "cta": "Tap to shop",
+  "audio": {
+    "narrationSrc": "drone-tiktok-ad-v2/narration.wav",
+    "musicSrc": "drone-tiktok-ad-v2/music.mp3",
+    "narrationVolume": 1,
+    "musicVolume": 0.14
+  },
+  "scenes": [
+    {
+      "id": "hook-no-phone",
+      "start": 0,
+      "end": 4,
+      "image": "drone-tiktok-ad-v2/2_71010lSs6RL._AC_SL1500_.jpg",
+      "kicker": "Hook",
+      "headline": "No phone.\nJust fly.",
+      "subhead": "The remote already has a screen, so setup feels simpler from the start.",
+      "badges": ["Screen Remote", "No Phone Required"],
+      "accentColor": "rgba(34,211,238,0.22)",
+      "imageFit": "cover",
+      "zoomFrom": 1.02,
+      "zoomTo": 1.08
+    },
+    {
+      "id": "full-kit",
+      "start": 4,
+      "end": 8,
+      "image": "drone-tiktok-ad-v2/1_71qjIqO5qqL._AC_SL1500_.jpg",
+      "kicker": "Included",
+      "headline": "More in\none kit.",
+      "subhead": "Drone, LCD remote, spare blades, guards, SD card, carry case, and two batteries shown.",
+      "badges": ["2 Batteries", "SD Card", "Carry Case"],
+      "accentColor": "rgba(249,115,22,0.22)",
+      "imageFit": "contain",
+      "zoomFrom": 1,
+      "zoomTo": 1.06
+    },
+    {
+      "id": "camera-angle",
+      "start": 8,
+      "end": 12.4,
+      "image": "drone-tiktok-ad-v2/3_71RwD+G14ML._AC_SL1500_.jpg",
+      "kicker": "Visuals",
+      "headline": "Dual cameras.\nMore angles.",
+      "subhead": "Remote camera switching and a 90-degree angle adjustment help you change perspective faster.",
+      "badges": ["Dual Cameras", "90-degree Switch"],
+      "accentColor": "rgba(168,85,247,0.24)",
+      "imageFit": "cover",
+      "zoomFrom": 1.04,
+      "zoomTo": 1.12
+    },
+    {
+      "id": "easy-controls",
+      "start": 12.4,
+      "end": 16.6,
+      "image": "drone-tiktok-ad-v2/4_71i+IgJ5w5L._AC_SL1500_.jpg",
+      "kicker": "Beginner Ease",
+      "headline": "One-click\ncontrols.",
+      "subhead": "Takeoff, landing, and headless mode make the learning curve feel lighter.",
+      "badges": ["Takeoff", "Landing", "Headless Mode"],
+      "accentColor": "rgba(16,185,129,0.24)",
+      "imageFit": "cover",
+      "zoomFrom": 1.02,
+      "zoomTo": 1.09
+    },
+    {
+      "id": "battery",
+      "start": 16.6,
+      "end": 20.2,
+      "image": "drone-tiktok-ad-v2/5_71Ikh0mqFBL._AC_SL1500_.jpg",
+      "kicker": "Power",
+      "headline": "High-capacity\nbattery.",
+      "subhead": "The product images call out a 3.7V battery and stable hovering support.",
+      "badges": ["3.7V Battery", "Stable Hovering"],
+      "accentColor": "rgba(59,130,246,0.24)",
+      "imageFit": "cover",
+      "zoomFrom": 1.03,
+      "zoomTo": 1.1
+    },
+    {
+      "id": "guide-remote",
+      "start": 20.2,
+      "end": 24.3,
+      "image": "drone-tiktok-ad-v2/6_71roXrvNwjL._AC_SL1500_.jpg",
+      "kicker": "Control Guide",
+      "headline": "See the controls.\nStart faster.",
+      "subhead": "The LCD remote layout makes the basic functions easier to understand before your first flight.",
+      "badges": ["LCD Remote", "Obstacle Avoidance Switch", "Emergency Stop"],
+      "accentColor": "rgba(236,72,153,0.24)",
+      "imageFit": "cover",
+      "zoomFrom": 1.01,
+      "zoomTo": 1.08
+    },
+    {
+      "id": "cta-close",
+      "start": 24.3,
+      "end": 29.3,
+      "image": "drone-tiktok-ad-v2/1_71qjIqO5qqL._AC_SL1500_.jpg",
+      "kicker": "Close",
+      "headline": "Beginner-friendly.\nBox-ready.",
+      "subhead": "If you want an easier-start drone kit without extra setup friction, this is the one to check first.",
+      "badges": ["Ready Out of the Box", "Tap to Shop"],
+      "accentColor": "rgba(234,179,8,0.24)",
+      "imageFit": "contain",
+      "zoomFrom": 1,
+      "zoomTo": 1.05
+    }
+  ],
+  "captions": [
+    {
+      "text": "No phone setup. Just power on and fly.",
+      "start": 0,
+      "end": 4
+    },
+    {
+      "text": "The screen remote keeps the view right in your hands.",
+      "start": 4,
+      "end": 8
+    },
+    {
+      "text": "Dual cameras and a 90-degree switch give you more angles fast.",
+      "start": 8,
+      "end": 12.4
+    },
+    {
+      "text": "One-click takeoff, landing, and headless mode help beginners start easier.",
+      "start": 12.4,
+      "end": 16.6
+    },
+    {
+      "text": "You also get a 3.7V high-capacity battery in the kit.",
+      "start": 16.6,
+      "end": 20.2
+    },
+    {
+      "text": "Two batteries, spare props, guards, an SD card, and a carry case.",
+      "start": 20.2,
+      "end": 24.3
+    },
+    {
+      "text": "If you want a beginner-friendly drone that feels ready out of the box, tap to shop now.",
+      "start": 24.3,
+      "end": 29.3
+    }
+  ]
+}

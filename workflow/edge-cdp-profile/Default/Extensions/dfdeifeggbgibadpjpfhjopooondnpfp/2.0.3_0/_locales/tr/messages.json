@@ -1,0 +1,155 @@
+{
+   "content_downloadAudioText": {
+      "message": "Ses"
+   },
+   "content_downloadCoverText": {
+      "message": "Kapak"
+   },
+   "content_downloadVideoText": {
+      "message": "Video"
+   },
+   "manifest_description": {
+      "message": "TikTok videolarını filigran olmadan indirin."
+   },
+   "manifest_name": {
+      "message": "TikTok Video İndirici"
+   },
+   "options_completeDownload": {
+      "message": "İndirme tamamlandı"
+   },
+   "options_completeDownloadTip": {
+      "message": "İndirme tamamlanma aşamasında, dosya indirildi ve indirilen dosyayı dosya yöneticisinde görüntüleyebilirsiniz."
+   },
+   "options_downloadSetting": {
+      "message": "İndirme Ayarları"
+   },
+   "options_downloadSubdirectory": {
+      "message": "İndirme alt dizini"
+   },
+   "options_downloadSubdirectoryTip": {
+      "message": "Dosya indirmeleri için alt dizin"
+   },
+   "options_downloadTipSetting": {
+      "message": "İndirme bildirimi"
+   },
+   "options_downloadTipSettingTip": {
+      "message": "İndirme düğmesine tıkladığınızda, pencerenin sağ üst köşesinde bir indirme bildirimi görünecektir."
+   },
+   "options_enableSubdirectory": {
+      "message": "Alt dizin"
+   },
+   "options_enableSubdirectoryTip": {
+      "message": "Dosyaların bir alt dizine indirilip indirilmeyeceği."
+   },
+   "options_pageTitle": {
+      "message": "TikTok Video İndirici"
+   },
+   "options_parseInformation": {
+      "message": "Bilgiler analiz ediliyor"
+   },
+   "options_parseInformationTip": {
+      "message": "Bilgi analizi aşamasında, uzantı indirme için gerekli tüm bilgileri analiz edecektir."
+   },
+   "options_saveSetting": {
+      "message": "Ayarları kaydet"
+   },
+   "options_saveSuccess": {
+      "message": "Başarıyla kaydedildi"
+   },
+   "options_startDownload": {
+      "message": "İndirmeyi başlat"
+   },
+   "options_startDownloadTip": {
+      "message": "İndirme başlatma aşamasında, tarayıcının bir dosya indirmeye başladığını göreceksiniz ve tarayıcının indirme sayfasında indirme ilerlemesini kontrol edebilirsiniz."
+   },
+   "options_subdirectoryEmpty": {
+      "message": "Alt dizin boş olamaz"
+   },
+   "options_subdirectoryIllegal": {
+      "message": "Alt dizin geçersiz karakterler içeriyor"
+   },
+   "options_subdirectoryName": {
+      "message": "Alt dizin adı"
+   },
+   "options_subdirectoryNameTip": {
+      "message": "Bir alt dizin adı belirtin"
+   },
+   "options_videoCreator": {
+      "message": "Oluşturan"
+   },
+   "options_videoCreatorWithAt": {
+      "message": "Video oluşturucusunun adından önce @ sembolü ekle"
+   },
+   "options_videoCreatorWithAtTooltip": {
+      "message": "İndirilen video dosyasının adında, oluşturucunun adından önce @ sembolü ekle."
+   },
+   "options_videoDescription": {
+      "message": "Açıklama"
+   },
+   "options_videoDescriptionWithHashtag": {
+      "message": "Video açıklamasındaki hashtag'leri koru"
+   },
+   "options_videoDescriptionWithHashtagTip": {
+      "message": "İndirilen video dosyalarının adlarında, video açıklamasındaki # ile başlayan hashtag'leri koru."
+   },
+   "options_videoFileName": {
+      "message": "Video dosya adı"
+   },
+   "options_videoFileNameEmpty": {
+      "message": "Video dosya adı boş olamaz, lütfen en az bir tane seçin"
+   },
+   "options_videoFileNameTooltip": {
+      "message": "İndirilen video dosyasının adı, aşağıdaki giriş kutusundaki öznitelikler ve sıralamaya göre, boşluklarla ayrılarak oluşturulacaktır."
+   },
+   "options_videoHighestBitrate": {
+      "message": "En yüksek bit hızı"
+   },
+   "options_videoHighestResolution": {
+      "message": "En yüksek çözünürlük"
+   },
+   "options_videoLargestFileSize": {
+      "message": "En büyük dosya boyutu"
+   },
+   "options_videoQuality": {
+      "message": "Video kalitesi"
+   },
+   "options_videoQualityTip": {
+      "message": "Videoları hangi kalitede indirmek istiyorsunuz"
+   },
+   "options_videoResolution": {
+      "message": "Video çözünürlüğü"
+   },
+   "options_videoVid": {
+      "message": "Video ID"
+   },
+   "popup_feedback": {
+      "message": "Geribildirim"
+   },
+   "popup_feedbackEmailSubject": {
+      "message": "TikTok Video İndirici hakkında geribildirim"
+   },
+   "popup_review": {
+      "message": "Değerlendirmeler"
+   },
+   "popup_setting": {
+      "message": "Ayarlar"
+   },
+   "snackbar_completeDownload": {
+      "message": "İndirme tamamlandı"
+   },
+   "snackbar_downloadFailed": {
+      "message": "İndirme başarısız oldu, lütfen sayfayı yenileyin ve tekrar deneyin"
+   },
+   "snackbar_findVidError": {
+      "message": "Video bilgileri analiz edilemedi, lütfen sorunu bildirmek için e-posta gönderin"
+   },
+   "snackbar_parseInformation": {
+      "message": "Bilgiler analiz ediliyor"
+   },
+   "snackbar_parseInformationFail": {
+      "message": "Video bilgileri analiz edilemedi, lütfen sayfayı yenileyin ve tekrar deneyin"
+   },
+   "snackbar_startDownload": {
+      "message": "İndirmeyi başlat"
+   }
+}

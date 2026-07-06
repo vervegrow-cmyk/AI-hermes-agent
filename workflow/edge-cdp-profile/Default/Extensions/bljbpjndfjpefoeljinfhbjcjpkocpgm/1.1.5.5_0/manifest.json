@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "assets/buster-icon-128.png"
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "contentscript.css" ],
+      "js": [ "contentscript.js" ],
+      "matches": [ "*://*.phantombuster.com/*", "*://*.phantombuster.io/*", "*://*.zapier.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "This extension will allow you to easily retrieve your session cookies each time you use PhantomBuster.",
+   "homepage_url": "http://www.phantombuster.com/",
+   "icons": {
+      "128": "assets/buster-icon-128.png",
+      "16": "assets/buster-icon-16.png",
+      "48": "assets/buster-icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjcX+BypuJxOEpcN482eTDcuLBdc53GcljQuKT9BN/f8XwkhciA0vyvkgZMCRtUdO76DmbISKNnH/7UjfKG23Mjx/WeQamM0+GLa10dyQ65HGeVbk39FFSCpWHNSxV5GtFailfMXTIpnH1+fA+ju1AtCxSOHmLxYYs6zMj8nteer21zkjcyCBNb1HnzPhYePfuNISsfK3UTqu5D8f5daUVYFoJ1q5uCAHyQKMyCWlpkkbZ1S0UlhjMT/BJnesRnmjOjKKpbh1YVnwHC+tpy3Hv02OqodOvTGcw/4Mld9yvx5gQdOw0r93zrf6foVjYzPydF6nZqZ9K5FyP6L2sgKCJQIDAQAB",
+   "manifest_version": 2,
+   "name": "PhantomBuster",
+   "permissions": [ "notifications", "tabs", "cookies", "webRequest", "webRequestBlocking", "*://*.phantombuster.com/*", "*://*.facebook.com/*", "*://*.github.com/*", "*://*.instagram.com/*", "*://*.intercom.io/*", "*://*.linkedin.com/*", "*://*.medium.com/*", "*://*.producthunt.com/*", "*://*.slack.com/*", "*://*.twitter.com/*", "*://*.uber.com/*", "*://*.youtube.com/*", "*://*.quora.com/*", "*://*.pinterest.com/*", "*://*.tiktok.com/*" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.1.5.5",
+   "web_accessible_resources": [ "assets/*" ]
+}

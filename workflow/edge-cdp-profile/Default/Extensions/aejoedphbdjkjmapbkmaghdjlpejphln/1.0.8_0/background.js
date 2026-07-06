@@ -1,0 +1,237 @@
+/**
+ * The method `chrome.downloads.download` does not work with the option:
+ *      "Ask where to save each file before downloading" enabled.
+ * If the option is disabled (chrome://settings/downloads), this feature will work fine.
+ *
+ * This is an issue with the actual chrome API (only MV3, not MV2) — see:
+ *      [https://bugs.chromium.org/p/chromium/issues/detail?id=1173497]
+ *      [https://bugs.chromium.org/p/chromium/issues/detail?id=1246717]
+ *
+ * Anyways...
+ *      This method is prioritized because it's very useful if it works, but fallbacks are needed.
+ */
+
+/** Default options for the addon to use */
+const options = {
+  "download-prioritize-api": {
+    type: "toggle",
+    default: true,
+    current: null,
+  },
+  "download-fallback-tab-focus": {
+    type: "toggle",
+    default: true,
+    current: null,
+  },
+  "download-subfolder-path": {
+    type: "text",
+    default: false,
+    current: null,
+  },
+};
+
+/** Set default storage values */
+Object.keys(options).forEach((key) => {
+  chrome.storage.local.get(key, (result) => {
+    if (!result.hasOwnProperty(key)) {
+      let value = new Object();
+      value[key] = options[key].default;
+      chrome.storage.local.set(value);
+    }
+  });
+});
+
+/**
+ * Options getter
+ */
+const optionsGet = (args) => {
+  return args.sendResponse(options);
+};
+
+/**
+ * Attempts to download a file using `chrome.downloads.download`
+ *
+ * @param {object} args
+ */
+const fileDownload = (args) => {
+  let [filename, url, subFolder] = [args.data.filename, args.data.url, args.data.subFolder];
+
+  if (subFolder && subFolder.length > 1 && !subFolder.endsWith("/")) {
+    subFolder = subFolder + "/";
+  }
+
+  try {
+    chrome.downloads.download(
+      {
+        conflictAction: "uniquify",
+        filename: `${subFolder ? subFolder : ""}${filename}`,
+        url: url,
+        method: "GET",
+        saveAs: false,
+      },
+      (itemId) => {
+        chrome.downloads.onChanged.addListener((delta) => {
+          if (itemId === delta.id) {
+            // console.log('[TTplus]', delta);
+
+            if (delta.endTime || (delta.state && delta.state.current === "complete")) {
+              /** Successful download */
+              args.sendResponse({
+                itemId: itemId,
+                success: true,
+              });
+            } else if (delta.error) {
+              /** Error encountered */
+              args.sendResponse({
+                success: false,
+              });
+            }
+          }
+        });
+      }
+    );
+  } catch (error) {
+    /** Error encountered */
+    args.sendResponse({
+      success: false,
+    });
+  }
+};
+
+/**
+ * Opens the default download folder
+ */
+const showDefaultFolder = () => {
+  chrome.downloads.showDefaultFolder();
+};
+
+/**
+ * Opens a new tab in Chrome
+ *
+ * @param {object} args
+ */
+const windowOpen = (args) => {
+  chrome.tabs.create(
+    {
+      url: args.data.url,
+      active: args.data.active ? args.data.active : false,
+    },
+    () =>
+      // May wanna handle errors here, not a priority for now however
+      {
+        args.sendResponse({
+          success: true,
+        });
+      }
+  );
+};
+
+/**
+ * Store manifest data
+ *
+ * @param {object} args
+ */
+const manifestSave = (args) => {
+  let manifest = args.data.manifest,
+    ts = Date.now() / 1000;
+
+  chrome.storage.local.set(
+    {
+      manifest: {
+        working: manifest,
+        updated: ts,
+      },
+    },
+    () => {
+      args.sendResponse({
+        success: true,
+      });
+    }
+  );
+};
+
+/**
+ * Fetching function
+ */
+const serviceFetch = async (args) => {
+  let url = args.data.url,
+    options = args.data.options || {};
+
+  return fetch(url, options)
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      args.sendResponse({
+        data: data,
+        error: false,
+      });
+    })
+    .catch((error) => {
+      console.info("Caught a fetching error:", error);
+
+      args.sendResponse({
+        data: null,
+        error: error,
+      });
+    });
+};
+
+/**
+ * `onMessage` listener
+ */
+chrome.runtime.onMessage.addListener((data, sender, sendResponse) => {
+  /** Task IDs and their corresponding functions */
+  let tasks = {
+    fileDownload: fileDownload,
+    windowOpen: windowOpen,
+    fileShow: showDefaultFolder,
+    manifestSave: manifestSave,
+    optionsGet: optionsGet,
+    fetch: serviceFetch,
+  };
+
+  if (tasks[data.task]) {
+    /** Perform task */
+    tasks[data.task]({
+      data,
+      sender,
+      sendResponse,
+    });
+  }
+
+  return true;
+});
+
+let question = "";
+chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
+  if (message.type === "SET_PROMPT") {
+    console.log(message);
+    question = message.data;
+    return sendResponse();
+  } else if (message.type === "GET_PROMPT") {
+    return sendResponse(question);
+  } else if (message.type === "REQ_TABID") {
+    return sendResponse(sender.tab && sender.tab.id);
+  } else if (message.type === "OBSERVER_CHECK") {
+    await listenOpenAiCheck(sender.tab && sender.tab.id);
+    sendResponse();
+    return;
+  }
+});
+
+function listenOpenAiCheck(tabId) {
+  return new Promise((resolve) => {
+    chrome.webRequest.onCompleted.addListener(
+      function (details) {
+        console.log("[details]", details);
+        resolve();
+      },
+      {
+        tabId,
+        types: ["xmlhttprequest"],
+        urls: ["*://*.openai.com/backend-api/accounts/check*"],
+      }
+    );
+  });
+}

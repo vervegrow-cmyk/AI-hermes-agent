@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "激活许可证"
+   },
+   "activateHint": {
+      "message": "粘贴电子邮件中的代码。"
+   },
+   "activateTitle": {
+      "message": "激活高级版"
+   },
+   "activatedSub": {
+      "message": "无限下载 · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "高级版已激活！"
+   },
+   "alreadyBought": {
+      "message": "已经购买？"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ 此代码已在其他设备上使用。"
+   },
+   "clearHistory": {
+      "message": "清除"
+   },
+   "days": {
+      "message": "天 · 到期"
+   },
+   "deactivate": {
+      "message": "停用许可证"
+   },
+   "deactivateConfirm": {
+      "message": "在此设备上停用高级版许可证？"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ 全部"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "喜欢TubeVD吗？"
+   },
+   "enterCode": {
+      "message": "请输入许可证密钥。"
+   },
+   "enterKey": {
+      "message": "🔑 输入许可证密钥"
+   },
+   "expired": {
+      "message": "⚠️ 此许可证已过期。"
+   },
+   "extDesc": {
+      "message": "从Facebook、Twitter、Vimeo、Dailymotion等1000+网站下载HD、4K、8K视频。"
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "常见问题"
+   },
+   "free": {
+      "message": "免费"
+   },
+   "genericError": {
+      "message": "出现错误。请联系 support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "获取高级版 — $4.99/月"
+   },
+   "getPremiumLink": {
+      "message": "获取高级版 ↗"
+   },
+   "guarantee": {
+      "message": "30天退款保证"
+   },
+   "history": {
+      "message": "下载历史"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ 无效的许可证密钥。"
+   },
+   "invalidFormat": {
+      "message": "格式无效。必须以TUBEVD-开头。"
+   },
+   "licenseKey": {
+      "message": "许可证密钥"
+   },
+   "limit": {
+      "message": "限制"
+   },
+   "limitHint": {
+      "message": "免费计划：每天5次下载。"
+   },
+   "limitTitle": {
+      "message": "已达到每日限制"
+   },
+   "networkError": {
+      "message": "⚠️ 连接错误。"
+   },
+   "noCode": {
+      "message": "还没有代码？"
+   },
+   "noHistory": {
+      "message": "暂无下载记录。"
+   },
+   "noVideos": {
+      "message": "未检测到视频"
+   },
+   "noVideosHint": {
+      "message": "将鼠标悬停在页面上的任何视频上，即可看到下载按钮。"
+   },
+   "premiumBadge": {
+      "message": "高级版 4K"
+   },
+   "pro": {
+      "message": "🔒 专业版"
+   },
+   "rate": {
+      "message": "⭐ 评价"
+   },
+   "rateUs": {
+      "message": "⭐ 评价我们"
+   },
+   "scanning": {
+      "message": "正在搜索视频..."
+   },
+   "serverError": {
+      "message": "⚠️ 服务器错误。"
+   },
+   "startDown": {
+      "message": "开始下载 ↓"
+   },
+   "support": {
+      "message": "支持"
+   },
+   "unlimited": {
+      "message": "无限制"
+   },
+   "upgradeBtn": {
+      "message": "升级到高级版4K"
+   },
+   "upgradeNow": {
+      "message": "升级 ↗"
+   },
+   "upgradeTitle": {
+      "message": "升级到高级版"
+   },
+   "usageLeft": {
+      "message": "今日剩余下载次数"
+   },
+   "usageOf": {
+      "message": "/"
+   },
+   "validFor": {
+      "message": "有效期"
+   },
+   "verifying": {
+      "message": "验证中…"
+   },
+   "videoDetected": {
+      "message": "个视频已检测"
+   },
+   "videosDetected": {
+      "message": "个视频已检测"
+   },
+   "ytBlocked": {
+      "message": "不支持YouTube"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD尊重YouTube的服务条款。"
+   },
+   "ytTry": {
+      "message": "请尝试Facebook、Vimeo、Twitter等1000+其他网站。"
+   }
+}

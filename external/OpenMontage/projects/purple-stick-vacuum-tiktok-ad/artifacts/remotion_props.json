@@ -1,0 +1,88 @@
+{
+  "theme": "flat-motion-graphics",
+  "cuts": [
+    {
+      "id": "hook-image",
+      "source": "purple-stick-vacuum-tiktok-ad/main-vacuum.jpg",
+      "in_seconds": 0.0,
+      "out_seconds": 2.4,
+      "animation": "ken-burns"
+    },
+    {
+      "id": "display-callout",
+      "type": "callout",
+      "title": "Digital display",
+      "text": "Status-first design at a glance",
+      "callout_type": "info",
+      "in_seconds": 2.4,
+      "out_seconds": 4.9,
+      "backgroundImage": "purple-stick-vacuum-tiktok-ad/display.jpg",
+      "backgroundOverlay": 0.2,
+      "backgroundColor": "#101828"
+    },
+    {
+      "id": "tools-card",
+      "type": "text_card",
+      "text": "Crevice tool + brush attachment",
+      "in_seconds": 4.9,
+      "out_seconds": 8.2,
+      "color": "#F8FAFC",
+      "backgroundImage": "purple-stick-vacuum-tiktok-ad/attachments.jpg",
+      "backgroundOverlay": 0.25,
+      "backgroundColor": "#101828"
+    },
+    {
+      "id": "modes-compare",
+      "type": "comparison",
+      "title": "Switch for the job",
+      "leftLabel": "Full stick",
+      "leftValue": "Floor cleaning",
+      "rightLabel": "Handheld",
+      "rightValue": "Quick detail use",
+      "in_seconds": 8.2,
+      "out_seconds": 11.8,
+      "backgroundImage": "purple-stick-vacuum-tiktok-ad/source.jpg",
+      "backgroundOverlay": 0.72,
+      "backgroundColor": "#101828"
+    },
+    {
+      "id": "close-card",
+      "type": "hero_title",
+      "text": "Ready for\neveryday cleanup",
+      "heroSubtitle": "Shop now",
+      "in_seconds": 11.8,
+      "out_seconds": 15.5,
+      "backgroundImage": "purple-stick-vacuum-tiktok-ad/main-vacuum.jpg",
+      "backgroundOverlay": 0.7
+    }
+  ],
+  "overlays": [
+    {
+      "type": "hero_title",
+      "in_seconds": 0.2,
+      "out_seconds": 2.0,
+      "text": "One vacuum.\nMore cleanups.",
+      "subtitle": "TikTok product edit"
+    },
+    {
+      "type": "section_title",
+      "in_seconds": 5.1,
+      "out_seconds": 7.6,
+      "text": "Included tools",
+      "subtitle": "Visible accessories in the screenshot",
+      "accentColor": "#8B5CF6",
+      "position": "top-left"
+    },
+    {
+      "type": "stat_reveal",
+      "in_seconds": 12.6,
+      "out_seconds": 15.0,
+      "text": "2-IN-1",
+      "subtitle": "Stick + handheld style use",
+      "accentColor": "#A855F7",
+      "position": "bottom-right"
+    }
+  ],
+  "captions": [],
+  "audio": {}
+}

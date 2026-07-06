@@ -1,0 +1,42 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "main.css" ],
+      "js": [ "js/main.js" ],
+      "matches": [ "https://tiktok.com/*", "https://www.tiktok.com/*", "https://*.openai.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "ruleset_1",
+         "path": "ruleset.json"
+      } ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "host_permissions": [ "*://*.tiktok.com/*", "https://tiktok.com/*", "https://*.tiktokcdn.com/*", "https://*.tiktokv.com/*", "https://*.openai.com/*" ],
+   "icons": {
+      "128": "128.png",
+      "16": "128.png",
+      "300": "128.png",
+      "32": "128.png",
+      "48": "128.png",
+      "500": "128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0Mj++ANZytgYdei9fpDAZojWGKvDjKgaCH/SqucRQjflCTyGQF+E9I2lN4SeTXAYdMRIbOPxAP7ufjH4j3NbYGezFI8dTN4XpNL3bDVc0akiIeGp3GWTs9kfc3Wp43qHNC76Lc1WzyxjF8hCGfEentPBCC8Is/Ae01lBz2uvIcVjZDsbKldPe2C2X2t30uaNP3MwpRgqwRkeeIqi9zFVd7SOFIUmpJvuG8fK1ukP0eMkdimo40Pda5d4EVHE0N2Jw6Cx2CZC6yOIO8d7XoUpurfRFDdmYNxCUZw9yZYWaqddJxwID6MUnJlW13d1+PwFmghIFSpfNtXDoMiGyMPhAQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_name__",
+   "permissions": [ "downloads", "storage", "tabs", "webRequest", "declarativeNetRequest" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.0.8",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "16.png", "assets/example.png" ]
+   } ]
+}

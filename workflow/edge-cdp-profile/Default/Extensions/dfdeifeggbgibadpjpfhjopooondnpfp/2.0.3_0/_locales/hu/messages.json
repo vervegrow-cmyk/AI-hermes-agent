@@ -1,0 +1,155 @@
+{
+   "content_downloadAudioText": {
+      "message": "Hang"
+   },
+   "content_downloadCoverText": {
+      "message": "Borító"
+   },
+   "content_downloadVideoText": {
+      "message": "Videó"
+   },
+   "manifest_description": {
+      "message": "TikTok videók letöltése vízjel nélkül."
+   },
+   "manifest_name": {
+      "message": "TikTok Videó Letöltő"
+   },
+   "options_completeDownload": {
+      "message": "Letöltés befejezve"
+   },
+   "options_completeDownloadTip": {
+      "message": "A letöltés befejezési szakaszában a fájl letöltésre került, és megtekintheti a letöltött fájlt a fájlkezelőben."
+   },
+   "options_downloadSetting": {
+      "message": "Letöltési beállítások"
+   },
+   "options_downloadSubdirectory": {
+      "message": "Letöltési almappa"
+   },
+   "options_downloadSubdirectoryTip": {
+      "message": "Almappa a fájlok letöltéséhez"
+   },
+   "options_downloadTipSetting": {
+      "message": "Letöltési értesítés"
+   },
+   "options_downloadTipSettingTip": {
+      "message": "A letöltés gombra kattintáskor egy értesítés jelenik meg az ablak jobb felső sarkában."
+   },
+   "options_enableSubdirectory": {
+      "message": "Almappa"
+   },
+   "options_enableSubdirectoryTip": {
+      "message": "A fájlok almappába történő letöltése."
+   },
+   "options_pageTitle": {
+      "message": "TikTok Videó Letöltő"
+   },
+   "options_parseInformation": {
+      "message": "Információk elemzése"
+   },
+   "options_parseInformationTip": {
+      "message": "Az információelemzési szakaszban a bővítmény elemzi a letöltéshez szükséges összes információt."
+   },
+   "options_saveSetting": {
+      "message": "Beállítások mentése"
+   },
+   "options_saveSuccess": {
+      "message": "Sikeresen mentve"
+   },
+   "options_startDownload": {
+      "message": "Letöltés indítása"
+   },
+   "options_startDownloadTip": {
+      "message": "A letöltés indítási szakaszában láthatja, hogy a böngésző elkezdi letölteni a fájlt, és ellenőrizheti a letöltés folyamatát a böngésző letöltési oldalán."
+   },
+   "options_subdirectoryEmpty": {
+      "message": "Az almappa nem lehet üres"
+   },
+   "options_subdirectoryIllegal": {
+      "message": "Az almappa illegális karaktereket tartalmaz"
+   },
+   "options_subdirectoryName": {
+      "message": "Almappa neve"
+   },
+   "options_subdirectoryNameTip": {
+      "message": "Adja meg az almappa nevét"
+   },
+   "options_videoCreator": {
+      "message": "Készítő"
+   },
+   "options_videoCreatorWithAt": {
+      "message": "@-jel hozzáadása a videó készítőjének neve elé"
+   },
+   "options_videoCreatorWithAtTooltip": {
+      "message": "A letöltött videófájl nevében @-jel hozzáadása a készítő neve elé."
+   },
+   "options_videoDescription": {
+      "message": "Leírás"
+   },
+   "options_videoDescriptionWithHashtag": {
+      "message": "Hashtagek megtartása a videó leírásában"
+   },
+   "options_videoDescriptionWithHashtagTip": {
+      "message": "A letöltött videófájlok nevében a #-tel kezdődő hashtagek megtartása a videó leírásából."
+   },
+   "options_videoFileName": {
+      "message": "Videófájl neve"
+   },
+   "options_videoFileNameEmpty": {
+      "message": "A videófájl neve nem lehet üres, kérjük válasszon legalább egyet"
+   },
+   "options_videoFileNameTooltip": {
+      "message": "A letöltött videófájl neve az alábbi beviteli mezőben megadott attribútumok és sorrend alapján kerül létrehozásra, szóközökkel elválasztva."
+   },
+   "options_videoHighestBitrate": {
+      "message": "Legmagasabb bitráta"
+   },
+   "options_videoHighestResolution": {
+      "message": "Legmagasabb felbontás"
+   },
+   "options_videoLargestFileSize": {
+      "message": "Legnagyobb fájlméret"
+   },
+   "options_videoQuality": {
+      "message": "Videó minőség"
+   },
+   "options_videoQualityTip": {
+      "message": "Milyen minőségben történjen a videók letöltése"
+   },
+   "options_videoResolution": {
+      "message": "Videó felbontás"
+   },
+   "options_videoVid": {
+      "message": "Videó azonosító"
+   },
+   "popup_feedback": {
+      "message": "Visszajelzés"
+   },
+   "popup_feedbackEmailSubject": {
+      "message": "Visszajelzés a TikTok Videó Letöltőről"
+   },
+   "popup_review": {
+      "message": "Értékelések"
+   },
+   "popup_setting": {
+      "message": "Beállítások"
+   },
+   "snackbar_completeDownload": {
+      "message": "Letöltés befejezve"
+   },
+   "snackbar_downloadFailed": {
+      "message": "A letöltés sikertelen, kérjük frissítse az oldalt és próbálja újra"
+   },
+   "snackbar_findVidError": {
+      "message": "Nem sikerült elemezni a videó információit, kérjük küldjön visszajelzést e-mailben a problémáról"
+   },
+   "snackbar_parseInformation": {
+      "message": "Információk elemzése"
+   },
+   "snackbar_parseInformationFail": {
+      "message": "Nem sikerült elemezni a videó információit, kérjük frissítse az oldalt és próbálja újra"
+   },
+   "snackbar_startDownload": {
+      "message": "Letöltés indítása"
+   }
+}

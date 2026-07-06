@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "লাইসেন্স সক্রিয় করুন"
+   },
+   "activateHint": {
+      "message": "আপনার ইমেইল থেকে কোড পেস্ট করুন।"
+   },
+   "activateTitle": {
+      "message": "প্রিমিয়াম সক্রিয় করুন"
+   },
+   "activatedSub": {
+      "message": "সীমাহীন ডাউনলোড · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "প্রিমিয়াম সক্রিয় হয়েছে!"
+   },
+   "alreadyBought": {
+      "message": "ইতিমধ্যে কিনেছেন?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ এই কোডটি অন্য ডিভাইসে ব্যবহার হয়েছে।"
+   },
+   "clearHistory": {
+      "message": "মুছুন"
+   },
+   "days": {
+      "message": "দিন · মেয়াদ শেষ"
+   },
+   "deactivate": {
+      "message": "লাইসেন্স নিষ্ক্রিয় করুন"
+   },
+   "deactivateConfirm": {
+      "message": "এই ডিভাইসে প্রিমিয়াম লাইসেন্স নিষ্ক্রিয় করবেন?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ সব"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "TubeVD পছন্দ হচ্ছে?"
+   },
+   "enterCode": {
+      "message": "অনুগ্রহ করে আপনার লাইসেন্স কী দিন।"
+   },
+   "enterKey": {
+      "message": "🔑 লাইসেন্স কী প্রবেশ করুন"
+   },
+   "expired": {
+      "message": "⚠️ এই লাইসেন্সের মেয়াদ শেষ।"
+   },
+   "extDesc": {
+      "message": "Facebook, Twitter, Vimeo, Dailymotion ও ১০০০+ সাইট থেকে HD, 4K, 8K মানে ভিডিও ডাউনলোড করুন।"
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "সাধারণ প্রশ্ন"
+   },
+   "free": {
+      "message": "বিনামূল্যে"
+   },
+   "genericError": {
+      "message": "কিছু একটা ভুল হয়েছে। support@tubevd.com-এ যোগাযোগ করুন"
+   },
+   "getPremium": {
+      "message": "প্রিমিয়াম পান — $৪.৯৯/মাস"
+   },
+   "getPremiumLink": {
+      "message": "প্রিমিয়াম পান ↗"
+   },
+   "guarantee": {
+      "message": "৩০ দিনের মানি-ব্যাক গ্যারান্টি"
+   },
+   "history": {
+      "message": "ডাউনলোড ইতিহাস"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ অবৈধ লাইসেন্স কী।"
+   },
+   "invalidFormat": {
+      "message": "অবৈধ ফরম্যাট। TUBEVD- দিয়ে শুরু হতে হবে।"
+   },
+   "licenseKey": {
+      "message": "লাইসেন্স কী"
+   },
+   "limit": {
+      "message": "সীমা"
+   },
+   "limitHint": {
+      "message": "বিনামূল্যে পরিকল্পনা: ৫টি ডাউনলোড/দিন।"
+   },
+   "limitTitle": {
+      "message": "দৈনিক সীমা পৌঁছে গেছে"
+   },
+   "networkError": {
+      "message": "⚠️ সংযোগ ত্রুটি।"
+   },
+   "noCode": {
+      "message": "এখনো কোড নেই?"
+   },
+   "noHistory": {
+      "message": "এখনো কোনো ডাউনলোড নেই।"
+   },
+   "noVideos": {
+      "message": "কোনো ভিডিও পাওয়া যায়নি"
+   },
+   "noVideosHint": {
+      "message": "ডাউনলোড বাটন দেখতে যেকোনো ভিডিওর উপর মাউস নিয়ে যান।"
+   },
+   "premiumBadge": {
+      "message": "প্রিমিয়াম 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ রেট করুন"
+   },
+   "rateUs": {
+      "message": "⭐ আমাদের রেট করুন"
+   },
+   "scanning": {
+      "message": "ভিডিও খোঁজা হচ্ছে..."
+   },
+   "serverError": {
+      "message": "⚠️ সার্ভার ত্রুটি।"
+   },
+   "startDown": {
+      "message": "ডাউনলোড শুরু করুন ↓"
+   },
+   "support": {
+      "message": "সহায়তা"
+   },
+   "unlimited": {
+      "message": "সীমাহীন"
+   },
+   "upgradeBtn": {
+      "message": "প্রিমিয়াম 4K-তে আপগ্রেড করুন"
+   },
+   "upgradeNow": {
+      "message": "আপগ্রেড ↗"
+   },
+   "upgradeTitle": {
+      "message": "প্রিমিয়ামে আপগ্রেড করুন"
+   },
+   "usageLeft": {
+      "message": "টি ডাউনলোড আজ বাকি"
+   },
+   "usageOf": {
+      "message": "/"
+   },
+   "validFor": {
+      "message": "বৈধ"
+   },
+   "verifying": {
+      "message": "যাচাই করা হচ্ছে…"
+   },
+   "videoDetected": {
+      "message": "ভিডিও পাওয়া গেছে"
+   },
+   "videosDetected": {
+      "message": "ভিডিও পাওয়া গেছে"
+   },
+   "ytBlocked": {
+      "message": "YouTube সমর্থিত নয়"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD YouTube-এর সেবার শর্তাবলী মেনে চলে।"
+   },
+   "ytTry": {
+      "message": "Facebook, Vimeo, Twitter ও ১,০০০+ অন্য সাইট ব্যবহার করুন।"
+   }
+}

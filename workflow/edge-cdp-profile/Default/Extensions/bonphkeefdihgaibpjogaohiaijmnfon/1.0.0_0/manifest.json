@@ -1,0 +1,30 @@
+{
+   "action": {
+   },
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "css/content-script.549ce5c8.css" ],
+      "js": [ "js/content-script.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDes__",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icons/youtube-adlib.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw4RKpMv/3Cfit6DHtEiUVvdmhYHSlV4XPpvitcwG4SqsT+nZd08TgHq/ceTBCOuPQ4UxxleCgo25o2NMt+/fFBFVQZpavhgnGi57lQkIhWHPCG9dYWEpvByrXTSUj7Xi3vDqcOEtuJXZ8uonVPz2hK+WHAhHDMPmoCPVu+O+Bfbr9+QgHGRWADFaK+4yO8sX75akpnp5FnwqQzWLLbodt4eJ4wEI+iOAdOIPNHsCz8vMW3UoqAFtROuXvKD8KUNKh99jEFWbTSCNFUKF1qt5QmCaOeX1TomxY/Cnh8kS901PD7To/jskqABUJWYjWGmye6xCoGfl5aglcXDLAjJJdwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "permissions": [ "storage", "unlimitedStorage" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.0.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "icons/*" ]
+   } ]
+}

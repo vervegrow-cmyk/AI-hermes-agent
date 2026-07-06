@@ -1,0 +1,48 @@
+{
+   "done": {
+      "message": "Done"
+   },
+   "downloadAll": {
+      "message": "Download all"
+   },
+   "downloadStartedALot": {
+      "message": "Downloading ($AMOUNT$ videos)...",
+      "placeholders": {
+         "AMOUNT": {
+            "content": "$1"
+         }
+      }
+   },
+   "downloadStartedOne": {
+      "message": "Downloading..."
+   },
+   "extDesc": {
+      "message": "지금 비디오를 다운로드하고 나중에 보세요. 빠르고 가볍고 신뢰할 수 있는 비디오 다운로더"
+   },
+   "extName": {
+      "message": "작동하는 비디오 다운로더! 온라인 비디오 저장"
+   },
+   "foundVideos": {
+      "message": "$AMOUNT$ videos found",
+      "placeholders": {
+         "AMOUNT": {
+            "content": "$1"
+         }
+      }
+   },
+   "hideButtons": {
+      "message": "Hide buttons"
+   },
+   "linkCopied": {
+      "message": "Link copied"
+   },
+   "noVideos": {
+      "message": "No videos were found"
+   },
+   "sidebar": {
+      "message": "Sidebar view"
+   },
+   "youtubeError": {
+      "message": "Due to the privacy policies of Google, videos are not downloaded from YouTube"
+   }
+}

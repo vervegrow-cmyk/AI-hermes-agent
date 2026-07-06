@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "लाइसेंस सक्रिय करें"
+   },
+   "activateHint": {
+      "message": "अपने ईमेल से कोड पेस्ट करें।"
+   },
+   "activateTitle": {
+      "message": "प्रीमियम सक्रिय करें"
+   },
+   "activatedSub": {
+      "message": "असीमित डाउनलोड · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "प्रीमियम सक्रिय हो गया!"
+   },
+   "alreadyBought": {
+      "message": "पहले से खरीदा?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ यह कोड किसी अन्य डिवाइस पर उपयोग किया जा चुका है।"
+   },
+   "clearHistory": {
+      "message": "साफ़ करें"
+   },
+   "days": {
+      "message": "दिन · समाप्त होता है"
+   },
+   "deactivate": {
+      "message": "लाइसेंस निष्क्रिय करें"
+   },
+   "deactivateConfirm": {
+      "message": "इस डिवाइस पर प्रीमियम लाइसेंस निष्क्रिय करें?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ सभी"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "TubeVD पसंद आया?"
+   },
+   "enterCode": {
+      "message": "कृपया अपनी लाइसेंस कुंजी दर्ज करें।"
+   },
+   "enterKey": {
+      "message": "🔑 लाइसेंस कुंजी दर्ज करें"
+   },
+   "expired": {
+      "message": "⚠️ यह लाइसेंस समाप्त हो गया है।"
+   },
+   "extDesc": {
+      "message": "Facebook, Twitter, Vimeo, Dailymotion और 1000+ साइटों से HD, 4K, 8K में वीडियो डाउनलोड करें।"
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "अक्सर पूछे जाने वाले प्रश्न"
+   },
+   "free": {
+      "message": "मुफ़्त"
+   },
+   "genericError": {
+      "message": "कुछ गलत हो गया। support@tubevd.com से संपर्क करें"
+   },
+   "getPremium": {
+      "message": "प्रीमियम पाएं — $4.99/माह"
+   },
+   "getPremiumLink": {
+      "message": "प्रीमियम पाएं ↗"
+   },
+   "guarantee": {
+      "message": "30 दिन की मनी-बैक गारंटी"
+   },
+   "history": {
+      "message": "डाउनलोड इतिहास"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ अमान्य लाइसेंस कुंजी।"
+   },
+   "invalidFormat": {
+      "message": "अमान्य प्रारूप। TUBEVD- से शुरू होना चाहिए।"
+   },
+   "licenseKey": {
+      "message": "लाइसेंस कुंजी"
+   },
+   "limit": {
+      "message": "सीमा"
+   },
+   "limitHint": {
+      "message": "मुफ़्त प्लान: 5 डाउनलोड/दिन।"
+   },
+   "limitTitle": {
+      "message": "दैनिक सीमा पहुंच गई"
+   },
+   "networkError": {
+      "message": "⚠️ कनेक्शन त्रुटि।"
+   },
+   "noCode": {
+      "message": "अभी कोड नहीं है?"
+   },
+   "noHistory": {
+      "message": "अभी कोई डाउनलोड नहीं।"
+   },
+   "noVideos": {
+      "message": "कोई वीडियो नहीं मिला"
+   },
+   "noVideosHint": {
+      "message": "डाउनलोड बटन देखने के लिए किसी भी वीडियो पर माउस ले जाएं।"
+   },
+   "premiumBadge": {
+      "message": "प्रीमियम 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ रेट करें"
+   },
+   "rateUs": {
+      "message": "⭐ हमें रेट करें"
+   },
+   "scanning": {
+      "message": "वीडियो खोज रहे हैं..."
+   },
+   "serverError": {
+      "message": "⚠️ सर्वर त्रुटि।"
+   },
+   "startDown": {
+      "message": "डाउनलोड शुरू करें ↓"
+   },
+   "support": {
+      "message": "सहायता"
+   },
+   "unlimited": {
+      "message": "असीमित"
+   },
+   "upgradeBtn": {
+      "message": "प्रीमियम 4K में अपग्रेड करें"
+   },
+   "upgradeNow": {
+      "message": "अपग्रेड करें ↗"
+   },
+   "upgradeTitle": {
+      "message": "प्रीमियम में अपग्रेड करें"
+   },
+   "usageLeft": {
+      "message": "डाउनलोड आज बचे हैं"
+   },
+   "usageOf": {
+      "message": "में से"
+   },
+   "validFor": {
+      "message": "इसके लिए मान्य"
+   },
+   "verifying": {
+      "message": "सत्यापित हो रहा है…"
+   },
+   "videoDetected": {
+      "message": "वीडियो मिला"
+   },
+   "videosDetected": {
+      "message": "वीडियो मिले"
+   },
+   "ytBlocked": {
+      "message": "YouTube समर्थित नहीं"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD YouTube की सेवा शर्तों का सम्मान करता है।"
+   },
+   "ytTry": {
+      "message": "Facebook, Vimeo, Twitter और 1,000+ अन्य साइटें आज़माएं।"
+   }
+}

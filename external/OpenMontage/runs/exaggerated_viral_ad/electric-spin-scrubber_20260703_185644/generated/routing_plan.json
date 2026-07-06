@@ -1,0 +1,3061 @@
+{
+  "pipeline": "exaggerated_viral_ad",
+  "product_id": "electric-spin-scrubber",
+  "run_dir": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644",
+  "storyboard_count": 6,
+  "product_images": [
+    "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\products\\electric_spin_scrubber\\01_kit_overview.webp",
+    "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\products\\electric_spin_scrubber\\02_handle_grip.webp",
+    "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\products\\electric_spin_scrubber\\03_speed_modes.webp",
+    "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\products\\electric_spin_scrubber\\04_waterproof.webp"
+  ],
+  "product_asset_preprocess": [
+    {
+      "success": true,
+      "provider": "comfyui",
+      "tool": "comfyui_image",
+      "source_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\products\\electric_spin_scrubber\\01_kit_overview.webp",
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644\\generated\\product_assets\\01_01_kit_overview_00005_.png",
+      "error": null
+    },
+    {
+      "success": true,
+      "provider": "comfyui",
+      "tool": "comfyui_image",
+      "source_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\products\\electric_spin_scrubber\\02_handle_grip.webp",
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644\\generated\\product_assets\\02_02_handle_grip_00005_.png",
+      "error": null
+    },
+    {
+      "success": true,
+      "provider": "comfyui",
+      "tool": "comfyui_image",
+      "source_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\products\\electric_spin_scrubber\\03_speed_modes.webp",
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644\\generated\\product_assets\\03_03_speed_modes_00005_.png",
+      "error": null
+    },
+    {
+      "success": true,
+      "provider": "comfyui",
+      "tool": "comfyui_image",
+      "source_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\products\\electric_spin_scrubber\\04_waterproof.webp",
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644\\generated\\product_assets\\04_04_waterproof_00005_.png",
+      "error": null
+    }
+  ],
+  "shot_routes": [
+    {
+      "shot_id": "shot_01_dirty_bathroom_hook",
+      "bucket": "action_or_character_motion",
+      "preferred_tools": [
+        "libtv_video",
+        "seedance_video",
+        "kling_video"
+      ],
+      "selector_rankings": [
+        {
+          "tool_name": "seedance_video",
+          "provider": "seedance",
+          "task_fit": 0.17291666666666666,
+          "output_quality": 0.95,
+          "control": 0.5405405405405406,
+          "reliability": 0.8,
+          "cost_efficiency": 0.3,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.5179560810810812,
+          "agent_skills": [
+            "seedance-2-0",
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\seedance_video.py",
+          "best_for": [
+            "preferred premium video gen when FAL_KEY is available",
+            "cinematic trailers, teasers, and high-fidelity clips with native synchronized audio",
+            "director-level camera control and multi-shot editing in a single generation",
+            "lip-sync from quoted dialogue in prompts",
+            "reference-conditioned generation (up to 9 images + 3 video clips + 3 audio clips)",
+            "consistent character identity across shots"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "reference_to_video": true,
+            "multiple_reference_images": true,
+            "reference_image": true,
+            "native_audio": true,
+            "cinematic_quality": true,
+            "camera_direction": true,
+            "lip_sync": true,
+            "multi_shot": true,
+            "aspect_ratio": true,
+            "seed": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "ark_video",
+          "provider": "ark",
+          "task_fit": 0.135,
+          "output_quality": 0.7,
+          "control": 0.5405405405405406,
+          "reliability": 0.8,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.4965810810810811,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\ark_video.py",
+          "best_for": [
+            "direct Ark video generation when ARK_API_KEY is available",
+            "teams with Volcengine / BytePlus Ark balance",
+            "routing to Ark-hosted Seedance / video models without fal.ai"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "aspect_ratio": true,
+            "seed": true,
+            "reference_image": true,
+            "task_api": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "vidu_video",
+          "provider": "vidu",
+          "task_fit": 0.1,
+          "output_quality": 0.7,
+          "control": 0.5405405405405406,
+          "reliability": 0.8,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.4660810810810811,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\vidu_video.py",
+          "best_for": [
+            "direct Vidu q3 text-to-video generation",
+            "direct Vidu image-to-video generation",
+            "teams with paid Vidu API credits"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "native_audio": true,
+            "aspect_ratio": true,
+            "seed": true,
+            "reference_image": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "pexels_video",
+          "provider": "pexels",
+          "task_fit": 0.17368421052631577,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 1.0,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.4571052631578948,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\pexels_video.py",
+          "best_for": [
+            "real-world B-roll footage (cities, nature, people, offices)",
+            "establishing shots and transitions",
+            "free stock video — no cost, no attribution required"
+          ],
+          "supports": {
+            "orientation_filter": true,
+            "size_filter": true,
+            "free_commercial_use": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "pixabay_video",
+          "provider": "pixabay",
+          "task_fit": 0.15,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 1.0,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.45000000000000007,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\pixabay_video.py",
+          "best_for": [
+            "large royalty-free video library",
+            "category-based filtering",
+            "free stock video — no cost, no attribution required"
+          ],
+          "supports": {
+            "video_type_filter": true,
+            "category_filter": true,
+            "editors_choice": true,
+            "free_commercial_use": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "pixverse_video",
+          "provider": "pixverse",
+          "task_fit": 0.1,
+          "output_quality": 0.7,
+          "control": 0.21621621621621623,
+          "reliability": 0.8,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.43743243243243246,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\pixverse_video.py",
+          "best_for": [
+            "direct PixVerse text-to-video generation",
+            "direct PixVerse image-to-video generation",
+            "teams already buying PixVerse API credits"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "aspect_ratio": true,
+            "seed": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "siliconflow_video",
+          "provider": "siliconflow",
+          "task_fit": 0.1411764705882353,
+          "output_quality": 0.7,
+          "control": 0.21621621621621623,
+          "reliability": 0.8,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.42978537360890307,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\siliconflow_video.py",
+          "best_for": [
+            "direct Wan-AI video generation on SiliconFlow",
+            "teams with prepaid SiliconFlow balance",
+            "avoiding third-party gateway lock-in for Wan models"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "aspect_ratio": true,
+            "seed": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "libtv_video",
+          "provider": "libtv",
+          "task_fit": 0.24482758620689654,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.42844827586206896,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\libtv_video.py",
+          "best_for": [
+            "LibTV-driven action or exaggerated viral ad shots",
+            "complex creative beats that need the LibTV session flow",
+            "provider integration when libtv-skills is already installed locally"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_conditioning": true,
+            "style_notes": true,
+            "external_script_backend": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "runway_video",
+          "provider": "runway",
+          "task_fit": 0.16086956521739132,
+          "output_quality": 0.9,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 0.3,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.42326086956521747,
+          "agent_skills": [
+            "seedance-2-0",
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\runway_video.py",
+          "best_for": [
+            "preferred premium video gen on Runway when Seedance 2.0 model is selected",
+            "cinematic trailers, teasers, and high-fidelity clips with native synchronized audio (Seedance 2.0 path)",
+            "director-level camera control and multi-shot editing (Seedance 2.0) or Runway Gen-4 professional control",
+            "lip-sync from quoted dialogue in prompts (Seedance 2.0)",
+            "professional video production"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "professional_control": true,
+            "native_audio": true,
+            "cinematic_quality": true,
+            "camera_direction": true,
+            "lip_sync": true,
+            "multi_shot": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "heygen_video",
+          "provider": "heygen",
+          "task_fit": 0.17777777777777776,
+          "output_quality": 0.4,
+          "control": 0.32432432432432434,
+          "reliability": 0.8,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.39698198198198204,
+          "agent_skills": [
+            "ai-video-gen",
+            "create-video"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\heygen_video.py",
+          "best_for": [
+            "premium cloud video generation without local GPU setup",
+            "fast access to VEO, Sora, Kling, Runway, and Seedance providers"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": false,
+            "native_audio": false,
+            "cloud_generation": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "seedance_replicate",
+          "provider": "seedance",
+          "task_fit": 0.1595744680851064,
+          "output_quality": 0.95,
+          "control": 0.5405405405405406,
+          "reliability": 0.0,
+          "cost_efficiency": 0.3,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.39395342150661306,
+          "agent_skills": [
+            "seedance-2-0",
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\seedance_replicate.py",
+          "best_for": [
+            "preferred premium video gen when REPLICATE_API_TOKEN is available",
+            "cinematic trailers, teasers, and high-fidelity clips with native synchronized audio",
+            "director-level camera control and multi-shot editing in a single generation",
+            "lip-sync from quoted dialogue in prompts",
+            "consistent character identity across shots"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "reference_image": true,
+            "native_audio": true,
+            "cinematic_quality": true,
+            "camera_direction": true,
+            "lip_sync": true,
+            "multi_shot": true,
+            "aspect_ratio": true,
+            "seed": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "kling_video",
+          "provider": "kling",
+          "task_fit": 0.14242424242424243,
+          "output_quality": 0.4,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.3577272727272728,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\kling_video.py",
+          "best_for": [
+            "cinematic B-roll with highest visual fidelity",
+            "fluid motion and camera direction",
+            "professional video clips"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "native_audio": true,
+            "cinematic_quality": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "minimax_video",
+          "provider": "minimax",
+          "task_fit": 0.128,
+          "output_quality": 0.4,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.35340000000000005,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\minimax_video.py",
+          "best_for": [
+            "prompt-following with camera directions (framing, motion, composition)",
+            "high-texture footage with minimal hallucination",
+            "cost-effective video generation"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "camera_direction": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "cogvideo_video",
+          "provider": "cogvideo",
+          "task_fit": 0.14666666666666667,
+          "output_quality": 0.4,
+          "control": 0.32432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.3426486486486487,
+          "agent_skills": [
+            "ltx2"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\cogvideo_video.py",
+          "best_for": [
+            "lower-VRAM local video experimentation",
+            "teams that want an explicit CogVideo family path in the registry"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": true,
+            "native_audio": false,
+            "local_gpu": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "ltx_video_local",
+          "provider": "ltx",
+          "task_fit": 0.14375,
+          "output_quality": 0.4,
+          "control": 0.32432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.3417736486486487,
+          "agent_skills": [
+            "ltx2"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\ltx_video_local.py",
+          "best_for": [
+            "local LTX workflows already tuned around LTX prompting",
+            "teams that want one dedicated LTX local path in the registry"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": true,
+            "native_audio": false,
+            "local_gpu": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "grok_video",
+          "provider": "grok",
+          "task_fit": 0.15,
+          "output_quality": 0.7,
+          "control": 0.32432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.3286486486486487,
+          "agent_skills": [
+            "grok-media",
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\grok_video.py",
+          "best_for": [
+            "cinematic clips with native synchronized audio (dialogue, SFX, music)",
+            "reference-conditioned video with product/character consistency",
+            "lip-synced dialogue and foley in a single generation pass",
+            "cost-effective high-quality video ($0.07/s at 720p)"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "reference_to_video": true,
+            "reference_image": true,
+            "multiple_reference_images": true,
+            "native_audio": true,
+            "lip_sync": true,
+            "cinematic_quality": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "hunyuan_video",
+          "provider": "hunyuan",
+          "task_fit": 0.1,
+          "output_quality": 0.4,
+          "control": 0.32432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.3286486486486487,
+          "agent_skills": [
+            "ltx2"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\hunyuan_video.py",
+          "best_for": [
+            "local generation when Hunyuan motion behavior fits the brief",
+            "teams that want one known Hunyuan baseline instead of multiple variants"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": true,
+            "native_audio": false,
+            "local_gpu": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "wan_video",
+          "provider": "wan",
+          "task_fit": 0.1,
+          "output_quality": 0.4,
+          "control": 0.32432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.3286486486486487,
+          "agent_skills": [
+            "ltx2"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\wan_video.py",
+          "best_for": [
+            "best quality-to-VRAM ratio for local generation",
+            "local pipelines that still want image-to-video support"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": true,
+            "native_audio": false,
+            "local_gpu": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "higgsfield_video",
+          "provider": "higgsfield",
+          "task_fit": 0.17291666666666666,
+          "output_quality": 0.9,
+          "control": 0.0,
+          "reliability": 0.0,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.3268750000000001,
+          "agent_skills": [
+            "seedance-2-0",
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\higgsfield_video.py",
+          "best_for": [
+            "preferred premium video gen on Higgsfield (Seedance 2.0 is the default model)",
+            "cinematic trailers, teasers, and high-fidelity clips with native synchronized audio",
+            "character-consistent video generation (Soul ID + Seedance 2.0 identity consistency)",
+            "director-level camera control and multi-shot editing in a single generation",
+            "lip-sync from quoted dialogue in prompts",
+            "multi-model access through a single API (Seedance 2.0, Kling, Veo, Sora, WAN)"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "character_consistency": true,
+            "multi_model_routing": true,
+            "native_audio": true,
+            "cinematic_quality": true,
+            "camera_direction": true,
+            "lip_sync": true,
+            "multi_shot": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "veo_video",
+          "provider": "veo",
+          "task_fit": 0.16999999999999998,
+          "output_quality": 0.4,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 0.3,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.32600000000000007,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\veo_video.py",
+          "best_for": [
+            "videos with synchronized dialogue and audio",
+            "cutting-edge quality from Google DeepMind",
+            "ambient sound and music generation built in"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "reference_to_video": true,
+            "first_last_frame_to_video": true,
+            "native_audio": true,
+            "dialogue_generation": true,
+            "ambient_sound": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "ltx_video_modal",
+          "provider": "ltx-modal",
+          "task_fit": 0.1,
+          "output_quality": 0.4,
+          "control": 0.32432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.2536486486486487,
+          "agent_skills": [
+            "ltx2"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\ltx_video_modal.py",
+          "best_for": [
+            "self-hosted cloud GPU rendering for LTX without local workstation dependence"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": false,
+            "native_audio": false,
+            "self_hosted_cloud": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        }
+      ],
+      "selector_error": null,
+      "result": {
+        "success": false,
+        "provider": null,
+        "tool": null,
+        "asset_type": "video",
+        "path": null,
+        "attempts": [
+          {
+            "tool": "libtv_video",
+            "provider": "libtv",
+            "status": "failed",
+            "error": "LibTV video generation failed: libtv download -n OpenMontage Video -o D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644\\generated\\motion\\shot_01_dirty_bathroom_hook\\ccf340edf3ea42a3ad6a47273b953be7 -p ccf340edf3ea42a3ad6a47273b953be7 failed: 该节点（及组内子节点）没有可下载的资源（图片/视频/音频/脚本/文本）"
+          },
+          {
+            "tool": "seedance_video",
+            "provider": "seedance",
+            "status": "failed",
+            "error": "Seedance 2.0 video generation failed: 403 Client Error: Forbidden for url: https://rest.alpha.fal.ai/storage/upload/initiate"
+          },
+          {
+            "tool": "kling_video",
+            "provider": "kling",
+            "status": "failed",
+            "error": "Kling video generation failed: 403 Client Error: Forbidden for url: https://queue.fal.run/fal-ai/kling-video/v3/standard/reference-to-video"
+          }
+        ],
+        "data": {},
+        "error": "All motion providers failed or were unavailable."
+      }
+    },
+    {
+      "shot_id": "shot_02_product_kit_closeup",
+      "bucket": "product_closeup",
+      "preferred_tools": [
+        "comfyui_image",
+        "product_image"
+      ],
+      "selector_rankings": [
+        {
+          "tool_name": "flux_image",
+          "provider": "flux",
+          "task_fit": 0.15384615384615385,
+          "output_quality": 0.7,
+          "control": 0.4144144144144144,
+          "reliability": 0.8,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.48331600831600835,
+          "agent_skills": [
+            "flux-best-practices",
+            "bfl-api"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\flux_image.py",
+          "best_for": [
+            "photorealistic images",
+            "general-purpose image generation",
+            "high quality at low cost (~$0.03/image)"
+          ],
+          "supports": {
+            "negative_prompt": true,
+            "seed": true,
+            "custom_size": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "google_imagen",
+          "provider": "google_imagen",
+          "task_fit": 0.1,
+          "output_quality": 0.7,
+          "control": 0.12612612612612611,
+          "reliability": 0.8,
+          "cost_efficiency": 0.9,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.44391891891891894,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\google_imagen.py",
+          "best_for": [
+            "high-quality photorealistic images",
+            "Google ecosystem integration",
+            "fast generation with multiple aspect ratios"
+          ],
+          "supports": {
+            "negative_prompt": false,
+            "seed": false,
+            "custom_size": false,
+            "aspect_ratio": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "pexels_image",
+          "provider": "pexels",
+          "task_fit": 0.1,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 1.0,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.43500000000000005,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\pexels_image.py",
+          "best_for": [
+            "real-world photography (cities, nature, people, objects)",
+            "establishing shots and B-roll stills",
+            "free stock images — no cost, no attribution required"
+          ],
+          "supports": {
+            "orientation_filter": true,
+            "size_filter": true,
+            "color_filter": true,
+            "locale": true,
+            "free_commercial_use": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "pixabay_image",
+          "provider": "pixabay",
+          "task_fit": 0.1,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 1.0,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.43500000000000005,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\pixabay_image.py",
+          "best_for": [
+            "large royalty-free library (5M+ images)",
+            "category-based filtering (nature, business, science, etc.)",
+            "free stock images — no cost, no attribution required"
+          ],
+          "supports": {
+            "orientation_filter": true,
+            "category_filter": true,
+            "color_filter": true,
+            "image_type_filter": true,
+            "editors_choice": true,
+            "free_commercial_use": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "image_gen",
+          "provider": "multi",
+          "task_fit": 0.1,
+          "output_quality": 0.4,
+          "control": 0.3,
+          "reliability": 0.8,
+          "cost_efficiency": 0.9,
+          "latency": 0.6,
+          "continuity": 0.5,
+          "weighted_score": 0.42000000000000004,
+          "agent_skills": [
+            "flux-best-practices",
+            "bfl-api"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\image_gen.py",
+          "best_for": [
+            "DEPRECATED — prefer image_selector which routes to per-provider tools (flux_image, openai_image, recraft_image, grok_image, local_diffusion, pexels_image, pixabay_image).",
+            "Kept only for backwards compatibility. New code should not call this."
+          ],
+          "supports": {},
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "grok_image",
+          "provider": "grok",
+          "task_fit": 0.2076923076923077,
+          "output_quality": 0.7,
+          "control": 0.45045045045045046,
+          "reliability": 0.0,
+          "cost_efficiency": 0.9,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.4048752598752599,
+          "agent_skills": [
+            "grok-media"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\grok_image.py",
+          "best_for": [
+            "single-image edits and style transfers",
+            "multi-image compositing into one generated frame",
+            "general-purpose image generation with aspect ratio control"
+          ],
+          "supports": {
+            "image_edit": true,
+            "multiple_outputs": true,
+            "aspect_ratio": true,
+            "resolution": true,
+            "reference_image": true,
+            "multiple_reference_images": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "recraft_image",
+          "provider": "recraft",
+          "task_fit": 0.15384615384615385,
+          "output_quality": 0.4,
+          "control": 0.14414414414414414,
+          "reliability": 0.8,
+          "cost_efficiency": 0.9,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.40277546777546785,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\recraft_image.py",
+          "best_for": [
+            "logos and brand assets",
+            "SVG vector output",
+            "images with accurate text rendering",
+            "clean professional graphics"
+          ],
+          "supports": {
+            "svg_output": true,
+            "text_rendering": true,
+            "color_palette": true,
+            "custom_size": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "comfyui_image",
+          "provider": "comfyui",
+          "task_fit": 0.1,
+          "output_quality": 0.4,
+          "control": 0.23423423423423426,
+          "reliability": 0.4,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.37513513513513513,
+          "agent_skills": [
+            "comfyui",
+            "flux-best-practices"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\comfyui_image.py",
+          "best_for": [
+            "local GPU generation without API costs",
+            "Blackwell / DGX Spark hardware where diffusers is unsupported",
+            "full control over sampling via custom ComfyUI workflows"
+          ],
+          "supports": {
+            "seed": true,
+            "custom_size": true,
+            "custom_workflow": true,
+            "custom_output_node": true,
+            "offline": true
+          },
+          "status": "ToolStatus.DEGRADED"
+        },
+        {
+          "tool_name": "local_diffusion",
+          "provider": "local_diffusion",
+          "task_fit": 0.16999999999999998,
+          "output_quality": 0.4,
+          "control": 0.4144144144144144,
+          "reliability": 0.0,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.3631621621621622,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\local_diffusion.py",
+          "best_for": [
+            "offline/air-gapped generation",
+            "free image generation (no API cost)",
+            "privacy-sensitive workflows"
+          ],
+          "supports": {
+            "negative_prompt": true,
+            "seed": true,
+            "offline": true,
+            "custom_size": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "openai_image",
+          "provider": "openai",
+          "task_fit": 0.1,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.0,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.28500000000000003,
+          "agent_skills": [
+            "flux-best-practices"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\openai_image.py",
+          "best_for": [
+            "complex multi-element compositions",
+            "images with text/labels",
+            "following detailed instructions accurately"
+          ],
+          "supports": {
+            "complex_instructions": true,
+            "text_in_image": true,
+            "multiple_outputs": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        }
+      ],
+      "selector_error": null,
+      "result": {
+        "success": true,
+        "provider": "comfyui",
+        "tool": "comfyui_image",
+        "asset_type": "image",
+        "path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644\\generated\\product_assets\\01_01_kit_overview_00005_.png",
+        "attempts": [],
+        "data": {
+          "source_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\products\\electric_spin_scrubber\\01_kit_overview.webp"
+        },
+        "error": null
+      }
+    },
+    {
+      "shot_id": "shot_03_shower_wall_action",
+      "bucket": "action_or_character_motion",
+      "preferred_tools": [
+        "libtv_video",
+        "seedance_video",
+        "kling_video"
+      ],
+      "selector_rankings": [
+        {
+          "tool_name": "seedance_video",
+          "provider": "seedance",
+          "task_fit": 0.23461538461538461,
+          "output_quality": 0.95,
+          "control": 0.5405405405405406,
+          "reliability": 0.8,
+          "cost_efficiency": 0.3,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.5364656964656965,
+          "agent_skills": [
+            "seedance-2-0",
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\seedance_video.py",
+          "best_for": [
+            "preferred premium video gen when FAL_KEY is available",
+            "cinematic trailers, teasers, and high-fidelity clips with native synchronized audio",
+            "director-level camera control and multi-shot editing in a single generation",
+            "lip-sync from quoted dialogue in prompts",
+            "reference-conditioned generation (up to 9 images + 3 video clips + 3 audio clips)",
+            "consistent character identity across shots"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "reference_to_video": true,
+            "multiple_reference_images": true,
+            "reference_image": true,
+            "native_audio": true,
+            "cinematic_quality": true,
+            "camera_direction": true,
+            "lip_sync": true,
+            "multi_shot": true,
+            "aspect_ratio": true,
+            "seed": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "ark_video",
+          "provider": "ark",
+          "task_fit": 0.135,
+          "output_quality": 0.7,
+          "control": 0.5405405405405406,
+          "reliability": 0.8,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.4965810810810811,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\ark_video.py",
+          "best_for": [
+            "direct Ark video generation when ARK_API_KEY is available",
+            "teams with Volcengine / BytePlus Ark balance",
+            "routing to Ark-hosted Seedance / video models without fal.ai"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "aspect_ratio": true,
+            "seed": true,
+            "reference_image": true,
+            "task_api": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "pexels_video",
+          "provider": "pexels",
+          "task_fit": 0.21052631578947367,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 1.0,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.4681578947368421,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\pexels_video.py",
+          "best_for": [
+            "real-world B-roll footage (cities, nature, people, offices)",
+            "establishing shots and transitions",
+            "free stock video — no cost, no attribution required"
+          ],
+          "supports": {
+            "orientation_filter": true,
+            "size_filter": true,
+            "free_commercial_use": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "vidu_video",
+          "provider": "vidu",
+          "task_fit": 0.1,
+          "output_quality": 0.7,
+          "control": 0.5405405405405406,
+          "reliability": 0.8,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.4660810810810811,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\vidu_video.py",
+          "best_for": [
+            "direct Vidu q3 text-to-video generation",
+            "direct Vidu image-to-video generation",
+            "teams with paid Vidu API credits"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "native_audio": true,
+            "aspect_ratio": true,
+            "seed": true,
+            "reference_image": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "pixabay_video",
+          "provider": "pixabay",
+          "task_fit": 0.2,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 1.0,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.46499999999999997,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\pixabay_video.py",
+          "best_for": [
+            "large royalty-free video library",
+            "category-based filtering",
+            "free stock video — no cost, no attribution required"
+          ],
+          "supports": {
+            "video_type_filter": true,
+            "category_filter": true,
+            "editors_choice": true,
+            "free_commercial_use": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "siliconflow_video",
+          "provider": "siliconflow",
+          "task_fit": 0.1823529411764706,
+          "output_quality": 0.7,
+          "control": 0.21621621621621623,
+          "reliability": 0.8,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.44213831478537363,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\siliconflow_video.py",
+          "best_for": [
+            "direct Wan-AI video generation on SiliconFlow",
+            "teams with prepaid SiliconFlow balance",
+            "avoiding third-party gateway lock-in for Wan models"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "aspect_ratio": true,
+            "seed": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "pixverse_video",
+          "provider": "pixverse",
+          "task_fit": 0.1,
+          "output_quality": 0.7,
+          "control": 0.21621621621621623,
+          "reliability": 0.8,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.43743243243243246,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\pixverse_video.py",
+          "best_for": [
+            "direct PixVerse text-to-video generation",
+            "direct PixVerse image-to-video generation",
+            "teams already buying PixVerse API credits"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "aspect_ratio": true,
+            "seed": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "libtv_video",
+          "provider": "libtv",
+          "task_fit": 0.2689655172413793,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.4356896551724138,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\libtv_video.py",
+          "best_for": [
+            "LibTV-driven action or exaggerated viral ad shots",
+            "complex creative beats that need the LibTV session flow",
+            "provider integration when libtv-skills is already installed locally"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_conditioning": true,
+            "style_notes": true,
+            "external_script_backend": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "minimax_video",
+          "provider": "minimax",
+          "task_fit": 0.38,
+          "output_quality": 0.4,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.42900000000000005,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\minimax_video.py",
+          "best_for": [
+            "prompt-following with camera directions (framing, motion, composition)",
+            "high-texture footage with minimal hallucination",
+            "cost-effective video generation"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "camera_direction": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "runway_video",
+          "provider": "runway",
+          "task_fit": 0.16086956521739132,
+          "output_quality": 0.9,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 0.3,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.42326086956521747,
+          "agent_skills": [
+            "seedance-2-0",
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\runway_video.py",
+          "best_for": [
+            "preferred premium video gen on Runway when Seedance 2.0 model is selected",
+            "cinematic trailers, teasers, and high-fidelity clips with native synchronized audio (Seedance 2.0 path)",
+            "director-level camera control and multi-shot editing (Seedance 2.0) or Runway Gen-4 professional control",
+            "lip-sync from quoted dialogue in prompts (Seedance 2.0)",
+            "professional video production"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "professional_control": true,
+            "native_audio": true,
+            "cinematic_quality": true,
+            "camera_direction": true,
+            "lip_sync": true,
+            "multi_shot": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "seedance_replicate",
+          "provider": "seedance",
+          "task_fit": 0.24893617021276596,
+          "output_quality": 0.95,
+          "control": 0.5405405405405406,
+          "reliability": 0.0,
+          "cost_efficiency": 0.3,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.42076193214491087,
+          "agent_skills": [
+            "seedance-2-0",
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\seedance_replicate.py",
+          "best_for": [
+            "preferred premium video gen when REPLICATE_API_TOKEN is available",
+            "cinematic trailers, teasers, and high-fidelity clips with native synchronized audio",
+            "director-level camera control and multi-shot editing in a single generation",
+            "lip-sync from quoted dialogue in prompts",
+            "consistent character identity across shots"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "reference_image": true,
+            "native_audio": true,
+            "cinematic_quality": true,
+            "camera_direction": true,
+            "lip_sync": true,
+            "multi_shot": true,
+            "aspect_ratio": true,
+            "seed": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "kling_video",
+          "provider": "kling",
+          "task_fit": 0.3333333333333333,
+          "output_quality": 0.4,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.41500000000000004,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\kling_video.py",
+          "best_for": [
+            "cinematic B-roll with highest visual fidelity",
+            "fluid motion and camera direction",
+            "professional video clips"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "native_audio": true,
+            "cinematic_quality": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "hunyuan_video",
+          "provider": "hunyuan",
+          "task_fit": 0.3592592592592593,
+          "output_quality": 0.4,
+          "control": 0.32432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.40642642642642646,
+          "agent_skills": [
+            "ltx2"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\hunyuan_video.py",
+          "best_for": [
+            "local generation when Hunyuan motion behavior fits the brief",
+            "teams that want one known Hunyuan baseline instead of multiple variants"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": true,
+            "native_audio": false,
+            "local_gpu": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "heygen_video",
+          "provider": "heygen",
+          "task_fit": 0.17777777777777776,
+          "output_quality": 0.4,
+          "control": 0.32432432432432434,
+          "reliability": 0.8,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.39698198198198204,
+          "agent_skills": [
+            "ai-video-gen",
+            "create-video"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\heygen_video.py",
+          "best_for": [
+            "premium cloud video generation without local GPU setup",
+            "fast access to VEO, Sora, Kling, Runway, and Seedance providers"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": false,
+            "native_audio": false,
+            "cloud_generation": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "cogvideo_video",
+          "provider": "cogvideo",
+          "task_fit": 0.24,
+          "output_quality": 0.4,
+          "control": 0.32432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.3706486486486487,
+          "agent_skills": [
+            "ltx2"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\cogvideo_video.py",
+          "best_for": [
+            "lower-VRAM local video experimentation",
+            "teams that want an explicit CogVideo family path in the registry"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": true,
+            "native_audio": false,
+            "local_gpu": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "grok_video",
+          "provider": "grok",
+          "task_fit": 0.26666666666666666,
+          "output_quality": 0.7,
+          "control": 0.32432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.36364864864864865,
+          "agent_skills": [
+            "grok-media",
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\grok_video.py",
+          "best_for": [
+            "cinematic clips with native synchronized audio (dialogue, SFX, music)",
+            "reference-conditioned video with product/character consistency",
+            "lip-synced dialogue and foley in a single generation pass",
+            "cost-effective high-quality video ($0.07/s at 720p)"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "reference_to_video": true,
+            "reference_image": true,
+            "multiple_reference_images": true,
+            "native_audio": true,
+            "lip_sync": true,
+            "cinematic_quality": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "ltx_video_local",
+          "provider": "ltx",
+          "task_fit": 0.1875,
+          "output_quality": 0.4,
+          "control": 0.32432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.3548986486486487,
+          "agent_skills": [
+            "ltx2"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\ltx_video_local.py",
+          "best_for": [
+            "local LTX workflows already tuned around LTX prompting",
+            "teams that want one dedicated LTX local path in the registry"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": true,
+            "native_audio": false,
+            "local_gpu": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "higgsfield_video",
+          "provider": "higgsfield",
+          "task_fit": 0.1807692307692308,
+          "output_quality": 0.9,
+          "control": 0.0,
+          "reliability": 0.0,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.32923076923076927,
+          "agent_skills": [
+            "seedance-2-0",
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\higgsfield_video.py",
+          "best_for": [
+            "preferred premium video gen on Higgsfield (Seedance 2.0 is the default model)",
+            "cinematic trailers, teasers, and high-fidelity clips with native synchronized audio",
+            "character-consistent video generation (Soul ID + Seedance 2.0 identity consistency)",
+            "director-level camera control and multi-shot editing in a single generation",
+            "lip-sync from quoted dialogue in prompts",
+            "multi-model access through a single API (Seedance 2.0, Kling, Veo, Sora, WAN)"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "character_consistency": true,
+            "multi_model_routing": true,
+            "native_audio": true,
+            "cinematic_quality": true,
+            "camera_direction": true,
+            "lip_sync": true,
+            "multi_shot": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "wan_video",
+          "provider": "wan",
+          "task_fit": 0.1,
+          "output_quality": 0.4,
+          "control": 0.32432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.3286486486486487,
+          "agent_skills": [
+            "ltx2"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\wan_video.py",
+          "best_for": [
+            "best quality-to-VRAM ratio for local generation",
+            "local pipelines that still want image-to-video support"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": true,
+            "native_audio": false,
+            "local_gpu": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "veo_video",
+          "provider": "veo",
+          "task_fit": 0.16999999999999998,
+          "output_quality": 0.4,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 0.3,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.32600000000000007,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\veo_video.py",
+          "best_for": [
+            "videos with synchronized dialogue and audio",
+            "cutting-edge quality from Google DeepMind",
+            "ambient sound and music generation built in"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "reference_to_video": true,
+            "first_last_frame_to_video": true,
+            "native_audio": true,
+            "dialogue_generation": true,
+            "ambient_sound": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "ltx_video_modal",
+          "provider": "ltx-modal",
+          "task_fit": 0.1,
+          "output_quality": 0.4,
+          "control": 0.32432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.2536486486486487,
+          "agent_skills": [
+            "ltx2"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\ltx_video_modal.py",
+          "best_for": [
+            "self-hosted cloud GPU rendering for LTX without local workstation dependence"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": false,
+            "native_audio": false,
+            "self_hosted_cloud": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        }
+      ],
+      "selector_error": null,
+      "result": {
+        "success": false,
+        "provider": null,
+        "tool": null,
+        "asset_type": "video",
+        "path": null,
+        "attempts": [
+          {
+            "tool": "libtv_video",
+            "provider": "libtv",
+            "status": "failed",
+            "error": "LibTV video generation failed: libtv download -n OpenMontage Video -o D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644\\generated\\motion\\shot_03_shower_wall_action\\b0c2a97b172d4b52917beb5d5a8b16e1 -p b0c2a97b172d4b52917beb5d5a8b16e1 failed: 该节点（及组内子节点）没有可下载的资源（图片/视频/音频/脚本/文本）"
+          },
+          {
+            "tool": "seedance_video",
+            "provider": "seedance",
+            "status": "failed",
+            "error": "Seedance 2.0 video generation failed: 403 Client Error: Forbidden for url: https://rest.alpha.fal.ai/storage/upload/initiate"
+          },
+          {
+            "tool": "kling_video",
+            "provider": "kling",
+            "status": "failed",
+            "error": "Kling video generation failed: 403 Client Error: Forbidden for url: https://queue.fal.run/fal-ai/kling-video/v3/standard/reference-to-video"
+          }
+        ],
+        "data": {},
+        "error": "All motion providers failed or were unavailable."
+      }
+    },
+    {
+      "shot_id": "shot_04_handle_closeup",
+      "bucket": "product_closeup",
+      "preferred_tools": [
+        "comfyui_image",
+        "product_image"
+      ],
+      "selector_rankings": [
+        {
+          "tool_name": "flux_image",
+          "provider": "flux",
+          "task_fit": 0.15,
+          "output_quality": 0.7,
+          "control": 0.4144144144144144,
+          "reliability": 0.8,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.4821621621621622,
+          "agent_skills": [
+            "flux-best-practices",
+            "bfl-api"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\flux_image.py",
+          "best_for": [
+            "photorealistic images",
+            "general-purpose image generation",
+            "high quality at low cost (~$0.03/image)"
+          ],
+          "supports": {
+            "negative_prompt": true,
+            "seed": true,
+            "custom_size": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "pexels_image",
+          "provider": "pexels",
+          "task_fit": 0.1411764705882353,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 1.0,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.4473529411764706,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\pexels_image.py",
+          "best_for": [
+            "real-world photography (cities, nature, people, objects)",
+            "establishing shots and B-roll stills",
+            "free stock images — no cost, no attribution required"
+          ],
+          "supports": {
+            "orientation_filter": true,
+            "size_filter": true,
+            "color_filter": true,
+            "locale": true,
+            "free_commercial_use": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "google_imagen",
+          "provider": "google_imagen",
+          "task_fit": 0.1,
+          "output_quality": 0.7,
+          "control": 0.12612612612612611,
+          "reliability": 0.8,
+          "cost_efficiency": 0.9,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.44391891891891894,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\google_imagen.py",
+          "best_for": [
+            "high-quality photorealistic images",
+            "Google ecosystem integration",
+            "fast generation with multiple aspect ratios"
+          ],
+          "supports": {
+            "negative_prompt": false,
+            "seed": false,
+            "custom_size": false,
+            "aspect_ratio": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "pixabay_image",
+          "provider": "pixabay",
+          "task_fit": 0.1,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 1.0,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.43500000000000005,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\pixabay_image.py",
+          "best_for": [
+            "large royalty-free library (5M+ images)",
+            "category-based filtering (nature, business, science, etc.)",
+            "free stock images — no cost, no attribution required"
+          ],
+          "supports": {
+            "orientation_filter": true,
+            "category_filter": true,
+            "color_filter": true,
+            "image_type_filter": true,
+            "editors_choice": true,
+            "free_commercial_use": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "image_gen",
+          "provider": "multi",
+          "task_fit": 0.1,
+          "output_quality": 0.4,
+          "control": 0.3,
+          "reliability": 0.8,
+          "cost_efficiency": 0.9,
+          "latency": 0.6,
+          "continuity": 0.5,
+          "weighted_score": 0.42000000000000004,
+          "agent_skills": [
+            "flux-best-practices",
+            "bfl-api"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\image_gen.py",
+          "best_for": [
+            "DEPRECATED — prefer image_selector which routes to per-provider tools (flux_image, openai_image, recraft_image, grok_image, local_diffusion, pexels_image, pixabay_image).",
+            "Kept only for backwards compatibility. New code should not call this."
+          ],
+          "supports": {},
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "grok_image",
+          "provider": "grok",
+          "task_fit": 0.2235294117647059,
+          "output_quality": 0.7,
+          "control": 0.45045045045045046,
+          "reliability": 0.0,
+          "cost_efficiency": 0.9,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.40962639109697935,
+          "agent_skills": [
+            "grok-media"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\grok_image.py",
+          "best_for": [
+            "single-image edits and style transfers",
+            "multi-image compositing into one generated frame",
+            "general-purpose image generation with aspect ratio control"
+          ],
+          "supports": {
+            "image_edit": true,
+            "multiple_outputs": true,
+            "aspect_ratio": true,
+            "resolution": true,
+            "reference_image": true,
+            "multiple_reference_images": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "recraft_image",
+          "provider": "recraft",
+          "task_fit": 0.1411764705882353,
+          "output_quality": 0.4,
+          "control": 0.14414414414414414,
+          "reliability": 0.8,
+          "cost_efficiency": 0.9,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.3989745627980923,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\recraft_image.py",
+          "best_for": [
+            "logos and brand assets",
+            "SVG vector output",
+            "images with accurate text rendering",
+            "clean professional graphics"
+          ],
+          "supports": {
+            "svg_output": true,
+            "text_rendering": true,
+            "color_palette": true,
+            "custom_size": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "comfyui_image",
+          "provider": "comfyui",
+          "task_fit": 0.1,
+          "output_quality": 0.4,
+          "control": 0.23423423423423426,
+          "reliability": 0.4,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.37513513513513513,
+          "agent_skills": [
+            "comfyui",
+            "flux-best-practices"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\comfyui_image.py",
+          "best_for": [
+            "local GPU generation without API costs",
+            "Blackwell / DGX Spark hardware where diffusers is unsupported",
+            "full control over sampling via custom ComfyUI workflows"
+          ],
+          "supports": {
+            "seed": true,
+            "custom_size": true,
+            "custom_workflow": true,
+            "custom_output_node": true,
+            "offline": true
+          },
+          "status": "ToolStatus.DEGRADED"
+        },
+        {
+          "tool_name": "local_diffusion",
+          "provider": "local_diffusion",
+          "task_fit": 0.16999999999999998,
+          "output_quality": 0.4,
+          "control": 0.4144144144144144,
+          "reliability": 0.0,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.3631621621621622,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\local_diffusion.py",
+          "best_for": [
+            "offline/air-gapped generation",
+            "free image generation (no API cost)",
+            "privacy-sensitive workflows"
+          ],
+          "supports": {
+            "negative_prompt": true,
+            "seed": true,
+            "offline": true,
+            "custom_size": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "openai_image",
+          "provider": "openai",
+          "task_fit": 0.1,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.0,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.28500000000000003,
+          "agent_skills": [
+            "flux-best-practices"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\openai_image.py",
+          "best_for": [
+            "complex multi-element compositions",
+            "images with text/labels",
+            "following detailed instructions accurately"
+          ],
+          "supports": {
+            "complex_instructions": true,
+            "text_in_image": true,
+            "multiple_outputs": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        }
+      ],
+      "selector_error": null,
+      "result": {
+        "success": true,
+        "provider": "comfyui",
+        "tool": "comfyui_image",
+        "asset_type": "image",
+        "path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644\\generated\\product_assets\\02_02_handle_grip_00005_.png",
+        "attempts": [],
+        "data": {
+          "source_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\products\\electric_spin_scrubber\\02_handle_grip.webp"
+        },
+        "error": null
+      }
+    },
+    {
+      "shot_id": "shot_05_speed_demo",
+      "bucket": "action_or_character_motion",
+      "preferred_tools": [
+        "libtv_video",
+        "seedance_video",
+        "kling_video"
+      ],
+      "selector_rankings": [
+        {
+          "tool_name": "seedance_video",
+          "provider": "seedance",
+          "task_fit": 0.3988679245283019,
+          "output_quality": 0.95,
+          "control": 0.6605405405405406,
+          "reliability": 0.8,
+          "cost_efficiency": 0.3,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.6037414584395717,
+          "agent_skills": [
+            "seedance-2-0",
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\seedance_video.py",
+          "best_for": [
+            "preferred premium video gen when FAL_KEY is available",
+            "cinematic trailers, teasers, and high-fidelity clips with native synchronized audio",
+            "director-level camera control and multi-shot editing in a single generation",
+            "lip-sync from quoted dialogue in prompts",
+            "reference-conditioned generation (up to 9 images + 3 video clips + 3 audio clips)",
+            "consistent character identity across shots"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "reference_to_video": true,
+            "multiple_reference_images": true,
+            "reference_image": true,
+            "native_audio": true,
+            "cinematic_quality": true,
+            "camera_direction": true,
+            "lip_sync": true,
+            "multi_shot": true,
+            "aspect_ratio": true,
+            "seed": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "ark_video",
+          "provider": "ark",
+          "task_fit": 0.28,
+          "output_quality": 0.7,
+          "control": 0.6605405405405406,
+          "reliability": 0.8,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.5580810810810811,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\ark_video.py",
+          "best_for": [
+            "direct Ark video generation when ARK_API_KEY is available",
+            "teams with Volcengine / BytePlus Ark balance",
+            "routing to Ark-hosted Seedance / video models without fal.ai"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "aspect_ratio": true,
+            "seed": true,
+            "reference_image": true,
+            "task_api": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "vidu_video",
+          "provider": "vidu",
+          "task_fit": 0.28,
+          "output_quality": 0.7,
+          "control": 0.6605405405405406,
+          "reliability": 0.8,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.5380810810810811,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\vidu_video.py",
+          "best_for": [
+            "direct Vidu q3 text-to-video generation",
+            "direct Vidu image-to-video generation",
+            "teams with paid Vidu API credits"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "native_audio": true,
+            "aspect_ratio": true,
+            "seed": true,
+            "reference_image": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "seedance_replicate",
+          "provider": "seedance",
+          "task_fit": 0.41404255319148936,
+          "output_quality": 0.95,
+          "control": 0.6605405405405406,
+          "reliability": 0.0,
+          "cost_efficiency": 0.3,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.48829384703852796,
+          "agent_skills": [
+            "seedance-2-0",
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\seedance_replicate.py",
+          "best_for": [
+            "preferred premium video gen when REPLICATE_API_TOKEN is available",
+            "cinematic trailers, teasers, and high-fidelity clips with native synchronized audio",
+            "director-level camera control and multi-shot editing in a single generation",
+            "lip-sync from quoted dialogue in prompts",
+            "consistent character identity across shots"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "reference_image": true,
+            "native_audio": true,
+            "cinematic_quality": true,
+            "camera_direction": true,
+            "lip_sync": true,
+            "multi_shot": true,
+            "aspect_ratio": true,
+            "seed": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "hunyuan_video",
+          "provider": "hunyuan",
+          "task_fit": 0.5651851851851852,
+          "output_quality": 0.4,
+          "control": 0.44432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.48620420420420424,
+          "agent_skills": [
+            "ltx2"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\hunyuan_video.py",
+          "best_for": [
+            "local generation when Hunyuan motion behavior fits the brief",
+            "teams that want one known Hunyuan baseline instead of multiple variants"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": true,
+            "native_audio": false,
+            "local_gpu": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "heygen_video",
+          "provider": "heygen",
+          "task_fit": 0.3188888888888889,
+          "output_quality": 0.4,
+          "control": 0.44432432432432434,
+          "reliability": 0.8,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.4573153153153154,
+          "agent_skills": [
+            "ai-video-gen",
+            "create-video"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\heygen_video.py",
+          "best_for": [
+            "premium cloud video generation without local GPU setup",
+            "fast access to VEO, Sora, Kling, Runway, and Seedance providers"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": false,
+            "native_audio": false,
+            "cloud_generation": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "ltx_video_local",
+          "provider": "ltx",
+          "task_fit": 0.41125,
+          "output_quality": 0.4,
+          "control": 0.44432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.4400236486486487,
+          "agent_skills": [
+            "ltx2"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\ltx_video_local.py",
+          "best_for": [
+            "local LTX workflows already tuned around LTX prompting",
+            "teams that want one dedicated LTX local path in the registry"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": true,
+            "native_audio": false,
+            "local_gpu": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "grok_video",
+          "provider": "grok",
+          "task_fit": 0.44666666666666666,
+          "output_quality": 0.7,
+          "control": 0.44432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.43564864864864866,
+          "agent_skills": [
+            "grok-media",
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\grok_video.py",
+          "best_for": [
+            "cinematic clips with native synchronized audio (dialogue, SFX, music)",
+            "reference-conditioned video with product/character consistency",
+            "lip-synced dialogue and foley in a single generation pass",
+            "cost-effective high-quality video ($0.07/s at 720p)"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "reference_to_video": true,
+            "reference_image": true,
+            "multiple_reference_images": true,
+            "native_audio": true,
+            "lip_sync": true,
+            "cinematic_quality": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "pexels_video",
+          "provider": "pexels",
+          "task_fit": 0.09578947368421052,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 1.0,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.4337368421052632,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\pexels_video.py",
+          "best_for": [
+            "real-world B-roll footage (cities, nature, people, offices)",
+            "establishing shots and transitions",
+            "free stock video — no cost, no attribution required"
+          ],
+          "supports": {
+            "orientation_filter": true,
+            "size_filter": true,
+            "free_commercial_use": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "cogvideo_video",
+          "provider": "cogvideo",
+          "task_fit": 0.3733333333333333,
+          "output_quality": 0.4,
+          "control": 0.44432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.42864864864864866,
+          "agent_skills": [
+            "ltx2"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\cogvideo_video.py",
+          "best_for": [
+            "lower-VRAM local video experimentation",
+            "teams that want an explicit CogVideo family path in the registry"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": true,
+            "native_audio": false,
+            "local_gpu": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "pixverse_video",
+          "provider": "pixverse",
+          "task_fit": 0.06999999999999999,
+          "output_quality": 0.7,
+          "control": 0.21621621621621623,
+          "reliability": 0.8,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.42843243243243245,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\pixverse_video.py",
+          "best_for": [
+            "direct PixVerse text-to-video generation",
+            "direct PixVerse image-to-video generation",
+            "teams already buying PixVerse API credits"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "aspect_ratio": true,
+            "seed": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "pixabay_video",
+          "provider": "pixabay",
+          "task_fit": 0.06999999999999999,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 1.0,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.42600000000000005,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\pixabay_video.py",
+          "best_for": [
+            "large royalty-free video library",
+            "category-based filtering",
+            "free stock video — no cost, no attribution required"
+          ],
+          "supports": {
+            "video_type_filter": true,
+            "category_filter": true,
+            "editors_choice": true,
+            "free_commercial_use": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "siliconflow_video",
+          "provider": "siliconflow",
+          "task_fit": 0.0988235294117647,
+          "output_quality": 0.7,
+          "control": 0.21621621621621623,
+          "reliability": 0.8,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.41707949125596183,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\siliconflow_video.py",
+          "best_for": [
+            "direct Wan-AI video generation on SiliconFlow",
+            "teams with prepaid SiliconFlow balance",
+            "avoiding third-party gateway lock-in for Wan models"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "aspect_ratio": true,
+            "seed": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "libtv_video",
+          "provider": "libtv",
+          "task_fit": 0.1882758620689655,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.41148275862068967,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\libtv_video.py",
+          "best_for": [
+            "LibTV-driven action or exaggerated viral ad shots",
+            "complex creative beats that need the LibTV session flow",
+            "provider integration when libtv-skills is already installed locally"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_conditioning": true,
+            "style_notes": true,
+            "external_script_backend": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "runway_video",
+          "provider": "runway",
+          "task_fit": 0.10195652173913042,
+          "output_quality": 0.9,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 0.3,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.40558695652173915,
+          "agent_skills": [
+            "seedance-2-0",
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\runway_video.py",
+          "best_for": [
+            "preferred premium video gen on Runway when Seedance 2.0 model is selected",
+            "cinematic trailers, teasers, and high-fidelity clips with native synchronized audio (Seedance 2.0 path)",
+            "director-level camera control and multi-shot editing (Seedance 2.0) or Runway Gen-4 professional control",
+            "lip-sync from quoted dialogue in prompts (Seedance 2.0)",
+            "professional video production"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "professional_control": true,
+            "native_audio": true,
+            "cinematic_quality": true,
+            "camera_direction": true,
+            "lip_sync": true,
+            "multi_shot": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "wan_video",
+          "provider": "wan",
+          "task_fit": 0.28,
+          "output_quality": 0.4,
+          "control": 0.44432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.40064864864864874,
+          "agent_skills": [
+            "ltx2"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\wan_video.py",
+          "best_for": [
+            "best quality-to-VRAM ratio for local generation",
+            "local pipelines that still want image-to-video support"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": true,
+            "native_audio": false,
+            "local_gpu": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "veo_video",
+          "provider": "veo",
+          "task_fit": 0.35,
+          "output_quality": 0.4,
+          "control": 0.12,
+          "reliability": 0.8,
+          "cost_efficiency": 0.3,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.398,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\veo_video.py",
+          "best_for": [
+            "videos with synchronized dialogue and audio",
+            "cutting-edge quality from Google DeepMind",
+            "ambient sound and music generation built in"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "reference_to_video": true,
+            "first_last_frame_to_video": true,
+            "native_audio": true,
+            "dialogue_generation": true,
+            "ambient_sound": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "minimax_video",
+          "provider": "minimax",
+          "task_fit": 0.24639999999999998,
+          "output_quality": 0.4,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.38892000000000004,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\minimax_video.py",
+          "best_for": [
+            "prompt-following with camera directions (framing, motion, composition)",
+            "high-texture footage with minimal hallucination",
+            "cost-effective video generation"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "camera_direction": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "kling_video",
+          "provider": "kling",
+          "task_fit": 0.21848484848484848,
+          "output_quality": 0.4,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.3805454545454546,
+          "agent_skills": [
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\kling_video.py",
+          "best_for": [
+            "cinematic B-roll with highest visual fidelity",
+            "fluid motion and camera direction",
+            "professional video clips"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "native_audio": true,
+            "cinematic_quality": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "ltx_video_modal",
+          "provider": "ltx-modal",
+          "task_fit": 0.28,
+          "output_quality": 0.4,
+          "control": 0.44432432432432434,
+          "reliability": 0.0,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.32564864864864873,
+          "agent_skills": [
+            "ltx2"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\ltx_video_modal.py",
+          "best_for": [
+            "self-hosted cloud GPU rendering for LTX without local workstation dependence"
+          ],
+          "supports": {
+            "reference_image": true,
+            "offline": false,
+            "native_audio": false,
+            "self_hosted_cloud": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "higgsfield_video",
+          "provider": "higgsfield",
+          "task_fit": 0.11537037037037036,
+          "output_quality": 0.9,
+          "control": 0.0,
+          "reliability": 0.0,
+          "cost_efficiency": 0.5,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.30961111111111117,
+          "agent_skills": [
+            "seedance-2-0",
+            "ai-video-gen"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\higgsfield_video.py",
+          "best_for": [
+            "preferred premium video gen on Higgsfield (Seedance 2.0 is the default model)",
+            "cinematic trailers, teasers, and high-fidelity clips with native synchronized audio",
+            "character-consistent video generation (Soul ID + Seedance 2.0 identity consistency)",
+            "director-level camera control and multi-shot editing in a single generation",
+            "lip-sync from quoted dialogue in prompts",
+            "multi-model access through a single API (Seedance 2.0, Kling, Veo, Sora, WAN)"
+          ],
+          "supports": {
+            "text_to_video": true,
+            "image_to_video": true,
+            "character_consistency": true,
+            "multi_model_routing": true,
+            "native_audio": true,
+            "cinematic_quality": true,
+            "camera_direction": true,
+            "lip_sync": true,
+            "multi_shot": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        }
+      ],
+      "selector_error": null,
+      "result": {
+        "success": false,
+        "provider": null,
+        "tool": null,
+        "asset_type": "video",
+        "path": null,
+        "attempts": [
+          {
+            "tool": "libtv_video",
+            "provider": "libtv",
+            "status": "failed",
+            "error": "LibTV video generation failed: libtv download -n OpenMontage Video -o D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644\\generated\\motion\\shot_05_speed_demo\\38de440f66034074a86ebe9151656fa8 -p 38de440f66034074a86ebe9151656fa8 failed: 该节点（及组内子节点）没有可下载的资源（图片/视频/音频/脚本/文本）"
+          },
+          {
+            "tool": "seedance_video",
+            "provider": "seedance",
+            "status": "failed",
+            "error": "Seedance 2.0 video generation failed: 403 Client Error: Forbidden for url: https://rest.alpha.fal.ai/storage/upload/initiate"
+          },
+          {
+            "tool": "kling_video",
+            "provider": "kling",
+            "status": "failed",
+            "error": "Kling video generation failed: 403 Client Error: Forbidden for url: https://queue.fal.run/fal-ai/kling-video/v3/standard/reference-to-video"
+          }
+        ],
+        "data": {},
+        "error": "All motion providers failed or were unavailable."
+      }
+    },
+    {
+      "shot_id": "shot_06_cta_finish",
+      "bucket": "product_closeup",
+      "preferred_tools": [
+        "comfyui_image",
+        "product_image"
+      ],
+      "selector_rankings": [
+        {
+          "tool_name": "flux_image",
+          "provider": "flux",
+          "task_fit": 0.15,
+          "output_quality": 0.7,
+          "control": 0.4144144144144144,
+          "reliability": 0.8,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.4821621621621622,
+          "agent_skills": [
+            "flux-best-practices",
+            "bfl-api"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\flux_image.py",
+          "best_for": [
+            "photorealistic images",
+            "general-purpose image generation",
+            "high quality at low cost (~$0.03/image)"
+          ],
+          "supports": {
+            "negative_prompt": true,
+            "seed": true,
+            "custom_size": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "google_imagen",
+          "provider": "google_imagen",
+          "task_fit": 0.14666666666666667,
+          "output_quality": 0.7,
+          "control": 0.12612612612612611,
+          "reliability": 0.8,
+          "cost_efficiency": 0.9,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.45791891891891895,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\google_imagen.py",
+          "best_for": [
+            "high-quality photorealistic images",
+            "Google ecosystem integration",
+            "fast generation with multiple aspect ratios"
+          ],
+          "supports": {
+            "negative_prompt": false,
+            "seed": false,
+            "custom_size": false,
+            "aspect_ratio": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "image_gen",
+          "provider": "multi",
+          "task_fit": 0.21052631578947367,
+          "output_quality": 0.4,
+          "control": 0.3,
+          "reliability": 0.8,
+          "cost_efficiency": 0.9,
+          "latency": 0.6,
+          "continuity": 0.5,
+          "weighted_score": 0.4531578947368421,
+          "agent_skills": [
+            "flux-best-practices",
+            "bfl-api"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\image_gen.py",
+          "best_for": [
+            "DEPRECATED — prefer image_selector which routes to per-provider tools (flux_image, openai_image, recraft_image, grok_image, local_diffusion, pexels_image, pixabay_image).",
+            "Kept only for backwards compatibility. New code should not call this."
+          ],
+          "supports": {},
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "pexels_image",
+          "provider": "pexels",
+          "task_fit": 0.1368421052631579,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 1.0,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.44605263157894737,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\pexels_image.py",
+          "best_for": [
+            "real-world photography (cities, nature, people, objects)",
+            "establishing shots and B-roll stills",
+            "free stock images — no cost, no attribution required"
+          ],
+          "supports": {
+            "orientation_filter": true,
+            "size_filter": true,
+            "color_filter": true,
+            "locale": true,
+            "free_commercial_use": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "pixabay_image",
+          "provider": "pixabay",
+          "task_fit": 0.1,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.8,
+          "cost_efficiency": 1.0,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.43500000000000005,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\pixabay_image.py",
+          "best_for": [
+            "large royalty-free library (5M+ images)",
+            "category-based filtering (nature, business, science, etc.)",
+            "free stock images — no cost, no attribution required"
+          ],
+          "supports": {
+            "orientation_filter": true,
+            "category_filter": true,
+            "color_filter": true,
+            "image_type_filter": true,
+            "editors_choice": true,
+            "free_commercial_use": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "recraft_image",
+          "provider": "recraft",
+          "task_fit": 0.21666666666666667,
+          "output_quality": 0.4,
+          "control": 0.14414414414414414,
+          "reliability": 0.8,
+          "cost_efficiency": 0.9,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.4216216216216217,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\recraft_image.py",
+          "best_for": [
+            "logos and brand assets",
+            "SVG vector output",
+            "images with accurate text rendering",
+            "clean professional graphics"
+          ],
+          "supports": {
+            "svg_output": true,
+            "text_rendering": true,
+            "color_palette": true,
+            "custom_size": true
+          },
+          "status": "ToolStatus.AVAILABLE"
+        },
+        {
+          "tool_name": "grok_image",
+          "provider": "grok",
+          "task_fit": 0.25555555555555554,
+          "output_quality": 0.7,
+          "control": 0.45045045045045046,
+          "reliability": 0.0,
+          "cost_efficiency": 0.9,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.4192342342342343,
+          "agent_skills": [
+            "grok-media"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\grok_image.py",
+          "best_for": [
+            "single-image edits and style transfers",
+            "multi-image compositing into one generated frame",
+            "general-purpose image generation with aspect ratio control"
+          ],
+          "supports": {
+            "image_edit": true,
+            "multiple_outputs": true,
+            "aspect_ratio": true,
+            "resolution": true,
+            "reference_image": true,
+            "multiple_reference_images": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "comfyui_image",
+          "provider": "comfyui",
+          "task_fit": 0.1,
+          "output_quality": 0.4,
+          "control": 0.23423423423423426,
+          "reliability": 0.4,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.37513513513513513,
+          "agent_skills": [
+            "comfyui",
+            "flux-best-practices"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\comfyui_image.py",
+          "best_for": [
+            "local GPU generation without API costs",
+            "Blackwell / DGX Spark hardware where diffusers is unsupported",
+            "full control over sampling via custom ComfyUI workflows"
+          ],
+          "supports": {
+            "seed": true,
+            "custom_size": true,
+            "custom_workflow": true,
+            "custom_output_node": true,
+            "offline": true
+          },
+          "status": "ToolStatus.DEGRADED"
+        },
+        {
+          "tool_name": "local_diffusion",
+          "provider": "local_diffusion",
+          "task_fit": 0.16999999999999998,
+          "output_quality": 0.4,
+          "control": 0.4144144144144144,
+          "reliability": 0.0,
+          "cost_efficiency": 1.0,
+          "latency": 0.9,
+          "continuity": 0.5,
+          "weighted_score": 0.3631621621621622,
+          "agent_skills": [],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\local_diffusion.py",
+          "best_for": [
+            "offline/air-gapped generation",
+            "free image generation (no API cost)",
+            "privacy-sensitive workflows"
+          ],
+          "supports": {
+            "negative_prompt": true,
+            "seed": true,
+            "offline": true,
+            "custom_size": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        },
+        {
+          "tool_name": "openai_image",
+          "provider": "openai",
+          "task_fit": 0.16363636363636364,
+          "output_quality": 0.7,
+          "control": 0.0,
+          "reliability": 0.0,
+          "cost_efficiency": 0.7,
+          "latency": 0.4,
+          "continuity": 0.5,
+          "weighted_score": 0.30409090909090913,
+          "agent_skills": [
+            "flux-best-practices"
+          ],
+          "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\graphics\\openai_image.py",
+          "best_for": [
+            "complex multi-element compositions",
+            "images with text/labels",
+            "following detailed instructions accurately"
+          ],
+          "supports": {
+            "complex_instructions": true,
+            "text_in_image": true,
+            "multiple_outputs": true
+          },
+          "status": "ToolStatus.UNAVAILABLE"
+        }
+      ],
+      "selector_error": null,
+      "result": {
+        "success": true,
+        "provider": "comfyui",
+        "tool": "comfyui_image",
+        "asset_type": "image",
+        "path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644\\generated\\product_assets\\03_03_speed_modes_00005_.png",
+        "attempts": [],
+        "data": {
+          "source_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\products\\electric_spin_scrubber\\03_speed_modes.webp"
+        },
+        "error": null
+      }
+    }
+  ],
+  "voiceover_plan": {
+    "rankings": [
+      {
+        "tool_name": "google_tts",
+        "provider": "google_tts",
+        "task_fit": 0.1,
+        "output_quality": 0.7,
+        "control": 0.0,
+        "reliability": 0.8,
+        "cost_efficiency": 1.0,
+        "latency": 0.4,
+        "continuity": 0.5,
+        "weighted_score": 0.43500000000000005,
+        "agent_skills": [
+          "text-to-speech"
+        ],
+        "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\audio\\google_tts.py",
+        "best_for": [
+          "localization — 700+ voices across 50+ languages",
+          "affordable high-quality TTS (Neural2, WaveNet)",
+          "Google ecosystem integration"
+        ],
+        "status": "ToolStatus.AVAILABLE"
+      },
+      {
+        "tool_name": "doubao_tts",
+        "provider": "doubao",
+        "task_fit": 0.12916666666666668,
+        "output_quality": 0.88,
+        "control": 0.0,
+        "reliability": 0.0,
+        "cost_efficiency": 1.0,
+        "latency": 0.8,
+        "continuity": 0.5,
+        "weighted_score": 0.37975000000000003,
+        "agent_skills": [
+          "doubao-tts",
+          "text-to-speech"
+        ],
+        "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\audio\\doubao_tts.py",
+        "best_for": [
+          "natural Mandarin narration",
+          "Chinese explainer voiceovers with character-level timestamps",
+          "long-form narration that needs subtitle alignment"
+        ],
+        "status": "ToolStatus.UNAVAILABLE"
+      },
+      {
+        "tool_name": "elevenlabs_tts",
+        "provider": "elevenlabs",
+        "task_fit": 0.1,
+        "output_quality": 0.4,
+        "control": 0.0,
+        "reliability": 0.8,
+        "cost_efficiency": 1.0,
+        "latency": 0.4,
+        "continuity": 0.5,
+        "weighted_score": 0.37500000000000006,
+        "agent_skills": [
+          "elevenlabs",
+          "text-to-speech"
+        ],
+        "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\audio\\elevenlabs_tts.py",
+        "best_for": [
+          "high-quality narration",
+          "voice-sensitive spokesperson videos",
+          "multilingual spoken delivery"
+        ],
+        "status": "ToolStatus.AVAILABLE"
+      },
+      {
+        "tool_name": "openai_tts",
+        "provider": "openai",
+        "task_fit": 0.21666666666666667,
+        "output_quality": 0.4,
+        "control": 0.0,
+        "reliability": 0.0,
+        "cost_efficiency": 1.0,
+        "latency": 0.4,
+        "continuity": 0.5,
+        "weighted_score": 0.29000000000000004,
+        "agent_skills": [
+          "openai-docs"
+        ],
+        "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\audio\\openai_tts.py",
+        "best_for": [
+          "general narration fallback",
+          "API-based production when ElevenLabs is unavailable"
+        ],
+        "status": "ToolStatus.UNAVAILABLE"
+      },
+      {
+        "tool_name": "piper_tts",
+        "provider": "piper",
+        "task_fit": 0.1,
+        "output_quality": 0.4,
+        "control": 0.0,
+        "reliability": 0.0,
+        "cost_efficiency": 1.0,
+        "latency": 0.9,
+        "continuity": 0.5,
+        "weighted_score": 0.28,
+        "agent_skills": [
+          "text-to-speech"
+        ],
+        "usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\audio\\piper_tts.py",
+        "best_for": [
+          "offline narration fallback",
+          "privacy-sensitive local-only workflows"
+        ],
+        "status": "ToolStatus.UNAVAILABLE"
+      }
+    ],
+    "explanation": "google_tts (google_tts): 0.44\n  output_quality=0.70 (w=0.2)\n  reliability=0.80 (w=0.15)\n  cost_efficiency=1.00 (w=0.1)\ndoubao_tts (doubao): 0.38\n  output_quality=0.88 (w=0.2)\n  cost_efficiency=1.00 (w=0.1)\n  latency=0.80 (w=0.05)\nelevenlabs_tts (elevenlabs): 0.38\n  reliability=0.80 (w=0.15)\n  cost_efficiency=1.00 (w=0.1)\n  output_quality=0.40 (w=0.2)\nopenai_tts (openai): 0.29\n  cost_efficiency=1.00 (w=0.1)\n  output_quality=0.40 (w=0.2)\n  task_fit=0.22 (w=0.3)\npiper_tts (piper): 0.28\n  cost_efficiency=1.00 (w=0.1)\n  output_quality=0.40 (w=0.2)\n  latency=0.90 (w=0.05)",
+    "normalized_task_context": {
+      "intent": "Still wasting time scrubbing bathroom grime by hand? This electric spin scrubber gives you the main unit plus multiple cleaning heads for different jobs. Instead of fighting the mess yourself, you just let the spinning head do the hard part. The triangular handle is easier to grip, especially when you're trying to reach higher spots. With three speed settings, you can go lighter for quick touch-ups or faster for tougher grime. If you want a faster way to clean bathrooms, tubs, and tile without all the arm work, tap to check it out.",
+      "style_keywords": [],
+      "asset_type": "voice",
+      "prefers_generated_visuals": false,
+      "wants_reference_conditioning": false,
+      "wants_image_editing": false
+    }
+  },
+  "final_output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644\\final\\final.mp4",
+  "compose_result": {
+    "success": false,
+    "error": "Remotion render failed for renderer_family='product-reveal'. Underlying error: Remotion render failed: Command '['C:\\\\Program Files\\\\nodejs\\\\npx.CMD', 'remotion', 'render', 'D:\\\\桌面文件下载\\\\AI-hermes-agent\\\\external\\\\OpenMontage\\\\remotion-composer\\\\src\\\\index.tsx', 'Explainer', 'D:\\\\桌面文件下载\\\\AI-hermes-agent\\\\external\\\\OpenMontage\\\\runs\\\\exaggerated_viral_ad\\\\electric-spin-scrubber_20260703_185644\\\\final\\\\final.mp4', '--props=D:\\\\桌面文件下载\\\\AI-hermes-agent\\\\external\\\\OpenMontage\\\\runs\\\\exaggerated_viral_ad\\\\electric-spin-scrubber_20260703_185644\\\\final\\\\.remotion_props.json']' returned non-zero exit status 1.\n\nThis composition requires Remotion (images, text cards, animations). Options:\n  1. Fix Remotion setup (cd remotion-composer && npm install)\n  2. Re-run with operation='compose' for FFmpeg-only (video cuts only)\n  3. Approve a degraded FFmpeg render (still images → Ken Burns)\n\nPer governance: renderer downgrade requires user approval.",
+    "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644\\final\\final.mp4",
+    "data": {}
+  }
+}

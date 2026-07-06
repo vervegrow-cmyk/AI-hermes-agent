@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Activa la llicència"
+   },
+   "activateHint": {
+      "message": "Enganxeu el codi del vostre correu electrònic."
+   },
+   "activateTitle": {
+      "message": "Activeu Premium"
+   },
+   "activatedSub": {
+      "message": "Descàrregues il·limitades · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium activat!"
+   },
+   "alreadyBought": {
+      "message": "Ja heu comprat?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Aquest codi ja s'ha usat en un altre dispositiu."
+   },
+   "clearHistory": {
+      "message": "Esborra"
+   },
+   "days": {
+      "message": "dies · caduca"
+   },
+   "deactivate": {
+      "message": "Desactiva la llicència"
+   },
+   "deactivateConfirm": {
+      "message": "Desactiveu la llicència Premium en aquest dispositiu?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Tot"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Us agrada TubeVD?"
+   },
+   "enterCode": {
+      "message": "Introduïu la vostra clau de llicència."
+   },
+   "enterKey": {
+      "message": "🔑 Introduïu la clau de llicència"
+   },
+   "expired": {
+      "message": "⚠️ Aquesta llicència ha caducat."
+   },
+   "extDesc": {
+      "message": "Baixeu vídeos de Facebook, Twitter, Vimeo, Dailymotion i 1000+ llocs en HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "Preguntes freqüents"
+   },
+   "free": {
+      "message": "Gratuït"
+   },
+   "genericError": {
+      "message": "Alguna cosa ha anat malament. Contacteu amb support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Obteniu Premium — $4,99/mes"
+   },
+   "getPremiumLink": {
+      "message": "Obteniu Premium ↗"
+   },
+   "guarantee": {
+      "message": "Garantia de devolució de 30 dies"
+   },
+   "history": {
+      "message": "Historial de descàrregues"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Clau de llicència no vàlida."
+   },
+   "invalidFormat": {
+      "message": "Format no vàlid. Ha de començar per TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Clau de llicència"
+   },
+   "limit": {
+      "message": "Límit"
+   },
+   "limitHint": {
+      "message": "Pla gratuït: 5 descàrregues/dia."
+   },
+   "limitTitle": {
+      "message": "S'ha assolit el límit diari"
+   },
+   "networkError": {
+      "message": "⚠️ Error de connexió."
+   },
+   "noCode": {
+      "message": "Encara no teniu codi?"
+   },
+   "noHistory": {
+      "message": "Encara no hi ha descàrregues."
+   },
+   "noVideos": {
+      "message": "No s'han trobat vídeos"
+   },
+   "noVideosHint": {
+      "message": "Passeu el ratolí per sobre d'un vídeo per veure el botó de descàrrega."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Valoreu"
+   },
+   "rateUs": {
+      "message": "⭐ Valoreu-nos"
+   },
+   "scanning": {
+      "message": "Cercant vídeos..."
+   },
+   "serverError": {
+      "message": "⚠️ Error del servidor."
+   },
+   "startDown": {
+      "message": "Comenceu a descarregar ↓"
+   },
+   "support": {
+      "message": "Suport"
+   },
+   "unlimited": {
+      "message": "Il·limitat"
+   },
+   "upgradeBtn": {
+      "message": "Actualitza a Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Actualitza ↗"
+   },
+   "upgradeTitle": {
+      "message": "Actualitza a Premium"
+   },
+   "usageLeft": {
+      "message": "descàrregues restants avui"
+   },
+   "usageOf": {
+      "message": "de"
+   },
+   "validFor": {
+      "message": "Vàlid per"
+   },
+   "verifying": {
+      "message": "Verificant…"
+   },
+   "videoDetected": {
+      "message": "vídeo trobat"
+   },
+   "videosDetected": {
+      "message": "vídeos trobats"
+   },
+   "ytBlocked": {
+      "message": "YouTube no és compatible"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD respecta les Condicions del servei de YouTube."
+   },
+   "ytTry": {
+      "message": "Proveu Facebook, Vimeo, Twitter i 1.000+ altres llocs."
+   }
+}

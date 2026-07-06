@@ -1,0 +1,37 @@
+{
+   "action": {
+      "default_icon": "/logos/128.png",
+      "default_popup": "layouts/popup.html"
+   },
+   "background": {
+      "service_worker": "js/serviceWorker.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/contentScript.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "/logos/128.png",
+      "32": "/logos/32.png",
+      "64": "/logos/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnz5VFDqsOKTvMw9T3n2M4wurIGwDYLAdb09Hf18Svb7cGl++YI7ScYCIT/LemUsLXOMC711py3cjYOAos4MFhxZEQ6ApfRNDeTDv08Hjo5F1twfgf3J/Xi6WCmDnW249i0tVrgFVi0WE+wGysdzyJ59pZIbtAENxJHSA4lCeD+FBiGzZJ0Hfn9UA1xksyiiG1PqZXUV2DKeZjwfqvXnCur9II2ALiOPnVTlpaw/M/hgPG3xKJvf5shhpMscHVi68Kc8isx3pPjKegrGvbr+aiRlK3ezAy8sCqwIIbYds/YVegDY8CNrzA4Ket2nZvWvPmhXZdsqr5WNllp+lNJ65GQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "permissions": [ "storage", "sidePanel", "downloads", "unlimitedStorage", "webRequest" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.4",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "js/instagramStory.js" ]
+   } ]
+}

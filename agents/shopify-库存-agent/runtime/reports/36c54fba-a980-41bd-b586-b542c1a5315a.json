@@ -1,0 +1,57 @@
+{
+  "batch_id": "36c54fba-a980-41bd-b586-b542c1a5315a",
+  "store_name": "demo-store.myshopify.com",
+  "mode": "apply",
+  "status": "completed",
+  "processed_count": 1,
+  "updated_count": 1,
+  "skipped_count": 0,
+  "failed_count": 0,
+  "started_at": "2026-06-22T12:30:55+00:00",
+  "finished_at": "2026-06-22T12:30:55+00:00",
+  "shopify_connection": {
+    "ok": true,
+    "system": "shopify",
+    "message": "Shopify 连接验证成功。",
+    "details": {
+      "shop_id": "gid://shopify/Shop/1",
+      "shop_name": "Demo Store",
+      "myshopify_domain": "demo-store.myshopify.com",
+      "location_id": "gid://shopify/Location/1"
+    }
+  },
+  "giga_connection": {
+    "ok": true,
+    "system": "giga",
+    "message": "Giga OpenAPI 连接验证成功。",
+    "details": {
+      "base_url": "https://openapi.gigab2b.com",
+      "endpoint": "/inventory"
+    }
+  },
+  "location_id": "gid://shopify/Location/1",
+  "missing_sku_count": 0,
+  "artifact_paths": {
+    "report": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-库存-agent\\runtime\\reports\\36c54fba-a980-41bd-b586-b542c1a5315a.json",
+    "missing_skus": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-库存-agent\\runtime\\exports\\36c54fba-a980-41bd-b586-b542c1a5315a-missing-skus.json",
+    "retry_items": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-库存-agent\\runtime\\exports\\36c54fba-a980-41bd-b586-b542c1a5315a-retry-items.json"
+  },
+  "items": [
+    {
+      "sku": "SKU-1",
+      "shopify_variant_id": "gid://shopify/ProductVariant/1",
+      "shopify_product_id": "gid://shopify/Product/1",
+      "shopify_product_title": "One",
+      "shopify_product_vendor": "Dekuch",
+      "shopify_product_status_before": "ACTIVE",
+      "shopify_product_status_after": "DRAFT",
+      "shopify_inventory_item_id": "gid://shopify/InventoryItem/1",
+      "shopify_inventory_before": 5,
+      "giga_inventory": 4,
+      "action": "update_inventory_and_delist",
+      "status": "updated",
+      "reason": "已下架：库存低于 5，商品改为草稿",
+      "error_message": ""
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "project_id": "electric-spin-scrubber",
+  "pipeline_type": "exaggerated_viral_ad",
+  "stage": "assets",
+  "status": "completed",
+  "timestamp": "2026-07-03T10:58:02.920204+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "asset_manifest": {
+      "version": "1.0",
+      "assets": [
+        {
+          "id": "asset_02_shot-02-product-kit-closeup",
+          "type": "image",
+          "path": "D:\\\u684c\u9762\u6587\u4ef6\u4e0b\u8f7d\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644\\generated\\product_assets\\01_01_kit_overview_00005_.png",
+          "source_tool": "comfyui_image",
+          "scene_id": "shot_02_product_kit_closeup",
+          "prompt": "Prepare the real product kit image into a clean vertical TikTok-ready product hero frame.",
+          "model": "",
+          "cost_usd": 0.0,
+          "duration_seconds": 4.0,
+          "resolution": "1080x1920",
+          "format": "png",
+          "provider": "comfyui",
+          "subtype": "product_closeup",
+          "generation_summary": "product_closeup routed to comfyui_image"
+        },
+        {
+          "id": "asset_04_shot-04-handle-closeup",
+          "type": "image",
+          "path": "D:\\\u684c\u9762\u6587\u4ef6\u4e0b\u8f7d\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644\\generated\\product_assets\\02_02_handle_grip_00005_.png",
+          "source_tool": "comfyui_image",
+          "scene_id": "shot_04_handle_closeup",
+          "prompt": "Prepare the real handle-detail product image into a vertical close-up that emphasizes ergonomic grip and easy reach.",
+          "model": "",
+          "cost_usd": 0.0,
+          "duration_seconds": 4.0,
+          "resolution": "1080x1920",
+          "format": "png",
+          "provider": "comfyui",
+          "subtype": "product_closeup",
+          "generation_summary": "product_closeup routed to comfyui_image"
+        },
+        {
+          "id": "asset_06_shot-06-cta-finish",
+          "type": "image",
+          "path": "D:\\\u684c\u9762\u6587\u4ef6\u4e0b\u8f7d\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644\\generated\\product_assets\\03_03_speed_modes_00005_.png",
+          "source_tool": "comfyui_image",
+          "scene_id": "shot_06_cta_finish",
+          "prompt": "Prepare the waterproof product image into a vertical CTA-ready close-up with clean space for subtitles and call to action.",
+          "model": "",
+          "cost_usd": 0.0,
+          "duration_seconds": 5.0,
+          "resolution": "1080x1920",
+          "format": "png",
+          "provider": "comfyui",
+          "subtype": "product_closeup",
+          "generation_summary": "product_closeup routed to comfyui_image"
+        }
+      ],
+      "total_cost_usd": 0.0,
+      "metadata": {
+        "asset_count": 3
+      }
+    }
+  },
+  "metadata": {
+    "run_dir": "D:\\\u684c\u9762\u6587\u4ef6\u4e0b\u8f7d\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_185644",
+    "product_json": "D:\\\u684c\u9762\u6587\u4ef6\u4e0b\u8f7d\\AI-hermes-agent\\external\\OpenMontage\\assets\\products\\electric_spin_scrubber\\product.json",
+    "created_by": "scripts/run_workflow.py"
+  }
+}

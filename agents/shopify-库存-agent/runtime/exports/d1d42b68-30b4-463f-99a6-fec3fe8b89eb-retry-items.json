@@ -1,0 +1,11 @@
+[
+  {
+    "sku": "W1586P268038",
+    "shopify_variant_id": "gid://shopify/ProductVariant/51237899075890",
+    "shopify_product_id": "gid://shopify/Product/10201674514738",
+    "shopify_product_title": "2 Pack Metal Garden Trellis 86.7\" x 19.7\" Rustproof Trellis for Climbing Plants Outdoor Flower Support Black",
+    "reason": "Giga 查询失败",
+    "error_message": "Giga 库存请求失败: Server error '500 Internal Server Error' for url 'https://openapi.gigab2b.com/b2b-overseas-api/v1/buyer/inventory/quantity/v1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "status": "failed"
+  }
+]

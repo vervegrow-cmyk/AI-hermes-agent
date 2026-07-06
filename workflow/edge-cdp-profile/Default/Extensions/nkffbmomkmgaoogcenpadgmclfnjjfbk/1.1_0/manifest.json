@@ -1,0 +1,29 @@
+{
+   "action": {
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "content.css" ],
+      "js": [ "content.js" ],
+      "matches": [ "https://*.douyin.com/*" ]
+   } ],
+   "description": " 抖音视频 一键下载",
+   "host_permissions": [ "https://*.douyin.com/*", "https://*.douyinvod.com/*" ],
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "48": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0aadr/bDTC55tAdumdRuswV2RM6SLDDv1k5L62rrYU2peTNCMhMGamcpYSnMLVRkNg2Y2IYXg7Q9Z5yw5XCWgG1+gGcKDxt3ufBma8Tij2YwlNSNC0Ahs0WRLKG6O4kLXDVPwSwr02xWDWWR3RBQzPMcHNCvbfD1x/qyNDKkt4akNmqdeohNopLBPlFSNnPOkaTKvkOzB+LRIQd3z0h4VhCwmjH1a2q7fosxng4S+Sbu1Q485gYCJjoMbm6q16pVijtXVWbY29+rm0qVvFR++/vaSljU3reNPG7qRiv9zA0vyN/AkMKKI2datguWC5NtKxlvZoCuwwU4zVrkZgsHUwIDAQAB",
+   "manifest_version": 3,
+   "name": "抖音视频下载助手",
+   "permissions": [ "downloads", "webRequest", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.01",
+   "web_accessible_resources": [ {
+      "matches": [ "https://*.douyin.com/*" ],
+      "resources": [ "*.svg", "fetcher.js" ]
+   } ]
+}

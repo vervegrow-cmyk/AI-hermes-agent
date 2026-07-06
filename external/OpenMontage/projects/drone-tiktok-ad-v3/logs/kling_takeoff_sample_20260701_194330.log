@@ -1,0 +1,9 @@
+﻿{
+  "timestamp": "2026-07-01T11:43:37.236488Z",
+  "provider_requested": "kling",
+  "mode": "sample",
+  "prompt": "Vertical realistic product commercial shot of a compact foldable black consumer drone lifting off smoothly from open pavement at golden hour, operator holding a screen remote in frame, clean beginner-friendly setup, stable controlled ascent, realistic propeller motion blur, natural outdoor lighting, premium consumer tech ad look, true-to-life motion, 9:16, no text overlay, no extra propellers, no sci-fi styling, no phone control",
+  "success": false,
+  "error": "Kling video generation failed: 403 Client Error: Forbidden for url: https://queue.fal.run/fal-ai/kling-video/v3/standard/text-to-video",
+  "data": {}
+}

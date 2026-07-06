@@ -1,0 +1,354 @@
+.mengbanBili_video {
+  top: 34px;
+  left: 57px;
+}
+
+svg {
+  transform: translateY(2px);
+}
+
+i {
+  font-style: normal;
+}
+
+.downloadBtnBili:hover>span {
+  display: inline-block;
+}
+
+.downloadBtnBili:hover+.checkbox {
+  display: none;
+}
+
+.downloadBtnBili:hover+i {
+  display: none;
+}
+
+.bulkBtn {
+  background-color: rgb(203, 79, 93);
+  border: 0;
+  border-radius: 3px;
+  height: 18px;
+  text-align: center;
+  padding: 0 2px;
+  font-size: 12px;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 4px;
+  cursor: pointer;
+  transform: translateY(.5px);
+}
+
+.bulkBtn .spanText {
+  margin-right: 3px;
+}
+
+
+.checkbox {
+  background-color: #ccc;
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  line-height: 23px;
+  margin-left: 4px;
+}
+
+input[type='checkbox']+span {
+  vertical-align: middle;
+  display: none;
+  transform: translateY(-4px);
+}
+
+input[type='checkbox']:checked+span {
+  display: inline-block;
+}
+
+
+input[disabled='disabled']+span {
+  display: inline-block;
+}
+
+.checkbox:not(:checked):not(:disabled)::after {
+  content: '';
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+
+}
+
+.checkbox:not(:checked):not(:disabled):hover::after {
+  border: 1px solid rgb(207, 57, 58);
+}
+
+.downloadBtnBili::after {
+  display: none;
+  cursor: default;
+  position: absolute;
+  top: 0;
+  left: 30px;
+  z-index: 9999;
+  content: "下载";
+  border: 1px solid #696868;
+  border-radius: 3px;
+  width: 120px;
+  line-height: 22px;
+  text-align: center;
+  background-color: #000;
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+}
+
+.viplogoBtn::after {
+  display: none;
+  cursor: default;
+  position: absolute;
+  top: 24px;
+  left: 30px;
+  z-index: 9999;
+  content: "升级会员（四折）";
+  border: 1px solid #696868;
+  border-radius: 3px;
+  width: 120px;
+  line-height: 22px;
+  text-align: center;
+  background-color: #000;
+  font-size: 12px;
+  color: #FF8F1F;
+  font-weight: 600;
+}
+
+.toDownloadLive {
+  top: 70px;
+}
+
+.downloadBtnBili {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.viplogoBtn {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.downloadBtnBiliDetail {
+  top: 20px;
+  left: 100px;
+}
+
+.downloadBtnBili:hover::after,
+.viplogoBtn:hover::after {
+  display: block !important;
+}
+
+.tiktok-1lh5noh-DivVideoCardContainer:hover .mengbanBili {
+  display: flex !important;
+}
+
+.svdBili {
+  background: #efefef;
+  position: relative;
+  box-sizing: border-box;
+  width: 22px;
+  height: 22px;
+}
+
+.tiktok-kd7foj-DivVideoWrapper {
+  position: relative;
+}
+
+.mengbanBili {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  display: none;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bp9cbjyn.j83agx80.f10w8fjw {
+  position: relative;
+}
+
+*:hover>.mengbanBili {
+  display: flex !important;
+}
+
+.tiktok-1jerw6x-DivVideoWrapper {
+  position: relative;
+}
+
+.block-class {
+  display: block !important;
+}
+
+.strDetail {
+  left: 56px;
+  width: 28px;
+  height: 28px;
+  top: 29px;
+}
+
+.mengbanBiliDetail {
+  display: block !important;
+}
+
+.dx9xp7g9 {
+  position: relative;
+}
+
+.downloadBackground {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.downloadContent {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 5px 10px 12px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.downloadHeader {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.downloadTop {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.downloadInfo {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.downloadInfoImg {
+  padding: 10px;
+  background: #f4f4f4;
+  border-radius: 7px;
+}
+
+.downloadInfoImg img {
+  width: 320px;
+  height: 200px;
+}
+
+#closeBiliDialog {
+  cursor: pointer;
+}
+
+.downloadInfoTitle {
+  font-size: 18px;
+  font-weight: 500;
+  width: 320px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.downloadInfoButton {
+  background: #409EFF;
+  border-radius: 5px;
+  color: white;
+  margin: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.downloadBottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.downloadBottomTip {
+  border-radius: 5px;
+  background: #FCF6EC;
+  padding: 5px 10px;
+  color: #e6a23d;
+  font-size: 13px;
+  width: 400px;
+  margin: auto;
+}
+
+.downloadBottomButton {
+  font-weight: 600;
+  margin-top: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-size: 14px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+}
+
+.downloadBottomButtonT {
+  font-size: 16px;
+}
+
+.downloadBottomButtonDiscount {
+  color: #FF8F1F;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.downloadBottomButtonB {
+  border: none;
+  background: #FF8F1F;
+  color: white;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#progressBarContainer {
+  width: 90%;
+  background-color: #EBEDF0;
+  position: relative;
+  border-radius: 5px;
+  display: none;
+}
+
+#progressBar {
+  width: 0;
+  height: 10px;
+  background-color: #409EFF;
+  border-radius: 5px;
+}
+
+#progressPercentage {
+  position: absolute;
+  right: -38px;
+  top: 0;
+  height: 10px;
+  margin-left: 5px;
+  line-height: 10px;
+}

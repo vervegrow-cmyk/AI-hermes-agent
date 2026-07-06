@@ -1,0 +1,1 @@
+{"deps":{"%ROOT%/pkg/bext/lum/img/ic_info_48.svg":"md5-dbdc3fd701ef63c8963b353d7997b84d"},"gen_deps":{},"signatures":{"md5name":"8eb11c8f755ccda9fc14f68eed09cb16","size":812,"md5":"dbdc3fd701ef63c8963b353d7997b84d","tscur":1615990799708},"signature":"md5-dbdc3fd701ef63c8963b353d7997b84d","arch":"X86","flags":{"config":"DIST=APP CONFIG_BEXT=y","vary":[]}}

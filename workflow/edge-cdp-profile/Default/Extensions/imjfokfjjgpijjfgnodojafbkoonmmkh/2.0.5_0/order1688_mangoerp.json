@@ -1,0 +1,25 @@
+[{
+  "id": 1,
+  "priority": 1,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "transform": {
+        "queryTransform": {
+          "addOrReplaceParams": [
+            {
+              "key": "extId",
+              "value": "{'verticalAttributesMap':{'_F_b_kj_dc':'mangoerp'}}"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "condition": {
+    "urlFilter": "order.1688.com/order/smart_make_order",
+    "resourceTypes": [
+      "main_frame"
+    ]
+  }
+}]

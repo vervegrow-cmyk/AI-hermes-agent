@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-1{fill:rgba(0,77,116,.5)}
+        </style>
+    </defs>
+    <path id="ic_country_16" d="M10-68H9l-1-2H0v16h2v-5h5l1 2h8v-11zm-8 7v-7h4v7zm12 2h-4v-7h4z" class="cls-1" transform="translate(0 70)"/>
+</svg>

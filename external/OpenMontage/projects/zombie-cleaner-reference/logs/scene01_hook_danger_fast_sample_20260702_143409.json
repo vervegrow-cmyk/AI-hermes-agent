@@ -1,0 +1,75 @@
+{
+  "scene": "scene01_hook_danger",
+  "mode": "sample",
+  "provider_requested": "seedance",
+  "model_variant_requested": "fast",
+  "duration_requested_seconds": "4",
+  "estimated_cost_usd": 0.97,
+  "started_at_utc": "2026-07-02T06:31:07.175747+00:00",
+  "ended_at_utc": "2026-07-02T06:34:09.982552+00:00",
+  "success": true,
+  "error": null,
+  "cost_usd": 0.97,
+  "duration_seconds_runtime": 178.72,
+  "output_path": "projects\\zombie-cleaner-reference\\assets\\video\\scene01_hook_danger_seedance_fast.mp4",
+  "data": {
+    "provider": "seedance",
+    "model": "bytedance/seedance-2.0/fast/reference-to-video",
+    "prompt": "Single continuous shot, cinematic photorealistic, 35mm film quality, no cuts, no zoom, sharp but imperfect focus, subtle grain. [identity_lock] the same character across all shots, maintain exact appearance from reference images, stylish cowboy robot scavenger, expressive LED face mask, black leather jacket, red scarf, white mechanical legs, slim humanoid silhouette, no face drift, no deformation, do not alter clothing category or primary color. A robotic gloved hand raises a revolver while white mechanical cowboy legs step onto a dusty ruined boulevard. Harsh desert sunlight, drifting dust, abandoned retro-futuristic resort city, immediate danger, strong silhouette, vertical 9:16, no text, no cartoon.",
+    "operation": "reference_to_video",
+    "variant": "fast",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "generate_audio": false,
+    "seed": 1625481629,
+    "output": "projects\\zombie-cleaner-reference\\assets\\video\\scene01_hook_danger_seedance_fast.mp4",
+    "output_path": "projects\\zombie-cleaner-reference\\assets\\video\\scene01_hook_danger_seedance_fast.mp4",
+    "format": "mp4",
+    "file_size_bytes": 2486095,
+    "selected_tool": "seedance_video",
+    "selected_provider": "seedance",
+    "selection_reason": "seedance_video (seedance): 0.70\n  task_fit=0.68 (w=0.3)\n  output_quality=1.00 (w=0.2)\n  reliability=0.80 (w=0.15)",
+    "provider_score": {
+      "tool_name": "seedance_video",
+      "provider": "seedance",
+      "task_fit": 0.680943396226415,
+      "output_quality": 1.0,
+      "control": 0.6605405405405406,
+      "reliability": 0.8,
+      "cost_efficiency": 0.3,
+      "latency": 0.4,
+      "continuity": 0.5,
+      "weighted_score": 0.6983640999490056
+    },
+    "selected_tool_agent_skills": [
+      "seedance-2-0",
+      "ai-video-gen"
+    ],
+    "required_agent_skills": [
+      "seedance-2-0",
+      "ai-video-gen"
+    ],
+    "selected_tool_usage_location": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\seedance_video.py",
+    "selected_tool_best_for": [
+      "preferred premium video gen when FAL_KEY is available",
+      "cinematic trailers, teasers, and high-fidelity clips with native synchronized audio",
+      "director-level camera control and multi-shot editing in a single generation",
+      "lip-sync from quoted dialogue in prompts",
+      "reference-conditioned generation (up to 9 images + 3 video clips + 3 audio clips)",
+      "consistent character identity across shots"
+    ],
+    "alternatives_considered": [
+      "ark_video",
+      "heygen_video",
+      "kling_video",
+      "minimax_video",
+      "pexels_video",
+      "pixabay_video",
+      "pixverse_video",
+      "runway_video",
+      "siliconflow_video",
+      "veo_video",
+      "vidu_video"
+    ]
+  }
+}

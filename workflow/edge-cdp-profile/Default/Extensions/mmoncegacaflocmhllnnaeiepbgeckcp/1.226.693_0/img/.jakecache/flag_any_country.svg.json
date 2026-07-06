@@ -1,0 +1,1 @@
+{"deps":{"%ROOT%/pkg/bext/lum/img/flag_any_country.svg":"md5-59fa1e10f0f909d5441c094a4e7bd0ee"},"gen_deps":{},"signatures":{"md5name":"af3621e824ca8539756e39182a61b1e6","size":6210,"md5":"59fa1e10f0f909d5441c094a4e7bd0ee","tscur":1615990799703},"signature":"md5-59fa1e10f0f909d5441c094a4e7bd0ee","arch":"X86","flags":{"config":"DIST=APP CONFIG_BEXT=y","vary":[]}}

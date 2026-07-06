@@ -1,0 +1,67 @@
+{
+  "batch_id": "7d87b7a8-63f6-438f-94f1-c3ca1a4e2bae",
+  "store_name": "demo-store.myshopify.com",
+  "mode": "apply",
+  "status": "completed",
+  "processed_count": 2,
+  "updated_count": 1,
+  "skipped_count": 1,
+  "failed_count": 0,
+  "started_at": "2026-06-22T11:33:23+00:00",
+  "finished_at": "2026-06-22T11:33:23+00:00",
+  "shopify_connection": {
+    "ok": true,
+    "system": "shopify",
+    "message": "Shopify 连接验证成功。",
+    "details": {
+      "shop_id": "gid://shopify/Shop/1",
+      "shop_name": "Demo Store",
+      "myshopify_domain": "demo-store.myshopify.com",
+      "location_id": "gid://shopify/Location/1"
+    }
+  },
+  "giga_connection": {
+    "ok": true,
+    "system": "giga",
+    "message": "Giga OpenAPI 连接验证成功。",
+    "details": {
+      "base_url": "https://openapi.gigab2b.com",
+      "endpoint": "/inventory"
+    }
+  },
+  "location_id": "gid://shopify/Location/1",
+  "missing_sku_count": 0,
+  "artifact_paths": {
+    "report": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-库存-agent\\runtime\\reports\\7d87b7a8-63f6-438f-94f1-c3ca1a4e2bae.json",
+    "missing_skus": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-库存-agent\\runtime\\exports\\7d87b7a8-63f6-438f-94f1-c3ca1a4e2bae-missing-skus.json",
+    "retry_items": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-库存-agent\\runtime\\exports\\7d87b7a8-63f6-438f-94f1-c3ca1a4e2bae-retry-items.json"
+  },
+  "items": [
+    {
+      "sku": "SKU-1",
+      "shopify_variant_id": "gid://shopify/ProductVariant/1",
+      "shopify_product_id": "gid://shopify/Product/1",
+      "shopify_product_title": "One",
+      "shopify_inventory_item_id": "gid://shopify/InventoryItem/1",
+      "shopify_inventory_before": 5,
+      "giga_inventory": 8,
+      "action": "update_inventory",
+      "status": "updated",
+      "reason": "库存已更新",
+      "error_message": ""
+    },
+    {
+      "sku": "SKU-2",
+      "shopify_variant_id": "gid://shopify/ProductVariant/2",
+      "shopify_product_id": "gid://shopify/Product/2",
+      "shopify_product_title": "Two",
+      "shopify_inventory_item_id": "gid://shopify/InventoryItem/2",
+      "shopify_inventory_before": 7,
+      "giga_inventory": 7,
+      "action": "skip",
+      "status": "skipped",
+      "reason": "库存一致，无需更新",
+      "error_message": ""
+    }
+  ]
+}

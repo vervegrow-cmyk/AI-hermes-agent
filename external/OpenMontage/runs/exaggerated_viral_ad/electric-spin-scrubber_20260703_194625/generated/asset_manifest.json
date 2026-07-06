@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "assets": [
+    {
+      "id": "asset_02_shot-02-product-kit-closeup",
+      "type": "image",
+      "path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_194625\\generated\\product_assets\\01_01_kit_overview_00007_.png",
+      "source_tool": "comfyui_image",
+      "scene_id": "shot_02_product_kit_closeup",
+      "prompt": "Prepare the real product kit image into a clean vertical TikTok-ready product hero frame.",
+      "model": "",
+      "cost_usd": 0.0,
+      "duration_seconds": 4.0,
+      "resolution": "1080x1920",
+      "format": "png",
+      "provider": "comfyui",
+      "subtype": "product_closeup",
+      "generation_summary": "product_closeup routed to comfyui_image"
+    },
+    {
+      "id": "asset_04_shot-04-handle-closeup",
+      "type": "image",
+      "path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_194625\\generated\\product_assets\\02_02_handle_grip_00007_.png",
+      "source_tool": "comfyui_image",
+      "scene_id": "shot_04_handle_closeup",
+      "prompt": "Prepare the real handle-detail product image into a vertical close-up that emphasizes ergonomic grip and easy reach.",
+      "model": "",
+      "cost_usd": 0.0,
+      "duration_seconds": 4.0,
+      "resolution": "1080x1920",
+      "format": "png",
+      "provider": "comfyui",
+      "subtype": "product_closeup",
+      "generation_summary": "product_closeup routed to comfyui_image"
+    },
+    {
+      "id": "asset_06_shot-06-cta-finish",
+      "type": "image",
+      "path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_194625\\generated\\product_assets\\03_03_speed_modes_00007_.png",
+      "source_tool": "comfyui_image",
+      "scene_id": "shot_06_cta_finish",
+      "prompt": "Prepare the waterproof product image into a vertical CTA-ready close-up with clean space for subtitles and call to action.",
+      "model": "",
+      "cost_usd": 0.0,
+      "duration_seconds": 5.0,
+      "resolution": "1080x1920",
+      "format": "png",
+      "provider": "comfyui",
+      "subtype": "product_closeup",
+      "generation_summary": "product_closeup routed to comfyui_image"
+    }
+  ],
+  "total_cost_usd": 0.0,
+  "metadata": {
+    "asset_count": 3
+  }
+}

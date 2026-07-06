@@ -1,0 +1,7 @@
+[06/23/26 16:04:46] INFO     Starting MCP server 'yt-dlp' with transport.py:304
+                             transport 'http' on                               
+                             http://127.0.0.1:8092/mcp                         
+INFO:     Started server process [12524]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8092 (Press CTRL+C to quit)

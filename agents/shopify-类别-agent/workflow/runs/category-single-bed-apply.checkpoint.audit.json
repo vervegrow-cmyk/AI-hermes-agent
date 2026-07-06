@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-06-24 18:52:46",
+  "mode": "apply",
+  "store_name": "",
+  "product_query": "",
+  "max_items": 0,
+  "summary": "本次以 apply 模式处理了 1 个 Shopify 商品，其中 0 个已修改，0 个需要人工复核。",
+  "counts": {
+    "processed": 1,
+    "applied": 0,
+    "review": 0,
+    "failed": 0
+  },
+  "files": {
+    "checkpoint": "workflow\\runs\\category-single-bed-apply.checkpoint.json",
+    "results_jsonl": "workflow\\runs\\category-single-bed-apply.checkpoint.results.jsonl",
+    "review_jsonl": "workflow\\runs\\category-single-bed-apply.checkpoint.review.jsonl",
+    "review_csv": "workflow\\runs\\category-single-bed-apply.checkpoint.review.csv",
+    "failed_jsonl": "workflow\\runs\\category-single-bed-apply.checkpoint.failed.jsonl",
+    "failed_csv": "workflow\\runs\\category-single-bed-apply.checkpoint.failed.csv",
+    "audit_report": "workflow\\runs\\category-single-bed-apply.checkpoint.audit.json"
+  },
+  "rollback_source": "workflow\\runs\\category-single-bed-apply.checkpoint.results.jsonl"
+}

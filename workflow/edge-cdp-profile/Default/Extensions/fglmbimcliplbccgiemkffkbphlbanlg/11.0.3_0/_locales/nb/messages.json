@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Aktiver lisens"
+   },
+   "activateHint": {
+      "message": "Lim inn koden fra e-posten din."
+   },
+   "activateTitle": {
+      "message": "Aktiver Premium"
+   },
+   "activatedSub": {
+      "message": "Ubegrensede nedlastninger · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium aktivert!"
+   },
+   "alreadyBought": {
+      "message": "Allerede kjøpt?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Denne koden er allerede brukt."
+   },
+   "clearHistory": {
+      "message": "Tøm"
+   },
+   "days": {
+      "message": "dager · utløper"
+   },
+   "deactivate": {
+      "message": "Deaktiver lisens"
+   },
+   "deactivateConfirm": {
+      "message": "Deaktiver Premium-lisens på denne enheten?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Alle"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Liker du TubeVD?"
+   },
+   "enterCode": {
+      "message": "Skriv inn lisensnøkkelen din."
+   },
+   "enterKey": {
+      "message": "🔑 Skriv inn lisensnøkkel"
+   },
+   "expired": {
+      "message": "⚠️ Denne lisensen er utløpt."
+   },
+   "extDesc": {
+      "message": "Last ned videoer fra Facebook, Twitter, Vimeo, Dailymotion og 1000+ nettsteder i HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "free": {
+      "message": "Gratis"
+   },
+   "genericError": {
+      "message": "Noe gikk galt. Kontakt support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Få Premium — $4,99/mnd"
+   },
+   "getPremiumLink": {
+      "message": "Få Premium ↗"
+   },
+   "guarantee": {
+      "message": "30-dagers pengene-tilbake-garanti"
+   },
+   "history": {
+      "message": "Nedlastningslogg"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Ugyldig lisensnøkkel."
+   },
+   "invalidFormat": {
+      "message": "Ugyldig format. Må begynne med TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Lisensnøkkel"
+   },
+   "limit": {
+      "message": "Grense"
+   },
+   "limitHint": {
+      "message": "Gratisplan: 5 nedlastninger/dag."
+   },
+   "limitTitle": {
+      "message": "Daglig grense nådd"
+   },
+   "networkError": {
+      "message": "⚠️ Tilkoblingsfeil."
+   },
+   "noCode": {
+      "message": "Ingen kode ennå?"
+   },
+   "noHistory": {
+      "message": "Ingen nedlastninger ennå."
+   },
+   "noVideos": {
+      "message": "Ingen videoer funnet"
+   },
+   "noVideosHint": {
+      "message": "Hold musen over en video for å se nedlastningsknappen."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Vurder"
+   },
+   "rateUs": {
+      "message": "⭐ Vurder oss"
+   },
+   "scanning": {
+      "message": "Søker etter videoer..."
+   },
+   "serverError": {
+      "message": "⚠️ Serverfeil."
+   },
+   "startDown": {
+      "message": "Start nedlasting ↓"
+   },
+   "support": {
+      "message": "Støtte"
+   },
+   "unlimited": {
+      "message": "Ubegrenset"
+   },
+   "upgradeBtn": {
+      "message": "Oppgrader til Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Oppgrader ↗"
+   },
+   "upgradeTitle": {
+      "message": "Oppgrader til Premium"
+   },
+   "usageLeft": {
+      "message": "nedlastninger igjen i dag"
+   },
+   "usageOf": {
+      "message": "av"
+   },
+   "validFor": {
+      "message": "Gyldig i"
+   },
+   "verifying": {
+      "message": "Verifiserer…"
+   },
+   "videoDetected": {
+      "message": "video funnet"
+   },
+   "videosDetected": {
+      "message": "videoer funnet"
+   },
+   "ytBlocked": {
+      "message": "YouTube støttes ikke"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD respekterer YouTubes bruksvilkår."
+   },
+   "ytTry": {
+      "message": "Prøv Facebook, Vimeo, Twitter og 1000+ andre nettsteder."
+   }
+}

@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Licentie activeren"
+   },
+   "activateHint": {
+      "message": "Plak de code uit uw e-mail."
+   },
+   "activateTitle": {
+      "message": "Premium activeren"
+   },
+   "activatedSub": {
+      "message": "Onbeperkte downloads · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium geactiveerd!"
+   },
+   "alreadyBought": {
+      "message": "Al gekocht?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Deze code is al gebruikt op een ander apparaat."
+   },
+   "clearHistory": {
+      "message": "Wissen"
+   },
+   "days": {
+      "message": "dagen · verloopt op"
+   },
+   "deactivate": {
+      "message": "Licentie deactiveren"
+   },
+   "deactivateConfirm": {
+      "message": "Premium-licentie op dit apparaat deactiveren?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Alles"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Geniet u van TubeVD?"
+   },
+   "enterCode": {
+      "message": "Voer uw licentiesleutel in."
+   },
+   "enterKey": {
+      "message": "🔑 Licentiesleutel invoeren"
+   },
+   "expired": {
+      "message": "⚠️ Deze licentie is verlopen."
+   },
+   "extDesc": {
+      "message": "Download video's van Facebook, Twitter, Vimeo, Dailymotion en 1000+ sites in HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "free": {
+      "message": "Gratis"
+   },
+   "genericError": {
+      "message": "Er is iets misgegaan. Neem contact op met support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Premium halen — $4,99/mnd"
+   },
+   "getPremiumLink": {
+      "message": "Premium halen ↗"
+   },
+   "guarantee": {
+      "message": "30 dagen geld-terug-garantie"
+   },
+   "history": {
+      "message": "Downloadgeschiedenis"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Ongeldige licentiesleutel. Controleer uw e-mail en probeer opnieuw."
+   },
+   "invalidFormat": {
+      "message": "Ongeldig formaat. Moet beginnen met TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Licentiesleutel"
+   },
+   "limit": {
+      "message": "Limiet"
+   },
+   "limitHint": {
+      "message": "Gratis plan: 5 downloads/dag. Upgrade voor onbeperkte toegang."
+   },
+   "limitTitle": {
+      "message": "Dagelijkse limiet bereikt"
+   },
+   "networkError": {
+      "message": "⚠️ Verbindingsfout."
+   },
+   "noCode": {
+      "message": "Nog geen code?"
+   },
+   "noHistory": {
+      "message": "Nog geen downloads."
+   },
+   "noVideos": {
+      "message": "Geen video's gevonden"
+   },
+   "noVideosHint": {
+      "message": "Beweeg de muis over een video om de downloadknop te zien."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Beoordeel"
+   },
+   "rateUs": {
+      "message": "⭐ Beoordeel ons"
+   },
+   "scanning": {
+      "message": "Zoeken naar video's..."
+   },
+   "serverError": {
+      "message": "⚠️ Serverfout."
+   },
+   "startDown": {
+      "message": "Begin te downloaden ↓"
+   },
+   "support": {
+      "message": "Ondersteuning"
+   },
+   "unlimited": {
+      "message": "Onbeperkt"
+   },
+   "upgradeBtn": {
+      "message": "Upgraden naar Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Upgraden ↗"
+   },
+   "upgradeTitle": {
+      "message": "Upgraden naar Premium"
+   },
+   "usageLeft": {
+      "message": "downloads over vandaag"
+   },
+   "usageOf": {
+      "message": "van"
+   },
+   "validFor": {
+      "message": "Geldig voor"
+   },
+   "verifying": {
+      "message": "Verifiëren…"
+   },
+   "videoDetected": {
+      "message": "video gevonden"
+   },
+   "videosDetected": {
+      "message": "video's gevonden"
+   },
+   "ytBlocked": {
+      "message": "YouTube niet ondersteund"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD respecteert de gebruiksvoorwaarden van YouTube."
+   },
+   "ytTry": {
+      "message": "Probeer Facebook, Vimeo, Twitter en 1.000+ andere sites."
+   }
+}

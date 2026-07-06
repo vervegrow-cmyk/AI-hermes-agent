@@ -1,0 +1,48 @@
+{
+   "done": {
+      "message": "Done"
+   },
+   "downloadAll": {
+      "message": "Download all"
+   },
+   "downloadStartedALot": {
+      "message": "Downloading ($AMOUNT$ videos)...",
+      "placeholders": {
+         "AMOUNT": {
+            "content": "$1"
+         }
+      }
+   },
+   "downloadStartedOne": {
+      "message": "Downloading..."
+   },
+   "extDesc": {
+      "message": "Descarcă video acum, vizionează mai târziu. Descărcător rapid, ușor și de încredere"
+   },
+   "extName": {
+      "message": "Descărcător video care funcționează! Salvează clipuri"
+   },
+   "foundVideos": {
+      "message": "$AMOUNT$ videos found",
+      "placeholders": {
+         "AMOUNT": {
+            "content": "$1"
+         }
+      }
+   },
+   "hideButtons": {
+      "message": "Hide buttons"
+   },
+   "linkCopied": {
+      "message": "Link copied"
+   },
+   "noVideos": {
+      "message": "No videos were found"
+   },
+   "sidebar": {
+      "message": "Sidebar view"
+   },
+   "youtubeError": {
+      "message": "Due to the privacy policies of Google, videos are not downloaded from YouTube"
+   }
+}

@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Активувати ліцензію"
+   },
+   "activateHint": {
+      "message": "Вставте код з листа."
+   },
+   "activateTitle": {
+      "message": "Активувати Premium"
+   },
+   "activatedSub": {
+      "message": "Необмежені завантаження · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium активовано!"
+   },
+   "alreadyBought": {
+      "message": "Вже купили?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Цей код вже використано."
+   },
+   "clearHistory": {
+      "message": "Очистити"
+   },
+   "days": {
+      "message": "днів · закінчується"
+   },
+   "deactivate": {
+      "message": "Деактивувати ліцензію"
+   },
+   "deactivateConfirm": {
+      "message": "Деактивувати Premium ліцензію на цьому пристрої?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Усі"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Подобається TubeVD?"
+   },
+   "enterCode": {
+      "message": "Введіть ліцензійний ключ."
+   },
+   "enterKey": {
+      "message": "🔑 Ввести ліцензійний ключ"
+   },
+   "expired": {
+      "message": "⚠️ Термін дії ліцензії закінчився."
+   },
+   "extDesc": {
+      "message": "Завантажуйте відео з Facebook, Twitter, Vimeo, Dailymotion та 1000+ сайтів у HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "free": {
+      "message": "Безкоштовно"
+   },
+   "genericError": {
+      "message": "Щось пішло не так. Зверніться до support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Отримати Premium — $4,99/міс."
+   },
+   "getPremiumLink": {
+      "message": "Отримати Premium ↗"
+   },
+   "guarantee": {
+      "message": "30-денна гарантія повернення коштів"
+   },
+   "history": {
+      "message": "Історія завантажень"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Невірний ліцензійний ключ."
+   },
+   "invalidFormat": {
+      "message": "Невірний формат. Має починатися з TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Ліцензійний ключ"
+   },
+   "limit": {
+      "message": "Ліміт"
+   },
+   "limitHint": {
+      "message": "Безкоштовний план: 5 завантажень/день."
+   },
+   "limitTitle": {
+      "message": "Денний ліміт вичерпано"
+   },
+   "networkError": {
+      "message": "⚠️ Помилка підключення."
+   },
+   "noCode": {
+      "message": "Немає коду?"
+   },
+   "noHistory": {
+      "message": "Завантажень поки немає."
+   },
+   "noVideos": {
+      "message": "Відео не знайдено"
+   },
+   "noVideosHint": {
+      "message": "Наведіть курсор на відео, щоб побачити кнопку завантаження."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Оцінити"
+   },
+   "rateUs": {
+      "message": "⭐ Оцінити нас"
+   },
+   "scanning": {
+      "message": "Пошук відео..."
+   },
+   "serverError": {
+      "message": "⚠️ Помилка сервера."
+   },
+   "startDown": {
+      "message": "Почати завантаження ↓"
+   },
+   "support": {
+      "message": "Підтримка"
+   },
+   "unlimited": {
+      "message": "Необмежено"
+   },
+   "upgradeBtn": {
+      "message": "Перейти на Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Оновити ↗"
+   },
+   "upgradeTitle": {
+      "message": "Перейти на Premium"
+   },
+   "usageLeft": {
+      "message": "завантажень залишилось сьогодні"
+   },
+   "usageOf": {
+      "message": "з"
+   },
+   "validFor": {
+      "message": "Дійсний"
+   },
+   "verifying": {
+      "message": "Перевірка…"
+   },
+   "videoDetected": {
+      "message": "відео знайдено"
+   },
+   "videosDetected": {
+      "message": "відео знайдено"
+   },
+   "ytBlocked": {
+      "message": "YouTube не підтримується"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD дотримується Умов використання YouTube."
+   },
+   "ytTry": {
+      "message": "Спробуйте Facebook, Vimeo, Twitter та 1000+ інших сайтів."
+   }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "shot_id": "shot_01_hook",
+    "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, creator struggling with regular drone setup using both phone and controller, awkward setup, connection hassle, relatable frustration, fast social media pacing"
+  },
+  {
+    "shot_id": "shot_02_remote",
+    "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, fast reveal of foldable drone with built-in screen remote, remote screen powers on, strong ecommerce product reveal, satisfying close-up"
+  },
+  {
+    "shot_id": "shot_03_no_phone",
+    "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, hand holds screen remote only, no phone required, live feed visible on remote, simple beginner workflow, easy startup feel"
+  },
+  {
+    "shot_id": "shot_04_takeoff",
+    "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, finger presses takeoff button on screen remote, drone lifts off smoothly from flat ground, clear beginner-friendly action, satisfying motion"
+  },
+  {
+    "shot_id": "shot_05_hover",
+    "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, drone stable hovering in calm indoor or outdoor scene, reassuring beginner-friendly control, clean product focus"
+  },
+  {
+    "shot_id": "shot_06_dual_camera",
+    "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, close-up of front and bottom camera modules, dual camera switching effect controlled from remote, tech demo shot"
+  },
+  {
+    "shot_id": "shot_07_accessories",
+    "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, top-down flat lay of full kit with drone, screen remote, extra batteries, propellers, SD card, carry case, ecommerce unpacked layout"
+  },
+  {
+    "shot_id": "shot_08_lifestyle_cta",
+    "prompt": "vertical 9:16, realistic TikTok UGC style, handheld camera, product demo, clean lighting, beginner drone, no brand logo, no fake text, product stays consistent, outdoor beginner lifestyle using a foldable drone kit, travel and backyard mood, final hero shot with drone remote and accessories, strong TikTok Shop call to action"
+  }
+]

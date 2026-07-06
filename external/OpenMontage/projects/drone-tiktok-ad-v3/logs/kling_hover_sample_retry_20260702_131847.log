@@ -1,0 +1,61 @@
+﻿{
+  "timestamp": "2026-07-02T05:21:22.199188Z",
+  "provider_requested": "kling",
+  "mode": "sample",
+  "shot": "hover",
+  "retry": 1,
+  "output_path": "projects/drone-tiktok-ad-v3/assets/video/sample_hover_kling_retry.mp4",
+  "success": true,
+  "error": null,
+  "data": {
+    "provider": "kling",
+    "model": "fal-ai/kling-video/v3/standard/text-to-video",
+    "prompt": "Vertical realistic drone commercial shot of the same compact foldable black drone hovering steadily in place outdoors, slight cinematic orbit camera move, optical-flow-hovering beginner confidence feel, stable air position, clean background, premium tech ad style, true-to-life motion, 9:16, no text overlay, no fake GPS interface, no fake obstacle avoidance demo, no fantasy drone design, no extra propellers",
+    "operation": "text_to_video",
+    "aspect_ratio": "9:16",
+    "output": "projects\\drone-tiktok-ad-v3\\assets\\video\\sample_hover_kling_retry.mp4",
+    "output_path": "projects\\drone-tiktok-ad-v3\\assets\\video\\sample_hover_kling_retry.mp4",
+    "format": "mp4",
+    "file_size_bytes": 2557398,
+    "selected_tool": "kling_video",
+    "selected_provider": "kling",
+    "selection_reason": "kling_video (kling): 0.39\n  reliability=0.80 (w=0.15)\n  task_fit=0.29 (w=0.3)\n  cost_efficiency=0.70 (w=0.1)",
+    "provider_score": {
+      "tool_name": "kling_video",
+      "provider": "kling",
+      "task_fit": 0.2916666666666667,
+      "output_quality": 0.34,
+      "control": 0.0,
+      "reliability": 0.8,
+      "cost_efficiency": 0.7,
+      "latency": 0.4,
+      "continuity": 0.5,
+      "weighted_score": 0.39050000000000007
+    },
+    "selected_tool_agent_skills": [
+      "ai-video-gen"
+    ],
+    "required_agent_skills": [
+      "ai-video-gen"
+    ],
+    "selected_tool_usage_location": "D:\\�����ļ�����\\AI-hermes-agent\\external\\OpenMontage\\tools\\video\\kling_video.py",
+    "selected_tool_best_for": [
+      "cinematic B-roll with highest visual fidelity",
+      "fluid motion and camera direction",
+      "professional video clips"
+    ],
+    "alternatives_considered": [
+      "ark_video",
+      "heygen_video",
+      "minimax_video",
+      "pexels_video",
+      "pixabay_video",
+      "pixverse_video",
+      "runway_video",
+      "seedance_video",
+      "siliconflow_video",
+      "veo_video",
+      "vidu_video"
+    ]
+  }
+}

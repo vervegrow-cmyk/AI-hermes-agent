@@ -1,0 +1,296 @@
+{
+   "5Star": {
+      "message": "五星好评"
+   },
+   "ScanCode": {
+      "message": "扫码进群"
+   },
+   "ScanCodeTip1": {
+      "message": "获取第一手更新信息，反馈产品需求和问题"
+   },
+   "ScanCodeTip2": {
+      "message": "学习更多工具使用技巧，了解更多AI动态"
+   },
+   "ScanCodeTitle": {
+      "message": "扫码加入 AI助手 官方群"
+   },
+   "addPrompt": {
+      "message": "添加模版"
+   },
+   "alwaysShow": {
+      "message": "始终显示"
+   },
+   "ask": {
+      "message": "问答"
+   },
+   "askPrompt": {
+      "message": "回答这个问题："
+   },
+   "askSendText": {
+      "message": "回答这个问题"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "chatHistory": {
+      "message": "聊天记录"
+   },
+   "chatTip": {
+      "message": "您好，我能为您提供什么帮助"
+   },
+   "collapse": {
+      "message": "收起侧边栏"
+   },
+   "commentNow": {
+      "message": "立即评论"
+   },
+   "confirm": {
+      "message": "确认"
+   },
+   "copySuccess": {
+      "message": "复制成功"
+   },
+   "custom": {
+      "message": "自定义提示"
+   },
+   "dayago": {
+      "message": "天前"
+   },
+   "editPrompt": {
+      "message": "编辑模版"
+   },
+   "editPromptText": {
+      "message": "侧边栏提示模板"
+   },
+   "editPromptTextTip": {
+      "message": "编辑或者删除模版"
+   },
+   "essay": {
+      "message": "论文"
+   },
+   "essayPrompt": {
+      "message": "请根据输入的文案帮我生成一篇论文："
+   },
+   "essaySendText": {
+      "message": "请根据输入的文案帮我生成一篇论文，请包括摘要、提纲、引言、正文、结论。论文主题是"
+   },
+   "expand_sidebar": {
+      "message": "展开侧边栏"
+   },
+   "expendTip": {
+      "message": "拓展"
+   },
+   "explain": {
+      "message": "解释代码"
+   },
+   "explainPrompt": {
+      "message": "解释以下代码："
+   },
+   "explainSendText": {
+      "message": "解释以下代码"
+   },
+   "extDes": {
+      "message": "ChatsNow AI助手：ChatGPT，Claude 側邊欄是人工智慧助手，支援GPT - 4、Claude2、GPT - 3.5。 使用GPT、Claude為你提供聊天、翻譯、Vision、連網等智慧服務。"
+   },
+   "extName": {
+      "message": "ChatsNow AI助手: ChatGPT 側邊欄(GPT-4，Vision，聯網)"
+   },
+   "extended": {
+      "message": "文本扩展"
+   },
+   "extendedPrompt": {
+      "message": "根据文案扩写内容："
+   },
+   "extendedSendText": {
+      "message": "根据以下几句话扩写一段500字左右的内容"
+   },
+   "footerLogin": {
+      "message": "登录获取30次查询/天"
+   },
+   "footerSetting": {
+      "message": "设置"
+   },
+   "generating": {
+      "message": "生成中..."
+   },
+   "getMoreTimes": {
+      "message": "获取更多"
+   },
+   "goodReviews": {
+      "message": "好评有奖"
+   },
+   "goodReviewsTip": {
+      "message": "给我们一个五星好评，您将立即获得五次GPT-4o mini使用额度的奖励"
+   },
+   "grammar": {
+      "message": "语法"
+   },
+   "grammarPrompt": {
+      "message": "将其更正为标准英语："
+   },
+   "grammarSendText": {
+      "message": "将其更正为标准英语"
+   },
+   "hourago": {
+      "message": "小时前"
+   },
+   "inputMessage": {
+      "message": "在此处输入或粘贴内容，按Enter键换行"
+   },
+   "managePrompt": {
+      "message": "管理模版"
+   },
+   "maxTimes": {
+      "message": "今日已达最大使用次数"
+   },
+   "minago": {
+      "message": "分钟前"
+   },
+   "more_options": {
+      "message": "更多选项"
+   },
+   "namedPrompt": {
+      "message": "为该提示命名"
+   },
+   "newChat": {
+      "message": "新聊天"
+   },
+   "newFunction": {
+      "message": "新功能"
+   },
+   "panelAnswer": {
+      "message": "回复"
+   },
+   "panelAsk": {
+      "message": "解答"
+   },
+   "panelChat": {
+      "message": "聊天"
+   },
+   "panelContinue": {
+      "message": "继续聊天"
+   },
+   "panelDaily": {
+      "message": "每天"
+   },
+   "panelLogin": {
+      "message": "登录"
+   },
+   "panelLoginTip": {
+      "message": "未登录用户的查询次数已用完。您可以登录"
+   },
+   "panelLoginTipWeight": {
+      "message": "获得每天30次免费查询。"
+   },
+   "panelShiftTip": {
+      "message": "在此处输入或粘贴内容，按Shift+Enter键换行，按Enter提交"
+   },
+   "panelSubmit": {
+      "message": "提交"
+   },
+   "panelTip": {
+      "message": "在此处输入或粘贴内容，按Enter键换行"
+   },
+   "panelToday": {
+      "message": "今天"
+   },
+   "program": {
+      "message": "编程"
+   },
+   "programPrompt": {
+      "message": "编程："
+   },
+   "programSendText": {
+      "message": "编程"
+   },
+   "prompt": {
+      "message": "提示"
+   },
+   "promptContent": {
+      "message": "在此处输入内容"
+   },
+   "promptName": {
+      "message": "提示名称"
+   },
+   "promptTip": {
+      "message": "提示文案"
+   },
+   "quickIcon": {
+      "message": "快速查找图标"
+   },
+   "quickIconTip": {
+      "message": "在网站上选择文本时它会立即出现"
+   },
+   "rewrite": {
+      "message": "文本改写"
+   },
+   "rewritePrompt": {
+      "message": "重写以下内容："
+   },
+   "rewriteSendText": {
+      "message": "基于引号中内容进行扩展，使之表达的更详细"
+   },
+   "rewriteTip": {
+      "message": "改写"
+   },
+   "selectTextShow": {
+      "message": "选择文本时显示"
+   },
+   "send": {
+      "message": "发送"
+   },
+   "setting": {
+      "message": "设置"
+   },
+   "shortcutSelect1": {
+      "message": "输入框Enter换行、点击\"提交\"按钮"
+   },
+   "shortcutSelect2": {
+      "message": "输入框Shift+Enter换行、按Enter提交"
+   },
+   "shortcutSetting": {
+      "message": "快捷键设置"
+   },
+   "shortcutTip": {
+      "message": "设置输入框和提交按钮快捷键"
+   },
+   "sidebarIcon": {
+      "message": "侧边栏图标"
+   },
+   "sidebarIconTip": {
+      "message": "通过位于页面右侧的图标访问侧边栏"
+   },
+   "stopGenerate": {
+      "message": "停止生成"
+   },
+   "stopGenerateText": {
+      "message": "停止生成"
+   },
+   "summary": {
+      "message": "总结"
+   },
+   "summaryPrompt": {
+      "message": "给我总结一下："
+   },
+   "summarySendText": {
+      "message": "给我总结一下"
+   },
+   "translateTip": {
+      "message": "翻译"
+   },
+   "translation": {
+      "message": "翻译"
+   },
+   "translationPrompt": {
+      "message": "将以下内容翻译成"
+   },
+   "translationSendText": {
+      "message": "将以下内容翻译成"
+   },
+   "twitter": {
+      "message": "发推"
+   },
+   "updateTip": {
+      "message": "更新"
+   }
+}

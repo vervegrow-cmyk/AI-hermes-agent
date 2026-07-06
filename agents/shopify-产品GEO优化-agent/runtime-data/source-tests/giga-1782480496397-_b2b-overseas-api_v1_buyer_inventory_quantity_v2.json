@@ -1,0 +1,45 @@
+{
+  "source": "giga",
+  "endpoint": "/b2b-overseas-api/v1/buyer/inventory/quantity/v2",
+  "method": "POST",
+  "ok": true,
+  "status": 200,
+  "request": {
+    "url": "https://openapi.gigab2b.com/b2b-overseas-api/v1/buyer/inventory/quantity/v2",
+    "body": {
+      "skus": []
+    },
+    "headerNames": [
+      "Accept",
+      "Content-Type",
+      "client-id",
+      "timestamp",
+      "nonce",
+      "sign"
+    ]
+  },
+  "responsePreview": {
+    "success": false,
+    "code": "B50001",
+    "data": null,
+    "requestId": "1d3e3ba385905198",
+    "msg": "Required fields cannot be blank.",
+    "subMsg": "The SKU must be provided.",
+    "recommend": "https://www.gigab2b.com/index.php?route=information/open_api/index&doc_id=19"
+  },
+  "geoSignalSummary": {
+    "matchedPaths": [],
+    "missingSignals": [
+      "title",
+      "description",
+      "category",
+      "brand",
+      "identifiers",
+      "media",
+      "specs",
+      "logistics",
+      "inventory",
+      "pricing"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#f44336}
+        </style>
+    </defs>
+    <g id="ic_firewall_48" transform="translate(-160 -168.16)">
+        <path id="Rectangle_1128" d="M0 0h48v48H0z" class="cls-1" data-name="Rectangle 1128" transform="translate(160 168.16)"/>
+        <path id="Path_37452" d="M35.949 20c.028-.331.051-.662.051-1 0-8.119-3.736-14.1-11.1-17.789L22 0v3a16.87 16.87 0 0 1-1.014 6.09L18.235 4.5l-1.8 2.246C16.257 6.977 12 12.375 12 19c0 .338.023.669.051 1H4v24h40V20zM17 28.727a11.911 11.911 0 0 0 5 2.092V40h-5zm9 2.092a11.911 11.911 0 0 0 5-2.092V40h-5zm-8.041-19L21 16a20.063 20.063 0 0 0 4.767-9.629C29.955 9.334 32 13.492 32 19a8 8 0 0 1-16 0 15.939 15.939 0 0 1 1.959-7.181zM8 24h5v16H8zm32 16h-5V24h5z" class="cls-2" data-name="Path 37452" transform="translate(160 168.16)"/>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#526373}
+        </style>
+    </defs>
+    <g id="ic_add" transform="translate(-247 -1389)">
+        <path id="Rectangle_2020" d="M0 0h16v16H0z" class="cls-1" data-name="Rectangle 2020" transform="translate(247 1389)"/>
+        <g id="Group_2814" data-name="Group 2814" transform="translate(247 1389)">
+            <path id="Path_38960" d="M11.488 1l-.983-1h-5.01l-.983 1H1v2h14V1z" class="cls-2" data-name="Path 38960"/>
+            <path id="Path_38961" d="M4.84 16h6.32a2 2 0 0 0 1.993-1.834L14 4H2l.847 10.166A2 2 0 0 0 4.84 16z" class="cls-2" data-name="Path 38961"/>
+        </g>
+    </g>
+</svg>

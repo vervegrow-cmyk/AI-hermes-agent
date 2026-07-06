@@ -1,0 +1,1 @@
+{"deps":{"%ROOT%/pkg/bext/lum/img/bz_email.svg":"md5-c81892043c4fef3ca0344c24de43290a"},"gen_deps":{},"signatures":{"md5name":"2a0a325b98bdd1b80819f96ce921203e","size":757,"md5":"c81892043c4fef3ca0344c24de43290a","tscur":1615990799700},"signature":"md5-c81892043c4fef3ca0344c24de43290a","arch":"X86","flags":{"config":"DIST=APP CONFIG_BEXT=y","vary":[]}}

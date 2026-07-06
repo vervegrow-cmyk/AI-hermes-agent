@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "cuts": [
+    {
+      "id": "cut_01_clone-01-pain",
+      "source": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat-clone-v2_20260704_130737\\generated\\motion\\clone_01_pain\\clone-01-pain.mp4",
+      "source_asset_id": "asset_01_clone-01-pain",
+      "in_seconds": 0.0,
+      "out_seconds": 4.5,
+      "layer": "primary",
+      "reason": "action_or_character_motion via seedance_ark_video"
+    },
+    {
+      "id": "cut_02_clone-02-reveal",
+      "source": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat-clone-v2_20260704_130737\\generated\\motion\\clone_02_reveal\\clone-02-reveal.mp4",
+      "source_asset_id": "asset_02_clone-02-reveal",
+      "in_seconds": 0.0,
+      "out_seconds": 1.3,
+      "layer": "primary",
+      "reason": "action_or_character_motion via seedance_ark_video"
+    },
+    {
+      "id": "cut_03_clone-03-activate",
+      "source": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat-clone-v2_20260704_130737\\generated\\motion\\clone_03_activate\\clone-03-activate.mp4",
+      "source_asset_id": "asset_03_clone-03-activate",
+      "in_seconds": 0.0,
+      "out_seconds": 3.7,
+      "layer": "primary",
+      "reason": "action_or_character_motion via seedance_ark_video"
+    },
+    {
+      "id": "cut_04_clone-04-relief-finish",
+      "source": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat-clone-v2_20260704_130737\\generated\\motion\\clone_04_relief_finish\\clone-04-relief-finish.mp4",
+      "source_asset_id": "asset_04_clone-04-relief-finish",
+      "in_seconds": 0.0,
+      "out_seconds": 5.5,
+      "layer": "primary",
+      "reason": "action_or_character_motion via seedance_ark_video"
+    }
+  ],
+  "render_runtime": "remotion",
+  "renderer_family": "product-reveal",
+  "composition_mode": "templated",
+  "metadata": {
+    "total_timeline_seconds": 15.0,
+    "shot_count": 4
+  }
+}

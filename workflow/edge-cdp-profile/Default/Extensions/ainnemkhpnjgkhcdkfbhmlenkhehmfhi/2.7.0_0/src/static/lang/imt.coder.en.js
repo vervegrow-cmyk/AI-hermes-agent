@@ -1,0 +1,1 @@
+Dictionary.create('coder', 'en', {"pills": {"best": "Most suitable", "good": "Suitable", "other": "Other", "keywords": "Keywords", "functions": "Functions", "operators": "Operators", "variables": "Variables"}});

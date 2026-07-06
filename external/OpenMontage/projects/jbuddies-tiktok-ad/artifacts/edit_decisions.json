@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "cuts": [
+    {
+      "id": "scene-01-hook",
+      "source": "product-photo",
+      "in_seconds": 0.0,
+      "out_seconds": 2.5,
+      "transform": {
+        "animation": "ken-burns"
+      },
+      "transition_out": "fade",
+      "transition_duration": 0.3,
+      "reason": "Open on the real product photo to establish credibility immediately."
+    },
+    {
+      "id": "scene-02-intro",
+      "source": "product-photo",
+      "in_seconds": 2.5,
+      "out_seconds": 5.0,
+      "transform": {
+        "animation": "zoom-in"
+      },
+      "reason": "Keep the product visible while introducing the 2-in-1 positioning."
+    },
+    {
+      "id": "scene-03-proof",
+      "source": "product-photo",
+      "in_seconds": 5.0,
+      "out_seconds": 8.0,
+      "transform": {
+        "animation": "ken-burns"
+      },
+      "reason": "Support proof claims with persistent product context."
+    },
+    {
+      "id": "scene-04-benefits",
+      "source": "product-photo",
+      "in_seconds": 8.0,
+      "out_seconds": 12.5,
+      "transform": {
+        "animation": "zoom-in"
+      },
+      "reason": "Create a slightly warmer benefits section while staying visually coherent."
+    },
+    {
+      "id": "scene-05-cta",
+      "source": "product-photo",
+      "in_seconds": 12.5,
+      "out_seconds": 15.5,
+      "transform": {
+        "animation": "ken-burns"
+      },
+      "reason": "Finish on the product with a clean shop-now CTA."
+    }
+  ],
+  "audio": {},
+  "subtitles": {
+    "enabled": false
+  },
+  "renderer_family": "product-reveal",
+  "render_runtime": "remotion",
+  "composition_mode": "templated",
+  "metadata": {
+    "playbook": "flat-motion-graphics",
+    "target_duration_seconds": 15.5,
+    "delivery_promise": {
+      "mode": "still-led product promo",
+      "notes": "Single provided image with text-led motion graphics treatment."
+    }
+  }
+}

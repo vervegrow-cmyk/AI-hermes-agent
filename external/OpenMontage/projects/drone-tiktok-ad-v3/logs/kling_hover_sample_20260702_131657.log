@@ -1,0 +1,10 @@
+﻿{
+  "timestamp": "2026-07-02T05:18:03.951483Z",
+  "provider_requested": "kling",
+  "mode": "sample",
+  "shot": "hover",
+  "output_path": "projects/drone-tiktok-ad-v3/assets/video/sample_hover_kling.mp4",
+  "success": false,
+  "error": "Kling video generation failed: ('Connection broken: IncompleteRead(499712 bytes read, 2246883 more expected)', IncompleteRead(499712 bytes read, 2246883 more expected))",
+  "data": {}
+}

@@ -1,0 +1,47 @@
+{
+  "batch_id": "e447b761-05dc-4e8d-9261-a64538fb9f85",
+  "store_name": "demo-store",
+  "mode": "apply",
+  "status": "failed",
+  "processed_count": 2,
+  "success_count": 0,
+  "failed_count": 1,
+  "skipped_count": 1,
+  "manual_review_count": 0,
+  "started_at": "2026-06-22T06:19:09+00:00",
+  "finished_at": "2026-06-22T06:19:12+00:00",
+  "items": [
+    {
+      "store_name": "demo-store",
+      "giga_sku": "SKU-1",
+      "shopify_product_id": "prod-1",
+      "shopify_variant_id": "var-1",
+      "old_price": 20.0,
+      "supplier_cost": 10.0,
+      "target_price": 21.69,
+      "delta": 1.69,
+      "decision": "increase_price",
+      "reason_codes": [
+        "supplier_cost_changed"
+      ],
+      "status": "failed",
+      "error_message": "[{'message': 'Variable $productId of type ID! was provided invalid value', 'locations': [{'line': 2, 'column': 54}], 'extensions': {'code': 'INVALID_VARIABLE', 'value': 'prod-1', 'problems': [{'path': [], 'explanation': \"Invalid global id 'prod-1'\", 'message': \"Invalid global id 'prod-1'\"}]}}, {'message': \"Variable $variants of type [ProductVariantsBulkInput!]! was provided invalid value for 0.id (Invalid global id 'var-1')\", 'locations': [{'line': 2, 'column': 71}], 'extensions': {'code': 'INVALID_VARIABLE', 'value': [{'id': 'var-1', 'price': 21.69}], 'problems': [{'path': [0, 'id'], 'explanation': \"Invalid global id 'var-1'\", 'message': \"Invalid global id 'var-1'\"}]}}]"
+    },
+    {
+      "store_name": "demo-store",
+      "giga_sku": "SKU-2",
+      "shopify_product_id": "prod-1",
+      "shopify_variant_id": "var-2",
+      "old_price": 21.69,
+      "supplier_cost": 10.0,
+      "target_price": 21.69,
+      "delta": 0.0,
+      "decision": "keep_price",
+      "reason_codes": [
+        "delta_below_threshold"
+      ],
+      "status": "skipped",
+      "error_message": ""
+    }
+  ]
+}

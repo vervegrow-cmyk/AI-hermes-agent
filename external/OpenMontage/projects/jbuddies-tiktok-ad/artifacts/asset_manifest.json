@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "assets": [
+    {
+      "id": "product-photo",
+      "type": "image",
+      "path": "assets/images/product.jpg",
+      "source_tool": "user_upload",
+      "scene_id": "scene-01-hook",
+      "resolution": "1792x1024",
+      "format": "jpg",
+      "quality_score": 0.86,
+      "subtype": "provided",
+      "generation_summary": "User-provided product photo used as the core visual anchor for all scenes.",
+      "provider": "local",
+      "license": "user-provided"
+    }
+  ],
+  "total_cost_usd": 0.0,
+  "metadata": {
+    "layer3_skills_read": [
+      "remotion-best-practices",
+      "remotion",
+      "ffmpeg"
+    ]
+  }
+}

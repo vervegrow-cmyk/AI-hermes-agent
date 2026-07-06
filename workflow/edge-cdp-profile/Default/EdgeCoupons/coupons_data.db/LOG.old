@@ -1,0 +1,88 @@
+2026/07/02-15:07:50.261 17bc Reusing MANIFEST D:\桌面文件下载\AI-hermes-agent\workflow\edge-cdp-profile\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/07/02-15:07:50.262 17bc Recovering log #99
+2026/07/02-15:07:50.288 17bc (ignoring error) D:\桌面文件下载\AI-hermes-agent\workflow\edge-cdp-profile\Default\EdgeCoupons/coupons_data.db/000099.log: dropping 32274 bytes; Corruption: checksum mismatch
+2026/07/02-15:07:50.288 17bc Reusing old log D:\桌面文件下载\AI-hermes-agent\workflow\edge-cdp-profile\Default\EdgeCoupons/coupons_data.db/000099.log 
+2026/07/02-15:07:50.701 25f4 Level-0 table #103: started
+2026/07/02-15:07:50.704 25f4 Level-0 table #103: 683326 bytes OK
+2026/07/02-15:07:50.705 25f4 Delete type=0 #99
+2026/07/02-18:43:30.963 25f4 Level-0 table #105: started
+2026/07/02-18:43:30.967 25f4 Level-0 table #105: 83269 bytes OK
+2026/07/02-18:43:30.968 25f4 Delete type=0 #102
+2026/07/02-21:39:08.969 25f4 Level-0 table #107: started
+2026/07/02-21:39:08.971 25f4 Level-0 table #107: 86604 bytes OK
+2026/07/02-21:39:08.972 25f4 Delete type=0 #104
+2026/07/02-21:39:08.972 25f4 Compacting 4@0 + 1@1 files
+2026/07/02-21:39:08.974 25f4 Generated table #108@0: 5 keys, 602 bytes
+2026/07/02-21:39:08.974 25f4 Compacted 4@0 + 1@1 files => 602 bytes
+2026/07/02-21:39:08.974 25f4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/02-21:39:08.974 25f4 Delete type=2 #98
+2026/07/02-21:39:08.974 25f4 Delete type=2 #100
+2026/07/02-21:39:08.974 25f4 Delete type=2 #103
+2026/07/02-21:39:08.974 25f4 Delete type=2 #105
+2026/07/02-21:39:08.975 25f4 Delete type=2 #107
+2026/07/03-00:39:29.380 25f4 Level-0 table #110: started
+2026/07/03-00:39:29.381 25f4 Level-0 table #110: 82530 bytes OK
+2026/07/03-00:39:29.382 25f4 Delete type=0 #106
+2026/07/03-03:39:27.776 25f4 Level-0 table #112: started
+2026/07/03-03:39:27.777 25f4 Level-0 table #112: 86638 bytes OK
+2026/07/03-03:39:27.778 25f4 Delete type=0 #109
+2026/07/03-06:22:25.472 25f4 Level-0 table #114: started
+2026/07/03-06:22:25.474 25f4 Level-0 table #114: 82553 bytes OK
+2026/07/03-06:22:25.475 25f4 Delete type=0 #111
+2026/07/03-09:08:04.965 25f4 Level-0 table #116: started
+2026/07/03-09:08:04.966 25f4 Level-0 table #116: 86474 bytes OK
+2026/07/03-09:08:04.967 25f4 Delete type=0 #113
+2026/07/03-09:08:04.967 25f4 Compacting 4@0 + 1@1 files
+2026/07/03-09:08:04.969 25f4 Generated table #117@0: 5 keys, 602 bytes
+2026/07/03-09:08:04.969 25f4 Compacted 4@0 + 1@1 files => 602 bytes
+2026/07/03-09:08:04.970 25f4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/03-09:08:04.970 25f4 Delete type=2 #108
+2026/07/03-09:08:04.970 25f4 Delete type=2 #110
+2026/07/03-09:08:04.970 25f4 Delete type=2 #112
+2026/07/03-09:08:04.970 25f4 Delete type=2 #114
+2026/07/03-09:08:04.970 25f4 Delete type=2 #116
+2026/07/03-12:00:31.955 25f4 Level-0 table #119: started
+2026/07/03-12:00:31.958 25f4 Level-0 table #119: 82577 bytes OK
+2026/07/03-12:00:31.959 25f4 Delete type=0 #115
+2026/07/03-15:02:54.337 25f4 Level-0 table #121: started
+2026/07/03-15:02:54.348 25f4 Level-0 table #121: 86491 bytes OK
+2026/07/03-15:02:54.349 25f4 Delete type=0 #118
+2026/07/03-15:07:54.305 56d8 Level-0 table #123: started
+2026/07/03-15:07:54.307 56d8 Level-0 table #123: 684875 bytes OK
+2026/07/03-15:07:54.308 56d8 Delete type=0 #120
+2026/07/03-20:21:04.500 25f4 Level-0 table #125: started
+2026/07/03-20:21:04.503 25f4 Level-0 table #125: 86806 bytes OK
+2026/07/03-20:21:04.505 25f4 Delete type=0 #122
+2026/07/03-20:21:04.505 25f4 Compacting 4@0 + 1@1 files
+2026/07/03-20:21:04.509 25f4 Generated table #126@0: 5 keys, 602 bytes
+2026/07/03-20:21:04.509 25f4 Compacted 4@0 + 1@1 files => 602 bytes
+2026/07/03-20:21:04.509 25f4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/03-20:21:04.510 25f4 Delete type=2 #117
+2026/07/03-20:21:04.510 25f4 Delete type=2 #119
+2026/07/03-20:21:04.510 25f4 Delete type=2 #121
+2026/07/03-20:21:04.510 25f4 Delete type=2 #123
+2026/07/03-20:21:04.510 25f4 Delete type=2 #125
+2026/07/04-02:12:00.407 25f4 Level-0 table #128: started
+2026/07/04-02:12:00.410 25f4 Level-0 table #128: 82492 bytes OK
+2026/07/04-02:12:00.411 25f4 Delete type=0 #124
+2026/07/04-07:17:43.476 25f4 Level-0 table #130: started
+2026/07/04-07:17:43.479 25f4 Level-0 table #130: 86652 bytes OK
+2026/07/04-07:17:43.479 25f4 Delete type=0 #127
+2026/07/04-12:17:06.324 25f4 Level-0 table #132: started
+2026/07/04-12:17:06.325 25f4 Level-0 table #132: 86679 bytes OK
+2026/07/04-12:17:06.326 25f4 Delete type=0 #129
+2026/07/04-15:08:31.633 25f4 Level-0 table #134: started
+2026/07/04-15:08:31.640 25f4 Level-0 table #134: 734750 bytes OK
+2026/07/04-15:08:31.641 25f4 Delete type=0 #131
+2026/07/04-15:08:31.642 56d8 Compacting 4@0 + 1@1 files
+2026/07/04-15:08:31.645 56d8 Generated table #135@0: 5 keys, 683389 bytes
+2026/07/04-15:08:31.645 56d8 Compacted 4@0 + 1@1 files => 683389 bytes
+2026/07/04-15:08:31.646 56d8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/04-15:08:31.646 56d8 Delete type=2 #126
+2026/07/04-15:08:31.646 56d8 Delete type=2 #128
+2026/07/04-15:08:31.646 56d8 Delete type=2 #130
+2026/07/04-15:08:31.646 56d8 Delete type=2 #132
+2026/07/04-15:08:31.646 56d8 Delete type=2 #134
+2026/07/04-20:16:05.325 25f4 Level-0 table #137: started
+2026/07/04-20:16:05.329 25f4 Level-0 table #137: 82652 bytes OK
+2026/07/04-20:16:05.332 25f4 Delete type=0 #133

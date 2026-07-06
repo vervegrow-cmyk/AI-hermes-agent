@@ -1,0 +1,77 @@
+{
+  "version": "2.0",
+  "workflow": "frame_lock_before_motion",
+  "reference_video_path": "tmp/reference_analysis/reference.mp4",
+  "product_reference_images": [
+    "assets/products/solar_fan_hat/01_main_hat.jpg",
+    "assets/products/solar_fan_hat/02_fan_closeup.jpg",
+    "assets/products/solar_fan_hat/03_wide_brim.jpg",
+    "assets/products/solar_fan_hat/08_model_stadium.png"
+  ],
+  "prompts": [
+    {
+      "id": "KF1_pain",
+      "shot_id": "clone_01_pain",
+      "purpose": "lock the pre-product discomfort frame",
+      "recommended_tool": "comfyui_image",
+      "generation_mode": "edit_or_composite",
+      "source_image": "08_model_stadium.png",
+      "target_frame_description": "A brunette female soccer fan in a fitted black T-shirt sitting in a packed sunny stadium, sweaty and overheated, uncomfortable expression, no hat yet, same general face and body proportions as the uploaded model, realistic game-day sunlight and crowd background.",
+      "prompt": "Create a photorealistic vertical UGC-style keyframe of the uploaded brunette female model in a crowded sunny soccer stadium before using the product. She is wearing a fitted black T-shirt, looks hot and uncomfortable, slightly sweaty, and is reacting to the harsh sun. Keep her facial identity close to the uploaded model, preserve a realistic game-day environment, and frame her in a medium close-up with the stadium crowd behind her. No hat yet. No text, no graphics, no studio lighting.",
+      "negative_prompt": "cartoon, ai beauty filter, studio backdrop, hat already on, extra accessories, unreadable text, poster layout, infographic style",
+      "match_notes": [
+        "emotion should echo the reference pain-point shot",
+        "environment must stay public and crowded",
+        "this frame becomes the opening motion anchor"
+      ]
+    },
+    {
+      "id": "KF2_reveal",
+      "shot_id": "clone_02_reveal",
+      "purpose": "lock the first-person reveal frame",
+      "recommended_tool": "comfyui_image",
+      "generation_mode": "edit_or_composite",
+      "source_image": "08_model_stadium.png",
+      "target_frame_description": "First-person hands present the beige solar fan hat toward the same overheated woman in the stadium, hat dominating foreground, dual fans and solar panels clearly visible, woman behind the hat with a hopeful reaction.",
+      "prompt": "Create a photorealistic vertical first-person UGC keyframe in a packed sunny soccer stadium. Two foreground hands hold up a beige wide-brim solar fan hat toward the uploaded brunette female model, who is seated in the stands and reacting with interest and relief. The hat must match the product references: beige brim, black side-mounted fans, visible solar panels. Keep the environment continuous with the stadium setting and make the product dominate the foreground. No text or e-commerce graphics.",
+      "negative_prompt": "floating product on white background, infographic circles, extra hands, distorted hat brim, missing fan parts, studio product photography",
+      "match_notes": [
+        "this is the clone equivalent of the rescue reveal",
+        "foreground product scale matters more than full-body composition",
+        "woman should still look slightly overheated here"
+      ]
+    },
+    {
+      "id": "KF3_activate",
+      "shot_id": "clone_03_activate",
+      "purpose": "lock the activation close-up frame",
+      "recommended_tool": "comfyui_image",
+      "generation_mode": "edit_or_composite",
+      "source_image": "08_model_stadium.png",
+      "target_frame_description": "The woman now wears the hat in close-up while adjusting or powering it on, fans and solar panels visible, product fidelity is exact, stadium still visible in background.",
+      "prompt": "Create a photorealistic vertical close-up keyframe of the uploaded brunette female model wearing the beige solar fan hat in a sunny crowded soccer stadium. She is in the middle of adjusting the hat or turning the fan on. The hat must stay extremely faithful to the product references: beige wide brim, black dual fans mounted at the sides, small solar panels near the fan housings, realistic outdoor hat proportions. Keep the woman’s face close to the uploaded model and make the shot feel like a handheld UGC product demo, not a catalog shot.",
+      "negative_prompt": "different hat shape, missing solar panels, futuristic headset, studio close-up, plastic skin, infographic style, poster layout",
+      "match_notes": [
+        "this is the hardest product-accuracy frame",
+        "must preserve fan placement and believable hat geometry",
+        "used as the anchor for the hero motion shot"
+      ]
+    },
+    {
+      "id": "KF4_relief_finish",
+      "shot_id": "clone_04_relief_finish",
+      "purpose": "lock the relief and CTA hero frame",
+      "recommended_tool": "comfyui_image",
+      "generation_mode": "edit_or_composite",
+      "source_image": "08_model_stadium.png",
+      "target_frame_description": "The woman now looks relaxed and happy in the same stadium while wearing the hat and subtly pointing toward one of the fans, natural lifestyle hero frame.",
+      "prompt": "Create a photorealistic vertical UGC-style hero keyframe of the uploaded brunette female model in a packed sunny soccer stadium wearing the beige solar fan hat. She now looks relieved, happy, and comfortable, and lightly points toward one of the built-in black fans as if recommending the product. Preserve her facial identity, black T-shirt, and the realistic stadium background. The frame should feel like the natural successful ending of the same moment sequence, not a sales poster. No text overlay.",
+      "negative_prompt": "hard-sell ad poster, infographic callouts, studio glamour lighting, exaggerated smile, extra product pieces, cartoon rendering",
+      "match_notes": [
+        "this replaces the weak free-form CTA approach",
+        "should feel like the exact emotional reversal of KF1",
+        "this frame should be strong enough to work as final thumbnail too"
+      ]
+    }
+  ]
+}

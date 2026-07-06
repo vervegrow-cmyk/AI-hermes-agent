@@ -1,0 +1,44 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "icons/19.png",
+         "38": "icons/38.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "service-worker.js"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "style.css" ],
+      "js": [ "contentScript.js" ],
+      "matches": [ "*://*.instagram.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "host_permissions": [ "*://imagesdownloaderforins.extensionsbox.com/*", "*://*.instagram.com/*" ],
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw+Kjhj5Nmrs4HjUtukIaLOHOvZyWxEADLWdsQH1zMCamVztX7fE2fP88ICw9yvjbo11wluH42k7wJ3CGUVyeBCt2n+UCz+isN989Ao2kgY0w5opuua/SZ0RwGCNxCgECCrlJ9zT6MAJWjL3xHtwZGZXWW60lp5P16CSuH2qr1dnVFQnufnA4OcnYl0q81q8IOqbZvf9cWxkwvrmyU4VLy5SFt4zGkaHMGXSdXOSKwehXfEdSVkWwYJ/SAY31jCUGK4xV9rp6a4zYbnkOmK7wkR11xieD+IB3CEqVUfpartFlTMRDjTwcm1tbXb9yyK7EimXMQ1HCdCI/5BkPAWrFZwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "oauth2": {
+      "client_id": "697250188465-qqjpv8b2daf6iulbmc4reaqb2tr7lmcq.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/userinfo.email" ]
+   },
+   "permissions": [ "storage", "identity", "downloads", "webRequest" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.1.1",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "assets/*", "libs/*", "injected.js" ]
+   } ]
+}

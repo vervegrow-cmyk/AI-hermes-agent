@@ -1,0 +1,3 @@
+[STEP-START] batch=9b93e9a4-51f7-4df3-80eb-460c5b60bca4 phase=load_active_mappings message="加载 active 映射"
+[STEP-DONE] batch=9b93e9a4-51f7-4df3-80eb-460c5b60bca4 phase=load_active_mappings elapsed_ms=1 message="active=0"
+[提示] 当前没有 active mappings，请先执行 /variant-mapping/build

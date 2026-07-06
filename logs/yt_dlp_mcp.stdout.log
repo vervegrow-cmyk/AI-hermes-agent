@@ -1,0 +1,2 @@
+INFO:     127.0.0.1:60301 - "GET /mcp HTTP/1.1" 406 Not Acceptable
+INFO:     127.0.0.1:60840 - "GET /mcp HTTP/1.1" 406 Not Acceptable

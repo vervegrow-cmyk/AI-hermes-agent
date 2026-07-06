@@ -1,0 +1,11 @@
+[
+  {
+    "sku": "D0102HHMC7G",
+    "shopify_variant_id": "gid://shopify/ProductVariant/51322036420914",
+    "shopify_product_id": "gid://shopify/Product/10214341181746",
+    "shopify_product_title": "Lynden Drop Leaf Dining Table",
+    "reason": "Giga 库存请求失败: 当前 API Key 未开通库存接口权限，无法访问 /b2b-overseas-api/v1/buyer/inventory/quantity/v1",
+    "error_message": "Giga 库存请求失败: 当前 API Key 未开通库存接口权限，无法访问 /b2b-overseas-api/v1/buyer/inventory/quantity/v1 | 响应详情: {\"code\": \"401\", \"msg\": \"Interface not available.\", \"subMsg\": \"\", \"endpoint\": \"/b2b-overseas-api/v1/buyer/inventory/quantity/v1\", \"body\": {\"skus\": [\"D0102HHMC7G\"]}}",
+    "status": "failed"
+  }
+]

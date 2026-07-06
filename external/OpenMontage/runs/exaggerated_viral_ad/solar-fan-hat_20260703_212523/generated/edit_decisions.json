@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "cuts": [
+    {
+      "id": "cut_01_shot-01-stadium-heat-hook",
+      "source": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat_20260703_212523\\generated\\motion\\shot_01_stadium_heat_hook\\shot-01-stadium-heat-hook.mp4",
+      "source_asset_id": "asset_01_shot-01-stadium-heat-hook",
+      "in_seconds": 0.0,
+      "out_seconds": 3.0,
+      "layer": "primary",
+      "reason": "action_or_character_motion via seedance_ark_video"
+    },
+    {
+      "id": "cut_02_shot-02-first-person-reveal",
+      "source": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat_20260703_212523\\generated\\motion\\shot_02_first_person_reveal\\shot-02-first-person-reveal.mp4",
+      "source_asset_id": "asset_02_shot-02-first-person-reveal",
+      "in_seconds": 0.0,
+      "out_seconds": 3.0,
+      "layer": "primary",
+      "reason": "action_or_character_motion via seedance_ark_video"
+    },
+    {
+      "id": "cut_03_shot-03-put-on-and-power",
+      "source": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat_20260703_212523\\generated\\motion\\shot_03_put_on_and_power\\shot-03-put-on-and-power.mp4",
+      "source_asset_id": "asset_03_shot-03-put-on-and-power",
+      "in_seconds": 0.0,
+      "out_seconds": 4.0,
+      "layer": "primary",
+      "reason": "action_or_character_motion via seedance_ark_video"
+    },
+    {
+      "id": "cut_04_shot-04-relief-reaction",
+      "source": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat_20260703_212523\\generated\\motion\\shot_04_relief_reaction\\shot-04-relief-reaction.mp4",
+      "source_asset_id": "asset_04_shot-04-relief-reaction",
+      "in_seconds": 0.0,
+      "out_seconds": 3.0,
+      "layer": "primary",
+      "reason": "action_or_character_motion via seedance_ark_video"
+    },
+    {
+      "id": "cut_05_shot-05-game-on-cta",
+      "source": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat_20260703_212523\\generated\\motion\\shot_05_game_on_cta\\shot-05-game-on-cta.mp4",
+      "source_asset_id": "asset_05_shot-05-game-on-cta",
+      "in_seconds": 0.0,
+      "out_seconds": 2.0,
+      "layer": "primary",
+      "reason": "action_or_character_motion via seedance_ark_video"
+    }
+  ],
+  "render_runtime": "remotion",
+  "renderer_family": "product-reveal",
+  "composition_mode": "templated",
+  "metadata": {
+    "total_timeline_seconds": 15.0,
+    "shot_count": 5
+  }
+}

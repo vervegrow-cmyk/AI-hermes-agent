@@ -1,0 +1,54 @@
+{
+   "action": {
+      "default_icon": "img/logo48.png",
+      "default_title": "芒果店长产品采集插件"
+   },
+   "author": "vapour",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "asset/lib/content.css" ],
+      "exclude_matches": [ "*://*.mangoerp.com/*", "http://127.0.0.1/*", "http://localhost/*" ],
+      "js": [ "asset/lib/jquery.js", "asset/lib/eval5.min.js", "asset/lib/temuAntiContent.js", "asset/lib/crypto-js.min.js", "content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "order1688_mangoerp",
+         "path": "order1688_mangoerp.json"
+      }, {
+         "enabled": true,
+         "id": "ozon_mangoerp",
+         "path": "ozon_mangoerp.json"
+      }, {
+         "enabled": true,
+         "id": "1",
+         "path": "rules_1.json"
+      } ]
+   },
+   "description": "芒果店长产品采集插件，支持单品和分类采集。",
+   "externally_connectable": {
+      "matches": [ "*://*.mangoerp.com/*", "*://*.mercadolibre.cl/*", "*://*.mercadolibre.com.mx/*", "*://*.mercadolivre.com.br/*", "*://*.mercadolivre.com.ar/*", "*://*.tiktok.com/*" ]
+   },
+   "host_permissions": [ "http://*/*", "https://*/*", "http://*.mangoerp.com/", "https://*.mangoerp.com/", "https://*.alicdn.com/", "http://*.alicdn.com/", "http://*.taobaocdn.com/", "https://*.taobaocdn.com/", "http://*.aliexpress.com/", "https://*.aliexpress.com/", "http://www.dhgate.com/", "http://*.1688.com/", "https://*.1688.com/", "http://*.taobao.com/", "https://*.taobao.com/", "http://*.tmall.com/", "https://*.tmall.com/", "https://www.etsy.com/", "http://www.ebay.com/", "https://www.ebay.com/", "http://*.ebaydesc.com/", "http://www.amazon.com/", "https://www.amazon.com/", "https://www.wish.com/", "https://*.jd.com/", "http://*.jd.com/", "http://*.jd.hk/", "https://*.jd.hk/", "https://www.banggood.com/", "http://www.banggood.com/", "https://www.dhgate.com/", "http://www.dhgate.com/", "https://www.jumia.com.ng/", "http://www.jumia.com.ng/", "https://*.alibaba.com/", "http://*.alibaba.com/", "https://*.17zwd.com/", "http://*.17zwd.com/", "http://www.kilimall.co.ug/", "https://www.kilimall.co.ug/", "http://www.lazada.com.my/", "https://www.lazada.com.my/", "http://www.lazada.co.id/", "https://www.lazada.co.id/", "http://www.lazada.com.ph/", "https://www.lazada.com.ph/", "http://www.lazada.sg/", "https://www.lazada.sg/", "http://www.lazada.com.th/", "https://www.lazada.com.th/", "http://www.lazada.vn/", "https://www.lazada.vn/", "http://*.pfhoo.com/", "https://*.pfhoo.com/", "https://shopee.com.my/", "http://shopee.com.my/", "https://shopee.co.id/", "http://shopee.co.id/", "https://shopee.ph/", "http://shopee.ph/", "https://shopee.sg/", "http://shopee.sg/", "https://shopee.co.th/", "http://shopee.co.th/", "https://shopee.vn/", "http://shopee.vn/", "http://www.wsy.com/", "https://www.wsy.com/", "https://*.sooxie.com/", "http://*.sooxie.com/", "http://p.3.cn/", "http://d.3.cn/", "https://*.designkit.cn/", "http://*.designkit.cn/", "http://*.tiktok.com/" ],
+   "icons": {
+      "128": "img/logo128.png",
+      "16": "img/logo16.png",
+      "48": "img/logo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkbioRTruIABHECL1nnYq51tbljHBEVBZk90h0N46lLAdJeq8XhgC1nsvRt9VZCttXYTeIHw5WIMfqGrK75n2xjX7atdBvd2N4U85P5znwB398h6cQ4TY3XCZM54Xi3Cq3AgbrkxW3JfOp7IiYqbOMFvt48Xw952yh7GS7NeVUo3LV4BpEHSPtuE38IygZoGfefmPJ8+uIOGtIPMY217Cfb5usAoJQm78ZFObSk5CrkDFy4evGexwobihh/KLSFZYsiXjc/++YwspBr9L2enJCSdmSJF6koQxsMBwQjm39e+0UcQJaR85QnSypPsfObHGzKP1ynkOsFuUFKfCFo3V6wIDAQAB",
+   "manifest_version": 3,
+   "name": "芒果店长",
+   "options_page": "options.htm",
+   "permissions": [ "cookies", "scripting", "contextMenus", "webRequest", "tabs", "storage", "nativeMessaging", "declarativeNetRequest" ],
+   "short_name": "mango",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.5",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*.mangoerp.com/*", "*://*.mercadolibre.cl/*", "*://*.mercadolibre.com.mx/*", "*://*.mercadolivre.com.br/*", "*://*.mercadolivre.com.ar/*", "*://*.tiktok.com/*" ],
+      "resources": [ "main.htm" ]
+   } ]
+}

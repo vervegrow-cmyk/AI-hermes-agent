@@ -1,0 +1,34 @@
+{
+   "appDesc": {
+      "description": "원 클릭으로 ChatGPT 대화를 Evernote에 저장하고, ChatGPT 기록을 쉽게 검색할 수 있습니다. 지금 Save ChatGPT History to Evernote를 시도해보세요!",
+      "message": "원 클릭으로 ChatGPT 대화를 Evernote에 저장하고, ChatGPT 기록을 쉽게 검색할 수 있습니다. 지금 Save ChatGPT History to Evernote를 시도해보세요!"
+   },
+   "appName": {
+      "description": "ChatGPT 기록을 Evernote에 저장하기",
+      "message": "ChatGPT 기록을 Evernote에 저장하기"
+   },
+   "popupTagLabel": {
+      "description": "태그",
+      "message": "태그"
+   },
+   "popupTitle": {
+      "description": "ChatGPT를 Evernote에 저장하기",
+      "message": "ChatGPT를 Evernote에 저장하기"
+   },
+   "popupTitleLabel": {
+      "description": "제목",
+      "message": "제목"
+   },
+   "saveButton": {
+      "description": "지금 저장하기",
+      "message": "지금 저장하기"
+   },
+   "upgradeButton": {
+      "description": "업그레이드",
+      "message": "업그레이드"
+   },
+   "upgradeTips": {
+      "description": "프로로 업그레이드하면 무제한 이용 가능합니다",
+      "message": "프로로 업그레이드하면 무제한 이용 가능합니다"
+   }
+}

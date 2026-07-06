@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-06-24 16:06:27",
+  "mode": "apply",
+  "store_name": "",
+  "product_query": "",
+  "max_items": 0,
+  "summary": "本次以 apply 模式处理了 1 个 Shopify 商品，其中 1 个已修改，0 个需要人工复核。",
+  "counts": {
+    "processed": 1,
+    "applied": 1,
+    "review": 0,
+    "failed": 0
+  },
+  "files": {
+    "checkpoint": "workflow\\runs\\category-single-chair-apply.checkpoint.json",
+    "results_jsonl": "workflow\\runs\\category-single-chair-apply.checkpoint.results.jsonl",
+    "review_jsonl": "workflow\\runs\\category-single-chair-apply.checkpoint.review.jsonl",
+    "review_csv": "workflow\\runs\\category-single-chair-apply.checkpoint.review.csv",
+    "failed_jsonl": "workflow\\runs\\category-single-chair-apply.checkpoint.failed.jsonl",
+    "failed_csv": "workflow\\runs\\category-single-chair-apply.checkpoint.failed.csv",
+    "audit_report": "workflow\\runs\\category-single-chair-apply.checkpoint.audit.json"
+  },
+  "rollback_source": "workflow\\runs\\category-single-chair-apply.checkpoint.results.jsonl"
+}

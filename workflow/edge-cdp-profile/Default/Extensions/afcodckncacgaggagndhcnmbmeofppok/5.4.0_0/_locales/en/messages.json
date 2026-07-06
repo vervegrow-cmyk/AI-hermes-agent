@@ -1,0 +1,34 @@
+{
+   "appDesc": {
+      "description": "one-click save ChatGPT conversations to Evernote, easily search ChatGPT history. Try Save ChatGPT History to Evernote now!",
+      "message": "one-click save ChatGPT conversations to Evernote, easily search ChatGPT history. Try Save ChatGPT History to Evernote now!"
+   },
+   "appName": {
+      "description": "save ChatGPT history conversations to evernote",
+      "message": "ChatGPT to Evernote"
+   },
+   "popupTagLabel": {
+      "description": "tags",
+      "message": "tags"
+   },
+   "popupTitle": {
+      "description": "Save ChatGPT to Evernote",
+      "message": "Save ChatGPT to Evernote"
+   },
+   "popupTitleLabel": {
+      "description": "title",
+      "message": "title"
+   },
+   "saveButton": {
+      "description": "Save Now",
+      "message": "Save Now"
+   },
+   "upgradeButton": {
+      "description": "Upgrade",
+      "message": "Upgrade"
+   },
+   "upgradeTips": {
+      "description": "Upgrade to Pro, enjoy unlimited",
+      "message": "Upgrade to Pro, enjoy unlimited"
+   }
+}

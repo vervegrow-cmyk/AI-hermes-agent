@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Aktiveeri litsents"
+   },
+   "activateHint": {
+      "message": "Kleebi kood oma e-kirjast."
+   },
+   "activateTitle": {
+      "message": "Aktiveeri Premium"
+   },
+   "activatedSub": {
+      "message": "Piiramatud allalaadimised · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium on aktiveeritud!"
+   },
+   "alreadyBought": {
+      "message": "Olete juba ostnud?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Seda koodi on juba kasutatud."
+   },
+   "clearHistory": {
+      "message": "Tühjenda"
+   },
+   "days": {
+      "message": "päeva · aegub"
+   },
+   "deactivate": {
+      "message": "Deaktiveeri litsents"
+   },
+   "deactivateConfirm": {
+      "message": "Deaktiveerida Premium litsents sellel seadmel?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Kõik"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Meeldib TubeVD?"
+   },
+   "enterCode": {
+      "message": "Palun sisesta oma litsentsivõti."
+   },
+   "enterKey": {
+      "message": "🔑 Sisesta litsentsivõti"
+   },
+   "expired": {
+      "message": "⚠️ See litsents on aegunud."
+   },
+   "extDesc": {
+      "message": "Laadige videoid alla Facebookist, Twitterist, Vimeost, Dailymotionist ja 1000+ saidilt HD, 4K, 8K kvaliteedis."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "KKK"
+   },
+   "free": {
+      "message": "Tasuta"
+   },
+   "genericError": {
+      "message": "Midagi läks valesti. Võtke ühendust support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Hangi Premium — $4,99/kuus"
+   },
+   "getPremiumLink": {
+      "message": "Hangi Premium ↗"
+   },
+   "guarantee": {
+      "message": "30-päevane raha tagasi garantii"
+   },
+   "history": {
+      "message": "Allalaadimiste ajalugu"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Vale litsentsivõti."
+   },
+   "invalidFormat": {
+      "message": "Vale vorming. Peab algama TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Litsentsivõti"
+   },
+   "limit": {
+      "message": "Limiit"
+   },
+   "limitHint": {
+      "message": "Tasuta plaan: 5 allalaadimist päevas."
+   },
+   "limitTitle": {
+      "message": "Päevane limiit on täis"
+   },
+   "networkError": {
+      "message": "⚠️ Ühenduse viga."
+   },
+   "noCode": {
+      "message": "Pole veel koodi?"
+   },
+   "noHistory": {
+      "message": "Allalaadimisi pole veel."
+   },
+   "noVideos": {
+      "message": "Videoid ei leitud"
+   },
+   "noVideosHint": {
+      "message": "Allalaadimise nupu nägemiseks hõljutage kursor video kohal."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Hinda"
+   },
+   "rateUs": {
+      "message": "⭐ Hinda meid"
+   },
+   "scanning": {
+      "message": "Otsitakse videoid..."
+   },
+   "serverError": {
+      "message": "⚠️ Serveriviga."
+   },
+   "startDown": {
+      "message": "Alusta allalaadimist ↓"
+   },
+   "support": {
+      "message": "Tugi"
+   },
+   "unlimited": {
+      "message": "Piiramatu"
+   },
+   "upgradeBtn": {
+      "message": "Uuenda Premium 4K-le"
+   },
+   "upgradeNow": {
+      "message": "Uuenda ↗"
+   },
+   "upgradeTitle": {
+      "message": "Uuenda Premiumile"
+   },
+   "usageLeft": {
+      "message": "allalaadimist jäänud tänaseks"
+   },
+   "usageOf": {
+      "message": "/"
+   },
+   "validFor": {
+      "message": "Kehtib"
+   },
+   "verifying": {
+      "message": "Kontrollimine…"
+   },
+   "videoDetected": {
+      "message": "video leitud"
+   },
+   "videosDetected": {
+      "message": "videot leitud"
+   },
+   "ytBlocked": {
+      "message": "YouTube ei ole toetatud"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD austab YouTube'i teenusetingimusi."
+   },
+   "ytTry": {
+      "message": "Proovige Facebooki, Vimeot, Twitterit ja 1000+ muud saiti."
+   }
+}

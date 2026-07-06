@@ -1,0 +1,11 @@
+{
+   "extActionTitle": {
+      "message": "Open Page Agent"
+   },
+   "extDescription": {
+      "message": "AI-powered browser automation assistant. Control web pages with natural language."
+   },
+   "extName": {
+      "message": "Page Agent Ext"
+   }
+}

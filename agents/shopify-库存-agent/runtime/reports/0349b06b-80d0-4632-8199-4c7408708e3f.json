@@ -1,0 +1,68 @@
+{
+  "batch_id": "0349b06b-80d0-4632-8199-4c7408708e3f",
+  "store_name": "4ea863-98.myshopify.com",
+  "mode": "dry-run",
+  "status": "completed",
+  "processed_count": 1,
+  "updated_count": 0,
+  "skipped_count": 0,
+  "failed_count": 1,
+  "started_at": "2026-06-22T11:33:49+00:00",
+  "finished_at": "2026-06-22T11:33:56+00:00",
+  "shopify_connection": {
+    "ok": true,
+    "system": "shopify",
+    "message": "Shopify 连接验证成功。",
+    "details": {
+      "shop_id": "gid://shopify/Shop/87556227378",
+      "shop_name": "Clearance Sale Dekuch",
+      "myshopify_domain": "4ea863-98.myshopify.com",
+      "location_id": "gid://shopify/Location/102267617586"
+    }
+  },
+  "giga_connection": {
+    "ok": true,
+    "system": "giga",
+    "message": "Giga OpenAPI 连接验证成功。",
+    "details": {
+      "base_url": "https://openapi.gigab2b.com",
+      "endpoint": "/b2b-overseas-api/v1/buyer/product/skus/v1",
+      "validation_body": {
+        "pageNo": 1,
+        "pageSize": 1
+      },
+      "response_type": "dict",
+      "payload_keys": [
+        "code",
+        "data",
+        "msg",
+        "recommend",
+        "requestId",
+        "subMsg",
+        "success"
+      ]
+    }
+  },
+  "location_id": "gid://shopify/Location/102267617586",
+  "missing_sku_count": 0,
+  "artifact_paths": {
+    "report": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-库存-agent\\runtime\\reports\\0349b06b-80d0-4632-8199-4c7408708e3f.json",
+    "missing_skus": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-库存-agent\\runtime\\exports\\0349b06b-80d0-4632-8199-4c7408708e3f-missing-skus.json",
+    "retry_items": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-库存-agent\\runtime\\exports\\0349b06b-80d0-4632-8199-4c7408708e3f-retry-items.json"
+  },
+  "items": [
+    {
+      "sku": "D0102HHMC7G",
+      "shopify_variant_id": "gid://shopify/ProductVariant/51322036420914",
+      "shopify_product_id": "gid://shopify/Product/10214341181746",
+      "shopify_product_title": "Lynden Drop Leaf Dining Table",
+      "shopify_inventory_item_id": "gid://shopify/InventoryItem/53426510856498",
+      "shopify_inventory_before": 33,
+      "giga_inventory": null,
+      "action": "skip",
+      "status": "failed",
+      "reason": "Giga 库存请求失败: Server error '500 Internal Server Error' for url 'https://openapi.gigab2b.com/b2b-overseas-api/v1/buyer/inventory/quantity/v1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+      "error_message": "Giga 库存请求失败: Server error '500 Internal Server Error' for url 'https://openapi.gigab2b.com/b2b-overseas-api/v1/buyer/inventory/quantity/v1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    }
+  ]
+}

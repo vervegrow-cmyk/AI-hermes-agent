@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Активирайте лиценза"
+   },
+   "activateHint": {
+      "message": "Поставете кода от имейла си."
+   },
+   "activateTitle": {
+      "message": "Активирайте Premium"
+   },
+   "activatedSub": {
+      "message": "Неограничено изтегляне · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium е активиран!"
+   },
+   "alreadyBought": {
+      "message": "Вече закупили?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Този код вече е използван."
+   },
+   "clearHistory": {
+      "message": "Изчисти"
+   },
+   "days": {
+      "message": "дни · изтича"
+   },
+   "deactivate": {
+      "message": "Деактивирайте лиценза"
+   },
+   "deactivateConfirm": {
+      "message": "Деактивирайте Premium лиценза на това устройство?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Всички"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Харесвате ли TubeVD?"
+   },
+   "enterCode": {
+      "message": "Моля, въведете лицензния си ключ."
+   },
+   "enterKey": {
+      "message": "🔑 Въведете лицензен ключ"
+   },
+   "expired": {
+      "message": "⚠️ Този лиценз е изтекъл."
+   },
+   "extDesc": {
+      "message": "Изтегляйте видеа от Facebook, Twitter, Vimeo, Dailymotion и 1000+ сайта в HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "ЧЗВ"
+   },
+   "free": {
+      "message": "Безплатно"
+   },
+   "genericError": {
+      "message": "Нещо се обърка. Свържете се с support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Вземете Premium — $4,99/мес."
+   },
+   "getPremiumLink": {
+      "message": "Вземете Premium ↗"
+   },
+   "guarantee": {
+      "message": "30-дневна гаранция за връщане на парите"
+   },
+   "history": {
+      "message": "История на изтеглянията"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Невалиден лицензен ключ."
+   },
+   "invalidFormat": {
+      "message": "Невалиден формат. Трябва да започва с TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Лицензен ключ"
+   },
+   "limit": {
+      "message": "Лимит"
+   },
+   "limitHint": {
+      "message": "Безплатен план: 5 изтегляния/ден."
+   },
+   "limitTitle": {
+      "message": "Достигнат дневен лимит"
+   },
+   "networkError": {
+      "message": "⚠️ Грешка при свързване."
+   },
+   "noCode": {
+      "message": "Все още нямате код?"
+   },
+   "noHistory": {
+      "message": "Все още няма изтегляния."
+   },
+   "noVideos": {
+      "message": "Не са намерени видеа"
+   },
+   "noVideosHint": {
+      "message": "Задръжте мишката върху видео, за да видите бутона за изтегляне."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Оценете"
+   },
+   "rateUs": {
+      "message": "⭐ Оценете ни"
+   },
+   "scanning": {
+      "message": "Търсене на видеа..."
+   },
+   "serverError": {
+      "message": "⚠️ Грешка на сървъра."
+   },
+   "startDown": {
+      "message": "Започнете изтеглянето ↓"
+   },
+   "support": {
+      "message": "Поддръжка"
+   },
+   "unlimited": {
+      "message": "Неограничено"
+   },
+   "upgradeBtn": {
+      "message": "Надградете до Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Надградете ↗"
+   },
+   "upgradeTitle": {
+      "message": "Надградете до Premium"
+   },
+   "usageLeft": {
+      "message": "изтегляния останали днес"
+   },
+   "usageOf": {
+      "message": "от"
+   },
+   "validFor": {
+      "message": "Валиден за"
+   },
+   "verifying": {
+      "message": "Проверка…"
+   },
+   "videoDetected": {
+      "message": "видео намерено"
+   },
+   "videosDetected": {
+      "message": "видеа намерени"
+   },
+   "ytBlocked": {
+      "message": "YouTube не се поддържа"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD спазва Условията за ползване на YouTube."
+   },
+   "ytTry": {
+      "message": "Опитайте Facebook, Vimeo, Twitter и 1000+ други сайта."
+   }
+}

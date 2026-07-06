@@ -1,0 +1,38 @@
+{
+  "source": "doba",
+  "endpoint": "/api/category/doba/list",
+  "method": "GET",
+  "ok": false,
+  "status": 401,
+  "request": {
+    "url": "https://openapi.doba.com/api/category/doba/list?appKey=202606151516013765580029952&signType=RSA2&timestamp=1782480452671&retailerId=314932&sign=du7Ed2rvzs9cA2Z6XAKfwRlz2zpqqb%2BDhVTTOO6ETUrQcbsjdOJ7SXR%2BCb19qkUGCpbWX3opdj3JGjkcnfwiRrpUD3Ry%2FAbTP6012VPXeUtofYeJdv8%2Bic%2F0KB9qysztcqQK%2FrJnRMbkawogVWDxUQkCdZ%2BIp1MiT917uyDNfdiuFqo3qp0JClFTGTUVX3s2vHHBFDNoRZiDUDiZZWktm0258qpOPvEmMWZbqetC%2FI8r33QvLkBlO1hz%2FgU0Zb7qfeAQlmC4Flpk374Fwx8DlTAibMv1dM%2BIi1yIFS%2BEwWD1fGoCQdlYVb204cXSYmONoJp0n1hCjgaGXEitmxDfog%3D%3D",
+    "query": {},
+    "headerNames": [
+      "Accept",
+      "Content-Type",
+      "appKey",
+      "signType",
+      "timestamp",
+      "sign"
+    ]
+  },
+  "responsePreview": {
+    "responseCode": "999999",
+    "responseMessage": "Validating signature failure"
+  },
+  "geoSignalSummary": {
+    "matchedPaths": [],
+    "missingSignals": [
+      "title",
+      "description",
+      "category",
+      "brand",
+      "identifiers",
+      "media",
+      "specs",
+      "logistics",
+      "inventory",
+      "pricing"
+    ]
+  }
+}

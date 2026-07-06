@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "فعال‌سازی مجوز"
+   },
+   "activateHint": {
+      "message": "کد ایمیل خود را جای‌گذاری کنید."
+   },
+   "activateTitle": {
+      "message": "فعال‌سازی پریمیوم"
+   },
+   "activatedSub": {
+      "message": "دانلود نامحدود · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "پریمیوم فعال شد!"
+   },
+   "alreadyBought": {
+      "message": "قبلاً خریداری کرده‌اید؟"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ این کد قبلاً در دستگاه دیگری استفاده شده است."
+   },
+   "clearHistory": {
+      "message": "پاک کردن"
+   },
+   "days": {
+      "message": "روز · منقضی می‌شود"
+   },
+   "deactivate": {
+      "message": "غیرفعال‌سازی مجوز"
+   },
+   "deactivateConfirm": {
+      "message": "مجوز پریمیوم را در این دستگاه غیرفعال کنید؟"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ همه"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "از TubeVD لذت می‌برید؟"
+   },
+   "enterCode": {
+      "message": "لطفاً کلید مجوز خود را وارد کنید."
+   },
+   "enterKey": {
+      "message": "🔑 وارد کردن کلید مجوز"
+   },
+   "expired": {
+      "message": "⚠️ این مجوز منقضی شده است."
+   },
+   "extDesc": {
+      "message": "دانلود ویدیو از فیسبوک، توییتر، Vimeo، Dailymotion و بیش از ۱۰۰۰ سایت در کیفیت HD، 4K، 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "سوالات متداول"
+   },
+   "free": {
+      "message": "رایگان"
+   },
+   "genericError": {
+      "message": "مشکلی پیش آمد. با support@tubevd.com تماس بگیرید"
+   },
+   "getPremium": {
+      "message": "دریافت پریمیوم — ۴.۹۹$/ماه"
+   },
+   "getPremiumLink": {
+      "message": "دریافت پریمیوم ↗"
+   },
+   "guarantee": {
+      "message": "ضمانت بازگشت پول ۳۰ روزه"
+   },
+   "history": {
+      "message": "تاریخچه دانلود"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ کلید مجوز نامعتبر است."
+   },
+   "invalidFormat": {
+      "message": "قالب نامعتبر. باید با TUBEVD- شروع شود."
+   },
+   "licenseKey": {
+      "message": "کلید مجوز"
+   },
+   "limit": {
+      "message": "محدودیت"
+   },
+   "limitHint": {
+      "message": "طرح رایگان: ۵ دانلود در روز."
+   },
+   "limitTitle": {
+      "message": "محدودیت روزانه رسیده است"
+   },
+   "networkError": {
+      "message": "⚠️ خطای اتصال."
+   },
+   "noCode": {
+      "message": "هنوز کد ندارید؟"
+   },
+   "noHistory": {
+      "message": "هنوز دانلودی وجود ندارد."
+   },
+   "noVideos": {
+      "message": "ویدیویی یافت نشد"
+   },
+   "noVideosHint": {
+      "message": "ماوس را روی هر ویدیویی ببرید تا دکمه دانلود ظاهر شود."
+   },
+   "premiumBadge": {
+      "message": "پریمیوم 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ امتیاز دهید"
+   },
+   "rateUs": {
+      "message": "⭐ به ما امتیاز دهید"
+   },
+   "scanning": {
+      "message": "در حال جستجوی ویدیو..."
+   },
+   "serverError": {
+      "message": "⚠️ خطای سرور."
+   },
+   "startDown": {
+      "message": "شروع دانلود ↓"
+   },
+   "support": {
+      "message": "پشتیبانی"
+   },
+   "unlimited": {
+      "message": "نامحدود"
+   },
+   "upgradeBtn": {
+      "message": "ارتقا به پریمیوم 4K"
+   },
+   "upgradeNow": {
+      "message": "ارتقا ↗"
+   },
+   "upgradeTitle": {
+      "message": "ارتقا به پریمیوم"
+   },
+   "usageLeft": {
+      "message": "دانلود امروز باقی مانده"
+   },
+   "usageOf": {
+      "message": "از"
+   },
+   "validFor": {
+      "message": "معتبر برای"
+   },
+   "verifying": {
+      "message": "در حال تأیید…"
+   },
+   "videoDetected": {
+      "message": "ویدیو یافت شد"
+   },
+   "videosDetected": {
+      "message": "ویدیو یافت شد"
+   },
+   "ytBlocked": {
+      "message": "یوتیوب پشتیبانی نمی‌شود"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD به شرایط خدمات یوتیوب احترام می‌گذارد."
+   },
+   "ytTry": {
+      "message": "فیسبوک، Vimeo، توییتر و بیش از ۱۰۰۰ سایت دیگر را امتحان کنید."
+   }
+}

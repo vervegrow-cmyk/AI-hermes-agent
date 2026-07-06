@@ -1,0 +1,38 @@
+2026/07/04-21:06:21.550 1e20 Reusing MANIFEST D:\桌面文件下载\AI-hermes-agent\workflow\edge-cdp-profile\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/07/04-21:06:21.566 1e20 Recovering log #136
+2026/07/04-21:06:21.597 1e20 Reusing old log D:\桌面文件下载\AI-hermes-agent\workflow\edge-cdp-profile\Default\EdgeCoupons/coupons_data.db/000136.log 
+2026/07/04-21:06:22.818 236c Level-0 table #140: started
+2026/07/04-21:06:22.821 236c Level-0 table #140: 693852 bytes OK
+2026/07/04-21:06:22.822 236c Delete type=0 #136
+2026/07/05-01:16:58.052 1128 Level-0 table #142: started
+2026/07/05-01:16:58.054 1128 Level-0 table #142: 82580 bytes OK
+2026/07/05-01:16:58.055 1128 Delete type=0 #139
+2026/07/05-05:39:51.644 1128 Level-0 table #144: started
+2026/07/05-05:39:51.646 1128 Level-0 table #144: 82489 bytes OK
+2026/07/05-05:39:51.647 1128 Delete type=0 #141
+2026/07/05-05:39:51.647 1128 Compacting 4@0 + 1@1 files
+2026/07/05-05:39:51.649 1128 Generated table #145@0: 5 keys, 602 bytes
+2026/07/05-05:39:51.649 1128 Compacted 4@0 + 1@1 files => 602 bytes
+2026/07/05-05:39:51.650 1128 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/05-05:39:51.650 1128 Delete type=2 #135
+2026/07/05-05:39:51.650 1128 Delete type=2 #137
+2026/07/05-05:39:51.650 1128 Delete type=2 #140
+2026/07/05-05:39:51.650 1128 Delete type=2 #142
+2026/07/05-05:39:51.650 1128 Delete type=2 #144
+2026/07/05-10:57:39.224 1128 Level-0 table #147: started
+2026/07/05-10:57:39.225 1128 Level-0 table #147: 86662 bytes OK
+2026/07/05-10:57:39.226 1128 Delete type=0 #143
+2026/07/05-16:33:27.062 1128 Level-0 table #149: started
+2026/07/05-16:33:27.064 1128 Level-0 table #149: 82651 bytes OK
+2026/07/05-16:33:27.065 1128 Delete type=0 #146
+2026/07/05-21:18:11.952 1128 Level-0 table #151: started
+2026/07/05-21:18:11.955 1128 Level-0 table #151: 744847 bytes OK
+2026/07/05-21:18:11.956 1128 Delete type=0 #148
+2026/07/06-10:07:31.116 1128 Compacting 3@0 + 1@1 files
+2026/07/06-10:07:31.119 1128 Generated table #152@0: 4 keys, 682979 bytes
+2026/07/06-10:07:31.119 1128 Compacted 3@0 + 1@1 files => 682979 bytes
+2026/07/06-10:07:31.119 1128 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/06-10:07:31.120 1128 Delete type=2 #145
+2026/07/06-10:07:31.120 1128 Delete type=2 #147
+2026/07/06-10:07:31.120 1128 Delete type=2 #149
+2026/07/06-10:07:31.120 1128 Delete type=2 #151

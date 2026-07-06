@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-1{fill:#526373}
+        </style>
+    </defs>
+    <path id="ic_edit_16" d="M12 0L0 12v4h4L16 4zM4 14l-2-2 8-8 2 2z" class="cls-1"/>
+</svg>

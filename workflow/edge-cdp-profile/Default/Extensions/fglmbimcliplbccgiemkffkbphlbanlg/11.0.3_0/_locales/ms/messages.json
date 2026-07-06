@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Aktifkan lesen"
+   },
+   "activateHint": {
+      "message": "Tampal kod dari e-mel anda."
+   },
+   "activateTitle": {
+      "message": "Aktifkan Premium"
+   },
+   "activatedSub": {
+      "message": "Muat turun tanpa had · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium Diaktifkan!"
+   },
+   "alreadyBought": {
+      "message": "Sudah membeli?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Kod ini telah digunakan pada peranti lain."
+   },
+   "clearHistory": {
+      "message": "Kosongkan"
+   },
+   "days": {
+      "message": "hari · tamat"
+   },
+   "deactivate": {
+      "message": "Nyahaktif lesen"
+   },
+   "deactivateConfirm": {
+      "message": "Nyahaktif lesen Premium pada peranti ini?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Semua"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Suka TubeVD?"
+   },
+   "enterCode": {
+      "message": "Sila masukkan kunci lesen anda."
+   },
+   "enterKey": {
+      "message": "🔑 Masukkan kunci lesen"
+   },
+   "expired": {
+      "message": "⚠️ Lesen ini telah tamat tempoh."
+   },
+   "extDesc": {
+      "message": "Muat turun video dari Facebook, Twitter, Vimeo, Dailymotion dan 1000+ laman web dalam HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "Soalan Lazim"
+   },
+   "free": {
+      "message": "Percuma"
+   },
+   "genericError": {
+      "message": "Sesuatu telah berlaku. Hubungi support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Dapatkan Premium — $4.99/bulan"
+   },
+   "getPremiumLink": {
+      "message": "Dapatkan Premium ↗"
+   },
+   "guarantee": {
+      "message": "Jaminan wang dikembalikan 30 hari"
+   },
+   "history": {
+      "message": "Sejarah muat turun"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Kunci lesen tidak sah."
+   },
+   "invalidFormat": {
+      "message": "Format tidak sah. Mesti bermula dengan TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Kunci lesen"
+   },
+   "limit": {
+      "message": "Had"
+   },
+   "limitHint": {
+      "message": "Pelan percuma: 5 muat turun/hari."
+   },
+   "limitTitle": {
+      "message": "Had harian dicapai"
+   },
+   "networkError": {
+      "message": "⚠️ Ralat sambungan."
+   },
+   "noCode": {
+      "message": "Belum ada kod?"
+   },
+   "noHistory": {
+      "message": "Tiada muat turun lagi."
+   },
+   "noVideos": {
+      "message": "Tiada video dikesan"
+   },
+   "noVideosHint": {
+      "message": "Arahkan tetikus ke mana-mana video untuk melihat butang muat turun."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Nilai"
+   },
+   "rateUs": {
+      "message": "⭐ Nilai kami"
+   },
+   "scanning": {
+      "message": "Mencari video..."
+   },
+   "serverError": {
+      "message": "⚠️ Ralat pelayan."
+   },
+   "startDown": {
+      "message": "Mula muat turun ↓"
+   },
+   "support": {
+      "message": "Sokongan"
+   },
+   "unlimited": {
+      "message": "Tanpa had"
+   },
+   "upgradeBtn": {
+      "message": "Naik taraf ke Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Naik taraf ↗"
+   },
+   "upgradeTitle": {
+      "message": "Naik taraf ke Premium"
+   },
+   "usageLeft": {
+      "message": "muat turun berbaki hari ini"
+   },
+   "usageOf": {
+      "message": "daripada"
+   },
+   "validFor": {
+      "message": "Sah selama"
+   },
+   "verifying": {
+      "message": "Mengesahkan…"
+   },
+   "videoDetected": {
+      "message": "video dikesan"
+   },
+   "videosDetected": {
+      "message": "video dikesan"
+   },
+   "ytBlocked": {
+      "message": "YouTube tidak disokong"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD menghormati Terma Perkhidmatan YouTube."
+   },
+   "ytTry": {
+      "message": "Cuba Facebook, Vimeo, Twitter dan 1,000+ laman lain."
+   }
+}

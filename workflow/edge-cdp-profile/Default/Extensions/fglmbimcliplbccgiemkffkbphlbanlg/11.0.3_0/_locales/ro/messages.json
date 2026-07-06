@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Activare licență"
+   },
+   "activateHint": {
+      "message": "Lipiți codul din e-mail."
+   },
+   "activateTitle": {
+      "message": "Activare Premium"
+   },
+   "activatedSub": {
+      "message": "Descărcări nelimitate · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium activat!"
+   },
+   "alreadyBought": {
+      "message": "Deja achiziționat?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Acest cod a fost deja utilizat."
+   },
+   "clearHistory": {
+      "message": "Ștergeți"
+   },
+   "days": {
+      "message": "zile · expiră"
+   },
+   "deactivate": {
+      "message": "Dezactivare licență"
+   },
+   "deactivateConfirm": {
+      "message": "Dezactivați licența Premium pe acest dispozitiv?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Toate"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Vă place TubeVD?"
+   },
+   "enterCode": {
+      "message": "Introduceți cheia de licență."
+   },
+   "enterKey": {
+      "message": "🔑 Introduceți cheia de licență"
+   },
+   "expired": {
+      "message": "⚠️ Această licență a expirat."
+   },
+   "extDesc": {
+      "message": "Descărcați videoclipuri de pe Facebook, Twitter, Vimeo, Dailymotion și 1000+ site-uri în HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "Întrebări frecvente"
+   },
+   "free": {
+      "message": "Gratuit"
+   },
+   "genericError": {
+      "message": "Ceva a mers greșit. Contactați support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Obțineți Premium — $4,99/lună"
+   },
+   "getPremiumLink": {
+      "message": "Obțineți Premium ↗"
+   },
+   "guarantee": {
+      "message": "Garanție de returnare a banilor 30 de zile"
+   },
+   "history": {
+      "message": "Istoric descărcări"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Cheie de licență invalidă."
+   },
+   "invalidFormat": {
+      "message": "Format nevalid. Trebuie să înceapă cu TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Cheie de licență"
+   },
+   "limit": {
+      "message": "Limită"
+   },
+   "limitHint": {
+      "message": "Plan gratuit: 5 descărcări/zi."
+   },
+   "limitTitle": {
+      "message": "Limita zilnică atinsă"
+   },
+   "networkError": {
+      "message": "⚠️ Eroare de conexiune."
+   },
+   "noCode": {
+      "message": "Nu aveți încă un cod?"
+   },
+   "noHistory": {
+      "message": "Nicio descărcare încă."
+   },
+   "noVideos": {
+      "message": "Nu s-au găsit videoclipuri"
+   },
+   "noVideosHint": {
+      "message": "Treceți mouse-ul peste orice videoclip pentru a vedea butonul de descărcare."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Evaluați"
+   },
+   "rateUs": {
+      "message": "⭐ Evaluați-ne"
+   },
+   "scanning": {
+      "message": "Se caută videoclipuri..."
+   },
+   "serverError": {
+      "message": "⚠️ Eroare de server."
+   },
+   "startDown": {
+      "message": "Începeți descărcarea ↓"
+   },
+   "support": {
+      "message": "Asistență"
+   },
+   "unlimited": {
+      "message": "Nelimitat"
+   },
+   "upgradeBtn": {
+      "message": "Actualizare la Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Actualizați ↗"
+   },
+   "upgradeTitle": {
+      "message": "Actualizare la Premium"
+   },
+   "usageLeft": {
+      "message": "descărcări rămase azi"
+   },
+   "usageOf": {
+      "message": "din"
+   },
+   "validFor": {
+      "message": "Valabil"
+   },
+   "verifying": {
+      "message": "Se verifică…"
+   },
+   "videoDetected": {
+      "message": "videoclip găsit"
+   },
+   "videosDetected": {
+      "message": "videoclipuri găsite"
+   },
+   "ytBlocked": {
+      "message": "YouTube nu este acceptat"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD respectă Termenii de serviciu YouTube."
+   },
+   "ytTry": {
+      "message": "Încercați Facebook, Vimeo, Twitter și 1000+ alte site-uri."
+   }
+}

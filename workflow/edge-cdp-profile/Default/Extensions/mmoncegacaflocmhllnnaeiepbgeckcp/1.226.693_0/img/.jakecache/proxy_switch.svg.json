@@ -1,0 +1,1 @@
+{"deps":{"%ROOT%/pkg/bext/lum/img/proxy_switch.svg":"md5-e1c97ff025837e24805bda55404f6b13"},"gen_deps":{},"signatures":{"md5name":"7161cfc7bf5ebe5b8a95550b6db309d8","size":449,"md5":"e1c97ff025837e24805bda55404f6b13","tscur":1615990799724},"signature":"md5-e1c97ff025837e24805bda55404f6b13","arch":"X86","flags":{"config":"DIST=APP CONFIG_BEXT=y","vary":[]}}

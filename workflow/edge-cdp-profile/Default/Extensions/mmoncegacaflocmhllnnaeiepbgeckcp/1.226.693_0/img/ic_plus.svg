@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-1{fill:#526373}.cls-2{fill:none}
+        </style>
+    </defs>
+    <g id="ic_add" transform="translate(-247 -1389)">
+        <path id="ic_add-2" d="M6874 3406v-6h-6v-2h6v-6h2v6h6v2h-6v6z" class="cls-1" data-name="ic_add" transform="translate(-6620 -2002)"/>
+        <path id="Rectangle_2020" d="M0 0h16v16H0z" class="cls-2" data-name="Rectangle 2020" transform="translate(247 1389)"/>
+    </g>
+</svg>

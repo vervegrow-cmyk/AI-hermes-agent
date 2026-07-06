@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "הפעל רישיון"
+   },
+   "activateHint": {
+      "message": "הדבק את הקוד מהאימייל שלך."
+   },
+   "activateTitle": {
+      "message": "הפעל פרמיום"
+   },
+   "activatedSub": {
+      "message": "הורדות ללא הגבלה · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "הפרמיום הופעל!"
+   },
+   "alreadyBought": {
+      "message": "כבר רכשת?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ קוד זה כבר שימש במכשיר אחר."
+   },
+   "clearHistory": {
+      "message": "נקה"
+   },
+   "days": {
+      "message": "ימים · פג"
+   },
+   "deactivate": {
+      "message": "בטל רישיון"
+   },
+   "deactivateConfirm": {
+      "message": "לבטל את רישיון הפרמיום במכשיר זה?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ הכל"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "נהנה מ-TubeVD?"
+   },
+   "enterCode": {
+      "message": "אנא הכנס את מפתח הרישיון שלך."
+   },
+   "enterKey": {
+      "message": "🔑 הכנס מפתח רישיון"
+   },
+   "expired": {
+      "message": "⚠️ הרישיון הזה פג תוקפו."
+   },
+   "extDesc": {
+      "message": "הורד סרטונים מפייסבוק, טוויטר, Vimeo, Dailymotion ו-1000+ אתרים ב-HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "שאלות נפוצות"
+   },
+   "free": {
+      "message": "חינם"
+   },
+   "genericError": {
+      "message": "משהו השתבש. פנה ל-support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "קבל פרמיום — $4.99/חודש"
+   },
+   "getPremiumLink": {
+      "message": "קבל פרמיום ↗"
+   },
+   "guarantee": {
+      "message": "אחריות להחזר כסף ל-30 יום"
+   },
+   "history": {
+      "message": "היסטוריית הורדות"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ מפתח רישיון לא חוקי."
+   },
+   "invalidFormat": {
+      "message": "פורמט לא חוקי. חייב להתחיל ב-TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "מפתח רישיון"
+   },
+   "limit": {
+      "message": "מגבלה"
+   },
+   "limitHint": {
+      "message": "תוכנית חינמית: 5 הורדות/יום."
+   },
+   "limitTitle": {
+      "message": "הגעת למגבלה היומית"
+   },
+   "networkError": {
+      "message": "⚠️ שגיאת חיבור."
+   },
+   "noCode": {
+      "message": "עדיין אין לך קוד?"
+   },
+   "noHistory": {
+      "message": "אין הורדות עדיין."
+   },
+   "noVideos": {
+      "message": "לא נמצאו סרטונים"
+   },
+   "noVideosHint": {
+      "message": "רחף עם העכבר מעל סרטון כלשהו כדי לראות את כפתור ההורדה."
+   },
+   "premiumBadge": {
+      "message": "פרמיום 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ דרג"
+   },
+   "rateUs": {
+      "message": "⭐ דרג אותנו"
+   },
+   "scanning": {
+      "message": "מחפש סרטונים..."
+   },
+   "serverError": {
+      "message": "⚠️ שגיאת שרת."
+   },
+   "startDown": {
+      "message": "התחל להוריד ↓"
+   },
+   "support": {
+      "message": "תמיכה"
+   },
+   "unlimited": {
+      "message": "ללא הגבלה"
+   },
+   "upgradeBtn": {
+      "message": "שדרג לפרמיום 4K"
+   },
+   "upgradeNow": {
+      "message": "שדרג ↗"
+   },
+   "upgradeTitle": {
+      "message": "שדרג לפרמיום"
+   },
+   "usageLeft": {
+      "message": "הורדות נותרו היום"
+   },
+   "usageOf": {
+      "message": "מתוך"
+   },
+   "validFor": {
+      "message": "בתוקף ל"
+   },
+   "verifying": {
+      "message": "מאמת…"
+   },
+   "videoDetected": {
+      "message": "סרטון נמצא"
+   },
+   "videosDetected": {
+      "message": "סרטונים נמצאו"
+   },
+   "ytBlocked": {
+      "message": "YouTube אינו נתמך"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD מכבד את תנאי השירות של YouTube."
+   },
+   "ytTry": {
+      "message": "נסה פייסבוק, Vimeo, טוויטר ו-1,000+ אתרים אחרים."
+   }
+}

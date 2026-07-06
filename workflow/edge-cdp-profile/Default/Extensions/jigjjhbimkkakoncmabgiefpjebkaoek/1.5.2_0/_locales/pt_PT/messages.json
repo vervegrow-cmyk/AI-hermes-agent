@@ -1,0 +1,299 @@
+{
+   "5Star": {
+      "message": "Give us a 5-star"
+   },
+   "ScanCode": {
+      "message": "Scan Code"
+   },
+   "ScanCodeTip1": {
+      "message": "Get first-hand updates, provide feedback on product demands and issues"
+   },
+   "ScanCodeTip2": {
+      "message": "Learn more tool usage techniques, and learn more about AI trends"
+   },
+   "ScanCodeTitle": {
+      "message": "Scan the code to join AI Assistant"
+   },
+   "addPrompt": {
+      "message": "Add Prompt"
+   },
+   "alwaysShow": {
+      "message": "Always Show"
+   },
+   "ask": {
+      "message": "I Ask"
+   },
+   "askPrompt": {
+      "message": "Answer this question:"
+   },
+   "askSendText": {
+      "message": "Answer this question"
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "chatHistory": {
+      "message": "Chat History"
+   },
+   "chatTip": {
+      "message": "Hello, how can I help you?"
+   },
+   "collapse": {
+      "message": "Collapse"
+   },
+   "commentNow": {
+      "message": "Comment Now"
+   },
+   "confirm": {
+      "message": "Confirm"
+   },
+   "copySuccess": {
+      "message": "Copy Successfully"
+   },
+   "custom": {
+      "message": "custom prompt"
+   },
+   "dayago": {
+      "message": "d ago"
+   },
+   "editPrompt": {
+      "message": "Edit Prompt"
+   },
+   "editPromptText": {
+      "message": "Prompt template"
+   },
+   "editPromptTextTip": {
+      "message": "Edit or delete the prompt template"
+   },
+   "essay": {
+      "message": "Essay"
+   },
+   "essayPrompt": {
+      "message": "Please generate an essay for me based on the text entered:"
+   },
+   "essaySendText": {
+      "message": "Please help me generate a paper based on the text entered, please include an abstract, outline, introduction, body, and conclusion. The topic of the paper is "
+   },
+   "expand_sidebar": {
+      "message": "Expand Sidebar"
+   },
+   "expendTip": {
+      "message": "Expend"
+   },
+   "explain": {
+      "message": "Explain code"
+   },
+   "explainPrompt": {
+      "message": "Explain the following code:"
+   },
+   "explainSendText": {
+      "message": "Explain the following code"
+   },
+   "extDes": {
+      "message": "Um assistente de IA que utiliza o GPT da OpenAI para fornecer serviços inteligentes,como chat,tradução e resposta a perguntas."
+   },
+   "extName": {
+      "message": "ChatsNow: ChatGPT SideBar(GPT- 4,Vision,Web)"
+   },
+   "extended": {
+      "message": "Extended Text"
+   },
+   "extendedPrompt": {
+      "message": "Expanded content based on the text:"
+   },
+   "extendedSendText": {
+      "message": "Write an expanded paragraph of about 500 words based on the following sentences"
+   },
+   "footerLogin": {
+      "message": "Get 30 queries per day"
+   },
+   "footerSetting": {
+      "message": "Setting"
+   },
+   "generating": {
+      "message": "Generating..."
+   },
+   "getMoreTimes": {
+      "message": "Get More"
+   },
+   "goodReviews": {
+      "message": "Good reviews & Earn queries"
+   },
+   "goodReviewsTip": {
+      "message": "Give us a 5-star rating and you will immediately receive a reward of five additional searches"
+   },
+   "grammar": {
+      "message": "Grammar"
+   },
+   "grammarPrompt": {
+      "message": "Correct this to Standard English:"
+   },
+   "grammarSendText": {
+      "message": "Correct this to Standard English"
+   },
+   "hourago": {
+      "message": "h ago"
+   },
+   "inputMessage": {
+      "message": "Type or paste content here and press Enter to change lines"
+   },
+   "managePrompt": {
+      "message": "Manage Prompt"
+   },
+   "maxTimes": {
+      "message": "The maximum number of uses has been reached today"
+   },
+   "minago": {
+      "message": "m ago"
+   },
+   "modelTip": {
+      "message": "Prompt template"
+   },
+   "more_options": {
+      "message": "More Options"
+   },
+   "namedPrompt": {
+      "message": "Name this Prompt"
+   },
+   "newChat": {
+      "message": "New Chat"
+   },
+   "newFunction": {
+      "message": "New"
+   },
+   "panelAnswer": {
+      "message": "Answer"
+   },
+   "panelAsk": {
+      "message": "Ask"
+   },
+   "panelChat": {
+      "message": "Chat"
+   },
+   "panelContinue": {
+      "message": "Continue to chat"
+   },
+   "panelDaily": {
+      "message": "Today"
+   },
+   "panelLogin": {
+      "message": "Login"
+   },
+   "panelLoginTip": {
+      "message": "The queries have been used up for unlogged user. You can sign in"
+   },
+   "panelLoginTipWeight": {
+      "message": "to get 30 free queries per day"
+   },
+   "panelShiftTip": {
+      "message": "Input or paste the content here, press Shift+Enter for a new line, and press Enter to submit."
+   },
+   "panelSubmit": {
+      "message": "Submit"
+   },
+   "panelTip": {
+      "message": "Type or paste the content here and press Enter to change the line"
+   },
+   "panelToday": {
+      "message": "Today"
+   },
+   "program": {
+      "message": "Programming"
+   },
+   "programPrompt": {
+      "message": "Programming:"
+   },
+   "programSendText": {
+      "message": "Programming"
+   },
+   "prompt": {
+      "message": "Prompts"
+   },
+   "promptContent": {
+      "message": "Enter your content here"
+   },
+   "promptName": {
+      "message": "Prompt Name"
+   },
+   "promptTip": {
+      "message": "Prompt Tip"
+   },
+   "quickIcon": {
+      "message": "The [Quick Find] button"
+   },
+   "quickIconTip": {
+      "message": "It appears immediately when text is selected on the site"
+   },
+   "rewrite": {
+      "message": "Rewrite"
+   },
+   "rewritePrompt": {
+      "message": "Rewrite the following content:"
+   },
+   "rewriteSendText": {
+      "message": "Expand based on the content in quotation marks to express it in more detail"
+   },
+   "rewriteTip": {
+      "message": "Rewrite"
+   },
+   "selectTextShow": {
+      "message": "Displayed when text is selected"
+   },
+   "send": {
+      "message": "Send"
+   },
+   "setting": {
+      "message": "Setting"
+   },
+   "shortcutSelect1": {
+      "message": "Press Enter for a line break, click the \"Submit\" button"
+   },
+   "shortcutSelect2": {
+      "message": "Press Shift+Enter for a line break, press Enter to submit"
+   },
+   "shortcutSetting": {
+      "message": "Shortcut settings"
+   },
+   "shortcutTip": {
+      "message": "Set shortcut for input box and submit button"
+   },
+   "sidebarIcon": {
+      "message": "Sidebar Button"
+   },
+   "sidebarIconTip": {
+      "message": "Access the sidebar via the button located on the right side of the page Always Show"
+   },
+   "stopGenerate": {
+      "message": "Stop Generate"
+   },
+   "stopGenerateText": {
+      "message": "Stop Generate"
+   },
+   "summary": {
+      "message": "Summary"
+   },
+   "summaryPrompt": {
+      "message": "Help me summarize:"
+   },
+   "summarySendText": {
+      "message": "Help me summarize"
+   },
+   "translateTip": {
+      "message": "Translate"
+   },
+   "translation": {
+      "message": "Translation"
+   },
+   "translationPrompt": {
+      "message": "Translate the following into"
+   },
+   "translationSendText": {
+      "message": "Translate the following into"
+   },
+   "twitter": {
+      "message": "Tweet it"
+   },
+   "updateTip": {
+      "message": "Update"
+   }
+}

@@ -1,0 +1,252 @@
+name: exaggerated_viral_ad
+version: "0.1"
+description: >
+  Short-form exaggerated viral TikTok UGC product pipeline with shot-level
+  provider routing across motion, product closeup, and complex gag beats.
+category: hybrid
+stability: beta
+default_checkpoint_policy: guided
+
+orchestration:
+  mode: executive-producer
+  skill: pipelines/hybrid/executive-producer
+  budget_default_usd: 5.00
+  max_revisions_per_stage: 3
+  max_send_backs: 3
+  max_wall_time_minutes: 20
+
+extensions:
+  custom_scripts: true
+  custom_playbooks: true
+  custom_skills: true
+  custom_tools: false
+
+required_skills:
+  - pipelines/hybrid/executive-producer
+  - pipelines/hybrid/idea-director
+  - pipelines/hybrid/script-director
+  - pipelines/hybrid/scene-director
+  - pipelines/hybrid/asset-director
+  - pipelines/hybrid/edit-director
+  - pipelines/hybrid/compose-director
+  - pipelines/hybrid/publish-director
+  - meta/reviewer
+  - meta/checkpoint-protocol
+
+compatible_playbooks:
+  recommended:
+    - clean-professional
+    - flat-motion-graphics
+  also_works:
+    - minimalist-diagram
+  custom_allowed: true
+
+metadata:
+  pipeline_family: exaggerated_viral_ad
+  shot_level_provider_routing: true
+  provider_routing:
+    action_or_character_motion:
+      preferred_tools:
+        - seedance_ark_video
+        - libtv_video
+        - seedance_video
+        - kling_video
+    product_closeup:
+      preferred_tools:
+        - comfyui_image
+        - product_image
+    complex_creative_gag:
+      preferred_tools:
+        - seedance_ark_video
+        - libtv_video
+        - seedance_video
+    voiceover:
+      preferred_tools:
+        - elevenlabs_tts
+        - tts_selector
+    final_compose:
+      preferred_tools:
+        - video_compose
+        - hyperframes_compose
+        - audio_mixer
+  qa_rules:
+    max_static_image_ratio: 0.35
+    require_action_shot: true
+    require_product_closeup: true
+    require_cta: true
+    forbid_product_image_only_final: true
+
+stages:
+  - name: idea
+    skill: pipelines/hybrid/idea-director
+    produces:
+      - brief
+      - decision_log
+    tools_available:
+      - ark_chat
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - Viral angle and product promise are clear
+      - Concept includes at least one action beat and one product proof beat
+      - The brief states whether a comedic exaggeration beat is required
+    success_criteria:
+      - Schema-valid brief artifact
+      - Product positioning is viable for short-form UGC
+
+  - name: script
+    skill: pipelines/hybrid/script-director
+    required_artifacts_in:
+      - brief
+    produces:
+      - script
+    tools_available:
+      - ark_chat
+      - tts_selector
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - Hook lands in the first three seconds
+      - CTA is explicit
+      - Voiceover and subtitle text are reusable downstream
+    success_criteria:
+      - Schema-valid script artifact
+      - Script is feasible for a 15-30 second UGC ad
+
+  - name: scene_plan
+    skill: pipelines/hybrid/scene-director
+    required_artifacts_in:
+      - script
+    optional_artifacts_in:
+      - brief
+    produces:
+      - scene_plan
+    tools_available:
+      - ark_chat
+      - frame_sampler
+      - scene_detect
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - Every shot is labeled for provider routing
+      - Motion, product proof, and CTA beats are all present
+      - Storyboard supports publish-ready QA rules
+    success_criteria:
+      - Schema-valid scene_plan artifact
+      - Every scene has a defined shot_type and provider candidate list
+
+  - name: assets
+    skill: pipelines/hybrid/asset-director
+    required_artifacts_in:
+      - scene_plan
+    optional_artifacts_in:
+      - script
+      - brief
+    produces:
+      - asset_manifest
+    optional_tools:
+      - subtitle_gen
+      - tts_selector
+      - image_selector
+      - video_selector
+      - comfyui_image
+      - seedance_ark_video
+      - libtv_video
+      - seedance_video
+      - kling_video
+      - elevenlabs_tts
+    tools_available:
+      - subtitle_gen
+      - tts_selector
+      - image_selector
+      - video_selector
+      - comfyui_image
+      - seedance_ark_video
+      - libtv_video
+      - seedance_video
+      - kling_video
+      - elevenlabs_tts
+      - music_gen
+      - audio_enhance
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - Motion shots are not replaced wholesale with stills
+      - Product proof assets preserve real product fidelity
+      - Voiceover assets and subtitle assets stay aligned
+    success_criteria:
+      - Schema-valid asset_manifest artifact
+      - All referenced asset files exist on disk
+
+  - name: edit
+    skill: pipelines/hybrid/edit-director
+    required_artifacts_in:
+      - scene_plan
+      - asset_manifest
+    optional_artifacts_in:
+      - script
+    produces:
+      - edit_decisions
+    tools_available: []
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - Static-image usage remains below the anti-PPT threshold
+      - Action, product closeup, and CTA beats are preserved
+      - Complex gag shots are not dropped silently
+    success_criteria:
+      - Schema-valid edit_decisions artifact
+      - Edit decisions cover all publish-ready beats
+
+  - name: compose
+    skill: pipelines/hybrid/compose-director
+    required_artifacts_in:
+      - edit_decisions
+      - asset_manifest
+    optional_artifacts_in:
+      - scene_plan
+    produces:
+      - render_report
+      - final_review
+    required_tools:
+      - video_compose
+      - audio_mixer
+    optional_tools:
+      - video_stitch
+      - video_trimmer
+      - color_grade
+      - audio_enhance
+    tools_available:
+      - video_compose
+      - hyperframes_compose
+      - audio_mixer
+      - video_stitch
+      - video_trimmer
+      - color_grade
+      - audio_enhance
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - Final output is a real motion-led ad, not a product-image slideshow
+      - Runtime choice remains explicit and auditable
+      - Publish-ready gating uses the anti-PPT rules
+    success_criteria:
+      - Schema-valid render_report artifact
+      - Output file exists and passes ffprobe validation
+
+  - name: publish
+    skill: pipelines/hybrid/publish-director
+    required_artifacts_in:
+      - render_report
+      - final_review
+    produces:
+      - publish_log
+    tools_available: []
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - Publish-ready status is justified by QA artifacts
+      - Missing publish-ready criteria are surfaced explicitly
+    success_criteria:
+      - Schema-valid publish_log artifact
+      - Publish-ready status is traceable to QA checks

@@ -1,0 +1,44 @@
+{
+   "background": {
+      "service_worker": "service_worker.js"
+   },
+   "content_scripts": [ {
+      "js": [ "vendooWeb.js" ],
+      "matches": [ "*://web.vendoo.co/*", "*://internal-beta.vendoo.co/*", "*://enterprise.vendoo.co/*", "*://enterprise-internal-beta.vendoo.co/*" ]
+   }, {
+      "js": [ "execPageScriptContent.js" ],
+      "matches": [ "*://www.facebook.com/*", "*://web.facebook.com/*", "*://www.mercari.com/*", "*://www.kidizen.com/*", "*://www.depop.com/*", "*://*.tradesy.com/*", "*://www.grailed.com/*", "*://*.poshmark.com/*", "*://*.etsy.com/*", "*://*.myshopify.com/*", "*://*.admin.shopify.com/*", "*://*.vestiairecollective.com/*", "*://*.vinted.co.uk/*", "*://*.vinted.com/*", "*://*.ebay.co.uk/*", "*://*.ebay.com/lstng?draftId=*&mode=AddItem" ]
+   }, {
+      "js": [ "interceptRequest.js" ],
+      "matches": [ "*://www.facebook.com/*" ]
+   } ],
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "rules",
+         "path": "corsRules.json"
+      } ]
+   },
+   "description": "Connect and crosslist to 10+ third party marketplaces with Vendoo!",
+   "externally_connectable": {
+      "matches": [ "https://web.vendoo.co/*", "https://internal-beta.vendoo.co/*", "https://enterprise.vendoo.co/*", "https://enterprise-internal-beta.vendoo.co/*" ]
+   },
+   "host_permissions": [ "*://*.vendoo.co/*", "*://*.web.app/*", "*://*.depop.com/*", "*://*.kidizen.com/*", "*://*.facebook.com/*", "*://*.mercari.com/*", "*://*.grailed.com/*", "*://*.poshmark.com/*", "*://*.tradesy.com/*", "https://garage-pictures-0.s3.amazonaws.com/*", "https://cdn1.identitymind.com/dfp-wrapper/*", "*://*.filepicker.io/*", "*://*.s3.amazonaws.com/*", "*://*.myshopify.com/*", "*://*.vestiairecollective.com/*", "*://*.vinted.co.uk/*", "*://*.vinted.com/*", "*://*.ebay.co.uk/*", "https://api.mapbox.com/*", "*://*.s3-accelerate.amazonaws.com/*", "*://*.braze.com/*" ],
+   "icons": {
+      "128": "icons/vendoo_128.png",
+      "16": "icons/vendoo_16.png",
+      "32": "icons/vendoo_32.png",
+      "48": "icons/vendoo_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3UJ6R/2uQBSE+TYa3C5Cry4oFQuU+G7ulL7PCqH9MtTanbPnG8vnpwbAc8m+DKUy39mpn5lROU0ht/n/Qj+Nea1LfuYGgHRiqflKEwzV765IwN4OKg27GmKASvSRBTjAWqzPmIw+AuId2iBJsO1JykaWakYo3G4mgkt3nJ4oYLQ/iBX3toG0k1bMZru4rV6dr3Ty5knZ1tAjdab4FMxhmyZ1b8fn3N2zukisgx3fFmm7DOKQfYjDKNKS0YVpO9zCmsmJJMhpt1rC8LOZwr4IfuwfEx5R40en5Kiql9qh/IuFT4BERlmjzt9fdrNcv7lh6QhtoVRd8ItmmlKeWGuv7wIDAQAB",
+   "manifest_version": 3,
+   "name": "Vendoo Crosslist Extension v3",
+   "optional_permissions": [  ],
+   "permissions": [ "declarativeNetRequest", "declarativeNetRequestWithHostAccess", "background", "tabs", "cookies", "alarms", "storage", "webRequest" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1.10",
+   "web_accessible_resources": [ {
+      "matches": [ "*://www.facebook.com/*", "*://web.facebook.com/*", "*://www.mercari.com/*", "*://www.kidizen.com/*", "*://www.depop.com/*", "*://*.tradesy.com/*", "*://www.grailed.com/*", "*://*.poshmark.com/*", "*://*.etsy.com/*", "*://*.myshopify.com/*", "*://*.admin.shopify.com/*", "*://*.vestiairecollective.com/*", "*://*.vinted.co.uk/*", "*://*.vinted.com/*", "*://*.ebay.co.uk/*", "*://web.vendoo.co/*", "*://internal-beta.vendoo.co/*", "*://enterprise.vendoo.co/*", "*://enterprise-internal-beta.vendoo.co/*" ],
+      "resources": [ "scripts/patch.js" ]
+   } ]
+}

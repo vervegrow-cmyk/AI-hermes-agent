@@ -1,0 +1,20 @@
+{
+   "extDes": {
+      "message": "Chrome Professional video downloader and image downloader, you can download videos and pictures online. Free, safe and easy to use."
+   },
+   "extName": {
+      "message": "Unlimited Video Downloader - Save Video and Images"
+   },
+   "noVideo": {
+      "message": "이런! 비디오를 찾을 수 없습니다"
+   },
+   "recordButton": {
+      "message": "녹화 다운로드 모드"
+   },
+   "recordText": {
+      "message": "링크를 감지하기 위해 일부 비디오를 재생해야 할 수 있습니다. 원하는 비디오가 목록에 없으면 재생을 시도할 수 있습니다. 플레이 후에도 여전히 링크를 얻을 수 없다면 현재 페이지를 새로고침하거나"
+   },
+   "recordTips": {
+      "message": "팁: 고정 해상도를 유지하고, 자동 해상도 전환은 녹화된 비디오를 해상도가 다른 여러 클립으로 만듭니다."
+   }
+}

@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Ενεργοποίηση άδειας"
+   },
+   "activateHint": {
+      "message": "Επικολλήστε τον κωδικό από το email σας."
+   },
+   "activateTitle": {
+      "message": "Ενεργοποίηση Premium"
+   },
+   "activatedSub": {
+      "message": "Απεριόριστες λήψεις · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Το Premium ενεργοποιήθηκε!"
+   },
+   "alreadyBought": {
+      "message": "Έχετε ήδη αγοράσει;"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Αυτός ο κωδικός έχει ήδη χρησιμοποιηθεί."
+   },
+   "clearHistory": {
+      "message": "Εκκαθάριση"
+   },
+   "days": {
+      "message": "ημέρες · λήγει"
+   },
+   "deactivate": {
+      "message": "Απενεργοποίηση άδειας"
+   },
+   "deactivateConfirm": {
+      "message": "Απενεργοποίηση άδειας Premium σε αυτή τη συσκευή;"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Όλα"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Σας αρέσει το TubeVD;"
+   },
+   "enterCode": {
+      "message": "Εισαγάγετε το κλειδί άδειάς σας."
+   },
+   "enterKey": {
+      "message": "🔑 Εισαγωγή κλειδιού άδειας"
+   },
+   "expired": {
+      "message": "⚠️ Η άδεια αυτή έχει λήξει."
+   },
+   "extDesc": {
+      "message": "Κατεβάστε βίντεο από Facebook, Twitter, Vimeo, Dailymotion και 1000+ ιστοτόπους σε HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "Συχνές ερωτήσεις"
+   },
+   "free": {
+      "message": "Δωρεάν"
+   },
+   "genericError": {
+      "message": "Κάτι πήγε στραβά. Επικοινωνήστε με το support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Αποκτήστε Premium — $4,99/μήνα"
+   },
+   "getPremiumLink": {
+      "message": "Αποκτήστε Premium ↗"
+   },
+   "guarantee": {
+      "message": "30ήμερη εγγύηση επιστροφής χρημάτων"
+   },
+   "history": {
+      "message": "Ιστορικό λήψεων"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Μη έγκυρο κλειδί άδειας."
+   },
+   "invalidFormat": {
+      "message": "Μη έγκυρη μορφή. Πρέπει να ξεκινά με TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Κλειδί άδειας"
+   },
+   "limit": {
+      "message": "Όριο"
+   },
+   "limitHint": {
+      "message": "Δωρεάν πλάνο: 5 λήψεις/ημέρα."
+   },
+   "limitTitle": {
+      "message": "Επίτευξη ημερήσιου ορίου"
+   },
+   "networkError": {
+      "message": "⚠️ Σφάλμα σύνδεσης."
+   },
+   "noCode": {
+      "message": "Δεν έχετε κωδικό ακόμα;"
+   },
+   "noHistory": {
+      "message": "Δεν υπάρχουν λήψεις ακόμα."
+   },
+   "noVideos": {
+      "message": "Δεν βρέθηκαν βίντεο"
+   },
+   "noVideosHint": {
+      "message": "Τοποθετήστε τον κέρσορα πάνω σε βίντεο για να δείτε το κουμπί λήψης."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Αξιολογήστε"
+   },
+   "rateUs": {
+      "message": "⭐ Αξιολογήστε μας"
+   },
+   "scanning": {
+      "message": "Αναζήτηση βίντεο..."
+   },
+   "serverError": {
+      "message": "⚠️ Σφάλμα διακομιστή."
+   },
+   "startDown": {
+      "message": "Έναρξη λήψης ↓"
+   },
+   "support": {
+      "message": "Υποστήριξη"
+   },
+   "unlimited": {
+      "message": "Απεριόριστο"
+   },
+   "upgradeBtn": {
+      "message": "Αναβάθμιση σε Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Αναβάθμιση ↗"
+   },
+   "upgradeTitle": {
+      "message": "Αναβάθμιση σε Premium"
+   },
+   "usageLeft": {
+      "message": "λήψεις απομένουν σήμερα"
+   },
+   "usageOf": {
+      "message": "από"
+   },
+   "validFor": {
+      "message": "Ισχύει για"
+   },
+   "verifying": {
+      "message": "Επαλήθευση…"
+   },
+   "videoDetected": {
+      "message": "βίντεο βρέθηκε"
+   },
+   "videosDetected": {
+      "message": "βίντεο βρέθηκαν"
+   },
+   "ytBlocked": {
+      "message": "Το YouTube δεν υποστηρίζεται"
+   },
+   "ytBlockedHint": {
+      "message": "Το TubeVD σέβεται τους Όρους Χρήσης του YouTube."
+   },
+   "ytTry": {
+      "message": "Δοκιμάστε Facebook, Vimeo, Twitter και 1.000+ άλλους ιστοτόπους."
+   }
+}

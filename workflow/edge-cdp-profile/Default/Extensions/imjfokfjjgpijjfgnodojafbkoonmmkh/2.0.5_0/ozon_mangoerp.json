@@ -1,0 +1,19 @@
+[
+  {
+      "id": 12,
+      "priority": 1,
+      "action": {
+          "type": "modifyHeaders",
+          "requestHeaders": [
+              {
+                  "header": "Origin",
+                  "operation": "set",
+                  "value": "https://www.ozon.ru"
+              }
+          ]
+      },
+      "condition": {
+          "urlFilter": "||www.ozon.ru/api/composer-api.bx/page/json/v2"
+      }
+  }
+]

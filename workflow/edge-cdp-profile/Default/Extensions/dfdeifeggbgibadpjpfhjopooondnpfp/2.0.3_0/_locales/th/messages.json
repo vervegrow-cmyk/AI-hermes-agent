@@ -1,0 +1,155 @@
+{
+   "content_downloadAudioText": {
+      "message": "เสียง"
+   },
+   "content_downloadCoverText": {
+      "message": "ปก"
+   },
+   "content_downloadVideoText": {
+      "message": "วิดีโอ"
+   },
+   "manifest_description": {
+      "message": "ดาวน์โหลดวิดีโอ TikTok โดยไม่มีลายน้ำ"
+   },
+   "manifest_name": {
+      "message": "แอปดาวน์โหลดวิดีโอ TikTok"
+   },
+   "options_completeDownload": {
+      "message": "ดาวน์โหลดเสร็จสิ้น"
+   },
+   "options_completeDownloadTip": {
+      "message": "ในขั้นตอนการดาวน์โหลดเสร็จสิ้น ไฟล์ถูกดาวน์โหลดแล้วและคุณสามารถดูไฟล์ที่ดาวน์โหลดในตัวจัดการไฟล์"
+   },
+   "options_downloadSetting": {
+      "message": "การตั้งค่าการดาวน์โหลด"
+   },
+   "options_downloadSubdirectory": {
+      "message": "โฟลเดอร์ย่อยสำหรับดาวน์โหลด"
+   },
+   "options_downloadSubdirectoryTip": {
+      "message": "โฟลเดอร์ย่อยสำหรับการดาวน์โหลดไฟล์"
+   },
+   "options_downloadTipSetting": {
+      "message": "การแจ้งเตือนการดาวน์โหลด"
+   },
+   "options_downloadTipSettingTip": {
+      "message": "เมื่อคลิกปุ่มดาวน์โหลด จะมีการแจ้งเตือนปรากฏที่มุมขวาบนของหน้าต่าง"
+   },
+   "options_enableSubdirectory": {
+      "message": "โฟลเดอร์ย่อย"
+   },
+   "options_enableSubdirectoryTip": {
+      "message": "จะดาวน์โหลดไฟล์ไปยังโฟลเดอร์ย่อยหรือไม่"
+   },
+   "options_pageTitle": {
+      "message": "TikTok Video Downloader"
+   },
+   "options_parseInformation": {
+      "message": "กำลังวิเคราะห์ข้อมูล"
+   },
+   "options_parseInformationTip": {
+      "message": "ในขั้นตอนการวิเคราะห์ข้อมูล ส่วนขยายจะวิเคราะห์ข้อมูลทั้งหมดที่จำเป็นสำหรับการดาวน์โหลด"
+   },
+   "options_saveSetting": {
+      "message": "บันทึกการตั้งค่า"
+   },
+   "options_saveSuccess": {
+      "message": "บันทึกสำเร็จ"
+   },
+   "options_startDownload": {
+      "message": "เริ่มดาวน์โหลด"
+   },
+   "options_startDownloadTip": {
+      "message": "ในขั้นตอนการเริ่มดาวน์โหลด คุณจะเห็นเบราว์เซอร์เริ่มดาวน์โหลดไฟล์และสามารถตรวจสอบความคืบหน้าการดาวน์โหลดในหน้าดาวน์โหลดของเบราว์เซอร์"
+   },
+   "options_subdirectoryEmpty": {
+      "message": "โฟลเดอร์ย่อยต้องไม่ว่างเปล่า"
+   },
+   "options_subdirectoryIllegal": {
+      "message": "โฟลเดอร์ย่อยมีอักขระที่ไม่ถูกต้อง"
+   },
+   "options_subdirectoryName": {
+      "message": "ชื่อโฟลเดอร์ย่อย"
+   },
+   "options_subdirectoryNameTip": {
+      "message": "ระบุชื่อโฟลเดอร์ย่อย"
+   },
+   "options_videoCreator": {
+      "message": "ผู้สร้าง"
+   },
+   "options_videoCreatorWithAt": {
+      "message": "เพิ่มสัญลักษณ์ @ หน้าชื่อผู้สร้างวิดีโอ"
+   },
+   "options_videoCreatorWithAtTooltip": {
+      "message": "ในชื่อไฟล์วิดีโอที่ดาวน์โหลด จะเพิ่มสัญลักษณ์ @ หน้าชื่อผู้สร้าง"
+   },
+   "options_videoDescription": {
+      "message": "คำอธิบาย"
+   },
+   "options_videoDescriptionWithHashtag": {
+      "message": "เก็บแฮชแท็กในคำอธิบายวิดีโอ"
+   },
+   "options_videoDescriptionWithHashtagTip": {
+      "message": "ในชื่อไฟล์วิดีโอที่ดาวน์โหลด เก็บแฮชแท็กที่ขึ้นต้นด้วย # ในคำอธิบายวิดีโอ"
+   },
+   "options_videoFileName": {
+      "message": "ชื่อไฟล์วิดีโอ"
+   },
+   "options_videoFileNameEmpty": {
+      "message": "ชื่อไฟล์วิดีโอต้องไม่ว่างเปล่า โปรดเลือกอย่างน้อยหนึ่งรายการ"
+   },
+   "options_videoFileNameTooltip": {
+      "message": "ชื่อไฟล์วิดีโอที่ดาวน์โหลดจะถูกสร้างตามคุณลักษณะและลำดับในช่องข้อมูลด้านล่าง คั่นด้วยช่องว่าง"
+   },
+   "options_videoHighestBitrate": {
+      "message": "บิตเรตสูงสุด"
+   },
+   "options_videoHighestResolution": {
+      "message": "ความละเอียดสูงสุด"
+   },
+   "options_videoLargestFileSize": {
+      "message": "ขนาดไฟล์ใหญ่สุด"
+   },
+   "options_videoQuality": {
+      "message": "คุณภาพวิดีโอ"
+   },
+   "options_videoQualityTip": {
+      "message": "ดาวน์โหลดวิดีโอในคุณภาพใด"
+   },
+   "options_videoResolution": {
+      "message": "ความละเอียดวิดีโอ"
+   },
+   "options_videoVid": {
+      "message": "รหัสวิดีโอ"
+   },
+   "popup_feedback": {
+      "message": "ข้อเสนอแนะ"
+   },
+   "popup_feedbackEmailSubject": {
+      "message": "ข้อเสนอแนะเกี่ยวกับ TikTok Video Downloader"
+   },
+   "popup_review": {
+      "message": "รีวิว"
+   },
+   "popup_setting": {
+      "message": "การตั้งค่า"
+   },
+   "snackbar_completeDownload": {
+      "message": "ดาวน์โหลดเสร็จสิ้น"
+   },
+   "snackbar_downloadFailed": {
+      "message": "ดาวน์โหลดล้มเหลว โปรดรีเฟรชหน้าและลองอีกครั้ง"
+   },
+   "snackbar_findVidError": {
+      "message": "ไม่สามารถวิเคราะห์ข้อมูลวิดีโอได้ โปรดส่งอีเมลเพื่อแจ้งปัญหา"
+   },
+   "snackbar_parseInformation": {
+      "message": "กำลังวิเคราะห์ข้อมูล"
+   },
+   "snackbar_parseInformationFail": {
+      "message": "ไม่สามารถวิเคราะห์ข้อมูลวิดีโอได้ โปรดรีเฟรชหน้าและลองอีกครั้ง"
+   },
+   "snackbar_startDownload": {
+      "message": "เริ่มดาวน์โหลด"
+   }
+}

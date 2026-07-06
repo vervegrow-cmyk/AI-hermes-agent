@@ -1,0 +1,31 @@
+{
+  "batch_id": "9db7da48-f799-4e95-8814-7bf2acbecf71",
+  "store_name": "4ea863-98.myshopify.com",
+  "mode": "apply",
+  "status": "completed",
+  "processed_count": 1,
+  "success_count": 0,
+  "failed_count": 0,
+  "skipped_count": 1,
+  "manual_review_count": 0,
+  "started_at": "2026-06-22T08:47:01+00:00",
+  "finished_at": "2026-06-22T08:47:05+00:00",
+  "items": [
+    {
+      "store_name": "4ea863-98.myshopify.com",
+      "giga_sku": "W3374P419271",
+      "shopify_product_id": "gid://shopify/Product/10218942267698",
+      "shopify_variant_id": "gid://shopify/ProductVariant/51347572392242",
+      "old_price": 36.14,
+      "supplier_cost": 19.29,
+      "target_price": 36.14,
+      "delta": 0.0,
+      "decision": "keep_price",
+      "reason_codes": [
+        "price_delta_too_small"
+      ],
+      "status": "skipped",
+      "error_message": ""
+    }
+  ]
+}

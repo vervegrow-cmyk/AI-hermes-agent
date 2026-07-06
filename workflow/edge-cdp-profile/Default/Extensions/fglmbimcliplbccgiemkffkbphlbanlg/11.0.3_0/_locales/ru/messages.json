@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Активировать лицензию"
+   },
+   "activateHint": {
+      "message": "Вставьте код из письма."
+   },
+   "activateTitle": {
+      "message": "Активировать Premium"
+   },
+   "activatedSub": {
+      "message": "Безлимитные загрузки · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium активирован!"
+   },
+   "alreadyBought": {
+      "message": "Уже купили?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Этот код уже использован."
+   },
+   "clearHistory": {
+      "message": "Очистить"
+   },
+   "days": {
+      "message": "дней · истекает"
+   },
+   "deactivate": {
+      "message": "Деактивировать лицензию"
+   },
+   "deactivateConfirm": {
+      "message": "Деактивировать Premium на этом устройстве?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Все"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Нравится TubeVD?"
+   },
+   "enterCode": {
+      "message": "Введите лицензионный ключ."
+   },
+   "enterKey": {
+      "message": "🔑 Ввести лицензионный ключ"
+   },
+   "expired": {
+      "message": "⚠️ Срок действия лицензии истёк."
+   },
+   "extDesc": {
+      "message": "Загружайте видео с Facebook, Twitter, Vimeo, Dailymotion и 1000+ сайтов в HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "free": {
+      "message": "Бесплатно"
+   },
+   "genericError": {
+      "message": "Что-то пошло не так. Свяжитесь с support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Получить Premium — $4,99/мес."
+   },
+   "getPremiumLink": {
+      "message": "Получить Premium ↗"
+   },
+   "guarantee": {
+      "message": "30-дневная гарантия возврата денег"
+   },
+   "history": {
+      "message": "История загрузок"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Неверный лицензионный ключ."
+   },
+   "invalidFormat": {
+      "message": "Неверный формат. Должен начинаться с TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Лицензионный ключ"
+   },
+   "limit": {
+      "message": "Лимит"
+   },
+   "limitHint": {
+      "message": "Бесплатный план: 5 загрузок/день."
+   },
+   "limitTitle": {
+      "message": "Дневной лимит исчерпан"
+   },
+   "networkError": {
+      "message": "⚠️ Ошибка подключения."
+   },
+   "noCode": {
+      "message": "Нет кода?"
+   },
+   "noHistory": {
+      "message": "Загрузок пока нет."
+   },
+   "noVideos": {
+      "message": "Видео не обнаружено"
+   },
+   "noVideosHint": {
+      "message": "Наведите мышь на любое видео, чтобы увидеть кнопку загрузки."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Оценить"
+   },
+   "rateUs": {
+      "message": "⭐ Оцените нас"
+   },
+   "scanning": {
+      "message": "Поиск видео..."
+   },
+   "serverError": {
+      "message": "⚠️ Ошибка сервера."
+   },
+   "startDown": {
+      "message": "Начать загрузку ↓"
+   },
+   "support": {
+      "message": "Поддержка"
+   },
+   "unlimited": {
+      "message": "Безлимитно"
+   },
+   "upgradeBtn": {
+      "message": "Перейти на Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Улучшить ↗"
+   },
+   "upgradeTitle": {
+      "message": "Перейти на Premium"
+   },
+   "usageLeft": {
+      "message": "загрузок осталось сегодня"
+   },
+   "usageOf": {
+      "message": "из"
+   },
+   "validFor": {
+      "message": "Действителен"
+   },
+   "verifying": {
+      "message": "Проверка…"
+   },
+   "videoDetected": {
+      "message": "видео обнаружено"
+   },
+   "videosDetected": {
+      "message": "видео обнаружено"
+   },
+   "ytBlocked": {
+      "message": "YouTube не поддерживается"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD соблюдает Условия использования YouTube."
+   },
+   "ytTry": {
+      "message": "Попробуйте Facebook, Vimeo, Twitter и 1000+ других сайтов."
+   }
+}

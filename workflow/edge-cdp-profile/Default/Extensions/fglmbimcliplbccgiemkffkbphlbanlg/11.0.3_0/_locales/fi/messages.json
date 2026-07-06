@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Aktivoi lisenssi"
+   },
+   "activateHint": {
+      "message": "Liitä sähköpostissa oleva koodi."
+   },
+   "activateTitle": {
+      "message": "Aktivoi Premium"
+   },
+   "activatedSub": {
+      "message": "Rajoittamattomat lataukset · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium aktivoitu!"
+   },
+   "alreadyBought": {
+      "message": "Jo ostettu?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Tämä koodi on jo käytetty."
+   },
+   "clearHistory": {
+      "message": "Tyhjennä"
+   },
+   "days": {
+      "message": "päivää · vanhenee"
+   },
+   "deactivate": {
+      "message": "Poista lisenssi käytöstä"
+   },
+   "deactivateConfirm": {
+      "message": "Poista Premium-lisenssi käytöstä tältä laitteelta?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Kaikki"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Pidätkö TubeVD:stä?"
+   },
+   "enterCode": {
+      "message": "Anna lisenssiavaimesi."
+   },
+   "enterKey": {
+      "message": "🔑 Syötä lisenssiavain"
+   },
+   "expired": {
+      "message": "⚠️ Tämä lisenssi on vanhentunut."
+   },
+   "extDesc": {
+      "message": "Lataa videoita Facebookista, Twitteristä, Vimeosta, Dailymotionista ja 1000+ sivustolta HD-, 4K- ja 8K-laadulla."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "UKK"
+   },
+   "free": {
+      "message": "Ilmainen"
+   },
+   "genericError": {
+      "message": "Jokin meni pieleen. Ota yhteyttä: support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Hanki Premium — $4,99/kk"
+   },
+   "getPremiumLink": {
+      "message": "Hanki Premium ↗"
+   },
+   "guarantee": {
+      "message": "30 päivän rahat takaisin -takuu"
+   },
+   "history": {
+      "message": "Lataushistoria"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Virheellinen lisenssiavain."
+   },
+   "invalidFormat": {
+      "message": "Virheellinen muoto. Pitää alkaa TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Lisenssiavain"
+   },
+   "limit": {
+      "message": "Raja"
+   },
+   "limitHint": {
+      "message": "Ilmaissuunnitelma: 5 latausta/päivä."
+   },
+   "limitTitle": {
+      "message": "Päiväraja saavutettu"
+   },
+   "networkError": {
+      "message": "⚠️ Yhteysvirhe."
+   },
+   "noCode": {
+      "message": "Ei koodia vielä?"
+   },
+   "noHistory": {
+      "message": "Ei latauksia vielä."
+   },
+   "noVideos": {
+      "message": "Ei löytynyt videoita"
+   },
+   "noVideosHint": {
+      "message": "Vie hiiri videon päälle nähdäksesi latauspainikkeen."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Arvioi"
+   },
+   "rateUs": {
+      "message": "⭐ Arvioi meidät"
+   },
+   "scanning": {
+      "message": "Etsitään videoita..."
+   },
+   "serverError": {
+      "message": "⚠️ Palvelinvirhe."
+   },
+   "startDown": {
+      "message": "Aloita lataus ↓"
+   },
+   "support": {
+      "message": "Tuki"
+   },
+   "unlimited": {
+      "message": "Rajoittamaton"
+   },
+   "upgradeBtn": {
+      "message": "Päivitä Premium 4K:hon"
+   },
+   "upgradeNow": {
+      "message": "Päivitä ↗"
+   },
+   "upgradeTitle": {
+      "message": "Päivitä Premiumiin"
+   },
+   "usageLeft": {
+      "message": "latausta jäljellä tänään"
+   },
+   "usageOf": {
+      "message": "/"
+   },
+   "validFor": {
+      "message": "Voimassa"
+   },
+   "verifying": {
+      "message": "Vahvistetaan…"
+   },
+   "videoDetected": {
+      "message": "video löytyi"
+   },
+   "videosDetected": {
+      "message": "videota löytyi"
+   },
+   "ytBlocked": {
+      "message": "YouTube ei tue"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD kunnioittaa YouTuben käyttöehtoja."
+   },
+   "ytTry": {
+      "message": "Kokeile Facebookia, Vimeota, Twitteriä ja 1000+ muuta sivustoa."
+   }
+}

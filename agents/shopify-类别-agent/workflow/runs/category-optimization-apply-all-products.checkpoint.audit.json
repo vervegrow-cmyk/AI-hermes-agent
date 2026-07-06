@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-06-24 17:28:30",
+  "mode": "apply",
+  "store_name": "",
+  "product_query": "",
+  "max_items": 0,
+  "summary": "任务已中断，当前已处理 178 个商品，成功修改 22 个，需要人工复核 34 个，写回失败 4 个。",
+  "counts": {
+    "processed": 178,
+    "applied": 22,
+    "review": 34,
+    "failed": 4
+  },
+  "files": {
+    "checkpoint": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-类别-agent\\workflow\\runs\\category-optimization-apply-all-products.checkpoint.json",
+    "results_jsonl": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-类别-agent\\workflow\\runs\\category-optimization-apply-all-products.checkpoint.results.jsonl",
+    "review_jsonl": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-类别-agent\\workflow\\runs\\category-optimization-apply-all-products.checkpoint.review.jsonl",
+    "review_csv": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-类别-agent\\workflow\\runs\\category-optimization-apply-all-products.checkpoint.review.csv",
+    "failed_jsonl": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-类别-agent\\workflow\\runs\\category-optimization-apply-all-products.checkpoint.failed.jsonl",
+    "failed_csv": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-类别-agent\\workflow\\runs\\category-optimization-apply-all-products.checkpoint.failed.csv",
+    "audit_report": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-类别-agent\\workflow\\runs\\category-optimization-apply-all-products.checkpoint.audit.json"
+  },
+  "rollback_source": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-类别-agent\\workflow\\runs\\category-optimization-apply-all-products.checkpoint.results.jsonl"
+}

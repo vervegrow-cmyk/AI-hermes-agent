@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: doba-shopify-agent
+Version: 0.1.0
+Summary: Doba product evaluation and Shopify draft publishing agent.
+Requires-Python: >=3.11
+Requires-Dist: fastapi>=0.116.0
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: pydantic>=2.11.7
+Requires-Dist: pydantic-settings>=2.10.1
+Requires-Dist: prometheus-fastapi-instrumentator>=7.1.0
+Requires-Dist: pytest>=8.4.1
+Requires-Dist: python-dotenv>=1.1.1
+Requires-Dist: structlog>=25.4.0
+Requires-Dist: uvicorn[standard]>=0.35.0

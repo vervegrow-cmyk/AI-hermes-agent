@@ -1,0 +1,81 @@
+{
+  "version": "1.0",
+  "cuts": [
+    {
+      "id": "cut_01_shot-01-dirty-bathroom-hook",
+      "source": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_201429\\generated\\motion\\shot_01_dirty_bathroom_hook\\shot-01-dirty-bathroom-hook.mp4",
+      "source_asset_id": "asset_01_shot-01-dirty-bathroom-hook",
+      "in_seconds": 0.0,
+      "out_seconds": 4.0,
+      "layer": "primary",
+      "reason": "action_or_character_motion via seedance_ark_video"
+    },
+    {
+      "id": "cut_02_shot-02-product-kit-closeup",
+      "source": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_201429\\generated\\product_assets\\01_01_kit_overview_00010_.png",
+      "source_asset_id": "asset_02_shot-02-product-kit-closeup",
+      "in_seconds": 0.0,
+      "out_seconds": 4.0,
+      "layer": "primary",
+      "reason": "product_closeup via comfyui_image",
+      "transform": {
+        "scale": 1.0,
+        "position": "center",
+        "animation": "ken-burns-slow-zoom"
+      }
+    },
+    {
+      "id": "cut_03_shot-03-shower-wall-action",
+      "source": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_201429\\generated\\motion\\shot_03_shower_wall_action\\shot-03-shower-wall-action.mp4",
+      "source_asset_id": "asset_03_shot-03-shower-wall-action",
+      "in_seconds": 0.0,
+      "out_seconds": 5.0,
+      "layer": "primary",
+      "reason": "action_or_character_motion via seedance_ark_video"
+    },
+    {
+      "id": "cut_04_shot-04-handle-closeup",
+      "source": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_201429\\generated\\product_assets\\02_02_handle_grip_00010_.png",
+      "source_asset_id": "asset_04_shot-04-handle-closeup",
+      "in_seconds": 0.0,
+      "out_seconds": 4.0,
+      "layer": "primary",
+      "reason": "product_closeup via comfyui_image",
+      "transform": {
+        "scale": 1.0,
+        "position": "center",
+        "animation": "ken-burns-slow-zoom"
+      }
+    },
+    {
+      "id": "cut_05_shot-05-speed-demo",
+      "source": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_201429\\generated\\motion\\shot_05_speed_demo\\shot-05-speed-demo.mp4",
+      "source_asset_id": "asset_05_shot-05-speed-demo",
+      "in_seconds": 0.0,
+      "out_seconds": 6.0,
+      "layer": "primary",
+      "reason": "action_or_character_motion via seedance_ark_video"
+    },
+    {
+      "id": "cut_06_shot-06-cta-finish",
+      "source": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\electric-spin-scrubber_20260703_201429\\generated\\product_assets\\03_03_speed_modes_00010_.png",
+      "source_asset_id": "asset_06_shot-06-cta-finish",
+      "in_seconds": 0.0,
+      "out_seconds": 5.0,
+      "layer": "primary",
+      "reason": "product_closeup via comfyui_image",
+      "transform": {
+        "scale": 1.0,
+        "position": "center",
+        "animation": "ken-burns-slow-zoom"
+      }
+    }
+  ],
+  "render_runtime": "remotion",
+  "renderer_family": "product-reveal",
+  "composition_mode": "templated",
+  "metadata": {
+    "total_timeline_seconds": 28.0,
+    "shot_count": 6
+  }
+}

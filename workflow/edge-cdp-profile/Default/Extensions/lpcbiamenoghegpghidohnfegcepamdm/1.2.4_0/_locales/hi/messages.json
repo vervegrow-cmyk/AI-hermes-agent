@@ -1,0 +1,48 @@
+{
+   "done": {
+      "message": "Done"
+   },
+   "downloadAll": {
+      "message": "Download all"
+   },
+   "downloadStartedALot": {
+      "message": "Downloading ($AMOUNT$ videos)...",
+      "placeholders": {
+         "AMOUNT": {
+            "content": "$1"
+         }
+      }
+   },
+   "downloadStartedOne": {
+      "message": "Downloading..."
+   },
+   "extDesc": {
+      "message": "अभी वीडियो डाउनलोड करें, बाद में देखें। तेज़, हल्का और विश्वसनीय वीडियो डाउनलोडर"
+   },
+   "extName": {
+      "message": "वीडियो डाउनलोडर जो काम करता है! ऑनलाइन वीडियो सेव करें"
+   },
+   "foundVideos": {
+      "message": "$AMOUNT$ videos found",
+      "placeholders": {
+         "AMOUNT": {
+            "content": "$1"
+         }
+      }
+   },
+   "hideButtons": {
+      "message": "Hide buttons"
+   },
+   "linkCopied": {
+      "message": "Link copied"
+   },
+   "noVideos": {
+      "message": "No videos were found"
+   },
+   "sidebar": {
+      "message": "Sidebar view"
+   },
+   "youtubeError": {
+      "message": "Due to the privacy policies of Google, videos are not downloaded from YouTube"
+   }
+}

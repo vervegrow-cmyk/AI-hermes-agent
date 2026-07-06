@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "cuts": [
+    {
+      "id": "scene-01-hook",
+      "source": "main-vacuum",
+      "in_seconds": 0.0,
+      "out_seconds": 2.4,
+      "transform": {
+        "animation": "ken-burns"
+      },
+      "transition_out": "fade",
+      "transition_duration": 0.3,
+      "reason": "Start with the full product shape for instant recognition."
+    },
+    {
+      "id": "scene-02-display",
+      "source": "display-crop",
+      "in_seconds": 2.4,
+      "out_seconds": 4.9,
+      "transform": {
+        "animation": "zoom-in"
+      },
+      "reason": "Focus attention on the circular display as a visible premium detail."
+    },
+    {
+      "id": "scene-03-tools",
+      "source": "attachments-crop",
+      "in_seconds": 4.9,
+      "out_seconds": 8.2,
+      "transform": {
+        "animation": "ken-burns"
+      },
+      "reason": "Use the accessory crop to support the multi-tool message."
+    },
+    {
+      "id": "scene-04-modes",
+      "source": "source-collage",
+      "in_seconds": 8.2,
+      "out_seconds": 11.8,
+      "transform": {
+        "animation": "zoom-in"
+      },
+      "reason": "Use the full collage for a clear stick-to-handheld comparison moment."
+    },
+    {
+      "id": "scene-05-close",
+      "source": "main-vacuum",
+      "in_seconds": 11.8,
+      "out_seconds": 15.5,
+      "transform": {
+        "animation": "ken-burns"
+      },
+      "reason": "End on the product again for a clean CTA."
+    }
+  ],
+  "audio": {},
+  "subtitles": {
+    "enabled": false
+  },
+  "renderer_family": "product-reveal",
+  "render_runtime": "remotion",
+  "composition_mode": "templated",
+  "metadata": {
+    "playbook": "flat-motion-graphics",
+    "target_duration_seconds": 15.5,
+    "delivery_promise": {
+      "mode": "still-led product promo",
+      "notes": "Only visible product elements from the screenshot are used."
+    }
+  }
+}

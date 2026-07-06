@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Aktyvuoti licenciją"
+   },
+   "activateHint": {
+      "message": "Įklijuokite kodą iš el. pašto."
+   },
+   "activateTitle": {
+      "message": "Aktyvuoti Premium"
+   },
+   "activatedSub": {
+      "message": "Neriboti atsisiuntimai · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium aktyvuotas!"
+   },
+   "alreadyBought": {
+      "message": "Jau įsigijote?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Šis kodas jau naudotas kitame įrenginyje."
+   },
+   "clearHistory": {
+      "message": "Išvalyti"
+   },
+   "days": {
+      "message": "dienų · baigiasi"
+   },
+   "deactivate": {
+      "message": "Išjungti licenciją"
+   },
+   "deactivateConfirm": {
+      "message": "Išjungti Premium licenciją šiame įrenginyje?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Visi"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Patinka TubeVD?"
+   },
+   "enterCode": {
+      "message": "Įveskite savo licencijos raktą."
+   },
+   "enterKey": {
+      "message": "🔑 Įvesti licencijos raktą"
+   },
+   "expired": {
+      "message": "⚠️ Šios licencijos galiojimas baigėsi."
+   },
+   "extDesc": {
+      "message": "Atsisiųskite vaizdo įrašus iš Facebook, Twitter, Vimeo, Dailymotion ir 1000+ svetainių HD, 4K, 8K kokybe."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "DUK"
+   },
+   "free": {
+      "message": "Nemokama"
+   },
+   "genericError": {
+      "message": "Kažkas nutiko. Susisiekite su support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Gauti Premium — 4,99$/mėn."
+   },
+   "getPremiumLink": {
+      "message": "Gauti Premium ↗"
+   },
+   "guarantee": {
+      "message": "30 dienų pinigų grąžinimo garantija"
+   },
+   "history": {
+      "message": "Atsisiuntimų istorija"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Neteisingas licencijos raktas."
+   },
+   "invalidFormat": {
+      "message": "Neteisingas formatas. Turi prasidėti TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Licencijos raktas"
+   },
+   "limit": {
+      "message": "Riba"
+   },
+   "limitHint": {
+      "message": "Nemokamas planas: 5 atsisiuntimai per dieną."
+   },
+   "limitTitle": {
+      "message": "Pasiekta dienos riba"
+   },
+   "networkError": {
+      "message": "⚠️ Ryšio klaida."
+   },
+   "noCode": {
+      "message": "Dar neturite kodo?"
+   },
+   "noHistory": {
+      "message": "Dar nėra atsisiuntimų."
+   },
+   "noVideos": {
+      "message": "Vaizdo įrašų nerasta"
+   },
+   "noVideosHint": {
+      "message": "Užveskite pelę ant vaizdo įrašo, kad pamatytumėte atsisiuntimo mygtuką."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Įvertinti"
+   },
+   "rateUs": {
+      "message": "⭐ Įvertinkite mus"
+   },
+   "scanning": {
+      "message": "Ieškoma vaizdo įrašų..."
+   },
+   "serverError": {
+      "message": "⚠️ Serverio klaida."
+   },
+   "startDown": {
+      "message": "Pradėti atsisiuntimą ↓"
+   },
+   "support": {
+      "message": "Palaikymas"
+   },
+   "unlimited": {
+      "message": "Neribota"
+   },
+   "upgradeBtn": {
+      "message": "Atnaujinti į Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Atnaujinti ↗"
+   },
+   "upgradeTitle": {
+      "message": "Atnaujinti į Premium"
+   },
+   "usageLeft": {
+      "message": "atsisiuntimų liko šiandien"
+   },
+   "usageOf": {
+      "message": "iš"
+   },
+   "validFor": {
+      "message": "Galioja"
+   },
+   "verifying": {
+      "message": "Tikrinama…"
+   },
+   "videoDetected": {
+      "message": "vaizdo įrašas rastas"
+   },
+   "videosDetected": {
+      "message": "vaizdo įrašų rasta"
+   },
+   "ytBlocked": {
+      "message": "YouTube nepalaikomas"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD gerbia YouTube paslaugų teikimo sąlygas."
+   },
+   "ytTry": {
+      "message": "Išbandykite Facebook, Vimeo, Twitter ir 1000+ kitų svetainių."
+   }
+}

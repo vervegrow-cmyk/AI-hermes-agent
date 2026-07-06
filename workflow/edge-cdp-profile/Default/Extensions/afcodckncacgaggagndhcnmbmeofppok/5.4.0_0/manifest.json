@@ -1,0 +1,35 @@
+{
+   "action": {
+      "default_icon": "logo.png",
+      "default_popup": "src/pages/popup/index.html"
+   },
+   "background": {
+      "service_worker": "src/pages/background/index.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "css": [ "contentStyle.css" ],
+      "js": [ "src/pages/content/index.js" ],
+      "matches": [ "https://chat.openai.com/*", "https://*.chatgpt.com/*", "https://chatgpt.com/*", "https://chatgpt2evernote.com/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "devtools_page": "src/pages/devtools/index.html",
+   "host_permissions": [ "https://*.openai.com/", "https://*.chatgpt.com/*", "https://chatgpt.com/*", "https://chatgpt2evernote.com/*" ],
+   "icons": {
+      "128": "logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAugMJFzTTtB+LwLn4reWZVKHK/8pp5NjrBQPBVMxpO6vCnrRsL/dldq6sA6ETLGPF523pTFwwidQKUYKYaxOI8JALhXJk1lmnm8J9zxq9/lf0GSlkAFgEux7FO15GTrNTsfpNN1veprWL3Bcd+xdVcv0OGXY41vOdK5cmot0E33eyr/+vd2FdAFqNo8aFdo4Tl2fzh9XpKfadk9tRymW0U0Beel4bK4sDQX4MWfk5FHIdY5dRwUo6aPFjgyyDRA1u4vTFuqbRVy6QDPD8m4/FO+yxNHUlsbqqugOXw4kfROQ8fr+4hF8EJCMp073plH15ar7UiRe2XIqLR58HxbDRmwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "options_ui": {
+      "page": "src/pages/options/index.html"
+   },
+   "permissions": [ "tabs", "activeTab", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.4.0",
+   "web_accessible_resources": [ {
+      "matches": [  ],
+      "resources": [ "contentStyle.css", "logo.png" ]
+   } ]
+}

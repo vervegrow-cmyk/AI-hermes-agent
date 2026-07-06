@@ -1,0 +1,232 @@
+.mengbanTwitter_video {
+  top: 34px;
+  left: 57px;
+}
+
+svg {
+  transform: translateY(2px);
+}
+
+i {
+  font-style: normal;
+}
+
+.downloadBtnTwitter:hover>span {
+  display: inline-block;
+}
+
+.downloadBtnTwitter:hover+.checkbox {
+  display: none;
+}
+
+.downloadBtnTwitter:hover+i {
+  display: none;
+}
+
+.downloadBtnTwitter::after {
+  content: "Download";
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 34px;
+  min-height: 24px;
+  line-height: 24px;
+  text-align: center;
+  cursor: default;
+  color: #fff;
+  white-space: nowrap;
+  z-index: 9999;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  font-size: 12px;
+  min-width: 80px;
+  border-radius: 3px 3px 3px 3px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.downloadBtnTwitter {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+}
+
+.downloadBtnTwitterDetail {
+  top: 20px;
+  left: 100px;
+}
+
+.downloadBtnTwitter:hover::after {
+  display: block !important;
+}
+
+.svdTwitter {
+  background: #efefef;
+  position: relative;
+  box-sizing: border-box;
+  width: 22px;
+  height: 22px;
+}
+
+.mengbanTwitter {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: block;
+  z-index: 100;
+  width: 22px;
+  height: 22px;
+}
+
+.videoDownTwitter {
+  position: absolute;
+  left: 0px;
+  display: inline-block;
+  z-index: 100;
+  background: #409EFF;
+  color: #fff;
+  border-radius: 8px;
+  width: 50px;
+  height: 23px;
+  line-height: 23px;
+  cursor: pointer;
+  text-align: center;
+  top: 30px;
+  font-size: 14px;
+}
+
+.audioDownTwitter {
+  position: absolute;
+  left: 0px;
+  display: inline-block;
+  z-index: 100;
+  background: #409EFF;
+  color: #fff;
+  border-radius: 8px;
+  width: 50px;
+  height: 23px;
+  line-height: 23px;
+  cursor: pointer;
+  text-align: center;
+  top: 60px;
+  font-size: 14px;
+}
+
+.videoDownTwitter:hover,
+.audioDownTwitter:hover {
+  background: #0079d3;
+}
+
+*:hover>.mengbanTwitter {
+  display: block !important;
+}
+
+.downloadBtnTwitter:hover::after {
+  display: block !important;
+}
+
+
+.mengbanIns_video {
+  top: 34px;
+  left: 57px;
+}
+
+svg {
+  transform: translateY(2px);
+}
+
+i {
+  font-style: normal;
+}
+
+.downloadBtnIns:hover>span {
+  display: inline-block;
+}
+
+.downloadBtnIns:hover+.checkbox {
+  display: none;
+}
+
+.downloadBtnIns:hover+i {
+  display: none;
+}
+
+.downloadBtnIns::after {
+  content: "Download";
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 34px;
+  min-height: 24px;
+  line-height: 24px;
+  text-align: center;
+  cursor: default;
+  color: #fff;
+  white-space: nowrap;
+  z-index: 9999;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  font-size: 12px;
+  min-width: 80px;
+  border-radius: 3px 3px 3px 3px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.downloadBtnIns {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+  z-index: 99999;
+}
+
+.downloadBtnInsDetail {
+  top: 20px;
+  left: 100px;
+}
+
+.downloadBtnIns:hover::after {
+  display: block !important;
+}
+
+.svdIns {
+  background: #efefef;
+  position: relative;
+  box-sizing: border-box;
+  width: 22px;
+  height: 22px;
+}
+
+.mengbanIns {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: block;
+  z-index: 100;
+  width: 22px;
+  height: 22px;
+  z-index: 999999;
+}
+
+*:hover>.mengbanIns {
+  display: block !important;
+}
+
+.downloadBtnIns:hover::after {
+  display: block !important;
+}
+
+.down-tip-p {
+  position: fixed !important;
+  width: 300px !important;
+  line-height: 3 !important;
+  font-size: 16px !important;
+  color: #fff !important;
+  text-align: center !important;
+  border-radius: 8px !important;
+  background: #409EFF;
+}

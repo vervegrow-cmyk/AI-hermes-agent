@@ -1,0 +1,1 @@
+{"deps":{"%ROOT%/pkg/bext/lum/fonts/Gibson-Medium.woff":"md5-10a47148ade04bdfa575575e1ab83d9b"},"gen_deps":{},"signatures":{"md5name":"8129453fb4bcb648ecffb72b017709d3","size":16608,"md5":"10a47148ade04bdfa575575e1ab83d9b","tscur":1615990799726},"signature":"md5-10a47148ade04bdfa575575e1ab83d9b","arch":"X86","flags":{"config":"DIST=APP CONFIG_BEXT=y","vary":[]}}

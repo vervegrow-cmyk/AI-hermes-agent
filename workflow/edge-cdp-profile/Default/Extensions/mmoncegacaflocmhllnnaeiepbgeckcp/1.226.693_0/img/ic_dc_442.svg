@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+    <defs>
+        <style>
+            .cls-1{fill:#d8e3e8}.cls-2{fill:#b2c8d3}.cls-3{fill:rgba(0,77,116,.1)}.cls-4{fill:#6d96ac}.cls-5{clip-path:url(#clip-path)}
+        </style>
+        <clipPath id="clip-path">
+            <path id="SVGID" d="M1334.6-90a9.962 9.962 0 0 0-9.6 9.923c0 6.875 6.6 12.778 9.078 14.75a1.485 1.485 0 0 0 1.852 0c2.528-2.014 9.327-8.1 9.063-15.143a10.018 10.018 0 0 0-10-9.533c-.13 0-.261 0-.393.008" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="ic_dc_44" transform="translate(-1301 109)">
+        <path id="Rectangle_1990" d="M1306.5-95h24a5.5 5.5 0 0 1 5.5 5.5 5.5 5.5 0 0 1-5.5 5.5h-24a5.5 5.5 0 0 1-5.5-5.5 5.5 5.5 0 0 1 5.5-5.5z" class="cls-2" data-name="Rectangle 1990"/>
+        <path id="Path_37892" d="M1336-87v-3.745a10.5 10.5 0 0 0-2.733-.246A11.184 11.184 0 0 0 1323.5-84h9.5a3 3 0 0 0 3-3z" class="cls-3" data-name="Path 37892"/>
+        <path id="Rectangle_1992" d="M1306.5-81h24a5.5 5.5 0 0 1 5.5 5.5 5.5 5.5 0 0 1-5.5 5.5h-24a5.5 5.5 0 0 1-5.5-5.5 5.5 5.5 0 0 1 5.5-5.5z" class="cls-2" data-name="Rectangle 1992"/>
+        <path id="Rectangle_1994" d="M1306.5-109h24a5.5 5.5 0 0 1 5.5 5.5 5.5 5.5 0 0 1-5.5 5.5h-24a5.5 5.5 0 0 1-5.5-5.5 5.5 5.5 0 0 1 5.5-5.5z" class="cls-2" data-name="Rectangle 1994"/>
+        <path id="Rectangle_1995" d="M1306.5-105h7a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5h-7a1.5 1.5 0 0 1-1.5-1.5 1.5 1.5 0 0 1 1.5-1.5z" class="cls-4" data-name="Rectangle 1995"/>
+        <path id="Rectangle_1995-2" d="M1306.5-91h7a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5h-7a1.5 1.5 0 0 1-1.5-1.5 1.5 1.5 0 0 1 1.5-1.5z" class="cls-4" data-name="Rectangle 1995"/>
+        <path id="Rectangle_1995-3" d="M1306.5-77h7a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5h-7a1.5 1.5 0 0 1-1.5-1.5 1.5 1.5 0 0 1 1.5-1.5z" class="cls-4" data-name="Rectangle 1995"/>
+        <path id="Path_37893" d="M1336-73v-5a3 3 0 0 0-3-3h-10.263a11.045 11.045 0 0 0-.237 2.265 16.143 16.143 0 0 0 2.962 8.735H1333a3 3 0 0 0 3-3z" class="cls-3" data-name="Path 37893"/>
+        <g id="Group_1869" data-name="Group 1869">
+            <g id="Group_2212" data-name="Group 2212">
+                <g id="Group_2244" data-name="Group 2244">
+                    <g id="Group_2243" class="cls-5" data-name="Group 2243">
+                        <g id="Group_2211" data-name="Group 2211">
+                            <g id="Group_1868" data-name="Group 1868">
+                                <path id="Rectangle_508" d="M0 0h20.257v25.112H0z" class="cls-1" data-name="Rectangle 508" transform="translate(1325 -90.005)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,40 @@
+{
+   "action": {
+      "default_icon": "icons/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "popup"
+   },
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "css/chunk-vendors.css", "css/main.css", "css/content.css" ],
+      "js": [ "js/chunk-vendors.js", "js/content.js" ],
+      "matches": [ "*://*.etsy.com/c/*", "*://*.etsy.com/featured/*", "*://*.etsy.com/listing/*/*", "*://*.etsy.com/shop/*", "*://*.etsy.com/search?*", "*://*.etsy.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; frame-src 'self'; child-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "Free Etsy Tags Tool. Find the Best Listing Tags or Keywords for Etsy SEO Strategy.",
+   "externally_connectable": {
+      "matches": [ "https://ehunt.ai/*", "https://api.ehunt.ai/*", "https://etsyhunt.com/*", "https://dev.ehunt.ai/*", "https://devapi.ehunt.ai/*", "https://dev.etsyhunt.com/*" ]
+   },
+   "homepage_url": "https://etsyhunt.com",
+   "host_permissions": [ "*://*.etsyhunt.com/*" ],
+   "icons": {
+      "128": "icons/icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlY2/a3UG7/ZAQMtL3k6QZJQwpDPWSHbG/qUX+JzYY//2/lLjZbDWGfqNGMAy2ZsVjZRvnbZAAdEWeYaoaVxMd89VMPs8cYVBH6/pe5KFWclQhmKXuEHT+VGUIYQQhnSabn3gS0qXgNPad4Hkg/bcRHlihWakJqGiUdbKF16KH9RLP8iuJ+8BEVlDartTkNvmk/wQGbBHmyYMolEtGkAeM/KYMd+5DY0qCMpbPpipaAMcgM+Nvmloyj58AeeXEx2zgNnkZCfVx+iNXxIbu0JzB/uTPFM/CaJKzkEl4Szhc+pD1SzBJakUhgIRVCVZgXC3+9sN5Ch0XjQjd0WUFciIoQIDAQAB",
+   "manifest_version": 3,
+   "name": "Etsy™ Tags Tool for EHunt",
+   "optional_host_permissions": [ "*://*.ehunt.ai/*" ],
+   "permissions": [ "alarms", "tabs", "cookies", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5.6",
+   "web_accessible_resources": [ {
+      "matches": [ "https://www.etsy.com/*" ],
+      "resources": [ "img/*", "icons/*" ]
+   } ]
+}

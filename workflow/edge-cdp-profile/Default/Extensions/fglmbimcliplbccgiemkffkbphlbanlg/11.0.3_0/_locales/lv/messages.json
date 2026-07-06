@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Aktivizēt licenci"
+   },
+   "activateHint": {
+      "message": "Ielīmējiet kodu no e-pasta."
+   },
+   "activateTitle": {
+      "message": "Aktivizēt Premium"
+   },
+   "activatedSub": {
+      "message": "Neierobežotas lejupielādes · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium aktivizēts!"
+   },
+   "alreadyBought": {
+      "message": "Jau iegādājies?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Šis kods jau izmantots citā ierīcē."
+   },
+   "clearHistory": {
+      "message": "Notīrīt"
+   },
+   "days": {
+      "message": "dienas · beidzas"
+   },
+   "deactivate": {
+      "message": "Deaktivizēt licenci"
+   },
+   "deactivateConfirm": {
+      "message": "Deaktivizēt Premium licenci šajā ierīcē?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Visi"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Patīk TubeVD?"
+   },
+   "enterCode": {
+      "message": "Lūdzu, ievadiet licences atslēgu."
+   },
+   "enterKey": {
+      "message": "🔑 Ievadīt licences atslēgu"
+   },
+   "expired": {
+      "message": "⚠️ Šī licence ir beigusies."
+   },
+   "extDesc": {
+      "message": "Lejupielādējiet videoklipus no Facebook, Twitter, Vimeo, Dailymotion un 1000+ vietnēm HD, 4K, 8K kvalitātē."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "BUJ"
+   },
+   "free": {
+      "message": "Bezmaksas"
+   },
+   "genericError": {
+      "message": "Kaut kas nogāja greizi. Sazinieties ar support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Iegūt Premium — $4,99/mēn."
+   },
+   "getPremiumLink": {
+      "message": "Iegūt Premium ↗"
+   },
+   "guarantee": {
+      "message": "30 dienu naudas atgriešanas garantija"
+   },
+   "history": {
+      "message": "Lejupielāžu vēsture"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Nederīga licences atslēga."
+   },
+   "invalidFormat": {
+      "message": "Nepareizs formāts. Jāsākas ar TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Licences atslēga"
+   },
+   "limit": {
+      "message": "Limits"
+   },
+   "limitHint": {
+      "message": "Bezmaksas plāns: 5 lejupielādes/dienā."
+   },
+   "limitTitle": {
+      "message": "Sasniegts dienas limits"
+   },
+   "networkError": {
+      "message": "⚠️ Savienojuma kļūda."
+   },
+   "noCode": {
+      "message": "Vēl nav koda?"
+   },
+   "noHistory": {
+      "message": "Vēl nav lejupielāžu."
+   },
+   "noVideos": {
+      "message": "Videoklipi nav atrasti"
+   },
+   "noVideosHint": {
+      "message": "Virziet peli virs videoklipa, lai redzētu lejupielādes pogu."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Novērtēt"
+   },
+   "rateUs": {
+      "message": "⭐ Novērtējiet mūs"
+   },
+   "scanning": {
+      "message": "Meklē videoklipus..."
+   },
+   "serverError": {
+      "message": "⚠️ Servera kļūda."
+   },
+   "startDown": {
+      "message": "Sākt lejupielādi ↓"
+   },
+   "support": {
+      "message": "Atbalsts"
+   },
+   "unlimited": {
+      "message": "Neierobežots"
+   },
+   "upgradeBtn": {
+      "message": "Jaunināt uz Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Jaunināt ↗"
+   },
+   "upgradeTitle": {
+      "message": "Jaunināt uz Premium"
+   },
+   "usageLeft": {
+      "message": "lejupielādes atlikušas šodien"
+   },
+   "usageOf": {
+      "message": "no"
+   },
+   "validFor": {
+      "message": "Derīgs"
+   },
+   "verifying": {
+      "message": "Pārbauda…"
+   },
+   "videoDetected": {
+      "message": "videoklips atrasts"
+   },
+   "videosDetected": {
+      "message": "videoklipi atrasti"
+   },
+   "ytBlocked": {
+      "message": "YouTube netiek atbalstīts"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD ievēro YouTube lietošanas noteikumus."
+   },
+   "ytTry": {
+      "message": "Izmēģiniet Facebook, Vimeo, Twitter un 1000+ citas vietnes."
+   }
+}

@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Aktivirajte licencu"
+   },
+   "activateHint": {
+      "message": "Nalepite kod iz e-pošte."
+   },
+   "activateTitle": {
+      "message": "Aktivirajte Premium"
+   },
+   "activatedSub": {
+      "message": "Neograničena preuzimanja · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium aktiviran!"
+   },
+   "alreadyBought": {
+      "message": "Već ste kupili?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Ovaj kod je već korišćen."
+   },
+   "clearHistory": {
+      "message": "Obriši"
+   },
+   "days": {
+      "message": "dana · ističe"
+   },
+   "deactivate": {
+      "message": "Deaktivirajte licencu"
+   },
+   "deactivateConfirm": {
+      "message": "Deaktivirajte Premium licencu na ovom uređaju?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Sve"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Sviđa vam se TubeVD?"
+   },
+   "enterCode": {
+      "message": "Unesite licencni ključ."
+   },
+   "enterKey": {
+      "message": "🔑 Unesite licencni ključ"
+   },
+   "expired": {
+      "message": "⚠️ Ova licenca je istekla."
+   },
+   "extDesc": {
+      "message": "Preuzimajte video zapise sa Facebooka, Twittera, Vimea, Dailymotiona i 1000+ sajtova u HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "Česta pitanja"
+   },
+   "free": {
+      "message": "Besplatno"
+   },
+   "genericError": {
+      "message": "Nešto je pošlo naopako. Kontaktirajte support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Nabavite Premium — $4,99/mes."
+   },
+   "getPremiumLink": {
+      "message": "Nabavite Premium ↗"
+   },
+   "guarantee": {
+      "message": "30-dnevna garancija povrata novca"
+   },
+   "history": {
+      "message": "Istorija preuzimanja"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Nevažeći licencni ključ."
+   },
+   "invalidFormat": {
+      "message": "Nevažeći format. Mora počinjati sa TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Licencni ključ"
+   },
+   "limit": {
+      "message": "Limit"
+   },
+   "limitHint": {
+      "message": "Besplatni plan: 5 preuzimanja/dan."
+   },
+   "limitTitle": {
+      "message": "Dostignut dnevni limit"
+   },
+   "networkError": {
+      "message": "⚠️ Greška veze."
+   },
+   "noCode": {
+      "message": "Nemate još kod?"
+   },
+   "noHistory": {
+      "message": "Još nema preuzimanja."
+   },
+   "noVideos": {
+      "message": "Nisu pronađeni video zapisi"
+   },
+   "noVideosHint": {
+      "message": "Pređite mišem preko videa da biste videli dugme za preuzimanje."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Ocenite"
+   },
+   "rateUs": {
+      "message": "⭐ Ocenite nas"
+   },
+   "scanning": {
+      "message": "Traženje video zapisa..."
+   },
+   "serverError": {
+      "message": "⚠️ Greška servera."
+   },
+   "startDown": {
+      "message": "Počnite preuzimanje ↓"
+   },
+   "support": {
+      "message": "Podrška"
+   },
+   "unlimited": {
+      "message": "Neograničeno"
+   },
+   "upgradeBtn": {
+      "message": "Nadogradnja na Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Nadogradite ↗"
+   },
+   "upgradeTitle": {
+      "message": "Nadogradnja na Premium"
+   },
+   "usageLeft": {
+      "message": "preuzimanja ostalo danas"
+   },
+   "usageOf": {
+      "message": "od"
+   },
+   "validFor": {
+      "message": "Važi"
+   },
+   "verifying": {
+      "message": "Proveravanje…"
+   },
+   "videoDetected": {
+      "message": "video zapis pronađen"
+   },
+   "videosDetected": {
+      "message": "video zapisa pronađeno"
+   },
+   "ytBlocked": {
+      "message": "YouTube nije podržan"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD poštuje Uslove korišćenja YouTube-a."
+   },
+   "ytTry": {
+      "message": "Isprobajte Facebook, Vimeo, Twitter i 1000+ drugih sajtova."
+   }
+}

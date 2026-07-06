@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "라이선스 활성화"
+   },
+   "activateHint": {
+      "message": "이메일의 코드를 붙여넣으세요."
+   },
+   "activateTitle": {
+      "message": "프리미엄 활성화"
+   },
+   "activatedSub": {
+      "message": "무제한 다운로드 · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "프리미엄이 활성화되었습니다!"
+   },
+   "alreadyBought": {
+      "message": "이미 구매하셨나요?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ 이 코드는 다른 기기에서 이미 사용되었습니다."
+   },
+   "clearHistory": {
+      "message": "지우기"
+   },
+   "days": {
+      "message": "일 · 만료"
+   },
+   "deactivate": {
+      "message": "라이선스 비활성화"
+   },
+   "deactivateConfirm": {
+      "message": "이 기기에서 프리미엄 라이선스를 비활성화하시겠습니까?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ 전체"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "TubeVD가 마음에 드시나요?"
+   },
+   "enterCode": {
+      "message": "라이선스 키를 입력하세요."
+   },
+   "enterKey": {
+      "message": "🔑 라이선스 키 입력"
+   },
+   "expired": {
+      "message": "⚠️ 이 라이선스가 만료되었습니다."
+   },
+   "extDesc": {
+      "message": "Facebook, Twitter, Vimeo, Dailymotion 등 1000개 이상의 사이트에서 HD, 4K, 8K 동영상을 다운로드하세요."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "자주 묻는 질문"
+   },
+   "free": {
+      "message": "무료"
+   },
+   "genericError": {
+      "message": "문제가 발생했습니다. support@tubevd.com으로 연락하세요."
+   },
+   "getPremium": {
+      "message": "프리미엄 구매 — $4.99/월"
+   },
+   "getPremiumLink": {
+      "message": "프리미엄 구매 ↗"
+   },
+   "guarantee": {
+      "message": "30일 환불 보장"
+   },
+   "history": {
+      "message": "다운로드 기록"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ 잘못된 라이선스 키입니다."
+   },
+   "invalidFormat": {
+      "message": "잘못된 형식입니다. TUBEVD-로 시작해야 합니다."
+   },
+   "licenseKey": {
+      "message": "라이선스 키"
+   },
+   "limit": {
+      "message": "한도"
+   },
+   "limitHint": {
+      "message": "무료 플랜: 하루 5회 다운로드."
+   },
+   "limitTitle": {
+      "message": "일일 한도 도달"
+   },
+   "networkError": {
+      "message": "⚠️ 연결 오류."
+   },
+   "noCode": {
+      "message": "아직 코드가 없나요?"
+   },
+   "noHistory": {
+      "message": "다운로드 기록이 없습니다."
+   },
+   "noVideos": {
+      "message": "동영상을 찾을 수 없습니다"
+   },
+   "noVideosHint": {
+      "message": "페이지의 동영상 위에 마우스를 올리면 다운로드 버튼이 나타납니다."
+   },
+   "premiumBadge": {
+      "message": "프리미엄 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ 평가"
+   },
+   "rateUs": {
+      "message": "⭐ 평가하기"
+   },
+   "scanning": {
+      "message": "동영상 검색 중..."
+   },
+   "serverError": {
+      "message": "⚠️ 서버 오류."
+   },
+   "startDown": {
+      "message": "다운로드 시작 ↓"
+   },
+   "support": {
+      "message": "지원"
+   },
+   "unlimited": {
+      "message": "무제한"
+   },
+   "upgradeBtn": {
+      "message": "프리미엄 4K로 업그레이드"
+   },
+   "upgradeNow": {
+      "message": "업그레이드 ↗"
+   },
+   "upgradeTitle": {
+      "message": "프리미엄으로 업그레이드"
+   },
+   "usageLeft": {
+      "message": "오늘 남은 다운로드"
+   },
+   "usageOf": {
+      "message": "/"
+   },
+   "validFor": {
+      "message": "유효 기간"
+   },
+   "verifying": {
+      "message": "확인 중…"
+   },
+   "videoDetected": {
+      "message": "동영상 감지됨"
+   },
+   "videosDetected": {
+      "message": "동영상 감지됨"
+   },
+   "ytBlocked": {
+      "message": "YouTube는 지원되지 않습니다"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD는 YouTube의 서비스 약관을 준수합니다."
+   },
+   "ytTry": {
+      "message": "Facebook, Vimeo, Twitter 등 1,000개 이상의 사이트를 이용해 보세요."
+   }
+}

@@ -1,0 +1,9 @@
+
+#searchPage {
+  width: 100%;
+  min-width: 385px;
+  height: 164px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}

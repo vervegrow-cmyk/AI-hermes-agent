@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "project_id": "solar-fan-hat-clone-v2",
+  "pipeline_type": "exaggerated_viral_ad",
+  "stage": "assets",
+  "status": "completed",
+  "timestamp": "2026-07-04T04:35:12.241899+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "asset_manifest": {
+      "version": "1.0",
+      "assets": [],
+      "total_cost_usd": 0.0,
+      "metadata": {
+        "asset_count": 0
+      }
+    }
+  },
+  "metadata": {
+    "run_dir": "D:\\\u684c\u9762\u6587\u4ef6\u4e0b\u8f7d\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat-clone-v2_20260704_123156",
+    "product_json": "D:\\\u684c\u9762\u6587\u4ef6\u4e0b\u8f7d\\AI-hermes-agent\\external\\OpenMontage\\assets\\products\\solar_fan_hat\\product_clone_v2.json",
+    "created_by": "scripts/run_workflow.py"
+  }
+}

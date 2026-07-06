@@ -1,0 +1,446 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*depop.com/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://www.depop.com"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://www.depop.com/products/create/"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*facebook.com/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "accept",
+          "operation": "set",
+          "value": "*/*"
+        },
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://www.facebook.com"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://www.facebook.com/marketplace/create/item?ref=marketplace_vendoo"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "https://www.facebook.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*grailed.com/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://www.grailed.com"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://www.grailed.com/sell"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*filepicker.io/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://www.grailed.com"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://www.grailed.com/sell"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*kidizen.com/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://www.kidizen.com"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://www.kidizen.com/items/new"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*mercari.com/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://www.mercari.com"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://www.mercari.com/sell/"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*poshmark.com/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://poshmark.com"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://poshmark.com/create-listing"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*tradesy.com/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://www.tradesy.com"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://www.tradesy.com/sell"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*shopify.com/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://myshopify.com"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*myshopify.com/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://app.shopify.com"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*vestiairecollective.com/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://www.vestiairecollective.com"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://www.vestiairecollective.com/submit-an-item.shtml"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*vinted.co.uk/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://www.vinted.co.uk"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://www.vinted.co.uk/items/new"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*vinted.com/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://www.vinted.com"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://www.vinted.com/items/new"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*api.mapbox.com/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://web.vendoo.co/"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*s3-accelerate.amazonaws.com/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://web.depop.com/"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://*ebay.co.uk/*"
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://www.ebay.co.uk"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        }
+      ]
+    }
+  }
+]

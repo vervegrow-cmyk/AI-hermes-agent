@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="el_SOeiVN5j1">
+    <style>@-webkit-keyframes kf_el_Syw5lXvc8L_an_EwpJfZSLe{100%{opacity:
+        1;}0%{opacity: 1;}}@keyframes
+        kf_el_Syw5lXvc8L_an_EwpJfZSLe{100%{opacity: 1;}0%{opacity:
+        1;}}@-webkit-keyframes kf_el_LJ_4CjIUvN_an_uFrZO-mkd{0%{opacity:
+        1;}100%{opacity: 1;}}@keyframes
+        kf_el_LJ_4CjIUvN_an_uFrZO-mkd{0%{opacity: 1;}100%{opacity:
+        1;}}@-webkit-keyframes
+        kf_el_21XGN_b-sK_an_tUWZNzl2U{0%{-webkit-transform:
+        translate(47.99999809265137px, 48px) rotate(0deg)
+        translate(-47.99999809265137px, -48px);transform:
+        translate(47.99999809265137px, 48px) rotate(0deg)
+        translate(-47.99999809265137px, -48px);}49.02%{-webkit-transform:
+        translate(47.99999809265137px, 48px) rotate(360deg)
+        translate(-47.99999809265137px, -48px);transform:
+        translate(47.99999809265137px, 48px) rotate(360deg)
+        translate(-47.99999809265137px, -48px);}100%{-webkit-transform:
+        translate(47.99999809265137px, 48px) rotate(720deg)
+        translate(-47.99999809265137px, -48px);transform:
+        translate(47.99999809265137px, 48px) rotate(720deg)
+        translate(-47.99999809265137px, -48px);}}@keyframes
+        kf_el_21XGN_b-sK_an_tUWZNzl2U{0%{-webkit-transform:
+        translate(47.99999809265137px, 48px) rotate(0deg)
+        translate(-47.99999809265137px, -48px);transform:
+        translate(47.99999809265137px, 48px) rotate(0deg)
+        translate(-47.99999809265137px, -48px);}49.02%{-webkit-transform:
+        translate(47.99999809265137px, 48px) rotate(360deg)
+        translate(-47.99999809265137px, -48px);transform:
+        translate(47.99999809265137px, 48px) rotate(360deg)
+        translate(-47.99999809265137px, -48px);}100%{-webkit-transform:
+        translate(47.99999809265137px, 48px) rotate(720deg)
+        translate(-47.99999809265137px, -48px);transform:
+        translate(47.99999809265137px, 48px) rotate(720deg)
+        translate(-47.99999809265137px, -48px);}}#el_SOeiVN5j1
+        *{-webkit-animation-duration: 1.7s;animation-duration:
+        1.7s;-webkit-animation-iteration-count:
+        infinite;animation-iteration-count:
+        infinite;-webkit-animation-timing-function: cubic-bezier(0, 0, 1,
+        1);animation-timing-function: cubic-bezier(0, 0, 1,
+        1);}#el_JZ4_542JKs{fill: #526373;}#el_6EeOQHSBiK{fill: none;}#el_Af7ubRds3e{fill:
+        #fff;}#el_Syw5lXvc8L_an_x4l-AWxei{-webkit-transform: translate(46px,
+        30px) translate(-46px, -30px) translate(0px, 0px);transform:
+        translate(46px, 30px) translate(-46px, -30px) translate(0px,
+        0px);}#el_21XGN_b-sK_an_tUWZNzl2U{-webkit-animation-fill-mode:
+        forwards;animation-fill-mode: forwards;-webkit-transform:
+        translate(47.99999809265137px, 48px) rotate(0deg)
+        translate(-47.99999809265137px, -48px);transform:
+        translate(47.99999809265137px, 48px) rotate(0deg)
+        translate(-47.99999809265137px, -48px);-webkit-animation-name:
+        kf_el_21XGN_b-sK_an_tUWZNzl2U;animation-name:
+        kf_el_21XGN_b-sK_an_tUWZNzl2U;-webkit-animation-timing-function:
+        cubic-bezier(0, 0, 1, 1);animation-timing-function: cubic-bezier(0, 0,
+        1, 1);}#el_LJ_4CjIUvN{-webkit-animation-fill-mode:
+        forwards;animation-fill-mode: forwards;opacity:
+        1;-webkit-animation-name: kf_el_LJ_4CjIUvN_an_uFrZO-mkd;animation-name:
+        kf_el_LJ_4CjIUvN_an_uFrZO-mkd;-webkit-animation-timing-function:
+        cubic-bezier(0.42, 0, 0.58, 1);animation-timing-function:
+        cubic-bezier(0.42, 0, 0.58, 1);}#el_Syw5lXvc8L{visibility:
+        hidden;-webkit-animation-fill-mode: forwards;animation-fill-mode:
+        forwards;-webkit-animation-name:
+        kf_el_Syw5lXvc8L_an_EwpJfZSLe;animation-name:
+        kf_el_Syw5lXvc8L_an_EwpJfZSLe;-webkit-animation-timing-function:
+        cubic-bezier(0.42, 0, 0.58, 1);animation-timing-function:
+        cubic-bezier(0.42, 0, 0.58, 1);}
+    </style>
+    <defs/>
+    <title>switch</title>
+    <g id="el_21XGN_b-sK_an_tUWZNzl2U" data-animator-group="true"
+       data-animator-type="1">
+        <g id="el_21XGN_b-sK" data-name="2">
+            <path d="M32,48a15.92,15.92,0,0,1,5-11.59c2.87-2.73,5.19.74,3.07,2.62A12,12,0,1,0,57,40a10.87,10.87,0,0,0-1-1c-2.13-1.91.14-5.4,3-2.65A16,16,0,1,1,32,48Z"
+                  id="el_swUnolJti3"/>
+        </g>
+    </g>
+</svg>

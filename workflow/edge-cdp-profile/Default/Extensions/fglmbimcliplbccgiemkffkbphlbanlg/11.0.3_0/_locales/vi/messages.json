@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Kích hoạt bản quyền"
+   },
+   "activateHint": {
+      "message": "Dán mã từ email của bạn."
+   },
+   "activateTitle": {
+      "message": "Kích hoạt Premium"
+   },
+   "activatedSub": {
+      "message": "Tải không giới hạn · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Đã kích hoạt Premium!"
+   },
+   "alreadyBought": {
+      "message": "Đã mua rồi?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Mã này đã được sử dụng trên thiết bị khác."
+   },
+   "clearHistory": {
+      "message": "Xóa"
+   },
+   "days": {
+      "message": "ngày · hết hạn"
+   },
+   "deactivate": {
+      "message": "Hủy kích hoạt bản quyền"
+   },
+   "deactivateConfirm": {
+      "message": "Hủy kích hoạt bản quyền Premium trên thiết bị này?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Tất cả"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Bạn có thích TubeVD không?"
+   },
+   "enterCode": {
+      "message": "Vui lòng nhập khóa bản quyền."
+   },
+   "enterKey": {
+      "message": "🔑 Nhập khóa bản quyền"
+   },
+   "expired": {
+      "message": "⚠️ Bản quyền này đã hết hạn."
+   },
+   "extDesc": {
+      "message": "Tải video từ Facebook, Twitter, Vimeo, Dailymotion và 1000+ trang web ở chất lượng HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "Câu hỏi thường gặp"
+   },
+   "free": {
+      "message": "Miễn phí"
+   },
+   "genericError": {
+      "message": "Đã xảy ra lỗi. Liên hệ support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Dùng Premium — $4.99/tháng"
+   },
+   "getPremiumLink": {
+      "message": "Dùng Premium ↗"
+   },
+   "guarantee": {
+      "message": "Đảm bảo hoàn tiền 30 ngày"
+   },
+   "history": {
+      "message": "Lịch sử tải xuống"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Khóa bản quyền không hợp lệ."
+   },
+   "invalidFormat": {
+      "message": "Định dạng không hợp lệ. Phải bắt đầu bằng TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Khóa bản quyền"
+   },
+   "limit": {
+      "message": "Giới hạn"
+   },
+   "limitHint": {
+      "message": "Gói miễn phí: 5 lượt tải/ngày."
+   },
+   "limitTitle": {
+      "message": "Đã đạt giới hạn hàng ngày"
+   },
+   "networkError": {
+      "message": "⚠️ Lỗi kết nối."
+   },
+   "noCode": {
+      "message": "Chưa có mã?"
+   },
+   "noHistory": {
+      "message": "Chưa có lượt tải nào."
+   },
+   "noVideos": {
+      "message": "Không tìm thấy video"
+   },
+   "noVideosHint": {
+      "message": "Di chuột qua video bất kỳ để thấy nút tải xuống."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Đánh giá"
+   },
+   "rateUs": {
+      "message": "⭐ Đánh giá chúng tôi"
+   },
+   "scanning": {
+      "message": "Đang tìm kiếm video..."
+   },
+   "serverError": {
+      "message": "⚠️ Lỗi máy chủ."
+   },
+   "startDown": {
+      "message": "Bắt đầu tải ↓"
+   },
+   "support": {
+      "message": "Hỗ trợ"
+   },
+   "unlimited": {
+      "message": "Không giới hạn"
+   },
+   "upgradeBtn": {
+      "message": "Nâng cấp lên Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Nâng cấp ↗"
+   },
+   "upgradeTitle": {
+      "message": "Nâng cấp lên Premium"
+   },
+   "usageLeft": {
+      "message": "lượt tải còn lại hôm nay"
+   },
+   "usageOf": {
+      "message": "/"
+   },
+   "validFor": {
+      "message": "Có hiệu lực trong"
+   },
+   "verifying": {
+      "message": "Đang xác minh…"
+   },
+   "videoDetected": {
+      "message": "video được phát hiện"
+   },
+   "videosDetected": {
+      "message": "video được phát hiện"
+   },
+   "ytBlocked": {
+      "message": "Không hỗ trợ YouTube"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD tôn trọng Điều khoản dịch vụ của YouTube."
+   },
+   "ytTry": {
+      "message": "Hãy thử Facebook, Vimeo, Twitter và hơn 1.000 trang khác."
+   }
+}

@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "تفعيل الترخيص"
+   },
+   "activateHint": {
+      "message": "الصق الكود المرسل إلى بريدك الإلكتروني."
+   },
+   "activateTitle": {
+      "message": "تفعيل بريميوم"
+   },
+   "activatedSub": {
+      "message": "تحميلات غير محدودة · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "تم تفعيل بريميوم! 🎉"
+   },
+   "alreadyBought": {
+      "message": "اشتريت بالفعل؟"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ تم استخدام هذا الكود على جهاز آخر. تواصل مع الدعم."
+   },
+   "clearHistory": {
+      "message": "مسح"
+   },
+   "days": {
+      "message": "يوماً · ينتهي في"
+   },
+   "deactivate": {
+      "message": "إلغاء تفعيل الترخيص"
+   },
+   "deactivateConfirm": {
+      "message": "إلغاء تفعيل ترخيص بريميوم على هذا الجهاز؟"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ الكل"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "تستمتع بـ TubeVD؟"
+   },
+   "enterCode": {
+      "message": "الرجاء إدخال مفتاح الترخيص."
+   },
+   "enterKey": {
+      "message": "🔑 أدخل مفتاح الترخيص"
+   },
+   "expired": {
+      "message": "⚠️ انتهت صلاحية هذا الترخيص. تواصل مع الدعم للتجديد."
+   },
+   "extDesc": {
+      "message": "حمّل مقاطع الفيديو من فيسبوك وتويتر وفيميو وديلي موشن وأكثر من 1000 موقع بجودة HD و4K و8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "الأسئلة الشائعة"
+   },
+   "free": {
+      "message": "مجاني"
+   },
+   "genericError": {
+      "message": "حدث خطأ ما. تواصل مع support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "احصل على بريميوم — 4.99$/شهر"
+   },
+   "getPremiumLink": {
+      "message": "احصل على بريميوم ↗"
+   },
+   "guarantee": {
+      "message": "ضمان استرداد الأموال لمدة 30 يوماً"
+   },
+   "history": {
+      "message": "سجل التحميلات"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ مفتاح ترخيص غير صالح. تحقق من بريدك وحاول مجدداً."
+   },
+   "invalidFormat": {
+      "message": "صيغة غير صحيحة. يجب أن يبدأ بـ TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "مفتاح الترخيص"
+   },
+   "limit": {
+      "message": "الحد"
+   },
+   "limitHint": {
+      "message": "الخطة المجانية: 5 تحميلات/يوم. قم بالترقية للوصول غير المحدود."
+   },
+   "limitTitle": {
+      "message": "تم الوصول للحد اليومي"
+   },
+   "networkError": {
+      "message": "⚠️ خطأ في الاتصال. تحقق من الإنترنت وحاول مجدداً."
+   },
+   "noCode": {
+      "message": "ليس لديك كود بعد؟"
+   },
+   "noHistory": {
+      "message": "لا توجد تحميلات بعد."
+   },
+   "noVideos": {
+      "message": "لم يُكتشف أي فيديو"
+   },
+   "noVideosHint": {
+      "message": "مرّر الماوس فوق أي فيديو في الصفحة لظهور زر التحميل."
+   },
+   "premiumBadge": {
+      "message": "بريميوم 4K"
+   },
+   "pro": {
+      "message": "🔒 برو"
+   },
+   "rate": {
+      "message": "⭐ قيّم"
+   },
+   "rateUs": {
+      "message": "⭐ قيّمنا"
+   },
+   "scanning": {
+      "message": "جارٍ البحث عن فيديوهات..."
+   },
+   "serverError": {
+      "message": "⚠️ خطأ في الخادم. حاول مجدداً بعد لحظة."
+   },
+   "startDown": {
+      "message": "ابدأ التحميل ↓"
+   },
+   "support": {
+      "message": "الدعم"
+   },
+   "unlimited": {
+      "message": "غير محدود"
+   },
+   "upgradeBtn": {
+      "message": "الترقية إلى بريميوم 4K"
+   },
+   "upgradeNow": {
+      "message": "ترقية ↗"
+   },
+   "upgradeTitle": {
+      "message": "الترقية إلى بريميوم"
+   },
+   "usageLeft": {
+      "message": "تحميلات متبقية اليوم"
+   },
+   "usageOf": {
+      "message": "من"
+   },
+   "validFor": {
+      "message": "صالح لمدة"
+   },
+   "verifying": {
+      "message": "جارٍ التحقق…"
+   },
+   "videoDetected": {
+      "message": "فيديو مكتشف"
+   },
+   "videosDetected": {
+      "message": "فيديوهات مكتشفة"
+   },
+   "ytBlocked": {
+      "message": "يوتيوب غير مدعوم"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD يحترم شروط خدمة يوتيوب."
+   },
+   "ytTry": {
+      "message": "جرّب فيسبوك وفيميو وتويتر وأكثر من 1000 موقع آخر."
+   }
+}

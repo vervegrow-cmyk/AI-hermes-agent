@@ -1,0 +1,31 @@
+{
+  "batch_id": "9efc5b93-dcd9-4260-9ecc-f354535ef4d3",
+  "store_name": "demo-store",
+  "mode": "dry-run",
+  "status": "completed",
+  "processed_count": 1,
+  "success_count": 0,
+  "failed_count": 0,
+  "skipped_count": 0,
+  "manual_review_count": 0,
+  "started_at": "2026-06-26T11:17:44+00:00",
+  "finished_at": "2026-06-26T11:17:44+00:00",
+  "items": [
+    {
+      "store_name": "demo-store",
+      "giga_sku": "SKU-2",
+      "shopify_product_id": "prod-1",
+      "shopify_variant_id": "var-2",
+      "old_price": 15.0,
+      "supplier_cost": 12.0,
+      "target_price": 15.8,
+      "delta": 0.8,
+      "decision": "increase_price",
+      "reason_codes": [
+        "source_price_changed"
+      ],
+      "status": "planned",
+      "error_message": ""
+    }
+  ]
+}

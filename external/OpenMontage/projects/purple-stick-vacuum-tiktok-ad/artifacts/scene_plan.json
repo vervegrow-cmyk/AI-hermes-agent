@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "style_playbook": "flat-motion-graphics",
+  "scenes": [
+    {
+      "id": "scene-01-hook",
+      "type": "animation",
+      "description": "Lead with the main product silhouette as a fast product-intro hook.",
+      "start_seconds": 0.0,
+      "end_seconds": 2.4,
+      "script_section_id": "hook",
+      "movement": "slow zoom in",
+      "transition_out": "fade",
+      "narrative_role": "introduce_subject",
+      "information_role": "Show the product as a multi-use home cleaning tool",
+      "required_assets": [
+        {
+          "type": "image",
+          "description": "Main vacuum crop",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene-02-display",
+      "type": "text_card",
+      "description": "Highlight the round display and readable status-first feel.",
+      "start_seconds": 2.4,
+      "end_seconds": 4.9,
+      "script_section_id": "display",
+      "transition_in": "fade",
+      "transition_out": "cut",
+      "narrative_role": "deliver_payload",
+      "information_role": "Introduce the digital display element"
+    },
+    {
+      "id": "scene-03-tools",
+      "type": "animation",
+      "description": "Show included tools and quick-detail positioning.",
+      "start_seconds": 4.9,
+      "end_seconds": 8.2,
+      "script_section_id": "tools",
+      "transition_in": "cut",
+      "transition_out": "fade",
+      "narrative_role": "evidence",
+      "information_role": "Call out visible cleaning attachments"
+    },
+    {
+      "id": "scene-04-modes",
+      "type": "animation",
+      "description": "Frame the product as stick mode versus handheld mode.",
+      "start_seconds": 8.2,
+      "end_seconds": 11.8,
+      "script_section_id": "modes",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "narrative_role": "comparison",
+      "information_role": "Make the mode switching benefit easy to understand"
+    },
+    {
+      "id": "scene-05-close",
+      "type": "text_card",
+      "description": "End on a clean CTA with floor-head cleaning context.",
+      "start_seconds": 11.8,
+      "end_seconds": 15.5,
+      "script_section_id": "close",
+      "transition_in": "fade",
+      "narrative_role": "call_to_action",
+      "information_role": "Land a broad everyday-cleaning message"
+    }
+  ],
+  "metadata": {
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920"
+  }
+}

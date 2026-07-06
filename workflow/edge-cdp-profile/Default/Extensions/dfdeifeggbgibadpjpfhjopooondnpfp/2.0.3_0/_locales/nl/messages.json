@@ -1,0 +1,155 @@
+{
+   "content_downloadAudioText": {
+      "message": "Audio"
+   },
+   "content_downloadCoverText": {
+      "message": "Cover"
+   },
+   "content_downloadVideoText": {
+      "message": "Video"
+   },
+   "manifest_description": {
+      "message": "Download TikTok-video's zonder watermerk."
+   },
+   "manifest_name": {
+      "message": "TikTok Video-downloader"
+   },
+   "options_completeDownload": {
+      "message": "Download voltooid"
+   },
+   "options_completeDownloadTip": {
+      "message": "In de downloadvoltooidfase is het bestand gedownload en kunt u het gedownloade bestand bekijken in de bestandsbeheerder."
+   },
+   "options_downloadSetting": {
+      "message": "Downloadinstellingen"
+   },
+   "options_downloadSubdirectory": {
+      "message": "Download-submap"
+   },
+   "options_downloadSubdirectoryTip": {
+      "message": "Submap voor bestandsdownloads"
+   },
+   "options_downloadTipSetting": {
+      "message": "Downloadmelding"
+   },
+   "options_downloadTipSettingTip": {
+      "message": "Wanneer u op de downloadknop klikt, verschijnt er een downloadmelding in de rechterbovenhoek van het venster."
+   },
+   "options_enableSubdirectory": {
+      "message": "Submap"
+   },
+   "options_enableSubdirectoryTip": {
+      "message": "Of bestanden naar een submap moeten worden gedownload."
+   },
+   "options_pageTitle": {
+      "message": "TikTok Video Downloader"
+   },
+   "options_parseInformation": {
+      "message": "Informatie analyseren"
+   },
+   "options_parseInformationTip": {
+      "message": "In de fase van informatie-analyse zal de extensie alle benodigde informatie voor het downloaden analyseren."
+   },
+   "options_saveSetting": {
+      "message": "Instellingen opslaan"
+   },
+   "options_saveSuccess": {
+      "message": "Succesvol opgeslagen"
+   },
+   "options_startDownload": {
+      "message": "Download starten"
+   },
+   "options_startDownloadTip": {
+      "message": "In de downloadstartfase ziet u de browser een bestand downloaden en kunt u de voortgang van de download controleren op de downloadpagina van de browser."
+   },
+   "options_subdirectoryEmpty": {
+      "message": "Submap mag niet leeg zijn"
+   },
+   "options_subdirectoryIllegal": {
+      "message": "Submap bevat ongeldige tekens"
+   },
+   "options_subdirectoryName": {
+      "message": "Submapnaam"
+   },
+   "options_subdirectoryNameTip": {
+      "message": "Geef een submapnaam op"
+   },
+   "options_videoCreator": {
+      "message": "Maker"
+   },
+   "options_videoCreatorWithAt": {
+      "message": "Voeg een @-symbool toe voor de naam van de videomaker"
+   },
+   "options_videoCreatorWithAtTooltip": {
+      "message": "In de naam van het gedownloade videobestand wordt het @-symbool voor de naam van de maker toegevoegd."
+   },
+   "options_videoDescription": {
+      "message": "Beschrijving"
+   },
+   "options_videoDescriptionWithHashtag": {
+      "message": "Hashtags behouden in videobeschrijving"
+   },
+   "options_videoDescriptionWithHashtagTip": {
+      "message": "In de namen van gedownloade videobestanden de hashtags die beginnen met # in de videobeschrijving behouden."
+   },
+   "options_videoFileName": {
+      "message": "Videobestandsnaam"
+   },
+   "options_videoFileNameEmpty": {
+      "message": "Videobestandsnaam mag niet leeg zijn, selecteer er minstens één"
+   },
+   "options_videoFileNameTooltip": {
+      "message": "De naam van het gedownloade videobestand wordt gegenereerd op basis van de attributen en volgorde in het onderstaande invoerveld, gescheiden door spaties."
+   },
+   "options_videoHighestBitrate": {
+      "message": "Hoogste bitrate"
+   },
+   "options_videoHighestResolution": {
+      "message": "Hoogste resolutie"
+   },
+   "options_videoLargestFileSize": {
+      "message": "Grootste bestandsgrootte"
+   },
+   "options_videoQuality": {
+      "message": "Videokwaliteit"
+   },
+   "options_videoQualityTip": {
+      "message": "In welke kwaliteit video's moeten worden gedownload"
+   },
+   "options_videoResolution": {
+      "message": "Videoresolutie"
+   },
+   "options_videoVid": {
+      "message": "Video-ID"
+   },
+   "popup_feedback": {
+      "message": "Feedback"
+   },
+   "popup_feedbackEmailSubject": {
+      "message": "Feedback over TikTok Video Downloader"
+   },
+   "popup_review": {
+      "message": "Beoordelingen"
+   },
+   "popup_setting": {
+      "message": "Instellingen"
+   },
+   "snackbar_completeDownload": {
+      "message": "Download voltooid"
+   },
+   "snackbar_downloadFailed": {
+      "message": "Download mislukt, vernieuw de pagina en probeer het opnieuw"
+   },
+   "snackbar_findVidError": {
+      "message": "Kon de video-informatie niet analyseren, stuur een e-mail om het probleem te melden"
+   },
+   "snackbar_parseInformation": {
+      "message": "Informatie analyseren"
+   },
+   "snackbar_parseInformationFail": {
+      "message": "Kon de video-informatie niet analyseren, vernieuw de pagina en probeer het opnieuw"
+   },
+   "snackbar_startDownload": {
+      "message": "Download starten"
+   }
+}

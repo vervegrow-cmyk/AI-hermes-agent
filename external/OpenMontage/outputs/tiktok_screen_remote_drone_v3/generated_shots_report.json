@@ -1,0 +1,136 @@
+{
+  "output_dir": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\tiktok_screen_remote_drone_v3\\generated_shots",
+  "provider_order": [
+    "seedance",
+    "kling",
+    "veo",
+    "vidu",
+    "ark",
+    "pixverse",
+    "minimax",
+    "heygen"
+  ],
+  "shots": [
+    {
+      "shot_id": "shot_01_hand_place_drone",
+      "title": "Hand places drone on table",
+      "reference_image": "assets/products/screen_remote_drone/01_package.jpg",
+      "prompt": "Single continuous shot, vertical TikTok UGC product demo, realistic human hands place a compact black foldable beginner drone onto a clean light-wood desk, then set the screen remote beside it, casual home tech review vibe, natural indoor daylight, soft handheld camera micro-movement, product remains visually consistent with the reference, no logos added, no fake UI, no extra accessories beyond the product kit, photorealistic.",
+      "attempts": [
+        {
+          "provider": "seedance",
+          "success": true,
+          "error": null,
+          "cost_usd": 1.52,
+          "selected_provider": "seedance",
+          "selected_tool": "seedance_video",
+          "artifacts": [
+            "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\tiktok_screen_remote_drone_v3\\generated_shots\\shot_01_hand_place_drone_seedance.mp4"
+          ]
+        }
+      ],
+      "success": true,
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\tiktok_screen_remote_drone_v3\\generated_shots\\shot_01_hand_place_drone_seedance.mp4",
+      "total_cost_usd": 1.52,
+      "final_provider": "seedance",
+      "final_tool": "seedance_video"
+    },
+    {
+      "shot_id": "shot_02_hold_remote_screen",
+      "title": "Hands holding screen remote",
+      "reference_image": "assets/products/screen_remote_drone/02_screen_remote.jpg",
+      "prompt": "Single continuous shot, realistic vertical TikTok UGC clip, human hands hold a black screen remote controller for a beginner drone, the built-in screen glows and is clearly visible, thumbs naturally resting on the sticks, modern gadget review desk setup, clean background, subtle handheld motion, photoreal skin and textures, product design must stay consistent with the reference image.",
+      "attempts": [
+        {
+          "provider": "seedance",
+          "success": true,
+          "error": null,
+          "cost_usd": 1.52,
+          "selected_provider": "seedance",
+          "selected_tool": "seedance_video",
+          "artifacts": [
+            "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\tiktok_screen_remote_drone_v3\\generated_shots\\shot_02_hold_remote_screen_seedance.mp4"
+          ]
+        }
+      ],
+      "success": true,
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\tiktok_screen_remote_drone_v3\\generated_shots\\shot_02_hold_remote_screen_seedance.mp4",
+      "total_cost_usd": 1.52,
+      "final_provider": "seedance",
+      "final_tool": "seedance_video"
+    },
+    {
+      "shot_id": "shot_03_press_takeoff_button",
+      "title": "Finger presses takeoff button",
+      "reference_image": "assets/products/screen_remote_drone/04_one_click.jpg",
+      "prompt": "Macro close-up, vertical TikTok UGC product test, a human index finger presses the one-click takeoff button on a black beginner drone remote controller, satisfying tactile motion, the remote matches the reference product, realistic hand, natural lighting, shallow depth of field, no sci-fi interface, no text rendered in video, photorealistic.",
+      "attempts": [
+        {
+          "provider": "seedance",
+          "success": true,
+          "error": null,
+          "cost_usd": 1.52,
+          "selected_provider": "seedance",
+          "selected_tool": "seedance_video",
+          "artifacts": [
+            "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\tiktok_screen_remote_drone_v3\\generated_shots\\shot_03_press_takeoff_button_seedance.mp4"
+          ]
+        }
+      ],
+      "success": true,
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\tiktok_screen_remote_drone_v3\\generated_shots\\shot_03_press_takeoff_button_seedance.mp4",
+      "total_cost_usd": 1.52,
+      "final_provider": "seedance",
+      "final_tool": "seedance_video"
+    },
+    {
+      "shot_id": "shot_04_drone_hover",
+      "title": "Drone takeoff and hover",
+      "reference_image": "assets/products/screen_remote_drone/04_one_click.jpg",
+      "prompt": "Single continuous shot, realistic vertical TikTok UGC test clip, a compact black foldable beginner drone lifts off safely from a clean indoor table and hovers steadily at chest height, a person's hand lowers the remote slightly in frame, calm beginner-friendly demo, stable hovering, natural room lighting, the drone remains visually consistent with the reference, no dangerous environment, no crowds, no windows, photorealistic.",
+      "attempts": [
+        {
+          "provider": "seedance",
+          "success": true,
+          "error": null,
+          "cost_usd": 1.52,
+          "selected_provider": "seedance",
+          "selected_tool": "seedance_video",
+          "artifacts": [
+            "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\tiktok_screen_remote_drone_v3\\generated_shots\\shot_04_drone_hover_seedance.mp4"
+          ]
+        }
+      ],
+      "success": true,
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\tiktok_screen_remote_drone_v3\\generated_shots\\shot_04_drone_hover_seedance.mp4",
+      "total_cost_usd": 1.52,
+      "final_provider": "seedance",
+      "final_tool": "seedance_video"
+    },
+    {
+      "shot_id": "shot_05_pack_into_case",
+      "title": "Fold and pack into case",
+      "reference_image": "assets/products/screen_remote_drone/01_package.jpg",
+      "prompt": "Single continuous shot, realistic vertical TikTok UGC lifestyle clip, human hands fold up a compact black beginner drone and place it with the screen remote into a small black carrying case on a desk, quick practical pack-up moment, casual tech gadget vibe, natural light, product and case stay consistent with the reference image, no extra props, photorealistic.",
+      "attempts": [
+        {
+          "provider": "seedance",
+          "success": true,
+          "error": null,
+          "cost_usd": 1.52,
+          "selected_provider": "seedance",
+          "selected_tool": "seedance_video",
+          "artifacts": [
+            "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\tiktok_screen_remote_drone_v3\\generated_shots\\shot_05_pack_into_case_seedance.mp4"
+          ]
+        }
+      ],
+      "success": true,
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\tiktok_screen_remote_drone_v3\\generated_shots\\shot_05_pack_into_case_seedance.mp4",
+      "total_cost_usd": 1.52,
+      "final_provider": "seedance",
+      "final_tool": "seedance_video"
+    }
+  ],
+  "total_cost_usd": 7.6
+}

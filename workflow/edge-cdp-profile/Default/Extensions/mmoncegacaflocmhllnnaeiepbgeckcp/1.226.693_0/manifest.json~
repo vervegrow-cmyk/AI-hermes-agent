@@ -1,0 +1,63 @@
+{
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "img/brd_19_inactive.png",
+      "38": "img/brd_38_inactive.png",
+      "48": "img/brd_48_inactive.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Bright Data"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://luminati-china.biz/*",
+        "*://lum-bext.com/*",
+        "*://brightdata.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "description": "Changes location for manual data collection",
+  "icons": {
+    "16": "img/brd_16.png",
+    "48": "img/brd_48.png",
+    "96": "img/brd_96.png",
+    "128": "img/brd_128.png"
+  },
+  "incognito": "split",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo6XERMpdXxsuNp/sHqMZHAF65ehsJjIqdxGtRIYmj/3rpKU0yGj9Jz/KyjOrZaN048s7vsmwhGZyA7xF4kGIdxbksCdSCzV4dUYvYdQPIXj16yulXX8yh7AdlYwch7hlX6AdY42nvSjUAsH8PljwTNTQ5L12C4kdpIyU3JlLrSCehdHs4u4mcNyVm1+XzpB20nmT141CmlH729dxIVTWICo+XQntBKQPa0HVP8524XGerYTdnhN/tDgIO1xsBejIFu7QOf+U7NUzOo/syde6Dux4e3qehYI94QP84nyaRkyCczXVFosgx+7bGVFCgkjG1PxFBGblgmT9sR03+X8VqwIDAQAB",
+  "manifest_version": 2,
+  "name": "Bright Data",
+  "options_ui": {
+    "open_in_tab": true,
+    "page": "options.html"
+  },
+  "permissions": [
+    "<all_urls>",
+    "proxy",
+    "webRequest",
+    "webRequestBlocking",
+    "webNavigation",
+    "tabs",
+    "storage",
+    "privacy",
+    "cookies",
+    "browsingData"
+  ],
+  "version": "1.226.693",
+  "web_accessible_resources": [
+    "options.html",
+    "options.js",
+    "flags/*",
+    "img/*",
+    "fonts/*",
+    "inject_script.js",
+    "error.html"
+  ]
+}

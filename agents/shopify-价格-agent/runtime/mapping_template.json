@@ -1,0 +1,11 @@
+[
+  {
+    "store_name": "demo-store",
+    "giga_sku": "GIGA-SKU-001",
+    "shopify_product_id": "gid://shopify/Product/1234567890",
+    "shopify_variant_id": "gid://shopify/ProductVariant/1234567890",
+    "shopify_sku": "SHOPIFY-SKU-001",
+    "mapping_status": "active",
+    "updated_at": ""
+  }
+]

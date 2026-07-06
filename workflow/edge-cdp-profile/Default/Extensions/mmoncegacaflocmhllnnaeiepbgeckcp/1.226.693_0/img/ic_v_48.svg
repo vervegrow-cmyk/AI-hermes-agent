@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#00dc64}
+        </style>
+    </defs>
+    <g id="ic_v_48" transform="translate(-160 -168.16)">
+        <path id="Rectangle_1128" d="M0 0h48v48H0z" class="cls-1" data-name="Rectangle 1128" transform="translate(160 168.16)"/>
+        <g id="Group_1809" data-name="Group 1809" transform="translate(164 172.16)">
+            <path id="Path_37441" d="M167.854 176.028A19.985 19.985 0 1 1 162 190.16a19.255 19.255 0 0 1 5.854-14.132zm2.858 25.494a16.122 16.122 0 1 0-4.684-11.362 15.366 15.366 0 0 0 4.684 11.362z" class="cls-2" data-name="Path 37441" transform="translate(-162 -170.16)"/>
+            <path id="Path_37453" d="M167.854 176.028A19.985 19.985 0 1 1 162 190.16a19.255 19.255 0 0 1 5.854-14.132zm2.858 25.494a16.122 16.122 0 1 0-4.684-11.362 15.366 15.366 0 0 0 4.684 11.362z" class="cls-2" data-name="Path 37453" transform="translate(-162 -170.16)"/>
+        </g>
+        <path id="Union_5" d="M-920.293-1234.3l2.829-2.829 5.657 5.657 9.9-9.9 2.829 2.829-12.729 12.728z" class="cls-2" data-name="Union 5" transform="translate(1093.808 1425.808)"/>
+    </g>
+</svg>

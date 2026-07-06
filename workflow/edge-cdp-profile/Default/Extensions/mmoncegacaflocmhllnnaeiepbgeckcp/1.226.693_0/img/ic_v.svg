@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2{fill:none}
+        </style>
+    </defs>
+    <g id="ic_v" transform="translate(-152 -4558)">
+        <path id="_-e-down" d="M2711 2035l8 8 14-14-2-2-12 12-6-6z" class="cls-1" data-name="-e-down" transform="translate(-2553 2539)"/>
+        <path id="Rectangle_279" d="M0 0h32v32H0z" class="cls-2" data-name="Rectangle 279" transform="translate(152 4558)"/>
+    </g>
+</svg>

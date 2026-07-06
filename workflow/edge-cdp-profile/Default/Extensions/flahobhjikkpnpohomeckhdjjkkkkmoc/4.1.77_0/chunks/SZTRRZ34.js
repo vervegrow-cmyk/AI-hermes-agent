@@ -1,0 +1,1 @@
+import{K as o,ba as f}from"./JTEDBEB6.js";import{x as r}from"./I7CMQR2C.js";import{a as L}from"./BXPPDSGN.js";import{f as e}from"./3PS7M655.js";var i=e(L()),t=e(r()),u=s=>{let{href:n,underline:k="none",...l}=s,p=(0,i.useRef)(null);return(0,t.jsx)(o,{target:"_blank",ref:p,href:n!=null?n:"#",component:"a",underline:k,...l})},m=u;export{m as a};

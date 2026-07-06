@@ -1,0 +1,77 @@
+{
+  "version": "1.0",
+  "style_playbook": "flat-motion-graphics",
+  "scenes": [
+    {
+      "id": "scene-01-hook",
+      "type": "animation",
+      "description": "Open on the provided product image with a strong parent-problem hook.",
+      "start_seconds": 0.0,
+      "end_seconds": 2.5,
+      "script_section_id": "hook",
+      "movement": "slow zoom in",
+      "transition_out": "fade",
+      "narrative_role": "introduce_subject",
+      "information_role": "Frame the product as a practical parent solution",
+      "hero_moment": true,
+      "required_assets": [
+        {
+          "type": "image",
+          "description": "Provided product photo",
+          "source": "provided"
+        }
+      ]
+    },
+    {
+      "id": "scene-02-intro",
+      "type": "text_card",
+      "description": "Introduce the product by name and its 2-in-1 wireless plus wired position.",
+      "start_seconds": 2.5,
+      "end_seconds": 5.0,
+      "script_section_id": "intro",
+      "transition_in": "fade",
+      "transition_out": "cut",
+      "narrative_role": "deliver_payload",
+      "information_role": "State what the product is and why it is flexible"
+    },
+    {
+      "id": "scene-03-proof",
+      "type": "animation",
+      "description": "Show a stat-led proof beat for battery life and a comparison beat for kid-safe listening.",
+      "start_seconds": 5.0,
+      "end_seconds": 8.0,
+      "script_section_id": "proof",
+      "transition_in": "cut",
+      "transition_out": "fade",
+      "narrative_role": "evidence",
+      "information_role": "Anchor the video in visible packaging claims"
+    },
+    {
+      "id": "scene-04-benefits",
+      "type": "animation",
+      "description": "Turn comfort and use cases into a compact benefits grid over the product image.",
+      "start_seconds": 8.0,
+      "end_seconds": 12.5,
+      "script_section_id": "benefits",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "narrative_role": "resolution",
+      "information_role": "Translate features into everyday use cases"
+    },
+    {
+      "id": "scene-05-cta",
+      "type": "text_card",
+      "description": "Close with a clean CTA over the same product image for continuity.",
+      "start_seconds": 12.5,
+      "end_seconds": 15.5,
+      "script_section_id": "cta",
+      "transition_in": "fade",
+      "narrative_role": "call_to_action",
+      "information_role": "Prompt the viewer to shop"
+    }
+  ],
+  "metadata": {
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920"
+  }
+}

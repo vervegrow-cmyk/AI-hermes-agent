@@ -1,0 +1,1 @@
+{"deps":{"%ROOT%/pkg/bext/lum/img/switch_disabled.svg":"md5-695fab67ec86f8e5d5bd59c77f72eabe"},"gen_deps":{},"signatures":{"md5name":"430bab04d7700dc6af765bbd78224052","size":484,"md5":"695fab67ec86f8e5d5bd59c77f72eabe","tscur":1615990799723},"signature":"md5-695fab67ec86f8e5d5bd59c77f72eabe","arch":"X86","flags":{"config":"DIST=APP CONFIG_BEXT=y","vary":[]}}

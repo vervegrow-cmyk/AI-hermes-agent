@@ -1,0 +1,31 @@
+{
+   "author": "support@make.com",
+   "background": {
+      "presistent": false,
+      "service_worker": "service_worker.js"
+   },
+   "content_security_policy": {
+      "extension_pages": "default-src 'self'; script-src-elem 'self' static.integromat.com data: https://static.integromat.com; connect-src * data: blob: filesystem:;style-src 'self' 'unsafe-inline' static.integromat.com data: https://fonts.googleapis.com https://static.integromat.com https://cdn.make.com; img-src 'self' static.integromat.com data: https://static.integromat.com  cdn.make.com data: https://cdn.make.com; frame-src 'self' data:;font-src 'self' static.integromat.com data: https://fonts.gstatic.com https://static.integromat.com https://cdn.make.com; media-src * data: blob: filesystem:;object-src 'self';"
+   },
+   "description": "Inspect your scenarios in Make at a glance!",
+   "devtools_page": "index.html",
+   "externally_connectable": {
+      "ids": [ "*" ]
+   },
+   "host_permissions": [ "http://*/*", "https://*/*" ],
+   "icons": {
+      "1024": "icons/1024.png",
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4SSZ9q2Y2O60k8U5kfcw3EDamMl7dkikxqA+V9Yi/AbQzQuByEYWcTUMw8QV5SZbIZtWo+0ZuzTlVK+Gol7uGl02zHF2cPBUzsuhXS9zs0Aj8CgedXOItTz589KWC+c3EkkMDhP77KpBd391ffy/r0DxpB77vKr5vI1s9+5CQvrnuoHtuOILC5GE1fXeC5Cq6br1C/X81x22y7NQ/uQq0gtH1RIOj+Y9k7rZreKBEQuxscV/BqVRIFwz4NkvQ/kzBdLJcbvcogmlSeU1iNm8V5MRqiOcOQa204sMV+/WSxXaDdlv+TMfihcjSkxWbPTwxf17GrssXTNH6B5KPteEIwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88.0",
+   "name": "Make DevTool",
+   "permissions": [ "scripting", "storage", "activeTab" ],
+   "short_name": "Make DevTool",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.7.0"
+}

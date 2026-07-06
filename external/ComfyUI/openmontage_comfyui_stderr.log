@@ -1,0 +1,27 @@
+[32m[INFO][0m setup plugin alembic.autogenerate.schemas
+[32m[INFO][0m setup plugin alembic.autogenerate.tables
+[32m[INFO][0m setup plugin alembic.autogenerate.types
+[32m[INFO][0m setup plugin alembic.autogenerate.constraints
+[32m[INFO][0m setup plugin alembic.autogenerate.defaults
+[32m[INFO][0m setup plugin alembic.autogenerate.comments
+[1m[33m[WARNING][0m Could not autodetect AIMDO implementation, assuming Nvidia
+[32m[INFO][0m Found comfy_kitchen backend cuda: {'available': False, 'disabled': True, 'unavailable_reason': 'CUDA not available on this system', 'capabilities': []}
+[32m[INFO][0m Found comfy_kitchen backend eager: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['adaln', 'apply_rope', 'apply_rope1', 'apply_rope_split_half', 'apply_rope_split_half1', 'dequantize_int8_convrot_weight', 'dequantize_int8_convrot_weight_dtype', 'dequantize_int8_simple', 'dequantize_int8_simple_dtype', 'dequantize_mxfp8', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'gemv_awq_w4a16', 'int8_linear', 'quantize_and_rotate_rowwise', 'quantize_int8_convrot_weight', 'quantize_int8_rowwise', 'quantize_int8_tensorwise', 'quantize_mxfp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'quantize_svdquant_w4a4', 'scaled_mm_mxfp8', 'scaled_mm_nvfp4', 'scaled_mm_svdquant_w4a4', 'stochastic_rounding_fp8']}
+[32m[INFO][0m Found comfy_kitchen backend triton: {'available': False, 'disabled': True, 'unavailable_reason': "ImportError: No module named 'triton'", 'capabilities': []}
+[32m[INFO][0m Checkpoint files will always be loaded safely.
+Traceback (most recent call last):
+  File "D:\×ÀÃæÎÄ¼þÏÂÔØ\AI-hermes-agent\external\ComfyUI\main.py", line 227, in <module>
+    import execution
+  File "D:\×ÀÃæÎÄ¼þÏÂÔØ\AI-hermes-agent\external\ComfyUI\execution.py", line 18, in <module>
+    import comfy.model_management
+  File "D:\×ÀÃæÎÄ¼þÏÂÔØ\AI-hermes-agent\external\ComfyUI\comfy\model_management.py", line 362, in <module>
+    total_vram = get_total_memory(get_torch_device()) / (1024 * 1024)
+                                  ^^^^^^^^^^^^^^^^^^
+  File "D:\×ÀÃæÎÄ¼þÏÂÔØ\AI-hermes-agent\external\ComfyUI\comfy\model_management.py", line 211, in get_torch_device
+    return torch.device(torch.cuda.current_device())
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\cuda\__init__.py", line 1167, in current_device
+    _lazy_init()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\cuda\__init__.py", line 484, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled

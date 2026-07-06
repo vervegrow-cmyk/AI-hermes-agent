@@ -1,0 +1,37 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "img/brd_19_inactive.png",
+         "38": "img/brd_38_inactive.png",
+         "48": "img/brd_48_inactive.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Bright Data"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "*://luminati-china.biz/*", "*://lum-bext.com/*", "*://brightdata.com/*" ]
+   } ],
+   "description": "Changes location for manual data collection",
+   "icons": {
+      "128": "img/brd_128.png",
+      "16": "img/brd_16.png",
+      "48": "img/brd_48.png",
+      "96": "img/brd_96.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuDCh0j7s0DTa0K8Pg/HurxAvFZ7NcOyqYF5AY68xbSSbXabt8K0Wx8wgv21U5YXvvEOqMjphHgC3r7El8iJaCwJPClp99nyVjeLF9onb/Ktm7K5zpak4YioJgwT4vQitpcDtmc17oVf8z5KsDCup+vf5anBpYjpLFftEfZdnKWW9xhlZY1J+93vIdAKB88+wvPz/biZJcaDE7qD5ete/Uczll4IE4itLY6Cl0l8nKfbHn+4t3MReXSgiN8IFuIOpF6uJ01A2wUhI84pRm1KscZhWQBLTgVV+J+PufPvSsbT8XGv7gzDfBxUqZbliKAOYs+K9fUSz4J0lXuKDbuwIeQIDAQAB",
+   "manifest_version": 2,
+   "name": "Bright Data",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "\u003Call_urls>", "proxy", "webRequest", "webRequestBlocking", "webNavigation", "tabs", "storage", "privacy", "cookies", "browsingData" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.226.693",
+   "web_accessible_resources": [ "options.html", "options.js", "flags/*", "img/*", "fonts/*", "inject_script.js", "error.html" ]
+}

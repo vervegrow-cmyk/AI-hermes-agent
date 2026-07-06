@@ -1,0 +1,14 @@
+{
+   "desc": {
+      "message": "Laajenna ChatGPT-vihjeitäsi liittyvillä verkkohaun tuloksilla selailun avulla."
+   },
+   "name": {
+      "message": "WebChatGPT: Kehotekirjasto verkkoyhteydellä"
+   },
+   "sn": {
+      "message": "WebChatGPT"
+   },
+   "toggleWebAccess": {
+      "message": "Vaihda verkkopääsy"
+   }
+}

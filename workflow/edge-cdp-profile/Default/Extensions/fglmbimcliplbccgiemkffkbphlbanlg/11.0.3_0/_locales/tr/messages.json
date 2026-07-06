@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Lisansı Etkinleştir"
+   },
+   "activateHint": {
+      "message": "E-postanızdaki kodu yapıştırın."
+   },
+   "activateTitle": {
+      "message": "Premium'u Etkinleştir"
+   },
+   "activatedSub": {
+      "message": "Sınırsız indirme · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium Etkinleştirildi!"
+   },
+   "alreadyBought": {
+      "message": "Zaten satın aldınız mı?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Bu kod başka bir cihazda kullanıldı."
+   },
+   "clearHistory": {
+      "message": "Temizle"
+   },
+   "days": {
+      "message": "gün · bitiş"
+   },
+   "deactivate": {
+      "message": "Lisansı Devre Dışı Bırak"
+   },
+   "deactivateConfirm": {
+      "message": "Bu cihazda Premium lisansı devre dışı bırakılsın mı?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Hepsi"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "TubeVD'yi seviyor musunuz?"
+   },
+   "enterCode": {
+      "message": "Lisans anahtarınızı girin."
+   },
+   "enterKey": {
+      "message": "🔑 Lisans Anahtarı Gir"
+   },
+   "expired": {
+      "message": "⚠️ Bu lisansın süresi doldu."
+   },
+   "extDesc": {
+      "message": "Facebook, Twitter, Vimeo, Dailymotion ve 1000+ siteden HD, 4K, 8K kalitede video indirin."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "SSS"
+   },
+   "free": {
+      "message": "Ücretsiz"
+   },
+   "genericError": {
+      "message": "Bir şeyler ters gitti. support@tubevd.com ile iletişime geçin."
+   },
+   "getPremium": {
+      "message": "Premium Al — $4,99/ay"
+   },
+   "getPremiumLink": {
+      "message": "Premium Al ↗"
+   },
+   "guarantee": {
+      "message": "30 günlük para iade garantisi"
+   },
+   "history": {
+      "message": "İndirme Geçmişi"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Geçersiz lisans anahtarı."
+   },
+   "invalidFormat": {
+      "message": "Geçersiz format. TUBEVD- ile başlamalıdır."
+   },
+   "licenseKey": {
+      "message": "Lisans Anahtarı"
+   },
+   "limit": {
+      "message": "Limit"
+   },
+   "limitHint": {
+      "message": "Ücretsiz plan: 5 indirme/gün."
+   },
+   "limitTitle": {
+      "message": "Günlük limit doldu"
+   },
+   "networkError": {
+      "message": "⚠️ Bağlantı hatası."
+   },
+   "noCode": {
+      "message": "Henüz kodunuz yok mu?"
+   },
+   "noHistory": {
+      "message": "Henüz indirme yok."
+   },
+   "noVideos": {
+      "message": "Video bulunamadı"
+   },
+   "noVideosHint": {
+      "message": "İndirme düğmesini görmek için herhangi bir videonun üzerine gelin."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Değerlendir"
+   },
+   "rateUs": {
+      "message": "⭐ Bizi Değerlendir"
+   },
+   "scanning": {
+      "message": "Videolar aranıyor..."
+   },
+   "serverError": {
+      "message": "⚠️ Sunucu hatası."
+   },
+   "startDown": {
+      "message": "İndirmeye Başla ↓"
+   },
+   "support": {
+      "message": "Destek"
+   },
+   "unlimited": {
+      "message": "Sınırsız"
+   },
+   "upgradeBtn": {
+      "message": "Premium 4K'ya Geç"
+   },
+   "upgradeNow": {
+      "message": "Yükselt ↗"
+   },
+   "upgradeTitle": {
+      "message": "Premium'a Geç"
+   },
+   "usageLeft": {
+      "message": "indirme kaldı bugün"
+   },
+   "usageOf": {
+      "message": "/"
+   },
+   "validFor": {
+      "message": "Geçerli"
+   },
+   "verifying": {
+      "message": "Doğrulanıyor…"
+   },
+   "videoDetected": {
+      "message": "video bulundu"
+   },
+   "videosDetected": {
+      "message": "video bulundu"
+   },
+   "ytBlocked": {
+      "message": "YouTube desteklenmiyor"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD, YouTube'un Hizmet Şartlarına saygı gösterir."
+   },
+   "ytTry": {
+      "message": "Facebook, Vimeo, Twitter ve 1.000'den fazla siteyi deneyin."
+   }
+}

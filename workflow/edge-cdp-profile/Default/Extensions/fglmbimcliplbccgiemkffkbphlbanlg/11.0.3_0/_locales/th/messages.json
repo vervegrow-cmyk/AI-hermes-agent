@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "เปิดใช้งานใบอนุญาต"
+   },
+   "activateHint": {
+      "message": "วางรหัสจากอีเมลของคุณ"
+   },
+   "activateTitle": {
+      "message": "เปิดใช้งาน Premium"
+   },
+   "activatedSub": {
+      "message": "ดาวน์โหลดไม่จำกัด · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "เปิดใช้งาน Premium แล้ว!"
+   },
+   "alreadyBought": {
+      "message": "ซื้อแล้ว?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ รหัสนี้ถูกใช้ในอุปกรณ์อื่นแล้ว"
+   },
+   "clearHistory": {
+      "message": "ล้าง"
+   },
+   "days": {
+      "message": "วัน · หมดอายุ"
+   },
+   "deactivate": {
+      "message": "ปิดใช้งานใบอนุญาต"
+   },
+   "deactivateConfirm": {
+      "message": "ปิดใช้งานใบอนุญาต Premium บนอุปกรณ์นี้?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ ทั้งหมด"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "ชอบ TubeVD ไหม?"
+   },
+   "enterCode": {
+      "message": "กรุณาใส่รหัสใบอนุญาต"
+   },
+   "enterKey": {
+      "message": "🔑 ใส่รหัสใบอนุญาต"
+   },
+   "expired": {
+      "message": "⚠️ ใบอนุญาตนี้หมดอายุแล้ว"
+   },
+   "extDesc": {
+      "message": "ดาวน์โหลดวิดีโอจาก Facebook, Twitter, Vimeo, Dailymotion และ 1000+ เว็บไซต์ในคุณภาพ HD, 4K, 8K"
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "คำถามที่พบบ่อย"
+   },
+   "free": {
+      "message": "ฟรี"
+   },
+   "genericError": {
+      "message": "เกิดข้อผิดพลาด ติดต่อ support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "รับ Premium — $4.99/เดือน"
+   },
+   "getPremiumLink": {
+      "message": "รับ Premium ↗"
+   },
+   "guarantee": {
+      "message": "รับประกันคืนเงิน 30 วัน"
+   },
+   "history": {
+      "message": "ประวัติการดาวน์โหลด"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ รหัสใบอนุญาตไม่ถูกต้อง"
+   },
+   "invalidFormat": {
+      "message": "รูปแบบไม่ถูกต้อง ต้องขึ้นต้นด้วย TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "รหัสใบอนุญาต"
+   },
+   "limit": {
+      "message": "จำกัด"
+   },
+   "limitHint": {
+      "message": "แผนฟรี: 5 ครั้ง/วัน"
+   },
+   "limitTitle": {
+      "message": "ถึงขีดจำกัดรายวันแล้ว"
+   },
+   "networkError": {
+      "message": "⚠️ ข้อผิดพลาดในการเชื่อมต่อ"
+   },
+   "noCode": {
+      "message": "ยังไม่มีรหัส?"
+   },
+   "noHistory": {
+      "message": "ยังไม่มีการดาวน์โหลด"
+   },
+   "noVideos": {
+      "message": "ไม่พบวิดีโอ"
+   },
+   "noVideosHint": {
+      "message": "เลื่อนเมาส์ไปที่วิดีโอเพื่อดูปุ่มดาวน์โหลด"
+   },
+   "premiumBadge": {
+      "message": "พรีเมียม 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ ให้คะแนน"
+   },
+   "rateUs": {
+      "message": "⭐ ให้คะแนน"
+   },
+   "scanning": {
+      "message": "กำลังค้นหาวิดีโอ..."
+   },
+   "serverError": {
+      "message": "⚠️ ข้อผิดพลาดของเซิร์ฟเวอร์"
+   },
+   "startDown": {
+      "message": "เริ่มดาวน์โหลด ↓"
+   },
+   "support": {
+      "message": "สนับสนุน"
+   },
+   "unlimited": {
+      "message": "ไม่จำกัด"
+   },
+   "upgradeBtn": {
+      "message": "อัปเกรดเป็น Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "อัปเกรด ↗"
+   },
+   "upgradeTitle": {
+      "message": "อัปเกรดเป็น Premium"
+   },
+   "usageLeft": {
+      "message": "ครั้งที่เหลือวันนี้"
+   },
+   "usageOf": {
+      "message": "/"
+   },
+   "validFor": {
+      "message": "ใช้ได้"
+   },
+   "verifying": {
+      "message": "กำลังตรวจสอบ…"
+   },
+   "videoDetected": {
+      "message": "วิดีโอที่พบ"
+   },
+   "videosDetected": {
+      "message": "วิดีโอที่พบ"
+   },
+   "ytBlocked": {
+      "message": "ไม่รองรับ YouTube"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD เคารพข้อกำหนดการให้บริการของ YouTube"
+   },
+   "ytTry": {
+      "message": "ลอง Facebook, Vimeo, Twitter และเว็บไซต์อื่น ๆ กว่า 1,000 แห่ง"
+   }
+}

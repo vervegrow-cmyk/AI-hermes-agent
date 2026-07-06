@@ -1,0 +1,113 @@
+.mengbanReddit_video {
+    top: 34px;
+    left: 57px;
+  }
+  svg{
+    transform: translateY(2px);
+  }
+  
+  i{
+    font-style: normal;
+  }
+  .downloadBtnReddit:hover > span {
+    display: inline-block;
+  }
+  .downloadBtnReddit:hover +.checkbox{
+    display: none;
+  }
+  .downloadBtnReddit:hover +i{
+    display: none;
+  }
+  .downloadBtnReddit::after{
+    content: "Download";
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 34px;
+    min-height: 24px;
+    line-height: 24px;
+    text-align: center;
+    cursor: default;
+    color: #fff;
+    white-space: nowrap;
+    z-index: 9999;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    font-size: 12px;
+    min-width: 80px;
+    border-radius: 3px 3px 3px 3px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .downloadBtnReddit{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+  }
+  .downloadBtnRedditDetail {
+    top: 20px;
+    left: 100px;
+  }
+  .downloadBtnReddit:hover::after{
+    display: block !important;
+  }
+  .svdReddit {
+    background: #efefef;
+    position: relative;
+    box-sizing: border-box;
+    width: 22px;
+    height: 22px;
+  }
+  .mengbanReddit {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    z-index: 100;
+    width: 22px;
+    height: 22px;
+  }
+  .videoDownReddit {
+    position: absolute;
+    left: 0px;
+    display:inline-block;
+    z-index: 100;
+    background: #409EFF;
+    color: #fff;
+    border-radius: 8px;
+    width: 50px;
+    height: 23px;
+    line-height: 23px;
+    cursor: pointer;
+    text-align: center;
+    top: 30px;
+    font-size: 14px;
+  }
+  .audioDownReddit {
+    position: absolute;
+    left: 0px;
+    display: inline-block;
+    z-index: 100;
+    background: #409EFF;
+    color: #fff;
+    border-radius: 8px;
+    width: 50px;
+    height: 23px;
+    line-height: 23px;
+    cursor: pointer;
+    text-align: center;
+    top: 60px;
+    font-size: 14px;
+  }
+  .videoDownReddit:hover,  .audioDownReddit:hover {
+    background: #0079d3;
+  }
+  *:hover > .mengbanReddit {
+    display: block !important;
+  }
+  .downloadBtnReddit:hover::after{
+    display: block !important;
+  }

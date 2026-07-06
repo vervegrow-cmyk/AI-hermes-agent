@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "facebook.com",
+      "resourceTypes": ["sub_frame"]
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "sec-fetch-dest",
+          "operation": "set",
+          "value": "document"
+        }
+      ],
+      "responseHeaders": [
+        {
+          "header": "cross-origin-opener-policy",
+          "operation": "set",
+          "value": "same-origin"
+        },
+        {
+          "header": "ross-origin-resource-policy",
+          "operation": "set",
+          "value": "same-origin"
+        },
+        {
+          "header": "cross-origin-resource-policy",
+          "operation": "set",
+          "value": "same-origin"
+        },
+        {
+          "header": "document-policy",
+          "operation": "set",
+          "value": "force-load-at-top"
+        },
+        {
+          "header": "cross-origin-embedder-policy-report-only",
+          "operation": "remove"
+        },
+        {
+          "header": "report-to",
+          "operation": "remove"
+        },
+        {
+          "header": "x-fb-rlafr",
+          "operation": "set",
+          "value": "0"
+        },
+        {
+          "header": "x-frame-options",
+          "operation": "remove"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "condition": {
+      "initiatorDomains": ["simplytrends.co"],
+      "urlFilter": "||alicdn.com",
+      "resourceTypes": [
+        "image",
+        "media",
+        "main_frame",
+        "xmlhttprequest",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "origin",
+          "operation": "set",
+          "value": "https://www.aliexpress.com"
+        },
+        {
+          "header": "referer",
+          "operation": "set",
+          "value": "https://www.aliexpress.com/"
+        }
+      ]
+    }
+  }
+]

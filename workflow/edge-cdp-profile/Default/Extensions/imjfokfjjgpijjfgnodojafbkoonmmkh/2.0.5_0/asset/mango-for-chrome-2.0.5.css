@@ -1,0 +1,121 @@
+/**
+ * mango-for-chrome - v2.0.5
+ * vapour at 2026.06.30 19:13
+ */
+[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-animate){display:none !important;}ng\:form{display:block;}
+html,body{height:100%}
+.gather-bd{
+    min-height:100%;
+    padding-top:70px;
+    padding-bottom:50px;
+    background:#fff;
+}
+.mango-tips-container {
+    color: #fd8401;
+    /* text-align: center; */
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.mango-tips-content {
+    /* height: 40px; */
+    line-height: 24px;
+    position: relative;
+    background: #ccc;
+    opacity: .9;
+    padding: 10px;
+}
+
+.close-icon{
+    color: #000;
+    font-size: 14px;
+    position: absolute;
+    right: 21px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.gather-footer{
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    padding:0;
+    z-index:100;
+    background:#fff;
+    box-shadow:0px -1px 1px 0px #ccc;
+}
+.gather-toolbar{
+    padding:10px;
+}
+.gather-toolbar ul li{
+    margin-right:10px;
+}
+.gather-toolbar ul{
+    margin:0;
+    padding-top:5px;
+    font-size:16px;
+}
+.gather-toolbar ul strong{
+    margin-left:5px;
+}
+.gather-progress .highlight{
+    position:absolute;
+    left:0;
+    top:-1px;
+    border-top:3px solid rgb(66, 139, 202);
+
+    transition:width 0.2s;
+}
+.gather-progress ul{
+    display:flex;
+    list-style:none;
+    margin:0;
+    border-top:2px solid #ccc;
+    font-size:12px;
+}
+.gather-progress ul li{
+    position:relative;
+    flex:1;
+}
+.gather-progress ul li::after{
+    content:attr(data-page);
+    position:absolute;
+    top:0;
+    min-width:20px;
+    height:20px;
+    margin-top:-11px;
+    padding:0 4px;
+    border-radius:50%;
+    background:#ccc;
+    color:#fff;
+    line-height:20px;
+    text-align:center;
+}
+.gather-progress ul li.active::after{
+    background:rgb(66, 139, 202);
+}
+
+.table-outbox{
+    font-size:13px;
+}
+.table-outbox .result .fa{
+    font-size:14px;
+}
+.table-outbox img{
+    max-width:80px;
+    max-height:80px;
+}
+
+.prefetch{
+    width:200px;
+    margin:50px auto;
+    font-size:14px;
+    color:green;
+}
+.prefetch .fa-spinner{
+    margin-right:5px;
+    font-size:18px;
+}
+.fetch-time {
+    width: 60px;
+}

@@ -1,0 +1,1 @@
+{"deps":{"%ROOT%/pkg/bext/lum/img/brd_128.png":"md5-944f378cb1373603aa6ba52c819ed544"},"gen_deps":{},"signatures":{"md5name":"56ae69d180c97ac233cbd76b043e4b74","size":575,"md5":"944f378cb1373603aa6ba52c819ed544","tscur":1615990799717},"signature":"md5-944f378cb1373603aa6ba52c819ed544","arch":"X86","flags":{"config":"DIST=APP CONFIG_BEXT=y","vary":[]}}

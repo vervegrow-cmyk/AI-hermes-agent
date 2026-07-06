@@ -1,0 +1,1 @@
+{"deps":{"%ROOT%/pkg/bext/lum/fonts/Gibson-SemiBoldItalic.woff":"md5-7a5b1bc591b2925e59f74ddc522335d0"},"gen_deps":{},"signatures":{"md5name":"bfea32ee9855c0289e10f82fd242fb10","size":18812,"md5":"7a5b1bc591b2925e59f74ddc522335d0","tscur":1615990799728},"signature":"md5-7a5b1bc591b2925e59f74ddc522335d0","arch":"X86","flags":{"config":"DIST=APP CONFIG_BEXT=y","vary":[]}}

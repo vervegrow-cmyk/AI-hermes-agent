@@ -1,0 +1,71 @@
+<!doctype html>
+<html ng-app="mango">
+<head>
+	<meta charset="utf-8" />
+	<title>芒果店长选项</title>
+    <link rel="shortcut icon" href="http://asset.mangoerp.com/img/icon/favicon.ico" />
+    <link rel="stylesheet" href="http://asset.mangoerp.com/lib/ace-1.3.1/assets/css/??font-awesome.min.css,bootstrap.min.css,ace-skins.min.css,ace.css" />
+    <style type="text/css">
+        html,body{height:100%}
+        .gather-bd{
+            min-height:100%;
+            padding-top:70px;
+            padding-bottom:50px;
+            background:#fff;
+        }
+        .title {
+            width: 12%;
+        }
+        .second {
+            width: 120px;
+            vertical-align: text-bottom;
+            display: inline-block;
+        }
+        .fetch-input {
+            width: 60px!important;
+        }
+        .second .input-group-addon {
+            height: 34px;
+        }
+        .error {
+            display: inline-block;
+            color: red;
+        }
+    </style>
+</head>
+
+<body class="no-skin skin-3" ng-controller="mainCtrl as vm">
+    <div class="navbar h-navbar navbar-fixed-top">
+        <div class="navbar-container container">
+            <div class="navbar-header pull-left">
+                <a href="http://www.mangoerp.com/" class="navbar-logo" target="_blank"><img src="http://asset.mangoerp.com/img/icon/mangoerp.png" alt="logo"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container gather-bd">
+        <div class="checkbox">
+            <label><input ng-model="vm.data.showPageFetchBar" type="checkbox" ng-change="vm.save()">网页底部显示当前页面采集按钮</label>
+        </div>
+        <div class="checkbox">
+            <label><input ng-model="vm.data.showProductFetchBtn" type="checkbox" ng-change="vm.save()">商品显示采集按钮</label>
+        </div>
+        <div class="form-group">
+            <label class="title control-label">分类采集间隔时间</label>
+            <div class="second input-group">
+                <input type="number" class="form-control fetch-input" ng-model="vm.data.fetchTime" ng-change="vm.save()">
+                <div class="input-group-addon">秒</div>
+            </div>
+            <div ng-if="vm.data.fetchTime<0" class="error">请输入大于或者等于0的整数</div>
+        </div>
+        <hr />
+        <!-- <h5>自动认领到</h5>
+        <label class="checkbox-inline"><input ng-model="vm.data.site.ae" type="checkbox" value="ae" ng-change="vm.save()" />速卖通</label>
+        <label class="checkbox-inline"><input ng-model="vm.data.site.wish" type="checkbox" value="wish" ng-change="vm.save()" />wish</label>
+        <label class="checkbox-inline"><input ng-model="vm.data.site.lazada" type="checkbox" value="lazada" ng-change="vm.save()" />lazada</label>
+        <label class="checkbox-inline"><input ng-model="vm.data.site.ebay" type="checkbox" value="ebay" ng-change="vm.save()" />eBay</label> -->
+    </div>
+<script src="asset/lib/angular-1.3.0/angular.min.js"></script>
+<script src="asset/lib/options.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_close" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:rgba(0,77,116,.1)}
+        </style>
+    </defs>
+    <path id="Rectangle_487" d="M0 0h24v24H0z" class="cls-1" data-name="Rectangle 487"/>
+    <g id="Group_242" data-name="Group 242">
+        <path id="Path_7420" d="M19 6.409L13.381 12 19 17.591 17.595 19l-5.618-5.591L6.405 19 5 17.591 10.572 12 5 6.409 6.405 5l5.572 5.591L17.595 5z" class="cls-2" data-name="Path 7420"/>
+    </g>
+</svg>
+

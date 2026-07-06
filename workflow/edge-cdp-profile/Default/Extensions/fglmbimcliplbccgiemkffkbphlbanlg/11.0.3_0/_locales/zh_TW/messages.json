@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "啟用授權"
+   },
+   "activateHint": {
+      "message": "貼上電子郵件中的代碼。"
+   },
+   "activateTitle": {
+      "message": "啟用進階版"
+   },
+   "activatedSub": {
+      "message": "無限下載 · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "進階版已啟用！"
+   },
+   "alreadyBought": {
+      "message": "已購買？"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ 此代碼已在其他裝置使用。"
+   },
+   "clearHistory": {
+      "message": "清除"
+   },
+   "days": {
+      "message": "天 · 到期"
+   },
+   "deactivate": {
+      "message": "停用授權"
+   },
+   "deactivateConfirm": {
+      "message": "在此裝置上停用進階版授權？"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ 全部"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "喜歡TubeVD嗎？"
+   },
+   "enterCode": {
+      "message": "請輸入授權金鑰。"
+   },
+   "enterKey": {
+      "message": "🔑 輸入授權金鑰"
+   },
+   "expired": {
+      "message": "⚠️ 此授權已過期。"
+   },
+   "extDesc": {
+      "message": "從Facebook、Twitter、Vimeo、Dailymotion等1000+網站下載HD、4K、8K影片。"
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "常見問題"
+   },
+   "free": {
+      "message": "免費"
+   },
+   "genericError": {
+      "message": "發生錯誤。請聯絡 support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "取得進階版 — $4.99/月"
+   },
+   "getPremiumLink": {
+      "message": "取得進階版 ↗"
+   },
+   "guarantee": {
+      "message": "30天退款保證"
+   },
+   "history": {
+      "message": "下載記錄"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ 無效的授權金鑰。"
+   },
+   "invalidFormat": {
+      "message": "格式無效。必須以TUBEVD-開頭。"
+   },
+   "licenseKey": {
+      "message": "授權金鑰"
+   },
+   "limit": {
+      "message": "限制"
+   },
+   "limitHint": {
+      "message": "免費方案：每天5次下載。"
+   },
+   "limitTitle": {
+      "message": "已達每日限制"
+   },
+   "networkError": {
+      "message": "⚠️ 連線錯誤。"
+   },
+   "noCode": {
+      "message": "還沒有代碼？"
+   },
+   "noHistory": {
+      "message": "暫無下載記錄。"
+   },
+   "noVideos": {
+      "message": "未偵測到影片"
+   },
+   "noVideosHint": {
+      "message": "將滑鼠懸停在頁面上的任何影片上，即可看到下載按鈕。"
+   },
+   "premiumBadge": {
+      "message": "進階版 4K"
+   },
+   "pro": {
+      "message": "🔒 專業版"
+   },
+   "rate": {
+      "message": "⭐ 評價"
+   },
+   "rateUs": {
+      "message": "⭐ 評價我們"
+   },
+   "scanning": {
+      "message": "正在搜尋影片..."
+   },
+   "serverError": {
+      "message": "⚠️ 伺服器錯誤。"
+   },
+   "startDown": {
+      "message": "開始下載 ↓"
+   },
+   "support": {
+      "message": "支援"
+   },
+   "unlimited": {
+      "message": "無限制"
+   },
+   "upgradeBtn": {
+      "message": "升級至進階版4K"
+   },
+   "upgradeNow": {
+      "message": "升級 ↗"
+   },
+   "upgradeTitle": {
+      "message": "升級至進階版"
+   },
+   "usageLeft": {
+      "message": "今日剩餘下載次數"
+   },
+   "usageOf": {
+      "message": "/"
+   },
+   "validFor": {
+      "message": "有效期"
+   },
+   "verifying": {
+      "message": "驗證中…"
+   },
+   "videoDetected": {
+      "message": "個影片已偵測"
+   },
+   "videosDetected": {
+      "message": "個影片已偵測"
+   },
+   "ytBlocked": {
+      "message": "不支援YouTube"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD尊重YouTube的服務條款。"
+   },
+   "ytTry": {
+      "message": "請嘗試Facebook、Vimeo、Twitter等1000+其他網站。"
+   }
+}

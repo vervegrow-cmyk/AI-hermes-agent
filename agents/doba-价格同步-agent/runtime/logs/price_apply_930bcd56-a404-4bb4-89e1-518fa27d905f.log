@@ -1,0 +1,6 @@
+[STEP-START] batch=930bcd56-a404-4bb4-89e1-518fa27d905f phase=load_active_mappings message="加载 active 映射"
+[STEP-DONE] batch=930bcd56-a404-4bb4-89e1-518fa27d905f phase=load_active_mappings elapsed_ms=127 message="active=5"
+[STEP-START] batch=930bcd56-a404-4bb4-89e1-518fa27d905f phase=validate_mappings message="校验 active 映射"
+[STEP-DONE] batch=930bcd56-a404-4bb4-89e1-518fa27d905f phase=validate_mappings elapsed_ms=161 message="result=pass"
+[条目开始] 序号=1/5 doba_sku=D0102HHHDIP shopify_variant_id=gid://shopify/ProductVariant/51357209002290 说明="开始处理当前 SKU"
+[读取Doba] doba_sku=D0102HHHDIP 说明="正在读取 Doba 最新价格"

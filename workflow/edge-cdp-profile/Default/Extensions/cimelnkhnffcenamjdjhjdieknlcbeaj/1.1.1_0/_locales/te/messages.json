@@ -1,0 +1,20 @@
+{
+   "extDes": {
+      "message": "Chrome Professional video downloader and image downloader, you can download videos and pictures online. Free, safe and easy to use."
+   },
+   "extName": {
+      "message": "Unlimited Video Downloader - Save Video and Images"
+   },
+   "noVideo": {
+      "message": "Oops! Video not found"
+   },
+   "recordButton": {
+      "message": "Recording Download Mode"
+   },
+   "recordText": {
+      "message": "Some videos may need to be played to detect the link, if the video you want is not in the list, you can try to play it. If you still can't get the link after playing, try to refresh the current page, or use"
+   },
+   "recordTips": {
+      "message": "Tips: Keep a fixed resolution,automatic resolution switching will make the recorded video into multiple clips with different resolutions"
+   }
+}

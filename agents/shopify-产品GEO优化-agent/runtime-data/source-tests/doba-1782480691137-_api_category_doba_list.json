@@ -1,0 +1,5152 @@
+{
+  "source": "doba",
+  "endpoint": "/api/category/doba/list",
+  "method": "GET",
+  "ok": true,
+  "status": 200,
+  "request": {
+    "url": "https://openapi.doba.com/api/category/doba/list",
+    "query": {},
+    "signPayload": {
+      "appKey": "202606151516013765580029952",
+      "signType": "RSA2",
+      "timestamp": "1782480690266"
+    },
+    "headerNames": [
+      "Accept",
+      "Content-Type",
+      "appKey",
+      "signType",
+      "timestamp",
+      "sign",
+      "retailerId"
+    ]
+  },
+  "responsePreview": {
+    "responseCode": "000000",
+    "responseMessage": null,
+    "businessData": {
+      "businessStatus": "000000",
+      "businessMessage": "Success",
+      "data": [
+        {
+          "catId": "BovRVPJymYDO",
+          "catName": "Home, Garden & Tools",
+          "parentId": "qbbZvVVaVDDD",
+          "level": 1,
+          "node": [
+            {
+              "catId": "BnbHVcoNyJDM",
+              "catName": "Gifts",
+              "parentId": "BovRVPJymYDO",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "rEqHbnYtsPDQ",
+              "catName": "Bath",
+              "parentId": "BovRVPJymYDO",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "WyvjbnoWUcVe",
+                  "catName": "Bath Rugs",
+                  "parentId": "rEqHbnYtsPDQ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gvbWVEPtLcqJ",
+                  "catName": "Bath Towels",
+                  "parentId": "rEqHbnYtsPDQ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gpqRVEJyUPbY",
+                  "catName": "Bathroom Fittings & Accessories",
+                  "parentId": "rEqHbnYtsPDQ",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "rsVMvcojyPbw",
+              "catName": "Decor",
+              "parentId": "BovRVPJymYDO",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "riqKbocWNJDZ",
+                  "catName": "Home Decor",
+                  "parentId": "rsVMvcojyPbw",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "gIvbVJoWyPqj",
+                      "catName": "Other Home Decor",
+                      "parentId": "riqKbocWNJDZ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BfbjqPJFmYDS",
+                      "catName": "General Home Decor",
+                      "parentId": "riqKbocWNJDZ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WbvdVPJqlYqC",
+                      "catName": "Plants & Flowers",
+                      "parentId": "riqKbocWNJDZ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gcvjqPYfIJbL",
+                      "catName": "Clocks",
+                      "parentId": "riqKbocWNJDZ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gSqtbJocdcVj",
+                      "catName": "Home Decor Accents",
+                      "parentId": "riqKbocWNJDZ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WuDvVcJodPqy",
+                      "catName": "Mirrors",
+                      "parentId": "riqKbocWNJDZ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BIbaDJYGloVi",
+                      "catName": "Picture Frames",
+                      "parentId": "riqKbocWNJDZ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WQbdqPcSIYVl",
+                      "catName": "Slipcovers",
+                      "parentId": "riqKbocWNJDZ",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "BIbjDPoAlcVS",
+                  "catName": "Wall Art",
+                  "parentId": "rsVMvcojyPbw",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rYbDVGogqcvK",
+                  "catName": "Seasonal Decor",
+                  "parentId": "rsVMvcojyPbw",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "rgvPbHoyjYDc",
+              "catName": "Bedding",
+              "parentId": "BovRVPJymYDO",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "rzvMDEoRwcVY",
+                  "catName": "Bedding Sets & Collections",
+                  "parentId": "rgvPbHoyjYDc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AcDbVHYMsPvE",
+                  "catName": "Quilts & Sets",
+                  "parentId": "rgvPbHoyjYDc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ATvYbHPqjoVE",
+                  "catName": "Blankets & Throws",
+                  "parentId": "rgvPbHoyjYDc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gsDUVnYfjJbH",
+                  "catName": "Bed Pillows & Pillowcases",
+                  "parentId": "rgvPbHoyjYDc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WcqQbEPtwJDp",
+                  "catName": "Bedding Accessories",
+                  "parentId": "rgvPbHoyjYDc",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "glVPqHcoDJbd",
+              "catName": "Kitchen & Dining",
+              "parentId": "BovRVPJymYDO",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "gDvabEJdFPVq",
+                  "catName": "Food & Beverage",
+                  "parentId": "glVPqHcoDJbd",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WpvbVRPdFoqJ",
+                  "catName": "Bakeware",
+                  "parentId": "glVPqHcoDJbd",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "goDAVRcMFPvu",
+                  "catName": "Coffee, Tea & Espresso",
+                  "parentId": "glVPqHcoDJbd",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gkVaqHPyFJvB",
+                  "catName": "Cookware",
+                  "parentId": "glVPqHcoDJbd",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AbvRqEYBeoDd",
+                  "catName": "Dining & Entertaining",
+                  "parentId": "glVPqHcoDJbd",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "WeqMVHJUQYDN",
+                      "catName": "Other Dining & Entertaining Supplies",
+                      "parentId": "AbvRqEYBeoDd",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BJvWVHPNeYDI",
+                      "catName": "Bar Tools & Glasses",
+                      "parentId": "AbvRqEYBeoDd",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AgVnDRcqFJvd",
+                      "catName": "Dinnerware Sets",
+                      "parentId": "AbvRqEYBeoDd",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WwDybRojQYVI",
+                      "catName": "Glassware & Drinkware",
+                      "parentId": "AbvRqEYBeoDd",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WNvgDRcfFPbl",
+                      "catName": "Plates",
+                      "parentId": "AbvRqEYBeoDd",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "AJbkvGYDPoDq",
+                  "catName": "Other Kitchen & Dining Supplies",
+                  "parentId": "glVPqHcoDJbd",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "AEVMDHoCPYbq",
+                      "catName": "Commercial Espresso Machines & Coffee Makers",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AuVQvHPdocDq",
+                      "catName": "Commercial Food Storage",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rBveVHPDcobq",
+                      "catName": "Commercial Restaurant Sinks",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rZDyvnJyoYqV",
+                      "catName": "Concession & Vending Equipment",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AUbmVHcNYJDq",
+                      "catName": "Cooking Equipment",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "ryvbqHJYYoDV",
+                      "catName": "Cooking Equipment Accessories",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rIqWbEcyoYVv",
+                      "catName": "Dishwashing Equipment",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gqVWvHcDPJDK",
+                      "catName": "Display",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AFqgbnPCJcVe",
+                      "catName": "Disposables",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WcbYvnodPJVC",
+                      "catName": "Food & Dish Transport",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BGDHbEoCYcVK",
+                      "catName": "Food Merchandisers",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gObNqnYycovC",
+                      "catName": "Food Preparation Equipment",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AgVSvncNPJbK",
+                      "catName": "Food Warmers",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gTvQVHYYcJDF",
+                      "catName": "Menu & Check Displayers",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BLbwVGPNYJDQ",
+                      "catName": "Refrigeration Equipment",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BhbyvGoQYPDQ",
+                      "catName": "Restaurant Furniture",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rNqIVGJRYovF",
+                      "catName": "Shelves & Racks",
+                      "parentId": "AJbkvGYDPoDq",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "AmbZvHJqPcDY",
+                  "catName": "Kitchen & Table Linens",
+                  "parentId": "glVPqHcoDJbd",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "WIbwqGPoJYVo",
+                      "catName": "Aprons",
+                      "parentId": "AmbZvHJqPcDY",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BqbMvHPCocDn",
+                      "catName": "Cloth Napkins",
+                      "parentId": "AmbZvHJqPcDY",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rCqkvEYYJPbn",
+                      "catName": "Other Kitchen & Table Linens Supplies",
+                      "parentId": "AmbZvHJqPcDY",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rAvhbHYqPoVn",
+                      "catName": "Place Mats",
+                      "parentId": "AmbZvHJqPcDY",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "ATDkvEYUJPqR",
+                      "catName": "Potholders & Oven Mitts",
+                      "parentId": "AmbZvHJqPcDY",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WhqevEYtJoVR",
+                      "catName": "Tablecloths",
+                      "parentId": "AmbZvHJqPcDY",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "AFVdqEYycPvk",
+                  "catName": "Kitchen Utensils & Gadgets",
+                  "parentId": "glVPqHcoDJbd",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AnVtbRJoPYqS",
+                  "catName": "Kitchen Storage & Organization",
+                  "parentId": "glVPqHcoDJbd",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "WObpDRYBnoVJ",
+              "catName": "Furniture",
+              "parentId": "BovRVPJymYDO",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "ATbdDEcoHPVJ",
+                  "catName": "Bedroom Furniture",
+                  "parentId": "WObpDRYBnoVJ",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "gLqbVnoMRJvY",
+                      "catName": "Beds, Frames & Bases",
+                      "parentId": "ATbdDEcoHPVJ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rlbjVnoRRYvP",
+                      "catName": "Dressers",
+                      "parentId": "ATbdDEcoHPVJ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WDbmqRotnJVH",
+                      "catName": "Other Bedroom Furniture",
+                      "parentId": "ATbdDEcoHPVJ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AevdDEYyHcVR",
+                      "catName": "Nightstands",
+                      "parentId": "ATbdDEcoHPVJ",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "BWDRVGPtnYqE",
+                  "catName": "Living Room Furniture",
+                  "parentId": "WObpDRYBnoVJ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gcvebEJYnoDu",
+                  "catName": "Kitchen & Dining Room Furniture",
+                  "parentId": "WObpDRYBnoVJ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AJqmbHPqRovW",
+                  "catName": "Home Office Furniture",
+                  "parentId": "WObpDRYBnoVJ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "APDyVHYQncvf",
+                  "catName": "Kids' Furniture",
+                  "parentId": "WObpDRYBnoVJ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rLvaqGPWnYVs",
+                  "catName": "Home Entertainment Furniture",
+                  "parentId": "WObpDRYBnoVJ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rMVIvRYfEJbh",
+                  "catName": "Other Furniture & Replacement Parts",
+                  "parentId": "WObpDRYBnoVJ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WibDvRooHYql",
+                  "catName": "Bathroom Furniture",
+                  "parentId": "WObpDRYBnoVJ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AzbwqnJQOcDv",
+                  "catName": "Accent Furniture",
+                  "parentId": "WObpDRYBnoVJ",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "BSDQqnPtkcbv",
+                      "catName": "Other Accent Furniture",
+                      "parentId": "AzbwqnJQOcDv",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AvqDbEYwuJVC",
+                      "catName": "End Tables",
+                      "parentId": "AzbwqnJQOcDv",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WFbIVHYUkovK",
+                      "catName": "Ladder Shelves",
+                      "parentId": "AzbwqnJQOcDv",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BhbmvRPRuYDC",
+                      "catName": "Storage Cabinets",
+                      "parentId": "AzbwqnJQOcDv",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "catId": "WTDBvGJNpPbc",
+              "catName": "Home Improvement",
+              "parentId": "BovRVPJymYDO",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BLvtDRoQuJbc",
+                  "catName": "Heating, Cooling & Air Quality",
+                  "parentId": "WTDBvGJNpPbc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AzbDVRctpJvP",
+                  "catName": "Other Home Improvement Supplies",
+                  "parentId": "WTDBvGJNpPbc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AevPbEoYOJDR",
+                  "catName": "Building Supplies",
+                  "parentId": "WTDBvGJNpPbc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AcVCqEoYuPbR",
+                  "catName": "Electrical",
+                  "parentId": "WTDBvGJNpPbc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gaVjbRJoMoDE",
+                  "catName": "Lighting & Ceiling Fans",
+                  "parentId": "WTDBvGJNpPbc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BcDZbHPyOoVk",
+                  "catName": "Home Storage & Organization",
+                  "parentId": "WTDBvGJNpPbc",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "rMDdvHoRuYVO",
+              "catName": "Power & Hand Tools",
+              "parentId": "BovRVPJymYDO",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "AgvSDnJOMcqu",
+                  "catName": "Hand Tools",
+                  "parentId": "rMDdvHoRuYVO",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BpbSDGojMYqy",
+                  "catName": "Power Tools, Parts & Accessories",
+                  "parentId": "rMDdvHoRuYVO",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "givWqnJRAcVH",
+                  "catName": "Tool Organizers",
+                  "parentId": "rMDdvHoRuYVO",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gdqrVHoWBPvO",
+                  "catName": "Gardening Tools",
+                  "parentId": "rMDdvHoRuYVO",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "WbVUDGPQAJvj",
+              "catName": "Lamps & Light Fixtures",
+              "parentId": "BovRVPJymYDO",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "ASDRqEofWcbL",
+              "catName": "Kitchen & Bath Fixtures",
+              "parentId": "BovRVPJymYDO",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "gubdDHJiWovi",
+              "catName": "Hardware",
+              "parentId": "BovRVPJymYDO",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "rRDCVHoUUYvM",
+              "catName": "Appliances",
+              "parentId": "BovRVPJymYDO",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "WubIDGYfwJqp",
+                  "catName": "Kitchen Appliances",
+                  "parentId": "rRDCVHoUUYvM",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WhqZbRcvUJDw",
+                  "catName": "Other Appliances",
+                  "parentId": "rRDCVHoUUYvM",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BKbDqRYYhJVe",
+                  "catName": "Household Appliance",
+                  "parentId": "rRDCVHoUUYvM",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gPqDVEoBzYvH",
+                  "catName": "Appliance Parts & Accessories",
+                  "parentId": "rRDCVHoUUYvM",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "WGDrqHPQyovE",
+              "catName": "Patio, Lawn & Garden",
+              "parentId": "BovRVPJymYDO",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "AUVPbGJOmcDW",
+                  "catName": "Other Patio, Lawn & Garden Supplies",
+                  "parentId": "WGDrqHPQyovE",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WPqHvGcomYbU",
+                  "catName": "Patio Supplies",
+                  "parentId": "WGDrqHPQyovE",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "gkbjDRJiycqU",
+                      "catName": "Firepits",
+                      "parentId": "WPqHvGcomYbU",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AgDhbnovmYqL",
+                      "catName": "Other Patio Supplies",
+                      "parentId": "WPqHvGcomYbU",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gwVebEoWmJDU",
+                      "catName": "Patio Furniture Sets",
+                      "parentId": "WPqHvGcomYbU",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BmbkVEcSzPvj",
+                      "catName": "Patio Seating",
+                      "parentId": "WPqHvGcomYbU",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WSVpvGovyJDU",
+                      "catName": "Hammocks, Stands & Accessories",
+                      "parentId": "WPqHvGcomYbU",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rVDYqRJqyovi",
+                      "catName": "Tables",
+                      "parentId": "WPqHvGcomYbU",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rCqUVHcfiJDy",
+                      "catName": "Umbrellas & Shade",
+                      "parentId": "WPqHvGcomYbU",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WcDrVGJWiPqz",
+                      "catName": "Canopies, Gazebos & Pergolas",
+                      "parentId": "WPqHvGcomYbU",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "gqbtvGcNdPVJ",
+                  "catName": "Pools, Hot Tubs & Supplies",
+                  "parentId": "WGDrqHPQyovE",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "AODcqEPWdJVh",
+              "catName": "Fine Art",
+              "parentId": "BovRVPJymYDO",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "gMqSVpoRcYbr",
+              "catName": "Event & Party Supplies",
+              "parentId": "BovRVPJymYDO",
+              "level": 2,
+              "node": null
+            }
+          ]
+        },
+        {
+          "catId": "AnDbvgoDFcVY",
+          "catName": "Beauty & Health",
+          "parentId": "qbbZvVVaVDDD",
+          "level": 1,
+          "node": [
+            {
+              "catId": "BkDwvrYyQcVo",
+              "catName": "All Beauty",
+              "parentId": "AnDbvgoDFcVY",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BAqjVgcNCYbJ",
+                  "catName": "Makeup",
+                  "parentId": "BkDwvrYyQcVo",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "rsDMVBYyCcqP",
+                      "catName": "Eye Makeup",
+                      "parentId": "BAqjVgcNCYbJ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gzDWqAYqKobP",
+                      "catName": "Face Makeup",
+                      "parentId": "BAqjVgcNCYbJ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WIVebAJUFPvY",
+                      "catName": "Lip Makeup",
+                      "parentId": "BAqjVgcNCYbJ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AbvUqgPBecVE",
+                      "catName": "Other Makeup Products",
+                      "parentId": "BAqjVgcNCYbJ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WYVpqrPMeobH",
+                      "catName": "Makeup Sets",
+                      "parentId": "BAqjVgcNCYbJ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AHvgbWctCJDE",
+                      "catName": "Nail Makeup",
+                      "parentId": "BAqjVgcNCYbJ",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "rkDevBPEKoVH",
+                  "catName": "Skin Care",
+                  "parentId": "BkDwvrYyQcVo",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "BAqFbgoMCPDR",
+                      "catName": "Other Skin Care Products",
+                      "parentId": "rkDevBPEKoVH",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BtVnqrJUFYDR",
+                      "catName": "Face Care",
+                      "parentId": "rkDevBPEKoVH",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WUVSDBcOKPvn",
+                      "catName": "Eye Care",
+                      "parentId": "rkDevBPEKoVH",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WdDebroyKcVH",
+                      "catName": "Body Care",
+                      "parentId": "rkDevBPEKoVH",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gbqwDrotKcVk",
+                      "catName": "Foot, Hand & Nail Care",
+                      "parentId": "rkDevBPEKoVH",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AebUDWoUKYVM",
+                      "catName": "Sunscreens & Tanning Products",
+                      "parentId": "rkDevBPEKoVH",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "WMbpVrPUFYqO",
+                  "catName": "Hair Care",
+                  "parentId": "BkDwvrYyQcVo",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "gWvDbAcMCYVu",
+                      "catName": "Shampoo",
+                      "parentId": "WMbpVrPUFYqO",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rZbYqWJUCPDp",
+                      "catName": "Conditioner",
+                      "parentId": "WMbpVrPUFYqO",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WUqPVrJyFYDM",
+                      "catName": "Styling Products",
+                      "parentId": "WMbpVrPUFYqO",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BmDhvAoWCPVM",
+                      "catName": "Other Hair Care Products",
+                      "parentId": "WMbpVrPUFYqO",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BKbtVgJUQYDW",
+                      "catName": "Hair Accessories",
+                      "parentId": "WMbpVrPUFYqO",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WcVyqrPqKYvg",
+                      "catName": "Styling Tools & Appliances",
+                      "parentId": "WMbpVrPUFYqO",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AuvkDgcyQYVr",
+                      "catName": "Extensions, Wigs & Accessories",
+                      "parentId": "WMbpVrPUFYqO",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "WZDvqBctKPVA",
+                  "catName": "Fragrance",
+                  "parentId": "BkDwvrYyQcVo",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "WLVDbAcUKYqg",
+                      "catName": "Other Fragrance Products",
+                      "parentId": "WZDvqBctKPVA",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AhVjDWYWFcbr",
+                      "catName": "Candles & Home Scents",
+                      "parentId": "WZDvqBctKPVA",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rdDUvWofFPVB",
+                      "catName": "Perfume",
+                      "parentId": "WZDvqBctKPVA",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rFbpvAPtCJDZ",
+                      "catName": "Men's Fragrance",
+                      "parentId": "WZDvqBctKPVA",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WGVtvAJqKcDZ",
+                      "catName": "Women's Fragrance",
+                      "parentId": "WZDvqBctKPVA",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "AuqRDBPyQcvT",
+                  "catName": "Beauty Tools & Accessories",
+                  "parentId": "BkDwvrYyQcVo",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "gWvRDBoNQYVf",
+                      "catName": "Other Beauty Tools & Accessories",
+                      "parentId": "AuqRDBPyQcvT",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BzVvDrPNKoqa",
+                      "catName": "Feet, Hand & Nail Tools",
+                      "parentId": "AuqRDBPyQcvT",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rvDjVgPNKJqw",
+                      "catName": "Hair Styling Tools & Appliances",
+                      "parentId": "AuqRDBPyQcvT",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WCvhDBoQQYqs",
+                      "catName": "Makeup Brushes & Tools",
+                      "parentId": "AuqRDBPyQcvT",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rJvkqgYyecVj",
+                      "catName": "Mirrors & Magnifiers",
+                      "parentId": "AuqRDBPyQcvT",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "rNDQvBPoFJVL",
+                  "catName": "Oral Care",
+                  "parentId": "BkDwvrYyQcVo",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "AcvdbgJfYPVN",
+              "catName": "Men's Grooming",
+              "parentId": "AnDbvgoDFcVY",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "WPqSbBoQGYVR",
+              "catName": "Health, Household & Baby Care",
+              "parentId": "AnDbvgoDFcVY",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BRDdbAJonoqG",
+                  "catName": "Household Supplies",
+                  "parentId": "WPqSbBoQGYVR",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "WMVtvrJqHoDn",
+                      "catName": "Other Household Supplies",
+                      "parentId": "BRDdbAJonoqG",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gUDyvAJWnoVE",
+                      "catName": "Carpet Sweepers",
+                      "parentId": "BRDdbAJonoqG",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WNqbDgYNHPvn",
+                      "catName": "Dust Control Equipment",
+                      "parentId": "BRDdbAJonoqG",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "ACqjDgJNRcvp",
+                      "catName": "Garment Care",
+                      "parentId": "BRDdbAJonoqG",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AWvFqgPUnYbM",
+                      "catName": "Protective Clothing & Gear",
+                      "parentId": "BRDdbAJonoqG",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rfbHqAJqGPVp",
+                      "catName": "Shoe Brushes",
+                      "parentId": "BRDdbAJonoqG",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rwvPbAcQRoDg",
+                      "catName": "Cleaning Tools",
+                      "parentId": "BRDdbAJonoqG",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "gwqDvBJqRcbt",
+                  "catName": "Baby Care & Child Care",
+                  "parentId": "WPqSbBoQGYVR",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AMvQVWYNHobj",
+                  "catName": "Health Care",
+                  "parentId": "WPqSbBoQGYVR",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "rZbHqBYREoVU",
+                      "catName": "Nutritional Ingredients",
+                      "parentId": "AMvQVWYNHobj",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "ALbmvWJSGPDU",
+                      "catName": "Other Health Care Supplies",
+                      "parentId": "AMvQVWYNHobj",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rQvwqAPREYDh",
+                      "catName": "Foot Care",
+                      "parentId": "AMvQVWYNHobj",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WcqwbgYWEoDd",
+                      "catName": "First Aid",
+                      "parentId": "AMvQVWYNHobj",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gBqbVAJQRYvN",
+                      "catName": "Eye Care & Lens Care",
+                      "parentId": "AMvQVWYNHobj",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "AeDKVBoDkPvb",
+                  "catName": "Sexual Wellness",
+                  "parentId": "WPqSbBoQGYVR",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "WJvNqgoNOYVb",
+                      "catName": "Condoms & Lubes",
+                      "parentId": "AeDKVBoDkPvb",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WnbdVroquPDv",
+                      "catName": "Adult-Mature",
+                      "parentId": "AeDKVBoDkPvb",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BuDPVgoMMYvq",
+                      "catName": "Other Sexual Wellness Supplies",
+                      "parentId": "AeDKVBoDkPvb",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "gQbjVWcUuPDF",
+                  "catName": "Medical Supplies",
+                  "parentId": "WPqSbBoQGYVR",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BYbeDAcEMovP",
+                  "catName": "Personal Care",
+                  "parentId": "WPqSbBoQGYVR",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BFDdVAcQkJqH",
+                  "catName": "Wellness & Relaxation",
+                  "parentId": "WPqSbBoQGYVR",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "tyqmVJoSgYbf",
+              "catName": "Hemp CBD Products",
+              "parentId": "AnDbvgoDFcVY",
+              "level": 2,
+              "node": null
+            }
+          ]
+        },
+        {
+          "catId": "ZNbpvVJUQcqn",
+          "catName": "Outdoor",
+          "parentId": "qbbZvVVaVDDD",
+          "level": 1,
+          "node": [
+            {
+              "catId": "fbvjqVPYeoDk",
+              "catName": "Climbing",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "ZjbtDvoRFcVl",
+              "catName": "Cycling & Wheel Sports",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "tiDkbVoUYcvG",
+                  "catName": "Cycling & Wheel Sports Accessories",
+                  "parentId": "ZjbtDvoRFcVl",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "faVeqvJEcPDp",
+                      "catName": "Bike Frame-Mounted Pumps",
+                      "parentId": "tiDkbVoUYcvG",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "aQVjqDPBcJvW",
+                      "catName": "Cargo Cases",
+                      "parentId": "tiDkbVoUYcvG",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "fHqQDVJYYoba",
+                      "catName": "Hydration Packs & Bladders",
+                      "parentId": "tiDkbVoUYcvG",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "ZjqpvbYqocVs",
+                      "catName": "Other Accessories",
+                      "parentId": "tiDkbVoUYcvG",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "aiDjbVJOcYvL",
+                  "catName": "Bike Trainers",
+                  "parentId": "ZjbtDvoRFcVl",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "TpqvVDoznYbF",
+                  "catName": "Components & Parts",
+                  "parentId": "ZjbtDvoRFcVl",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "TDbyvVPUHYqf",
+                  "catName": "Electric Bikes",
+                  "parentId": "ZjbtDvoRFcVl",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "aEDbqVoYRYvZ",
+                  "catName": "Kids' Bikes Components & Parts",
+                  "parentId": "ZjbtDvoRFcVl",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "tqVPbDcCOoqA",
+                  "catName": "Other Cycles",
+                  "parentId": "ZjbtDvoRFcVl",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "ZLqabvPqroVY",
+              "catName": "Dog Sports",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "fHvPbqJEgcVR",
+              "catName": "Electronics",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "flqavDJRWoVR",
+              "catName": "RV Equipment",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "ahbRVDcWgPqN",
+              "catName": "Scooters",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "TwvQVbJBtoDF",
+              "catName": "Skateboarding",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "TzVHDqcQaPbO",
+              "catName": "Outdoor Recreation",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "tabDVvPUZoqg",
+              "catName": "Outdoor Furniture",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "ZwVpDbooTJvr",
+                  "catName": "Patio Furniture Sets",
+                  "parentId": "tabDVvPUZoqg",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "avVWDqJUZcbT",
+                      "catName": "Conversation Sets",
+                      "parentId": "ZwVpDbooTJvr",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "TebgqvYyfoDt",
+                      "catName": "Dining Sets",
+                      "parentId": "ZwVpDbooTJvr",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "fPDYvVJtToba",
+                      "catName": "Other Patio Furniture Sets",
+                      "parentId": "ZwVpDbooTJvr",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "aHqcvVYUZPDf",
+                  "catName": "Patio Seating",
+                  "parentId": "tabDVvPUZoqg",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "fuVkbqoqTJva",
+                      "catName": "Benches",
+                      "parentId": "aHqcvVYUZPDf",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "arDSvVofZPqT",
+                      "catName": "Patio Chairs",
+                      "parentId": "aHqcvVYUZPDf",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "aZVQDvoNfYqT",
+                      "catName": "Cushions",
+                      "parentId": "aHqcvVYUZPDf",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "avVrDqoyZPbL",
+                      "catName": "Porch Swings",
+                      "parentId": "aHqcvVYUZPDf",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "ZKqWDVPNtcvw",
+                      "catName": "Sofas",
+                      "parentId": "aHqcvVYUZPDf",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "TnveVbcUfYqj",
+                  "catName": "Patio Tables",
+                  "parentId": "tabDVvPUZoqg",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "faqIVvPiTcDL",
+                      "catName": "Coffee Tables",
+                      "parentId": "TnveVbcUfYqj",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "ZFqRDbJyTYVi",
+                      "catName": "Table Tops",
+                      "parentId": "TnveVbcUfYqj",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "fYDAvqcQtJVz",
+                      "catName": "Other Patio Tables",
+                      "parentId": "TnveVbcUfYqj",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "aHvWbqcoTJDi",
+                  "catName": "Umbrellas & Shade",
+                  "parentId": "tabDVvPUZoqg",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "tkvcqDYqTobh",
+                      "catName": "Other Umbrellas & Shade",
+                      "parentId": "aHvWbqcoTJDi",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "ZUbhvDcSfoqz",
+                      "catName": "Shade Sails",
+                      "parentId": "aHvWbqcoTJDi",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "aQbwvVJRfYDl",
+                      "catName": "Umbrellas",
+                      "parentId": "aHvWbqcoTJDi",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "tmVyqvoFZPbd",
+                  "catName": "Patio Furniture Covers",
+                  "parentId": "tabDVvPUZoqg",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "aMVPbqYMsJDe",
+                  "catName": "Hammocks, Stands & Accessories",
+                  "parentId": "tabDVvPUZoqg",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "TivmVDYOUoqF",
+                  "catName": "Other Patio Furniture",
+                  "parentId": "tabDVvPUZoqg",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "TNVhvqoWwPDQ",
+              "catName": "Outdoor Decor",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "tyqgbcYOWoDO",
+                  "catName": "Decoration Lighting",
+                  "parentId": "TNVhvqoWwPDQ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "tkbpvDJUwcqY",
+                  "catName": "Chimes",
+                  "parentId": "TNVhvqoWwPDQ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "TdDvqVJywcbo",
+                  "catName": "Doormats",
+                  "parentId": "TNVhvqoWwPDQ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "fCDSVvYQsPbM",
+                  "catName": "Decoration Lighting",
+                  "parentId": "TNVhvqoWwPDQ",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "ZJvRbVYtLoqM",
+                      "catName": "Solar Lights",
+                      "parentId": "fCDSVvYQsPbM",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "TkbYvqcyUPVB",
+                  "catName": "Outdoor Curtains",
+                  "parentId": "TNVhvqoWwPDQ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "fcDkqvYNwoVa",
+                  "catName": "Yard Signs",
+                  "parentId": "TNVhvqoWwPDQ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "THvMqDYqUobt",
+                  "catName": "Other Outdoor Decor",
+                  "parentId": "TNVhvqoWwPDQ",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "ZMbyqvYWscVf",
+              "catName": "Outdoor Storage",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "TbDYqvJtsoVU",
+              "catName": "Outdoor Heating & Cooling",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "TCDkvVJQLobN",
+              "catName": "Pools, Hot Tubs & Supplies",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "adqWvVoOmcDJ",
+              "catName": "Grills & Outdoor Cooking",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "ZBVPDqYohcvj",
+                  "catName": "Outdoor Kitchen Appliances & Storage",
+                  "parentId": "adqWvVoOmcDJ",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "tyvDqVPRzcbs",
+              "catName": "Playground & Park Equipment",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "TUVmbvPciJqI",
+              "catName": "Gardening & Lawn Care",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "aLvgVbPQlYDq",
+                  "catName": "Greenhouses & Accessories",
+                  "parentId": "TUVmbvPciJqI",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "aJVbvDoUlcqZ",
+                  "catName": "Plant Support Structures",
+                  "parentId": "TUVmbvPciJqI",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "fCVPqbJNNYvw",
+                  "catName": "Plants, Seeds & Bulbs",
+                  "parentId": "TUVmbvPciJqI",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "tWVdvqJFIoDz",
+                  "catName": "Pots, Planters & Container Accessories",
+                  "parentId": "TUVmbvPciJqI",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "fkvabKYCqJVD",
+                  "catName": "Watering Equipment",
+                  "parentId": "TUVmbvPciJqI",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "tVqjDKJCvcbE",
+                  "catName": "Other Gardening & Lawn Care",
+                  "parentId": "TUVmbvPciJqI",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "TQvhqFJEVYDG",
+              "catName": "Deck Tiles & Planks",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "fPqUvKJEVobG",
+              "catName": "Camping & Hiking",
+              "parentId": "ZNbpvVJUQcqn",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "tGVebQozvPqE",
+                  "catName": "Other Camping & Hiking Products",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "TjbPVCJEvoDn",
+                  "catName": "Camping Cookware",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "TvqrDKYCVPbB",
+                  "catName": "Camping Dining Items",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "TjqZvCJQVPbL",
+                  "catName": "Freeze-Dried Food",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "aZqhbecRVovi",
+                  "catName": "Tents Accessories",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "fqbcVeYgKJvQ",
+                  "catName": "Water Bottles & Containers",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "tVbRqQJwFYvo",
+                  "catName": "Backpacks & Bags",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "TKqRvQodCJVG",
+                  "catName": "Tents & Shelters",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ZavLqeYyKcbH",
+                  "catName": "Sleeping Bags & Camp Bedding",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "fybYDeJUCPVW",
+                  "catName": "Camp Kitchen",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "tVDRbKYYCJqU",
+                  "catName": "Camping Furniture",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "ZQbmvKoyeYqw",
+                      "catName": "Chairs",
+                      "parentId": "tVDRbKYYCJqU",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "TAbPqCctFJDs",
+                      "catName": "Hammocks",
+                      "parentId": "tVDRbKYYCJqU",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "fwqNvKoWQYbs",
+                      "catName": "Other Camping Furniture",
+                      "parentId": "tVDRbKYYCJqU",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "awDHVCoqecqz",
+                  "catName": "Knives & Tools",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "tqVaveYUQcbI",
+                      "catName": "Axes",
+                      "parentId": "awDHVCoqecqz",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "taVPveJNFcqN",
+                      "catName": "Folding Knives",
+                      "parentId": "awDHVCoqecqz",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "ajVQqFoNKYvl",
+                      "catName": "Hunting Knives",
+                      "parentId": "awDHVCoqecqz",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "tHvjVKJEcoqb",
+                      "catName": "Other Knives & Tools",
+                      "parentId": "awDHVCoqecqz",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "ZuVpDCPCoJbq",
+                  "catName": "Lights & Lanterns",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "tMVPvKYDocbC",
+                      "catName": "Spotlights",
+                      "parentId": "ZuVpDCPCoJbq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "aADcVeYCPovK",
+                      "catName": "Flashlights",
+                      "parentId": "ZuVpDCPCoJbq",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "ZQqmbCcMJYvP",
+                      "catName": "Other Lights & Lanterns",
+                      "parentId": "ZuVpDCPCoJbq",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "fYDgVQJYocqP",
+                  "catName": "Navigation & Electronics",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "azqZvKJNPcbo",
+                  "catName": "Camping & Hiking Personal Care",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "flqWbCYqocvR",
+                  "catName": "Safety & Survival",
+                  "parentId": "fPqUvKJEVobG",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "catId": "BpvWbAPOIcqo",
+          "catName": "Clothing, Shoes & Jewelry",
+          "parentId": "qbbZvVVaVDDD",
+          "level": 1,
+          "node": [
+            {
+              "catId": "WrDgVAYWlobc",
+              "catName": "Fashion Accessories",
+              "parentId": "BpvWbAPOIcqo",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "AZVYvgPRNJqc",
+                  "catName": "Other Fashion Accessories",
+                  "parentId": "WrDgVAYWlobc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AsbnDWcWNovJ",
+                  "catName": "Bags & Backpacks",
+                  "parentId": "WrDgVAYWlobc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rDbQvAJUdYqn",
+                  "catName": "Cold-weather Accessories",
+                  "parentId": "WrDgVAYWlobc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AaVZbBcilYqH",
+                  "catName": "Wallets, Card Cases & Money Organizers",
+                  "parentId": "WrDgVAYWlobc",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "BIDHVAPidJbn",
+              "catName": "Jewelry & Watches",
+              "parentId": "BpvWbAPOIcqo",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "gVvbDBPUdJqO",
+                  "catName": "Other Jewelry & Accessories",
+                  "parentId": "BIDHVAPidJbn",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rEDwVgcjlobO",
+                  "catName": "Body Jewelry",
+                  "parentId": "BIDHVAPidJbn",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AuvybrJSdPqO",
+                  "catName": "Bracelets",
+                  "parentId": "BIDHVAPidJbn",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gAvkqrofSPbu",
+                  "catName": "Brooches & Pins",
+                  "parentId": "BIDHVAPidJbn",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BZbaVrYSIPDM",
+                  "catName": "Charms",
+                  "parentId": "BIDHVAPidJbn",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rmVcbgPjdYqk",
+                  "catName": "Earrings",
+                  "parentId": "BIDHVAPidJbn",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BnqYVrPRScDg",
+                  "catName": "Necklaces",
+                  "parentId": "BIDHVAPidJbn",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rpvRbgJWlPqB",
+                  "catName": "Pendants",
+                  "parentId": "BIDHVAPidJbn",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BZVbDroONcqA",
+                  "catName": "Rings",
+                  "parentId": "BIDHVAPidJbn",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rhvsqWoGdcbg",
+                  "catName": "Watches",
+                  "parentId": "BIDHVAPidJbn",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "glqybWcANoDA",
+              "catName": "Unisex",
+              "parentId": "BpvWbAPOIcqo",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BDvSqgYiIJVT",
+                  "catName": "Unisex Fashion Accessories",
+                  "parentId": "glqybWcANoDA",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AoDgbrYfIJVf",
+                  "catName": "Unisex Clothing",
+                  "parentId": "glqybWcANoDA",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WjqdbgcASoDf",
+                  "catName": "Unisex Shoes",
+                  "parentId": "glqybWcANoDA",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "APvWDrYjlcVU",
+                  "catName": "Work",
+                  "parentId": "glqybWcANoDA",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "rnvgbAYilcDw",
+              "catName": "Women",
+              "parentId": "BpvWbAPOIcqo",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BMbYqAcfdPvj",
+                  "catName": "Women's Clothing",
+                  "parentId": "rnvgbAYilcDw",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gbqlvZcMVPbD",
+                  "catName": "Women's Shoes",
+                  "parentId": "rnvgbAYilcDw",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AfbcDaoBVYvP",
+                  "catName": "Women's Handbags & Wallets",
+                  "parentId": "rnvgbAYilcDw",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AHqjbtcNDPVk",
+                  "catName": "Women's Fashion Accessories",
+                  "parentId": "rnvgbAYilcDw",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "guvGbTotqJVk",
+                      "catName": "Bags",
+                      "parentId": "AHqjbtcNDPVk",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rBVMvaPybYqp",
+                      "catName": "Belts",
+                      "parentId": "AHqjbtcNDPVk",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BtqDbZoBVJvk",
+                      "catName": "Sunglasses & Eyewear Accessories",
+                      "parentId": "AHqjbtcNDPVk",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rwveqaYUDPVp",
+                      "catName": "Scarves & Wraps",
+                      "parentId": "AHqjbtcNDPVk",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WzqPDaJNvcbk",
+                      "catName": "Gloves & Mittens",
+                      "parentId": "AHqjbtcNDPVk",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BSqmvTcfDPVM",
+                      "catName": "Hats & Caps",
+                      "parentId": "AHqjbtcNDPVk",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gDblvTPNVYqA",
+                      "catName": "Earmuffs",
+                      "parentId": "AHqjbtcNDPVk",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BCbgDTctVYqr",
+                      "catName": "Handbag Accessories",
+                      "parentId": "AHqjbtcNDPVk",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gcVevZYEbJqA",
+                      "catName": "Keyrings & Keychains",
+                      "parentId": "AHqjbtcNDPVk",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BEVCbaoMvJDg",
+                      "catName": "Wallets, Card Cases & Money Organizers",
+                      "parentId": "AHqjbtcNDPVk",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AObhvtJoVPqB",
+                      "catName": "Other Women's Fashion Accessories",
+                      "parentId": "AHqjbtcNDPVk",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "catId": "grVyDtYRvJbB",
+              "catName": "Men",
+              "parentId": "BpvWbAPOIcqo",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "WTbvqfYtVPDr",
+                  "catName": "Men's Clothing",
+                  "parentId": "grVyDtYRvJbB",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "AFqMbfotVcvZ",
+                      "catName": "Swimwear",
+                      "parentId": "WTbvqfYtVPDr",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "WUvjVtcfqoDs",
+                  "catName": "Men's Shoes",
+                  "parentId": "grVyDtYRvJbB",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BfDgqtcUQYVv",
+                  "catName": "Men's Fashion Accessories",
+                  "parentId": "grVyDtYRvJbB",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "WRqDvZPCQoVc",
+              "catName": "Girls",
+              "parentId": "BpvWbAPOIcqo",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "WCVZbTPQFYDi",
+              "catName": "Boys",
+              "parentId": "BpvWbAPOIcqo",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "AMqQVfPBoYDH",
+              "catName": "Baby",
+              "parentId": "BpvWbAPOIcqo",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "WRqDbfoMPYVO",
+              "catName": "Luggage",
+              "parentId": "BpvWbAPOIcqo",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "giDpbaJRocvk",
+                  "catName": "Other Luggage Supplies",
+                  "parentId": "WRqDbfoMPYVO",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WAVmvfJfoPbt",
+                  "catName": "Travel Accessories",
+                  "parentId": "WRqDbfoMPYVO",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WnqGDaPQYJvm",
+                  "catName": "Waist Packs",
+                  "parentId": "WRqDbfoMPYVO",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "catId": "rRvPbBYtMJDn",
+          "catName": "Toys, Kids & Baby",
+          "parentId": "qbbZvVVaVDDD",
+          "level": 1,
+          "node": [
+            {
+              "catId": "AMqbVBYBucDR",
+              "catName": "Toys & Games",
+              "parentId": "rRvPbBYtMJDn",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BWbDVrJtpPvG",
+                  "catName": "Activities & Amusements",
+                  "parentId": "AMqbVBYBucDR",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ATVHbroqMJDn",
+                  "catName": "Other Toys & Games Supplies",
+                  "parentId": "AMqbVBYBucDR",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BobHqrcUkPvO",
+                  "catName": "Arts & Crafts",
+                  "parentId": "AMqbVBYBucDR",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AwVtvWYfpcqg",
+                  "catName": "Baby & Toddler Toys",
+                  "parentId": "AMqbVBYBucDR",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AaqmDrcvkJVz",
+                  "catName": "Dolls & Accessories",
+                  "parentId": "AMqbVBYBucDR",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BZqmvrofAPbG",
+                  "catName": "Grown-Up Toys",
+                  "parentId": "AMqbVBYBucDR",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BOvgbAcorJqu",
+                  "catName": "Hobbies",
+                  "parentId": "AMqbVBYBucDR",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ArDRVWPRBcvZ",
+                  "catName": "Learning & Education",
+                  "parentId": "AMqbVBYBucDR",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AlqDVWcWrJvL",
+                  "catName": "Novelty & Gag Toys",
+                  "parentId": "AMqbVBYBucDR",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WyVvDrPNZobF",
+                  "catName": "Puppets",
+                  "parentId": "AMqbVBYBucDR",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gWDebrYyZoqc",
+                  "catName": "Puzzles",
+                  "parentId": "AMqbVBYBucDR",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gOVkvWJQtPbE",
+                  "catName": "Sports & Outdoor Play",
+                  "parentId": "AMqbVBYBucDR",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WbDjvBcRfoVa",
+                  "catName": "Stuffed Animals & Plush Toys",
+                  "parentId": "AMqbVBYBucDR",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "rDbWqgoOtJvS",
+              "catName": "Baby",
+              "parentId": "rRvPbBYtMJDn",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "gQbWqBYWfPVd",
+                  "catName": "Boys' Clothing, Shoes & Accessories",
+                  "parentId": "rDbWqgoOtJvS",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WpDtVAoSTcqS",
+                  "catName": "Girls' Clothing, Shoes & Accessories",
+                  "parentId": "rDbWqgoOtJvS",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AMDRvrPNLJqF",
+                  "catName": "Baby Feeding",
+                  "parentId": "rDbWqgoOtJvS",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gFqvDAPBLcVE",
+                  "catName": "Diapers",
+                  "parentId": "rDbWqgoOtJvS",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AoqHDWYQLPbr",
+                  "catName": "Baby Gifts",
+                  "parentId": "rDbWqgoOtJvS",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AODtvWJfwoVB",
+                  "catName": "Furniture",
+                  "parentId": "rDbWqgoOtJvS",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rdVMqAPSLovW",
+                  "catName": "Baby Bedding",
+                  "parentId": "rDbWqgoOtJvS",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rKvHDAPoscbw",
+                  "catName": "Nursery & Nursery Décor",
+                  "parentId": "rDbWqgoOtJvS",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BybcvWJSUoVm",
+                  "catName": "Baby Strollers",
+                  "parentId": "rDbWqgoOtJvS",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WcbRvgJWwYqd",
+                  "catName": "Car Seats & Other Safety Products",
+                  "parentId": "rDbWqgoOtJvS",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rzbjqgJAsYVI",
+                  "catName": "Monitor Boutique",
+                  "parentId": "rDbWqgoOtJvS",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "glvtqBYjicVb",
+                  "catName": "Other Baby Products",
+                  "parentId": "rDbWqgoOtJvS",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BVDmbgYQycvF",
+                  "catName": "Bathing & Skin Care",
+                  "parentId": "rDbWqgoOtJvS",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AUVZqgYGmcvh",
+                  "catName": "Unisex Clothing & Other Products",
+                  "parentId": "rDbWqgoOtJvS",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "catId": "ApDjvTYfcJVh",
+          "catName": "Sports",
+          "parentId": "qbbZvVVaVDDD",
+          "level": 1,
+          "node": [
+            {
+              "catId": "AWvtVaofJcby",
+              "catName": "Boxing",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "roDHbacQPYvd",
+                  "catName": "Boxing Protective Gear",
+                  "parentId": "AWvtVaofJcby",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AObHVaoBncDv",
+                  "catName": "Boxing Gym Equipment",
+                  "parentId": "AWvtVaofJcby",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WiVcDaJynYbq",
+                  "catName": "Other Boxing Equipment",
+                  "parentId": "AWvtVaofJcby",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BAbZqTJQHovc",
+                  "catName": "Boxing Gloves",
+                  "parentId": "AWvtVaofJcby",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "ACDebtYQyoqZ",
+              "catName": "Airsoft",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "WGvkDtPfhYVT",
+                  "catName": "Targets",
+                  "parentId": "ACDebtYQyoqZ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AaVtbfcFiovZ",
+                  "catName": "Protective Gear",
+                  "parentId": "ACDebtYQyoqZ",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "BLDAVfPFyJqT",
+                      "catName": "Other Protective Gear",
+                      "parentId": "AaVtbfcFiovZ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gNDhqZPZiYVf",
+                      "catName": "Helmets",
+                      "parentId": "AaVtbfcFiovZ",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WKbZvtojiJVL",
+                      "catName": "Chest Protectors",
+                      "parentId": "AaVtbfcFiovZ",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "BEqbvfYRzJDL",
+                  "catName": "Other Airsoft Products",
+                  "parentId": "ACDebtYQyoqZ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BDvPVacRyJbz",
+                  "catName": "Guns",
+                  "parentId": "ACDebtYQyoqZ",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "AcqHVZoRmJbW",
+              "catName": "Badminton",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "BAvgbaYjyPVp",
+              "catName": "Ballet & Dance",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "AGDwvToijYqa",
+              "catName": "Baseball",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "AvbRDTcQrPVi",
+              "catName": "Boating",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "AkDMqfPNRJbE",
+              "catName": "Exercise & Fitness",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BrDgbfYQHcvR",
+                  "catName": "Strength Training Equipment",
+                  "parentId": "AkDMqfPNRJbE",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BDbsvtJRHPVm",
+                  "catName": "Other Exercise & Fitness Equipment",
+                  "parentId": "AkDMqfPNRJbE",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gobtDZJUpPVv",
+                  "catName": "Cardio Training",
+                  "parentId": "AkDMqfPNRJbE",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ApDwvaYjMPbj",
+                  "catName": "Triathlon",
+                  "parentId": "AkDMqfPNRJbE",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WzbQDZYWpoVj",
+                  "catName": "Yoga",
+                  "parentId": "AkDMqfPNRJbE",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "BFDWvaYqloqV",
+              "catName": "Sport Accessories",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "BuVSvtYFdJDp",
+              "catName": "Diving",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "APVWbjoQDcvh",
+              "catName": "Other Sport Products",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "WrqQvUcECYDb",
+              "catName": "Hunting & Fishing",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BtqdDjcoKJVb",
+                  "catName": "Hunting",
+                  "parentId": "WrqQvUcECYDb",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "ALbSqsoRFJvD",
+                      "catName": "Hunting Optics",
+                      "parentId": "BtqdDjcoKJVb",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WmbcqjYUCPVv",
+                      "catName": "Hunting Apparel & Accessories",
+                      "parentId": "BtqdDjcoKJVb",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BiVMbLoqeYqK",
+                      "catName": "Ammunition",
+                      "parentId": "BtqdDjcoKJVb",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WlVpqscQFPDC",
+                      "catName": "Calls & Lures",
+                      "parentId": "BtqdDjcoKJVb",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WlqPDwJyFYVb",
+                      "catName": "Gun Cases",
+                      "parentId": "BtqdDjcoKJVb",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WjbkqwJRCYvA",
+                      "catName": "Other Hunting Equipment",
+                      "parentId": "BtqdDjcoKJVb",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "WDbtvjYNeoVT",
+                  "catName": "Fishing",
+                  "parentId": "WrqQvUcECYDb",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AvbDqLotJYVm",
+                  "catName": "Other Hunting & Fishing Products",
+                  "parentId": "WrqQvUcECYDb",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BVqvbUYUcJDl",
+                  "catName": "Archery",
+                  "parentId": "WrqQvUcECYDb",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "APqebwJEOYVv",
+              "catName": "Fan Gear",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "BnvYVscUGobR",
+              "catName": "Gymnastics",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "rVvDbhPBioqV",
+              "catName": "Water Sports",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BeDrbhoQicVv",
+                  "catName": "Wetsuits",
+                  "parentId": "rVvDbhPBioqV",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rtvdVicczYqJ",
+                  "catName": "Wakeboarding",
+                  "parentId": "rVvDbhPBioqV",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rlqWVycczPvE",
+                  "catName": "Other Water Sports Equipment",
+                  "parentId": "rVvDbhPBioqV",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ABqSDmcGiPvu",
+                  "catName": "Kitesurfing Equipment",
+                  "parentId": "rVvDbhPBioqV",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "gtbaqyYiSPvD",
+              "catName": "Team Sports",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "gCbyvzcilJDn",
+                  "catName": "Basketball",
+                  "parentId": "gtbaqyYiSPvD",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rKqWVmcilovt",
+                  "catName": "Football",
+                  "parentId": "gtbaqyYiSPvD",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rwvjbSPjVJDB",
+                  "catName": "Volleyball",
+                  "parentId": "gtbaqyYiSPvD",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WqVMbSPBecvo",
+                  "catName": "Fencing",
+                  "parentId": "gtbaqyYiSPvD",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gcVtDdoqeYqR",
+                  "catName": "Other Team Sports",
+                  "parentId": "gtbaqyYiSPvD",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "gYvWblJjwcVA",
+              "catName": "Law Enforcement",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "APbdVlojUJvQ",
+              "catName": "Motor Sports",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "AdDsbIcGnPVZ",
+              "catName": "Shooting",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "WbVSqdPjEcvU",
+                  "catName": "Other Shooting Products",
+                  "parentId": "AdDsbIcGnPVZ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "APbKDScoHovh",
+                  "catName": "Gun Accessories",
+                  "parentId": "AdDsbIcGnPVZ",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "rGbevSoRnYDi",
+                      "catName": "Other Gun Accessories",
+                      "parentId": "APbKDScoHovh",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WMbRqIofHPDz",
+                      "catName": "Swivels",
+                      "parentId": "APbKDScoHovh",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rZvbVSoWRcqi",
+                      "catName": "Safes & Cabinets",
+                      "parentId": "APbKDScoHovh",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gIbwvNJAGoDi",
+                      "catName": "Gun Magazines",
+                      "parentId": "APbKDScoHovh",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gEqvblPRHoDS",
+                      "catName": "Gun Stock Accessories",
+                      "parentId": "APbKDScoHovh",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AWVYDNJjHcql",
+                      "catName": "Gun Holsters",
+                      "parentId": "APbKDScoHovh",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rLVhvdYAEcDl",
+                      "catName": "Grips",
+                      "parentId": "APbKDScoHovh",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AivgVNcGEJbS",
+                      "catName": "Chokes",
+                      "parentId": "APbKDScoHovh",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "WSvkqdJWpYDb",
+                  "catName": "Game Cameras",
+                  "parentId": "AdDsbIcGnPVZ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WyDwvdYiuPVF",
+                  "catName": "Cleaning & Maintenance Products",
+                  "parentId": "AdDsbIcGnPVZ",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "rOVHDSJQpcqY",
+              "catName": "Skating",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "gsVjqIccMJDT",
+              "catName": "Snow Skiing",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "gwbaVNcSAPDE",
+              "catName": "Snowmobiling",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "BNDpvScGWJVj",
+              "catName": "Softball",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "ApbZVNJSacvB",
+              "catName": "Surfing",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "WvqYbSoOTcVm",
+              "catName": "Swimming",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "BWVaqSJSyPvo",
+              "catName": "Golf",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "WTbvVNJfdoqG",
+              "catName": "Leisure Sports & Game Room",
+              "parentId": "ApDjvTYfcJVh",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "WjDgVlccdYqn",
+                  "catName": "Trampolines & Accessories",
+                  "parentId": "WTbvVNJfdoqG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gHqcVSPjdJvB",
+                  "catName": "Casino & Card Games",
+                  "parentId": "WTbvVNJfdoqG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ZfDtvbJBqcVn",
+                  "catName": "Bowling",
+                  "parentId": "WTbvVNJfdoqG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ajVpvqoUDcbf",
+                  "catName": "Darts & Equipment",
+                  "parentId": "WTbvVNJfdoqG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "TAVHvbcdeYDq",
+                  "catName": "Table Tennis",
+                  "parentId": "WTbvVNJfdoqG",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "tZqMVDJECcvP",
+                  "catName": "Other Games & Activities",
+                  "parentId": "WTbvVNJfdoqG",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "catId": "ruqPDMoqcYVS",
+          "catName": "Pets",
+          "parentId": "qbbZvVVaVDDD",
+          "level": 1,
+          "node": [
+            {
+              "catId": "WAbcVOJQoYDN",
+              "catName": "Pet Supplies",
+              "parentId": "ruqPDMoqcYVS",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BTqDbkcqJovS",
+                  "catName": "Car & Travel",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rwDAbuJfcYVI",
+                  "catName": "Clippers, Blades & Accessories",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rybgvMPjYoVI",
+                  "catName": "Collar, Leads, Harnesses & Training",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "glqkbOPjoYVN",
+                  "catName": "Crates & Accessories",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rvbhDOoMGJVq",
+                  "catName": "Dishes & Food Storage",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WFDjqMPMGYVv",
+                  "catName": "Doors & Gates",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BYDQbuJdHoVq",
+                  "catName": "Exercise Pens & Kennels",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WHbvVuPdEoDq",
+                  "catName": "Flea & Tick",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AkqlbuYNRJDv",
+                  "catName": "Furniture",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WBDHbMJMnYvV",
+                  "catName": "Gifts For Pet Lovers",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WabPVOYMHJvq",
+                  "catName": "Grooming Tools & Accessories",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AjvQbMYMRPVD",
+                  "catName": "Health & Nutrition",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BmDWvkPNGoVb",
+                  "catName": "Other Pet Products",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WbvmDuYBHPVC",
+                  "catName": "Pet Accessories",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AQDRvkoCHYbe",
+                  "catName": "Pet Carriers",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "roDebuJDEcqQ",
+                  "catName": "Pet Fashions",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rGVZqOctRobK",
+                  "catName": "Pet Food &Treats",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WfbjquoqnYVC",
+                  "catName": "Stain, Odor & Clean-up, House Train",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BwbjDkYQHJVC",
+                  "catName": "Pet Toys",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WzVDvpPBGYqe",
+                  "catName": "Treats",
+                  "parentId": "WAbcVOJQoYDN",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "gdVvqkPtEJbK",
+              "catName": "Dogs",
+              "parentId": "ruqPDMoqcYVS",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BDbmqkYtnPvo",
+                  "catName": "Dog Food",
+                  "parentId": "gdVvqkPtEJbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WaVSbpPRGoDc",
+                  "catName": "Treats",
+                  "parentId": "gdVvqkPtEJbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WGbPVOYMRoDH",
+                  "catName": "Dog Apparel & Accessories",
+                  "parentId": "gdVvqkPtEJbK",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "rAVgqkoNRYbH",
+                      "catName": "Dog Bandanas",
+                      "parentId": "WGbPVOYMRoDH",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "WLVvDOctRobH",
+                      "catName": "Dog Cold Weather Coats",
+                      "parentId": "WGbPVOYMRoDH",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "ribyvkYWHPqG",
+                      "catName": "Dog Costumes",
+                      "parentId": "WGbPVOYMRoDH",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BIqhvkJfEYDR",
+                      "catName": "Dog Dresses",
+                      "parentId": "WGbPVOYMRoDH",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gYqkbMotnPDO",
+                      "catName": "Dog Hoodies",
+                      "parentId": "WGbPVOYMRoDH",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AZvWqpYQEoVu",
+                      "catName": "Dog Shirts",
+                      "parentId": "WGbPVOYMRoDH",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BiVhDkJfHPqp",
+                      "catName": "Other Dog Apparel & Accessories",
+                      "parentId": "WGbPVOYMRoDH",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "rlvSqOPiHYbp",
+                  "catName": "Dog Carriers & Travel Products",
+                  "parentId": "gdVvqkPtEJbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WhbvDuJNHPqA",
+                  "catName": "Dog Beds & Furniture",
+                  "parentId": "gdVvqkPtEJbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AwVRDMooGPqT",
+                  "catName": "Dog Collars, Harnesses & Leashes",
+                  "parentId": "gdVvqkPtEJbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AnVSbOoWEPqw",
+                  "catName": "Dog Crates, Houses & Pens",
+                  "parentId": "gdVvqkPtEJbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AiVnqOcOEYDU",
+                  "catName": "Dog Doors, Gates & Ramps",
+                  "parentId": "gdVvqkPtEJbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BkVIDuJjRYvz",
+                  "catName": "Dog Feeding & Watering Supplies",
+                  "parentId": "gdVvqkPtEJbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AuvyVkojRcbS",
+                  "catName": "Other Dog Products",
+                  "parentId": "gdVvqkPtEJbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rRvSVuYNOoDq",
+                  "catName": "Dog Grooming",
+                  "parentId": "gdVvqkPtEJbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rlbvquJUOcVK",
+                  "catName": "Dog Health Supplies",
+                  "parentId": "gdVvqkPtEJbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WDVmbuoNkPvp",
+                  "catName": "Dog Toys",
+                  "parentId": "gdVvqkPtEJbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rfbvVOoUkcDu",
+                  "catName": "Dog Training & Behavior Aids",
+                  "parentId": "gdVvqkPtEJbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AwbmVkYjuoDr",
+                  "catName": "Waste Bags & Pooper Scoopers",
+                  "parentId": "gdVvqkPtEJbK",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "WiqvDuPqkJbB",
+              "catName": "Cats",
+              "parentId": "ruqPDMoqcYVS",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "ASbDVkPQMJqr",
+                  "catName": "Cat Food",
+                  "parentId": "WiqvDuPqkJbB",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rUqYvpooOcDZ",
+                  "catName": "Other Cat Products",
+                  "parentId": "WiqvDuPqkJbB",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WhbgVkYfuPqa",
+                  "catName": "Cat Beds & Furniture",
+                  "parentId": "WiqvDuPqkJbB",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "AIDWVuYjkcbf",
+                      "catName": "Activity Trees",
+                      "parentId": "WhbgVkYfuPqa",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gJqUVpYRkovs",
+                      "catName": "Cat Beds & Sofas",
+                      "parentId": "WhbgVkYfuPqa",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BGVeDkYyOPbU",
+                      "catName": "Cat Houses & Condos",
+                      "parentId": "WhbgVkYfuPqa",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AavRDpYRuJqs",
+                      "catName": "Other Cat Beds & Furniture",
+                      "parentId": "WhbgVkYfuPqa",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "gsvwqpciMJDj",
+                  "catName": "Cat Cages",
+                  "parentId": "WiqvDuPqkJbB",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BnbQVkoquJDS",
+                  "catName": "Cat Feeding & Watering Supplies",
+                  "parentId": "WiqvDuPqkJbB",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rBDwVuPOWYbk",
+                  "catName": "Cat Toys",
+                  "parentId": "WiqvDuPqkJbB",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "gbvcqpoBAYDr",
+              "catName": "Fish & Aquatic Pets",
+              "parentId": "ruqPDMoqcYVS",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "AQveDpoBBYbr",
+                  "catName": "Fish & Aquatic Pet Food",
+                  "parentId": "gbvcqpoBAYDr",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ADVybkcoBYqt",
+                  "catName": "Aquarium Decor",
+                  "parentId": "gbvcqpoBAYDr",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BNqbvkJRrPVZ",
+                  "catName": "Other Fish & Aquatic Pet Products",
+                  "parentId": "gbvcqpoBAYDr",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BnqdbOJjgcvL",
+                  "catName": "Aquarium Pumps & Filters",
+                  "parentId": "gbvcqpoBAYDr",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "BDqvVpcUAYbl",
+              "catName": "Birds",
+              "parentId": "ruqPDMoqcYVS",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BFvDbMJyAPqd",
+                  "catName": "Bird Food",
+                  "parentId": "BDqvVpcUAYbl",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gGbaVkofWYqI",
+                  "catName": "Bird Cages & Accessories",
+                  "parentId": "BDqvVpcUAYbl",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BpDjvucqfJbV",
+                  "catName": "Bird Carriers",
+                  "parentId": "BDqvVpcUAYbl",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AgVabpJqfcqD",
+                  "catName": "Bird Feeding & Watering Supplies",
+                  "parentId": "BDqvVpcUAYbl",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AhVrDuJoaovb",
+                  "catName": "Other Bird Products",
+                  "parentId": "BDqvVpcUAYbl",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "WvqQVOJCZPbC",
+              "catName": "Horses",
+              "parentId": "ruqPDMoqcYVS",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BYVdDpPQZJbC",
+                  "catName": "Treats",
+                  "parentId": "WvqQVOJCZPbC",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WaVjvkoRtYbC",
+                  "catName": "Boots & Wraps",
+                  "parentId": "WvqQVOJCZPbC",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AlVvbuJNToDK",
+                  "catName": "Farrier Supplies",
+                  "parentId": "WvqQVOJCZPbC",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gKbWqpJNtYvO",
+                  "catName": "Stable Supplies",
+                  "parentId": "WvqQVOJCZPbC",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ABvYbkoqTcVO",
+                  "catName": "Toys",
+                  "parentId": "WvqQVOJCZPbC",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "giDeqkooTYvO",
+              "catName": "Reptiles & Amphibians",
+              "parentId": "ruqPDMoqcYVS",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "AKDPVpYNtJbU",
+              "catName": "Small Animals",
+              "parentId": "ruqPDMoqcYVS",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "APqGVMJQtobU",
+                  "catName": "Other Small Animal Products",
+                  "parentId": "AKDPVpYNtJbU",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BHqSDuYiTJbj",
+                  "catName": "Treats",
+                  "parentId": "AKDPVpYNtJbU",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BOVvDMcqfYqL",
+                  "catName": "Small Animal Carriers",
+                  "parentId": "AKDPVpYNtJbU",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BWVevMPotoqU",
+                  "catName": "Small Animal Collars, Harnesses & Leashes",
+                  "parentId": "AKDPVpYNtJbU",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ADqZbpPRaJvy",
+                  "catName": "Small Animal Feeding & Watering Supplies",
+                  "parentId": "AKDPVpYNtJbU",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rkvdVucvZoqm",
+                  "catName": "Small Animal Grooming",
+                  "parentId": "AKDPVpYNtJbU",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rDbgvuPRaYqd",
+                  "catName": "Small Animal Houses & Habitats",
+                  "parentId": "AKDPVpYNtJbU",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AUvpqMYSaPbl",
+                  "catName": "Small Animal Toys",
+                  "parentId": "AKDPVpYNtJbU",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "catId": "rKvSDFctCoVA",
+          "catName": "Electronics",
+          "parentId": "qbbZvVVaVDDD",
+          "level": 1,
+          "node": [
+            {
+              "catId": "WYvhDeJtFcbg",
+              "catName": "Electronics Accessories",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "rvVgDeoYKPbZ",
+              "catName": "Batteries, Chargers & Power Supplies",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "BCDSVeoUFYqa",
+              "catName": "Other Electronics Products",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "gYDSVFcyCPbf",
+              "catName": "General Electronics",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "gRveDCYCQPqf",
+              "catName": "Gps",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "ApVyDCPNKYba",
+                  "catName": "Other GPS Supplies",
+                  "parentId": "gRveDCYCQPqf",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ArDYbQJMCcqf",
+                  "catName": "Automotive GPS Devices",
+                  "parentId": "gRveDCYCQPqf",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WNVhvKJOCYqZ",
+                  "catName": "Tracking Devices",
+                  "parentId": "gRveDCYCQPqf",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "rqVZDQYMePbL",
+              "catName": "Home Automation & Security",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "ACbtvecBKYDL",
+                  "catName": "Other Home Automation Supplies",
+                  "parentId": "rqVZDQYMePbL",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WZvyDFPoeYbw",
+                  "catName": "Security & Surveillance",
+                  "parentId": "rqVZDQYMePbL",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ALbRDKJyQcqs",
+                  "catName": "Spy Gadgets",
+                  "parentId": "rqVZDQYMePbL",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "AzVrqFYQeovL",
+              "catName": "Ipod, Mp3 & Media Players",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "rfVWDQoMcPve",
+              "catName": "Portable Audio & Video",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "WbvRVeJdYoqO",
+              "catName": "TV & Video",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "WdVrbeoOYJDh",
+              "catName": "Home Audio & Theater",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "gYbSvKcyRoqp",
+              "catName": "Camera, Photo & Video",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "APbHVQYMkoqW",
+              "catName": "Cell Phones & Accessories",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "AObQDFPykoqN",
+              "catName": "Headphones",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "rAqHVKJQMYvl",
+                  "catName": "Headphone Accessories",
+                  "parentId": "AObQDFPykoqN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AZvKDQJqpPbI",
+                  "catName": "Other Headphones",
+                  "parentId": "AObQDFPykoqN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rLDtvFcfuJqI",
+                  "catName": "Wireless Headphones",
+                  "parentId": "AObQDFPykoqN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AzDMveYWuJVI",
+                  "catName": "Earbud Headphones",
+                  "parentId": "AObQDFPykoqN",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BYVbqKJwAcDv",
+                  "catName": "Sports & Fitness Headphones",
+                  "parentId": "AObQDFPykoqN",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "BjVPqCYMgJDb",
+              "catName": "Bluetooth & Wireless Speakers",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "gHVQvKPDBJqF",
+              "catName": "Car Electronics",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "giVaveYWBPqZ",
+              "catName": "Wearable Technology",
+              "parentId": "rKvSDFctCoVA",
+              "level": 2,
+              "node": null
+            }
+          ]
+        },
+        {
+          "catId": "geVDqCYMrobh",
+          "catName": "Computers, Office Supplies",
+          "parentId": "qbbZvVVaVDDD",
+          "level": 1,
+          "node": [
+            {
+              "catId": "AYDHVeoyBPvh",
+              "catName": "Other Office Supplies",
+              "parentId": "geVDqCYMrobh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "WBDwbKoWAJqi",
+              "catName": "Office Maintenance, Janitorial & Lunchroom",
+              "parentId": "geVDqCYMrobh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "APblvQYywcDV",
+              "catName": "Computers & Tablets",
+              "parentId": "geVDqCYMrobh",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "gHVDqQPDsYbv",
+                  "catName": "Desktops",
+                  "parentId": "APblvQYywcDV",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AsqlvePRwJDb",
+                  "catName": "Laptops",
+                  "parentId": "APblvQYywcDV",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rDqRVCJCLovQ",
+                  "catName": "Tablets",
+                  "parentId": "APblvQYywcDV",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "BMbDVKPEUovc",
+              "catName": "Monitors",
+              "parentId": "geVDqCYMrobh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "rgblvQcRwoDP",
+              "catName": "Computer & Office Accessories",
+              "parentId": "geVDqCYMrobh",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BTDAbCYqwcvP",
+                  "catName": "Drive Enclosures",
+                  "parentId": "rgblvQcRwoDP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WUDZVFcoLPqJ",
+                  "catName": "Misc Accessories",
+                  "parentId": "rgblvQcRwoDP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ghDjvCoOLYVP",
+                  "catName": "Other Computer & Office Accessories",
+                  "parentId": "rgblvQcRwoDP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gubmDQYojJvH",
+                  "catName": "Usb/Firewire Hubs & Devices",
+                  "parentId": "rgblvQcRwoDP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gWVdqKYOwcvR",
+                  "catName": "Audio & Video Accessories",
+                  "parentId": "rgblvQcRwoDP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rsvMqKYRwJbA",
+                  "catName": "Cable Security Devices",
+                  "parentId": "rgblvQcRwoDP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gzbQVecQUYDr",
+                  "catName": "Cables & Interconnects",
+                  "parentId": "rgblvQcRwoDP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WEvmDKYWjobU",
+                  "catName": "Cleaning & Repair",
+                  "parentId": "rgblvQcRwoDP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gKDyqFPyiYVQ",
+                  "catName": "Computer Cable Adapters",
+                  "parentId": "rgblvQcRwoDP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BsvCbKYyzcVP",
+                  "catName": "Input Devices",
+                  "parentId": "rgblvQcRwoDP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rZDvVFcUyPqE",
+                  "catName": "Keyboards, Mice & Accessories",
+                  "parentId": "rgblvQcRwoDP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gKVRDFYtzPbk",
+                  "catName": "Memory Cards & Accessories",
+                  "parentId": "rgblvQcRwoDP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gNbpveYfzoqB",
+                  "catName": "Printer Accessories",
+                  "parentId": "rgblvQcRwoDP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BGbPqCJqhoDL",
+                  "catName": "Printer Ink & Toner",
+                  "parentId": "rgblvQcRwoDP",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "BRqbVKoqmJvN",
+              "catName": "Networking",
+              "parentId": "geVDqCYMrobh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "BcDkbQPtNJqe",
+              "catName": "Drives & Storage",
+              "parentId": "geVDqCYMrobh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "rHqnvQJUNYVc",
+              "catName": "Computer Parts & Components",
+              "parentId": "geVDqCYMrobh",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "WpDbVeYBdPvo",
+                  "catName": "Cases & Power Supplies",
+                  "parentId": "rHqnvQJUNYVc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gADvqFPtSYbc",
+                  "catName": "Controller Cards",
+                  "parentId": "rHqnvQJUNYVc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BaVZbCPRlYDc",
+                  "catName": "Other Computer Parts & Components",
+                  "parentId": "rHqnvQJUNYVc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gUDwVQPWlYbJ",
+                  "catName": "Sleeves, Cases, And Bags",
+                  "parentId": "rHqnvQJUNYVc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ASDkvKJONobc",
+                  "catName": "CPU Processors",
+                  "parentId": "rHqnvQJUNYVc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WhVLvKJjScDH",
+                  "catName": "Fans & Cooling",
+                  "parentId": "rHqnvQJUNYVc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rnvdVFojIYqt",
+                  "catName": "Laptop Replacement Parts",
+                  "parentId": "rHqnvQJUNYVc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WpqtVecWSova",
+                  "catName": "Memory",
+                  "parentId": "rHqnvQJUNYVc",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AgVLbCJjNcqT",
+                  "catName": "Motherboards",
+                  "parentId": "rHqnvQJUNYVc",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "rzbpvCJjIYDT",
+              "catName": "Printers",
+              "parentId": "geVDqCYMrobh",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "AWqgDFoflYVj",
+              "catName": "Office & School Supplies",
+              "parentId": "geVDqCYMrobh",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "gTVtbQYiIcDw",
+                  "catName": "Adhesives",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WfDBbKPiNYVh",
+                  "catName": "Appointment Books",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gHbtqecjdJDN",
+                  "catName": "Art & Drafting",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rEDWbYcDvJqC",
+                  "catName": "Audio Visual",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rKbaVoYCvJqR",
+                  "catName": "Other Office & School Supplies",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BgvcbPYYDoVp",
+                  "catName": "Binders",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WOvQbcJCDYVA",
+                  "catName": "Binding Systems",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BzbsDcoOVPqi",
+                  "catName": "Cards, Card Stock & Card Filing",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rbDBqPYDCJVH",
+                  "catName": "Office & School Chairs and Accessories",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ArbhvocNKYqO",
+                  "catName": "Clips & Clamps",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BZvhVJcQQoDr",
+                  "catName": "Clothes Racks",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gjbHDYoyFPVa",
+                  "catName": "Forms, Recordkeeping & Money Handling",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ByDeboPNFcqh",
+                  "catName": "Computer Furniture",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gTvADPooFJbl",
+                  "catName": "School Supplies",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gvDHqPJdEcVY",
+                  "catName": "Desks & Desk Accessories",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AgDZbJoyGYqn",
+                  "catName": "Office Basics",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ApqUvJcqnYbB",
+                  "catName": "Office & School Furniture",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "ACvSVYPqEcqf",
+                      "catName": "Footrests",
+                      "parentId": "ApqUvJcqnYbB",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "glbvVcJQEYqy",
+                  "catName": "Envelopes",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gZbdvPYqOcVD",
+                  "catName": "Office & School Equipment",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "glVebYJQOovZ",
+                  "catName": "Files",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BLvWDoYNrcVC",
+                  "catName": "Labels",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gPqhVJoNWcvG",
+                  "catName": "Laminators",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rRvwbcJUfPqD",
+                  "catName": "Notebooks",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rcqWVoPUtJvn",
+                  "catName": "Paper",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AJVmvcojsYbN",
+                  "catName": "Tape Flags",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gzqLboYcUJVS",
+                  "catName": "Tapes",
+                  "parentId": "AWqgDFoflYVj",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "catId": "kNqPvIojdYVD",
+          "catName": "Industrial",
+          "parentId": "qbbZvVVaVDDD",
+          "level": 1,
+          "node": [
+            {
+              "catId": "MVbhvSYWNoDe",
+              "catName": "Other Industrial Products",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "uHqtvNYfIoVK",
+              "catName": "Hardware",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "OlqwDIYKNobd",
+              "catName": "Abrasive & Finishing Products",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "rqVdqbozDcvq",
+                  "catName": "Abrasive Accessories",
+                  "parentId": "OlqwDIYKNobd",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BwvWVbJYDoqF",
+                  "catName": "Abrasive Wheels & Discs",
+                  "parentId": "OlqwDIYKNobd",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gdDMqbPBvJVn",
+                  "catName": "Other Abrasive & Finishing Products",
+                  "parentId": "OlqwDIYKNobd",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "gfDjVqoyvPbZ",
+              "catName": "Cutting Tools",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "AiveqVoBFYDt",
+              "catName": "Fasteners",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "gqDebqPHnovV",
+              "catName": "Filtration",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "WkbeVqcDEoDH",
+              "catName": "Hydraulics, Pneumatics & Plumbing",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "gwvDbqPEEJVk",
+                  "catName": "Flow Meters",
+                  "parentId": "WkbeVqcDEoDH",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ByVHqvcUGYDp",
+                  "catName": "Other Hydraulics, Pneumatics & Plumbing Products",
+                  "parentId": "WkbeVqcDEoDH",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AdqnbDcyHPvO",
+                  "catName": "Hose Nozzles",
+                  "parentId": "WkbeVqcDEoDH",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BHvSVDPNRcqW",
+                  "catName": "Hydraulic Equipment",
+                  "parentId": "WkbeVqcDEoDH",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WzqADvcQHYba",
+                  "catName": "Pumps",
+                  "parentId": "WkbeVqcDEoDH",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WDVmqvcyEobh",
+                  "catName": "Seals & O-Rings",
+                  "parentId": "WkbeVqcDEoDH",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ArvYbDoyHJVN",
+                  "catName": "Tubing, Pipe & Hose",
+                  "parentId": "WkbeVqcDEoDH",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "BjqwVvYykcbK",
+              "catName": "Industrial Electrical",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BrVSvqcNOPDJ",
+                  "catName": "Controls & Indicators",
+                  "parentId": "BjqwVvYykcbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rdqQVvJtkPbR",
+                  "catName": "Other Industrial Electrical Products",
+                  "parentId": "BjqwVvYykcbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BNbRqDYNOJvk",
+                  "catName": "Optoelectronic Products",
+                  "parentId": "BjqwVvYykcbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gTbmVvPOpcDs",
+                  "catName": "Semiconductor Products",
+                  "parentId": "BjqwVvYykcbK",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rTbZVvPtWJqD",
+                  "catName": "Wiring & Connecting",
+                  "parentId": "BjqwVvYykcbK",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "gFDHvqoDWYVc",
+              "catName": "Industrial Power & Hand Tools",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "AbqHvVYMBJDs",
+              "catName": "Lab & Scientific Products",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "WQVRDvcBBobj",
+                  "catName": "Glassware & Labware",
+                  "parentId": "AbqHvVYMBJDs",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WEbaVvYUTPDH",
+                  "catName": "Lab Supplies & Consumables",
+                  "parentId": "AbqHvVYMBJDs",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "glVPbqYNToDE",
+                  "catName": "Other Lab & Scientific Products",
+                  "parentId": "AbqHvVYMBJDs",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "guvZDVYNaPqO",
+              "catName": "Occupational Health & Safety Products",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "rmDPvVYtUcqb",
+              "catName": "Packaging & Shipping Supplies",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "BIvgqbcOUJDp",
+              "catName": "Power Transmission Products",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "gYVvqDJBUcbL",
+                  "catName": "Brakes & Clutches",
+                  "parentId": "BIvgqbcOUJDp",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WUvZbqYjjcDm",
+                  "catName": "Other Power Transmission Products",
+                  "parentId": "BIvgqbcOUJDp",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ABbmDqoRyYVG",
+                  "catName": "Ratchets & Pawls",
+                  "parentId": "BIvgqbcOUJDp",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "gWvZDVYqIobK",
+              "catName": "Tapes, Adhesives & Sealants",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "AHbDvqoyIJVw",
+              "catName": "Test, Measure & Inspect",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "BbVGvCPCqcDm",
+              "catName": "Machinery",
+              "parentId": "kNqPvIojdYVD",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "rFVwqePtDovm",
+                  "catName": "Agricultural & Food Machinery",
+                  "parentId": "BbVGvCPCqcDm",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ruDCbKPzFYqo",
+                  "catName": "General Machinery & Tools",
+                  "parentId": "BbVGvCPCqcDm",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "rWvcDQJDCoVP",
+                      "catName": "Accessories For Power Tools",
+                      "parentId": "ruDCbKPzFYqo",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "rZbmqFoUeJvP",
+                      "catName": "Mechanics Tools",
+                      "parentId": "ruDCbKPzFYqo",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BzvWqeYUCobH",
+                      "catName": "Power Tools",
+                      "parentId": "ruDCbKPzFYqo",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                },
+                {
+                  "catId": "rnvQDKPdCobO",
+                  "catName": "Other Machinery",
+                  "parentId": "BbVGvCPCqcDm",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "catId": "gzVZDkPcfcqd",
+          "catName": "Arts & Crafts",
+          "parentId": "qbbZvVVaVDDD",
+          "level": 1,
+          "node": [
+            {
+              "catId": "rSqtDOYGfJvN",
+              "catName": "Beading & Jewelry Making",
+              "parentId": "gzVZDkPcfcqd",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "AJqtDkoowcvu",
+              "catName": "Crafting",
+              "parentId": "gzVZDkPcfcqd",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "WEqLDOcOsovk",
+                  "catName": "Other Crafting Products",
+                  "parentId": "AJqtDkoowcvu",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "AKDwvOYOLPqf",
+                  "catName": "Craft Supplies",
+                  "parentId": "AJqtDkoowcvu",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rnvwqMoSLJbd",
+                  "catName": "Paper & Paper Crafts",
+                  "parentId": "AJqtDkoowcvu",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WaqMDpoohcVe",
+                  "catName": "Sculpture Supplies",
+                  "parentId": "AJqtDkoowcvu",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "gHqjVpPWhYbO",
+              "catName": "Other Arts & Crafts Supplies",
+              "parentId": "gzVZDkPcfcqd",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "gGVvDuJqzcqT",
+              "catName": "Knitting & Crochet",
+              "parentId": "gzVZDkPcfcqd",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BMbmVucSyPDa",
+                  "catName": "Other Knitting & Crochet Supplies",
+                  "parentId": "gGVvDuJqzcqT",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BDbjvMPWyYqU",
+                  "catName": "Knitting Kits",
+                  "parentId": "gGVvDuJqzcqT",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WcbBqkJWiovs",
+                  "catName": "Knitting Needles",
+                  "parentId": "gGVvDuJqzcqT",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WrDRVkJfzYqL",
+                  "catName": "Yarn",
+                  "parentId": "gGVvDuJqzcqT",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "gsVtvpYFzPqL",
+              "catName": "Needlework",
+              "parentId": "gzVZDkPcfcqd",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "WyqdDuoAiYVL",
+                  "catName": "Cross-Stitch",
+                  "parentId": "gsVtvpYFzPqL",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gOqHbpPfyoVz",
+                  "catName": "Embroidery",
+                  "parentId": "gsVtvpYFzPqL",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BIVequoSyYvi",
+                  "catName": "Other Needlework Supplies",
+                  "parentId": "gsVtvpYFzPqL",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "AubRvMcQdoqP",
+              "catName": "Painting, Drawing & Art Supplies",
+              "parentId": "gzVZDkPcfcqd",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "AgqybuYjdcDP",
+                  "catName": "Art Paper",
+                  "parentId": "AubRvMcQdoqP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rjVevMcRdYDH",
+                  "catName": "Other Painting, Drawing & Art Supplies",
+                  "parentId": "AubRvMcQdoqP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WmVKqOJWScDp",
+                  "catName": "Drawing",
+                  "parentId": "AubRvMcQdoqP",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "gnvWbkPfNcqf",
+                  "catName": "Painting",
+                  "parentId": "AubRvMcQdoqP",
+                  "level": 3,
+                  "node": [
+                    {
+                      "catId": "AMVyDkcvSPbt",
+                      "catName": "Other Painting Supplies",
+                      "parentId": "gnvWbkPfNcqf",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "ByVIvOJANobf",
+                      "catName": "Paint Making Materials",
+                      "parentId": "gnvWbkPfNcqf",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "BlVMbkJFSPDa",
+                      "catName": "Paint Mediums & Additives",
+                      "parentId": "gnvWbkPfNcqf",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "gMvhVpPFIYbj",
+                      "catName": "Paintbrushes",
+                      "parentId": "gnvWbkPfNcqf",
+                      "level": 4,
+                      "node": null
+                    },
+                    {
+                      "catId": "AfvRVpYilcDj",
+                      "catName": "Paints",
+                      "parentId": "gnvWbkPfNcqf",
+                      "level": 4,
+                      "node": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "catId": "rIqKDkcSNJvj",
+              "catName": "Party Decorations & Supplies",
+              "parentId": "gzVZDkPcfcqd",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "rCVvqWcTDobQ",
+              "catName": "Scrapbooking & Stamping",
+              "parentId": "gzVZDkPcfcqd",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "WYvZqgJEVoDe",
+                  "catName": "Other Scrapbooking & Stamping Supplies",
+                  "parentId": "rCVvqWcTDobQ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "rCbHDgcCqYVR",
+                  "catName": "Scrapbooking & Stamping Kits",
+                  "parentId": "rCVvqWcTDobQ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WqvabrYMVcDu",
+                  "catName": "Scrapbooking Embellishments",
+                  "parentId": "rCVvqWcTDobQ",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "BrqbDAcEvoVk",
+                  "catName": "Scrapbooking Tools",
+                  "parentId": "rCVvqWcTDobQ",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "BwbaqrcovoVA",
+              "catName": "Sewing",
+              "parentId": "gzVZDkPcfcqd",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "BzqwbAJOVovg",
+                  "catName": "Other Sewing Supplies",
+                  "parentId": "BwbaqrcovoVA",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WGbSDBoOVcqm",
+                  "catName": "Sewing Notions & Supplies",
+                  "parentId": "BwbaqrcovoVA",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WiDMvAJWqobl",
+                  "catName": "Sewing Project Kits",
+                  "parentId": "BwbaqrcovoVA",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "WyDcbBJBFPVv",
+                  "catName": "Trim & Embellishments",
+                  "parentId": "BwbaqrcovoVA",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "catId": "fVvMDFcEoYba",
+          "catName": "Automotive",
+          "parentId": "qbbZvVVaVDDD",
+          "level": 1,
+          "node": [
+            {
+              "catId": "aKVEbeoEPJvf",
+              "catName": "Automotive Parts & Accessories",
+              "parentId": "fVvMDFcEoYba",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "ZJqbDFoCYPVT",
+                  "catName": "Other Automotive Parts & Accessories",
+                  "parentId": "aKVEbeoEPJvf",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "aKqHbFoMcYDj",
+                  "catName": "Automotive Replacement Parts",
+                  "parentId": "aKVEbeoEPJvf",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "fVbeDQPEYJvN",
+                  "catName": "Interior Accessories",
+                  "parentId": "aKVEbeoEPJvf",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "TnvwDCPMRJbV",
+                  "catName": "Exterior Accessories",
+                  "parentId": "aKVEbeoEPJvf",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "azDSVFYORJbH",
+                  "catName": "Tires & Wheels",
+                  "parentId": "aKVEbeoEPJvf",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "azVdDQcWGYbu",
+                  "catName": "Car Care",
+                  "parentId": "aKVEbeoEPJvf",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "fSDcbFJonoVs",
+              "catName": "Automotive Tools & Equipment",
+              "parentId": "fVvMDFcEoYba",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "fbDZqCPyRYVi",
+                  "catName": "Abrasives & Accessories",
+                  "parentId": "fSDcbFJonoVs",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "TKvaqCYNGPDh",
+                  "catName": "Automotive Tools & Equipment Accessories",
+                  "parentId": "fSDcbFJonoVs",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "tPbdDQYRHcVy",
+                  "catName": "Other Automotive Tools & Equipment",
+                  "parentId": "fSDcbFJonoVs",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "aqvwDecqnJVS",
+                  "catName": "Supplies & Materials",
+                  "parentId": "fSDcbFJonoVs",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "febjvCJQRcDI",
+                  "catName": "Tool Storage & Workbenches",
+                  "parentId": "fSDcbFJonoVs",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ZkDlqQofGJVN",
+                  "catName": "Automotive Air Conditioning Tools & Equipment",
+                  "parentId": "fSDcbFJonoVs",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "tOVDveodpJbq",
+                  "catName": "Garage & Shop",
+                  "parentId": "fSDcbFJonoVs",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "TzbmDQJRuoqP",
+                  "catName": "Body Repair Tools",
+                  "parentId": "fSDcbFJonoVs",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "TnDPVeoBucvg",
+                  "catName": "Diagnostic & Test Tools",
+                  "parentId": "fSDcbFJonoVs",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "arDjVFPWOovi",
+                  "catName": "Automotive Hand Tools",
+                  "parentId": "fSDcbFJonoVs",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "fVqwbFPyrcvA",
+                  "catName": "Tire Air Compressors & Inflators",
+                  "parentId": "fSDcbFJonoVs",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "ZTvYqFPNAoDr",
+              "catName": "Car/Vehicle Electronics & GPS",
+              "parentId": "fVvMDFcEoYba",
+              "level": 2,
+              "node": [
+                {
+                  "catId": "ZTvgqCPOBcbs",
+                  "catName": "Other Vehicle Electronics",
+                  "parentId": "ZTvYqFPNAoDr",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "fsqvVeoqBcDj",
+                  "catName": "Vehicle Electronics Accessories",
+                  "parentId": "ZTvYqFPNAoDr",
+                  "level": 3,
+                  "node": null
+                },
+                {
+                  "catId": "ZBDPbCcQrJvi",
+                  "catName": "Vehicle GPS",
+                  "parentId": "ZTvYqFPNAoDr",
+                  "level": 3,
+                  "node": null
+                }
+              ]
+            },
+            {
+              "catId": "fBVDqQPEZJvC",
+              "catName": "Motorcycle & Powersports",
+              "parentId": "fVvMDFcEoYba",
+              "level": 2,
+              "node": null
+            }
+          ]
+        },
+        {
+          "catId": "aYDmqPoMFcbK",
+          "catName": "Entertainment",
+          "parentId": "qbbZvVVaVDDD",
+          "level": 1,
+          "node": [
+            {
+              "catId": "TnvMDYoCCJqe",
+              "catName": "Music & Musical Instruments",
+              "parentId": "aYDmqPoMFcbK",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "ZrqEvoJtcPVp",
+              "catName": "Books & Video",
+              "parentId": "aYDmqPoMFcbK",
+              "level": 2,
+              "node": null
+            },
+            {
+              "catId": "aoDSbPJQMcVu",
+              "catName": "Video Games",
+              "parentId": "aYDmqPoMFcbK",
+              "level": 2,
+              "node": null
+            }
+          ]
+        }
+      ],
+      "successful": true
+    }
+  },
+  "geoSignalSummary": {
+    "matchedPaths": [
+      "title: businessdata.data[0].catname, businessdata.data[0].node[0].catname, businessdata.data[0].node[1].catname, businessdata.data[0].node[1].node[0].catname, businessdata.data[0].node[1].node[1].catname"
+    ],
+    "missingSignals": [
+      "description",
+      "category",
+      "brand",
+      "identifiers",
+      "media",
+      "specs",
+      "logistics",
+      "inventory",
+      "pricing"
+    ]
+  }
+}

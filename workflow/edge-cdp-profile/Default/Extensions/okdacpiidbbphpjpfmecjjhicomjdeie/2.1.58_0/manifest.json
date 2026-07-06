@@ -1,0 +1,44 @@
+{
+   "action": {
+      "requestHeaders": [ {
+         "header": "cookie",
+         "operation": "remove"
+      } ],
+      "type": "modifyHeaders"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "toast/toast.css" ],
+      "js": [ "utils/common.js", "utils/type.js", "utils/pref.js", "utils/product.js", "utils/debug.js", "toast/toast.js", "antitrack/inject-antitrack.js", "wdsupport/wd_extension.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "object-src": "self",
+      "script-src": "self"
+   },
+   "declarative_net_request": {
+      "rule_resources": [  ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "images/install_logo.png",
+      "48": "images/extension_logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9hDVE7gIleK5Bp8veBifv6euwouLhzNzQqXIH1D3aHOtaneuvcbb0W2Xse0u0bYwKBfTvaXsNwhDt2HI1aRtktHtgKFqctCFUjyljuTpUMR0gWR2AGGpzd42920NC48r701MlMDl5rBWP6jW7190tLeWvUXNCJKsHWCq3YO22H+D0+GWHiF/BnSaCc76AfCsDzLG+xNfrGeG4/SS8ujSX9qZPdyaUUixT6zDfOXJfIvUs+NLpdlU5n1MsyVGT/AlC9w4Qncf6PreIdud3OMkPE9Plq9eADpGnSgKH+yYqtauCQw3vZ+pSYo+xW41/cqJtAaqoZ5hokMFYDHcRkaO5wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_name__",
+   "optional_permissions": [ "notifications" ],
+   "options_page": "option/options.html",
+   "permissions": [ "scripting", "tabs", "nativeMessaging", "storage", "activeTab", "webRequest", "webNavigation", "declarativeNetRequestWithHostAccess", "alarms" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "2.1.58",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "promo/*", "images/*" ]
+   } ]
+}

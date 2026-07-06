@@ -1,0 +1,67 @@
+{
+   "action": {
+   },
+   "background": {
+      "service_worker": "background/bg.js",
+      "type": "module"
+   },
+   "commands": {
+      "toggle-web-access": {
+         "description": "__MSG_toggleWebAccess__",
+         "suggested_key": {
+            "default": "Alt+W"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "import_mainUI.js" ],
+      "matches": [ "https://chat.openai.com/*", "https://chatgpt.com/*", "https://claude.ai/*", "https://bard.google.com/*", "https://gemini.google.com/*" ]
+   }, {
+      "all_frames": true,
+      "js": [ "import_proxySearchInject.js" ],
+      "matches": [ "https://chatgpt.com/*", "https://www.google.com/*", "https://www.perplexity.ai/*", "https://www.baidu.com/*", "https://www.bing.com/*", "https://cn.bing.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "import_authClient.js" ],
+      "matches": [ "https://app.maxai.me/*", "https://www.maxai.co/*" ]
+   }, {
+      "js": [ "import_requesterInject.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   }, {
+      "all_frames": true,
+      "js": [ "import_contentArkoseTokenIframe.js" ],
+      "match_about_blank": true,
+      "matches": [ "https://chatgpt.com/favicon.ico" ],
+      "run_at": "document_start"
+   } ],
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "ruleset_bing",
+         "path": "rules/bing.json"
+      } ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_desc__",
+   "host_permissions": [ "*://*/*", "\u003Call_urls>" ],
+   "icons": {
+      "128": "assets/icons/icon128.png",
+      "16": "assets/icons/icon16.png",
+      "48": "assets/icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq+aUS/mNZ3R1yBj5V1RFXH9ydkgiYIlJSdWAYYQQrSU13E9WxrDYgtkT7Lvd/ALpBq1QUaQ7n/tJc30Ibc/23eJsOT+ZKn9Sueo38G6wM0vOiT6KraXtAWsmT+FNAaCpp0Jzhwjc7v3ROUEYTDMsBvJUoT3zTesrQLBo8QEiWmdfqovYU1K8S0PmgIitI9MfL/f6iQaC98BWnLpejxScOywuClZj4tcwWC+ai9zBgkVF5ZXKkuPP3I8VY1/58QPPedxm5ZMJpMv0oh+PfiALxQlRps8YzGGMJblW1ZM3msrp3jTLH5an4b9VeCvvboxzI84bJuBdZjv4DwMXInYt5QIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_name__",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "pages/options/options.html"
+   },
+   "permissions": [ "storage", "declarativeNetRequestWithHostAccess" ],
+   "short_name": "__MSG_sn__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.1.77",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "contentScripts/*", "chunks/*.js", "i18n/locales/*", "assets/*", "pages/*" ]
+   } ]
+}

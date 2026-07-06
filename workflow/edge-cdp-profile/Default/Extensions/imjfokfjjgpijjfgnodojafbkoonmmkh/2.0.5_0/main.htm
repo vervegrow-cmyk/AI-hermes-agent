@@ -1,0 +1,121 @@
+<!doctype html>
+<html ng-app="mango">
+<head>
+	<meta charset="utf-8" />
+	<title>芒果采集中心</title>
+    <link rel="shortcut icon" href="http://asset.mangoerp.com/img/icon/favicon.ico" />
+    <link rel="stylesheet" href="http://asset.mangoerp.com/lib/ace-1.3.1/assets/css/??font-awesome.min.css,bootstrap.min.css,ace-skins.min.css,ace.css" />
+<!--<grunt-css>-->
+<link rel="stylesheet" href="asset/mg/bootstrap/transition/bin/transition-1.2.css" />
+<link rel="stylesheet" href="asset/mg/bootstrap/dialog/bin/dialog-1.5.css" />
+<link rel="stylesheet" href="asset/mg/bootstrap/alert/bin/alert-1.4.css" />
+<link rel="stylesheet" href="asset/mango-for-chrome-2.0.5.css" />
+<!--</grunt-css>-->
+</head>
+
+<body class="no-skin skin-3" ng-controller="mainCtrl as vm">
+    <div class="navbar h-navbar navbar-fixed-top">
+        <div class="navbar-container container">
+            <div class="navbar-header pull-left">
+                <a ng-href="{{vm.testurl}}" class="navbar-logo" target="_blank"><img src="http://asset.mangoerp.com/img/icon/mangoerp.png" alt="logo"></a>
+            </div>
+            <nav role="navigation" class="navbar-menu pull-left collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="https://www.mangoerp.com/erp/" target="_blank">免费使用</a></li>
+                    <li><a href="https://www.mangoerp.com/ap-oa/public/help/index" target="_blank">帮助中心</a></li>
+                    <li><a href="https://www.mangoerp.com/help/protocol" target="_blank">服务条款</a></li>
+                </ul>
+            </nav>
+            <div class="navbar-header pull-right">
+                <ul class="nav ace-nav">
+                    <li ng-if="vm.uname"><a>{{::vm.uname}}</a></li>
+                    <li ng-hide="vm.uname"><a href="https://www.mangoerp.com/login#/signin" target="_blank">登录</a></li>
+                    <li ng-show="vm.uname"><a ng-click="vm.logout()" href="javascript:void(0)">退出</a></li>
+                </ul>
+            </div>
+            <div ng-if="vm.type === 'single'" class="pull-right bigger-120" style="color:white;padding:10px 20px 0 0;">当前窗口不要关闭，您可以浏览网页继续采集</div>
+            </div>
+        </div>
+    </div>
+    <div class="container gather-bd">
+        <div class="mango-tips-container" ng-hide="vm.isCloseModel">
+            <div class="mango-tips-content">
+                <div ng-if="vm.notNewVesion"><i class="ace-icon fa fa-exclamation-triangle bigger-120"></i> 当前谷歌采集插件最新版本{{vm.configuration.version}}，360采集插件最新版本{{vm.configuration.version360}}，建议升级插件，完善采集信息，如您已升级请忽略。<a target="_blank" href="https://help.mangoerp.com/article/820"> 前往下载>></a></div>
+                <div ng-if="vm.pddFetchWarning">尊敬的用户，由于您的账号IP请求频率触及拼多多风控策略，芒果已自动切换保护性采集模式，数据获取将遵循模拟手动节奏，速度会有所控制，感谢您的理解。</div>
+                <!-- <i class="close-icon fa fa-times" ng-click="vm.tipsClose()"></i> -->
+            </div>
+        </div>
+        <div class="prefetch" ng-hide="vm.list.length">
+            <i class="fa fa-fw fa-spinner fa-spin"></i>采集准备中, 请稍等...
+        </div>
+        <table class="table table-striped table-hover table-outbox" ng-if="vm.list.length">
+            <thead>
+                <tr>
+                    <th width="50" class="align-center">序号</th>
+                    <th>id</th>
+                    <th width="100">图片</th>
+                    <th>标题</th>
+                    <th width="140">时间</th>
+                    <th width="180">结果</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in vm.list">
+                    <td class="align-center">{{vm.list.length - $index}}</td>
+                    <td>{{item.id}}</td>
+                    <td><img ng-src="{{item.img|verifySrc}}" /></td>
+                    <td><a href="{{item.url}}" target="_blank">{{item.title}}</a></td>
+                    <td>{{item.date | date:'yyyy.MM.dd HH:mm:ss'}}</td>
+                    <td class="result" ng-switch="item.status">
+                        <div class="text-success" ng-switch-when="success"><i class="fa fa-fw fa-check"></i>成功</div>
+                        <div ng-switch-when="fail">
+                          <button class="btn btn-default btn-xs" ng-click="vm.retryFetch(item)">重新采集</button>
+                          <!-- <div class="text-danger"><i class="fa fa-fw fa-times"></i>{{item.errorMsg || '未知错误'}}</div> -->
+                          <div class="text-danger"ng-if="item.errorMsg !== 'TOKEN_1688_ERR'"><i class="fa fa-fw fa-times"></i>{{item.errorMsg || '未知错误'}}</div>
+                          <div class="text-danger"ng-if="item.errorMsg === 'TOKEN_1688_ERR'"><i class="fa fa-fw fa-times"></i>检测到1688店铺授权已失效，请<a style="cursor: pointer;" ng-click="vm.addAuth()">更新授权</a>，方可采集成功</div>
+                        </div>
+                        <div ng-switch-when="loading"><i class="fa fa-fw fa-spinner fa-spin"></i>采集中</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="gather-footer container">
+        <div class="gather-progress">
+            <div class="highlight" style="width:{{vm.percent}}%"></div>
+            <ul>
+                <li data-page="{{page}}" ng-repeat="page in vm.pages" ng-class="{active:page <= vm.currentPage}" tooltip="第{{page}}页"></li>
+            </ul>
+        </div>
+        <div class="gather-toolbar clearfix">
+            <div class="pull-left">
+               <ul class="list-inline">
+                   <li class="green">成功:<strong>{{vm.count.success}}</strong></li>
+                   <li class="red">失败:<strong>{{vm.count.error}}</strong></li>
+                   <li ng-if="vm.type='cateory'">
+                       <span>分类采集间隔时间(秒)</span>
+                       <input type="number" ng-model="vm.currentFetchTime" class="fetch-time" ng-change="vm.changeFetchTime()">
+                       <!-- <a href="#" class="btn btn-default" ng-click="vm.changeFetchTime()">保存</a> -->
+                   </li>
+               </ul>
+            </div>
+            <div class="pull-right form-inline">
+                <div class="input-group input-group-sm" style="display:none;">
+                    <input ng-model="vm.cateUrl" type="text" class="form-control" />
+                    <span class="input-group-btn" ng-click="vm.fetch()"><button class="btn btn-default btn-sm">采集</button></span>
+                </div>
+                <button ng-if="vm.engine" class="btn btn-default btn-sm" ng-click="vm.engine.toggle()">{{vm.flying ? '停止' : '继续'}}采集</button>
+                <a class="btn btn-primary btn-sm" href="http://www.mangoerp.com/erp/#/erp/product/outbox" target="_blank"><i class="fa fa-fw fa-link"></i>采集箱继续操作</a>
+            </div>
+        </div>
+    </div>
+<script src="asset/lib/angular-1.3.0/angular.min.js"></script>
+
+<!--<grunt-js>-->
+<script src="asset/mg/bootstrap/transition/bin/transition-1.2.js"></script>
+<script src="asset/mg/bootstrap/dialog/bin/dialog-1.5.js"></script>
+<script src="asset/mg/bootstrap/alert/bin/alert-1.4.js"></script>
+<script src="asset/mango-for-chrome-2.0.5.js"></script>
+<!--</grunt-js>-->
+</body>
+</html>

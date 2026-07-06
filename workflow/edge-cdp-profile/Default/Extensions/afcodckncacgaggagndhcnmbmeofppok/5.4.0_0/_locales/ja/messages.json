@@ -1,0 +1,34 @@
+{
+   "appDesc": {
+      "description": "EvernoteにChatGPTの会話をワンクリックで保存し、ChatGPTの履歴を簡単に検索できます。今すぐSave ChatGPT History to Evernoteをお試しください！",
+      "message": "EvernoteにChatGPTの会話をワンクリックで保存し、ChatGPTの履歴を簡単に検索できます。今すぐSave ChatGPT History to Evernoteをお試しください！"
+   },
+   "appName": {
+      "description": "ChatGPTの履歴をEvernoteに保存する",
+      "message": "ChatGPTの履歴をEvernoteに保存する1"
+   },
+   "popupTagLabel": {
+      "description": "タグ",
+      "message": "タグ"
+   },
+   "popupTitle": {
+      "description": "ChatGPTをEvernoteに保存",
+      "message": "ChatGPTをEvernoteに保存"
+   },
+   "popupTitleLabel": {
+      "description": "タイトル",
+      "message": "タイトル"
+   },
+   "saveButton": {
+      "description": "今すぐ保存",
+      "message": "今すぐ保存"
+   },
+   "upgradeButton": {
+      "description": "アップグレード",
+      "message": "アップグレード"
+   },
+   "upgradeTips": {
+      "description": "Proにアップグレードして、無制限にお楽しみください",
+      "message": "Proにアップグレードして、無制限にお楽しみください"
+   }
+}

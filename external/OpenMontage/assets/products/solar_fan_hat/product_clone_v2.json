@@ -1,0 +1,34 @@
+{
+  "product_id": "solar_fan_hat_clone_v2",
+  "name": "Solar Fan Hat",
+  "title": "Solar Fan Hat Viral Clone V2",
+  "platform": "tiktok",
+  "aspect_ratio": "9:16",
+  "render_runtime": "remotion",
+  "reference_video_path": "tmp/reference_analysis/reference.mp4",
+  "reference_video_summary": "High-match clone route: pain point in public heat -> first-person reveal -> activate product -> visible relief payoff.",
+  "model_reference_images": [
+    "08_model_stadium.png"
+  ],
+  "product_images": [
+    "01_main_hat.jpg",
+    "02_fan_closeup.jpg",
+    "03_wide_brim.jpg",
+    "04_model_wearing.jpg",
+    "05_product_details.jpg",
+    "06_package_or_usage.jpg",
+    "07_water_resistant.jpg",
+    "08_model_stadium.png"
+  ],
+  "storyboard_path": "storyboard_v2.json",
+  "keyframe_prompt_plan": "keyframe_prompts_v2.json",
+  "shot_match_plan": "shot_match_plan.md",
+  "creative_direction": {
+    "mode": "strict_clone",
+    "frame_lock_before_motion": true,
+    "all_dynamic_final_required": true,
+    "primary_keyframe_tool": "comfyui_image",
+    "primary_motion_tool": "seedance_ark_video",
+    "avoid_text_to_video_first": true
+  }
+}

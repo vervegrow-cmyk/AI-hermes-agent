@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Aktiver licens"
+   },
+   "activateHint": {
+      "message": "Indsæt koden fra din e-mail."
+   },
+   "activateTitle": {
+      "message": "Aktiver Premium"
+   },
+   "activatedSub": {
+      "message": "Ubegrænsede downloads · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium aktiveret!"
+   },
+   "alreadyBought": {
+      "message": "Allerede købt?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Denne kode er allerede brugt."
+   },
+   "clearHistory": {
+      "message": "Ryd"
+   },
+   "days": {
+      "message": "dage · udløber"
+   },
+   "deactivate": {
+      "message": "Deaktiver licens"
+   },
+   "deactivateConfirm": {
+      "message": "Deaktiver Premium-licens på denne enhed?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Alle"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Nyder du TubeVD?"
+   },
+   "enterCode": {
+      "message": "Indtast din licensnøgle."
+   },
+   "enterKey": {
+      "message": "🔑 Indtast licensnøgle"
+   },
+   "expired": {
+      "message": "⚠️ Denne licens er udløbet."
+   },
+   "extDesc": {
+      "message": "Download videoer fra Facebook, Twitter, Vimeo, Dailymotion og 1000+ sider i HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "free": {
+      "message": "Gratis"
+   },
+   "genericError": {
+      "message": "Noget gik galt. Kontakt support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Få Premium — $4,99/mdr."
+   },
+   "getPremiumLink": {
+      "message": "Få Premium ↗"
+   },
+   "guarantee": {
+      "message": "30-dages pengene-tilbage-garanti"
+   },
+   "history": {
+      "message": "Downloadhistorik"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Ugyldig licensnøgle."
+   },
+   "invalidFormat": {
+      "message": "Ugyldigt format. Skal begynde med TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Licensnøgle"
+   },
+   "limit": {
+      "message": "Grænse"
+   },
+   "limitHint": {
+      "message": "Gratis plan: 5 downloads/dag."
+   },
+   "limitTitle": {
+      "message": "Daglig grænse nået"
+   },
+   "networkError": {
+      "message": "⚠️ Forbindelsesfejl."
+   },
+   "noCode": {
+      "message": "Ingen kode endnu?"
+   },
+   "noHistory": {
+      "message": "Ingen downloads endnu."
+   },
+   "noVideos": {
+      "message": "Ingen videoer fundet"
+   },
+   "noVideosHint": {
+      "message": "Hold musen over en video for at se downloadknappen."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Bedøm"
+   },
+   "rateUs": {
+      "message": "⭐ Bedøm os"
+   },
+   "scanning": {
+      "message": "Søger efter videoer..."
+   },
+   "serverError": {
+      "message": "⚠️ Serverfejl."
+   },
+   "startDown": {
+      "message": "Start download ↓"
+   },
+   "support": {
+      "message": "Support"
+   },
+   "unlimited": {
+      "message": "Ubegrænset"
+   },
+   "upgradeBtn": {
+      "message": "Opgrader til Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Opgrader ↗"
+   },
+   "upgradeTitle": {
+      "message": "Opgrader til Premium"
+   },
+   "usageLeft": {
+      "message": "downloads tilbage i dag"
+   },
+   "usageOf": {
+      "message": "af"
+   },
+   "validFor": {
+      "message": "Gyldig i"
+   },
+   "verifying": {
+      "message": "Verificerer…"
+   },
+   "videoDetected": {
+      "message": "video fundet"
+   },
+   "videosDetected": {
+      "message": "videoer fundet"
+   },
+   "ytBlocked": {
+      "message": "YouTube understøttes ikke"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD respekterer YouTubes vilkår for brug."
+   },
+   "ytTry": {
+      "message": "Prøv Facebook, Vimeo, Twitter og 1000+ andre sider."
+   }
+}

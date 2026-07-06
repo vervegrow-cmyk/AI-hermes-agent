@@ -1,0 +1,155 @@
+{
+   "content_downloadAudioText": {
+      "message": "Audio"
+   },
+   "content_downloadCoverText": {
+      "message": "Okładka"
+   },
+   "content_downloadVideoText": {
+      "message": "Wideo"
+   },
+   "manifest_description": {
+      "message": "Pobieraj filmy z TikToka bez znaku wodnego."
+   },
+   "manifest_name": {
+      "message": "Pobieracz filmów z TikTok"
+   },
+   "options_completeDownload": {
+      "message": "Pobieranie zakończone"
+   },
+   "options_completeDownloadTip": {
+      "message": "W fazie zakończenia pobierania plik został pobrany i możesz zobaczyć pobrany plik w menedżerze plików."
+   },
+   "options_downloadSetting": {
+      "message": "Ustawienia pobierania"
+   },
+   "options_downloadSubdirectory": {
+      "message": "Podkatalog pobierania"
+   },
+   "options_downloadSubdirectoryTip": {
+      "message": "Podkatalog dla pobieranych plików"
+   },
+   "options_downloadTipSetting": {
+      "message": "Powiadomienie o pobieraniu"
+   },
+   "options_downloadTipSettingTip": {
+      "message": "Po kliknięciu przycisku pobierania w prawym górnym rogu okna pojawi się powiadomienie o pobieraniu."
+   },
+   "options_enableSubdirectory": {
+      "message": "Podkatalog"
+   },
+   "options_enableSubdirectoryTip": {
+      "message": "Czy pobierać pliki do podkatalogu."
+   },
+   "options_pageTitle": {
+      "message": "TikTok Video Downloader"
+   },
+   "options_parseInformation": {
+      "message": "Analiza informacji"
+   },
+   "options_parseInformationTip": {
+      "message": "W fazie analizy informacji rozszerzenie przeanalizuje wszystkie informacje potrzebne do pobrania."
+   },
+   "options_saveSetting": {
+      "message": "Zapisz ustawienia"
+   },
+   "options_saveSuccess": {
+      "message": "Pomyślnie zapisano"
+   },
+   "options_startDownload": {
+      "message": "Rozpocznij pobieranie"
+   },
+   "options_startDownloadTip": {
+      "message": "W fazie rozpoczęcia pobierania zobaczysz, jak przeglądarka zaczyna pobierać plik i możesz sprawdzić postęp pobierania na stronie pobierania przeglądarki."
+   },
+   "options_subdirectoryEmpty": {
+      "message": "Podkatalog nie może być pusty"
+   },
+   "options_subdirectoryIllegal": {
+      "message": "Podkatalog zawiera niedozwolone znaki"
+   },
+   "options_subdirectoryName": {
+      "message": "Nazwa podkatalogu"
+   },
+   "options_subdirectoryNameTip": {
+      "message": "Określ nazwę podkatalogu"
+   },
+   "options_videoCreator": {
+      "message": "Twórca"
+   },
+   "options_videoCreatorWithAt": {
+      "message": "Dodaj symbol @ przed nazwą twórcy filmu"
+   },
+   "options_videoCreatorWithAtTooltip": {
+      "message": "W nazwie pobranego pliku wideo dodaj symbol @ przed nazwą twórcy."
+   },
+   "options_videoDescription": {
+      "message": "Opis"
+   },
+   "options_videoDescriptionWithHashtag": {
+      "message": "Zachowaj hashtagi w opisie filmu"
+   },
+   "options_videoDescriptionWithHashtagTip": {
+      "message": "W nazwach pobranych plików wideo zachowaj hashtagi rozpoczynające się od # w opisie filmu."
+   },
+   "options_videoFileName": {
+      "message": "Nazwa pliku wideo"
+   },
+   "options_videoFileNameEmpty": {
+      "message": "Nazwa pliku wideo nie może być pusta, wybierz co najmniej jedną"
+   },
+   "options_videoFileNameTooltip": {
+      "message": "Nazwa pobieranego pliku wideo zostanie wygenerowana na podstawie atrybutów i kolejności w polu poniżej, oddzielonych spacjami."
+   },
+   "options_videoHighestBitrate": {
+      "message": "Najwyższy bitrate"
+   },
+   "options_videoHighestResolution": {
+      "message": "Najwyższa rozdzielczość"
+   },
+   "options_videoLargestFileSize": {
+      "message": "Największy rozmiar pliku"
+   },
+   "options_videoQuality": {
+      "message": "Jakość wideo"
+   },
+   "options_videoQualityTip": {
+      "message": "W jakiej jakości pobierać filmy"
+   },
+   "options_videoResolution": {
+      "message": "Rozdzielczość wideo"
+   },
+   "options_videoVid": {
+      "message": "ID filmu"
+   },
+   "popup_feedback": {
+      "message": "Opinie"
+   },
+   "popup_feedbackEmailSubject": {
+      "message": "Opinia o TikTok Video Downloader"
+   },
+   "popup_review": {
+      "message": "Recenzje"
+   },
+   "popup_setting": {
+      "message": "Ustawienia"
+   },
+   "snackbar_completeDownload": {
+      "message": "Pobieranie zakończone"
+   },
+   "snackbar_downloadFailed": {
+      "message": "Pobieranie nie powiodło się, odśwież stronę i spróbuj ponownie"
+   },
+   "snackbar_findVidError": {
+      "message": "Nie udało się przeanalizować informacji o filmie, wyślij e-mail z informacją o problemie"
+   },
+   "snackbar_parseInformation": {
+      "message": "Analiza informacji"
+   },
+   "snackbar_parseInformationFail": {
+      "message": "Nie udało się przeanalizować informacji o filmie, odśwież stronę i spróbuj ponownie"
+   },
+   "snackbar_startDownload": {
+      "message": "Rozpocznij pobieranie"
+   }
+}

@@ -1,0 +1,49 @@
+[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=18:2[bg0];
+[0:v]scale=930:-2[fg0];
+[bg0][fg0]overlay=(W-w)/2:(H-h)/2:format=auto,
+drawbox=x=70:y=90:w=940:h=250:color=0x0f172a@0.78:t=fill,
+drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='Fly without your phone':fontcolor=white:fontsize=72:x=(w-text_w)/2:y=145,
+drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':text='Screen remote control included':fontcolor=0x7dd3fc:fontsize=38:x=(w-text_w)/2:y=240,
+setsar=1,fade=t=in:st=0:d=0.3,fade=t=out:st=3.7:d=0.3[s0];
+
+[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=18:2[bg1];
+[1:v]scale=930:-2[fg1];
+[bg1][fg1]overlay=(W-w)/2:(H-h)/2:format=auto,
+drawbox=x=100:y=1180:w=880:h=220:color=0x111827@0.82:t=fill,
+drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='No mobile phone required':fontcolor=white:fontsize=58:x=(w-text_w)/2:y=1245,
+drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':text='See the flight feed right on the remote':fontcolor=0xbfdbfe:fontsize=34:x=(w-text_w)/2:y=1325,
+setsar=1,fade=t=in:st=0:d=0.3,fade=t=out:st=3.7:d=0.3[s1];
+
+[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=18:2[bg2];
+[2:v]scale=980:-2[fg2];
+[bg2][fg2]overlay=(W-w)/2:(H-h)/2:format=auto,
+drawbox=x=70:y=110:w=940:h=240:color=0x082f49@0.80:t=fill,
+drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='Dual cameras + 90 degree view':fontcolor=white:fontsize=58:x=(w-text_w)/2:y=170,
+drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':text='Switch angles fast from the remote':fontcolor=0x93c5fd:fontsize=36:x=(w-text_w)/2:y=255,
+setsar=1,fade=t=in:st=0:d=0.3,fade=t=out:st=3.7:d=0.3[s2];
+
+[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=18:2[bg3];
+[3:v]scale=980:-2[fg3];
+[bg3][fg3]overlay=(W-w)/2:(H-h)/2:format=auto,
+drawbox=x=90:y=120:w=900:h=260:color=0x3f1d0d@0.80:t=fill,
+drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='One-click controls for beginners':fontcolor=white:fontsize=60:x=(w-text_w)/2:y=178,
+drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':text='Takeoff  landing  headless mode':fontcolor=0xfdba74:fontsize=34:x=(w-text_w)/2:y=268,
+setsar=1,fade=t=in:st=0:d=0.3,fade=t=out:st=3.7:d=0.3[s3];
+
+[4:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=18:2[bg4];
+[4:v]scale=980:-2[fg4];
+[bg4][fg4]overlay=(W-w)/2:(H-h)/2:format=auto,
+drawbox=x=110:y=1180:w=860:h=230:color=0x14532d@0.82:t=fill,
+drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='Large battery  stable hovering':fontcolor=white:fontsize=56:x=(w-text_w)/2:y=1248,
+drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':text='3.7V high-capacity battery':fontcolor=0xbbf7d0:fontsize=34:x=(w-text_w)/2:y=1332,
+setsar=1,fade=t=in:st=0:d=0.3,fade=t=out:st=3.7:d=0.3[s4];
+
+[5:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=18:2[bg5];
+[5:v]scale=980:-2[fg5];
+[bg5][fg5]overlay=(W-w)/2:(H-h)/2:format=auto,
+drawbox=x=90:y=1210:w=900:h=200:color=0x111827@0.84:t=fill,
+drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='LCD remote. Easy controls.':fontcolor=white:fontsize=58:x=(w-text_w)/2:y=1268,
+drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':text='Tap to shop now':fontcolor=0x7dd3fc:fontsize=40:x=(w-text_w)/2:y=1350,
+setsar=1,fade=t=in:st=0:d=0.3,fade=t=out:st=3.7:d=0.3[s5];
+
+[s0][s1][s2][s3][s4][s5]concat=n=6:v=1:a=0,format=yuv420p[v]

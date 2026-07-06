@@ -1,0 +1,39 @@
+{
+   "action": {
+      "default_popup": "popup.html",
+      "default_title": "TikTok Video Downloader"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "content-scripts/button.css" ],
+      "js": [ "content-scripts/button.js", "content-scripts/shadow.js" ],
+      "matches": [ "https://*.tiktok.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_manifest_description__",
+   "host_permissions": [ "https://*.tiktok.com/*" ],
+   "icons": {
+      "128": "icon/128.png",
+      "16": "icon/16.png",
+      "32": "icon/32.png",
+      "48": "icon/48.png",
+      "96": "icon/96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkIyjuEk0NkqpuvlJRvdZ5jFYpEc9a7g1+eIRNKEz5v1xxJR88f1HBIfpcdZd7I54Oa9fJjaY7INfbK289jjQTttIbRTFvyGA0NWZzMq8fkIctRlf4dHJgJ9pBmmBUoUDKULT8nI08FKz5Ay7p4V2iRLh0JFa3xBZQP5/yVf0VWtAJPDesUO8pkKEl7sHDkRshTqD+sOEfpM8Rx6bdvSpijhtBI45kJc4PlD1I+5RSy1YXCOrdjc5D37TIOO3f/U0KBCj37NLtTmKGrbD6x6UL0XG/uor4i/yMt3mAIF7hoT8YojElmUhNoyoh9kAfyRKQzGYQgbCxCb6ZhdV/cRZ6wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_manifest_name__",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "downloads", "webRequest", "storage" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "2.0.3",
+   "web_accessible_resources": [ {
+      "matches": [ "https://*.tiktok.com/*" ],
+      "resources": [ "*.svg", "*.js.map" ]
+   } ]
+}

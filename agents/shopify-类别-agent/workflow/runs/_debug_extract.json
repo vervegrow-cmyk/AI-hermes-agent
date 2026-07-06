@@ -1,0 +1,146 @@
+{
+  "category_full_name": "类别 厨房/餐厅坐椅 （在 椅子 中） 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+  "category_suggestion_text": "类别 厨房/餐厅坐椅 （在 椅子 中） 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+  "category_suggestion_candidates": [
+    "类别 厨房/餐厅坐椅 （在 椅子 中） 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+    "建议厨房/餐厅坐椅 在 椅子动物/宠物用品服饰与配饰艺术与娱乐婴幼儿用品商业/工业相机与光学器件电子产品饮食/烟酒家具五金/硬件保健/美容/卫生/护理家居与园艺箱包成人媒体办公用品宗教/仪式软件体育用品玩具/游戏交通工具/汽车/飞机/船舶礼品卡未分类服务产品附加件套装",
+    "建议厨房/餐厅坐椅 在 椅子",
+    "厨房/餐厅坐椅 （在 椅子 中）",
+    "接受建议的类别：厨房/餐厅坐椅（在 椅子 中）",
+    "false",
+    "忽略建议的类别：厨房/餐厅坐椅（在 椅子 中）"
+  ],
+  "current_category_value": "",
+  "category_section_text": "类别 厨房/餐厅坐椅 （在 椅子 中） 建议 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+  "category_section_found": true,
+  "category_suggestion_rows": [
+    {
+      "text": "类别 厨房/餐厅坐椅 （在 椅子 中） 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "raw_text": "类别 厨房/餐厅坐椅 （在 椅子 中） 建议 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "tag": "DIV",
+      "attributes": {
+        "class": "Polaris-BlockStack",
+        "style": "--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);"
+      },
+      "html": "<div class=\"Polaris-BlockStack\" style=\"--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);\"><div class=\"Polaris-InlineStack\" style=\"--pc-inline-stack-align: space-between; --pc-inline-stack-block-align: center; --pc-inline-stack-wrap: wrap; --pc-inline-stack-row-gap-xs: var(--p-space-200); --pc-inline-stack-column-gap-xs: var(--p-space-200); --pc-inline-stack-flex-direction-xs: row;\"><div class=\"Polaris-Label\"><label id=\"ProductCategoryPickerIdLabel\" for=\"ProductCategoryPickerId\" class=\"Polaris-Label__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd\">类别</span></label></div></div><div class=\"_SinglePickerWrapper_b3eax_26\"><div class=\"_MagicFieldSuggestion_j6vt4_1 _hasSuggestion_j6vt4_13\"><div><s-internal-single-picker-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"选择产品类别\" commandfor=\":r1h:\" labelposition=\"outside\"></s-internal-single-picker-field><s-popover id=\":r1h:\"><s-internal-single-picker><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-picker-option value=\"gid://shopify/ProductTaxonomyNode/2104\"><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-badge tone=\"ai\">建议</s-internal-badge></div>厨房/餐厅坐椅 在 椅子</s-internal-picker-option></div><div slot=\"search-content\" style=\"display: contents;\"><s-internal-search-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"搜索类别\" autocomplete=\"off\"></s-internal-search-field></div><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>动物/宠物用品</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>服饰与配饰</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>艺术与娱乐</s-internal-picker-action><s-internal-pi"
+    },
+    {
+      "text": "类别 厨房/餐厅坐椅 （在 椅子 中） 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "raw_text": "类别 厨房/餐厅坐椅 （在 椅子 中） 建议 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "tag": "DIV",
+      "attributes": {
+        "class": "Polaris-BlockStack",
+        "style": "--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);"
+      },
+      "html": "<div class=\"Polaris-BlockStack\" style=\"--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);\"><div class=\"Polaris-InlineStack\" style=\"--pc-inline-stack-align: space-between; --pc-inline-stack-block-align: center; --pc-inline-stack-wrap: wrap; --pc-inline-stack-row-gap-xs: var(--p-space-200); --pc-inline-stack-column-gap-xs: var(--p-space-200); --pc-inline-stack-flex-direction-xs: row;\"><div class=\"Polaris-Label\"><label id=\"ProductCategoryPickerIdLabel\" for=\"ProductCategoryPickerId\" class=\"Polaris-Label__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd\">类别</span></label></div></div><div class=\"_SinglePickerWrapper_b3eax_26\"><div class=\"_MagicFieldSuggestion_j6vt4_1 _hasSuggestion_j6vt4_13\"><div><s-internal-single-picker-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"选择产品类别\" commandfor=\":r1h:\" labelposition=\"outside\"></s-internal-single-picker-field><s-popover id=\":r1h:\"><s-internal-single-picker><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-picker-option value=\"gid://shopify/ProductTaxonomyNode/2104\"><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-badge tone=\"ai\">建议</s-internal-badge></div>厨房/餐厅坐椅 在 椅子</s-internal-picker-option></div><div slot=\"search-content\" style=\"display: contents;\"><s-internal-search-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"搜索类别\" autocomplete=\"off\"></s-internal-search-field></div><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>动物/宠物用品</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>服饰与配饰</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>艺术与娱乐</s-internal-picker-action><s-internal-pi"
+    },
+    {
+      "text": "类别 厨房/餐厅坐椅 （在 椅子 中） 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "raw_text": "类别 厨房/餐厅坐椅 （在 椅子 中） 建议 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "tag": "DIV",
+      "attributes": {
+        "class": "Polaris-BlockStack",
+        "style": "--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);"
+      },
+      "html": "<div class=\"Polaris-BlockStack\" style=\"--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);\"><div class=\"Polaris-InlineStack\" style=\"--pc-inline-stack-align: space-between; --pc-inline-stack-block-align: center; --pc-inline-stack-wrap: wrap; --pc-inline-stack-row-gap-xs: var(--p-space-200); --pc-inline-stack-column-gap-xs: var(--p-space-200); --pc-inline-stack-flex-direction-xs: row;\"><div class=\"Polaris-Label\"><label id=\"ProductCategoryPickerIdLabel\" for=\"ProductCategoryPickerId\" class=\"Polaris-Label__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd\">类别</span></label></div></div><div class=\"_SinglePickerWrapper_b3eax_26\"><div class=\"_MagicFieldSuggestion_j6vt4_1 _hasSuggestion_j6vt4_13\"><div><s-internal-single-picker-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"选择产品类别\" commandfor=\":r1h:\" labelposition=\"outside\"></s-internal-single-picker-field><s-popover id=\":r1h:\"><s-internal-single-picker><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-picker-option value=\"gid://shopify/ProductTaxonomyNode/2104\"><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-badge tone=\"ai\">建议</s-internal-badge></div>厨房/餐厅坐椅 在 椅子</s-internal-picker-option></div><div slot=\"search-content\" style=\"display: contents;\"><s-internal-search-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"搜索类别\" autocomplete=\"off\"></s-internal-search-field></div><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>动物/宠物用品</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>服饰与配饰</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>艺术与娱乐</s-internal-picker-action><s-internal-pi"
+    },
+    {
+      "text": "建议厨房/餐厅坐椅 在 椅子动物/宠物用品服饰与配饰艺术与娱乐婴幼儿用品商业/工业相机与光学器件电子产品饮食/烟酒家具五金/硬件保健/美容/卫生/护理家居与园艺箱包成人媒体办公用品宗教/仪式软件体育用品玩具/游戏交通工具/汽车/飞机/船舶礼品卡未分类服务产品附加件套装",
+      "raw_text": "建议厨房/餐厅坐椅 在 椅子动物/宠物用品服饰与配饰艺术与娱乐婴幼儿用品商业/工业相机与光学器件电子产品饮食/烟酒家具五金/硬件保健/美容/卫生/护理家居与园艺箱包成人媒体办公用品宗教/仪式软件体育用品玩具/游戏交通工具/汽车/飞机/船舶礼品卡未分类服务产品附加件套装",
+      "tag": "S-INTERNAL-SINGLE-PICKER",
+      "attributes": {},
+      "html": "<s-internal-single-picker><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-picker-option value=\"gid://shopify/ProductTaxonomyNode/2104\"><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-badge tone=\"ai\">建议</s-internal-badge></div>厨房/餐厅坐椅 在 椅子</s-internal-picker-option></div><div slot=\"search-content\" style=\"display: contents;\"><s-internal-search-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"搜索类别\" autocomplete=\"off\"></s-internal-search-field></div><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>动物/宠物用品</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>服饰与配饰</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>艺术与娱乐</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>婴幼儿用品</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>商业/工业</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>相机与光学器件</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>电子产品</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>饮食/烟酒</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"disp"
+    },
+    {
+      "text": "建议厨房/餐厅坐椅 在 椅子动物/宠物用品服饰与配饰艺术与娱乐婴幼儿用品商业/工业相机与光学器件电子产品饮食/烟酒家具五金/硬件保健/美容/卫生/护理家居与园艺箱包成人媒体办公用品宗教/仪式软件体育用品玩具/游戏交通工具/汽车/飞机/船舶礼品卡未分类服务产品附加件套装",
+      "raw_text": "建议厨房/餐厅坐椅 在 椅子动物/宠物用品服饰与配饰艺术与娱乐婴幼儿用品商业/工业相机与光学器件电子产品饮食/烟酒家具五金/硬件保健/美容/卫生/护理家居与园艺箱包成人媒体办公用品宗教/仪式软件体育用品玩具/游戏交通工具/汽车/飞机/船舶礼品卡未分类服务产品附加件套装",
+      "tag": "S-INTERNAL-SINGLE-PICKER",
+      "attributes": {},
+      "html": "<s-internal-single-picker><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-picker-option value=\"gid://shopify/ProductTaxonomyNode/2104\"><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-badge tone=\"ai\">建议</s-internal-badge></div>厨房/餐厅坐椅 在 椅子</s-internal-picker-option></div><div slot=\"search-content\" style=\"display: contents;\"><s-internal-search-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"搜索类别\" autocomplete=\"off\"></s-internal-search-field></div><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>动物/宠物用品</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>服饰与配饰</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>艺术与娱乐</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>婴幼儿用品</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>商业/工业</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>相机与光学器件</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>电子产品</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>饮食/烟酒</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"disp"
+    },
+    {
+      "text": "建议厨房/餐厅坐椅 在 椅子",
+      "raw_text": "建议厨房/餐厅坐椅 在 椅子",
+      "tag": "S-INTERNAL-PICKER-OPTION",
+      "attributes": {
+        "value": "gid://shopify/ProductTaxonomyNode/2104"
+      },
+      "html": "<s-internal-picker-option value=\"gid://shopify/ProductTaxonomyNode/2104\"><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-badge tone=\"ai\">建议</s-internal-badge></div>厨房/餐厅坐椅 在 椅子</s-internal-picker-option>"
+    },
+    {
+      "text": "建议厨房/餐厅坐椅 在 椅子",
+      "raw_text": "建议厨房/餐厅坐椅 在 椅子",
+      "tag": "S-INTERNAL-PICKER-OPTION",
+      "attributes": {
+        "value": "gid://shopify/ProductTaxonomyNode/2104"
+      },
+      "html": "<s-internal-picker-option value=\"gid://shopify/ProductTaxonomyNode/2104\"><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-badge tone=\"ai\">建议</s-internal-badge></div>厨房/餐厅坐椅 在 椅子</s-internal-picker-option>"
+    },
+    {
+      "text": "类别 厨房/餐厅坐椅 （在 椅子 中） 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "raw_text": "类别 厨房/餐厅坐椅 （在 椅子 中） 建议 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "tag": "DIV",
+      "attributes": {
+        "class": "Polaris-BlockStack",
+        "style": "--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);"
+      },
+      "html": "<div class=\"Polaris-BlockStack\" style=\"--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);\"><div class=\"Polaris-InlineStack\" style=\"--pc-inline-stack-align: space-between; --pc-inline-stack-block-align: center; --pc-inline-stack-wrap: wrap; --pc-inline-stack-row-gap-xs: var(--p-space-200); --pc-inline-stack-column-gap-xs: var(--p-space-200); --pc-inline-stack-flex-direction-xs: row;\"><div class=\"Polaris-Label\"><label id=\"ProductCategoryPickerIdLabel\" for=\"ProductCategoryPickerId\" class=\"Polaris-Label__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd\">类别</span></label></div></div><div class=\"_SinglePickerWrapper_b3eax_26\"><div class=\"_MagicFieldSuggestion_j6vt4_1 _hasSuggestion_j6vt4_13\"><div><s-internal-single-picker-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"选择产品类别\" commandfor=\":r1h:\" labelposition=\"outside\"></s-internal-single-picker-field><s-popover id=\":r1h:\"><s-internal-single-picker><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-picker-option value=\"gid://shopify/ProductTaxonomyNode/2104\"><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-badge tone=\"ai\">建议</s-internal-badge></div>厨房/餐厅坐椅 在 椅子</s-internal-picker-option></div><div slot=\"search-content\" style=\"display: contents;\"><s-internal-search-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"搜索类别\" autocomplete=\"off\"></s-internal-search-field></div><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>动物/宠物用品</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>服饰与配饰</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>艺术与娱乐</s-internal-picker-action><s-internal-pi"
+    },
+    {
+      "text": "类别 厨房/餐厅坐椅 （在 椅子 中） 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "raw_text": "类别 厨房/餐厅坐椅 （在 椅子 中） 建议 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "tag": "DIV",
+      "attributes": {
+        "class": "Polaris-BlockStack",
+        "style": "--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);"
+      },
+      "html": "<div class=\"Polaris-BlockStack\" style=\"--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);\"><div class=\"Polaris-InlineStack\" style=\"--pc-inline-stack-align: space-between; --pc-inline-stack-block-align: center; --pc-inline-stack-wrap: wrap; --pc-inline-stack-row-gap-xs: var(--p-space-200); --pc-inline-stack-column-gap-xs: var(--p-space-200); --pc-inline-stack-flex-direction-xs: row;\"><div class=\"Polaris-Label\"><label id=\"ProductCategoryPickerIdLabel\" for=\"ProductCategoryPickerId\" class=\"Polaris-Label__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd\">类别</span></label></div></div><div class=\"_SinglePickerWrapper_b3eax_26\"><div class=\"_MagicFieldSuggestion_j6vt4_1 _hasSuggestion_j6vt4_13\"><div><s-internal-single-picker-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"选择产品类别\" commandfor=\":r1h:\" labelposition=\"outside\"></s-internal-single-picker-field><s-popover id=\":r1h:\"><s-internal-single-picker><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-picker-option value=\"gid://shopify/ProductTaxonomyNode/2104\"><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-badge tone=\"ai\">建议</s-internal-badge></div>厨房/餐厅坐椅 在 椅子</s-internal-picker-option></div><div slot=\"search-content\" style=\"display: contents;\"><s-internal-search-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"搜索类别\" autocomplete=\"off\"></s-internal-search-field></div><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>动物/宠物用品</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>服饰与配饰</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>艺术与娱乐</s-internal-picker-action><s-internal-pi"
+    },
+    {
+      "text": "类别 厨房/餐厅坐椅 （在 椅子 中） 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "raw_text": "类别 厨房/餐厅坐椅 （在 椅子 中） 建议 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "tag": "DIV",
+      "attributes": {
+        "class": "Polaris-BlockStack",
+        "style": "--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);"
+      },
+      "html": "<div class=\"Polaris-BlockStack\" style=\"--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);\"><div class=\"Polaris-InlineStack\" style=\"--pc-inline-stack-align: space-between; --pc-inline-stack-block-align: center; --pc-inline-stack-wrap: wrap; --pc-inline-stack-row-gap-xs: var(--p-space-200); --pc-inline-stack-column-gap-xs: var(--p-space-200); --pc-inline-stack-flex-direction-xs: row;\"><div class=\"Polaris-Label\"><label id=\"ProductCategoryPickerIdLabel\" for=\"ProductCategoryPickerId\" class=\"Polaris-Label__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd\">类别</span></label></div></div><div class=\"_SinglePickerWrapper_b3eax_26\"><div class=\"_MagicFieldSuggestion_j6vt4_1 _hasSuggestion_j6vt4_13\"><div><s-internal-single-picker-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"选择产品类别\" commandfor=\":r1h:\" labelposition=\"outside\"></s-internal-single-picker-field><s-popover id=\":r1h:\"><s-internal-single-picker><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-picker-option value=\"gid://shopify/ProductTaxonomyNode/2104\"><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-badge tone=\"ai\">建议</s-internal-badge></div>厨房/餐厅坐椅 在 椅子</s-internal-picker-option></div><div slot=\"search-content\" style=\"display: contents;\"><s-internal-search-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"搜索类别\" autocomplete=\"off\"></s-internal-search-field></div><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>动物/宠物用品</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>服饰与配饰</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>艺术与娱乐</s-internal-picker-action><s-internal-pi"
+    },
+    {
+      "text": "类别 厨房/餐厅坐椅 （在 椅子 中） 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "raw_text": "类别 厨房/餐厅坐椅 （在 椅子 中） 建议 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "tag": "DIV",
+      "attributes": {
+        "class": "Polaris-BlockStack",
+        "style": "--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);"
+      },
+      "html": "<div class=\"Polaris-BlockStack\" style=\"--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);\"><div class=\"Polaris-InlineStack\" style=\"--pc-inline-stack-align: space-between; --pc-inline-stack-block-align: center; --pc-inline-stack-wrap: wrap; --pc-inline-stack-row-gap-xs: var(--p-space-200); --pc-inline-stack-column-gap-xs: var(--p-space-200); --pc-inline-stack-flex-direction-xs: row;\"><div class=\"Polaris-Label\"><label id=\"ProductCategoryPickerIdLabel\" for=\"ProductCategoryPickerId\" class=\"Polaris-Label__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd\">类别</span></label></div></div><div class=\"_SinglePickerWrapper_b3eax_26\"><div class=\"_MagicFieldSuggestion_j6vt4_1 _hasSuggestion_j6vt4_13\"><div><s-internal-single-picker-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"选择产品类别\" commandfor=\":r1h:\" labelposition=\"outside\"></s-internal-single-picker-field><s-popover id=\":r1h:\"><s-internal-single-picker><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-picker-option value=\"gid://shopify/ProductTaxonomyNode/2104\"><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-badge tone=\"ai\">建议</s-internal-badge></div>厨房/餐厅坐椅 在 椅子</s-internal-picker-option></div><div slot=\"search-content\" style=\"display: contents;\"><s-internal-search-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"搜索类别\" autocomplete=\"off\"></s-internal-search-field></div><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>动物/宠物用品</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>服饰与配饰</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>艺术与娱乐</s-internal-picker-action><s-internal-pi"
+    },
+    {
+      "text": "类别 厨房/餐厅坐椅 （在 椅子 中） 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "raw_text": "类别 厨房/餐厅坐椅 （在 椅子 中） 建议 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售",
+      "tag": "DIV",
+      "attributes": {
+        "class": "Polaris-BlockStack",
+        "style": "--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);"
+      },
+      "html": "<div class=\"Polaris-BlockStack\" style=\"--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-200);\"><div class=\"Polaris-InlineStack\" style=\"--pc-inline-stack-align: space-between; --pc-inline-stack-block-align: center; --pc-inline-stack-wrap: wrap; --pc-inline-stack-row-gap-xs: var(--p-space-200); --pc-inline-stack-column-gap-xs: var(--p-space-200); --pc-inline-stack-flex-direction-xs: row;\"><div class=\"Polaris-Label\"><label id=\"ProductCategoryPickerIdLabel\" for=\"ProductCategoryPickerId\" class=\"Polaris-Label__Text\"><span class=\"Polaris-Text--root Polaris-Text--bodyMd\">类别</span></label></div></div><div class=\"_SinglePickerWrapper_b3eax_26\"><div class=\"_MagicFieldSuggestion_j6vt4_1 _hasSuggestion_j6vt4_13\"><div><s-internal-single-picker-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"选择产品类别\" commandfor=\":r1h:\" labelposition=\"outside\"></s-internal-single-picker-field><s-popover id=\":r1h:\"><s-internal-single-picker><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-picker-option value=\"gid://shopify/ProductTaxonomyNode/2104\"><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-badge tone=\"ai\">建议</s-internal-badge></div>厨房/餐厅坐椅 在 椅子</s-internal-picker-option></div><div slot=\"search-content\" style=\"display: contents;\"><s-internal-search-field label=\"类别\" labelaccessibilityvisibility=\"exclusive\" placeholder=\"搜索类别\" autocomplete=\"off\"></s-internal-search-field></div><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>动物/宠物用品</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>服饰与配饰</s-internal-picker-action><s-internal-picker-action><div slot=\"secondary-content\" style=\"display: contents;\"><s-internal-icon type=\"chevron-right\"></s-internal-icon></div>艺术与娱乐</s-internal-picker-action><s-internal-pi"
+    },
+    {
+      "text": "厨房/餐厅坐椅 （在 椅子 中）",
+      "raw_text": "厨房/餐厅坐椅 （在 椅子 中） 建议",
+      "tag": "DIV",
+      "attributes": {
+        "class": "_SuggestionButtonStack_1ib0g_77"
+      },
+      "html": "<div class=\"_SuggestionButtonStack_1ib0g_77\"><span class=\"_Value_1ib0g_90\"><s-internal-text size=\"small\" tone=\"ai\"><s-internal-text size=\"small\" type=\"strong\" fontweight=\"medium\" tone=\"ai\">厨房/餐厅坐椅</s-internal-text> （在 椅子 中）</s-internal-text></span><s-internal-text size=\"small-100\" fontweight=\"base\" tone=\"ai\">建议</s-internal-text></div>"
+    }
+  ],
+  "category_attribute_candidates": [
+    "接受建议的类别：厨房/餐厅坐椅（在 椅子 中）",
+    "false",
+    "忽略建议的类别：厨房/餐厅坐椅（在 椅子 中）"
+  ],
+  "metafields": [],
+  "raw_text_excerpt": "Skip to content 2026 年春季 搜索 CTRL K 查看方式 Clearance Sale Dekuch 因您的银行账户未设置为允许提款，交易款项已暂停 需要采取措施才能恢复交易款项发放。 解决交易款项问题 主页 订单 3 产品 产品系列 库存 采购订单 转移 礼品卡 客户 增长 折扣 内容 Markets 财务 分析 销售渠道 在线商店 Shop Pinterest Facebook & Instagram Inbox Snapchat Ads TikTok Buy Button Microsoft Channel Google & YouTube 应用 WhatsApp PageFly Page Builder Messaging Flow FlowMail – Flow email sender LootCard AI lootcardchoose 设置 Modern Style Dining Chairs Set of 6 in Light Gray, Essential for Minimalist Homes.Meeting Family Dining Needs,PU Material Seat,Silver Metal Legs,Blending into Various Home Environments.W1151107277。此页面已准备就绪 Modern Style Dining Chairs Set of 6 in Light Gray, Essential for Minimalist Homes.Meeting Family Dining Needs,PU Material Seat,Silver Metal Legs,Blending into Various Home Environments.W1151107277 有效 更多操作 提交 富文本编辑器 描述 段落 媒体文件 +5 类别 厨房/餐厅坐椅 （在 椅子 中） 建议 确定税率并添加元字段，以改进搜索、筛选和跨渠道销售 价格 价格 $ 原价 $238.99 单价 收取税款 是 单件成本 库存 已跟踪库存 地点 不可用 已预留 可用 现货 美国 0 0 95 95 查看调整历史记录 SKU W2920P264324 条码 缺货时继续销售 关闭 发货 实体产品 包装 商店默认 • 样品箱 - 22 × 13.7 × 4.2 厘米，0 kg 产品重量 原产国家/地区 HS 编码 多属性 添加尺寸或颜色等选项 购买选项 Subscriptions 产品元字段 查看全部添加定义 Google: Custom Product 披露信息 多属性元字段 查看全部添加定义 Google: Age Group Google: Condition Google: Gender Google: MPN 搜索引擎列表 Clearance Sale Dekuchhttps://dekuch.com › products › modern-style-dining-chairs-set-of-6-in-light-gray-essential-for-minimalist-homes-meeting-family-dining-needs-pu-material-seat-silver-metal-legs-blending-into-various-home-environments-w1151107277 Modern Style Dining Chairs Set of 6 in Light Gray, Essential for Minim… Key Selling Points Set of Six, Meeting Family Dining Needs：This package includes six dining chairs, perfect for family meals or gatherings with friends, showcas…$164.18 USD 区块 区块 状态 已上架 发布 在线商店， Shop， Pinterest+2 +2 个其他渠道 所有目录 Shopify Catalog 销售数据此产品近期无销售记录查看详细信息 产品组织 类型 Seating for Dining 厂商 Dekuch NEW ARRIVALSAVADA - Best Sellers syncsource-sku:W2920P264324real-sourcephase09.1category:seating-for-dining 模板样式 保存 调整侧边栏大小"
+}

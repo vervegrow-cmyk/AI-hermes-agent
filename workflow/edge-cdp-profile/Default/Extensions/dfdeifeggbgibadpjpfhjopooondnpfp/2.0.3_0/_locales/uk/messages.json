@@ -1,0 +1,155 @@
+{
+   "content_downloadAudioText": {
+      "message": "Аудіо"
+   },
+   "content_downloadCoverText": {
+      "message": "Обкладинка"
+   },
+   "content_downloadVideoText": {
+      "message": "Відео"
+   },
+   "manifest_description": {
+      "message": "Завантажуйте відео з TikTok без водяних знаків."
+   },
+   "manifest_name": {
+      "message": "Завантажувач відео TikTok"
+   },
+   "options_completeDownload": {
+      "message": "Завантаження завершено"
+   },
+   "options_completeDownloadTip": {
+      "message": "На етапі завершення завантаження файл завантажено, і ви можете переглянути завантажений файл у менеджері файлів."
+   },
+   "options_downloadSetting": {
+      "message": "Налаштування завантаження"
+   },
+   "options_downloadSubdirectory": {
+      "message": "Підкаталог для завантаження"
+   },
+   "options_downloadSubdirectoryTip": {
+      "message": "Підкаталог для завантаження файлів"
+   },
+   "options_downloadTipSetting": {
+      "message": "Сповіщення про завантаження"
+   },
+   "options_downloadTipSettingTip": {
+      "message": "При натисканні на кнопку завантаження у правому верхньому куті вікна з'явиться сповіщення про завантаження."
+   },
+   "options_enableSubdirectory": {
+      "message": "Підкаталог"
+   },
+   "options_enableSubdirectoryTip": {
+      "message": "Чи завантажувати файли в підкаталог."
+   },
+   "options_pageTitle": {
+      "message": "TikTok Video Downloader"
+   },
+   "options_parseInformation": {
+      "message": "Аналіз інформації"
+   },
+   "options_parseInformationTip": {
+      "message": "На етапі аналізу інформації розширення проаналізує всю необхідну для завантаження інформацію."
+   },
+   "options_saveSetting": {
+      "message": "Зберегти налаштування"
+   },
+   "options_saveSuccess": {
+      "message": "Успішно збережено"
+   },
+   "options_startDownload": {
+      "message": "Почати завантаження"
+   },
+   "options_startDownloadTip": {
+      "message": "На етапі початку завантаження ви побачите, як браузер почне завантажувати файл, і зможете перевірити прогрес завантаження на сторінці завантажень браузера."
+   },
+   "options_subdirectoryEmpty": {
+      "message": "Підкаталог не може бути порожнім"
+   },
+   "options_subdirectoryIllegal": {
+      "message": "Підкаталог містить неприпустимі символи"
+   },
+   "options_subdirectoryName": {
+      "message": "Ім'я підкаталогу"
+   },
+   "options_subdirectoryNameTip": {
+      "message": "Вкажіть ім'я підкаталогу"
+   },
+   "options_videoCreator": {
+      "message": "Автор"
+   },
+   "options_videoCreatorWithAt": {
+      "message": "Додати символ @ перед ім'ям автора відео"
+   },
+   "options_videoCreatorWithAtTooltip": {
+      "message": "У імені завантаженого відеофайлу додати символ @ перед ім'ям автора."
+   },
+   "options_videoDescription": {
+      "message": "Опис"
+   },
+   "options_videoDescriptionWithHashtag": {
+      "message": "Зберігати хештеги в описі відео"
+   },
+   "options_videoDescriptionWithHashtagTip": {
+      "message": "У іменах завантажених відеофайлів зберігати хештеги, що починаються з # в описі відео."
+   },
+   "options_videoFileName": {
+      "message": "Ім'я відеофайлу"
+   },
+   "options_videoFileNameEmpty": {
+      "message": "Ім'я відеофайлу не може бути порожнім, виберіть хоча б одне"
+   },
+   "options_videoFileNameTooltip": {
+      "message": "Ім'я завантаженого відеофайлу буде створено на основі атрибутів та порядку в полі введення нижче, розділених пробілами."
+   },
+   "options_videoHighestBitrate": {
+      "message": "Найвищий бітрейт"
+   },
+   "options_videoHighestResolution": {
+      "message": "Найвища роздільна здатність"
+   },
+   "options_videoLargestFileSize": {
+      "message": "Найбільший розмір файлу"
+   },
+   "options_videoQuality": {
+      "message": "Якість відео"
+   },
+   "options_videoQualityTip": {
+      "message": "В якій якості завантажувати відео"
+   },
+   "options_videoResolution": {
+      "message": "Роздільна здатність відео"
+   },
+   "options_videoVid": {
+      "message": "ID відео"
+   },
+   "popup_feedback": {
+      "message": "Зворотній зв'язок"
+   },
+   "popup_feedbackEmailSubject": {
+      "message": "Відгук про TikTok Video Downloader"
+   },
+   "popup_review": {
+      "message": "Відгуки"
+   },
+   "popup_setting": {
+      "message": "Налаштування"
+   },
+   "snackbar_completeDownload": {
+      "message": "Завантаження завершено"
+   },
+   "snackbar_downloadFailed": {
+      "message": "Завантаження не вдалося, оновіть сторінку та спробуйте знову"
+   },
+   "snackbar_findVidError": {
+      "message": "Не вдалося проаналізувати інформацію про відео, надішліть електронного листа з описом проблеми"
+   },
+   "snackbar_parseInformation": {
+      "message": "Аналіз інформації"
+   },
+   "snackbar_parseInformationFail": {
+      "message": "Не вдалося проаналізувати інформацію про відео, оновіть сторінку та спробуйте знову"
+   },
+   "snackbar_startDownload": {
+      "message": "Почати завантаження"
+   }
+}

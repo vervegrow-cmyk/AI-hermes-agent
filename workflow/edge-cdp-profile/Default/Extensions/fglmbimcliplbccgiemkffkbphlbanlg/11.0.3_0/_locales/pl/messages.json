@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Aktywuj licencję"
+   },
+   "activateHint": {
+      "message": "Wklej kod z e-maila."
+   },
+   "activateTitle": {
+      "message": "Aktywuj Premium"
+   },
+   "activatedSub": {
+      "message": "Nieograniczone pobieranie · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium aktywowane!"
+   },
+   "alreadyBought": {
+      "message": "Już kupiłeś?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Ten kod był już używany."
+   },
+   "clearHistory": {
+      "message": "Wyczyść"
+   },
+   "days": {
+      "message": "dni · wygasa"
+   },
+   "deactivate": {
+      "message": "Dezaktywuj licencję"
+   },
+   "deactivateConfirm": {
+      "message": "Dezaktywować licencję Premium na tym urządzeniu?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Wszystkie"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Podoba ci się TubeVD?"
+   },
+   "enterCode": {
+      "message": "Wprowadź klucz licencji."
+   },
+   "enterKey": {
+      "message": "🔑 Wprowadź klucz licencji"
+   },
+   "expired": {
+      "message": "⚠️ Ta licencja wygasła."
+   },
+   "extDesc": {
+      "message": "Pobierz filmy z Facebooka, Twittera, Vimeo, Dailymotion i 1000+ stron w HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "free": {
+      "message": "Bezpłatny"
+   },
+   "genericError": {
+      "message": "Coś poszło nie tak. Skontaktuj się z support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Zdobądź Premium — 4,99$/mies."
+   },
+   "getPremiumLink": {
+      "message": "Zdobądź Premium ↗"
+   },
+   "guarantee": {
+      "message": "30-dniowa gwarancja zwrotu pieniędzy"
+   },
+   "history": {
+      "message": "Historia pobierań"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Nieprawidłowy klucz licencji."
+   },
+   "invalidFormat": {
+      "message": "Nieprawidłowy format. Musi zaczynać się od TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Klucz licencji"
+   },
+   "limit": {
+      "message": "Limit"
+   },
+   "limitHint": {
+      "message": "Plan bezpłatny: 5 pobrań/dzień."
+   },
+   "limitTitle": {
+      "message": "Osiągnięto dzienny limit"
+   },
+   "networkError": {
+      "message": "⚠️ Błąd połączenia."
+   },
+   "noCode": {
+      "message": "Nie masz jeszcze kodu?"
+   },
+   "noHistory": {
+      "message": "Brak pobrań."
+   },
+   "noVideos": {
+      "message": "Nie wykryto filmów"
+   },
+   "noVideosHint": {
+      "message": "Najedź myszą na dowolny film, aby zobaczyć przycisk pobierania."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Oceń"
+   },
+   "rateUs": {
+      "message": "⭐ Oceń nas"
+   },
+   "scanning": {
+      "message": "Wyszukiwanie filmów..."
+   },
+   "serverError": {
+      "message": "⚠️ Błąd serwera."
+   },
+   "startDown": {
+      "message": "Zacznij pobierać ↓"
+   },
+   "support": {
+      "message": "Wsparcie"
+   },
+   "unlimited": {
+      "message": "Nieograniczony"
+   },
+   "upgradeBtn": {
+      "message": "Przejdź na Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Uaktualnij ↗"
+   },
+   "upgradeTitle": {
+      "message": "Przejdź na Premium"
+   },
+   "usageLeft": {
+      "message": "pobierań pozostało dziś"
+   },
+   "usageOf": {
+      "message": "z"
+   },
+   "validFor": {
+      "message": "Ważny przez"
+   },
+   "verifying": {
+      "message": "Weryfikacja…"
+   },
+   "videoDetected": {
+      "message": "film wykryto"
+   },
+   "videosDetected": {
+      "message": "filmów wykryto"
+   },
+   "ytBlocked": {
+      "message": "YouTube nie jest obsługiwany"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD szanuje Warunki korzystania z YouTube."
+   },
+   "ytTry": {
+      "message": "Wypróbuj Facebook, Vimeo, Twitter i 1000+ innych stron."
+   }
+}

@@ -1,0 +1,57 @@
+{
+  "batch_id": "e21d035f-1c03-46b5-92e5-8b4a00dcb423",
+  "mode": "apply",
+  "store_name": "4ea863-98.myshopify.com",
+  "started_at": "2026-07-02T07:01:41+00:00",
+  "completed_at": "",
+  "interrupted": false,
+  "checkpoint_path": "",
+  "summary": {
+    "processed_count": 1,
+    "success_count": 0,
+    "failed_count": 0,
+    "skipped_count": 1,
+    "manual_review_count": 0,
+    "mapping": {
+      "sync_scope": "full",
+      "total": 13048,
+      "active": 13048,
+      "duplicate": 0,
+      "missing": 0
+    },
+    "doba": {
+      "response_items": 1,
+      "normalized_items": 1,
+      "failed_items": 0
+    },
+    "shopify": {
+      "variants_requested": 1,
+      "variants_found": 1,
+      "variants_missing": 0
+    }
+  },
+  "items": [
+    {
+      "index": 1,
+      "total": 1,
+      "doba_sku": "D0102HHHDIP",
+      "shopify_variant_id": "gid://shopify/ProductVariant/51357209002290",
+      "supplier_cost": 59.99,
+      "shipping_cost": 0.0,
+      "current_shopify_price": 71.99,
+      "target_shopify_price": 71.99,
+      "price_delta": 0.0,
+      "decision": "skipped",
+      "reason_code": "shopify_price_already_correct",
+      "reason_text_zh": "Shopify \u5f53\u524d\u4ef7\u683c\u5df2\u7ecf\u7b49\u4e8e\u76ee\u6807\u4ef7\uff0c\u65e0\u9700\u66f4\u65b0",
+      "will_update_shopify": false,
+      "write_status": "skipped",
+      "processed_at": "2026-07-02T07:01:54+00:00",
+      "old_price": 71.99,
+      "new_price": null,
+      "error_message": ""
+    }
+  ],
+  "errors": [],
+  "shopify_write_results": []
+}

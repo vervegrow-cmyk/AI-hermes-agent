@@ -1,0 +1,36 @@
+{
+  "batch_id": "e1e9a9ff-0b2b-406f-8fe6-22f88beb217c",
+  "mode": "dry_run",
+  "store_name": "demo-store",
+  "started_at": "2026-06-30T10:28:42+00:00",
+  "completed_at": "2026-06-30T10:28:42+00:00",
+  "summary": {
+    "processed_count": 0,
+    "success_count": 0,
+    "failed_count": 0,
+    "skipped_count": 0,
+    "manual_review_count": 0,
+    "mapping": {
+      "sync_scope": "full",
+      "total": 1,
+      "active": 0,
+      "duplicate": 0,
+      "missing": 1
+    },
+    "doba": {
+      "response_items": 0,
+      "normalized_items": 0,
+      "failed_items": 0
+    },
+    "shopify": {
+      "variants_requested": 0,
+      "variants_found": 0,
+      "variants_missing": 0
+    }
+  },
+  "items": [],
+  "errors": [
+    "mapping_file_missing_or_no_active_mappings"
+  ],
+  "shopify_write_results": []
+}

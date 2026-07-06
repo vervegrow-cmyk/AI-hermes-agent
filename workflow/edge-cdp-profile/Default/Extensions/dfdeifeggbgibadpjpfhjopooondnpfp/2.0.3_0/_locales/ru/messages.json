@@ -1,0 +1,155 @@
+{
+   "content_downloadAudioText": {
+      "message": "Аудио"
+   },
+   "content_downloadCoverText": {
+      "message": "Обложка"
+   },
+   "content_downloadVideoText": {
+      "message": "Видео"
+   },
+   "manifest_description": {
+      "message": "Скачивайте видео из TikTok без водяных знаков."
+   },
+   "manifest_name": {
+      "message": "Загрузчик видео TikTok"
+   },
+   "options_completeDownload": {
+      "message": "Скачивание завершено"
+   },
+   "options_completeDownloadTip": {
+      "message": "На этапе завершения скачивания файл загружен, и вы можете просмотреть скачанный файл в диспетчере файлов."
+   },
+   "options_downloadSetting": {
+      "message": "Настройки скачивания"
+   },
+   "options_downloadSubdirectory": {
+      "message": "Подкаталог для скачивания"
+   },
+   "options_downloadSubdirectoryTip": {
+      "message": "Подкаталог для скачивания файлов"
+   },
+   "options_downloadTipSetting": {
+      "message": "Уведомление о скачивании"
+   },
+   "options_downloadTipSettingTip": {
+      "message": "При нажатии на кнопку скачивания в правом верхнем углу окна появится уведомление о скачивании."
+   },
+   "options_enableSubdirectory": {
+      "message": "Подкаталог"
+   },
+   "options_enableSubdirectoryTip": {
+      "message": "Скачивать ли файлы в подкаталог."
+   },
+   "options_pageTitle": {
+      "message": "TikTok Video Downloader"
+   },
+   "options_parseInformation": {
+      "message": "Анализ информации"
+   },
+   "options_parseInformationTip": {
+      "message": "На этапе анализа информации расширение проанализирует всю необходимую для скачивания информацию."
+   },
+   "options_saveSetting": {
+      "message": "Сохранить настройки"
+   },
+   "options_saveSuccess": {
+      "message": "Успешно сохранено"
+   },
+   "options_startDownload": {
+      "message": "Начать скачивание"
+   },
+   "options_startDownloadTip": {
+      "message": "На этапе начала скачивания вы увидите, как браузер начнет скачивать файл, и сможете проверить прогресс скачивания на странице загрузок браузера."
+   },
+   "options_subdirectoryEmpty": {
+      "message": "Подкаталог не может быть пустым"
+   },
+   "options_subdirectoryIllegal": {
+      "message": "Подкаталог содержит недопустимые символы"
+   },
+   "options_subdirectoryName": {
+      "message": "Имя подкаталога"
+   },
+   "options_subdirectoryNameTip": {
+      "message": "Укажите имя подкаталога"
+   },
+   "options_videoCreator": {
+      "message": "Автор"
+   },
+   "options_videoCreatorWithAt": {
+      "message": "Добавить символ @ перед именем автора видео"
+   },
+   "options_videoCreatorWithAtTooltip": {
+      "message": "В имени скачанного видеофайла добавить символ @ перед именем автора."
+   },
+   "options_videoDescription": {
+      "message": "Описание"
+   },
+   "options_videoDescriptionWithHashtag": {
+      "message": "Сохранять хэштеги в описании видео"
+   },
+   "options_videoDescriptionWithHashtagTip": {
+      "message": "В именах скачанных видеофайлов сохранять хэштеги, начинающиеся с # в описании видео."
+   },
+   "options_videoFileName": {
+      "message": "Имя видеофайла"
+   },
+   "options_videoFileNameEmpty": {
+      "message": "Имя видеофайла не может быть пустым, выберите хотя бы одно"
+   },
+   "options_videoFileNameTooltip": {
+      "message": "Имя скачиваемого видеофайла будет создано на основе атрибутов и порядка в поле ввода ниже, разделенных пробелами."
+   },
+   "options_videoHighestBitrate": {
+      "message": "Наивысший битрейт"
+   },
+   "options_videoHighestResolution": {
+      "message": "Наивысшее разрешение"
+   },
+   "options_videoLargestFileSize": {
+      "message": "Наибольший размер файла"
+   },
+   "options_videoQuality": {
+      "message": "Качество видео"
+   },
+   "options_videoQualityTip": {
+      "message": "В каком качестве скачивать видео"
+   },
+   "options_videoResolution": {
+      "message": "Разрешение видео"
+   },
+   "options_videoVid": {
+      "message": "ID видео"
+   },
+   "popup_feedback": {
+      "message": "Обратная связь"
+   },
+   "popup_feedbackEmailSubject": {
+      "message": "Отзыв о TikTok Video Downloader"
+   },
+   "popup_review": {
+      "message": "Отзывы"
+   },
+   "popup_setting": {
+      "message": "Настройки"
+   },
+   "snackbar_completeDownload": {
+      "message": "Скачивание завершено"
+   },
+   "snackbar_downloadFailed": {
+      "message": "Скачивание не удалось, обновите страницу и попробуйте снова"
+   },
+   "snackbar_findVidError": {
+      "message": "Не удалось проанализировать информацию о видео, отправьте электронное письмо с описанием проблемы"
+   },
+   "snackbar_parseInformation": {
+      "message": "Анализ информации"
+   },
+   "snackbar_parseInformationFail": {
+      "message": "Не удалось проанализировать информацию о видео, обновите страницу и попробуйте снова"
+   },
+   "snackbar_startDownload": {
+      "message": "Начать скачивание"
+   }
+}

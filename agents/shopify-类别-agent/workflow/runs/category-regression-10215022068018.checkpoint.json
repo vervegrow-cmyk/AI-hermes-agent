@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "status": "completed",
+  "mode": "dry-run",
+  "product_query": "",
+  "max_items": 0,
+  "apply_metafields": true,
+  "store_name": "",
+  "started_at": "2026-06-28 19:30:13",
+  "updated_at": "2026-06-28 19:30:20",
+  "processed_count": 1,
+  "applied_count": 0,
+  "review_count": 0,
+  "failed_count": 0,
+  "processed_product_ids": [
+    "gid://shopify/Product/10215022068018"
+  ],
+  "files": {
+    "checkpoint": "workflow\\runs\\category-regression-10215022068018.checkpoint.json",
+    "results_jsonl": "workflow\\runs\\category-regression-10215022068018.checkpoint.results.jsonl",
+    "review_jsonl": "workflow\\runs\\category-regression-10215022068018.checkpoint.review.jsonl",
+    "review_csv": "workflow\\runs\\category-regression-10215022068018.checkpoint.review.csv",
+    "failed_jsonl": "workflow\\runs\\category-regression-10215022068018.checkpoint.failed.jsonl",
+    "failed_csv": "workflow\\runs\\category-regression-10215022068018.checkpoint.failed.csv",
+    "audit_report": "workflow\\runs\\category-regression-10215022068018.checkpoint.audit.json"
+  },
+  "summary": "本次以 dry-run 模式处理了 1 个 Shopify 商品，其中 0 个已修改，0 个需要人工复核。"
+}

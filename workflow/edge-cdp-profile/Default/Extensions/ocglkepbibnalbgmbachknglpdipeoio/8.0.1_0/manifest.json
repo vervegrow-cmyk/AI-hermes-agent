@@ -1,0 +1,56 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "images/icon19.png",
+         "38": "images/icon38.png"
+      },
+      "default_popup": "view/popup.html",
+      "default_title": "__MSG_extShortName__"
+   },
+   "background": {
+      "service_worker": "dist/background.js"
+   },
+   "commands": {
+      "_execute_action": {
+      },
+      "autofill": {
+         "description": "Autofill the matched code"
+      },
+      "scan-qr": {
+         "description": "Scan a QR code"
+      }
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; font-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; connect-src https://www.google.com/ https://*.dropboxapi.com https://www.googleapis.com/ https://accounts.google.com/o/oauth2/revoke https://login.microsoftonline.com/common/oauth2/v2.0/token https://graph.microsoft.com/; default-src 'none'",
+      "sandbox": "sandbox allow-scripts; script-src 'self' 'unsafe-eval';"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA11832huCn0/hW/suNsfg+z5oE4EDH47q+Pl+DEOyf/FohQKl1bBgpUIuwCSoWz8I7KCXdkT1lee/uqL4t2agrJMTMixtKUH9ibYhXugNQ33abM3sLxy3zHd+joytRAijyBrTmhKEeCXZ5BdZ2dBhGGJ1oOeTHVuLYfMOCsTil5/dRNLg/LGDLRXRv1z93yZaDi3TtWDE/hygwvjrOh5f23VQ4B/wlrfYomkpRn7DnVTIqDfuoLJHdIMGzs3hPdQWT/1wYfbI2nbOIBUimVlbhX7nf9FMyZ4Cgo+v0levebG2csox2X2PsipBXCT1FGMAGMMlnkbAanJrfxf05R8UmQIDAQAB",
+   "manifest_version": 3,
+   "name": "Authenticator: 2FA Client",
+   "oauth2": {
+      "client_id": "292457304165-u8ve4j79gag5o231n5u2pdtdrbfdo1hh.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/drive.file" ]
+   },
+   "optional_host_permissions": [ "https://www.google.com/", "https://*.dropboxapi.com/*", "https://www.googleapis.com/*", "https://accounts.google.com/o/oauth2/revoke", "https://graph.microsoft.com/me/*", "https://login.microsoftonline.com/common/oauth2/v2.0/token" ],
+   "optional_permissions": [ "clipboardWrite", "contextMenus" ],
+   "options_ui": {
+      "open_in_tab": false,
+      "page": "view/options.html"
+   },
+   "permissions": [ "activeTab", "storage", "identity", "alarms", "scripting" ],
+   "sandbox": {
+      "pages": [ "view/argon.html" ]
+   },
+   "storage": {
+      "managed_schema": "schema.json"
+   },
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "8.0.1"
+}

@@ -1,0 +1,73 @@
+{
+  "batch_id": "7adfde27-dd61-4652-a79d-a38b871134d6",
+  "store_name": "demo-store.myshopify.com",
+  "mode": "apply",
+  "status": "completed",
+  "processed_count": 2,
+  "updated_count": 0,
+  "skipped_count": 2,
+  "failed_count": 0,
+  "started_at": "2026-06-22T12:08:05+00:00",
+  "finished_at": "2026-06-22T12:08:05+00:00",
+  "shopify_connection": {
+    "ok": true,
+    "system": "shopify",
+    "message": "Shopify 连接验证成功。",
+    "details": {
+      "shop_id": "gid://shopify/Shop/1",
+      "shop_name": "Demo Store",
+      "myshopify_domain": "demo-store.myshopify.com",
+      "location_id": "gid://shopify/Location/1"
+    }
+  },
+  "giga_connection": {
+    "ok": true,
+    "system": "giga",
+    "message": "Giga OpenAPI 连接验证成功。",
+    "details": {
+      "base_url": "https://openapi.gigab2b.com",
+      "endpoint": "/inventory"
+    }
+  },
+  "location_id": "gid://shopify/Location/1",
+  "missing_sku_count": 0,
+  "artifact_paths": {
+    "report": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-库存-agent\\runtime\\reports\\7adfde27-dd61-4652-a79d-a38b871134d6.json",
+    "missing_skus": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-库存-agent\\runtime\\exports\\7adfde27-dd61-4652-a79d-a38b871134d6-missing-skus.json",
+    "retry_items": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\shopify-库存-agent\\runtime\\exports\\7adfde27-dd61-4652-a79d-a38b871134d6-retry-items.json"
+  },
+  "items": [
+    {
+      "sku": "DUP-1",
+      "shopify_variant_id": "gid://shopify/ProductVariant/1",
+      "shopify_product_id": "gid://shopify/Product/1",
+      "shopify_product_title": "One",
+      "shopify_product_vendor": "Dekuch",
+      "shopify_product_status_before": "ACTIVE",
+      "shopify_product_status_after": "",
+      "shopify_inventory_item_id": "gid://shopify/InventoryItem/1",
+      "shopify_inventory_before": 1,
+      "giga_inventory": null,
+      "action": "skip",
+      "status": "skipped",
+      "reason": "Shopify 中存在重复 SKU，已跳过",
+      "error_message": ""
+    },
+    {
+      "sku": "DUP-1",
+      "shopify_variant_id": "gid://shopify/ProductVariant/2",
+      "shopify_product_id": "gid://shopify/Product/2",
+      "shopify_product_title": "Two",
+      "shopify_product_vendor": "Dekuch",
+      "shopify_product_status_before": "ACTIVE",
+      "shopify_product_status_after": "",
+      "shopify_inventory_item_id": "gid://shopify/InventoryItem/2",
+      "shopify_inventory_before": 2,
+      "giga_inventory": null,
+      "action": "skip",
+      "status": "skipped",
+      "reason": "Shopify 中存在重复 SKU，已跳过",
+      "error_message": ""
+    }
+  ]
+}

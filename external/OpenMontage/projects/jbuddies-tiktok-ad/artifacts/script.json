@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "title": "JBuddies TikTok Ad",
+  "total_duration_seconds": 15.5,
+  "sections": [
+    {
+      "id": "hook",
+      "label": "Hook",
+      "text": "Need kid-safe headphones that actually last?",
+      "start_seconds": 0.0,
+      "end_seconds": 2.5
+    },
+    {
+      "id": "intro",
+      "label": "Product intro",
+      "text": "JBuddies Studio 2-in-1. Wireless plus wired for everyday flexibility.",
+      "start_seconds": 2.5,
+      "end_seconds": 5.0
+    },
+    {
+      "id": "proof",
+      "label": "Product proof",
+      "text": "Up to 65 hours of playtime with volume-safe listening below 85 dB.",
+      "start_seconds": 5.0,
+      "end_seconds": 8.0
+    },
+    {
+      "id": "benefits",
+      "label": "Benefits",
+      "text": "Soft Cloud Foam comfort, built for ages six and up, ready for travel or study time.",
+      "start_seconds": 8.0,
+      "end_seconds": 12.5
+    },
+    {
+      "id": "cta",
+      "label": "Close",
+      "text": "One pair that makes everyday listening easier. Shop now.",
+      "start_seconds": 12.5,
+      "end_seconds": 15.5
+    }
+  ],
+  "metadata": {
+    "pipeline": "animation",
+    "playbook": "flat-motion-graphics",
+    "audio_architecture": "text_only"
+  }
+}

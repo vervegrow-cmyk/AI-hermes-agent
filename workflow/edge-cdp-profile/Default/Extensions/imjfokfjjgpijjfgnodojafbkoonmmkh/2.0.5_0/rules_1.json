@@ -1,0 +1,24 @@
+[
+    {
+        "id": 12,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://seller.kuajingmaihuo.com"
+                },
+                {
+                    "header": "Referer",
+                    "operation": "set",
+                    "value": "https://seller.kuajingmaihuo.com/main/order-manage"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||seller.kuajingmaihuo.com"
+        }
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id": 12,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://csp.aliexpress.com"
+                },
+                {
+                    "header": "Referer",
+                    "operation": "set",
+                    "value": "https://csp.aliexpress.com/"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||acs.aliexpress.com"
+        }
+    }
+]

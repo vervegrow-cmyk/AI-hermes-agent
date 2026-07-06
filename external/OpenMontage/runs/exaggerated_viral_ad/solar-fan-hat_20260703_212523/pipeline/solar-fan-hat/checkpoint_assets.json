@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "project_id": "solar-fan-hat",
+  "pipeline_type": "exaggerated_viral_ad",
+  "stage": "assets",
+  "status": "completed",
+  "timestamp": "2026-07-03T13:36:41.650738+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "asset_manifest": {
+      "version": "1.0",
+      "assets": [
+        {
+          "id": "asset_01_shot-01-stadium-heat-hook",
+          "type": "video",
+          "path": "D:\\\u684c\u9762\u6587\u4ef6\u4e0b\u8f7d\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat_20260703_212523\\generated\\motion\\shot_01_stadium_heat_hook\\shot-01-stadium-heat-hook.mp4",
+          "source_tool": "seedance_ark_video",
+          "scene_id": "shot_01_stadium_heat_hook",
+          "prompt": "Vertical TikTok UGC in a crowded sunny soccer stadium. A brunette female sports fan in a fitted black T-shirt sits in the stands under harsh afternoon sun, sweaty and uncomfortable, fanning herself with one hand and squinting from the heat. Real handheld phone camera energy, high relatability, photorealistic, no text overlay, no hat yet. Temporal beats: 0-1s she wipes sweat and exhales, 1-2s she shades her eyes and looks frustrated, 2-3s she fans herself faster and looks like she cannot enjoy the game.",
+          "model": "doubao-seedance-2-0-mini-260615",
+          "cost_usd": 0.0,
+          "duration_seconds": 3.0,
+          "resolution": "1080x1920",
+          "format": "mp4",
+          "provider": "seedance",
+          "subtype": "action_or_character_motion",
+          "generation_summary": "action_or_character_motion routed to seedance_ark_video"
+        },
+        {
+          "id": "asset_02_shot-02-first-person-reveal",
+          "type": "video",
+          "path": "D:\\\u684c\u9762\u6587\u4ef6\u4e0b\u8f7d\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat_20260703_212523\\generated\\motion\\shot_02_first_person_reveal\\shot-02-first-person-reveal.mp4",
+          "source_tool": "seedance_ark_video",
+          "scene_id": "shot_02_first_person_reveal",
+          "prompt": "First-person handheld UGC shot in the same sunny soccer stadium. Two hands lift a beige wide-brim solar fan hat into frame toward the brunette female fan. The hat must clearly show dual black side fans and small solar panels mounted near the brim. The woman reacts with curiosity and relief as the product enters frame. Photorealistic stadium background, realistic public setting, no text overlay. Temporal beats: 0-1s product rises into frame, 1-2s close reveal of brim and dual fans, 2-3s woman reaches for it with an interested expression.",
+          "model": "doubao-seedance-2-0-mini-260615",
+          "cost_usd": 0.0,
+          "duration_seconds": 3.0,
+          "resolution": "1080x1920",
+          "format": "mp4",
+          "provider": "seedance",
+          "subtype": "action_or_character_motion",
+          "generation_summary": "action_or_character_motion routed to seedance_ark_video"
+        },
+        {
+          "id": "asset_03_shot-03-put-on-and-power",
+          "type": "video",
+          "path": "D:\\\u684c\u9762\u6587\u4ef6\u4e0b\u8f7d\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat_20260703_212523\\generated\\motion\\shot_03_put_on_and_power\\shot-03-put-on-and-power.mp4",
+          "source_tool": "seedance_ark_video",
+          "scene_id": "shot_03_put_on_and_power",
+          "prompt": "Vertical realistic UGC close-up in stadium seating. The brunette female fan quickly puts on the beige solar fan hat, adjusts it comfortably, and presses the power control to activate the dual fans. The black fan housings visibly spin and a light breeze moves strands of her hair near her cheeks. Strong product fidelity: beige brim, dual black fans, solar panels visible, athletic stadium background. No text overlay. Temporal beats: 0-1s she pulls the hat on, 1-2s she adjusts the brim and chin cord, 2-3s finger presses the power control and fans begin spinning, 3-4s hair moves slightly from airflow and her face starts relaxing.",
+          "model": "doubao-seedance-2-0-mini-260615",
+          "cost_usd": 0.0,
+          "duration_seconds": 4.0,
+          "resolution": "1080x1920",
+          "format": "mp4",
+          "provider": "seedance",
+          "subtype": "action_or_character_motion",
+          "generation_summary": "action_or_character_motion routed to seedance_ark_video"
+        },
+        {
+          "id": "asset_04_shot-04-relief-reaction",
+          "type": "video",
+          "path": "D:\\\u684c\u9762\u6587\u4ef6\u4e0b\u8f7d\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat_20260703_212523\\generated\\motion\\shot_04_relief_reaction\\shot-04-relief-reaction.mp4",
+          "source_tool": "seedance_ark_video",
+          "scene_id": "shot_04_relief_reaction",
+          "prompt": "Same female fan wearing the beige solar fan hat in a bright crowded soccer stadium. She visibly relaxes, smiles with relief, and enjoys the cooling airflow while the sun still beats down around her. Her posture softens and she looks refreshed instead of overheated. Handheld phone-camera realism, photorealistic face, subtle hair movement from the fans, no text overlay. Temporal beats: 0-1s relief hits her face, 1-2s she smiles and takes a calm breath, 2-3s she looks back toward the field feeling comfortable.",
+          "model": "doubao-seedance-2-0-mini-260615",
+          "cost_usd": 0.0,
+          "duration_seconds": 3.0,
+          "resolution": "1080x1920",
+          "format": "mp4",
+          "provider": "seedance",
+          "subtype": "action_or_character_motion",
+          "generation_summary": "action_or_character_motion routed to seedance_ark_video"
+        },
+        {
+          "id": "asset_05_shot-05-game-on-cta",
+          "type": "video",
+          "path": "D:\\\u684c\u9762\u6587\u4ef6\u4e0b\u8f7d\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat_20260703_212523\\generated\\motion\\shot_05_game_on_cta\\shot-05-game-on-cta.mp4",
+          "source_tool": "seedance_ark_video",
+          "scene_id": "shot_05_game_on_cta",
+          "prompt": "Final hero UGC shot in a sunny packed soccer stadium. The brunette female fan is now happy and confident while wearing the beige solar fan hat, smiling at the camera and pointing toward one of the built-in fans as if recommending it. The scene should still feel like a real live game day, not a studio ad. Product remains clearly visible and flattering, photorealistic, no text overlay. Temporal beats: 0-1s she faces the camera and points to the fan, 1-2s she smiles naturally and keeps watching the game.",
+          "model": "doubao-seedance-2-0-mini-260615",
+          "cost_usd": 0.0,
+          "duration_seconds": 2.0,
+          "resolution": "1080x1920",
+          "format": "mp4",
+          "provider": "seedance",
+          "subtype": "action_or_character_motion",
+          "generation_summary": "action_or_character_motion routed to seedance_ark_video"
+        }
+      ],
+      "total_cost_usd": 0.0,
+      "metadata": {
+        "asset_count": 5
+      }
+    }
+  },
+  "metadata": {
+    "run_dir": "D:\\\u684c\u9762\u6587\u4ef6\u4e0b\u8f7d\\AI-hermes-agent\\external\\OpenMontage\\runs\\exaggerated_viral_ad\\solar-fan-hat_20260703_212523",
+    "product_json": "D:\\\u684c\u9762\u6587\u4ef6\u4e0b\u8f7d\\AI-hermes-agent\\external\\OpenMontage\\assets\\products\\solar_fan_hat\\product.json",
+    "created_by": "scripts/run_workflow.py"
+  }
+}

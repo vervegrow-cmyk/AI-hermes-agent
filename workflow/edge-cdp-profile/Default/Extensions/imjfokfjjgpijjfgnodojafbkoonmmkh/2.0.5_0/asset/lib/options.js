@@ -1,0 +1,1 @@
+angular.module("mango",[]).controller("mainCtrl",["$timeout",function(t){var a=this,n=chrome.storage;a.data={},n.sync.get({showPageFetchBar:!0,showProductFetchBtn:!0,site:{},fetchTime:5},(function(n){t((function(){a.data=n}),10)})),a.save=function(){n.sync.set(a.data)}}]);

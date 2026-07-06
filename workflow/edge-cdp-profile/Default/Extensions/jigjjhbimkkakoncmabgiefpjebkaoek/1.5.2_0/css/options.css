@@ -1,0 +1,44 @@
+.saved-ai-style.optionStyle {
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: auto !important;
+  border-radius: 20px;
+}
+
+/* .saved-ai-style.optionStyle #aiSidebarCollapse {
+  display: none;
+} */
+
+.saved-ai-style.optionStyle .ai-box {
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.saved-ai-style.optionStyle .use-count {
+  padding: 0 5px 0 5px;
+  line-height: 30px;
+  padding-right: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.saved-ai-style.optionStyle .upButtonSettingTip {
+  left: 375px;
+  width: 50px;
+}
+
+.saved-ai-style.optionStyle .upButtonRateTip {
+  left: 65px;
+  width: 100px;
+}
+
+.saved-ai-style.optionStyle .upButtonTwitterTip {
+  left: 30px;
+  width: 60px;
+}
+
+.saved-ai-style.optionStyle .ai-footer {
+  margin: 0 auto;
+  left: 0;
+  border-radius: 0 0 20px 20px;
+}

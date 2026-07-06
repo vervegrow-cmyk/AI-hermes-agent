@@ -1,0 +1,67 @@
+{
+   "action": {
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "facebook.js" ],
+      "matches": [ "https://*.facebook.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "tiktok.js" ],
+      "matches": [ "https://*.tiktok.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "theButton.js" ],
+      "matches": [ "https://chat.openai.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "theCard.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "contentscript.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "simplytrends.js" ],
+      "matches": [ "https://*.simplytrends.co/crx/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "rule_1",
+         "path": "rules.json"
+      } ]
+   },
+   "description": "Free all-in-one Shopify inspector, spy, parser, and dropshipping tools.",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+   },
+   "isSimplytrendsMain": true,
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl8+C0+1Z4uz6v5Y5sx83e1dbNDGK61pQP9IkOFQUECgMS+sR2HgjJ5fD0JSlrZrDcAS0TKmWadLTsAO4hM3/OAZS4TlP9QNV8sXsuy7Jv8UoOxFvFcc4MPxcxM8jYsvfiaP+EeZLDlYJaOZvVxntaolprZZMb9zZDEMu7JbfXn632S0i+7SfDlnpZyifyeeACgXuiDd3zCtqapUqVOoWaKpytYEJdb3bvD6RWc8+dNV9vcZYvEZ6t3Jv4T4YrG1AAztbHJBT0I0srcIzEw1VycpQDP7F2UoDZoVBPZr3crRYCSIX3McXV8oA2fbGS6atE6vj/RJdx46rnSDwNov1LwIDAQAB",
+   "manifest_version": 3,
+   "name": "SimplyTrends - Shopify Spy & Dropship Scraper",
+   "permissions": [ "contextMenus", "scripting", "storage", "management", "declarativeNetRequest", "webRequest", "cookies", "downloads" ],
+   "short_name": "SimplyTrends",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.0.50",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "simplytrends.js", "entry.js", "contentscript.js", "windowscript.js", "getShopifyInfoInDocument.js", "getAnalyzeTechnology.js", "images/*" ]
+   } ]
+}

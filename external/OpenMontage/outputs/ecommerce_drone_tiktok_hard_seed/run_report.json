@@ -1,0 +1,109 @@
+{
+  "product_name": "Beginner Screen Remote Foldable Drone",
+  "platform": "TikTok",
+  "assets_found": [
+    "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\ecommerce\\drone\\1.jpg",
+    "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\ecommerce\\drone\\2.jpg",
+    "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\ecommerce\\drone\\3.jpg",
+    "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\ecommerce\\drone\\4.jpg",
+    "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\ecommerce\\drone\\5.jpg",
+    "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\assets\\ecommerce\\drone\\6.jpg"
+  ],
+  "warnings": [
+    "shot_01_hook: Seedance 2.0 video generation failed: 422 Client Error: Unprocessable Entity for url: https://queue.fal.run/bytedance/seedance-2.0/requests/019f21b4-29b7-7bc2-a892-ff27a7f09ff4",
+    "shot_02_remote: Seedance 2.0 video generation failed: 422 Client Error: Unprocessable Entity for url: https://queue.fal.run/bytedance/seedance-2.0/requests/019f21b4-a615-7de3-9596-9ab56184fb21",
+    "shot_03_no_phone: Seedance 2.0 video generation failed: 422 Client Error: Unprocessable Entity for url: https://queue.fal.run/bytedance/seedance-2.0/requests/019f21b5-1296-7b61-9838-8d400c14372c",
+    "shot_04_takeoff: Seedance 2.0 video generation failed: 422 Client Error: Unprocessable Entity for url: https://queue.fal.run/bytedance/seedance-2.0/requests/019f21b5-8814-72f0-84ba-f793b8289b5d",
+    "shot_05_hover: Seedance 2.0 video generation failed: 422 Client Error: Unprocessable Entity for url: https://queue.fal.run/bytedance/seedance-2.0/requests/019f21b5-fc9a-7fd3-a9b6-320cc4436ddb",
+    "shot_06_dual_camera: Seedance 2.0 video generation failed: 422 Client Error: Unprocessable Entity for url: https://queue.fal.run/bytedance/seedance-2.0/requests/019f21b6-3c8e-70f1-9cb8-0cc4bf80e744",
+    "shot_07_accessories: Seedance 2.0 video generation failed: 422 Client Error: Unprocessable Entity for url: https://queue.fal.run/bytedance/seedance-2.0/requests/019f21b6-806f-76b1-9721-05e0b8041595",
+    "TTS generation failed: 402 Client Error: Payment Required for url: https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM?output_format=mp3_44100_128"
+  ],
+  "video_results": [
+    {
+      "shot_id": "shot_01_hook",
+      "success": false,
+      "selected_provider": null,
+      "selected_tool": null,
+      "error": "Seedance 2.0 video generation failed: 422 Client Error: Unprocessable Entity for url: https://queue.fal.run/bytedance/seedance-2.0/requests/019f21b4-29b7-7bc2-a892-ff27a7f09ff4",
+      "cost_usd": 0.0,
+      "artifacts": [],
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\ecommerce_drone_tiktok_hard_seed\\clips\\shot_01_hook.mp4"
+    },
+    {
+      "shot_id": "shot_02_remote",
+      "success": false,
+      "selected_provider": null,
+      "selected_tool": null,
+      "error": "Seedance 2.0 video generation failed: 422 Client Error: Unprocessable Entity for url: https://queue.fal.run/bytedance/seedance-2.0/requests/019f21b4-a615-7de3-9596-9ab56184fb21",
+      "cost_usd": 0.0,
+      "artifacts": [],
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\ecommerce_drone_tiktok_hard_seed\\clips\\shot_02_remote.mp4"
+    },
+    {
+      "shot_id": "shot_03_no_phone",
+      "success": false,
+      "selected_provider": null,
+      "selected_tool": null,
+      "error": "Seedance 2.0 video generation failed: 422 Client Error: Unprocessable Entity for url: https://queue.fal.run/bytedance/seedance-2.0/requests/019f21b5-1296-7b61-9838-8d400c14372c",
+      "cost_usd": 0.0,
+      "artifacts": [],
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\ecommerce_drone_tiktok_hard_seed\\clips\\shot_03_no_phone.mp4"
+    },
+    {
+      "shot_id": "shot_04_takeoff",
+      "success": false,
+      "selected_provider": null,
+      "selected_tool": null,
+      "error": "Seedance 2.0 video generation failed: 422 Client Error: Unprocessable Entity for url: https://queue.fal.run/bytedance/seedance-2.0/requests/019f21b5-8814-72f0-84ba-f793b8289b5d",
+      "cost_usd": 0.0,
+      "artifacts": [],
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\ecommerce_drone_tiktok_hard_seed\\clips\\shot_04_takeoff.mp4"
+    },
+    {
+      "shot_id": "shot_05_hover",
+      "success": false,
+      "selected_provider": null,
+      "selected_tool": null,
+      "error": "Seedance 2.0 video generation failed: 422 Client Error: Unprocessable Entity for url: https://queue.fal.run/bytedance/seedance-2.0/requests/019f21b5-fc9a-7fd3-a9b6-320cc4436ddb",
+      "cost_usd": 0.0,
+      "artifacts": [],
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\ecommerce_drone_tiktok_hard_seed\\clips\\shot_05_hover.mp4"
+    },
+    {
+      "shot_id": "shot_06_dual_camera",
+      "success": false,
+      "selected_provider": null,
+      "selected_tool": null,
+      "error": "Seedance 2.0 video generation failed: 422 Client Error: Unprocessable Entity for url: https://queue.fal.run/bytedance/seedance-2.0/requests/019f21b6-3c8e-70f1-9cb8-0cc4bf80e744",
+      "cost_usd": 0.0,
+      "artifacts": [],
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\ecommerce_drone_tiktok_hard_seed\\clips\\shot_06_dual_camera.mp4"
+    },
+    {
+      "shot_id": "shot_07_accessories",
+      "success": false,
+      "selected_provider": null,
+      "selected_tool": null,
+      "error": "Seedance 2.0 video generation failed: 422 Client Error: Unprocessable Entity for url: https://queue.fal.run/bytedance/seedance-2.0/requests/019f21b6-806f-76b1-9721-05e0b8041595",
+      "cost_usd": 0.0,
+      "artifacts": [],
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\ecommerce_drone_tiktok_hard_seed\\clips\\shot_07_accessories.mp4"
+    },
+    {
+      "shot_id": "shot_08_lifestyle_cta",
+      "success": true,
+      "selected_provider": "seedance",
+      "selected_tool": "seedance_video",
+      "error": null,
+      "cost_usd": 2.73,
+      "artifacts": [
+        "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\ecommerce_drone_tiktok_hard_seed\\clips\\shot_08_lifestyle_cta.mp4"
+      ],
+      "output_path": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\ecommerce_drone_tiktok_hard_seed\\clips\\shot_08_lifestyle_cta.mp4"
+    }
+  ],
+  "voiceover_audio": null,
+  "final_video": "D:\\桌面文件下载\\AI-hermes-agent\\external\\OpenMontage\\outputs\\ecommerce_drone_tiktok_hard_seed\\final_video.mp4",
+  "total_cost_usd": 2.73
+}

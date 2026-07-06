@@ -1,0 +1,8 @@
+{
+  "tests/shopify_listing/test_publish_vendor_catalog_runner.py::test_hydrate_resolution_demotes_high_risk_category_without_whitelist_id": true,
+  "tests/shopify_listing/test_publish_vendor_catalog_runner.py::test_should_apply_llm_suggestion_for_high_risk_review_category": true,
+  "tests/shopify_listing/test_publish_vendor_catalog_runner.py::test_should_clear_existing_category_for_conflicting_high_risk_category": true,
+  "tests/shopify_listing/test_publish_vendor_catalog_runner.py::test_should_clear_existing_category_for_tv_antenna_conflict": true,
+  "tests/shopify_listing/test_publish_vendor_catalog_runner.py::test_is_category_consistent_with_resolution_rejects_wrong_llm_taxonomy": true,
+  "tests/shopify_listing/test_publish_vendor_catalog_runner.py::test_should_apply_llm_suggestion_does_not_force_high_risk_review_logic": true
+}

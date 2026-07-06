@@ -1,0 +1,91 @@
+{
+  "version": "1.0",
+  "assets": [
+    {
+      "id": "source-collage",
+      "type": "image",
+      "path": "assets/images/source.jpg",
+      "source_tool": "user_upload",
+      "scene_id": "scene-01-hook",
+      "format": "jpg",
+      "quality_score": 0.9,
+      "subtype": "provided",
+      "generation_summary": "Original product collage screenshot supplied by the user.",
+      "provider": "local",
+      "license": "user-provided"
+    },
+    {
+      "id": "main-vacuum",
+      "type": "image",
+      "path": "assets/images/main-vacuum.jpg",
+      "source_tool": "ffmpeg_crop",
+      "scene_id": "scene-01-hook",
+      "format": "jpg",
+      "quality_score": 0.87,
+      "subtype": "cropped",
+      "generation_summary": "Main product crop extracted from the source screenshot.",
+      "provider": "local",
+      "license": "derived-from-user-image"
+    },
+    {
+      "id": "display-crop",
+      "type": "image",
+      "path": "assets/images/display.jpg",
+      "source_tool": "ffmpeg_crop",
+      "scene_id": "scene-02-display",
+      "format": "jpg",
+      "quality_score": 0.8,
+      "subtype": "cropped",
+      "generation_summary": "Close crop of the round digital display area.",
+      "provider": "local",
+      "license": "derived-from-user-image"
+    },
+    {
+      "id": "attachments-crop",
+      "type": "image",
+      "path": "assets/images/attachments.jpg",
+      "source_tool": "ffmpeg_crop",
+      "scene_id": "scene-03-tools",
+      "format": "jpg",
+      "quality_score": 0.82,
+      "subtype": "cropped",
+      "generation_summary": "Accessory crop showing the slim tool and brush attachment area.",
+      "provider": "local",
+      "license": "derived-from-user-image"
+    },
+    {
+      "id": "handheld-crop",
+      "type": "image",
+      "path": "assets/images/handheld-brush.jpg",
+      "source_tool": "ffmpeg_crop",
+      "scene_id": "scene-04-modes",
+      "format": "jpg",
+      "quality_score": 0.78,
+      "subtype": "cropped",
+      "generation_summary": "Crop showing a handheld-style configuration.",
+      "provider": "local",
+      "license": "derived-from-user-image"
+    },
+    {
+      "id": "crevice-crop",
+      "type": "image",
+      "path": "assets/images/crevice-mode.jpg",
+      "source_tool": "ffmpeg_crop",
+      "scene_id": "scene-04-modes",
+      "format": "jpg",
+      "quality_score": 0.78,
+      "subtype": "cropped",
+      "generation_summary": "Crop showing a narrow crevice-cleaning configuration.",
+      "provider": "local",
+      "license": "derived-from-user-image"
+    }
+  ],
+  "total_cost_usd": 0.0,
+  "metadata": {
+    "layer3_skills_read": [
+      "remotion-best-practices",
+      "remotion",
+      "ffmpeg"
+    ]
+  }
+}

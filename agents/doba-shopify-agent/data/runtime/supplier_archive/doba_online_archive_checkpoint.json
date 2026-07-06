@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-06-17T10:49:05+00:00",
+  "updated_at": "2026-06-18T00:53:57+00:00",
+  "completed": false,
+  "report_path": "docs/audits/doba-online-archive-report.json",
+  "checkpoint_path": "data/runtime/supplier_archive/doba_online_archive_checkpoint.json",
+  "resume_command": "python -m src.app.runners.run_supplier_archive_online --report-path \"docs/audits/doba-online-archive-report.json\" --checkpoint-path \"data/runtime/supplier_archive/doba_online_archive_checkpoint.json\" --page-size 20 --target-country \"US\"",
+  "config": {
+    "page_size": 20,
+    "target_country": "US",
+    "min_inventory": null
+  },
+  "progress": {
+    "total_spu": 465894,
+    "processed_spu": 10380,
+    "archived_sku": 10786,
+    "skipped_spu": 0,
+    "page_number": 520,
+    "index_in_page": 0,
+    "variant_index": 0
+  },
+  "warnings": [],
+  "last_event": {
+    "action": "archived",
+    "reason": "",
+    "spu_no": "D0100HHG8L7",
+    "spu_id": "rOqcvkbQZoDi",
+    "sku": "D0101HHVT0V",
+    "title": "Strainers and Colanders with Extendable Handles Collapsible Colander Strainer Over The Sink Veggies Fruit Pasta Folding Strainer for Kitchen"
+  }
+}

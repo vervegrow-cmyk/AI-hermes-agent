@@ -1,0 +1,4 @@
+[
+  "tests/test_executor.py::test_bootstrap_loads_root_environment",
+  "tests/test_executor.py::test_execute_task_returns_geo_audit_and_environment"
+]

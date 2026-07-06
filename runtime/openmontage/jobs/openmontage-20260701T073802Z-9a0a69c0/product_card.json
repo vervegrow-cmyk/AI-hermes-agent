@@ -1,0 +1,46 @@
+{
+  "sku": "POWERBANK-10000-BLK",
+  "product_name": "10000mAh Black Portable Power Bank",
+  "warehouse": "Chicago",
+  "quantity": 416,
+  "target_platforms": [
+    "TikTok",
+    "X",
+    "eBay",
+    "Shopify"
+  ],
+  "destination_url": "",
+  "product_facts": [
+    "10000mAh capacity",
+    "Black color",
+    "Portable power bank",
+    "US warehouse stock",
+    "Best for travel, emergency backup, daily carry, and phone charging"
+  ],
+  "compliance_rules": [
+    "Do not claim fast charging unless verified",
+    "Do not mention any brand unless confirmed",
+    "Do not exaggerate capacity",
+    "Do not use fake reviews",
+    "Do not use misleading before/after claims"
+  ],
+  "creative_angle": "POV: Your phone dies right before boarding a flight.",
+  "video_requirements": {
+    "duration_seconds": 20,
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "language": "English",
+    "captions": true,
+    "voiceover": true,
+    "style": "Fast-paced direct-response product ad"
+  },
+  "output_requirements": [
+    "proposal first",
+    "cost estimate before asset generation",
+    "script",
+    "scene plan",
+    "captions",
+    "voiceover text",
+    "final MP4 only after approval"
+  ]
+}

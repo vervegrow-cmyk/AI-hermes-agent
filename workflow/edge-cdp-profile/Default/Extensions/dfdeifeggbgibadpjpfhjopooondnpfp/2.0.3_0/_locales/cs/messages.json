@@ -1,0 +1,155 @@
+{
+   "content_downloadAudioText": {
+      "message": "Audio"
+   },
+   "content_downloadCoverText": {
+      "message": "Náhled"
+   },
+   "content_downloadVideoText": {
+      "message": "Video"
+   },
+   "manifest_description": {
+      "message": "Stahujte videa z TikToku bez vodoznaků."
+   },
+   "manifest_name": {
+      "message": "Stahovač videí TikTok"
+   },
+   "options_completeDownload": {
+      "message": "Stahování dokončeno"
+   },
+   "options_completeDownloadTip": {
+      "message": "Ve fázi dokončení stahování byl soubor stažen a můžete si prohlédnout stažený soubor ve správci souborů."
+   },
+   "options_downloadSetting": {
+      "message": "Nastavení stahování"
+   },
+   "options_downloadSubdirectory": {
+      "message": "Podadresář pro stahování"
+   },
+   "options_downloadSubdirectoryTip": {
+      "message": "Podadresář pro stahování souborů"
+   },
+   "options_downloadTipSetting": {
+      "message": "Upozornění na stahování"
+   },
+   "options_downloadTipSettingTip": {
+      "message": "Při kliknutí na tlačítko stažení se v pravém horním rohu okna zobrazí upozornění na stahování."
+   },
+   "options_enableSubdirectory": {
+      "message": "Podadresář"
+   },
+   "options_enableSubdirectoryTip": {
+      "message": "Zda stahovat soubory do podadresáře."
+   },
+   "options_pageTitle": {
+      "message": "Stahovač videí TikTok"
+   },
+   "options_parseInformation": {
+      "message": "Analýza informací"
+   },
+   "options_parseInformationTip": {
+      "message": "Ve fázi analýzy informací rozšíření analyzuje všechny informace potřebné pro stažení."
+   },
+   "options_saveSetting": {
+      "message": "Uložit nastavení"
+   },
+   "options_saveSuccess": {
+      "message": "Úspěšně uloženo"
+   },
+   "options_startDownload": {
+      "message": "Zahájit stahování"
+   },
+   "options_startDownloadTip": {
+      "message": "Ve fázi zahájení stahování uvidíte, že prohlížeč začne stahovat soubor a můžete zkontrolovat průběh stahování na stránce stahování prohlížeče."
+   },
+   "options_subdirectoryEmpty": {
+      "message": "Podadresář nemůže být prázdný"
+   },
+   "options_subdirectoryIllegal": {
+      "message": "Podadresář obsahuje nepovolené znaky"
+   },
+   "options_subdirectoryName": {
+      "message": "Název podadresáře"
+   },
+   "options_subdirectoryNameTip": {
+      "message": "Zadejte název podadresáře"
+   },
+   "options_videoCreator": {
+      "message": "Tvůrce"
+   },
+   "options_videoCreatorWithAt": {
+      "message": "Přidat symbol @ před jméno tvůrce videa"
+   },
+   "options_videoCreatorWithAtTooltip": {
+      "message": "V názvu staženého video souboru přidat symbol @ před jméno tvůrce."
+   },
+   "options_videoDescription": {
+      "message": "Popis"
+   },
+   "options_videoDescriptionWithHashtag": {
+      "message": "Zachovat hashtagy v popisu videa"
+   },
+   "options_videoDescriptionWithHashtagTip": {
+      "message": "V názvech stažených video souborů zachovat hashtagy začínající # v popisu videa."
+   },
+   "options_videoFileName": {
+      "message": "Název souboru videa"
+   },
+   "options_videoFileNameEmpty": {
+      "message": "Název video souboru nemůže být prázdný, vyberte prosím alespoň jeden"
+   },
+   "options_videoFileNameTooltip": {
+      "message": "Název stahovaného video souboru bude vygenerován podle atributů a pořadí v poli níže, oddělených mezerami."
+   },
+   "options_videoHighestBitrate": {
+      "message": "Nejvyšší bitrate"
+   },
+   "options_videoHighestResolution": {
+      "message": "Nejvyšší rozlišení"
+   },
+   "options_videoLargestFileSize": {
+      "message": "Největší velikost souboru"
+   },
+   "options_videoQuality": {
+      "message": "Kvalita videa"
+   },
+   "options_videoQualityTip": {
+      "message": "V jaké kvalitě stahovat videa"
+   },
+   "options_videoResolution": {
+      "message": "Rozlišení videa"
+   },
+   "options_videoVid": {
+      "message": "ID videa"
+   },
+   "popup_feedback": {
+      "message": "Zpětná vazba"
+   },
+   "popup_feedbackEmailSubject": {
+      "message": "Zpětná vazba k rozšíření Stahovač videí TikTok"
+   },
+   "popup_review": {
+      "message": "Recenze"
+   },
+   "popup_setting": {
+      "message": "Nastavení"
+   },
+   "snackbar_completeDownload": {
+      "message": "Stahování dokončeno"
+   },
+   "snackbar_downloadFailed": {
+      "message": "Stahování selhalo, obnovte prosím stránku a zkuste to znovu"
+   },
+   "snackbar_findVidError": {
+      "message": "Nepodařilo se analyzovat informace o videu, zašlete prosím e-mail pro zpětnou vazbu k problému"
+   },
+   "snackbar_parseInformation": {
+      "message": "Analýza informací"
+   },
+   "snackbar_parseInformationFail": {
+      "message": "Nepodařilo se analyzovat informace o videu, obnovte prosím stránku a zkuste to znovu"
+   },
+   "snackbar_startDownload": {
+      "message": "Zahájit stahování"
+   }
+}

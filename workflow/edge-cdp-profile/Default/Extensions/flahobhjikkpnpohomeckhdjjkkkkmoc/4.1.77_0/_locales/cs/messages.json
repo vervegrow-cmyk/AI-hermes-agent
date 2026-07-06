@@ -1,0 +1,14 @@
+{
+   "desc": {
+      "message": "Rozšiřte své prompťák ChatGPT o relevantní výsledky vyhledávání na webu prostřednictvím webového prohlížení."
+   },
+   "name": {
+      "message": "WebChatGPT: Knihovna promptů s přístupem k webu"
+   },
+   "sn": {
+      "message": "WebChatGPT"
+   },
+   "toggleWebAccess": {
+      "message": "Přepnout přístup na web"
+   }
+}

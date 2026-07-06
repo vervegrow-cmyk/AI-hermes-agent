@@ -1,0 +1,34 @@
+{
+   "appDesc": {
+      "description": "enregistrer les conversations ChatGPT en un clic sur Evernote, rechercher facilement l'historique ChatGPT. Essayez maintenant d'enregistrer l'historique ChatGPT sur Evernote!",
+      "message": "enregistrer les conversations ChatGPT en un clic sur Evernote, rechercher facilement l'historique ChatGPT. Essayez maintenant d'enregistrer l'historique ChatGPT sur Evernote!"
+   },
+   "appName": {
+      "description": "enregistrer l'historique ChatGPT sur evernote",
+      "message": "enregistrer l'historique ChatGPT sur evernote"
+   },
+   "popupTagLabel": {
+      "description": "tags",
+      "message": "tags"
+   },
+   "popupTitle": {
+      "description": "Enregistrer ChatGPT sur Evernote",
+      "message": "Enregistrer ChatGPT sur Evernote"
+   },
+   "popupTitleLabel": {
+      "description": "titre",
+      "message": "titre"
+   },
+   "saveButton": {
+      "description": "Enregistrer maintenant",
+      "message": "Enregistrer maintenant"
+   },
+   "upgradeButton": {
+      "description": "Mettre à niveau",
+      "message": "Mettre à niveau"
+   },
+   "upgradeTips": {
+      "description": "Passer à la version Pro, profiter de l'illimité",
+      "message": "Passer à la version Pro, profiter de l'illimité"
+   }
+}

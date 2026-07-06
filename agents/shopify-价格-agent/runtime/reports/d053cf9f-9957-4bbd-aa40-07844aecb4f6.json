@@ -1,0 +1,14 @@
+{
+  "batch_id": "d053cf9f-9957-4bbd-aa40-07844aecb4f6",
+  "store_name": "demo-shop.myshopify.com",
+  "mode": "dry-run",
+  "status": "completed",
+  "processed_count": 0,
+  "success_count": 0,
+  "failed_count": 0,
+  "skipped_count": 0,
+  "manual_review_count": 0,
+  "started_at": "2026-06-22T06:20:35+00:00",
+  "finished_at": "2026-06-22T06:20:36+00:00",
+  "items": []
+}

@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "Aktifkan lisensi"
+   },
+   "activateHint": {
+      "message": "Tempel kode dari email Anda."
+   },
+   "activateTitle": {
+      "message": "Aktifkan Premium"
+   },
+   "activatedSub": {
+      "message": "Unduhan tak terbatas · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "Premium Diaktifkan!"
+   },
+   "alreadyBought": {
+      "message": "Sudah membeli?"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ Kode ini sudah digunakan di perangkat lain."
+   },
+   "clearHistory": {
+      "message": "Hapus"
+   },
+   "days": {
+      "message": "hari · berakhir"
+   },
+   "deactivate": {
+      "message": "Nonaktifkan lisensi"
+   },
+   "deactivateConfirm": {
+      "message": "Nonaktifkan lisensi Premium di perangkat ini?"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ Semua"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "Menikmati TubeVD?"
+   },
+   "enterCode": {
+      "message": "Masukkan kunci lisensi Anda."
+   },
+   "enterKey": {
+      "message": "🔑 Masukkan kunci lisensi"
+   },
+   "expired": {
+      "message": "⚠️ Lisensi ini sudah kedaluwarsa."
+   },
+   "extDesc": {
+      "message": "Unduh video dari Facebook, Twitter, Vimeo, Dailymotion, dan 1000+ situs dalam HD, 4K, 8K."
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "free": {
+      "message": "Gratis"
+   },
+   "genericError": {
+      "message": "Terjadi kesalahan. Hubungi support@tubevd.com"
+   },
+   "getPremium": {
+      "message": "Dapatkan Premium — $4,99/bln"
+   },
+   "getPremiumLink": {
+      "message": "Dapatkan Premium ↗"
+   },
+   "guarantee": {
+      "message": "Jaminan uang kembali 30 hari"
+   },
+   "history": {
+      "message": "Riwayat unduhan"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ Kunci lisensi tidak valid."
+   },
+   "invalidFormat": {
+      "message": "Format tidak valid. Harus dimulai dengan TUBEVD-"
+   },
+   "licenseKey": {
+      "message": "Kunci lisensi"
+   },
+   "limit": {
+      "message": "Batas"
+   },
+   "limitHint": {
+      "message": "Paket gratis: 5 unduhan/hari."
+   },
+   "limitTitle": {
+      "message": "Batas harian tercapai"
+   },
+   "networkError": {
+      "message": "⚠️ Kesalahan koneksi."
+   },
+   "noCode": {
+      "message": "Belum punya kode?"
+   },
+   "noHistory": {
+      "message": "Belum ada unduhan."
+   },
+   "noVideos": {
+      "message": "Tidak ada video terdeteksi"
+   },
+   "noVideosHint": {
+      "message": "Arahkan kursor ke video mana saja untuk melihat tombol unduh."
+   },
+   "premiumBadge": {
+      "message": "Premium 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ Nilai"
+   },
+   "rateUs": {
+      "message": "⭐ Beri nilai"
+   },
+   "scanning": {
+      "message": "Mencari video..."
+   },
+   "serverError": {
+      "message": "⚠️ Kesalahan server."
+   },
+   "startDown": {
+      "message": "Mulai mengunduh ↓"
+   },
+   "support": {
+      "message": "Dukungan"
+   },
+   "unlimited": {
+      "message": "Tak terbatas"
+   },
+   "upgradeBtn": {
+      "message": "Tingkatkan ke Premium 4K"
+   },
+   "upgradeNow": {
+      "message": "Tingkatkan ↗"
+   },
+   "upgradeTitle": {
+      "message": "Tingkatkan ke Premium"
+   },
+   "usageLeft": {
+      "message": "unduhan tersisa hari ini"
+   },
+   "usageOf": {
+      "message": "dari"
+   },
+   "validFor": {
+      "message": "Berlaku selama"
+   },
+   "verifying": {
+      "message": "Memverifikasi…"
+   },
+   "videoDetected": {
+      "message": "video terdeteksi"
+   },
+   "videosDetected": {
+      "message": "video terdeteksi"
+   },
+   "ytBlocked": {
+      "message": "YouTube tidak didukung"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVD menghormati Persyaratan Layanan YouTube."
+   },
+   "ytTry": {
+      "message": "Coba Facebook, Vimeo, Twitter, dan 1.000+ situs lainnya."
+   }
+}

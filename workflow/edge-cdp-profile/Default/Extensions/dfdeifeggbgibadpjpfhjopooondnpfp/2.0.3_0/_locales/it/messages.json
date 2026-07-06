@@ -1,0 +1,155 @@
+{
+   "content_downloadAudioText": {
+      "message": "Audio"
+   },
+   "content_downloadCoverText": {
+      "message": "Copertina"
+   },
+   "content_downloadVideoText": {
+      "message": "Video"
+   },
+   "manifest_description": {
+      "message": "Scarica video TikTok senza filigrana."
+   },
+   "manifest_name": {
+      "message": "Downloader Video TikTok"
+   },
+   "options_completeDownload": {
+      "message": "Download completato"
+   },
+   "options_completeDownloadTip": {
+      "message": "Nella fase di completamento del download, il file è stato scaricato e puoi visualizzare il file scaricato nel gestore file."
+   },
+   "options_downloadSetting": {
+      "message": "Impostazioni download"
+   },
+   "options_downloadSubdirectory": {
+      "message": "Sottodirectory download"
+   },
+   "options_downloadSubdirectoryTip": {
+      "message": "Sottodirectory per i download dei file"
+   },
+   "options_downloadTipSetting": {
+      "message": "Notifica download"
+   },
+   "options_downloadTipSettingTip": {
+      "message": "Quando si fa clic sul pulsante di download, apparirà una notifica nell'angolo in alto a destra della finestra."
+   },
+   "options_enableSubdirectory": {
+      "message": "Sottodirectory"
+   },
+   "options_enableSubdirectoryTip": {
+      "message": "Se scaricare i file in una sottodirectory."
+   },
+   "options_pageTitle": {
+      "message": "TikTok Video Downloader"
+   },
+   "options_parseInformation": {
+      "message": "Analisi informazioni"
+   },
+   "options_parseInformationTip": {
+      "message": "Nella fase di analisi delle informazioni, l'estensione analizzerà tutte le informazioni necessarie per il download."
+   },
+   "options_saveSetting": {
+      "message": "Salva impostazioni"
+   },
+   "options_saveSuccess": {
+      "message": "Salvato con successo"
+   },
+   "options_startDownload": {
+      "message": "Avvia download"
+   },
+   "options_startDownloadTip": {
+      "message": "Nella fase di avvio del download, vedrai il browser iniziare a scaricare un file e potrai controllare l'avanzamento del download nella pagina dei download del browser."
+   },
+   "options_subdirectoryEmpty": {
+      "message": "La sottodirectory non può essere vuota"
+   },
+   "options_subdirectoryIllegal": {
+      "message": "La sottodirectory contiene caratteri non validi"
+   },
+   "options_subdirectoryName": {
+      "message": "Nome sottodirectory"
+   },
+   "options_subdirectoryNameTip": {
+      "message": "Specifica un nome per la sottodirectory"
+   },
+   "options_videoCreator": {
+      "message": "Creatore"
+   },
+   "options_videoCreatorWithAt": {
+      "message": "Aggiungi il simbolo @ prima del nome del creatore del video"
+   },
+   "options_videoCreatorWithAtTooltip": {
+      "message": "Nel nome del file video scaricato, aggiungere il simbolo @ prima del nome del creatore."
+   },
+   "options_videoDescription": {
+      "message": "Descrizione"
+   },
+   "options_videoDescriptionWithHashtag": {
+      "message": "Mantieni gli hashtag nella descrizione del video"
+   },
+   "options_videoDescriptionWithHashtagTip": {
+      "message": "Nei nomi dei file video scaricati, mantenere gli hashtag che iniziano con # nella descrizione del video."
+   },
+   "options_videoFileName": {
+      "message": "Nome file video"
+   },
+   "options_videoFileNameEmpty": {
+      "message": "Il nome del file video non può essere vuoto, selezionare almeno uno"
+   },
+   "options_videoFileNameTooltip": {
+      "message": "Il nome del file video scaricato verrà generato in base agli attributi e all'ordine nella casella di input sottostante, separati da spazi."
+   },
+   "options_videoHighestBitrate": {
+      "message": "Massimo bitrate"
+   },
+   "options_videoHighestResolution": {
+      "message": "Massima risoluzione"
+   },
+   "options_videoLargestFileSize": {
+      "message": "Dimensione file maggiore"
+   },
+   "options_videoQuality": {
+      "message": "Qualità video"
+   },
+   "options_videoQualityTip": {
+      "message": "In quale qualità scaricare i video"
+   },
+   "options_videoResolution": {
+      "message": "Risoluzione video"
+   },
+   "options_videoVid": {
+      "message": "ID video"
+   },
+   "popup_feedback": {
+      "message": "Feedback"
+   },
+   "popup_feedbackEmailSubject": {
+      "message": "Feedback su TikTok Video Downloader"
+   },
+   "popup_review": {
+      "message": "Recensioni"
+   },
+   "popup_setting": {
+      "message": "Impostazioni"
+   },
+   "snackbar_completeDownload": {
+      "message": "Download completato"
+   },
+   "snackbar_downloadFailed": {
+      "message": "Download fallito, aggiorna la pagina e riprova"
+   },
+   "snackbar_findVidError": {
+      "message": "Impossibile analizzare le informazioni del video, invia un'email per segnalare il problema"
+   },
+   "snackbar_parseInformation": {
+      "message": "Analisi informazioni"
+   },
+   "snackbar_parseInformationFail": {
+      "message": "Impossibile analizzare le informazioni del video, aggiorna la pagina e riprova"
+   },
+   "snackbar_startDownload": {
+      "message": "Avvia download"
+   }
+}

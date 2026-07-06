@@ -1,0 +1,69 @@
+{
+  "batch_id": "e8db5038-7e01-4771-a463-9b267410b047",
+  "mode": "apply",
+  "store_name": "demo-store",
+  "started_at": "2026-06-30T09:39:15+00:00",
+  "completed_at": "2026-06-30T09:39:15+00:00",
+  "summary": {
+    "processed_count": 2,
+    "success_count": 1,
+    "failed_count": 0,
+    "skipped_count": 1,
+    "manual_review_count": 0,
+    "mapping": {
+      "sync_scope": "full",
+      "total": 2,
+      "active": 2,
+      "duplicate": 0,
+      "missing": 0
+    },
+    "doba": {
+      "response_items": 2,
+      "normalized_items": 2,
+      "failed_items": 0
+    },
+    "shopify": {
+      "variants_requested": 2,
+      "variants_found": 2,
+      "variants_missing": 0
+    }
+  },
+  "items": [
+    {
+      "doba_sku": "SKU-1",
+      "shopify_variant_id": "var-1",
+      "supplier_cost": 10.0,
+      "shipping_cost": 2.0,
+      "current_shopify_price": 14.99,
+      "target_shopify_price": 14.99,
+      "price_delta": 0.0,
+      "decision": "keep_price",
+      "reason_code": "shopify_price_already_correct",
+      "will_update_shopify": false
+    },
+    {
+      "doba_sku": "SKU-2",
+      "shopify_variant_id": "var-2",
+      "supplier_cost": 10.0,
+      "shipping_cost": 2.0,
+      "current_shopify_price": 12.0,
+      "target_shopify_price": 14.99,
+      "price_delta": 2.99,
+      "decision": "increase_price",
+      "reason_code": "price_changed",
+      "will_update_shopify": true
+    }
+  ],
+  "errors": [],
+  "shopify_write_results": [
+    {
+      "doba_sku": "SKU-2",
+      "shopify_variant_id": "var-2",
+      "old_price": 12.0,
+      "new_price": 14.99,
+      "status": "synced",
+      "error_type": "",
+      "error_message": ""
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+   "desc": {
+      "message": "Utvid ChatGPT-promptene dine med relevante nettsøkeresultater gjennom nettsurfing."
+   },
+   "name": {
+      "message": "WebChatGPT: Promptbibliotek med nettilgang"
+   },
+   "sn": {
+      "message": "WebChatGPT"
+   },
+   "toggleWebAccess": {
+      "message": "Bytt webtilgang"
+   }
+}

@@ -1,0 +1,33 @@
+2026/07/04-21:06:24.271 548c Reusing MANIFEST D:\桌面文件下载\AI-hermes-agent\workflow\edge-cdp-profile\Default\IndexedDB\https_admin.shopify.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/04-21:06:24.271 548c Recovering log #181
+2026/07/04-21:06:24.296 548c Reusing old log D:\桌面文件下载\AI-hermes-agent\workflow\edge-cdp-profile\Default\IndexedDB\https_admin.shopify.com_0.indexeddb.leveldb/000181.log 
+2026/07/05-00:10:58.357 236c Level-0 table #186: started
+2026/07/05-00:10:58.367 236c Level-0 table #186: 784326 bytes OK
+2026/07/05-00:10:58.368 236c Delete type=0 #181
+2026/07/05-00:21:19.842 236c Compacting 1@1 + 1@2 files
+2026/07/05-00:21:19.849 236c Generated table #187@1: 56 keys, 1459 bytes
+2026/07/05-00:21:19.849 236c Compacted 1@1 + 1@2 files => 1459 bytes
+2026/07/05-00:21:19.850 236c compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/05-00:21:19.850 236c Delete type=2 #183
+2026/07/05-00:21:19.850 236c Delete type=2 #186
+2026/07/05-06:22:57.616 236c Level-0 table #189: started
+2026/07/05-06:22:57.626 236c Level-0 table #189: 743168 bytes OK
+2026/07/05-06:22:57.626 236c Delete type=0 #185
+2026/07/05-06:32:41.503 236c Compacting 1@1 + 1@2 files
+2026/07/05-06:32:41.511 236c Generated table #190@1: 55 keys, 1423 bytes
+2026/07/05-06:32:41.511 236c Compacted 1@1 + 1@2 files => 1423 bytes
+2026/07/05-06:32:41.511 236c compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/05-06:32:41.511 236c Delete type=2 #187
+2026/07/05-06:32:41.511 236c Delete type=2 #189
+2026/07/05-13:57:50.986 236c Level-0 table #192: started
+2026/07/05-13:57:51.001 236c Level-0 table #192: 744939 bytes OK
+2026/07/05-13:57:51.002 236c Delete type=0 #188
+2026/07/05-14:13:35.986 548c Compacting 1@1 + 1@2 files
+2026/07/05-14:13:35.993 548c Generated table #193@1: 46 keys, 1146 bytes
+2026/07/05-14:13:35.993 548c Compacted 1@1 + 1@2 files => 1146 bytes
+2026/07/05-14:13:35.994 548c compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/05-14:13:35.994 548c Delete type=2 #190
+2026/07/05-14:13:35.994 548c Delete type=2 #192
+2026/07/06-14:29:04.026 548c Level-0 table #195: started
+2026/07/06-14:29:04.037 548c Level-0 table #195: 891227 bytes OK
+2026/07/06-14:29:04.039 548c Delete type=0 #191

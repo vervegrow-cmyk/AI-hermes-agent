@@ -1,0 +1,888 @@
+:root {
+    --topside-height: 30px;
+}
+
+#ai_assistant {
+    z-index: 99999;
+}
+
+.aiCloseBtn svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#ai_assistant span {
+    display: unset;
+    line-height: unset;
+    position: unset;
+    color: rgb(0, 0, 0);
+    
+}
+
+#sidebarIframe {
+    position: fixed;
+    width: 440px;
+    height: 100%;
+    z-index: 2147483647;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px 0 0 20px;
+    background-color: #fff;
+    color: #333;
+    font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    visibility: visible !important;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: column;
+    right: -400px;
+    transition: right 1s ease;
+    font-size: 14px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    border: 0;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* 把让竞品挡着了 */
+.chatgpt-quick-query-float {
+    z-index: -1 !important;
+}
+
+#sidebarIframe.visible {
+    transform: translateX(0);
+    /* 元素从右侧滑入可见位置 */
+}
+
+.aiAssistantBlock {
+    width: auto;
+    position: absolute;
+    height: var(--topside-height);
+    z-index: 900;
+    background-color: white;
+    border: none;
+    box-shadow: 0 4px 12px #00000026;
+    border-radius: 6px;
+}
+
+.aiAssistantContent .ai_footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    height: var(--topside-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aiAssistantContent .ai_footer .left,
+.aiAssistantContent .ai_footer .right {
+    display: flex;
+    align-items: center;
+}
+
+#ai_assistant .modelQuickListItem img {
+    margin-left: 0 !important;
+}
+
+.aiAssistantContent .ai_footer .more_btn {
+    user-select: none;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    border-color: rgb(127, 137, 225);
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(247, 247, 248);
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    height: auto;
+    width: auto;
+    line-height: normal;
+    padding: 2px 10px;
+    cursor: pointer;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20version%3D%221.1%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%221%22%20x1%3D%220%22%20x2%3D%221%22%20y1%3D%220%22%20y2%3D%220%22%20gradientTransform%3D%22matrix(6.123233995736766e-17%2C%201%2C%20-0.06626801293990786%2C%206.123233995736766e-17%2C%200.5%2C%200)%22%3E%3Cstop%20stop-color%3D%22%23a9038a%22%20stop-opacity%3D%221%22%20offset%3D%220%22%3E%3C%2Fstop%3E%3Cstop%20stop-color%3D%22%237f89e1%22%20stop-opacity%3D%221%22%20offset%3D%221%22%3E%3C%2Fstop%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url(%231)%22%3E%3C%2Frect%3E%3C%2Fsvg%3E");
+}
+
+.aiAssistantContent .ai_footer .continute {
+    border-color: rgb(127, 137, 225);
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(127, 137, 225);
+    border-radius: 13px;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    background: rgb(255, 255, 255);
+    line-height: normal;
+    padding: 2px 11px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.aiAssistantContent .ai_footer svg {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    fill: #666666;
+}
+
+.aiAssistantContent .ai_footer path {
+    fill: #666666;
+}
+
+.aiAssistantContent .ai_footer .continute path {
+    fill: #8188dc
+}
+
+#ai_assistant .topBar {
+    display: flex;
+    align-items: center;
+    height: var(--topside-height);
+}
+
+.aiAssistantTopLeft {
+    width: 38px;
+    text-align: center;
+    cursor: pointer;
+    height: var(--topside-height);
+    border-radius: 6px 0 0 6px;
+    line-height: var(--topside-height);
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+}
+
+.aiAssistantTopLeft img {
+    vertical-align: middle;
+}
+
+#ai_assistant.en .aiAssistantTopMiddle {
+    font-size: 12px;
+}
+
+
+.aiAssistantTopMiddle {
+    width: auto;
+    height: var(--topside-height);
+    line-height: var(--topside-height);
+    text-align: center;
+    align-items: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    justify-content: center;
+    display: flex;
+    z-index: 900;
+    cursor: pointer;
+}
+
+.aiAssistantTopMiddleBefore {
+    width: 100%;
+    display: inline-block;
+    height: var(--topside-height);
+    white-space: nowrap;
+}
+
+.aiAssistantTopRight {
+    width: 20px;
+    height: var(--topside-height);
+    line-height: var(--topside-height);
+    position: relative;
+    border-radius: 0 6px 6px 0;
+}
+
+.aiAssistantContent {
+    height: auto;
+    width: 95%;
+    margin: auto;
+    position: relative;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    display: block;
+}
+
+.aiAssistantContentHide .aiAssistantContent {
+    display: none !important;
+}
+
+
+.aiAssistantTopLeftIcon {
+    width: 18px;
+    height: 18px;
+    margin-top: -1px;
+    vertical-align: unset;
+}
+
+.aiAssistantTopLeftIcon:hover+.topLeftIconTip {
+    display: block;
+}
+
+.selected-option svg {
+    vertical-align: unset;
+}
+
+#ai_assistant .aiAssistantTopMiddleText {
+    display: inline-block;
+    padding: 0 10px;
+    border: 0;
+    font-size: 13px;
+}
+
+
+
+.aiAssistantContentHide .aiAssistantTopLeft:hover,
+.aiAssistantContentHide .aiAssistantTopMiddle .aiAssistantTopMiddleText:hover,
+.aiAssistantContentHide .aiAssistantTopRight:hover {
+    background-color: rgb(242, 242, 243);
+}
+
+.topLeftIconTip {
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    background-color: gray;
+    top: -30px;
+    left: 0;
+    display: none;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.aiAssistantTopLeftType {
+    display: none;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.aiAssistantTopMiddleIcon {
+    margin-right: 5px;
+    height: 20px;
+}
+
+.aiAssistantTopMiddleMore {
+    height: 28px;
+    font-size: 20px;
+    line-height: 22px;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.aiAssistantContentText {
+    height: 150px;
+    width: 95%;
+    margin: 5px auto auto;
+    overflow-y: auto;
+    color: #262525
+}
+
+.aiAssistantContentIconImg {
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.aiAssistantTopRightBefore:hover+.topRightBeforeTip {
+    display: block;
+}
+
+.topRightBeforeTip {
+    border-radius: 5px;
+    width: 100px;
+    line-height: normal;
+    text-align: center;
+    font-size: 12px;
+    background-color: gray;
+    top: -30px;
+    left: 0;
+    display: none;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    transform: translateX(-50%);
+    padding: 5px;
+}
+
+.aiAssistantTopMiddleAfter {
+    display: flex;
+    align-items: center;
+}
+
+.aiAssistantTopRightAfter {
+    display: none;
+    position: absolute;
+    right: 3px;
+    top: 0;
+    cursor: pointer;
+}
+
+.aiAssistantTopMiddleAfterDiv,
+.aiAssistantTopMiddleAfterDivMore {
+    height: 20px;
+    line-height: var(--topside-height);
+    margin-right: 5px;
+    border-radius: 5px;
+    width: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.aiAssistantTopMiddleAfterDiv:hover .topMiddleAfterTip1 {
+    display: block;
+}
+
+.topMiddleAfterTip1 {
+    top: -45px;
+    left: 50%;
+    position: absolute;
+    height: 24px;
+    padding: 0;
+    width: 80px;
+    line-height: 24px;
+    margin-top: 17px;
+    font-size: 12px;
+    background-color: gray;
+    display: none;
+    color: rgb(255, 255, 255);
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+.aiAssistantTopMiddleAfterDiv:hover .topMiddleAfterTip2 {
+    display: block;
+}
+
+.topMiddleAfterTip2 {
+    top: -45px;
+    left: 50%;
+    position: absolute;
+    height: 24px;
+    padding: 0;
+    width: 80px;
+    line-height: 24px;
+    margin-top: 17px;
+    font-size: 12px;
+    background-color: gray;
+    display: none;
+    color: rgb(255, 255, 255);
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+.aiAssistantTopMiddleAfterDiv:hover .topMiddleAfterTip3 {
+    display: block;
+}
+
+.topMiddleAfterTip3 {
+    display: none;
+    top: -45px;
+    left: 50%;
+    position: absolute;
+    height: 24px;
+    padding: 0;
+    width: 80px;
+    line-height: 24px;
+    margin-top: 17px;
+    font-size: 12px;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+.aiAssistantTopMiddleAfterDiv4:hover+.topMiddleAfterTip4 {
+    display: block;
+}
+
+.topMiddleAfterTip4 {
+    display: none;
+    top: -45px;
+    left: 50%;
+    position: absolute;
+    height: 24px;
+    padding: 0;
+    width: 80px;
+    line-height: 24px;
+    margin-top: 17px;
+    font-size: 12px;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+.aiAssistantTopMiddleAfter img {
+    height: 20px;
+}
+
+.aiAssistantTopMiddleOption img {
+    margin-right: 5px;
+}
+
+.aiAssistantTopMiddleAfter {
+    display: none;
+}
+
+
+/* 隐藏原有的下拉箭头 */
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* 这里可以添加其他样式 */
+}
+
+
+/* 选中的选项 */
+
+.selected-option {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/* 下拉选项 */
+
+.options {
+    width: 143px;
+    left: -40px;
+    border-radius: 3px;
+    margin-top: 5px;
+    box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.08);
+    border-color: #fff;
+    padding: 4px;
+    background-color: white;
+    position: absolute;
+    display: none;
+    z-index: 999;
+    border-top: none;
+    height: 230px;
+    overflow-y: auto;
+}
+
+#ai_options .topBtn {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+#ai_options .topBtn:hover {
+    transform: scale(1.3);
+}
+
+#ai_options svg,
+#ai_options img {
+    width: 14px;
+    height: 14px;
+    fill: rgb(108, 108, 108);
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+
+.aiAssistantTopMiddleOptions {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 270px;
+    position: absolute;
+    display: none;
+    background: white;
+    z-index: 999;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 5px;
+    margin-left: -12px;
+    width: 180px;
+    height: 230px;
+    overflow-y: auto;
+}
+
+.aiAssistantTopMiddleOptions::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid white;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    transform: rotate(180deg);
+}
+
+.aiAssistantTopMiddleOption {
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    height: 30px;
+    line-height: 30px;
+    align-items: center;
+    border-bottom: 1px solid rgb(227 216 216 / 33%);
+}
+
+.aiAssistantTopMiddleOption:hover {
+    background-color: #f1f1f1;
+}
+
+.addCenterLogo {
+    top: 50%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    z-index: 2147483646;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 16px 0 0 16px;
+    background: white;
+    position: fixed;
+    line-height: 50px;
+    transition: 0.5s width;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 10px;
+}
+
+.addCenterLogoImg {
+    height: 23px;
+    width: 23px;
+    margin-left: 15px;
+}
+
+.addCenterLogo:not([isDragging]:not([data-move='0'])):hover #addCenterLogoImg {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+/* 拖拽时候的样式 */
+.addCenterLogo:not([isDragging]:not([data-move='0'])):hover {
+    background: #8085e8;
+    width: 60px;
+}
+
+.addCenterLogo[isDragging]:not([data-move='0']) {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.addCenterLogo[isDragging]:not([data-move='0']) #addCenterLogoImg {
+    margin: auto !important;
+}
+
+.addCenterLogo[isDragging]:not([data-move='0'])::after {
+    display: none !important;
+}
+
+.addCenterLogo[isDragging]:not([data-move='0']) .aiCloseBtn {
+    display: none !important;
+}
+
+
+/* 选项 */
+
+#ai_options .option {
+    height: 25px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.en #ai_options .option {
+    font-size: 12px;
+}
+
+.option img {
+    height: 15px;
+    margin-right: 3px;
+}
+
+#ai_assistant .topBar .aiAssistantTopMiddle svg,
+#ai_assistant .topBar .aiAssistantTopMiddle img {
+    width: 18px;
+    vertical-align: middle;
+    height: 18px;
+    fill: rgb(108, 108, 108);
+}
+
+#ai_assistant .topBar .aiAssistantTopMiddle img {
+    width: 16px;
+    height: 16px;
+}
+
+/* 鼠标悬停时 */
+
+.option:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* 点击选项时 */
+
+.option.active {
+    background-color: #ccc;
+}
+
+div#addCenterLogo.updated::after {
+    content: "1";
+    position: absolute;
+    display: block;
+    font-size: 12px;
+    width: 15px;
+    color: #fff;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 50%;
+    top: 0px;
+    background-color: rgb(193, 42, 31);
+    left: 32px;
+}
+
+/* 针对Webkit内核浏览器（如Chrome、Safari） */
+/* 可以通过使用::-webkit-scrollbar来自定义滚动条的样式 */
+/* 这里的细宽度和颜色可以根据需要进行调整 */
+
+/* 滚动条整体样式 */
+.aiAssistantTopMiddleBefore::-webkit-scrollbar {
+    height: 1px;
+    /* 设置滚动条宽度 */
+}
+
+#ai_options::-webkit-scrollbar {
+    width: 1px;
+    /* 设置滚动条宽度 */
+}
+
+#ai_assistant .popver {
+    position: relative;
+}
+
+#ai_assistant .popver:hover::after {
+    display: block !important;
+}
+
+#ai_assistant .popver::after {
+    z-index: 99999;
+    left: 50%;
+    display: none;
+    position: absolute;
+    line-height: 24px;
+    margin-top: 17px;
+    font-size: 12px;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    transform: translateX(-50%);
+    border-radius: 5px;
+    padding: 0 10px;
+    top: 5px;
+    white-space: nowrap;
+}
+
+
+#ai_assistant .aiAssistantTopMiddleAfter .moveBtn {
+    margin-left: 25px;
+    cursor: move;
+}
+
+#ai_assistant .aiAssistantTopMiddleAfter .moveBtn svg {
+    cursor: move;
+}
+
+#ai_assistant svg,
+#ai_assistant img {
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.aiAssistantTopMiddleAfter svg {
+    width: 15px;
+    height: 15px;
+}
+
+#ai_assistant .hoverIcon svg {
+    /* padding: 3px; */
+}
+
+#ai_assistant .hoverIcon:hover svg {
+    fill: #8185df;
+    background: #efefef;
+}
+
+
+.aiCloseBtn {
+    display: none;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #000;
+    opacity: .5;
+    cursor: pointer;
+    transition: all .3s;
+    line-height: 16px;
+    text-align: center;
+    z-index: 9999;
+}
+
+#addCenterLogo .aiCloseBtn {
+    top: -4px;
+    left: -4px;
+}
+
+#ai_assistant .aiCloseBtn {
+    bottom: 26px;
+    right: -7px;
+}
+
+#addCenterLogo:hover .aiCloseBtn,
+#ai_assistant.aiAssistantContentHide:hover .aiCloseBtn {
+    display: block;
+    /* 鼠标悬停时显示关闭按钮 */
+}
+
+#ai_assistant .aiCloseBtn:hover {
+    background: #d6503f;
+    opacity: 1;
+}
+
+#addCenterLogo .aiCloseBtn:hover {
+    opacity: 1;
+}
+
+#ai_assistant .aiCloseBox {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 3px;
+    position: absolute;
+    z-index: 99999;
+    top: 3px;
+    right: -3px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 6px 16px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px -4px, rgba(0, 0, 0, 0.05) 0px 9px 28px 8px;
+}
+
+#ai_assistant .aiCloseBox ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+#ai_assistant .aiCloseBox ul li {
+    white-space: nowrap;
+    box-sizing: border-box;
+    border-radius: 6px !important;
+    position: relative;
+    display: flex;
+    align-items: center;
+    clear: both;
+    margin: 0;
+    padding: 5px 12px;
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    cursor: pointer;
+    transition: all 0.2s;
+    padding-inline-start: 8px;
+    padding-inline-end: 8px;
+}
+
+#ai_assistant .aiCloseBox ul li:hover {
+    background-color: #e6e7f8;
+}
+
+#ai_assistant .modelQucikSelect {
+    width: 38px;
+    text-align: center;
+    cursor: pointer;
+    height: var(--topside-height);
+    line-height: var(--topside-height);
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 6px 0px 0px 6px;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+#ai_assistant .modelQucikSelect:hover .modelQuickList {
+    display: block;
+}
+
+#ai_assistant .modelQucikSelect img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#ai_assistant .modelQucikSelect .modelQuickList {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+    left: -30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#ai_assistant .modelQucikSelect .modelQuickList .modelQuickListItem {
+    background: #fff;
+    text-align: left;
+    width: 107px;
+    box-sizing: border-box;
+    padding: 2px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+#ai_assistant .modelQucikSelect .modelQuickList .modelQuickListItem img {
+    margin-right: 3px;
+}
+
+#ai_assistant .modelQucikSelect .modelQuickList .modelQuickListItem.active {
+    background: #f2f4fb;
+}
+
+#ai_assistant .modelQucikSelect .modelQuickList .modelQuickListItem:hover {
+    background: #f3f5fa;
+}
+
+
+
+/* elementUI的radio模块压缩代码 */
+#ai_assistant .el-radio,#ai_assistant .el-radio--medium.is-bordered .el-radio__label{font-size:14px;}#ai_assistant .el-radio,#ai_assistant .el-radio__input{white-space:nowrap;line-height:1;outline:0;}#ai_assistant .el-radio,#ai_assistant .el-radio__inner,#ai_assistant .el-radio__input{position:relative;display:inline-block;}#ai_assistant .el-radio{color:#606266;font-weight:500;cursor:pointer;margin-right:30px;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;}#ai_assistant .el-radio.is-bordered{padding:12px 20px 0 10px;border-radius:4px;border:1px solid #dcdfe6;box-sizing:border-box;height:40px;}#ai_assistant .el-radio.is-bordered.is-checked{border-color:#409eff;}#ai_assistant .el-radio.is-bordered.is-disabled{cursor:not-allowed;border-color:#ebeef5;}#ai_assistant .el-radio__input.is-disabled .el-radio__inner,#ai_assistant .el-radio__input.is-disabled.is-checked .el-radio__inner{background-color:#f5f7fa;border-color:#e4e7ed;}#ai_assistant .el-radio.is-bordered + .el-radio.is-bordered{margin-left:10px;}#ai_assistant .el-radio--medium.is-bordered{padding:10px 20px 0 10px;border-radius:4px;height:36px;}#ai_assistant .el-radio--medium.is-bordered .el-radio__inner{height:14px;width:14px;}#ai_assistant .el-radio--small.is-bordered{padding:8px 15px 0 10px;border-radius:3px;height:32px;}#ai_assistant .el-radio--small.is-bordered .el-radio__label{font-size:12px;}#ai_assistant .el-radio--small.is-bordered .el-radio__inner{height:12px;width:12px;}#ai_assistant .el-radio--mini.is-bordered{padding:6px 15px 0 10px;border-radius:3px;height:28px;}#ai_assistant .el-radio--mini.is-bordered .el-radio__label{font-size:12px;}#ai_assistant .el-radio--mini.is-bordered .el-radio__inner{height:12px;width:12px;}#ai_assistant .el-radio:last-child{margin-right:0;}#ai_assistant .el-radio__input{cursor:pointer;vertical-align:middle;}#ai_assistant .el-radio__input.is-disabled .el-radio__inner{cursor:not-allowed;}#ai_assistant .el-radio__input.is-disabled .el-radio__inner:after{cursor:not-allowed;background-color:#f5f7fa;}#ai_assistant .el-radio__input.is-disabled .el-radio__inner + .el-radio__label{cursor:not-allowed;}#ai_assistant .el-radio__input.is-disabled.is-checked .el-radio__inner:after{background-color:#c0c4cc;}#ai_assistant .el-radio__input.is-disabled + span.el-radio__label{color:#c0c4cc;cursor:not-allowed;}#ai_assistant .el-radio__input.is-checked .el-radio__inner{border-color:#409eff;background:#409eff;}#ai_assistant .el-radio__input.is-checked .el-radio__inner:after{transform:translate(-50%,-50%) scale(1);}#ai_assistant .el-radio__input.is-checked + .el-radio__label{color:#409eff;}#ai_assistant .el-radio__input.is-focus .el-radio__inner{border-color:#409eff;}#ai_assistant .el-radio__inner{border:1px solid #dcdfe6;border-radius:100%;width:14px;height:14px;background-color:#fff;cursor:pointer;box-sizing:border-box;}#ai_assistant .el-radio__inner:hover{border-color:#409eff;}#ai_assistant .el-radio__inner:after{width:4px;height:4px;border-radius:100%;background-color:#fff;content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(0);transition:transform 0.15s ease-in;}#ai_assistant .el-radio__original{opacity:0;outline:0;position:absolute;z-index:-1;top:0;left:0;right:0;bottom:0;margin:0;}#ai_assistant .el-radio:focus:not(.is-focus):not(:active):not(.is-disabled) .el-radio__inner{box-shadow:0 0 2px 2px #409eff;}#ai_assistant .el-radio__label{font-size:14px;padding-left:10px;}
+
+/* contentGptRadio模块代码 */
+#ai_assistant .gpt-radio .el-radio{margin-right:0;border-radius:999px}
+#ai_assistant .gpt-radio .el-radio.is-checked{color:#fff !important;background-color:#8189da !important;border-color:#8189da !important;box-shadow:-1px 0 0 0 #8189da !important}
+#ai_assistant .gpt-radio .el-radio.is-checked span{color:#fff !important}
+#ai_assistant .gpt-radio .el-radio.is-checked .star path{fill:#fff}
+#ai_assistant .gpt-radio .el-radio-button__inner:hover{color:#8189da !important}
+#ai_assistant .gpt-radio .el-radio__input{display:none}
+#ai_assistant .gpt-radio .el-radio__inner{color:#000;font-weight:700;margin-right:0 !important;margin-bottom:0;border-radius:22px;background:transparent;border:none;padding:2px 4px 2px 0 !important;display:flex;align-items:center}
+#ai_assistant .gpt-radio .el-radio__label{display:flex;align-items:center;justify-content:center;padding:2px 3px;font-size:10px}
+#ai_assistant .gpt-radio .el-radio__label span{font-size:10px}
+#ai_assistant .claudeNew{display:block;z-index:999;position:absolute;top:-13px;right:-18px}
+#ai_assistant .gpt-radio .el-radio-group{background:#ebedf8;border-radius:999px}

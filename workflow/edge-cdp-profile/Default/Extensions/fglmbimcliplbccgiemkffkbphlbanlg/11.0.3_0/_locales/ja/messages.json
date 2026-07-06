@@ -1,0 +1,185 @@
+{
+   "activateBtn": {
+      "message": "ライセンスを有効化"
+   },
+   "activateHint": {
+      "message": "メールのコードを貼り付けてください。"
+   },
+   "activateTitle": {
+      "message": "プレミアムを有効化"
+   },
+   "activatedSub": {
+      "message": "無制限ダウンロード · 4K · MP3"
+   },
+   "activatedTitle": {
+      "message": "プレミアム有効化完了！"
+   },
+   "alreadyBought": {
+      "message": "すでに購入済みですか？"
+   },
+   "alreadyUsed": {
+      "message": "⚠️ このコードは別のデバイスで使用済みです。"
+   },
+   "clearHistory": {
+      "message": "クリア"
+   },
+   "days": {
+      "message": "日 · 期限"
+   },
+   "deactivate": {
+      "message": "ライセンスを無効化"
+   },
+   "deactivateConfirm": {
+      "message": "このデバイスのプレミアムライセンスを無効化しますか？"
+   },
+   "done": {
+      "message": "✓"
+   },
+   "download": {
+      "message": "↓"
+   },
+   "downloadAll": {
+      "message": "↓ すべて"
+   },
+   "downloading": {
+      "message": "…"
+   },
+   "enjoyingApp": {
+      "message": "TubeVDを楽しんでいますか？"
+   },
+   "enterCode": {
+      "message": "ライセンスキーを入力してください。"
+   },
+   "enterKey": {
+      "message": "🔑 ライセンスキーを入力"
+   },
+   "expired": {
+      "message": "⚠️ このライセンスは期限切れです。"
+   },
+   "extDesc": {
+      "message": "Facebook、Twitter、Vimeo、Dailymotionなど1000以上のサイトからHD・4K・8K動画をダウンロード。"
+   },
+   "extName": {
+      "message": "Tube Video Downloader"
+   },
+   "faq": {
+      "message": "よくある質問"
+   },
+   "free": {
+      "message": "無料"
+   },
+   "genericError": {
+      "message": "エラーが発生しました。support@tubevd.comにお問い合わせください。"
+   },
+   "getPremium": {
+      "message": "プレミアムを取得 — $4.99/月"
+   },
+   "getPremiumLink": {
+      "message": "プレミアムを取得 ↗"
+   },
+   "guarantee": {
+      "message": "30日間返金保証"
+   },
+   "history": {
+      "message": "ダウンロード履歴"
+   },
+   "home": {
+      "message": "🌐 tubevd.com"
+   },
+   "invalidCode": {
+      "message": "❌ 無効なライセンスキーです。"
+   },
+   "invalidFormat": {
+      "message": "無効な形式です。TUBEVD- で始まる必要があります。"
+   },
+   "licenseKey": {
+      "message": "ライセンスキー"
+   },
+   "limit": {
+      "message": "制限"
+   },
+   "limitHint": {
+      "message": "無料プラン：1日5ダウンロード。"
+   },
+   "limitTitle": {
+      "message": "1日の上限に達しました"
+   },
+   "networkError": {
+      "message": "⚠️ 接続エラー。"
+   },
+   "noCode": {
+      "message": "コードをお持ちでない方は？"
+   },
+   "noHistory": {
+      "message": "ダウンロードはまだありません。"
+   },
+   "noVideos": {
+      "message": "動画が見つかりません"
+   },
+   "noVideosHint": {
+      "message": "ページの動画の上にマウスを移動すると、ダウンロードボタンが表示されます。"
+   },
+   "premiumBadge": {
+      "message": "プレミアム 4K"
+   },
+   "pro": {
+      "message": "🔒 Pro"
+   },
+   "rate": {
+      "message": "⭐ 評価"
+   },
+   "rateUs": {
+      "message": "⭐ 評価する"
+   },
+   "scanning": {
+      "message": "動画を検索中..."
+   },
+   "serverError": {
+      "message": "⚠️ サーバーエラー。"
+   },
+   "startDown": {
+      "message": "ダウンロードを開始 ↓"
+   },
+   "support": {
+      "message": "サポート"
+   },
+   "unlimited": {
+      "message": "無制限"
+   },
+   "upgradeBtn": {
+      "message": "プレミアム4Kにアップグレード"
+   },
+   "upgradeNow": {
+      "message": "アップグレード ↗"
+   },
+   "upgradeTitle": {
+      "message": "プレミアムにアップグレード"
+   },
+   "usageLeft": {
+      "message": "本日の残りダウンロード数"
+   },
+   "usageOf": {
+      "message": "/"
+   },
+   "validFor": {
+      "message": "有効期間"
+   },
+   "verifying": {
+      "message": "確認中…"
+   },
+   "videoDetected": {
+      "message": "動画が見つかりました"
+   },
+   "videosDetected": {
+      "message": "動画が見つかりました"
+   },
+   "ytBlocked": {
+      "message": "YouTubeは非対応"
+   },
+   "ytBlockedHint": {
+      "message": "TubeVDはYouTubeの利用規約を遵守しています。"
+   },
+   "ytTry": {
+      "message": "Facebook、Vimeo、Twitterなど1,000以上のサイトをお試しください。"
+   }
+}

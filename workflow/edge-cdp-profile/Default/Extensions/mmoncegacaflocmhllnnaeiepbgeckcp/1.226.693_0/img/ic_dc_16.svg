@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:rgba(0,77,116,.5)}
+        </style>
+    </defs>
+    <g id="ic_dc_16" transform="translate(-547 -328)">
+        <path id="Rectangle_2229" d="M0 0h16v16H0z" class="cls-1" data-name="Rectangle 2229" transform="translate(547 328)"/>
+        <g id="Group_2796" data-name="Group 2796" transform="translate(547 328)">
+            <path id="Path_38926" d="M15 1H1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 3H1V2h1zm2 0H3V2h1zm2 0H5V2h1z" class="cls-2" data-name="Path 38926"/>
+            <path id="Path_38927" d="M15 6H1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1zM2 8H1V7h1zm2 0H3V7h1zm2 0H5V7h1z" class="cls-2" data-name="Path 38927"/>
+            <path id="Path_38928" d="M15 11H1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1zM2 13H1v-1h1zm2 0H3v-1h1zm2 0H5v-1h1z" class="cls-2" data-name="Path 38928"/>
+        </g>
+    </g>
+</svg>

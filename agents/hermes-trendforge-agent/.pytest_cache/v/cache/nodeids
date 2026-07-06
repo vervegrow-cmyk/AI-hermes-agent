@@ -1,0 +1,9 @@
+[
+  "tests/test_hermes_trendforge_agent.py::test_discover_insights_endpoint_calls_service",
+  "tests/test_hermes_trendforge_agent.py::test_execute_endpoint_supports_firecrawl_scrape_capability",
+  "tests/test_hermes_trendforge_agent.py::test_execute_endpoint_supports_openhands_conversation_capability",
+  "tests/test_hermes_trendforge_agent.py::test_execute_endpoint_uses_local_runtime_contract",
+  "tests/test_hermes_trendforge_agent.py::test_firecrawl_scrape_route_calls_service",
+  "tests/test_hermes_trendforge_agent.py::test_openhands_conversation_route_calls_service",
+  "tests/test_hermes_trendforge_agent.py::test_openhands_status_route_calls_service"
+]

@@ -1,0 +1,20 @@
+{
+   "extDes": {
+      "message": "Chrome Professional video downloader and image downloader, you can download videos and pictures online. Free, safe and easy to use."
+   },
+   "extName": {
+      "message": "Unlimited Video Downloader - Save Video and Images"
+   },
+   "noVideo": {
+      "message": "Oops, Video not found"
+   },
+   "recordButton": {
+      "message": "录制下载模式"
+   },
+   "recordText": {
+      "message": "有些视频可能需要播放才能检测到链接，如果列表中没有你想要的视频，可以尝试播放。如果播放后依然无法取得链接，可尝试刷新当前页面，或者使用"
+   },
+   "recordTips": {
+      "message": "提示：如果当前视频有可选分辨率，请选择固定的分辨率，而非自动，分辨率自动切换会使录制的视频变成多个不同分辨率的片段。"
+   }
+}

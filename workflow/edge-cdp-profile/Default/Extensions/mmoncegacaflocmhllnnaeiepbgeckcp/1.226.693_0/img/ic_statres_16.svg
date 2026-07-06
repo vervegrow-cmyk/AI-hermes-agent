@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_statres_16" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-1{fill:rgba(0,77,116,.5)}
+        </style>
+    </defs>
+    <path id="Path_38939" d="M16 8L8 2.458 0 8V5.5L8 0l8 5.5z" class="cls-1" data-name="Path 38939"/>
+    <path id="Path_38940" d="M8 4L1 9v7h14V9zm2 5H7v1l2.658.025A.5.5 0 0 1 10 10.5v2a.5.5 0 0 1-.5.5H6v-1h3v-1l-2.658-.025A.5.5 0 0 1 6 10.5v-2a.5.5 0 0 1 .5-.5H10z" class="cls-1" data-name="Path 38940"/>
+</svg>
