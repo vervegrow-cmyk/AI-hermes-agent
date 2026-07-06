@@ -253808,6 +253808,1986 @@
       "publishStatus": "already_published",
       "failureReason": "",
       "checkedAt": "2026-07-06T09:59:06.837Z"
+    },
+    {
+      "id": "a2ebf146-4c92-48bb-a0c2-26cfbb4b3c0b",
+      "shopifyProductId": "gid://shopify/Product/10224283353394",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:01:34.843Z"
+    },
+    {
+      "id": "c4eab8c7-5c48-4871-9a32-adb2804165ae",
+      "shopifyProductId": "gid://shopify/Product/10224283353394",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:01:34.843Z"
+    },
+    {
+      "id": "5f7a62e5-84b4-4dbb-a265-eef0d3857471",
+      "shopifyProductId": "gid://shopify/Product/10224283353394",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:01:34.843Z"
+    },
+    {
+      "id": "8fc3dcee-ed9e-4568-8bdf-df1601ed11c0",
+      "shopifyProductId": "gid://shopify/Product/10224283353394",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:01:34.843Z"
+    },
+    {
+      "id": "dcb0169c-37e8-47d4-a15b-acde99fea120",
+      "shopifyProductId": "gid://shopify/Product/10224283353394",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:01:34.843Z"
+    },
+    {
+      "id": "f7455fad-2e31-4266-a5d4-5dfb61363a6b",
+      "shopifyProductId": "gid://shopify/Product/10224283353394",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:01:34.843Z"
+    },
+    {
+      "id": "e03a76d0-4f07-43da-81f6-bfc30602e9fe",
+      "shopifyProductId": "gid://shopify/Product/10224283353394",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:01:34.843Z"
+    },
+    {
+      "id": "f849e367-fa50-4406-96b0-bbf692a7f78c",
+      "shopifyProductId": "gid://shopify/Product/10224283353394",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:01:34.843Z"
+    },
+    {
+      "id": "e92d333b-6151-40a1-bd9a-8e75bfb1a2ab",
+      "shopifyProductId": "gid://shopify/Product/10224283353394",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:01:34.843Z"
+    },
+    {
+      "id": "0429d7fe-9687-4418-8c81-fb341bc91d1e",
+      "shopifyProductId": "gid://shopify/Product/10224283353394",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:01:34.843Z"
+    },
+    {
+      "id": "65a677cd-aa8c-400b-8704-2a9e57a0dd9e",
+      "shopifyProductId": "gid://shopify/Product/10224283353394",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:01:34.843Z"
+    },
+    {
+      "id": "fa7b0d12-0eb3-45f7-aeec-39d7a5dc4196",
+      "shopifyProductId": "gid://shopify/Product/10224283746610",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:04:07.432Z"
+    },
+    {
+      "id": "1e140c2e-4ef0-47c2-a0cf-c6a0ac2f98eb",
+      "shopifyProductId": "gid://shopify/Product/10224283746610",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:04:07.432Z"
+    },
+    {
+      "id": "512b0b67-e2ef-4e4b-811d-254844690a96",
+      "shopifyProductId": "gid://shopify/Product/10224283746610",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:04:07.432Z"
+    },
+    {
+      "id": "8ab6660f-6826-4b57-bffd-63c440bad8cf",
+      "shopifyProductId": "gid://shopify/Product/10224283746610",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:04:07.432Z"
+    },
+    {
+      "id": "f7cfa37d-6921-4da9-8d7a-90472d46f21e",
+      "shopifyProductId": "gid://shopify/Product/10224283746610",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:04:07.432Z"
+    },
+    {
+      "id": "0bba9f85-854a-40b5-9e78-f3130aca0a05",
+      "shopifyProductId": "gid://shopify/Product/10224283746610",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:04:07.432Z"
+    },
+    {
+      "id": "c3a0b1b7-a63e-4114-a2f4-132e46f35f60",
+      "shopifyProductId": "gid://shopify/Product/10224283746610",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:04:07.432Z"
+    },
+    {
+      "id": "a3eba5c1-3b09-40b8-bb58-8534f6d5cc02",
+      "shopifyProductId": "gid://shopify/Product/10224283746610",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:04:07.432Z"
+    },
+    {
+      "id": "fb66ec8d-bde9-44b1-a5b8-f4c2633969ac",
+      "shopifyProductId": "gid://shopify/Product/10224283746610",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:04:07.432Z"
+    },
+    {
+      "id": "34b438c0-56fc-4924-97ae-c4cdc0e64b56",
+      "shopifyProductId": "gid://shopify/Product/10224283746610",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:04:07.432Z"
+    },
+    {
+      "id": "7cc1055a-8ccc-4c1c-8562-9f4b298a9565",
+      "shopifyProductId": "gid://shopify/Product/10224283746610",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:04:07.432Z"
+    },
+    {
+      "id": "ae445511-be64-4a5e-921f-61f6585e877c",
+      "shopifyProductId": "gid://shopify/Product/10224283975986",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:06:40.933Z"
+    },
+    {
+      "id": "896325cd-0cfa-45ed-b496-cc7ff9c3d1cc",
+      "shopifyProductId": "gid://shopify/Product/10224283975986",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:06:40.933Z"
+    },
+    {
+      "id": "1cd3531f-6e5c-4522-96a6-be42ff2ca6da",
+      "shopifyProductId": "gid://shopify/Product/10224283975986",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:06:40.933Z"
+    },
+    {
+      "id": "6ea9831b-9c8a-4046-9212-76d60c3a0d6a",
+      "shopifyProductId": "gid://shopify/Product/10224283975986",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:06:40.933Z"
+    },
+    {
+      "id": "0860c9e3-6b7e-4f85-a935-a850551be66e",
+      "shopifyProductId": "gid://shopify/Product/10224283975986",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:06:40.933Z"
+    },
+    {
+      "id": "8f3b64ae-6224-4754-8885-2c737dec6655",
+      "shopifyProductId": "gid://shopify/Product/10224283975986",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:06:40.933Z"
+    },
+    {
+      "id": "2fec82ca-11ab-4d19-8234-efe4c229007e",
+      "shopifyProductId": "gid://shopify/Product/10224283975986",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:06:40.933Z"
+    },
+    {
+      "id": "424a08ca-165f-457b-8e2b-3d6396bdc205",
+      "shopifyProductId": "gid://shopify/Product/10224283975986",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:06:40.933Z"
+    },
+    {
+      "id": "b463bda7-077a-49ad-a271-d67e779c7380",
+      "shopifyProductId": "gid://shopify/Product/10224283975986",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:06:40.933Z"
+    },
+    {
+      "id": "898ceba3-d0f1-41a6-80eb-9aebdaba0d8b",
+      "shopifyProductId": "gid://shopify/Product/10224283975986",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:06:40.933Z"
+    },
+    {
+      "id": "9e5c2fac-ab9f-46a5-82ac-d0957af4a9c6",
+      "shopifyProductId": "gid://shopify/Product/10224283975986",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:06:40.933Z"
+    },
+    {
+      "id": "b34798d4-922d-45c5-8faf-27507f68e7c8",
+      "shopifyProductId": "gid://shopify/Product/10224284369202",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:08:57.679Z"
+    },
+    {
+      "id": "ba48a5ac-20f6-4d4e-abb9-76f973593e46",
+      "shopifyProductId": "gid://shopify/Product/10224284369202",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:08:57.679Z"
+    },
+    {
+      "id": "74c26617-587a-4698-b624-70f7ac912a17",
+      "shopifyProductId": "gid://shopify/Product/10224284369202",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:08:57.679Z"
+    },
+    {
+      "id": "7f05f44b-aa0f-4151-82c4-2e41edf19518",
+      "shopifyProductId": "gid://shopify/Product/10224284369202",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:08:57.679Z"
+    },
+    {
+      "id": "2b6d50d0-c1b0-461f-8e46-6d25d34366d0",
+      "shopifyProductId": "gid://shopify/Product/10224284369202",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:08:57.679Z"
+    },
+    {
+      "id": "1d195052-346d-428b-a6cb-8f49e35b808c",
+      "shopifyProductId": "gid://shopify/Product/10224284369202",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:08:57.679Z"
+    },
+    {
+      "id": "696eddcc-2304-4a66-bdce-421f474e9954",
+      "shopifyProductId": "gid://shopify/Product/10224284369202",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:08:57.679Z"
+    },
+    {
+      "id": "5932a94b-40ec-4274-bf13-eb26db0c5111",
+      "shopifyProductId": "gid://shopify/Product/10224284369202",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:08:57.679Z"
+    },
+    {
+      "id": "bcbe0099-5aad-4088-9095-901fbd706f81",
+      "shopifyProductId": "gid://shopify/Product/10224284369202",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:08:57.679Z"
+    },
+    {
+      "id": "f61b97db-7798-4f37-a5cf-eb182a6b1fd2",
+      "shopifyProductId": "gid://shopify/Product/10224284369202",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:08:57.679Z"
+    },
+    {
+      "id": "ef8fed54-5de6-48d1-b738-3f5ff42597f1",
+      "shopifyProductId": "gid://shopify/Product/10224284369202",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:08:57.679Z"
+    },
+    {
+      "id": "5e0bfb75-bba8-4797-b721-947eeddb113f",
+      "shopifyProductId": "gid://shopify/Product/10224287383858",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:11:53.279Z"
+    },
+    {
+      "id": "401b7964-e7b7-4a9e-a604-caaae454db53",
+      "shopifyProductId": "gid://shopify/Product/10224287383858",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:11:53.279Z"
+    },
+    {
+      "id": "4b9ad76f-ac5b-4f7f-aff0-989c51582005",
+      "shopifyProductId": "gid://shopify/Product/10224287383858",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:11:53.279Z"
+    },
+    {
+      "id": "21384015-187a-43aa-808a-05f9bd105be3",
+      "shopifyProductId": "gid://shopify/Product/10224287383858",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:11:53.279Z"
+    },
+    {
+      "id": "82626ea3-c9e5-47a2-b84b-440214b8295c",
+      "shopifyProductId": "gid://shopify/Product/10224287383858",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:11:53.279Z"
+    },
+    {
+      "id": "119e5ba2-2685-4c23-9e1c-cb5031982c79",
+      "shopifyProductId": "gid://shopify/Product/10224287383858",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:11:53.279Z"
+    },
+    {
+      "id": "6ca8416e-4908-4253-a834-03762a21b88d",
+      "shopifyProductId": "gid://shopify/Product/10224287383858",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:11:53.279Z"
+    },
+    {
+      "id": "6b3e34f3-c07d-4c52-84d5-6c2a47581206",
+      "shopifyProductId": "gid://shopify/Product/10224287383858",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:11:53.279Z"
+    },
+    {
+      "id": "595ab2d6-3fef-4e29-b097-6702e4ddda6b",
+      "shopifyProductId": "gid://shopify/Product/10224287383858",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:11:53.279Z"
+    },
+    {
+      "id": "14d1637e-352b-4d9a-be5a-a662933c62cd",
+      "shopifyProductId": "gid://shopify/Product/10224287383858",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:11:53.279Z"
+    },
+    {
+      "id": "f6f2059b-2d7b-4791-a30e-f2ee7e32e6f0",
+      "shopifyProductId": "gid://shopify/Product/10224287383858",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:11:53.279Z"
+    },
+    {
+      "id": "194fcf3e-a167-4479-930f-923315aeaca9",
+      "shopifyProductId": "gid://shopify/Product/10224289382706",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:14:30.347Z"
+    },
+    {
+      "id": "aa30a8ea-e523-4a26-80e3-6629e44f1603",
+      "shopifyProductId": "gid://shopify/Product/10224289382706",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:14:30.347Z"
+    },
+    {
+      "id": "d8f4e70e-9025-434b-a4ea-c5919085ab99",
+      "shopifyProductId": "gid://shopify/Product/10224289382706",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:14:30.347Z"
+    },
+    {
+      "id": "e3d9111e-0ae8-4347-803a-470571033980",
+      "shopifyProductId": "gid://shopify/Product/10224289382706",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:14:30.347Z"
+    },
+    {
+      "id": "de2b336b-b9d2-4d8a-abe1-edfe08e7a886",
+      "shopifyProductId": "gid://shopify/Product/10224289382706",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:14:30.347Z"
+    },
+    {
+      "id": "768868e4-a82c-4e50-87cf-2ad2b05e5a1b",
+      "shopifyProductId": "gid://shopify/Product/10224289382706",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:14:30.347Z"
+    },
+    {
+      "id": "f79226a9-9827-4d25-83f8-1acefe18b380",
+      "shopifyProductId": "gid://shopify/Product/10224289382706",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:14:30.347Z"
+    },
+    {
+      "id": "f7b98be1-846c-4de7-b313-a8082bd19dff",
+      "shopifyProductId": "gid://shopify/Product/10224289382706",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:14:30.347Z"
+    },
+    {
+      "id": "4cdd992c-a865-4091-8007-20b2ed7d497c",
+      "shopifyProductId": "gid://shopify/Product/10224289382706",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:14:30.347Z"
+    },
+    {
+      "id": "2f8968d6-932a-4e5c-879a-cd163223477e",
+      "shopifyProductId": "gid://shopify/Product/10224289382706",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:14:30.347Z"
+    },
+    {
+      "id": "2526e42c-49c9-4f5e-857d-590bcd18b146",
+      "shopifyProductId": "gid://shopify/Product/10224289382706",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:14:30.347Z"
+    },
+    {
+      "id": "cc9cf840-fdda-440e-96fb-28f4669b64df",
+      "shopifyProductId": "gid://shopify/Product/10224292528434",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:16:52.789Z"
+    },
+    {
+      "id": "d3d2a7d8-341c-4649-9930-ed7014d5d477",
+      "shopifyProductId": "gid://shopify/Product/10224292528434",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:16:52.789Z"
+    },
+    {
+      "id": "66814970-cc96-43cf-8a33-8dc4cd48d33d",
+      "shopifyProductId": "gid://shopify/Product/10224292528434",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:16:52.789Z"
+    },
+    {
+      "id": "7c9cdf0c-0e28-45bd-85d2-6c8cd0845e54",
+      "shopifyProductId": "gid://shopify/Product/10224292528434",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:16:52.789Z"
+    },
+    {
+      "id": "3890c995-2810-4e6b-a576-41fb9e93d887",
+      "shopifyProductId": "gid://shopify/Product/10224292528434",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:16:52.789Z"
+    },
+    {
+      "id": "fe0d2f25-4bb2-472d-b9a3-4981bb37c833",
+      "shopifyProductId": "gid://shopify/Product/10224292528434",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:16:52.789Z"
+    },
+    {
+      "id": "6ace5d57-1a02-4ff5-bfd1-25f81c0b9e98",
+      "shopifyProductId": "gid://shopify/Product/10224292528434",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:16:52.789Z"
+    },
+    {
+      "id": "4e4017ff-a4f3-4bed-8c50-2755ccec3be0",
+      "shopifyProductId": "gid://shopify/Product/10224292528434",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:16:52.789Z"
+    },
+    {
+      "id": "7d3a6b70-d54b-4434-9eb2-617baec0504e",
+      "shopifyProductId": "gid://shopify/Product/10224292528434",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:16:52.789Z"
+    },
+    {
+      "id": "1a72913c-ea2c-4951-9b83-7ad222fa1a83",
+      "shopifyProductId": "gid://shopify/Product/10224292528434",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:16:52.789Z"
+    },
+    {
+      "id": "c7941efc-c263-40cc-9b15-9949320c50c6",
+      "shopifyProductId": "gid://shopify/Product/10224292528434",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:16:52.789Z"
+    },
+    {
+      "id": "98c9dee8-c35f-4f6b-b136-cfd5cbefa96d",
+      "shopifyProductId": "gid://shopify/Product/10224293970226",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:19:27.100Z"
+    },
+    {
+      "id": "8dba9363-fb4d-4f30-922d-56cd8351e594",
+      "shopifyProductId": "gid://shopify/Product/10224293970226",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:19:27.100Z"
+    },
+    {
+      "id": "dd0a6dc7-560c-484d-9d96-d41d51d30bf7",
+      "shopifyProductId": "gid://shopify/Product/10224293970226",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:19:27.100Z"
+    },
+    {
+      "id": "bca51e49-835c-4a09-8a92-f1ed4ee82915",
+      "shopifyProductId": "gid://shopify/Product/10224293970226",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:19:27.100Z"
+    },
+    {
+      "id": "480fb06d-0ffd-4ad0-90ef-3af4ebfe3ab3",
+      "shopifyProductId": "gid://shopify/Product/10224293970226",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:19:27.100Z"
+    },
+    {
+      "id": "c2d4b218-2aa0-4293-ad58-93233c8d64d4",
+      "shopifyProductId": "gid://shopify/Product/10224293970226",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:19:27.100Z"
+    },
+    {
+      "id": "bd3e7e02-660f-481a-9982-6667649a5e1f",
+      "shopifyProductId": "gid://shopify/Product/10224293970226",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:19:27.100Z"
+    },
+    {
+      "id": "09b7a59d-8e5f-4ce0-835c-cf22b4528624",
+      "shopifyProductId": "gid://shopify/Product/10224293970226",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:19:27.100Z"
+    },
+    {
+      "id": "6fbd3b62-16ff-42ed-a7cd-aec59c4d7ff1",
+      "shopifyProductId": "gid://shopify/Product/10224293970226",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:19:27.100Z"
+    },
+    {
+      "id": "7f18d38e-f32e-4511-bdc6-a37b5257b97d",
+      "shopifyProductId": "gid://shopify/Product/10224293970226",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:19:27.100Z"
+    },
+    {
+      "id": "c4d97455-b1ac-4bf0-a4cd-02546fd519ed",
+      "shopifyProductId": "gid://shopify/Product/10224293970226",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:19:27.100Z"
+    },
+    {
+      "id": "2f944755-eac5-4afc-99d2-8358485b4cc1",
+      "shopifyProductId": "gid://shopify/Product/10224294494514",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:21:50.188Z"
+    },
+    {
+      "id": "66a2b5f2-8f74-4b75-b086-e9013004c544",
+      "shopifyProductId": "gid://shopify/Product/10224294494514",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:21:50.188Z"
+    },
+    {
+      "id": "207e82c9-051d-49c4-8214-23336c449e74",
+      "shopifyProductId": "gid://shopify/Product/10224294494514",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:21:50.188Z"
+    },
+    {
+      "id": "518234c7-ee7e-4502-991d-b5b74fa45c6c",
+      "shopifyProductId": "gid://shopify/Product/10224294494514",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:21:50.188Z"
+    },
+    {
+      "id": "73465efc-293c-479f-b54c-850b066ca6be",
+      "shopifyProductId": "gid://shopify/Product/10224294494514",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:21:50.188Z"
+    },
+    {
+      "id": "91c0144f-f816-452f-b377-1925531e1c6a",
+      "shopifyProductId": "gid://shopify/Product/10224294494514",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:21:50.188Z"
+    },
+    {
+      "id": "ec7090f3-5944-43dc-bca2-fb88f75ff636",
+      "shopifyProductId": "gid://shopify/Product/10224294494514",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:21:50.188Z"
+    },
+    {
+      "id": "ba302492-e321-445b-b568-2c40439f79f3",
+      "shopifyProductId": "gid://shopify/Product/10224294494514",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:21:50.188Z"
+    },
+    {
+      "id": "66ddd4ec-9324-49b2-a147-4fa17fd2efcc",
+      "shopifyProductId": "gid://shopify/Product/10224294494514",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:21:50.188Z"
+    },
+    {
+      "id": "4743773f-bb60-4e90-b843-2e12973942f0",
+      "shopifyProductId": "gid://shopify/Product/10224294494514",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:21:50.188Z"
+    },
+    {
+      "id": "b67646fa-cbcd-415f-a0c2-ec449437e2e5",
+      "shopifyProductId": "gid://shopify/Product/10224294494514",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:21:50.188Z"
+    },
+    {
+      "id": "352561dc-1d50-4cd7-986b-ac0ce32716f8",
+      "shopifyProductId": "gid://shopify/Product/10224296558898",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:23:56.436Z"
+    },
+    {
+      "id": "9f80ad63-8a50-4658-924f-80aabf229d1f",
+      "shopifyProductId": "gid://shopify/Product/10224296558898",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:23:56.436Z"
+    },
+    {
+      "id": "1aa346a4-39c6-4ab9-b4e1-746eb3b5958c",
+      "shopifyProductId": "gid://shopify/Product/10224296558898",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:23:56.436Z"
+    },
+    {
+      "id": "928c9894-df1c-4ea0-8303-aea9587ebd82",
+      "shopifyProductId": "gid://shopify/Product/10224296558898",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:23:56.436Z"
+    },
+    {
+      "id": "c03f035d-7aa6-415d-b881-eb9e2309bb7c",
+      "shopifyProductId": "gid://shopify/Product/10224296558898",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:23:56.436Z"
+    },
+    {
+      "id": "d79a2ac2-9ce0-4fdd-befb-760018f749d5",
+      "shopifyProductId": "gid://shopify/Product/10224296558898",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:23:56.436Z"
+    },
+    {
+      "id": "0a92b3a0-a62a-475d-95c9-e398524c9e5b",
+      "shopifyProductId": "gid://shopify/Product/10224296558898",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:23:56.436Z"
+    },
+    {
+      "id": "9ba4792c-675a-4139-af21-b01e92a452ad",
+      "shopifyProductId": "gid://shopify/Product/10224296558898",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:23:56.436Z"
+    },
+    {
+      "id": "370b799c-ed82-4f1b-8168-3e766f1f33f1",
+      "shopifyProductId": "gid://shopify/Product/10224296558898",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:23:56.436Z"
+    },
+    {
+      "id": "680c5820-57e0-4651-b3c4-b8d7d998f220",
+      "shopifyProductId": "gid://shopify/Product/10224296558898",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:23:56.436Z"
+    },
+    {
+      "id": "b0160c8d-28aa-4ee2-8a91-4055a1173fb9",
+      "shopifyProductId": "gid://shopify/Product/10224296558898",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:23:56.436Z"
+    },
+    {
+      "id": "5c6019e6-885d-4774-a8b4-7f7584645ed6",
+      "shopifyProductId": "gid://shopify/Product/10224297574706",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:26:36.628Z"
+    },
+    {
+      "id": "548a444b-df11-4c66-87ad-38beb45bbe35",
+      "shopifyProductId": "gid://shopify/Product/10224297574706",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:26:36.628Z"
+    },
+    {
+      "id": "a00b68f8-fff5-45b7-b1be-8ea3bc0e030e",
+      "shopifyProductId": "gid://shopify/Product/10224297574706",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:26:36.628Z"
+    },
+    {
+      "id": "73e53a82-24d8-4378-9b74-96eb1ce246d3",
+      "shopifyProductId": "gid://shopify/Product/10224297574706",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:26:36.628Z"
+    },
+    {
+      "id": "49fd43fa-ecf5-446b-9a63-728c53941740",
+      "shopifyProductId": "gid://shopify/Product/10224297574706",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:26:36.628Z"
+    },
+    {
+      "id": "93b7c492-c367-47c8-9ccf-7a748ddd7be2",
+      "shopifyProductId": "gid://shopify/Product/10224297574706",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:26:36.628Z"
+    },
+    {
+      "id": "b6af39f8-39d5-4734-b7e1-89bb36a846d3",
+      "shopifyProductId": "gid://shopify/Product/10224297574706",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:26:36.628Z"
+    },
+    {
+      "id": "0a05a3f5-c77d-4eae-8e40-50a0c93fa5ed",
+      "shopifyProductId": "gid://shopify/Product/10224297574706",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:26:36.628Z"
+    },
+    {
+      "id": "2a4c94f8-3ee9-43a8-b522-9204fbcbeed6",
+      "shopifyProductId": "gid://shopify/Product/10224297574706",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:26:36.628Z"
+    },
+    {
+      "id": "5a268788-e1ad-4dc3-a7d1-df136797c463",
+      "shopifyProductId": "gid://shopify/Product/10224297574706",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:26:36.628Z"
+    },
+    {
+      "id": "75a38a99-4760-4d7d-b914-5a3bf648d8cc",
+      "shopifyProductId": "gid://shopify/Product/10224297574706",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:26:36.628Z"
+    },
+    {
+      "id": "41e1487f-efb3-43d7-85e8-44ce5a177fec",
+      "shopifyProductId": "gid://shopify/Product/10224298262834",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:29:14.655Z"
+    },
+    {
+      "id": "af127f7f-9ef3-4e53-89b9-a06ddaa3e3ea",
+      "shopifyProductId": "gid://shopify/Product/10224298262834",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:29:14.655Z"
+    },
+    {
+      "id": "85129c7a-2407-4117-b668-689ad4666e99",
+      "shopifyProductId": "gid://shopify/Product/10224298262834",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:29:14.655Z"
+    },
+    {
+      "id": "0e89427d-0a96-4f95-bfb4-2aeb2dfe0ada",
+      "shopifyProductId": "gid://shopify/Product/10224298262834",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:29:14.655Z"
+    },
+    {
+      "id": "ed774685-6f99-4dee-9181-741702ed8e6e",
+      "shopifyProductId": "gid://shopify/Product/10224298262834",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:29:14.655Z"
+    },
+    {
+      "id": "dbb4bc67-519a-45cd-a613-9fc5bce50a0a",
+      "shopifyProductId": "gid://shopify/Product/10224298262834",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:29:14.655Z"
+    },
+    {
+      "id": "b946b199-aa40-46ba-bb8c-b27e4818d087",
+      "shopifyProductId": "gid://shopify/Product/10224298262834",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:29:14.655Z"
+    },
+    {
+      "id": "36537d5f-e1a3-4449-ad3b-bb5af918111a",
+      "shopifyProductId": "gid://shopify/Product/10224298262834",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:29:14.655Z"
+    },
+    {
+      "id": "d49beac1-6d87-4eac-9ada-55b94dca3dc5",
+      "shopifyProductId": "gid://shopify/Product/10224298262834",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:29:14.655Z"
+    },
+    {
+      "id": "916f3671-64a3-453c-80c6-cb180abb25aa",
+      "shopifyProductId": "gid://shopify/Product/10224298262834",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:29:14.655Z"
+    },
+    {
+      "id": "c4ffe505-92bf-482c-a728-c6f66019e1bc",
+      "shopifyProductId": "gid://shopify/Product/10224298262834",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:29:14.655Z"
+    },
+    {
+      "id": "812b75b9-9ac5-4dd2-a9d8-c23284b15c50",
+      "shopifyProductId": "gid://shopify/Product/10224299934002",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:31:37.723Z"
+    },
+    {
+      "id": "c063c09e-586c-456b-b940-dc8c18b7f9b6",
+      "shopifyProductId": "gid://shopify/Product/10224299934002",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:31:37.723Z"
+    },
+    {
+      "id": "eae4998f-c579-4e0e-9fa1-292cf720af93",
+      "shopifyProductId": "gid://shopify/Product/10224299934002",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:31:37.723Z"
+    },
+    {
+      "id": "5e183caa-8235-49dd-a84a-8decfa41615a",
+      "shopifyProductId": "gid://shopify/Product/10224299934002",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:31:37.723Z"
+    },
+    {
+      "id": "9e4e46c0-1f01-44db-a78b-125a63265a46",
+      "shopifyProductId": "gid://shopify/Product/10224299934002",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:31:37.723Z"
+    },
+    {
+      "id": "dfbcaeb5-a53f-4a21-9cce-e26743dc2bfa",
+      "shopifyProductId": "gid://shopify/Product/10224299934002",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:31:37.723Z"
+    },
+    {
+      "id": "e1e183c1-f80d-40d2-8295-2b4679526026",
+      "shopifyProductId": "gid://shopify/Product/10224299934002",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:31:37.723Z"
+    },
+    {
+      "id": "54bff69c-1ac0-41eb-b845-ea799776e308",
+      "shopifyProductId": "gid://shopify/Product/10224299934002",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:31:37.723Z"
+    },
+    {
+      "id": "e132cc6d-4a73-4460-9088-4acfea9e6f1a",
+      "shopifyProductId": "gid://shopify/Product/10224299934002",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:31:37.723Z"
+    },
+    {
+      "id": "f9e12b5b-ff5d-4e77-b87d-761077b1e529",
+      "shopifyProductId": "gid://shopify/Product/10224299934002",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:31:37.723Z"
+    },
+    {
+      "id": "b1446b89-0135-48ca-8857-44ef00c4a5b1",
+      "shopifyProductId": "gid://shopify/Product/10224299934002",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:31:37.723Z"
+    },
+    {
+      "id": "2890cb7c-e85c-4520-9319-b9b26e34e1ef",
+      "shopifyProductId": "gid://shopify/Product/10224301670706",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:34:18.234Z"
+    },
+    {
+      "id": "27b60e35-d227-45a2-a8c0-19ff7e4e7575",
+      "shopifyProductId": "gid://shopify/Product/10224301670706",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:34:18.234Z"
+    },
+    {
+      "id": "28420038-791d-4a46-843b-1d46372d1ff1",
+      "shopifyProductId": "gid://shopify/Product/10224301670706",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:34:18.234Z"
+    },
+    {
+      "id": "e11e9fe8-904f-4255-a34d-9e98571b7105",
+      "shopifyProductId": "gid://shopify/Product/10224301670706",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:34:18.234Z"
+    },
+    {
+      "id": "10e95cbe-eb40-4b2f-981b-c0858dda37e5",
+      "shopifyProductId": "gid://shopify/Product/10224301670706",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:34:18.234Z"
+    },
+    {
+      "id": "7cf3b084-5277-4f05-a6f2-81fe439a1a85",
+      "shopifyProductId": "gid://shopify/Product/10224301670706",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:34:18.234Z"
+    },
+    {
+      "id": "d12de17c-aa75-4d98-ac0e-c5b755eb36dc",
+      "shopifyProductId": "gid://shopify/Product/10224301670706",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:34:18.234Z"
+    },
+    {
+      "id": "0e4d393c-9f39-478a-9d84-a8a92ac1b735",
+      "shopifyProductId": "gid://shopify/Product/10224301670706",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:34:18.234Z"
+    },
+    {
+      "id": "54db4a44-a29b-41be-b4c6-986494636dbf",
+      "shopifyProductId": "gid://shopify/Product/10224301670706",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:34:18.234Z"
+    },
+    {
+      "id": "8447cfdf-546a-49ed-9265-9af297d5d94c",
+      "shopifyProductId": "gid://shopify/Product/10224301670706",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:34:18.234Z"
+    },
+    {
+      "id": "73b31bc2-ac99-4b68-bbc9-d3ceb511d281",
+      "shopifyProductId": "gid://shopify/Product/10224301670706",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:34:18.234Z"
+    },
+    {
+      "id": "618553d4-1eb0-45d4-abe1-c89b21e64892",
+      "shopifyProductId": "gid://shopify/Product/10224301834546",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:36:58.118Z"
+    },
+    {
+      "id": "0e868d4d-eaa8-4b0c-9b35-b4894ab407b4",
+      "shopifyProductId": "gid://shopify/Product/10224301834546",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:36:58.118Z"
+    },
+    {
+      "id": "50279061-fe00-4ebd-a194-834dfed7fe37",
+      "shopifyProductId": "gid://shopify/Product/10224301834546",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:36:58.118Z"
+    },
+    {
+      "id": "20cff05d-c4fa-435f-b9bd-36ca092cdb73",
+      "shopifyProductId": "gid://shopify/Product/10224301834546",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:36:58.118Z"
+    },
+    {
+      "id": "dc659f68-ce9d-429f-bbe6-46f1b34d0be3",
+      "shopifyProductId": "gid://shopify/Product/10224301834546",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:36:58.118Z"
+    },
+    {
+      "id": "c5088038-b697-4996-b24b-76baad69ffbe",
+      "shopifyProductId": "gid://shopify/Product/10224301834546",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:36:58.118Z"
+    },
+    {
+      "id": "39d9bcd3-0483-46b9-91e0-b5e2c5e7b060",
+      "shopifyProductId": "gid://shopify/Product/10224301834546",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:36:58.118Z"
+    },
+    {
+      "id": "5908b49f-8279-4a4a-9521-2e43ec7015a0",
+      "shopifyProductId": "gid://shopify/Product/10224301834546",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:36:58.118Z"
+    },
+    {
+      "id": "d8ce5931-b58e-4e25-a5df-899959827d00",
+      "shopifyProductId": "gid://shopify/Product/10224301834546",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:36:58.118Z"
+    },
+    {
+      "id": "c77af1cf-0042-4573-93fa-d75ec19bc30b",
+      "shopifyProductId": "gid://shopify/Product/10224301834546",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:36:58.118Z"
+    },
+    {
+      "id": "be2dcc0f-310c-4c78-bb64-6b212c7a21ac",
+      "shopifyProductId": "gid://shopify/Product/10224301834546",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:36:58.118Z"
+    },
+    {
+      "id": "280ce66b-3654-4790-8ae5-e06e10d265c7",
+      "shopifyProductId": "gid://shopify/Product/10224304554290",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:39:21.988Z"
+    },
+    {
+      "id": "310744f3-c2dc-467e-aa05-f674214194c9",
+      "shopifyProductId": "gid://shopify/Product/10224304554290",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:39:21.988Z"
+    },
+    {
+      "id": "a523e8d3-343e-45e2-8535-1df32fe9dfc0",
+      "shopifyProductId": "gid://shopify/Product/10224304554290",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:39:21.988Z"
+    },
+    {
+      "id": "fdd5a223-3c66-439f-956d-fe313aaf7624",
+      "shopifyProductId": "gid://shopify/Product/10224304554290",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:39:21.988Z"
+    },
+    {
+      "id": "06023126-d866-4140-980f-eadf8b035c94",
+      "shopifyProductId": "gid://shopify/Product/10224304554290",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:39:21.988Z"
+    },
+    {
+      "id": "8a5e00bd-d6c4-4e25-8a56-a8a1b82725cd",
+      "shopifyProductId": "gid://shopify/Product/10224304554290",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:39:21.988Z"
+    },
+    {
+      "id": "6eb25e8a-3fa9-486b-9693-950c2933b152",
+      "shopifyProductId": "gid://shopify/Product/10224304554290",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:39:21.988Z"
+    },
+    {
+      "id": "5d517459-7f86-474c-b0fc-775cfd08f778",
+      "shopifyProductId": "gid://shopify/Product/10224304554290",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:39:21.988Z"
+    },
+    {
+      "id": "010c7eef-ce64-439b-8036-cd6c4003fae2",
+      "shopifyProductId": "gid://shopify/Product/10224304554290",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:39:21.988Z"
+    },
+    {
+      "id": "9bfebad5-32e0-400d-95a1-5920a131b183",
+      "shopifyProductId": "gid://shopify/Product/10224304554290",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:39:21.988Z"
+    },
+    {
+      "id": "3d20746a-1765-4e13-a45c-a9c182e9416c",
+      "shopifyProductId": "gid://shopify/Product/10224304554290",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:39:21.988Z"
+    },
+    {
+      "id": "0b506caf-5c78-45c2-b283-55b1c22403cb",
+      "shopifyProductId": "gid://shopify/Product/10224305930546",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:41:38.983Z"
+    },
+    {
+      "id": "51ff2944-60c5-4e7c-b0d8-a382bbbd3a93",
+      "shopifyProductId": "gid://shopify/Product/10224305930546",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:41:38.983Z"
+    },
+    {
+      "id": "7208584c-398b-4814-a468-378f748245d8",
+      "shopifyProductId": "gid://shopify/Product/10224305930546",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:41:38.983Z"
+    },
+    {
+      "id": "5f719c44-8786-4b01-9563-b989a383408e",
+      "shopifyProductId": "gid://shopify/Product/10224305930546",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:41:38.983Z"
+    },
+    {
+      "id": "c80875fe-0f2a-4516-869f-a4a8e7e81df6",
+      "shopifyProductId": "gid://shopify/Product/10224305930546",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:41:38.983Z"
+    },
+    {
+      "id": "7e92cebb-b843-4ca7-9dd7-816c7aeabff2",
+      "shopifyProductId": "gid://shopify/Product/10224305930546",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:41:38.983Z"
+    },
+    {
+      "id": "9d4678b2-ecd1-4472-893f-2e1010ba72f7",
+      "shopifyProductId": "gid://shopify/Product/10224305930546",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:41:38.983Z"
+    },
+    {
+      "id": "2aac57e0-5af1-4398-92d9-380089ba250f",
+      "shopifyProductId": "gid://shopify/Product/10224305930546",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:41:38.983Z"
+    },
+    {
+      "id": "0f9c3bcf-bcbd-46ce-85bd-9aea7d96d133",
+      "shopifyProductId": "gid://shopify/Product/10224305930546",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:41:38.983Z"
+    },
+    {
+      "id": "ffe07439-fdad-44f7-a514-e75665cf7fe8",
+      "shopifyProductId": "gid://shopify/Product/10224305930546",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:41:38.983Z"
+    },
+    {
+      "id": "e76afeef-11e2-4288-a6a6-f9d0d8bfcd35",
+      "shopifyProductId": "gid://shopify/Product/10224305930546",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:41:38.983Z"
+    },
+    {
+      "id": "753e3c47-35f3-491c-969f-9b8d0e0543a3",
+      "shopifyProductId": "gid://shopify/Product/10224307241266",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:43:44.274Z"
+    },
+    {
+      "id": "bb0dff10-05b6-4134-af86-b0767ab498be",
+      "shopifyProductId": "gid://shopify/Product/10224307241266",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:43:44.274Z"
+    },
+    {
+      "id": "4377c3cb-728c-447c-a601-6940f12c68ce",
+      "shopifyProductId": "gid://shopify/Product/10224307241266",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:43:44.274Z"
+    },
+    {
+      "id": "75dbfd86-6954-4d30-b1df-70858c19b055",
+      "shopifyProductId": "gid://shopify/Product/10224307241266",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:43:44.274Z"
+    },
+    {
+      "id": "4e6afad1-4490-4c48-9b4a-e4101f792e52",
+      "shopifyProductId": "gid://shopify/Product/10224307241266",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:43:44.274Z"
+    },
+    {
+      "id": "e31832d8-2c6c-49ec-aa5a-872e03206200",
+      "shopifyProductId": "gid://shopify/Product/10224307241266",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:43:44.274Z"
+    },
+    {
+      "id": "7bab65dc-4930-458a-8a7e-5181be05dee3",
+      "shopifyProductId": "gid://shopify/Product/10224307241266",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:43:44.274Z"
+    },
+    {
+      "id": "b833dd7b-911f-4a01-a1e7-8036044fd06b",
+      "shopifyProductId": "gid://shopify/Product/10224307241266",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:43:44.274Z"
+    },
+    {
+      "id": "e0ef614d-08bc-491a-9e71-d6fa87c8e4a7",
+      "shopifyProductId": "gid://shopify/Product/10224307241266",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:43:44.274Z"
+    },
+    {
+      "id": "5feea0a7-0dc8-4a91-aad7-3abbc315c11d",
+      "shopifyProductId": "gid://shopify/Product/10224307241266",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:43:44.274Z"
+    },
+    {
+      "id": "5befabdc-b686-4813-9bc9-4c6426aa56ea",
+      "shopifyProductId": "gid://shopify/Product/10224307241266",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:43:44.274Z"
+    },
+    {
+      "id": "ee73518e-d0f4-49d0-bf76-eea610b5fd0c",
+      "shopifyProductId": "gid://shopify/Product/10224308584754",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:45:59.155Z"
+    },
+    {
+      "id": "a3703abe-0d27-4a1b-b3f2-045799940b86",
+      "shopifyProductId": "gid://shopify/Product/10224308584754",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:45:59.155Z"
+    },
+    {
+      "id": "cf33e06b-5004-486c-989e-9b079f59051d",
+      "shopifyProductId": "gid://shopify/Product/10224308584754",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:45:59.155Z"
+    },
+    {
+      "id": "6d94b31b-0f98-486c-bbc7-7fec26dbeedc",
+      "shopifyProductId": "gid://shopify/Product/10224308584754",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:45:59.155Z"
+    },
+    {
+      "id": "86704594-03be-4455-a5d1-3acab48532b8",
+      "shopifyProductId": "gid://shopify/Product/10224308584754",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:45:59.155Z"
+    },
+    {
+      "id": "3afbd635-bd6b-4678-a1d3-470ec5400be4",
+      "shopifyProductId": "gid://shopify/Product/10224308584754",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:45:59.155Z"
+    },
+    {
+      "id": "a17a9ed2-2ebd-41eb-b525-939172d6aad3",
+      "shopifyProductId": "gid://shopify/Product/10224308584754",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:45:59.155Z"
+    },
+    {
+      "id": "1328c546-f823-470d-ae8a-b88309560ad2",
+      "shopifyProductId": "gid://shopify/Product/10224308584754",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:45:59.155Z"
+    },
+    {
+      "id": "2afe0e96-8b67-4e2b-8b36-8a2ee37832c7",
+      "shopifyProductId": "gid://shopify/Product/10224308584754",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:45:59.155Z"
+    },
+    {
+      "id": "ed51538f-1838-40a5-a0b3-2f97c50471ef",
+      "shopifyProductId": "gid://shopify/Product/10224308584754",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:45:59.155Z"
+    },
+    {
+      "id": "31421cd2-4db7-4cae-a6c7-1cef2588a13c",
+      "shopifyProductId": "gid://shopify/Product/10224308584754",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:45:59.155Z"
+    },
+    {
+      "id": "e3f9b749-8490-4ed2-93f7-8d6692488271",
+      "shopifyProductId": "gid://shopify/Product/10224309829938",
+      "channelName": "在线商店",
+      "publicationId": "gid://shopify/Publication/231703707954",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:48:09.138Z"
+    },
+    {
+      "id": "f01973f8-2408-44bb-91a7-3a72ebf73063",
+      "shopifyProductId": "gid://shopify/Product/10224309829938",
+      "channelName": "Inbox",
+      "publicationId": "gid://shopify/Publication/232078606642",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:48:09.138Z"
+    },
+    {
+      "id": "e318a40b-2cb5-45f4-ba33-04b8d4df91a8",
+      "shopifyProductId": "gid://shopify/Product/10224309829938",
+      "channelName": "Buy Button",
+      "publicationId": "gid://shopify/Publication/255295422770",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:48:09.138Z"
+    },
+    {
+      "id": "21c84341-b419-459f-a545-9696cb8a87ab",
+      "shopifyProductId": "gid://shopify/Product/10224309829938",
+      "channelName": "Shop",
+      "publicationId": "gid://shopify/Publication/255296143666",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:48:09.138Z"
+    },
+    {
+      "id": "b128a399-dd6e-4006-9235-1147908b3a5c",
+      "shopifyProductId": "gid://shopify/Product/10224309829938",
+      "channelName": "GoAffPro Storefront",
+      "publicationId": "gid://shopify/Publication/267570643250",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:48:09.138Z"
+    },
+    {
+      "id": "29135dd6-0671-45fc-9350-905fd9bd25a9",
+      "shopifyProductId": "gid://shopify/Product/10224309829938",
+      "channelName": "Snapchat Ads",
+      "publicationId": "gid://shopify/Publication/255295390002",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:48:09.138Z"
+    },
+    {
+      "id": "978c0908-4fec-47ff-aad0-8a5e612f83a2",
+      "shopifyProductId": "gid://shopify/Product/10224309829938",
+      "channelName": "TikTok",
+      "publicationId": "gid://shopify/Publication/255292473650",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:48:09.138Z"
+    },
+    {
+      "id": "47a125e6-4faa-491b-857c-bd14946c9301",
+      "shopifyProductId": "gid://shopify/Product/10224309829938",
+      "channelName": "Pinterest",
+      "publicationId": "gid://shopify/Publication/255292768562",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:48:09.138Z"
+    },
+    {
+      "id": "9302f66c-f883-4ff4-b465-e77ccbbb195d",
+      "shopifyProductId": "gid://shopify/Product/10224309829938",
+      "channelName": "Facebook & Instagram",
+      "publicationId": "gid://shopify/Publication/255292637490",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:48:09.138Z"
+    },
+    {
+      "id": "440f612b-fa3a-46b4-8ad1-d4e2386fa12f",
+      "shopifyProductId": "gid://shopify/Product/10224309829938",
+      "channelName": "Microsoft Channel",
+      "publicationId": "gid://shopify/Publication/269313769778",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:48:09.138Z"
+    },
+    {
+      "id": "f7b8e2c9-7468-4392-b9b5-3ad0d174705c",
+      "shopifyProductId": "gid://shopify/Product/10224309829938",
+      "channelName": "Google & YouTube",
+      "publicationId": "gid://shopify/Publication/255292506418",
+      "publishStatus": "already_published",
+      "failureReason": "",
+      "checkedAt": "2026-07-06T10:48:09.138Z"
     }
   ]
 }

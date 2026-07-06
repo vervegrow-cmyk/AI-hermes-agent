@@ -13,6 +13,7 @@
   <a href="#pipelines">Pipelines</a> &nbsp;·&nbsp;
   <a href="#how-it-works">How It Works</a> &nbsp;·&nbsp;
   <a href="docs/PROVIDERS.md">Providers</a> &nbsp;·&nbsp;
+  <a href="docs/skills/ebay-geo-html-builder.md">eBay HTML Skill</a> &nbsp;·&nbsp;
   <a href="docs/PR_REVIEW_GUIDE.md">Review Guide</a> &nbsp;·&nbsp;
   <a href="AGENT_GUIDE.md">Agent Guide</a>
 </p>
