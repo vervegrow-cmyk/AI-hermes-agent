@@ -1,0 +1,5086 @@
+{
+  "vendor": "Doba",
+  "target_publications": [
+    "Online Store",
+    "Shop",
+    "Pinterest",
+    "Facebook & Instagram"
+  ],
+  "stopped_early": false,
+  "llm_status": "request_error",
+  "summary": {
+    "total_products": 122,
+    "category_updated_ok": 58,
+    "category_update_failed": 0,
+    "source_fields_updated_ok": 97,
+    "source_fields_update_failed": 0,
+    "needs_shopify_category_suggestion": 39,
+    "skipped_missing_products": 0,
+    "llm_suggestions_generated": 0,
+    "llm_status_parsed": 0,
+    "llm_status_parse_error": 0,
+    "llm_status_request_error": 122,
+    "llm_status_empty_response": 0,
+    "attribute_suggestions_generated": 97,
+    "added_to_new_arrivals_count": 122,
+    "collection_failed": 0,
+    "publish_requested_ok": 122,
+    "publish_failed": 0,
+    "all_target_publications_count": 122
+  },
+  "results": [
+    {
+      "id": "gid://shopify/Product/10212328767794",
+      "title": "Compact Under-Desk Elliptical – Quiet Mini Pedal Exerciser with Adjustable Speed and LED Display",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Compact Under-Desk Elliptical – Quiet Mini Pedal Exerciser with Adjustable Speed",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/sg-2-4-2-1",
+        "fullName": "Sporting Goods > Fitness & General Exercise Equipment > Cardio > Cardio Machines > Elliptical Trainers"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Under-Desk Ellipticals",
+        "tags": [
+          "cardio",
+          "category:exercise-ellipticals",
+          "doba-import",
+          "fitness",
+          "hermes-category-optimized",
+          "home-office"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "AC Power"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212328800562",
+      "title": "3-Seater Patio Swing Cover, Outdoor Garden Furniture Protection Hammock Cover Waterproof 85\" X 61\" X 59\", Dark Green",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:3-Seater Patio Swing Cover, Outdoor Garden Furniture Protection Hammock Cover Wa",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-12-2-9-2",
+        "fullName": "Home & Garden > Lawn & Garden > Outdoor Living > Porch Swing Accessories > Porch Swing Covers"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Porch Swing Covers",
+        "tags": [
+          "category:porch-swing-covers",
+          "cover",
+          "doba-import",
+          "hermes-category-optimized",
+          "outdoor-living",
+          "patio"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Green"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212328833330",
+      "title": "USA Mouse Trap Rat Trap Rodent Trap Live Catch Cage, Easy to Set Up and Reuse",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:USA Mouse Trap Rat Trap Rodent Trap Live Catch Cage, Easy to Set Up and Reuse",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-11-2",
+        "fullName": "Home & Garden > Household Supplies > Pest Control > Pest Control Traps"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Pest Control Traps",
+        "tags": [
+          "category:pest-control-traps",
+          "doba-import",
+          "hermes-category-optimized",
+          "household",
+          "pest-control"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Iron"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212328866098",
+      "title": "4X Magnetic Car Side Front Rear Window Sun Shade Cover Mesh Shield UV Protection",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:4X Magnetic Car Side Front Rear Window Sun Shade Cover Mesh Shield UV Protection",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/vp-1-4-11-7",
+        "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Interior Fittings > Sun Shades"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Vehicle Sun Shades",
+        "tags": [
+          "automotive",
+          "category:vehicle-sun-shades",
+          "doba-import",
+          "hermes-category-optimized",
+          "interior",
+          "sun-shade"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212328964402",
+      "title": "[Same Code: 52463595]HT-200 x 100 Household Application Door & Window Rain Cover Eaves Canopy Silver & Gray Bracket",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:[Same Code: 52463595]HT-200 x 100 Household Application Door & Window Rain Cover",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-12-2-2",
+        "fullName": "Home & Garden > Lawn & Garden > Outdoor Living > Awnings"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Awnings",
+        "tags": [
+          "canopy",
+          "category:awnings",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-improvement",
+          "outdoor"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Gray",
+          "Silver"
+        ],
+        "material": [
+          "Aluminum"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212328997170",
+      "title": "Trucker Bluetooth 5.2 Wireless Headset With Noise Cancelling Mic For Phones PC",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Trucker Bluetooth 5.2 Wireless Headset With Noise Cancelling Mic For Phones PC",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/el-2-2-7-2-4",
+        "fullName": "Electronics > Audio > Audio Components > Headphones & Headsets > Headsets > Office & Call Center Headsets"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Office Headsets",
+        "tags": [
+          "audio",
+          "category:office-headsets",
+          "doba-import",
+          "electronics",
+          "headset",
+          "hermes-category-optimized"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329029938",
+      "title": "Big  Flower Duvet Cover Queen",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Big  Flower Duvet Cover Queen",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-15-1-5",
+        "fullName": "Home & Garden > Linens & Bedding > Bedding > Duvet Covers"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Duvet Covers",
+        "tags": [
+          "bedding",
+          "category:duvet-covers",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-textile"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329095474",
+      "title": "5/6-layer practical storage rack, shoe rack, space-saving design, multi-layer independent storage rack, wood grain finish, easy to assemble, self-supporting cubic shoe storage rack, storage rack, suit",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:5/6-layer practical storage rack, shoe rack, space-saving design, multi-layer in",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-16-1-6-2",
+        "fullName": "Home & Garden > Household Supplies > Storage & Organization > Clothing & Closet Storage > Shoe Racks & Organizers > Shoe Racks"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Shoe Racks",
+        "tags": [
+          "category:shoe-racks",
+          "doba-import",
+          "hermes-category-optimized",
+          "organization",
+          "shoe-rack",
+          "storage"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Wood"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329161010",
+      "title": "2Pack 11.81x5.63x4.45In 2-Door Humane Rat Trap Automatic Continuous Mouse Trap Reusable Galvanized Iron Live Animal Cage",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:2Pack 11.81x5.63x4.45In 2-Door Humane Rat Trap Automatic Continuous Mouse Trap R",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-11-2",
+        "fullName": "Home & Garden > Household Supplies > Pest Control > Pest Control Traps"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Pest Control Traps",
+        "tags": [
+          "category:pest-control-traps",
+          "doba-import",
+          "hermes-category-optimized",
+          "household",
+          "pest-control"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Iron"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329259314",
+      "title": "5600Miles Upgraded TV Antenna HDTV Amplified Digital 4K 1080P Long Range Indoor",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:5600Miles Upgraded TV Antenna HDTV Amplified Digital 4K 1080P Long Range Indoor",
+      "category_action": "category_suggested_review",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/el-7-6-1",
+        "fullName": "Electronics > Electronics Accessories > Cable Management > Cable Clips"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "TV Antennas",
+        "tags": [
+          "antenna",
+          "category:tv-antennas",
+          "doba-import",
+          "electronics",
+          "hermes-category-optimized",
+          "tv"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329292082",
+      "title": "3 Color Lighting Mirror with LED Lights, 64\"x21\" Lighted Floor Standing Mirror with Stand, Wall Mounted Hanging",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:3 Color Lighting Mirror with LED Lights, 64\"x21\" Lighted Floor Standing Mirror w",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-3-47-1",
+        "fullName": "Home & Garden > Decor > Mirrors > Floor Mirrors"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Floor Mirrors",
+        "tags": [
+          "category:floor-mirrors",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-decor",
+          "led",
+          "mirror"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Glass"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329423154",
+      "title": "75-inch heavy-duty  folding bed, 10-leg design for stable support, portable camping bed with side pockets and mattress, winter camping equipment",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:75-inch heavy-duty  folding bed, 10-leg design for stable support, portable camp",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/fr-2-2",
+        "fullName": "Furniture > Beds & Accessories > Beds & Bed Frames"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Folding Beds",
+        "tags": [
+          "bed",
+          "category:folding-beds",
+          "doba-import",
+          "furniture",
+          "hermes-category-optimized",
+          "portable"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329521458",
+      "title": "Boxed Disposable Garbage Bag 70 Pieces Puncture Tear Resistant Trash Bags, 39 Gallon Capacity, Multipurpose Cleaning Supplies For Industrial, Garden, Home, And Commercial Use - Durable, Leak-Proof",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Boxed Disposable Garbage Bag 70 Pieces Puncture Tear Resistant Trash Bags, 39 Ga",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-5",
+        "fullName": "Home & Garden > Household Supplies > Garbage Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Garbage Bags",
+        "tags": [
+          "category:garbage-bags",
+          "cleaning",
+          "doba-import",
+          "hermes-category-optimized",
+          "household"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329586994",
+      "title": "4-Piece Set, Women's Eau De Parfuma Spray Gift Box, Long Lasting Fragrance, 4 Different Flavor, Perfect For Holiday Gifts, Dating, Daily Life, Parties",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:4-Piece Set, Women's Eau De Parfuma Spray Gift Box, Long Lasting Fragrance, 4 Di",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hb-3-2-8-3",
+        "fullName": "Health & Beauty > Personal Care > Cosmetics > Perfumes & Colognes > Eaux de Parfum"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Eaux de Parfum",
+        "tags": [
+          "beauty",
+          "category:eau-de-parfum",
+          "doba-import",
+          "fragrance",
+          "gift",
+          "hermes-category-optimized"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329652530",
+      "title": "XXL 304 Stainless Steel Cutting Board  Anti-Slip & Mildew-Proof! No More Moldy Wooden Boards | Heavy-Duty & Food-Safe, Easy to Clean – Chop Meat, Knead Dough, Bake Prep All-in-One | Must-Have for Home",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:XXL 304 Stainless Steel Cutting Board  Anti-Slip & Mildew-Proof! No More Moldy W",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-11-8-21",
+        "fullName": "Home & Garden > Kitchen & Dining > Kitchen Tools & Utensils > Cutting Boards"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cutting Boards",
+        "tags": [
+          "category:cutting-boards",
+          "cooking",
+          "cutting-board",
+          "doba-import",
+          "hermes-category-optimized",
+          "kitchen"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel"
+        ],
+        "power_source": [
+          "Solar"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329816370",
+      "title": "Stainless Steel Cutting Board with Lip for Kitchen Chopping Boards for Countertop Large Metal Cutting Board over Sink Suitable for Meat Fruits Vegetables Bread Noodle and Pizza Bamboo Knives",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Stainless Steel Cutting Board with Lip for Kitchen Chopping Boards for Counterto",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-11-8-21",
+        "fullName": "Home & Garden > Kitchen & Dining > Kitchen Tools & Utensils > Cutting Boards"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cutting Boards",
+        "tags": [
+          "category:cutting-boards",
+          "cooking",
+          "cutting-board",
+          "doba-import",
+          "hermes-category-optimized",
+          "kitchen"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel",
+          "Metal",
+          "Bamboo"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329881906",
+      "title": "Heavy duty folding bed, camping bed with flip-up mattress (mattress included), portable guest bed, suitable for teenagers, adults, travel, garden, balcony, camping supplies",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Heavy duty folding bed, camping bed with flip-up mattress (mattress included), p",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/fr-2-2",
+        "fullName": "Furniture > Beds & Accessories > Beds & Bed Frames"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Folding Beds",
+        "tags": [
+          "bed",
+          "category:folding-beds",
+          "doba-import",
+          "furniture",
+          "hermes-category-optimized",
+          "portable"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Cotton"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329914674",
+      "title": "24 Modes TENS Unit Muscle Stimulator, Red Color, Rechargeable Electronic Pulse Massager with 8 Pads for Back and Shoulder Pain Relief and Muscle Strength",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:24 Modes TENS Unit Muscle Stimulator, Red Color, Rechargeable Electronic Pulse M",
+      "category_action": "category_suggested_review",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hb-1-18-1",
+        "fullName": "Health & Beauty > Health Care > Occupational & Physical Therapy Equipment > Electrical Muscle Stimulators"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Muscle Stimulators",
+        "tags": [
+          "category:muscle-stimulators",
+          "doba-import",
+          "health",
+          "hermes-category-optimized",
+          "massager",
+          "recovery"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Red"
+        ],
+        "power_source": [
+          "Battery"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212331946290",
+      "title": "Compact Under-Desk Elliptical – Quiet Mini Pedal Exerciser with Adjustable Speed and LED Display",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Compact Under-Desk Elliptical – Quiet Mini Pedal Exerciser with Adjustable Speed",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/sg-2-4-2-1",
+        "fullName": "Sporting Goods > Fitness & General Exercise Equipment > Cardio > Cardio Machines > Elliptical Trainers"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Under-Desk Ellipticals",
+        "tags": [
+          "cardio",
+          "category:exercise-ellipticals",
+          "doba-import",
+          "fitness",
+          "hermes-category-optimized",
+          "home-office"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "AC Power"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212332011826",
+      "title": "4X Magnetic Car Side Front Rear Window Sun Shade Cover Mesh Shield UV Protection",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:4X Magnetic Car Side Front Rear Window Sun Shade Cover Mesh Shield UV Protection",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/vp-1-4-11-7",
+        "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Interior Fittings > Sun Shades"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Vehicle Sun Shades",
+        "tags": [
+          "automotive",
+          "category:vehicle-sun-shades",
+          "doba-import",
+          "hermes-category-optimized",
+          "interior",
+          "sun-shade"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212332110130",
+      "title": "5600Miles Upgraded TV Antenna HDTV Amplified Digital 4K 1080P Long Range Indoor",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:5600Miles Upgraded TV Antenna HDTV Amplified Digital 4K 1080P Long Range Indoor",
+      "category_action": "category_suggested_review",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/el-7-6-1",
+        "fullName": "Electronics > Electronics Accessories > Cable Management > Cable Clips"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "TV Antennas",
+        "tags": [
+          "antenna",
+          "category:tv-antennas",
+          "doba-import",
+          "electronics",
+          "hermes-category-optimized",
+          "tv"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212332175666",
+      "title": "Trucker Bluetooth 5.2 Wireless Headset With Noise Cancelling Mic For Phones PC",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Trucker Bluetooth 5.2 Wireless Headset With Noise Cancelling Mic For Phones PC",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/el-2-2-7-2-4",
+        "fullName": "Electronics > Audio > Audio Components > Headphones & Headsets > Headsets > Office & Call Center Headsets"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Office Headsets",
+        "tags": [
+          "audio",
+          "category:office-headsets",
+          "doba-import",
+          "electronics",
+          "headset",
+          "hermes-category-optimized"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212332372274",
+      "title": "75-inch heavy-duty  folding bed, 10-leg design for stable support, portable camping bed with side pockets and mattress, winter camping equipment",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:75-inch heavy-duty  folding bed, 10-leg design for stable support, portable camp",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/fr-2-2",
+        "fullName": "Furniture > Beds & Accessories > Beds & Bed Frames"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Folding Beds",
+        "tags": [
+          "bed",
+          "category:folding-beds",
+          "doba-import",
+          "furniture",
+          "hermes-category-optimized",
+          "portable"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212332405042",
+      "title": "10'x30' Outdoor Party Tent with 8 Removable Sidewalls, Waterproof Canopy Patio Wedding Gazebo, White (self-pickup ONLY)",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "White"
+        ],
+        "material": [
+          "Iron"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212332536114",
+      "title": "XXL 304 Stainless Steel Cutting Board  Anti-Slip & Mildew-Proof! No More Moldy Wooden Boards | Heavy-Duty & Food-Safe, Easy to Clean – Chop Meat, Knead Dough, Bake Prep All-in-One | Must-Have for Home",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:XXL 304 Stainless Steel Cutting Board  Anti-Slip & Mildew-Proof! No More Moldy W",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-11-8-21",
+        "fullName": "Home & Garden > Kitchen & Dining > Kitchen Tools & Utensils > Cutting Boards"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cutting Boards",
+        "tags": [
+          "category:cutting-boards",
+          "cooking",
+          "cutting-board",
+          "doba-import",
+          "hermes-category-optimized",
+          "kitchen"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel"
+        ],
+        "power_source": [
+          "Solar"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212332568882",
+      "title": "Heavy-Duty Trailer Dolly, 1200lbs Tongue Weight Capacity, Carbon Steel Trailer Mover with 2 inch Ball, 15.2 inch Pneumatic Tires, Portable Tow Dolly for Moving RV Trailer",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212332699954",
+      "title": "I25 Ultra 5G Smartphone, Unlocked Cell Phone, 6.8\" HD Screen Unlocked Phones,  , 6000mAh Battery, Built in Pen, 12+512GB, Android 14, Face ID+Fingerprint Lock(Blue",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Blue"
+        ],
+        "power_source": [
+          "Battery"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212332798258",
+      "title": "Heavy duty folding bed, camping bed with flip-up mattress (mattress included), portable guest bed, suitable for teenagers, adults, travel, garden, balcony, camping supplies",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Heavy duty folding bed, camping bed with flip-up mattress (mattress included), p",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/fr-2-2",
+        "fullName": "Furniture > Beds & Accessories > Beds & Bed Frames"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Folding Beds",
+        "tags": [
+          "bed",
+          "category:folding-beds",
+          "doba-import",
+          "furniture",
+          "hermes-category-optimized",
+          "portable"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Cotton"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212332863794",
+      "title": "Refrigerant Recovery Tank, 30 LBS Capacity, 400 psi Portable Cylinder Tank with Y-Valve for Liquid/Vapor, High-sealing Recovery Can for R22/R134A/R410A, Orange+Gray",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Gray",
+          "Orange"
+        ],
+        "material": [
+          "Steel"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212332896562",
+      "title": "24 Modes TENS Unit Muscle Stimulator, Red Color, Rechargeable Electronic Pulse Massager with 8 Pads for Back and Shoulder Pain Relief and Muscle Strength",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:24 Modes TENS Unit Muscle Stimulator, Red Color, Rechargeable Electronic Pulse M",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Muscle Stimulators",
+        "tags": [
+          "category:muscle-stimulators",
+          "doba-import",
+          "health",
+          "hermes-category-optimized",
+          "massager",
+          "recovery"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Red"
+        ],
+        "power_source": [
+          "Battery"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212333027634",
+      "title": "3 in 1 Electric Cordless Grass Wacker Battery Powered Grass Trimmer With Wheels Adjustable Head Extendable Length Rechargeable Lightweight Lawn Trimmer with 2Pcs 2500mAh Batteries",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel",
+          "Metal",
+          "Aluminum",
+          "Plastic"
+        ],
+        "power_source": [
+          "Battery",
+          "AC Power"
+        ],
+        "piece_count": [
+          "2"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212333060402",
+      "title": "5/6-layer practical storage rack, shoe rack, space-saving design, multi-layer independent storage rack, wood grain finish, easy to assemble, self-supporting cubic shoe storage rack, storage rack, suit",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:5/6-layer practical storage rack, shoe rack, space-saving design, multi-layer in",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-16-1-6-2",
+        "fullName": "Home & Garden > Household Supplies > Storage & Organization > Clothing & Closet Storage > Shoe Racks & Organizers > Shoe Racks"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Shoe Racks",
+        "tags": [
+          "category:shoe-racks",
+          "doba-import",
+          "hermes-category-optimized",
+          "organization",
+          "shoe-rack",
+          "storage"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Wood"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212333093170",
+      "title": "6.2ft Garden Obelisk Trellis; Lightweight Rustproof Plastic Coated Metal Tall Tower Trellis Stand",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Metal",
+          "Plastic"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212333158706",
+      "title": "4-Piece Set, Women's Eau De Parfuma Spray Gift Box, Long Lasting Fragrance, 4 Different Flavor, Perfect For Holiday Gifts, Dating, Daily Life, Parties",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:4-Piece Set, Women's Eau De Parfuma Spray Gift Box, Long Lasting Fragrance, 4 Di",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hb-3-2-8-3",
+        "fullName": "Health & Beauty > Personal Care > Cosmetics > Perfumes & Colognes > Eaux de Parfum"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Eaux de Parfum",
+        "tags": [
+          "beauty",
+          "category:eau-de-parfum",
+          "doba-import",
+          "fragrance",
+          "gift",
+          "hermes-category-optimized"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212333224242",
+      "title": "Weighted Vest, 30 lbs Weight Vest with Reflective Stripe, Adjustable Buckle Body Weight Vest for Men Women, Workout Equipment for Strength Training, Running, Jogging, Fitness, and Weight Loss",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Iron"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212333289778",
+      "title": "3-Seater Patio Swing Cover, Outdoor Garden Furniture Protection Hammock Cover Waterproof 85\" X 61\" X 59\", Dark Green",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:3-Seater Patio Swing Cover, Outdoor Garden Furniture Protection Hammock Cover Wa",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-12-2-9-2",
+        "fullName": "Home & Garden > Lawn & Garden > Outdoor Living > Porch Swing Accessories > Porch Swing Covers"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Porch Swing Covers",
+        "tags": [
+          "category:porch-swing-covers",
+          "cover",
+          "doba-import",
+          "hermes-category-optimized",
+          "outdoor-living",
+          "patio"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Green"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212333322546",
+      "title": "Stainless Steel Cutting Board with Lip for Kitchen Chopping Boards for Countertop Large Metal Cutting Board over Sink Suitable for Meat Fruits Vegetables Bread Noodle and Pizza Bamboo Knives",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Stainless Steel Cutting Board with Lip for Kitchen Chopping Boards for Counterto",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-11-8-21",
+        "fullName": "Home & Garden > Kitchen & Dining > Kitchen Tools & Utensils > Cutting Boards"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cutting Boards",
+        "tags": [
+          "category:cutting-boards",
+          "cooking",
+          "cutting-board",
+          "doba-import",
+          "hermes-category-optimized",
+          "kitchen"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel",
+          "Metal",
+          "Bamboo"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212333388082",
+      "title": "Weighted Vest, 16 lbs Weight Vest with Reflective Stripe, Adjustable Buckle Body Weight Vest for Men Women, Workout Equipment for Strength Training, Running, Jogging, Fitness, and Weight Loss",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Iron"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212333486386",
+      "title": "USA Mouse Trap Rat Trap Rodent Trap Live Catch Cage, Easy to Set Up and Reuse",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:USA Mouse Trap Rat Trap Rodent Trap Live Catch Cage, Easy to Set Up and Reuse",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-11-2",
+        "fullName": "Home & Garden > Household Supplies > Pest Control > Pest Control Traps"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Pest Control Traps",
+        "tags": [
+          "category:pest-control-traps",
+          "doba-import",
+          "hermes-category-optimized",
+          "household",
+          "pest-control"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Iron"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212333551922",
+      "title": "Boxed Disposable Garbage Bag 70 Pieces Puncture Tear Resistant Trash Bags, 39 Gallon Capacity, Multipurpose Cleaning Supplies For Industrial, Garden, Home, And Commercial Use - Durable, Leak-Proof",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Boxed Disposable Garbage Bag 70 Pieces Puncture Tear Resistant Trash Bags, 39 Ga",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-5",
+        "fullName": "Home & Garden > Household Supplies > Garbage Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Garbage Bags",
+        "tags": [
+          "category:garbage-bags",
+          "cleaning",
+          "doba-import",
+          "hermes-category-optimized",
+          "household"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212333617458",
+      "title": "Weed Control Fabric 6ft x 300ft - Geo Textile Fabric Heavy Duty - Woven Ground Cover for Commercial Greenhouse, Yard, Garden Barrier Cloth Blocker Mat",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212333814066",
+      "title": "XXL cooked meat baking tray, double-sided cutting board, stainless steel rolling plate, breakfast tray, suitable for fruits, vegetables, meats, Father's Day gift Chopping Kitchen Knives",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cutting-boards",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-11-8-21",
+        "fullName": "Home & Garden > Kitchen & Dining > Kitchen Tools & Utensils > Cutting Boards"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cutting Boards",
+        "tags": [
+          "category:cutting-boards",
+          "cooking",
+          "cutting-board",
+          "doba-import",
+          "hermes-category-optimized",
+          "kitchen"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212334043442",
+      "title": "Set of 2 Zero Cravity Lounge Chairs,Outdoor Patio Folding Recliners for Pool Beach with Pillow and Cup Holder",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel"
+        ],
+        "piece_count": [
+          "2"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212334108978",
+      "title": "5 Core Amp Stand Heavy Duty Metal Build Adjustable Guitar amplifier Low Profile Folding Collapsible",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Metal"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212334141746",
+      "title": "78\"H x 45\"W Metal Garden Arch Trellis; Adjustable Arbor Trellis for Garden Climbing Plants Support or Wedding Decor,Black",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Black"
+        ],
+        "material": [
+          "Metal"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212334240050",
+      "title": "3*9m 5-Sided Iron PE Cloth Spiral Pipe Pergola",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Iron"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212334305586",
+      "title": "10'x20' Outdoor Party Tent with 6 Removable Sidewalls, Waterproof Canopy Patio Wedding Gazebo, White",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "White"
+        ],
+        "material": [
+          "Iron"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212334371122",
+      "title": "Weighted Vest, 12 lbs Weight Vest with Reflective Stripe, Adjustable Buckle Body Weight Vest for Men Women, Workout Equipment for Strength Training, Running, Jogging, Fitness, and Weight Loss",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Iron"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212334469426",
+      "title": "Weighted Vest, 20 lbs Weight Vest with Reflective Stripe, Adjustable Buckle Body Weight Vest for Men Women, Workout Equipment for Strength Training, Running, Jogging, Fitness, and Weight Loss",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Iron"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212334600498",
+      "title": "GPS Cards Sim for Mini GF07 GPS Tracker/ Phone Notification/ Speed Detector",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212334731570",
+      "title": "Room-saving 10-Layers 9 Lattices Non-woven Fabric Shoe Rack Black",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:shoe-racks",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-16-1-6-2",
+        "fullName": "Home & Garden > Household Supplies > Storage & Organization > Clothing & Closet Storage > Shoe Racks & Organizers > Shoe Racks"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Shoe Racks",
+        "tags": [
+          "category:shoe-racks",
+          "doba-import",
+          "hermes-category-optimized",
+          "organization",
+          "shoe-rack",
+          "storage"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Black"
+        ],
+        "material": [
+          "Metal",
+          "Plastic"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212334960946",
+      "title": "[Same Code: 52463595]HT-200 x 100 Household Application Door & Window Rain Cover Eaves Canopy Silver & Gray Bracket",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:[Same Code: 52463595]HT-200 x 100 Household Application Door & Window Rain Cover",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-12-2-2",
+        "fullName": "Home & Garden > Lawn & Garden > Outdoor Living > Awnings"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Awnings",
+        "tags": [
+          "canopy",
+          "category:awnings",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-improvement",
+          "outdoor"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Gray",
+          "Silver"
+        ],
+        "material": [
+          "Aluminum"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212335190322",
+      "title": "Big  Flower Duvet Cover Queen",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Big  Flower Duvet Cover Queen",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-15-1-5",
+        "fullName": "Home & Garden > Linens & Bedding > Bedding > Duvet Covers"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Duvet Covers",
+        "tags": [
+          "bedding",
+          "category:duvet-covers",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-textile"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212335288626",
+      "title": "2Pack 11.81x5.63x4.45In 2-Door Humane Rat Trap Automatic Continuous Mouse Trap Reusable Galvanized Iron Live Animal Cage",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:2Pack 11.81x5.63x4.45In 2-Door Humane Rat Trap Automatic Continuous Mouse Trap R",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-11-2",
+        "fullName": "Home & Garden > Household Supplies > Pest Control > Pest Control Traps"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Pest Control Traps",
+        "tags": [
+          "category:pest-control-traps",
+          "doba-import",
+          "hermes-category-optimized",
+          "household",
+          "pest-control"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Iron"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212340007218",
+      "title": "Garden Dining Set Black PE Rattan 15 pieces Collapsible",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "priority:garden-dining-set",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-11-6-19-7-2",
+        "fullName": "Home & Garden > Kitchen & Dining > Kitchen Appliance Accessories > Outdoor Grill Accessories > Outdoor Grill Spits & Baskets > Outdoor Grill Spits"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Outdoor Dining Sets",
+        "tags": [
+          "category:outdoor-dining-sets",
+          "category:porch-swing-covers",
+          "cover",
+          "dining",
+          "doba-import",
+          "hermes-category-optimized",
+          "outdoor-living",
+          "patio"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Black"
+        ],
+        "material": [
+          "Rattan",
+          "Pe Rattan"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212340039986",
+      "title": "Garden Dining Set Black and cream",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "priority:garden-dining-set",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-11-6-19-7-2",
+        "fullName": "Home & Garden > Kitchen & Dining > Kitchen Appliance Accessories > Outdoor Grill Accessories > Outdoor Grill Spits & Baskets > Outdoor Grill Spits"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Outdoor Dining Sets",
+        "tags": [
+          "category:outdoor-dining-sets",
+          "category:porch-swing-covers",
+          "cover",
+          "dining",
+          "doba-import",
+          "hermes-category-optimized",
+          "outdoor-living",
+          "patio"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Black",
+          "Cream"
+        ],
+        "material": [
+          "Steel",
+          "Wood",
+          "Rattan",
+          "Pe Rattan",
+          "Poly Rattan"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212340138290",
+      "title": "Three-piece kitchen rug set, non-slip and washable, abstract pattern kitchen hallway rug, soft and comfortable, suitable for sinks, floors, entrances, hallways and bathrooms.",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:area-rugs",
+      "category_action": "needs_shopify_suggestion",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-3-8-1",
+        "fullName": "Home & Garden > Decor > Bird & Wildlife Feeders > Bird Feeders"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Area Rugs",
+        "tags": [
+          "category:area-rugs",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-decor",
+          "needs-shopify-category-suggestion",
+          "rug"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "Battery"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212340334898",
+      "title": "Three-piece kitchen rug set, non-slip and washable, abstract pattern kitchen hallway rug, soft and comfortable, suitable for sinks, floors, entrances, hallways and bathrooms.",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:area-rugs",
+      "category_action": "needs_shopify_suggestion",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-3-8-1",
+        "fullName": "Home & Garden > Decor > Bird & Wildlife Feeders > Bird Feeders"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Area Rugs",
+        "tags": [
+          "category:area-rugs",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-decor",
+          "needs-shopify-category-suggestion",
+          "rug"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "Battery"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212340531506",
+      "title": "Stainless Steel Dog Washing Station",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:dog-supplies",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Dog Supplies",
+        "tags": [
+          "category:dog-supplies",
+          "doba-import",
+          "dog",
+          "hermes-category-optimized",
+          "pets"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212340564274",
+      "title": "Heat-resistant glass teapot, magnetic switch, Gunmetal Black 500mL",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:drinkware",
+      "category_action": "category_suggested_review",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-11-4-1",
+        "fullName": "Home & Garden > Kitchen & Dining > Food Storage > Bread Boxes & Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Drinkware",
+        "tags": [
+          "category:drinkware",
+          "doba-import",
+          "drinkware",
+          "hermes-category-optimized",
+          "kitchen"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Black"
+        ],
+        "material": [
+          "Glass"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212340597042",
+      "title": "Pet Stairs with Adjustable Height for Outdoor",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:dog-supplies",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Dog Supplies",
+        "tags": [
+          "category:dog-supplies",
+          "doba-import",
+          "dog",
+          "hermes-category-optimized",
+          "pets"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Metal"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212340662578",
+      "title": "Garden Dining Set Black PE Rattan Large Foldable",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "priority:garden-dining-set",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-11-6-19-7-2",
+        "fullName": "Home & Garden > Kitchen & Dining > Kitchen Appliance Accessories > Outdoor Grill Accessories > Outdoor Grill Spits & Baskets > Outdoor Grill Spits"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Outdoor Dining Sets",
+        "tags": [
+          "category:outdoor-dining-sets",
+          "category:porch-swing-covers",
+          "cover",
+          "dining",
+          "doba-import",
+          "hermes-category-optimized",
+          "outdoor-living",
+          "patio"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Black"
+        ],
+        "material": [
+          "Rattan",
+          "Pe Rattan"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212340760882",
+      "title": "Cat Door for Window with Adjustable Length for Indoor",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cat-doors",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cat Doors",
+        "tags": [
+          "cat",
+          "category:cat-doors",
+          "doba-import",
+          "hermes-category-optimized",
+          "pets"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Aluminum"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212340793650",
+      "title": "Wooden Cat Box Cabinet",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Metal",
+          "Wood"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212340826418",
+      "title": "Wooden Cat Box Cabinet",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Metal"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212340891954",
+      "title": "Pet Stairs with Adjustable Height for Outdoor",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:dog-supplies",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Dog Supplies",
+        "tags": [
+          "category:dog-supplies",
+          "doba-import",
+          "dog",
+          "hermes-category-optimized",
+          "pets"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Metal"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212340924722",
+      "title": "Three-piece kitchen rug set, non-slip and washable, abstract pattern kitchen hallway rug, soft and comfortable, suitable for sinks, floors, entrances, hallways and bathrooms.",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:area-rugs",
+      "category_action": "needs_shopify_suggestion",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-3-8-1",
+        "fullName": "Home & Garden > Decor > Bird & Wildlife Feeders > Bird Feeders"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Area Rugs",
+        "tags": [
+          "category:area-rugs",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-decor",
+          "needs-shopify-category-suggestion",
+          "rug"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "Battery"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212341023026",
+      "title": "Purple lightweight nylon makeup bag with chenille letter patch",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cosmetic-bags",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/lb-3",
+        "fullName": "Luggage & Bags > Cosmetic & Toiletry Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cosmetic Bags",
+        "tags": [
+          "beauty",
+          "category:cosmetic-bags",
+          "doba-import",
+          "hermes-category-optimized",
+          "organizer",
+          "travel"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Purple"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212341055794",
+      "title": "Cat Door for Window with Adjustable Length for Indoor",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cat-doors",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cat Doors",
+        "tags": [
+          "cat",
+          "category:cat-doors",
+          "doba-import",
+          "hermes-category-optimized",
+          "pets"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Aluminum"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212341088562",
+      "title": "Automatic Chicken Feeder",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:poultry-feeders",
+      "category_action": "category_suggested_review",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/ap-2-3",
+        "fullName": "Animals & Pet Supplies > Pet Supplies > Dog Supplies"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Poultry Feeders",
+        "tags": [
+          "category:poultry-feeders",
+          "doba-import",
+          "farm",
+          "hermes-category-optimized",
+          "poultry"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212341186866",
+      "title": "Foldable Fabric Storage Bin with Custom Monogram, Cute Nursery Organizer",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:storage-baskets",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-16-10",
+        "fullName": "Home & Garden > Household Supplies > Storage & Organization > Household Storage Baskets"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Storage Baskets",
+        "tags": [
+          "basket",
+          "category:storage-baskets",
+          "doba-import",
+          "hermes-category-optimized",
+          "organization",
+          "storage"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212341285170",
+      "title": "Pet Stairs with Adjustable Height for Outdoor",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:dog-supplies",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Dog Supplies",
+        "tags": [
+          "category:dog-supplies",
+          "doba-import",
+          "dog",
+          "hermes-category-optimized",
+          "pets"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Metal"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212341743922",
+      "title": "Wall Mirror with 5 Shelves Silver 39.4\"x23.6",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:wall-mirrors",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-3-47-2",
+        "fullName": "Home & Garden > Decor > Mirrors > Wall Mirrors"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Wall Mirrors",
+        "tags": [
+          "category:wall-mirrors",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-decor",
+          "mirror"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Silver"
+        ],
+        "material": [
+          "Glass",
+          "Tempered Glass"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212341809458",
+      "title": "Three-piece kitchen rug set, non-slip and washable, abstract pattern kitchen hallway rug, soft and comfortable, suitable for sinks, floors, entrances, hallways and bathrooms.",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:area-rugs",
+      "category_action": "needs_shopify_suggestion",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-3-8-1",
+        "fullName": "Home & Garden > Decor > Bird & Wildlife Feeders > Bird Feeders"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Area Rugs",
+        "tags": [
+          "category:area-rugs",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-decor",
+          "needs-shopify-category-suggestion",
+          "rug"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "Battery"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212341842226",
+      "title": "Portable Handheld Chainsaw Sharpener Kit with Diamond Grinding Head",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Aluminum"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212341907762",
+      "title": "Pink lightweight nylon makeup bag with chenille letter patch",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cosmetic-bags",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/lb-3",
+        "fullName": "Luggage & Bags > Cosmetic & Toiletry Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cosmetic Bags",
+        "tags": [
+          "beauty",
+          "category:cosmetic-bags",
+          "doba-import",
+          "hermes-category-optimized",
+          "organizer",
+          "travel"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Pink"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342006066",
+      "title": "30PCS Grey Shoe Bags, Waterproof Drawstring Shoe Organizer for Travel",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Grey"
+        ],
+        "piece_count": [
+          "30"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342038834",
+      "title": "3pcs Colorful Rainbow Duvet Cover Set, Cute Hand-Drawn Print Bedding, Soft Microfiber, Reversible Design for Kids & Adults",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:duvet-covers",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-15-1-5",
+        "fullName": "Home & Garden > Linens & Bedding > Bedding > Duvet Covers"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Duvet Covers",
+        "tags": [
+          "bedding",
+          "category:duvet-covers",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-textile"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Cotton"
+        ],
+        "piece_count": [
+          "3"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342104370",
+      "title": "Insulated Lunch Bag for Men & Women - Olive Green Thermal Meal Tote",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:lunch-bags",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Lunch Bags",
+        "tags": [
+          "bag",
+          "category:lunch-bags",
+          "doba-import",
+          "hermes-category-optimized",
+          "insulated",
+          "lunch"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Green"
+        ],
+        "material": [
+          "Aluminum"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342169906",
+      "title": "Preppy Chenille Letter Makeup Bag Set - SKIN FACE HAIR Cosmetic Pouches.",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cosmetic-bags",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/lb-3",
+        "fullName": "Luggage & Bags > Cosmetic & Toiletry Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cosmetic Bags",
+        "tags": [
+          "beauty",
+          "category:cosmetic-bags",
+          "doba-import",
+          "hermes-category-optimized",
+          "organizer",
+          "travel"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342235442",
+      "title": "2026 Upgraded Plug-in Ultrasonic Pest Repellent, Dual Mode Pest Deterrent for Mouse Rat Roach Spider Mosquito Ant Flea, AC 90-250V Safe Repeller for Indoor Spaces",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "AC Power"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342333746",
+      "title": "2M 10LED Halloween String Lights, Pumpkin Ghost Skull LED Decorative Lights",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:decorative-lighting",
+      "category_action": "category_suggested_review",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-9-1",
+        "fullName": "Home & Garden > Household Appliances > Climate Control Appliances"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Decorative Lighting",
+        "tags": [
+          "category:decorative-lighting",
+          "decor",
+          "doba-import",
+          "halloween",
+          "hermes-category-optimized",
+          "lighting"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Plastic"
+        ],
+        "power_source": [
+          "Battery"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342399282",
+      "title": "Cat Door for Window with Adjustable Length for Indoor",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cat-doors",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cat Doors",
+        "tags": [
+          "cat",
+          "category:cat-doors",
+          "doba-import",
+          "hermes-category-optimized",
+          "pets"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Aluminum"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342432050",
+      "title": "Colorful Silicone Travel Toiletries Bottles with Clear Carry Bag",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Plastic"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342497586",
+      "title": "Solar Sunflower Garden Lights 6 Pack, IP44 Waterproof LED Outdoor Flower Stake Lights for Patio Lawn Yard Pathway, Decorative Solar Landscape Lighting for Holiday Decor",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:landscape-lighting",
+      "category_action": "category_suggested_review",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-12-6-3",
+        "fullName": "Home & Garden > Lawn & Garden > Watering & Irrigation > Garden Hoses"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Landscape Lighting",
+        "tags": [
+          "category:landscape-lighting",
+          "doba-import",
+          "garden",
+          "hermes-category-optimized",
+          "outdoor-lighting"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "Solar"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342530354",
+      "title": "Automatic Chicken Feeder",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:poultry-feeders",
+      "category_action": "category_suggested_review",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/ap-2-3",
+        "fullName": "Animals & Pet Supplies > Pet Supplies > Dog Supplies"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Poultry Feeders",
+        "tags": [
+          "category:poultry-feeders",
+          "doba-import",
+          "farm",
+          "hermes-category-optimized",
+          "poultry"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342563122",
+      "title": "3pcs Black Starry Sky Duvet Cover Set, Galaxy & Meteor Print Bedding, Soft Microfiber for Kids & Adults",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:duvet-covers",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-15-1-5",
+        "fullName": "Home & Garden > Linens & Bedding > Bedding > Duvet Covers"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Duvet Covers",
+        "tags": [
+          "bedding",
+          "category:duvet-covers",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-textile"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Black"
+        ],
+        "material": [
+          "Cotton"
+        ],
+        "piece_count": [
+          "3"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342694194",
+      "title": "Cat Door for Window with Adjustable Length for Indoor",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cat-doors",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cat Doors",
+        "tags": [
+          "cat",
+          "category:cat-doors",
+          "doba-import",
+          "hermes-category-optimized",
+          "pets"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Aluminum"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342726962",
+      "title": "3pcs Colorful Mushroom Duvet Cover Set, Cute Cartoon Print Bedding, Soft Microfiber, Reversible Design for Kids & Adults",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:duvet-covers",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-15-1-5",
+        "fullName": "Home & Garden > Linens & Bedding > Bedding > Duvet Covers"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Duvet Covers",
+        "tags": [
+          "bedding",
+          "category:duvet-covers",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-textile"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Cotton"
+        ],
+        "piece_count": [
+          "3"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342759730",
+      "title": "Cat Door for Window with Adjustable Length for Indoor",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cat-doors",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cat Doors",
+        "tags": [
+          "cat",
+          "category:cat-doors",
+          "doba-import",
+          "hermes-category-optimized",
+          "pets"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Aluminum"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342858034",
+      "title": "Women's Lightweight Nylon Weekender Duffel Bag with Side Pocket",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:bags",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/vp-1-7-6",
+        "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motorcycle Bags & Panniers"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Bags",
+        "tags": [
+          "bag",
+          "category:bags",
+          "doba-import",
+          "fashion",
+          "hermes-category-optimized"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212342956338",
+      "title": "Three-piece kitchen rug set, non-slip and washable, abstract pattern kitchen hallway rug, soft and comfortable, suitable for sinks, floors, entrances, hallways and bathrooms.",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:area-rugs",
+      "category_action": "needs_shopify_suggestion",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-3-8-1",
+        "fullName": "Home & Garden > Decor > Bird & Wildlife Feeders > Bird Feeders"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Area Rugs",
+        "tags": [
+          "category:area-rugs",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-decor",
+          "needs-shopify-category-suggestion",
+          "rug"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "Battery"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212343054642",
+      "title": "3pcs Watercolor Floral Duvet Cover Set, Soft Pastel Flower Print Bedding, Reversible Grey Geometric Design for Adults",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:duvet-covers",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-15-1-5",
+        "fullName": "Home & Garden > Linens & Bedding > Bedding > Duvet Covers"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Duvet Covers",
+        "tags": [
+          "bedding",
+          "category:duvet-covers",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-textile"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Grey"
+        ],
+        "material": [
+          "Cotton"
+        ],
+        "piece_count": [
+          "3"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212343120178",
+      "title": "Three-piece kitchen rug set, non-slip and washable, abstract pattern kitchen hallway rug, soft and comfortable, suitable for sinks, floors, entrances, hallways and bathrooms.",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:area-rugs",
+      "category_action": "needs_shopify_suggestion",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-3-8-1",
+        "fullName": "Home & Garden > Decor > Bird & Wildlife Feeders > Bird Feeders"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Area Rugs",
+        "tags": [
+          "category:area-rugs",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-decor",
+          "needs-shopify-category-suggestion",
+          "rug"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "Battery"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212343185714",
+      "title": "Full Body Vibrating Massage Mat with Heating Function, 10 Copper Motors Massager Pad for Neck Shoulder Back Hip Leg, Non-Slip Base, 10/20/30 Min Timer",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:muscle-stimulators",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Muscle Stimulators",
+        "tags": [
+          "category:muscle-stimulators",
+          "doba-import",
+          "health",
+          "hermes-category-optimized",
+          "massager",
+          "recovery"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Metal",
+          "Rubber"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212343251250",
+      "title": "Outdoor BBQ Griddle Caddy Organizer, Multi-Size Storage Baskets & 10 Hanging Hooks, Wind Resistant Paper Towel Holder, Heavy-Duty Rustproof Rack for Camping Picnic",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:outdoor-cooking-accessories",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-11-10-9",
+        "fullName": "Home & Garden > Kitchen & Dining > Tableware > Tablecloth Clips & Weights"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Outdoor Cooking Accessories",
+        "tags": [
+          "category:outdoor-cooking-accessories",
+          "doba-import",
+          "hermes-category-optimized",
+          "kitchen",
+          "outdoor-cooking"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212343316786",
+      "title": "Cute Varsity Letter Makeup Pouch Set - Large Capacity Toiletry Bags for Women",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cosmetic-bags",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/lb-3",
+        "fullName": "Luggage & Bags > Cosmetic & Toiletry Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cosmetic Bags",
+        "tags": [
+          "beauty",
+          "category:cosmetic-bags",
+          "doba-import",
+          "hermes-category-optimized",
+          "organizer",
+          "travel"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212343382322",
+      "title": "Pollinator Waterer for Bees Butterflies, Weatherproof Iron Garden Water Stakes with Anti-Drowning Basin, Decorative Flower Shaped Insect Water Station for Outdoor Yard",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Iron"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212343480626",
+      "title": "Heat-resistant glass teapot, magnetic switch, Gunmetal Black 800mL",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:drinkware",
+      "category_action": "category_suggested_review",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-11-4-1",
+        "fullName": "Home & Garden > Kitchen & Dining > Food Storage > Bread Boxes & Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Drinkware",
+        "tags": [
+          "category:drinkware",
+          "doba-import",
+          "drinkware",
+          "hermes-category-optimized",
+          "kitchen"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Black"
+        ],
+        "material": [
+          "Glass"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212343578930",
+      "title": "Colorful Silicone Travel Toiletries Bottles with Clear Carry Bag",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Plastic"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212343611698",
+      "title": "Cordless Shiatsu Neck Massager with Heat, 4 Silicone Massage Nodes, 3 Intensity Levels & 2 Heat Settings, 2000mAh Rechargeable with 10 Mins Timer, Deep Tissue Massager for Neck Shoulder Back Leg",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:muscle-stimulators",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Muscle Stimulators",
+        "tags": [
+          "category:muscle-stimulators",
+          "doba-import",
+          "health",
+          "hermes-category-optimized",
+          "massager",
+          "recovery"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "Battery"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212343742770",
+      "title": "Portable Pocket Hand Sanitizer Spray 38ML, Moisturizing Travel Hand Sanitizer with Natural Fruit & Plant Scent, Mini Card Shape Disinfecting Hand Spray, No Rinse Quick Dry Hand Cleanser for Outdoor Sc",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:crossbody-bags",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/aa-5-4-7",
+        "fullName": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags > Cross Body Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Crossbody Bags",
+        "tags": [
+          "bag",
+          "category:crossbody-bags",
+          "doba-import",
+          "fashion",
+          "halloween",
+          "hermes-category-optimized"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Natural"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212343775538",
+      "title": "Portable Dog Bathtub",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:dog-supplies",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Dog Supplies",
+        "tags": [
+          "category:dog-supplies",
+          "doba-import",
+          "dog",
+          "hermes-category-optimized",
+          "pets"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212343841074",
+      "title": "Black personalized first letter travel wash bag",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cosmetic-bags",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/lb-3",
+        "fullName": "Luggage & Bags > Cosmetic & Toiletry Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cosmetic Bags",
+        "tags": [
+          "beauty",
+          "category:cosmetic-bags",
+          "doba-import",
+          "hermes-category-optimized",
+          "organizer",
+          "travel"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Black"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212343906610",
+      "title": "Dog Clippers for Grooming",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:dog-supplies",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Dog Supplies",
+        "tags": [
+          "category:dog-supplies",
+          "doba-import",
+          "dog",
+          "hermes-category-optimized",
+          "pets"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212343972146",
+      "title": "Double Layer Clear Makeup Bag with Colorful Chenille \"STUFF\" Letters",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cosmetic-bags",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/lb-3",
+        "fullName": "Luggage & Bags > Cosmetic & Toiletry Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cosmetic Bags",
+        "tags": [
+          "beauty",
+          "category:cosmetic-bags",
+          "doba-import",
+          "hermes-category-optimized",
+          "organizer",
+          "travel"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212344004914",
+      "title": "Three-piece kitchen rug set, non-slip and washable, abstract pattern kitchen hallway rug, soft and comfortable, suitable for sinks, floors, entrances, hallways and bathrooms.",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:area-rugs",
+      "category_action": "needs_shopify_suggestion",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-3-8-1",
+        "fullName": "Home & Garden > Decor > Bird & Wildlife Feeders > Bird Feeders"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Area Rugs",
+        "tags": [
+          "category:area-rugs",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-decor",
+          "needs-shopify-category-suggestion",
+          "rug"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "Battery"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212344037682",
+      "title": "White Nylon Cosmetic Bags with Pink Chenille Patches - 4 Pack Travel Organizer",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cosmetic-bags",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/lb-3",
+        "fullName": "Luggage & Bags > Cosmetic & Toiletry Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cosmetic Bags",
+        "tags": [
+          "beauty",
+          "category:cosmetic-bags",
+          "doba-import",
+          "hermes-category-optimized",
+          "organizer",
+          "travel"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "White",
+          "Pink"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212344168754",
+      "title": "Solar Bird Bath Fountain with Stand, Floating Solar Water Fountain Pump for Pond Pool Garden Patio, Easy Install Outdoor Water Feature Attracts Birds and Wildlife",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:landscape-lighting",
+      "category_action": "category_suggested_review",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-12-6-3",
+        "fullName": "Home & Garden > Lawn & Garden > Watering & Irrigation > Garden Hoses"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Landscape Lighting",
+        "tags": [
+          "category:landscape-lighting",
+          "doba-import",
+          "garden",
+          "hermes-category-optimized",
+          "outdoor-lighting"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "Solar"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212344201522",
+      "title": "3 meters 20LED Halloween String Lights, Pumpkin Ghost Skull LED Decorative Lights",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:decorative-lighting",
+      "category_action": "category_suggested_review",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-9-1",
+        "fullName": "Home & Garden > Household Appliances > Climate Control Appliances"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Decorative Lighting",
+        "tags": [
+          "category:decorative-lighting",
+          "decor",
+          "doba-import",
+          "halloween",
+          "hermes-category-optimized",
+          "lighting"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Plastic"
+        ],
+        "power_source": [
+          "Battery"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212344234290",
+      "title": "White personalized first letter \"B\" travel wash bag",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cosmetic-bags",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/lb-3",
+        "fullName": "Luggage & Bags > Cosmetic & Toiletry Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cosmetic Bags",
+        "tags": [
+          "beauty",
+          "category:cosmetic-bags",
+          "doba-import",
+          "hermes-category-optimized",
+          "organizer",
+          "travel"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "White"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212344332594",
+      "title": "Small Chenille Patch Mini Makeup Bag Set, Nylon Travel Organizer Pouches",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cosmetic-bags",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/lb-3",
+        "fullName": "Luggage & Bags > Cosmetic & Toiletry Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cosmetic Bags",
+        "tags": [
+          "beauty",
+          "category:cosmetic-bags",
+          "doba-import",
+          "hermes-category-optimized",
+          "organizer",
+          "travel"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212344594738",
+      "title": "Semi-Automatic Chicken Waterer Cups Water Dispenser With10 Packs Large Chicken Water Feeder, Poultry Waterer Suitable for Duck, Chicks, Goose, Turkey, Bunny and Bird",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:poultry-feeders",
+      "category_action": "category_suggested_review",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/ap-2-3",
+        "fullName": "Animals & Pet Supplies > Pet Supplies > Dog Supplies"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Poultry Feeders",
+        "tags": [
+          "category:poultry-feeders",
+          "doba-import",
+          "farm",
+          "hermes-category-optimized",
+          "poultry"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212344627506",
+      "title": "3pcs Kids Safari Animal Duvet Cover Set, Cute Cartoon Lion & Giraffe Print Bedding, Soft Microfiber for Toddler Boys",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:duvet-covers",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-15-1-5",
+        "fullName": "Home & Garden > Linens & Bedding > Bedding > Duvet Covers"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Duvet Covers",
+        "tags": [
+          "bedding",
+          "category:duvet-covers",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-textile"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Cotton"
+        ],
+        "piece_count": [
+          "3"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212344693042",
+      "title": "Fashion Titanium-Coated Tea Tumbler with Infuser, thermos cup 370ml purple",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:drinkware",
+      "category_action": "category_suggested_review",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-11-4-1",
+        "fullName": "Home & Garden > Kitchen & Dining > Food Storage > Bread Boxes & Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Drinkware",
+        "tags": [
+          "category:drinkware",
+          "doba-import",
+          "drinkware",
+          "hermes-category-optimized",
+          "kitchen"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Purple"
+        ],
+        "material": [
+          "Steel",
+          "Plastic"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212344824114",
+      "title": "1080P HD Car Dash Cam, 90° Wide Angle Dash Camera with Night Vision, 6 IR Lights, Loop Recording & Video Lock Function, Suction Cup Mount with Long Cable",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:dash-cams",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Dash Cams",
+        "tags": [
+          "automotive",
+          "camera",
+          "category:dash-cams",
+          "doba-import",
+          "hermes-category-optimized"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "Battery"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212344889650",
+      "title": "Pet Stairs with Adjustable Height for Outdoor",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:dog-supplies",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Dog Supplies",
+        "tags": [
+          "category:dog-supplies",
+          "doba-import",
+          "dog",
+          "hermes-category-optimized",
+          "pets"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Metal",
+          "Plastic"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212344955186",
+      "title": "Stainless Steel Dog Washing Station",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:dog-supplies",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Dog Supplies",
+        "tags": [
+          "category:dog-supplies",
+          "doba-import",
+          "dog",
+          "hermes-category-optimized",
+          "pets"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212344987954",
+      "title": "SPF50 PA++ Sunscreen Setting Powder Brush, Oil Control Matte Transparent Loose Powder, Portable Mineral Sun Protection Powder, Long Lasting Makeup Setting Powder for Face, Non-Greasy Shine Control Sun",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cosmetic-bags",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/lb-3",
+        "fullName": "Luggage & Bags > Cosmetic & Toiletry Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cosmetic Bags",
+        "tags": [
+          "beauty",
+          "category:cosmetic-bags",
+          "doba-import",
+          "hermes-category-optimized",
+          "organizer",
+          "travel"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212345086258",
+      "title": "Stylish Braided Texture Tote Bag with Reinforced Handles",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cosmetic-bags",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/lb-3",
+        "fullName": "Luggage & Bags > Cosmetic & Toiletry Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cosmetic Bags",
+        "tags": [
+          "beauty",
+          "category:cosmetic-bags",
+          "doba-import",
+          "hermes-category-optimized",
+          "organizer",
+          "travel"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212345184562",
+      "title": "Crosshatch PU Leather Credit Card Holder with Key Ring",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:bags",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/vp-1-7-6",
+        "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motorcycle Bags & Panniers"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Bags",
+        "tags": [
+          "bag",
+          "category:bags",
+          "doba-import",
+          "fashion",
+          "hermes-category-optimized"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Metal"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212345217330",
+      "title": "Waterproof Reusable Lunch Box Bag for School, Work & Picnic",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:lunch-bags",
+      "category_action": "category_suggested_review",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Lunch Bags",
+        "tags": [
+          "bag",
+          "category:lunch-bags",
+          "doba-import",
+          "hermes-category-optimized",
+          "insulated",
+          "lunch"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Aluminum"
+        ]
+      },
+      "llm_status": "request_error",
+      "llm_error": "NotFoundError: Error code: 404",
+      "llm_response_text": null,
+      "llm_suggestion": null,
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    }
+  ]
+}

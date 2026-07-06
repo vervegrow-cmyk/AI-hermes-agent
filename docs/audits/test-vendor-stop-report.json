@@ -1,0 +1,120 @@
+{
+  "vendor": "Doba",
+  "target_publications": [
+    "Online Store"
+  ],
+  "stopped_early": true,
+  "llm_status": "enabled:model=deepseek-chat",
+  "summary": {
+    "total_products": 1,
+    "category_updated_ok": 1,
+    "category_update_failed": 0,
+    "source_fields_updated_ok": 1,
+    "source_fields_update_failed": 0,
+    "needs_shopify_category_suggestion": 0,
+    "skipped_missing_products": 0,
+    "llm_suggestions_generated": 1,
+    "llm_status_parsed": 1,
+    "llm_status_parse_error": 0,
+    "llm_status_request_error": 0,
+    "llm_status_empty_response": 0,
+    "attribute_suggestions_generated": 1,
+    "added_to_new_arrivals_count": 1,
+    "collection_failed": 0,
+    "publish_requested_ok": 0,
+    "publish_failed": 1,
+    "all_target_publications_count": 0
+  },
+  "results": [
+    {
+      "id": "gid://shopify/Product/1",
+      "title": "Big  Flower Duvet Cover Queen",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_before": null,
+      "category_rule": "llm:bedding-duvet-covers",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-15-1-5",
+        "fullName": "Duvet Covers"
+      },
+      "category_error": null,
+      "source_fields_before": {
+        "productType": "",
+        "tags": []
+      },
+      "source_fields_after": {
+        "productType": "Duvet Covers",
+        "tags": [
+          "doba-import"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "size": [
+          "Queen"
+        ],
+        "pattern": [
+          "Floral"
+        ]
+      },
+      "llm_status": "parsed",
+      "llm_error": null,
+      "llm_response_text": "{\n  \"product_type\": \"Bedding\",\n  \"category_label\": \"bedding-duvet-covers\",\n  \"taxonomy_search\": \"Duvet Cover\",\n  \"path_tokens\": [\"Home\", \"Bedding\", \"Duvet Covers\"],\n  \"tags\": [\"duvet cover\", \"queen\", \"flower\"],\n  \"attributes\": {\n    \"size\": [\"Queen\"],\n    \"pattern\": [\"Floral\"]\n  },\n  \"confidence\": 0.9,\n  \"reason\": \"Title indicates a queen duvet cover with a flower pattern.\"\n}",
+      "llm_suggestion": {
+        "product_type": "Bedding",
+        "category_label": "bedding-duvet-covers",
+        "taxonomy_search": "Duvet Cover",
+        "path_tokens": [
+          "Home",
+          "Bedding",
+          "Duvet Covers"
+        ],
+        "tags": [
+          "duvet-cover",
+          "queen",
+          "flower"
+        ],
+        "attributes": {
+          "size": [
+            "Queen"
+          ],
+          "pattern": [
+            "Floral"
+          ]
+        },
+        "confidence": 0.9,
+        "reason": "Title indicates a queen duvet cover with a flower pattern.",
+        "category_id": "gid://shopify/TaxonomyCategory/hg-15-1-5"
+      },
+      "new_arrivals_collection": "NEW ARRIVALS",
+      "added_to_new_arrivals": true,
+      "collection_error": null,
+      "publish_error": [
+        {
+          "field": [
+            "id"
+          ],
+          "message": "publish failed"
+        }
+      ],
+      "published_to_current": []
+    }
+  ],
+  "report_path": "D:\\桌面文件下载\\AI-hermes-agent\\docs\\audits\\test-vendor-stop-report.json",
+  "stop_reason": {
+    "product_id": "gid://shopify/Product/1",
+    "title": "Big  Flower Duvet Cover Queen",
+    "category_error": null,
+    "source_field_error": null,
+    "collection_error": null,
+    "publish_error": [
+      {
+        "field": [
+          "id"
+        ],
+        "message": "publish failed"
+      }
+    ]
+  }
+}

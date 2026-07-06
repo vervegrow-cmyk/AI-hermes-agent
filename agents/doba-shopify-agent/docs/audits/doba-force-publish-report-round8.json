@@ -1,0 +1,728 @@
+{
+  "vendor": "Doba",
+  "target_publications": [
+    "Online Store",
+    "Shop",
+    "Pinterest",
+    "Facebook & Instagram"
+  ],
+  "stopped_early": true,
+  "summary": {
+    "total_products": 20,
+    "category_updated_ok": 16,
+    "category_update_failed": 0,
+    "source_fields_updated_ok": 17,
+    "source_fields_update_failed": 1,
+    "needs_shopify_category_suggestion": 2,
+    "attribute_suggestions_generated": 12,
+    "publish_requested_ok": 20,
+    "publish_failed": 0,
+    "all_target_publications_count": 20
+  },
+  "results": [
+    {
+      "id": "gid://shopify/Product/10212328767794",
+      "title": "Compact Under-Desk Elliptical – Quiet Mini Pedal Exerciser with Adjustable Speed and LED Display",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "AC Power"
+        ]
+      },
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212328800562",
+      "title": "3-Seater Patio Swing Cover, Outdoor Garden Furniture Protection Hammock Cover Waterproof 85\" X 61\" X 59\", Dark Green",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:3-Seater Patio Swing Cover, Outdoor Garden Furniture Protection Hammock Cover Wa",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-12-2-9-2",
+        "fullName": "Home & Garden > Lawn & Garden > Outdoor Living > Porch Swing Accessories > Porch Swing Covers"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Porch Swing Covers",
+        "tags": [
+          "category:porch-swing-covers",
+          "cover",
+          "doba-import",
+          "hermes-category-optimized",
+          "outdoor-living",
+          "patio"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Green"
+        ]
+      },
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212328833330",
+      "title": "USA Mouse Trap Rat Trap Rodent Trap Live Catch Cage, Easy to Set Up and Reuse",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:USA Mouse Trap Rat Trap Rodent Trap Live Catch Cage, Easy to Set Up and Reuse",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-11-2",
+        "fullName": "Home & Garden > Household Supplies > Pest Control > Pest Control Traps"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Pest Control Traps",
+        "tags": [
+          "category:pest-control-traps",
+          "doba-import",
+          "hermes-category-optimized",
+          "household",
+          "pest-control"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Iron"
+        ]
+      },
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212328866098",
+      "title": "4X Magnetic Car Side Front Rear Window Sun Shade Cover Mesh Shield UV Protection",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:4X Magnetic Car Side Front Rear Window Sun Shade Cover Mesh Shield UV Protection",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-11-2",
+        "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Lifts & Stands > Vehicle Stands"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Vehicle Sun Shades",
+        "tags": [
+          "automotive",
+          "category:vehicle-sun-shades",
+          "doba-import",
+          "hermes-category-optimized",
+          "interior",
+          "sun-shade"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212328964402",
+      "title": "[Same Code: 52463595]HT-200 x 100 Household Application Door & Window Rain Cover Eaves Canopy Silver & Gray Bracket",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:[Same Code: 52463595]HT-200 x 100 Household Application Door & Window Rain Cover",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-12-2-2",
+        "fullName": "Home & Garden > Lawn & Garden > Outdoor Living > Awnings"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Awnings",
+        "tags": [
+          "canopy",
+          "category:awnings",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-improvement",
+          "outdoor"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Gray",
+          "Silver"
+        ],
+        "material": [
+          "Aluminum"
+        ]
+      },
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212328997170",
+      "title": "Trucker Bluetooth 5.2 Wireless Headset With Noise Cancelling Mic For Phones PC",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Trucker Bluetooth 5.2 Wireless Headset With Noise Cancelling Mic For Phones PC",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/os-10-6",
+        "fullName": "Office Supplies > Office Equipment > Office Shredders"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Office Headsets",
+        "tags": [
+          "audio",
+          "category:office-headsets",
+          "doba-import",
+          "electronics",
+          "headset",
+          "hermes-category-optimized"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329029938",
+      "title": "Big  Flower Duvet Cover Queen",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Big  Flower Duvet Cover Queen",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-15-1-5",
+        "fullName": "Home & Garden > Linens & Bedding > Bedding > Duvet Covers"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Duvet Covers",
+        "tags": [
+          "bedding",
+          "category:duvet-covers",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-textile"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329095474",
+      "title": "5/6-layer practical storage rack, shoe rack, space-saving design, multi-layer independent storage rack, wood grain finish, easy to assemble, self-supporting cubic shoe storage rack, storage rack, suit",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:5/6-layer practical storage rack, shoe rack, space-saving design, multi-layer in",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-16-1-6-2",
+        "fullName": "Home & Garden > Household Supplies > Storage & Organization > Clothing & Closet Storage > Shoe Racks & Organizers > Shoe Racks"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Shoe Racks",
+        "tags": [
+          "category:shoe-racks",
+          "doba-import",
+          "hermes-category-optimized",
+          "organization",
+          "shoe-rack",
+          "storage"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Wood"
+        ]
+      },
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329161010",
+      "title": "2Pack 11.81x5.63x4.45In 2-Door Humane Rat Trap Automatic Continuous Mouse Trap Reusable Galvanized Iron Live Animal Cage",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:2Pack 11.81x5.63x4.45In 2-Door Humane Rat Trap Automatic Continuous Mouse Trap R",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-11-2",
+        "fullName": "Home & Garden > Household Supplies > Pest Control > Pest Control Traps"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Pest Control Traps",
+        "tags": [
+          "category:pest-control-traps",
+          "doba-import",
+          "hermes-category-optimized",
+          "household",
+          "pest-control"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Iron"
+        ]
+      },
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329259314",
+      "title": "5600Miles Upgraded TV Antenna HDTV Amplified Digital 4K 1080P Long Range Indoor",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:5600Miles Upgraded TV Antenna HDTV Amplified Digital 4K 1080P Long Range Indoor",
+      "category_action": "category_suggested_review",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/el-7-6-1",
+        "fullName": "Electronics > Electronics Accessories > Cable Management > Cable Clips"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "TV Antennas",
+        "tags": [
+          "antenna",
+          "category:tv-antennas",
+          "doba-import",
+          "electronics",
+          "hermes-category-optimized",
+          "tv"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329292082",
+      "title": "3 Color Lighting Mirror with LED Lights, 64\"x21\" Lighted Floor Standing Mirror with Stand, Wall Mounted Hanging",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:3 Color Lighting Mirror with LED Lights, 64\"x21\" Lighted Floor Standing Mirror w",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-3-47-1",
+        "fullName": "Home & Garden > Decor > Mirrors > Floor Mirrors"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Floor Mirrors",
+        "tags": [
+          "category:floor-mirrors",
+          "doba-import",
+          "hermes-category-optimized",
+          "home-decor",
+          "led",
+          "mirror"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Glass"
+        ]
+      },
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329423154",
+      "title": "75-inch heavy-duty  folding bed, 10-leg design for stable support, portable camping bed with side pockets and mattress, winter camping equipment",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:75-inch heavy-duty  folding bed, 10-leg design for stable support, portable camp",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/ap-2-9-4",
+        "fullName": "Animals & Pet Supplies > Pet Supplies > Pet Beds > Cooling Beds"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Folding Beds",
+        "tags": [
+          "bed",
+          "category:folding-beds",
+          "doba-import",
+          "furniture",
+          "hermes-category-optimized",
+          "portable"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329521458",
+      "title": "Boxed Disposable Garbage Bag 70 Pieces Puncture Tear Resistant Trash Bags, 39 Gallon Capacity, Multipurpose Cleaning Supplies For Industrial, Garden, Home, And Commercial Use - Durable, Leak-Proof",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Boxed Disposable Garbage Bag 70 Pieces Puncture Tear Resistant Trash Bags, 39 Ga",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-5",
+        "fullName": "Home & Garden > Household Supplies > Garbage Bags"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Garbage Bags",
+        "tags": [
+          "category:garbage-bags",
+          "cleaning",
+          "doba-import",
+          "hermes-category-optimized",
+          "household"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329586994",
+      "title": "4-Piece Set, Women's Eau De Parfuma Spray Gift Box, Long Lasting Fragrance, 4 Different Flavor, Perfect For Holiday Gifts, Dating, Daily Life, Parties",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:4-Piece Set, Women's Eau De Parfuma Spray Gift Box, Long Lasting Fragrance, 4 Di",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hb-3-2-8-3",
+        "fullName": "Health & Beauty > Personal Care > Cosmetics > Perfumes & Colognes > Eaux de Parfum"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Eaux de Parfum",
+        "tags": [
+          "beauty",
+          "category:eau-de-parfum",
+          "doba-import",
+          "fragrance",
+          "gift",
+          "hermes-category-optimized"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {},
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329652530",
+      "title": "XXL 304 Stainless Steel Cutting Board  Anti-Slip & Mildew-Proof! No More Moldy Wooden Boards | Heavy-Duty & Food-Safe, Easy to Clean – Chop Meat, Knead Dough, Bake Prep All-in-One | Must-Have for Home",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "keyword:cutting-boards",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-11-8-21",
+        "fullName": "Home & Garden > Kitchen & Dining > Kitchen Tools & Utensils > Cutting Boards"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cutting Boards",
+        "tags": [
+          "category:cutting-boards",
+          "cooking",
+          "cutting-board",
+          "doba-import",
+          "hermes-category-optimized",
+          "kitchen"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel"
+        ],
+        "power_source": [
+          "Solar"
+        ]
+      },
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329816370",
+      "title": "Stainless Steel Cutting Board with Lip for Kitchen Chopping Boards for Countertop Large Metal Cutting Board over Sink Suitable for Meat Fruits Vegetables Bread Noodle and Pizza Bamboo Knives",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Stainless Steel Cutting Board with Lip for Kitchen Chopping Boards for Counterto",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-11-8-21",
+        "fullName": "Home & Garden > Kitchen & Dining > Kitchen Tools & Utensils > Cutting Boards"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Cutting Boards",
+        "tags": [
+          "category:cutting-boards",
+          "cooking",
+          "cutting-board",
+          "doba-import",
+          "hermes-category-optimized",
+          "kitchen"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Steel",
+          "Metal",
+          "Bamboo"
+        ]
+      },
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329881906",
+      "title": "Heavy duty folding bed, camping bed with flip-up mattress (mattress included), portable guest bed, suitable for teenagers, adults, travel, garden, balcony, camping supplies",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:Heavy duty folding bed, camping bed with flip-up mattress (mattress included), p",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/ap-2-9-4",
+        "fullName": "Animals & Pet Supplies > Pet Supplies > Pet Beds > Cooling Beds"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Folding Beds",
+        "tags": [
+          "bed",
+          "category:folding-beds",
+          "doba-import",
+          "furniture",
+          "hermes-category-optimized",
+          "portable"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "material": [
+          "Cotton"
+        ]
+      },
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329914674",
+      "title": "24 Modes TENS Unit Muscle Stimulator, Red Color, Rechargeable Electronic Pulse Massager with 8 Pads for Back and Shoulder Pain Relief and Muscle Strength",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:24 Modes TENS Unit Muscle Stimulator, Red Color, Rechargeable Electronic Pulse M",
+      "category_action": "category_suggested_review",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hb-1-18-1",
+        "fullName": "Health & Beauty > Health Care > Occupational & Physical Therapy Equipment > Electrical Muscle Stimulators"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Muscle Stimulators",
+        "tags": [
+          "category:muscle-stimulators",
+          "doba-import",
+          "health",
+          "hermes-category-optimized",
+          "massager",
+          "recovery"
+        ]
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "color": [
+          "Red"
+        ],
+        "power_source": [
+          "Battery"
+        ]
+      },
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212331946290",
+      "title": "Compact Under-Desk Elliptical – Quiet Mini Pedal Exerciser with Adjustable Speed and LED Display",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": null,
+      "category_action": "no_match",
+      "category_after": null,
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "",
+        "tags": []
+      },
+      "source_field_error": null,
+      "attribute_suggestions": {
+        "power_source": [
+          "AC Power"
+        ]
+      },
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212332011826",
+      "title": "4X Magnetic Car Side Front Rear Window Sun Shade Cover Mesh Shield UV Protection",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_rule": "exact:4X Magnetic Car Side Front Rear Window Sun Shade Cover Mesh Shield UV Protection",
+      "category_action": "category_applied",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-11-2",
+        "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Lifts & Stands > Vehicle Stands"
+      },
+      "category_error": null,
+      "source_fields_after": {
+        "productType": "Vehicle Sun Shades",
+        "tags": [
+          "automotive",
+          "category:vehicle-sun-shades",
+          "doba-import",
+          "hermes-category-optimized",
+          "interior",
+          "sun-shade"
+        ]
+      },
+      "source_field_error": "Shopify GraphQL request failed with 500: 500 Internal Server Error\nIf you are the administrator of this website, then please read this web application's log file and/or the web server's log file to find out what went wrong.",
+      "attribute_suggestions": {},
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    }
+  ],
+  "report_path": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\doba-shopify-agent\\docs\\audits\\doba-force-publish-report-round8.json",
+  "stop_reason": {
+    "product_id": "gid://shopify/Product/10212332011826",
+    "title": "4X Magnetic Car Side Front Rear Window Sun Shade Cover Mesh Shield UV Protection",
+    "category_error": null,
+    "source_field_error": "Shopify GraphQL request failed with 500: 500 Internal Server Error\nIf you are the administrator of this website, then please read this web application's log file and/or the web server's log file to find out what went wrong.",
+    "publish_error": null
+  }
+}

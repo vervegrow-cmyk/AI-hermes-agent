@@ -1,0 +1,2 @@
+"""Hermes TrendForge models."""
+

@@ -1,0 +1,42 @@
+services:
+  redis:
+    image: redis:alpine
+    command: redis-server --bind 0.0.0.0
+    ports:
+      - "6379:6379"
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    command: rabbitmq-server
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "check_running"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+  foundationdb:
+    image: foundationdb/foundationdb:7.3.63
+    environment:
+      FDB_NETWORKING_MODE: container
+      FDB_COORDINATOR_PORT: 4500
+    ports:
+      - "4500:4500"
+    volumes:
+      - ./data/fdb:/var/fdb
+
+  foundationdb-init:
+    image: foundationdb/foundationdb:7.3.63
+    depends_on:
+      foundationdb:
+        condition: service_started
+    entrypoint:
+      - /bin/bash
+      - -c
+      - "sleep 5 && out=$(fdbcli -C /var/fdb/fdb.cluster --exec 'configure new single ssd' 2>&1); status=$$?; printf '%s\n' \"$$out\"; if [ \"$$status\" -eq 0 ]; then exit 0; fi; printf '%s\n' \"$$out\" | grep -Eiq 'already.*configured|database.*configured'"
+    volumes:
+      - ./data/fdb:/var/fdb
+    restart: "no"

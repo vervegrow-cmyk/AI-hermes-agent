@@ -1,0 +1,42 @@
+{
+  "vendor": "Doba",
+  "target_publications": [
+    "Online Store",
+    "Shop",
+    "Pinterest",
+    "Facebook & Instagram"
+  ],
+  "stopped_early": false,
+  "llm_status": "enabled:model=deepseek-chat",
+  "progress": {
+    "total_discovered": 819,
+    "processed_before_run": 0,
+    "selected_for_run": 0,
+    "processed_this_run": 0,
+    "fully_published_before_run": 819,
+    "pending_after_filter_before_run": 0,
+    "remaining_after_run": 0,
+    "resume_enabled": false
+  },
+  "summary": {
+    "total_products": 0,
+    "category_updated_ok": 0,
+    "category_update_failed": 0,
+    "source_fields_updated_ok": 0,
+    "source_fields_update_failed": 0,
+    "needs_shopify_category_suggestion": 0,
+    "skipped_missing_products": 0,
+    "llm_suggestions_generated": 0,
+    "llm_status_parsed": 0,
+    "llm_status_parse_error": 0,
+    "llm_status_request_error": 0,
+    "llm_status_empty_response": 0,
+    "attribute_suggestions_generated": 0,
+    "added_to_new_arrivals_count": 0,
+    "collection_failed": 0,
+    "publish_requested_ok": 0,
+    "publish_failed": 0,
+    "all_target_publications_count": 0
+  },
+  "results": []
+}

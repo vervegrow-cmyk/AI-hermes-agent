@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "46.8\" Mid-Century Modern Glass Top Coffee Table with Hidden Storage Drawers - Light Walnut",
+  "description": "Mid-century modern coffee table with tempered glass top, hidden storage drawers, and floating base. Safe rounded corners for family use.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Dekuch"
+  },
+  "image": [
+    "https://cdn.shopify.com/s/files/1/0875/5622/7378/files/00337830545ad45d880ffb76ccbab5ff.jpg?v=1781525388",
+    "https://cdn.shopify.com/s/files/1/0875/5622/7378/files/7cacbc15a5a9659c2502d18e989d255e.jpg?v=1781525387",
+    "https://cdn.shopify.com/s/files/1/0875/5622/7378/files/00d62365e6642002fb5a008312720eb1.jpg?v=1781525387",
+    "https://cdn.shopify.com/s/files/1/0875/5622/7378/files/154aee3ef4356f443da15ba2e6724531.jpg?v=1781525387",
+    "https://cdn.shopify.com/s/files/1/0875/5622/7378/files/0013922c0f813980093f9876394e0b36.jpg?v=1781525388",
+    "https://cdn.shopify.com/s/files/1/0875/5622/7378/files/5fabff512f983097fca6a3e5a42ef32e.jpg?v=1781525387",
+    "https://cdn.shopify.com/s/files/1/0875/5622/7378/files/c8be703d19f11b7830a0a02b01e39bde.jpg?v=1781525389",
+    "https://cdn.shopify.com/s/files/1/0875/5622/7378/files/4a957589114aba91b59d19836bc9d4c8.jpg?v=1781525387",
+    "https://cdn.shopify.com/s/files/1/0875/5622/7378/files/3eb04010ebe51ef0a36f805de83a58a1.jpg?v=1781525387",
+    "https://cdn.shopify.com/s/files/1/0875/5622/7378/files/3e237240a46841127ceb133ab72cfe0c.jpg?v=1781525387",
+    "https://cdn.shopify.com/s/files/1/0875/5622/7378/files/def1e3e4f33394b940dc80393ff90963.jpg?v=1781525388"
+  ],
+  "category": "Furniture > Tables",
+  "sku": "W2263P458487",
+  "gtin": "",
+  "offers": {
+    "@type": "Offer",
+    "price": "212.66",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": "/46-8-mid-century-modern-glass-top-coffee-table-rectangular-center-table-with-hidden-storage-drawers-for-living-room-contemporary-storage-coffee-table-with-stable-base-for-apartment-homelight-walnut"
+  },
+  "hasVariant": [
+    {
+      "@type": "Product",
+      "sku": "W2263P458487",
+      "name": "46.8\" Mid-Century Modern Glass Top Coffee Table,Rectangular Center Table with Hidden Storage Drawers for Living Room,Contemporary Storage Coffee Table with Stable Base for Apartment Home(Light Walnut) Default Title",
+      "offers": {
+        "@type": "Offer",
+        "price": "212.66",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "What are the dimensions of this coffee table?",
+      "answer": "The table is 46.8 inches long. Exact width and height are not provided in the listing; please contact us for detailed measurements."
+    },
+    {
+      "question": "Is the glass top tempered?",
+      "answer": "Yes, the table features a tempered glass top for safety and durability."
+    },
+    {
+      "question": "How many storage drawers does it have?",
+      "answer": "It has two hidden storage drawers for organizing remotes, coasters, and other small items."
+    },
+    {
+      "question": "Is assembly required?",
+      "answer": "Yes, some assembly is required. Instructions and hardware are included."
+    },
+    {
+      "question": "What is the weight capacity of the glass top?",
+      "answer": "The weight capacity is not specified. We recommend avoiding heavy objects on the glass surface."
+    },
+    {
+      "question": "Can this table be used outdoors?",
+      "answer": "No, this table is designed for indoor use only."
+    }
+  ],
+  "primaryImageAlt": "46.8\" Mid-Century Modern Glass Top Coffee Table,Rectangular Center Table with Hidden Storage Drawers for Living Room,Contemporary Storage Coffee Table with Stable Base for Apartment Home(Light Walnut) image 1"
+}

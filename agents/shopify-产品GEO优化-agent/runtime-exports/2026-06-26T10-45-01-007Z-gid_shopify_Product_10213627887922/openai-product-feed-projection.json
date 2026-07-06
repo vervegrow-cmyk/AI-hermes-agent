@@ -1,0 +1,40 @@
+{
+  "is_eligible_search": true,
+  "is_eligible_checkout": false,
+  "item_id": "gid://shopify/Product/10213627887922",
+  "title": "46.8\" Mid-Century Modern Glass Top Coffee Table with Hidden Storage Drawers - Light Walnut",
+  "description": "Mid-century modern coffee table with tempered glass top, hidden storage drawers, and floating base. Safe rounded corners for family use.",
+  "url": "/46-8-mid-century-modern-glass-top-coffee-table-rectangular-center-table-with-hidden-storage-drawers-for-living-room-contemporary-storage-coffee-table-with-stable-base-for-apartment-homelight-walnut",
+  "brand": "Dekuch",
+  "image_url": "https://cdn.shopify.com/s/files/1/0875/5622/7378/files/00337830545ad45d880ffb76ccbab5ff.jpg?v=1781525388",
+  "price": "212.66",
+  "availability": "available",
+  "seller_name": "4ea863-98.myshopify.com",
+  "seller_url": "4ea863-98.myshopify.com",
+  "return_policy": "Needs policy enrichment",
+  "target_countries": [
+    "US"
+  ],
+  "store_country": "US",
+  "variants": [
+    {
+      "id": "gid://shopify/ProductVariant/51314729845042",
+      "title": "Default Title",
+      "price": "212.66",
+      "availability": true,
+      "options": [
+        {
+          "name": "Title",
+          "value": "Default Title"
+        }
+      ]
+    }
+  ],
+  "shipping": {
+    "status": "projection_only"
+  },
+  "related_products": [],
+  "geo_availability": [
+    "US"
+  ]
+}

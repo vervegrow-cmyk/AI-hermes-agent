@@ -1,0 +1,31 @@
+{
+  "supplier_id": "sup-beauty-009",
+  "product_id": "prod-beauty-2201",
+  "sku": "COS-BAG-2201",
+  "title": "Branded Travel Cosmetic Bag",
+  "brand": "LunaCase",
+  "category_path": "Beauty > Cosmetics Storage",
+  "supplier_status": "active",
+  "cost": 16.0,
+  "msrp": 38.0,
+  "inventory": 22,
+  "ship_from_country": "US",
+  "ships_to_countries": ["US"],
+  "shipping_cost": 7.0,
+  "delivery_days": 8,
+  "weight_kg": 0.8,
+  "package_length_cm": 26.0,
+  "package_width_cm": 18.0,
+  "package_height_cm": 9.0,
+  "description": "Travel cosmetic organizer with compartments for brushes and bottles.",
+  "image_urls": [
+    "https://example.com/images/cos-bag-1.jpg"
+  ],
+  "variant_attributes": {
+    "color": "pink"
+  },
+  "attributes": {
+    "material": "polyester",
+    "compartments": "multiple"
+  }
+}

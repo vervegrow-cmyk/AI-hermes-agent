@@ -1,0 +1,29 @@
+{
+  "supplier_id": "sup-risk-404",
+  "product_id": "prod-risk-7788",
+  "sku": "MED-VAPE-7788",
+  "title": "Medical Vape Pen",
+  "brand": "",
+  "category_path": "Health > Medical",
+  "supplier_status": "active",
+  "cost": 12.0,
+  "msrp": 29.0,
+  "inventory": 40,
+  "ship_from_country": "US",
+  "ships_to_countries": ["US"],
+  "shipping_cost": 4.0,
+  "delivery_days": 4,
+  "weight_kg": 0.4,
+  "package_length_cm": 18.0,
+  "package_width_cm": 10.0,
+  "package_height_cm": 4.0,
+  "description": "Portable vape device marketed for medical relief.",
+  "image_urls": [
+    "https://example.com/images/med-vape-1.jpg",
+    "https://example.com/images/med-vape-2.jpg"
+  ],
+  "variant_attributes": {},
+  "attributes": {
+    "power": "USB rechargeable"
+  }
+}

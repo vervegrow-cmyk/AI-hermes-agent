@@ -1,0 +1,419 @@
+# Doba-Shopify-Agent Development Governance v1.0
+
+## 项目定位
+
+Doba-Shopify-Agent 是一个独立 Hermes Agent。
+
+职责：
+
+Doba 产品供应链管理
+
+AI 产品筛选
+
+Shopify 商品管理
+
+库存同步
+
+价格同步
+
+风险控制
+
+禁止承担：
+
+SEO
+
+Blog
+
+Ads
+
+TikTok
+
+Pinterest
+
+客服
+
+订单履约
+
+这些属于其它 Agent。
+
+---
+
+# Layer 00
+
+## Supplier Archive Runtime
+
+职责：
+
+所有供应商数据归档。
+
+数据来源：
+
+Doba API
+
+未来扩展：
+
+CJ
+
+AutoDS
+
+GIGA
+
+AliExpress
+
+禁止：
+
+Shopify写入
+
+评分逻辑
+
+库存同步
+
+价格同步
+
+### 输出
+
+supplier_products
+
+product_snapshots
+
+inventory_snapshots
+
+price_snapshots
+
+seller_snapshots
+
+### 核心目标
+
+形成完整供应商历史数据库。
+
+---
+
+# Layer 01
+
+## Product Screening Runtime
+
+职责：
+
+AI产品筛选。
+
+输入：
+
+supplier_products
+
+输出：
+
+ai_product_scores
+
+listing_candidates
+
+### DeepSeek评分维度
+
+trend_score
+
+season_score
+
+profit_score
+
+price_score
+
+inventory_score
+
+seller_score
+
+fulfillment_score
+
+review_score
+
+shipping_score
+
+return_risk_score
+
+compliance_risk_score
+
+overall_score
+
+### 状态
+
+approved_for_listing
+
+manual_review
+
+watchlist
+
+rejected
+
+### 禁止
+
+Shopify写入
+
+库存同步
+
+价格同步
+
+---
+
+# Layer 02
+
+## Shopify Listing Runtime
+
+职责：
+
+Shopify商品创建。
+
+输入：
+
+listing_candidates
+
+输出：
+
+shopify_products
+
+sku_mapping
+
+### 当前规则
+
+仅允许：
+
+Draft Product
+
+### 禁止
+
+自动发布
+
+自动下单
+
+自动广告
+
+---
+
+# Layer 03
+
+## Inventory Sync Runtime
+
+职责：
+
+库存同步。
+
+输入：
+
+supplier inventory
+
+sku_mapping
+
+输出：
+
+shopify inventory
+
+inventory_sync_logs
+
+### 功能
+
+库存变化检测
+
+零库存处理
+
+恢复库存处理
+
+同步审计日志
+
+### 禁止
+
+价格修改
+
+产品评分
+
+---
+
+# Layer 04
+
+## Price Sync Runtime
+
+职责：
+
+价格同步。
+
+输入：
+
+supplier cost
+
+shipping cost
+
+sku_mapping
+
+输出：
+
+shopify price
+
+price_sync_logs
+
+### 功能
+
+利润保护
+
+价格计算
+
+调价建议
+
+### 禁止
+
+库存修改
+
+产品评分
+
+---
+
+# Layer 05
+
+## Risk Control Runtime
+
+职责：
+
+贯穿全部模块。
+
+监控：
+
+库存风险
+
+价格风险
+
+卖家风险
+
+侵权风险
+
+利润风险
+
+同步失败风险
+
+API异常风险
+
+### 输出
+
+risk_alerts
+
+risk_reports
+
+approval_queue
+
+### 风险等级
+
+LOW
+
+MEDIUM
+
+HIGH
+
+CRITICAL
+
+### 高风险动作
+
+必须人工审核：
+
+发布商品
+
+价格大幅调整
+
+批量库存变更
+
+未来自动下单
+
+---
+
+# 模块依赖关系
+
+Supplier Archive
+↓
+Product Screening
+↓
+Shopify Listing
+↓
+Inventory Sync
+↓
+Price Sync
+
+Risk Control
+贯穿所有层
+
+禁止反向依赖。
+
+例如：
+
+Inventory Sync 不允许调用 Product Screening。
+
+Price Sync 不允许调用 Shopify Listing。
+
+模块只能通过：
+
+shared/contracts
+
+shared/repositories
+
+通信。
+
+---
+
+# 开发顺序
+
+Phase 00
+Supplier Archive Runtime
+
+Phase 01
+Product Screening Runtime
+
+Phase 02
+Shopify Listing Runtime
+
+Phase 03
+Inventory Sync Runtime
+
+Phase 04
+Price Sync Runtime
+
+Phase 05
+Risk Control Runtime
+
+任何新功能必须挂靠到上述层级。
+
+禁止新增平行治理体系。
+禁止跨层调用。
+禁止绕过 shared contracts。
+# Layer 00 - Supplier Archive Runtime（供应商档案中心）
+
+Supplier Archive Runtime 是整个 Doba-Shopify-Agent 的数据基础层，负责持续采集、归档和维护供应商产品信息、库存信息、价格信息以及卖家信息，形成完整的供应商历史数据库。该层不参与任何 AI 决策、商品上架、库存同步或价格同步逻辑，仅负责建立可靠的数据资产中心，为后续 AI 选品、风险分析和运营决策提供高质量数据来源。所有供应商数据必须首先进入 Archive Runtime，再流转到后续模块。
+
+---
+
+# Layer 01 - Product Screening Runtime（AI选品中心）
+
+Product Screening Runtime 是整个系统的选品决策层，负责对归档后的产品进行多维度分析和评分，通过 DeepSeek 等 AI 模型结合趋势、利润、库存、卖家质量、履约能力、物流成本以及风险因素进行综合评估，最终决定产品是否具备上架价值。该层输出标准化的产品评分结果和上架候选池，是连接供应链数据与 Shopify 商品运营的核心决策引擎。
+
+---
+
+# Layer 02 - Shopify Listing Runtime（商品管理中心）
+
+Shopify Listing Runtime 负责将通过 AI 筛选的产品转换为 Shopify 商品，并建立完整的 SKU 映射关系。该模块负责商品标题生成、描述生成、图片处理、SEO基础信息生成以及 Shopify Draft Product 创建。当前阶段仅允许创建草稿商品，不允许自动发布，确保商品上线前仍保留人工审核能力。该层是供应商产品向 Shopify 商品转换的核心桥梁。
+
+---
+
+# Layer 03 - Inventory Sync Runtime（库存同步中心）
+
+Inventory Sync Runtime 负责维护供应商库存与 Shopify 库存之间的一致性，持续监控库存变化并执行同步操作。当供应商库存发生变化时，该模块根据 SKU Mapping 自动更新 Shopify 库存状态，并记录所有同步日志和异常情况。其核心目标是避免超卖、缺货销售以及库存数据失真，保障前端销售与供应链库存保持实时一致。
+
+---
+
+# Layer 04 - Price Sync Runtime（价格管理中心）
+
+Price Sync Runtime 负责监控供应商成本、运费以及相关价格因素变化，并根据预设利润策略计算 Shopify 建议售价。该模块的核心职责是利润保护与价格治理，通过持续分析成本波动和利润空间，输出合理的销售价格及调价建议，确保产品在市场竞争力和利润率之间保持平衡，避免出现亏损销售或利润过低的问题。
+
+---
+
+# Layer 05 - Risk Control Runtime（全局风控中心）
+
+Risk Control Runtime 是贯穿整个系统的风险治理层，负责持续监控供应链、商品、库存、价格以及系统运行过程中的各种风险事件。该模块对库存异常、价格异常、卖家异常、侵权风险、利润风险、同步失败以及 API 故障等情况进行识别和预警，并通过风险报告、告警中心和人工审批队列实现风险隔离与控制。任何高风险操作都必须经过该模块评估后才能继续执行，是整个系统稳定运行的安全保障中心。
+
+---
+
+# 系统整体定位
+
+Doba-Shopify-Agent 本质上是一个“供应链驱动的 AI 商品运营系统”。
+
+系统通过 Supplier Archive 建立供应链数据库，通过 Product Screening 完成 AI 选品决策，通过 Shopify Listing 完成商品创建，通过 Inventory Sync 和 Price Sync 保持运营数据实时更新，并由 Risk Control 对整个运行过程进行风险治理，最终形成从供应商产品发现、AI 筛选、商品上架到库存价格管理的完整自动化运营闭环。

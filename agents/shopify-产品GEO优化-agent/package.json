@@ -1,0 +1,26 @@
+{
+  "name": "product-agentic-geo-agent",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit -p ./tsconfig.json",
+    "product-geo:run": "tsx ./packages/agents/product-agentic-geo-agent/run.ts",
+    "product-geo:rollback": "tsx ./packages/agents/product-agentic-geo-agent/rollback.ts",
+    "product-geo:export": "tsx ./packages/agents/product-agentic-geo-agent/export.ts",
+    "source:test:giga": "tsx ./packages/agents/product-agentic-geo-agent/source-test-giga.ts",
+    "source:test:doba": "tsx ./packages/agents/product-agentic-geo-agent/source-test-doba.ts",
+    "shopify:geo:dry-run": "tsx ./packages/agents/product-agentic-geo-agent/run.ts --limit=50 --dry-run=true",
+    "shopify:geo:optimize-active": "tsx ./packages/agents/product-agentic-geo-agent/run.ts --limit=50 --dry-run=false --one-shot-aggressive-publish --source-first --policy-second --deepseek-last --deepseek-content-only --content-layer-only --use-content-field-whitelist --deepseek-output content_optimization_result --enable-content-guard --split-truth-content-score --lock-source-truth-fields --lock-business-policy-fields --skip-preliminary-normal-optimization --enable-source-enrichment --source-type AUTO --aggressive-geo-optimization --auto-fill-missing-fields --use-default-business-policy --default-brand Unbranded --default-warehouse \"United States warehouse\" --warehouse-origin-mode conservative --no-invent-warehouse-city --default-free-shipping --default-return-policy \"7+30\" --shopify-auto-tax --target-geo-score 85 --minimum-pass-score 75 --publish-regardless-score --score-gate-mode advisory --force-publish-after-optimization --continue-if-below-target --skip-score-gate --publish-immediately",
+    "shopify:geo:resume": "tsx ./packages/agents/product-agentic-geo-agent/resume.ts",
+    "shopify:geo:status": "tsx ./packages/agents/product-agentic-geo-agent/status.ts",
+    "shopify:geo:reset-checkpoint": "tsx ./packages/agents/product-agentic-geo-agent/reset-checkpoint.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1"
+  }
+}

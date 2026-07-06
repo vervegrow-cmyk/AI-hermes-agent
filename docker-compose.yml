@@ -1,0 +1,207 @@
+services:
+  hermes-agent-base:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: hermes-agent-base
+    image: hermes-agent-base:latest
+    profiles: ["build-only"]
+
+  postgres:
+    image: pgvector/pgvector:pg17
+    container_name: hermes-postgres
+    environment:
+      POSTGRES_DB: hermes
+      POSTGRES_USER: hermes
+      POSTGRES_PASSWORD: hermes
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./infra/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hermes -d hermes"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7.4-alpine
+    container_name: hermes-redis
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+      - ./infra/redis/redis.conf:/usr/local/etc/redis/redis.conf:ro
+
+  qdrant:
+    image: qdrant/qdrant:v1.14.1
+    container_name: hermes-qdrant
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+  trend-agent:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: trend-agent
+    env_file: .env
+    container_name: trend-agent
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+      qdrant:
+        condition: service_started
+    ports:
+      - "8081:8081"
+
+  content-agent:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: content-agent
+    env_file: .env
+    container_name: content-agent
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+      qdrant:
+        condition: service_started
+    ports:
+      - "8082:8082"
+
+  shopify-agent:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: shopify-agent
+    env_file: .env
+    container_name: shopify-agent
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+      qdrant:
+        condition: service_started
+    ports:
+      - "8083:8083"
+
+  analytics-agent:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: analytics-agent
+    env_file: .env
+    container_name: analytics-agent
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+      qdrant:
+        condition: service_started
+    ports:
+      - "8084:8084"
+
+  hermes-trendforge-agent:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: hermes-trendforge-agent
+    env_file: .env
+    container_name: hermes-trendforge-agent
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+      qdrant:
+        condition: service_started
+    ports:
+      - "8085:8085"
+
+  shopify-inventory-agent:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: shopify-inventory-agent
+    env_file: .env
+    container_name: shopify-inventory-agent
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+      qdrant:
+        condition: service_started
+    ports:
+      - "8087:8087"
+
+  shopify-category-agent:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: shopify-category-agent
+    env_file: .env
+    container_name: shopify-category-agent
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+      qdrant:
+        condition: service_started
+    ports:
+      - "8088:8088"
+
+  prometheus:
+    image: prom/prometheus:v3.5.0
+    container_name: hermes-prometheus
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./infra/monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+
+  grafana:
+    image: grafana/grafana:12.0.2
+    container_name: hermes-grafana
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+
+  nginx:
+    image: nginx:1.29-alpine
+    container_name: hermes-nginx
+    depends_on:
+      - trend-agent
+      - content-agent
+      - shopify-agent
+      - analytics-agent
+      - hermes-trendforge-agent
+      - shopify-inventory-agent
+      - shopify-category-agent
+    ports:
+      - "80:80"
+    volumes:
+      - ./infra/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+
+volumes:
+  postgres_data:
+  redis_data:
+  qdrant_data:
+  grafana_data:

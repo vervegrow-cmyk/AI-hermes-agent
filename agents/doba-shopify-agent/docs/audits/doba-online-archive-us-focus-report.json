@@ -1,0 +1,108 @@
+{
+  "started_at": "2026-06-27T06:17:21+00:00",
+  "updated_at": "2026-06-29T07:49:03+00:00",
+  "completed": false,
+  "report_path": "docs/audits/doba-online-archive-us-focus-report.json",
+  "checkpoint_path": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\doba-shopify-agent\\data\\runtime\\supplier_archive\\doba_online_archive_us_focus_checkpoint.json",
+  "resume_command": "python -m src.app.runners.run_supplier_archive_online --report-path \"docs/audits/doba-online-archive-us-focus-report.json\" --checkpoint-path \"data/runtime/supplier_archive/doba_online_archive_us_focus_checkpoint.json\" --page-size 20 --target-country \"US\" --min-inventory 11 --archive-eligible-only --eligible-inventory-threshold 10",
+  "config": {
+    "page_size": 20,
+    "target_country": "US",
+    "min_inventory": 11,
+    "archive_eligible_only": true,
+    "eligible_inventory_threshold": 10
+  },
+  "progress": {
+    "total_spu": 294103,
+    "processed_spu": 35050,
+    "archived_sku": 26158,
+    "skipped_spu": 11721,
+    "eligible_spu": 23333,
+    "eligible_sku": 26170,
+    "filtered_sku": 46486,
+    "page_number": 1753,
+    "index_in_page": 10,
+    "variant_index": 0
+  },
+  "warnings": [],
+  "ship_from_summary": {
+    "us": 27695,
+    "non_us": 44961,
+    "unknown": 0
+  },
+  "last_event": {
+    "action": "archived",
+    "reason": "",
+    "spu_no": "D0100H7WS0T",
+    "spu_id": "KEqMbakqSQvY",
+    "sku": "D0102H5TIY2",
+    "title": "5 Core Music Stand Adjustable Desktop Book Stands Portable Sheet Holder All Metal Foldable Bookstand - MUS FLD RED"
+  },
+  "last_stream_publish": {
+    "spu_no": "D0100H7WS0T",
+    "candidate_pool_summary": {
+      "archive_groups": 23493,
+      "qualified_count": 20,
+      "skipped_by_reason": {
+        "active_product_exists": 2,
+        "already_successfully_published": 1,
+        "missing_shopify_category": 1
+      },
+      "missing_category_examples": [
+        {
+          "spu_id": "ejbRvapUKQDO",
+          "spu_no": "D0100H7W7RP",
+          "title": "Natural Olive Wood Honey Spoon Dipper - Premium Handcrafted Eco Friendly 6 Inch Wooden Honeycomb Stirrer Wand for Tea Jar Drizzle, Perfect Kitchen Serving Utensil and Sustainable Housewarming Gift",
+          "category_name": "Other Dining & Entertaining Supplies",
+          "sku_list": [
+            "D0102H5TRXJ"
+          ]
+        }
+      ],
+      "ship_from_summary": {
+        "us": 23,
+        "non_us": 0,
+        "unknown": 1
+      }
+    },
+    "publish_summary": {
+      "total_candidates": 1,
+      "scanned_count": 1,
+      "published_count": 0,
+      "skipped_count": 0,
+      "failed_count": 1
+    },
+    "publish_completed": false,
+    "stop_archive": true,
+    "stop_reason": "publish_failed",
+    "last_failure": {
+      "failed_spu_no": "D0100H7WS0T",
+      "failed_doba_product_id": "KEqMbakqSQvY",
+      "failed_sku": "D0102H5TIY2",
+      "failed_sku_list": [
+        "D0102H5TIY2"
+      ],
+      "failed_reason": "[{'field': ['productOptions', '1'], 'message': 'Duplicated option name'}]",
+      "completed_count": 17,
+      "resume_position": {
+        "doba_product_id": "KEqMbakqSQvY",
+        "spu_no": "D0100H7WS0T"
+      }
+    }
+  },
+  "stopped_reason": "publish_failed",
+  "last_failure": {
+    "failed_spu_no": "D0100H7WS0T",
+    "failed_doba_product_id": "KEqMbakqSQvY",
+    "failed_sku": "D0102H5TIY2",
+    "failed_sku_list": [
+      "D0102H5TIY2"
+    ],
+    "failed_reason": "[{'field': ['productOptions', '1'], 'message': 'Duplicated option name'}]",
+    "completed_count": 17,
+    "resume_position": {
+      "doba_product_id": "KEqMbakqSQvY",
+      "spu_no": "D0100H7WS0T"
+    }
+  }
+}

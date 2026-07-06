@@ -1,0 +1,222 @@
+{
+  "vendor": "Doba",
+  "target_publications": [
+    "Online Store",
+    "Shop",
+    "Pinterest",
+    "Facebook & Instagram"
+  ],
+  "stopped_early": true,
+  "summary": {
+    "total_products": 11,
+    "category_updated_ok": 10,
+    "category_update_failed": 1,
+    "publish_requested_ok": 11,
+    "publish_failed": 0,
+    "all_target_publications_count": 11
+  },
+  "results": [
+    {
+      "id": "gid://shopify/Product/10212328767794",
+      "title": "Compact Under-Desk Elliptical – Quiet Mini Pedal Exerciser with Adjustable Speed and LED Display",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_after": null,
+      "category_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212328800562",
+      "title": "3-Seater Patio Swing Cover, Outdoor Garden Furniture Protection Hammock Cover Waterproof 85\" X 61\" X 59\", Dark Green",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-12-2-9-2",
+        "fullName": "Home & Garden > Lawn & Garden > Outdoor Living > Porch Swing Accessories > Porch Swing Covers"
+      },
+      "category_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212328833330",
+      "title": "USA Mouse Trap Rat Trap Rodent Trap Live Catch Cage, Easy to Set Up and Reuse",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-11-2",
+        "fullName": "Home & Garden > Household Supplies > Pest Control > Pest Control Traps"
+      },
+      "category_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212328866098",
+      "title": "4X Magnetic Car Side Front Rear Window Sun Shade Cover Mesh Shield UV Protection",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/vp-1-4-11-7",
+        "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Interior Fittings > Sun Shades"
+      },
+      "category_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212328964402",
+      "title": "[Same Code: 52463595]HT-200 x 100 Household Application Door & Window Rain Cover Eaves Canopy Silver & Gray Bracket",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-12-2-2",
+        "fullName": "Home & Garden > Lawn & Garden > Outdoor Living > Awnings"
+      },
+      "category_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212328997170",
+      "title": "Trucker Bluetooth 5.2 Wireless Headset With Noise Cancelling Mic For Phones PC",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/el-2-2-7-2-4",
+        "fullName": "Electronics > Audio > Audio Components > Headphones & Headsets > Headsets > Office & Call Center Headsets"
+      },
+      "category_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329029938",
+      "title": "Big  Flower Duvet Cover Queen",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-15-1-5",
+        "fullName": "Home & Garden > Linens & Bedding > Bedding > Duvet Covers"
+      },
+      "category_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329095474",
+      "title": "5/6-layer practical storage rack, shoe rack, space-saving design, multi-layer independent storage rack, wood grain finish, easy to assemble, self-supporting cubic shoe storage rack, storage rack, suit",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-16-1-6-2",
+        "fullName": "Home & Garden > Household Supplies > Storage & Organization > Clothing & Closet Storage > Shoe Racks & Organizers > Shoe Racks"
+      },
+      "category_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329161010",
+      "title": "2Pack 11.81x5.63x4.45In 2-Door Humane Rat Trap Automatic Continuous Mouse Trap Reusable Galvanized Iron Live Animal Cage",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-10-11-2",
+        "fullName": "Home & Garden > Household Supplies > Pest Control > Pest Control Traps"
+      },
+      "category_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329259314",
+      "title": "5600Miles Upgraded TV Antenna HDTV Amplified Digital 4K 1080P Long Range Indoor",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/el-7-6-1",
+        "fullName": "Electronics > Electronics Accessories > Cable Management > Cable Clips"
+      },
+      "category_error": null,
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/10212329292082",
+      "title": "3 Color Lighting Mirror with LED Lights, 64\"x21\" Lighted Floor Standing Mirror with Stand, Wall Mounted Hanging",
+      "vendor": "Doba",
+      "status": "ACTIVE",
+      "category_after": {
+        "id": "gid://shopify/TaxonomyCategory/hg-3-47-1",
+        "fullName": "Home & Garden > Decor > Mirrors > Floor Mirrors"
+      },
+      "category_error": "[{'message': 'Invalid product_taxonomy_node_id', 'locations': [{'line': 3, 'column': 3}], 'extensions': {'code': 'INVALID_PRODUCT_TAXONOMY_NODE_ID'}, 'path': ['productUpdate']}]",
+      "publish_error": null,
+      "published_to_current": [
+        "Online Store",
+        "Shop",
+        "Pinterest",
+        "Facebook & Instagram"
+      ]
+    }
+  ],
+  "report_path": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\doba-shopify-agent\\docs\\audits\\doba-force-publish-report-round2.json",
+  "stop_reason": {
+    "product_id": "gid://shopify/Product/10212329292082",
+    "title": "3 Color Lighting Mirror with LED Lights, 64\"x21\" Lighted Floor Standing Mirror with Stand, Wall Mounted Hanging",
+    "category_error": "[{'message': 'Invalid product_taxonomy_node_id', 'locations': [{'line': 3, 'column': 3}], 'extensions': {'code': 'INVALID_PRODUCT_TAXONOMY_NODE_ID'}, 'path': ['productUpdate']}]",
+    "publish_error": null
+  }
+}

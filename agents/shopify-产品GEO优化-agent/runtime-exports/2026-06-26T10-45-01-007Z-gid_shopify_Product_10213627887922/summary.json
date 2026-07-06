@@ -1,0 +1,138 @@
+{
+  "recommendationId": "56f93680-7c44-40f8-abcd-ba5038f21b16",
+  "shopifyProductId": "gid://shopify/Product/10213627887922",
+  "seoMetadata": {
+    "seo_title": "46.8\" Mid-Century Modern Glass Top Coffee Table with Hidden Storage - Light Walnut",
+    "seo_description": "Discover our 46.8\" mid-century modern coffee table with tempered glass top, hidden storage drawers, and a floating base. Safe rounded corners, perfect for living rooms and apartments. Shop now!",
+    "handle_suggestion": "mid-century-modern-glass-top-coffee-table-with-storage-light-walnut",
+    "image_alt_suggestions": [
+      {
+        "image_id": "43888950935858",
+        "alt": "46.8 inch mid-century modern glass top coffee table with hidden storage drawers - light walnut front view"
+      },
+      {
+        "image_id": "43888950968626",
+        "alt": "Rectangular coffee table with tempered glass top and floating base - angle view"
+      },
+      {
+        "image_id": "43888951001394",
+        "alt": "Coffee table with dual storage drawers open showing interior"
+      },
+      {
+        "image_id": "43888951034162",
+        "alt": "Mid-century modern coffee table in living room setting with decor"
+      },
+      {
+        "image_id": "43888951066930",
+        "alt": "Close-up of rounded corner detail on glass top coffee table"
+      },
+      {
+        "image_id": "43888951099698",
+        "alt": "Coffee table with glass top and decorative frame - side view"
+      },
+      {
+        "image_id": "43888951132466",
+        "alt": "Floating base design of modern coffee table - underside view"
+      },
+      {
+        "image_id": "43888951165234",
+        "alt": "Storage drawer with remote controls and coasters inside coffee table"
+      },
+      {
+        "image_id": "43888951198002",
+        "alt": "Light walnut finish coffee table in apartment living room"
+      },
+      {
+        "image_id": "43888951230770",
+        "alt": "Glass top coffee table with rounded corners - top-down view"
+      },
+      {
+        "image_id": "43888951263538",
+        "alt": "Mid-century modern coffee table with hidden storage - full product shot"
+      }
+    ],
+    "internal_link_suggestions": [
+      "/collections/coffee-tables",
+      "/collections/mid-century-modern-furniture",
+      "/collections/living-room-tables",
+      "/collections/storage-furniture"
+    ]
+  },
+  "safeWritebackPlan": {
+    "safe_fields": [
+      "title",
+      "descriptionHtml",
+      "tags",
+      "metafields",
+      "seo_title",
+      "seo_description",
+      "handle",
+      "image_alt_text",
+      "faq_content",
+      "schema_projection",
+      "google_merchant_projection",
+      "openai_product_feed_projection"
+    ],
+    "approval_required_fields": [
+      "productType",
+      "vendor",
+      "options",
+      "variants (except SKU, price, inventory, barcode, GTIN)"
+    ],
+    "forbidden_fields": [
+      "sku",
+      "variant_id",
+      "price",
+      "inventory",
+      "barcode",
+      "gtin",
+      "checkout",
+      "shipping rate",
+      "live theme code"
+    ]
+  },
+  "approvalStatus": "approved",
+  "audit": {
+    "beforeScores": {
+      "geoScore": 65,
+      "catalogScore": 70,
+      "googleMerchantScore": 60,
+      "openAiFeedScore": 55,
+      "schemaScore": 50,
+      "faqScore": 0,
+      "imageAltScore": 30,
+      "agenticUxScore": 75
+    },
+    "previewAfterScores": {
+      "geoScore": 75,
+      "catalogScore": 70,
+      "googleMerchantScore": 65,
+      "openAiFeedScore": 60,
+      "schemaScore": 50,
+      "faqScore": 0,
+      "imageAltScore": 40,
+      "agenticUxScore": 80
+    },
+    "finalAfterScores": {
+      "geoScore": 75,
+      "catalogScore": 70,
+      "googleMerchantScore": 65,
+      "openAiFeedScore": 60,
+      "schemaScore": 50,
+      "faqScore": 0,
+      "imageAltScore": 40,
+      "agenticUxScore": 80
+    },
+    "scoreDelta": {
+      "geoScore": 10,
+      "catalogScore": 0,
+      "googleMerchantScore": 5,
+      "openAiFeedScore": 5,
+      "schemaScore": 0,
+      "faqScore": 0,
+      "imageAltScore": 10,
+      "agenticUxScore": 5
+    },
+    "optimizationResult": "PASS"
+  }
+}

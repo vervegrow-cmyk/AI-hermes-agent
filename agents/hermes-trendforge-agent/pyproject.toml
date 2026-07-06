@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hermes-trendforge-agent"
+version = "0.1.0"
+description = "Standalone Trendforge agent for insight discovery."
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.116.0",
+  "pydantic>=2.11.7",
+  "pydantic-settings>=2.10.1",
+  "prometheus-fastapi-instrumentator>=7.1.0",
+  "structlog>=25.4.0",
+  "uvicorn[standard]>=0.35.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx>=0.28.1",
+  "pytest>=8.4.1"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.setuptools]
+py-modules = ["main", "runtime", "schemas"]
+
+[tool.setuptools.packages.find]
+include = ["api*", "models*", "service*", "workflow*"]

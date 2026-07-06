@@ -1,0 +1,31 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: "trend-agent"
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["trend-agent:8081"]
+  - job_name: "content-agent"
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["content-agent:8082"]
+  - job_name: "shopify-agent"
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["shopify-agent:8083"]
+  - job_name: "analytics-agent"
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["analytics-agent:8084"]
+  - job_name: "hermes-trendforge-agent"
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["hermes-trendforge-agent:8085"]
+  - job_name: "shopify-category-agent"
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["shopify-category-agent:8088"]
+  - job_name: "qdrant"
+    static_configs:
+      - targets: ["qdrant:6333"]

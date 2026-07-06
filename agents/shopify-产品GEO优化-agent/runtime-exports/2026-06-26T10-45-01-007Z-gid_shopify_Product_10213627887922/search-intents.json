@@ -1,0 +1,22 @@
+{
+  "core_queries": [
+    "Furnishing a new living room",
+    "Replacing an old coffee table",
+    "Adding storage to a small space",
+    "Gift for housewarming"
+  ],
+  "problem_queries": [
+    "Living room center table for storing remotes, coasters, and cables while serving as a decorative focal point."
+  ],
+  "comparison_queries": [],
+  "gift_queries": [
+    "gift for Homeowners seeking modern furniture",
+    "gift for Apartment dwellers needing space-saving storage"
+  ],
+  "agent_recommendation_triggers": [
+    "Search for 'glass top coffee table with storage'",
+    "Browse mid-century modern living room sets",
+    "Look for 'child-safe coffee table'",
+    "Interest in 'floating base' design"
+  ]
+}

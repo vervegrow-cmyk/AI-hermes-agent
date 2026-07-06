@@ -1,0 +1,207 @@
+{
+  "started_at": "2026-06-15T08:45:00+00:00",
+  "updated_at": "2026-06-15T08:48:16+00:00",
+  "cursor": {
+    "next_page": 1,
+    "next_index": 4
+  },
+  "successful_spu_nos": [
+    "D0100HHHDJJ"
+  ],
+  "results": [
+    {
+      "timestamp": "2026-06-15T08:45:13+00:00",
+      "progress": {
+        "total": 467649,
+        "current_index": 1,
+        "page_number": 1,
+        "index_in_page": 0
+      },
+      "doba_product_id": "qcVbDYvDzCqj",
+      "doba_spu_no": "D0100HHHD06",
+      "title": "Awning Blue and White 100% polyester fabric with PA coating, Steel",
+      "sku_list": [],
+      "sku_code_list": [],
+      "shopify_product_id": "",
+      "variant_count": 0,
+      "cost_prices": [],
+      "sale_prices": [],
+      "inventories": [],
+      "warehouse_list": [],
+      "seller_name": "Home Life Boutique",
+      "action": "failed",
+      "reason": "'list' object has no attribute 'get'"
+    },
+    {
+      "timestamp": "2026-06-15T08:46:04+00:00",
+      "progress": {
+        "total": 467649,
+        "current_index": 1,
+        "page_number": 1,
+        "index_in_page": 0
+      },
+      "doba_product_id": "qcVbDYvDzCqj",
+      "doba_spu_no": "D0100HHHD06",
+      "title": "Awning Blue and White 100% polyester fabric with PA coating, Steel",
+      "sku_list": [],
+      "sku_code_list": [],
+      "shopify_product_id": "",
+      "variant_count": 0,
+      "cost_prices": [],
+      "sale_prices": [],
+      "inventories": [],
+      "warehouse_list": [],
+      "seller_name": "Home Life Boutique",
+      "action": "skipped",
+      "reason": "all_variants_inventory_below_threshold"
+    },
+    {
+      "timestamp": "2026-06-15T08:46:09+00:00",
+      "progress": {
+        "total": 467649,
+        "current_index": 2,
+        "page_number": 1,
+        "index_in_page": 1
+      },
+      "doba_product_id": "DRVnbJqMyCvU",
+      "doba_spu_no": "D0100HHHD0T",
+      "title": "Automatic Retractable Water Hose Reel Wall Mounted 32.8'+3.3'",
+      "sku_list": [
+        "D0102HHHDIP"
+      ],
+      "sku_code_list": [
+        "143896"
+      ],
+      "shopify_product_id": "",
+      "variant_count": 1,
+      "cost_prices": [
+        59.99
+      ],
+      "sale_prices": [
+        81.59
+      ],
+      "inventories": [
+        27
+      ],
+      "warehouse_list": [
+        "US"
+      ],
+      "seller_name": "Home Life Boutique",
+      "action": "failed",
+      "reason": "[{'message': 'Variable $variants of type [ProductVariantsBulkInput!]! was provided invalid value for 0.sku (Field is not defined on ProductVariantsBulkInput)', 'locations': [{'line': 2, 'column': 53}], 'extensions': {'code': 'INVALID_VARIABLE', 'value': [{'sku': 'D0102HHHDIP', 'price': 81.59, 'compareAtPrice': 81.59, 'optionValues': [{'optionName': 'Color', 'name': 'Green'}], 'id': 'gid://shopify/ProductVariant/51311223341362'}], 'problems': [{'path': [0, 'sku'], 'explanation': 'Field is not defined on ProductVariantsBulkInput'}]}}]"
+    },
+    {
+      "timestamp": "2026-06-15T08:48:03+00:00",
+      "progress": {
+        "total": 467649,
+        "current_index": 2,
+        "page_number": 1,
+        "index_in_page": 1
+      },
+      "doba_product_id": "DRVnbJqMyCvU",
+      "doba_spu_no": "D0100HHHD0T",
+      "title": "Automatic Retractable Water Hose Reel Wall Mounted 32.8'+3.3'",
+      "sku_list": [
+        "D0102HHHDIP"
+      ],
+      "sku_code_list": [
+        "143896"
+      ],
+      "shopify_product_id": "gid://shopify/Product/10213437079858",
+      "variant_count": 1,
+      "cost_prices": [
+        59.99
+      ],
+      "sale_prices": [
+        81.59
+      ],
+      "inventories": [
+        27
+      ],
+      "warehouse_list": [
+        "US"
+      ],
+      "seller_name": "Home Life Boutique",
+      "action": "skipped",
+      "reason": "active_product_exists"
+    },
+    {
+      "timestamp": "2026-06-15T08:48:06+00:00",
+      "progress": {
+        "total": 467649,
+        "current_index": 3,
+        "page_number": 1,
+        "index_in_page": 2
+      },
+      "doba_product_id": "vkVRDobBmQqj",
+      "doba_spu_no": "D0100HHHDJP",
+      "title": "Automatic Retractable Water Hose Reel Wall Mounted 65.6'+6.6'",
+      "sku_list": [],
+      "sku_code_list": [],
+      "shopify_product_id": "",
+      "variant_count": 0,
+      "cost_prices": [],
+      "sale_prices": [],
+      "inventories": [],
+      "warehouse_list": [],
+      "seller_name": "Home Life Boutique",
+      "action": "skipped",
+      "reason": "all_variants_inventory_below_threshold"
+    },
+    {
+      "timestamp": "2026-06-15T08:48:16+00:00",
+      "progress": {
+        "total": 467649,
+        "current_index": 4,
+        "page_number": 1,
+        "index_in_page": 3
+      },
+      "doba_product_id": "VWDtqovNmFbU",
+      "doba_spu_no": "D0100HHHDJJ",
+      "title": "Automatic Retractable Water Hose Reel Wall Mounted 98.4'+6.6'",
+      "sku_list": [
+        "D0102HHHDI8"
+      ],
+      "sku_code_list": [
+        "143898"
+      ],
+      "shopify_product_id": "gid://shopify/Product/10213437833522",
+      "variant_count": 1,
+      "cost_prices": [
+        124.99
+      ],
+      "sale_prices": [
+        169.99
+      ],
+      "inventories": [
+        23
+      ],
+      "warehouse_list": [
+        "US"
+      ],
+      "seller_name": "Home Life Boutique",
+      "action": "published",
+      "reason": ""
+    }
+  ],
+  "summary": {
+    "total_candidates": 467649,
+    "scanned_count": 6,
+    "published_count": 1,
+    "skipped_count": 3,
+    "failed_count": 2
+  },
+  "last_failure": {
+    "failed_sku_list": [
+      "D0102HHHDIP"
+    ],
+    "failed_reason": "[{'message': 'Variable $variants of type [ProductVariantsBulkInput!]! was provided invalid value for 0.sku (Field is not defined on ProductVariantsBulkInput)', 'locations': [{'line': 2, 'column': 53}], 'extensions': {'code': 'INVALID_VARIABLE', 'value': [{'sku': 'D0102HHHDIP', 'price': 81.59, 'compareAtPrice': 81.59, 'optionValues': [{'optionName': 'Color', 'name': 'Green'}], 'id': 'gid://shopify/ProductVariant/51311223341362'}], 'problems': [{'path': [0, 'sku'], 'explanation': 'Field is not defined on ProductVariantsBulkInput'}]}}]",
+    "completed_count": 0,
+    "resume_position": {
+      "next_page": 1,
+      "next_index": 1
+    }
+  },
+  "report_path": "D:\\桌面文件下载\\AI-hermes-agent\\agents\\doba-shopify-agent\\docs\\audits\\doba-shopify-live-publish-validation.json",
+  "stopped_reason": "max_successes_reached"
+}

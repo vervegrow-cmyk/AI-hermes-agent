@@ -1,0 +1,14 @@
+{
+  "name": "ai-hermes-agent-ts-scaffold",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "product-geo:run": "node --env-file=.env --import tsx packages/agents/product-agentic-geo-agent/run.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}

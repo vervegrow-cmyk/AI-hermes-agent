@@ -1,0 +1,34 @@
+{
+  "supplier_id": "sup-home-001",
+  "product_id": "prod-home-1001",
+  "sku": "HOME-BIN-001",
+  "title": "Foldable Closet Organizer Bins",
+  "brand": "",
+  "category_path": "Home > Storage > Closet Organization",
+  "supplier_status": "active",
+  "cost": 18.0,
+  "msrp": 54.0,
+  "inventory": 30,
+  "ship_from_country": "US",
+  "ships_to_countries": ["US", "CA"],
+  "shipping_cost": 6.0,
+  "delivery_days": 5,
+  "weight_kg": 1.1,
+  "package_length_cm": 38.0,
+  "package_width_cm": 28.0,
+  "package_height_cm": 7.0,
+  "description": "Lightweight storage bins for closet organization and home tidying.",
+  "image_urls": [
+    "https://example.com/images/home-bin-1.jpg",
+    "https://example.com/images/home-bin-2.jpg"
+  ],
+  "variant_attributes": {
+    "color": "gray",
+    "size": "medium"
+  },
+  "attributes": {
+    "material": "fabric",
+    "use": "storage",
+    "feature": "foldable"
+  }
+}

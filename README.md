@@ -1,0 +1,121 @@
+# AI-Hermes-Agent
+
+AI-Hermes-Agent is a unified long-term development platform for building and operating 20-50 business agents on one shared foundation. It standardizes runtime, Docker, logging, LLM access, data infrastructure, monitoring, templates, and onboarding so new agents can be added quickly without reworking the environment.
+
+## Project structure
+
+```text
+AI-hermes-agent/
+├── agents/                 # Business agents
+├── shared/                 # Shared config, infra, SDK wrappers
+├── templates/              # Copyable starter templates
+├── external/               # Third-party cloned repositories
+├── infra/                  # Postgres, Redis, Qdrant, monitoring, nginx
+├── scripts/                # Bootstrap and scaffolding helpers
+├── tests/                  # Cross-project tests
+├── docs/                   # Architecture and workflow docs
+├── docker/                 # Base images and compose support
+├── .env.example
+├── docker-compose.yml
+├── README.md
+└── AGENT_GUIDE.md
+```
+
+## Included agents
+
+- `trend-agent`: market discovery, keyword analysis, pain point extraction
+- `content-agent`: TikTok, YouTube Shorts, Pinterest, Shopify content generation
+- `shopify-agent`: Shopify workflow skeleton for store operations
+- `analytics-agent`: KPI interpretation and reporting skeleton
+- `hermes-trendforge-agent`: search and comment intelligence system for topic discovery and customer demand analysis
+- `yt-dlp-service`: local media download and metadata extraction bridge exposed through MCP
+
+Each FastAPI agent exposes:
+
+- `GET /health`
+- `POST /execute`
+
+Additional sample routes:
+
+- `trend-agent`: `POST /discover`
+- `content-agent`: `POST /generate`
+- `hermes-trendforge-agent`: `POST /discover-insights`
+
+## Shared platform capabilities
+
+- One shared `Postgres` instance for structured data
+- One shared `Redis` instance for cache and queues
+- One shared `Qdrant` instance for embeddings and retrieval
+- One shared `shared.llm.get_llm()` entry point for OpenAI, DeepSeek, Claude, and Gemini
+- One shared logging model via `structlog`
+- One shared monitoring stack using `Prometheus` and `Grafana`
+- One shared Docker base image with Python 3.11, Node.js 20, `pnpm`, `uv`, Playwright, Chromium, FFmpeg, Git, and curl
+
+## Quick start
+
+1. Copy env file:
+
+```powershell
+Copy-Item .env.example .env
+```
+
+2. Start the platform:
+
+```powershell
+docker compose up -d
+```
+
+3. Verify services:
+
+```powershell
+curl http://localhost:8081/health
+curl http://localhost:8082/health
+curl http://localhost:8083/health
+curl http://localhost:8084/health
+curl http://localhost:9090
+curl http://localhost:3000
+curl http://localhost:3002
+```
+
+## Local development
+
+```powershell
+python -m venv .venv
+. .\.venv\Scripts\Activate.ps1
+pip install -e .
+pytest
+```
+
+## Add a new agent
+
+Option 1:
+
+```powershell
+Copy-Item -Recurse templates\python-fastapi-agent agents\tiktok-agent
+```
+
+Option 2:
+
+```powershell
+.\scripts\create_agent.ps1 -AgentName tiktok-agent
+```
+
+Then:
+
+1. Replace the template executor with business logic.
+2. Add the new agent to `shared/registry/service.py`.
+3. Add the service to `docker-compose.yml`.
+4. Expose any custom routes needed in its `api/app.py`.
+
+## Registry and future Hermes Runtime
+
+`shared/registry` keeps the canonical list of available agents with metadata, URL, version, and capabilities. This gives you one place to integrate future Hermes Runtime discovery and orchestration.
+
+## Docs
+
+- [AGENT_GUIDE.md](AGENT_GUIDE.md)
+- [docs/DEVELOPMENT_GUIDE.md](docs/DEVELOPMENT_GUIDE.md)
+- [docs/EXTERNAL_PROJECT_GUIDE.md](docs/EXTERNAL_PROJECT_GUIDE.md)
+- [docs/OPENHANDS_LOCAL.md](docs/OPENHANDS_LOCAL.md)
+- [docs/OPENHANDS_HERMES_TOOLS.md](docs/OPENHANDS_HERMES_TOOLS.md)
+- [docs/YT_DLP_LOCAL.md](docs/YT_DLP_LOCAL.md)
